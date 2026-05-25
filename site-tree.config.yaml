@@ -1,0 +1,52 @@
+order:
+  - id: home
+    path: /
+    title: { ru: Главная, en: Home }
+    dropdown: false
+
+  - id: features
+    path: /features/
+    title: { ru: Возможности, en: Features }
+    dropdown: true
+
+  - id: pricing
+    path: /pricing/
+    title: { ru: Тарифы, en: Pricing }
+    dropdown: true
+
+  - id: integrations
+    path: /integrations/
+    title: { ru: Интеграции, en: Integrations }
+    dropdown: true
+
+  - id: use-cases
+    path: /use-cases/
+    title: { ru: Кейсы, en: Use Cases }
+    dropdown: true
+
+  - id: docs
+    path: /docs/
+    title: { ru: Документация, en: Docs }
+    dropdown: true
+
+  - id: blog
+    path: /blog/
+    title: { ru: Блог, en: Blog }
+    dropdown: false
+
+  - id: about
+    path: /about/
+    title: { ru: О компании, en: About }
+    dropdown: false
+
+  - id: contact
+    path: /contact/
+    title: { ru: Контакты, en: Contact }
+    dropdown: false
+
+  - id: legal
+    path: /legal/
+    title: { ru: Правовая информация, en: Legal }
+    dropdown: false
+
+skipSlugs: []
