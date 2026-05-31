@@ -28,9 +28,13 @@ jobs:
         run: sudo apt-get update -qq && sudo apt-get install -y -qq sshpass
 
       - name: Deploy via rsync
+        env:
+          SSHPASS: ${{ secrets.VPS_PASSWORD }}
         run: |
-          SSHPASS="${{ secrets.VPS_PASSWORD }}" sshpass -e rsync -avzr --delete \
-            -e "ssh -o StrictHostKeyChecking=accept-new -p ${{ secrets.VPS_PORT || '22' }}" \
+          echo "Password length: $(echo -n "$SSHPASS" | wc -c) chars"
+          if [ -z "$SSHPASS" ]; then echo "ERROR: VPS_PASSWORD is empty!"; exit 1; fi
+          sshpass -e rsync -avzr --delete \
+            -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
             dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/pixinlink-info/
 
       - name: Health check
