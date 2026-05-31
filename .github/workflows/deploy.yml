@@ -24,8 +24,11 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Install sshpass
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq sshpass
+      - name: Debug secrets
+        run: |
+          echo "VPS_HOST len=$(echo -n '${{ secrets.VPS_HOST }}' | wc -c)"
+          echo "VPS_USER len=$(echo -n '${{ secrets.VPS_USER }}' | wc -c)"
+          echo "VPS_PASSWORD len=$(echo -n '${{ secrets.VPS_PASSWORD }}' | wc -c)"
 
       - name: Deploy via rsync
         env:
