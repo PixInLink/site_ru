@@ -29,7 +29,7 @@ jobs:
 
       - name: Deploy via rsync
         run: |
-          sshpass -p "${{ secrets.VPS_PASSWORD }}" rsync -avzr --delete \
+          SSHPASS="${{ secrets.VPS_PASSWORD }}" sshpass -e rsync -avzr --delete \
             -e "ssh -o StrictHostKeyChecking=accept-new -p ${{ secrets.VPS_PORT || '22' }}" \
             dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/pixinlink-info/
 
