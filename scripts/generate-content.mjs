@@ -1,5 +1,5 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "node:fs";
-import { join } from "node:path";
+import { join, relative } from "node:path";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it";
 import sanitizeHtml from "sanitize-html";
@@ -7,19 +7,15 @@ import hljs from "highlight.js";
 import { sanitizerOptions } from "./sanitize-config.mjs";
 import { slugify } from "./shared/slugify.mjs";
 
-const outputDir = join(process.cwd(), "src", "generated");
+const rootDir = join(import.meta.dirname, "..");
+const outputDir = join(rootDir, "src", "generated");
 
 const markdown = new MarkdownIt({
-  html: true,
-  linkify: true,
-  typographer: true,
+  html: true, linkify: true, typographer: true,
   highlight(str, lang) {
     if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(str, { language: lang }).value;
-      } catch {}
+      try { return hljs.highlight(str, { language: lang }).value; } catch {}
     }
-    // Return escaped source instead of empty string for unknown languages
     return markdown.utils.escapeHtml(str);
   },
 });
@@ -30,15 +26,12 @@ function normalizeStringArray(value) {
 
 function extractBlocks(rawContent) {
   const blocks = {};
-  const markerRegex = /<!--\s*@block:\s*(\S+)\s*-->/g;
+  const markerRegex = /<!--\s*@block:\s*(\S+)\s*-->/gi;
   const parts = rawContent.split(markerRegex);
   for (let i = 1; i < parts.length; i += 2) {
     const name = parts[i];
     const content = (parts[i + 1] ?? "").trim();
-    if (!content) {
-      blocks[name] = "";
-      continue;
-    }
+    if (!content) { blocks[name] = ""; continue; }
     const rendered = markdown.render(content);
     blocks[name] = sanitizeHtml(rendered, sanitizerOptions);
   }
@@ -48,64 +41,75 @@ function extractBlocks(rawContent) {
 function extractFaq(body, blocks) {
   const hasFaq = blocks.faq || body.match(/###?\s*FAQ/i) || body.match(/<!--\s*@block:\s*faq\s*-->/i);
   if (!hasFaq) return [];
-
   const items = [];
   const qaRegex = /\*\*Q:\s*(.+?)\*\*\s*([\s\S]*?)(?=\*\*Q:\s*|$)/gi;
   let match;
-
   while ((match = qaRegex.exec(body)) !== null) {
     items.push({
       question: match[1].trim(),
       answer: match[2].replace(/^\s*\*\*A:\s*\*\*?\s*/i, "").trim(),
     });
   }
-
   return items;
 }
 
 const markdownCache = new Map();
 
-function toContentFile(baseDir, file) {
-  const relativePath = `${baseDir}/${file}`;
-  const source = readFileSync(join(process.cwd(), relativePath), "utf8");
+function toContentFile(absolutePath, relativePath) {
+  const source = readFileSync(absolutePath, "utf8");
   const parsed = matter(source);
   const frontmatter = parsed.data;
-  const slug = String(frontmatter.slug || slugify(frontmatter.title || file.replace(/\.md$/, ""))).trim();
+  const filename = absolutePath.split(/[/\\]/).pop();
+  const slug = String(
+    frontmatter.slug || slugify(frontmatter.title || filename.replace(/\.md$/, "")),
+  ).trim();
+
+  if (slug && !/^[a-z0-9-]+$/.test(slug)) {
+    console.warn(`Warning: slug "${slug}" in ${relativePath} contains invalid characters`);
+  }
 
   const blocks = extractBlocks(parsed.content);
   const faqItems = extractFaq(parsed.content, blocks);
   const bodyWithoutBlocks = parsed.content.replace(/<!--\s*@block:\s*\S+\s*-->/g, "");
 
-  // Simple cache for markdown rendering (fast path)
-  const cacheKey = `${file}:${bodyWithoutBlocks.length}`;
+  const cacheKey = `${relativePath}:${bodyWithoutBlocks.length}`;
   let html = markdownCache.get(cacheKey);
   if (!html) {
     const unsafeHtml = markdown.render(bodyWithoutBlocks);
     html = sanitizeHtml(unsafeHtml, sanitizerOptions);
     markdownCache.set(cacheKey, html);
-    if (markdownCache.size > 500) markdownCache.clear(); // prevent memory leak
+    if (markdownCache.size > 500) {
+      let evicted = 0;
+      for (const key of markdownCache.keys()) { markdownCache.delete(key); if (++evicted >= 100) break; }
+    }
   }
 
   const wordCount = bodyWithoutBlocks.split(/\s+/).filter(Boolean).length;
   const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+  const isRawHtml = frontmatter.raw_html === true;
 
   return {
     path: relativePath,
     frontmatter: {
+      ...parsed.data,
       title: String(frontmatter.title ?? ""),
       description: String(frontmatter.description ?? ""),
-      slug: slug,
+      slug,
       date: String(frontmatter.date ?? ""),
+      image: String(frontmatter.image ?? ""),
+      layout: String(frontmatter.layout ?? "article"),
+      section: String(frontmatter.section ?? ""),
       updated: frontmatter.updated ? String(frontmatter.updated) : undefined,
       author: String(frontmatter.author ?? "GitHub CMS"),
       category: String(frontmatter.category ?? "General"),
       tags: normalizeStringArray(frontmatter.tags),
       schema_type: String(frontmatter.schema_type ?? "Article"),
-      layout: String(frontmatter.layout ?? "article"),
       cover_image: frontmatter.cover_image ? String(frontmatter.cover_image) : undefined,
       geo: normalizeStringArray(frontmatter.geo),
+      raw_html: frontmatter.raw_html,
     },
     html,
+    rawHtml: isRawHtml ? parsed.content.trim() : undefined,
     blocks,
     faqItems,
     readingTime,
@@ -116,44 +120,100 @@ function getLocale() {
   return process.env.VITE_LOCALE || "ru";
 }
 
-function generateContent(baseDir, outputFile, sortByDate = true) {
-  const locale = getLocale();
-  const localeBaseDir = `content/${locale}/${baseDir.replace(/^content\//, "")}`;
-  const contentDir = join(process.cwd(), localeBaseDir);
+/**
+ * PixInLink-specific content walker.
+ * content/ru/ subdirectories: about/, blog/, contact/, docs/, features/,
+ *   integrations/, legal/, pricing/, use-cases/
+ * Each subdirectory is treated as a "section". index.md = section landing page.
+ */
+function walkContent(locale) {
+  const localeDir = join(rootDir, "content", locale);
+  if (!existsSync(localeDir)) return [];
 
-  if (!existsSync(contentDir)) return 0;
+  const results = [];
+  const skipDirs = new Set(["templates"]);
 
-  const files = readdirSync(contentDir).filter((f) => f.endsWith(".md"));
-  const items = files.map((f) => toContentFile(localeBaseDir, f));
+  for (const entry of readdirSync(localeDir)) {
+    const fullPath = join(localeDir, entry);
+    const st = statSync(fullPath);
 
-  if (sortByDate) {
-    items.sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
+    if (st.isFile() && entry.endsWith(".md")) {
+      const relPath = relative(rootDir, fullPath).replace(/\\/g, "/");
+      results.push({ ...toContentFile(fullPath, relPath), section: "root", isIndex: false });
+      continue;
+    }
+
+    if (!st.isDirectory() || skipDirs.has(entry)) continue;
+
+    const sectionName = entry;
+    walkSection(fullPath, sectionName);
   }
 
-  const varName = baseDir === "content/blog" ? "articles" : "pages";
+  function walkSection(dir, section) {
+    for (const entry of readdirSync(dir)) {
+      const fullPath = join(dir, entry);
+      const st = statSync(fullPath);
+      if (st.isFile() && entry.endsWith(".md")) {
+        const relPath = relative(rootDir, fullPath).replace(/\\/g, "/");
+        const isIndex = entry === "index.md";
+        results.push({ ...toContentFile(fullPath, relPath), section, isIndex });
+      } else if (st.isDirectory()) {
+        walkSection(fullPath, section);
+      }
+    }
+  }
 
+  return results;
+}
+
+function generateContentFiles(locale) {
+  const allPages = walkContent(locale);
+
+  const blogArticles = allPages
+    .filter((p) => p.section === "blog")
+    .sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
+
+  const staticPages = allPages.filter((p) => p.section !== "blog");
+
+  mkdirSync(outputDir, { recursive: true });
+
+  // articles.ts
   writeFileSync(
-    outputFile,
+    join(outputDir, "articles.ts"),
     `/* This file is generated by scripts/generate-content.mjs. */\n` +
-      `export const ${varName} = ${JSON.stringify(items, null, 2)} as const;\n`,
+      `export const articles = ${JSON.stringify(blogArticles, null, 2)} as const;\n`,
     "utf8",
   );
 
-  return items.length;
+  // pages.ts
+  writeFileSync(
+    join(outputDir, "pages.ts"),
+    `/* This file is generated by scripts/generate-content.mjs. */\n` +
+      `export const pages = ${JSON.stringify(staticPages, null, 2)} as const;\n`,
+    "utf8",
+  );
+
+  // all-pages.ts — full data with section metadata
+  writeFileSync(
+    join(outputDir, "all-pages.ts"),
+    `/* This file is generated by scripts/generate-content.mjs. */\n` +
+      `export const allPages = ${JSON.stringify(allPages, null, 2)} as const;\n`,
+    "utf8",
+  );
+
+  // all-pages.json — read by generate-site-tree.mjs
+  writeFileSync(
+    join(outputDir, "all-pages.json"),
+    JSON.stringify(allPages, null, 2),
+    "utf8",
+  );
+
+  console.log(
+    `Generated: ${blogArticles.length} articles, ${staticPages.length} pages.`,
+  );
+
+  markdownCache.clear();
 }
 
-mkdirSync(outputDir, { recursive: true });
-
-const articleCount = generateContent(
-  "content/blog",
-  join(outputDir, "articles.ts"),
-  true,
-);
-
-const pageCount = generateContent(
-  "content/pages",
-  join(outputDir, "pages.ts"),
-  false,
-);
-
-console.log(`Generated articles: ${articleCount}, pages: ${pageCount}.`);
+const locale = getLocale();
+generateContentFiles(locale);

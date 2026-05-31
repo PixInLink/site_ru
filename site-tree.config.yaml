@@ -1,52 +1,82 @@
+# Site tree configuration — PixInLink.RU
 order:
   - id: home
     path: /
-    title: { ru: Главная, en: Home }
+    title:
+      ru: Главная
+      en: Home
+    dropdown: true
+    component: HomePage
+
+  - id: about
+    path: /about/
+    title:
+      ru: О компании
+      en: About
     dropdown: false
+
+  - id: docs
+    path: /docs/
+    title:
+      ru: Документация
+      en: Documentation
+    dropdown: true
 
   - id: features
     path: /features/
-    title: { ru: Возможности, en: Features }
-    dropdown: true
-
-  - id: pricing
-    path: /pricing/
-    title: { ru: Тарифы, en: Pricing }
+    title:
+      ru: Возможности
+      en: Features
     dropdown: true
 
   - id: integrations
     path: /integrations/
-    title: { ru: Интеграции, en: Integrations }
+    title:
+      ru: Интеграции
+      en: Integrations
     dropdown: true
 
   - id: use-cases
     path: /use-cases/
-    title: { ru: Кейсы, en: Use Cases }
+    title:
+      ru: Кейсы
+      en: Use Cases
     dropdown: true
 
-  - id: docs
-    path: /docs/
-    title: { ru: Документация, en: Docs }
-    dropdown: true
+  - id: pricing
+    path: /pricing/
+    title:
+      ru: Цены
+      en: Pricing
+    dropdown: false
 
   - id: blog
     path: /blog/
-    title: { ru: Блог, en: Blog }
-    dropdown: false
-
-  - id: about
-    path: /about/
-    title: { ru: О компании, en: About }
+    title:
+      ru: Блог
+      en: Blog
     dropdown: false
 
   - id: contact
     path: /contact/
-    title: { ru: Контакты, en: Contact }
+    title:
+      ru: Контакты
+      en: Contact
     dropdown: false
 
-  - id: legal
-    path: /legal/
-    title: { ru: Правовая информация, en: Legal }
-    dropdown: false
+skipSlugs:
+  - blog-hero
 
-skipSlugs: []
+org:
+  name: PixInLink
+  legalName: ООО «Пиксель Управления»
+  foundingDate: "2024"
+  inn: ""
+  kpp: ""
+  address: ""
+  phone: ""
+  email: ""
+  priceRange: ""
+  currenciesAccepted: RUB
+  paymentAccepted: Online
+  areaServed: Россия, СНГ

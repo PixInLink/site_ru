@@ -1,18 +1,22 @@
 import { slugify, esc } from "./utils.mjs";
 
+function env(key, fallback) {
+  return process.env[key] || fallback;
+}
+
 export function buildOrgJsonLd(siteUrl) {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ООО «ФОНИИ»",
-    legalName: "ООО «ФОНИИ»",
+    name: env("ORG_NAME", "ООО «ФОНИИ»"),
+    legalName: env("ORG_LEGAL_NAME", "ООО «ФОНИИ»"),
     url: siteUrl,
     logo: siteUrl + "/images/logo-200x40.png",
     foundingDate: "2025",
-    taxID: "7720943604",
-    vatID: "772001001",
-    address: { "@type": "PostalAddress", streetAddress: "111141, г. Москва, пр-кт Зелёный, д 3а, стр. 1", addressCountry: "RU" },
-    contactPoint: { "@type": "ContactPoint", telephone: "+7 (495) 324-30-88", email: "info@fonai.ru", contactType: "Customer Service", areaServed: "Россия, СНГ", availableLanguage: ["ru"] },
+    taxID: env("ORG_INN", "7720943604"),
+    vatID: env("ORG_KPP", "772001001"),
+    address: { "@type": "PostalAddress", streetAddress: env("ORG_ADDRESS", "111141, г. Москва, пр-кт Зелёный, д 3а, стр. 1"), addressCountry: "RU" },
+    contactPoint: { "@type": "ContactPoint", telephone: env("ORG_PHONE", "+7 (495) 324-30-88"), email: env("ORG_EMAIL", "info@fonai.ru"), contactType: "Customer Service", areaServed: env("ORG_AREA_SERVED", "Россия, СНГ"), availableLanguage: ["ru"] },
     sameAs: ["https://vk.com/githubcrm", "https://t.me/githubcrm", "https://youtube.com/@githubcrm", "https://github.com/hubcms-dot/githubcms"],
   };
 }
