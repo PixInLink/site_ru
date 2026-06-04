@@ -26,7 +26,7 @@ function checkSite({ name, url }) {
   });
 }
 
-console.log("=== GitHub CMS Health Check ===\n");
+console.log("=== PixInLink CMS Health Check ===\n");
 
 const results = await Promise.all(SITES.map(checkSite));
 const allOk = results.every((r) => r.ok);

@@ -352,8 +352,8 @@ export function buildPageMeta(articles, sitePages, cfg) {
       route: sa.route,
       data: {
         title: sa.title, description: sa.desc, canonical: siteUrl + sa.route, type: "article", image: defaultImage,
-        jsonLd: [
-          { "@context": "https://schema.org", "@type": "Article", headline: sa.title, description: sa.desc, mainEntityOfPage: siteUrl + sa.route, author: { "@type": "Person", name: "GitHub CMS Team" }, datePublished: "2026-05-11", inLanguage: "ru" },
+      jsonLd: [
+        { "@context": "https://schema.org", "@type": "Article", headline: sa.title, description: sa.desc, mainEntityOfPage: siteUrl + sa.route, author: { "@type": "Person", name: "PixInLink Team" }, datePublished: "2026-05-11", inLanguage: "ru" },
           { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: bcHome, item: siteUrl + "/" }, { "@type": "ListItem", position: 2, name: sa.parentName, item: siteUrl + parentRoute }, { "@type": "ListItem", position: 3, name: sa.title }] },
         ],
       },

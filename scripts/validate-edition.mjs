@@ -124,7 +124,7 @@ const env = {
   VITE_SITE_URL: siteUrl,
 };
 
-console.log(`GitHub CMS edition validation: ${edition}`);
+console.log(`PixInLink CMS edition validation: ${edition}`);
 console.log(`VITE_SITE_URL: ${siteUrl}`);
 
 try {
