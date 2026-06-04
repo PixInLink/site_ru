@@ -149,6 +149,9 @@ onUnmounted(() => {
             </div>
           </nav>
           <nav class="user-menu">
+            <a class="btn btn-flat waves-effect show-sm-up" href="https://app.pixinlink.ru">{{ t.nav.signIn }}</a>
+            <a class="btn waves-effect primary show-sm-up" href="https://app.pixinlink.ru/register">Регистрация</a>
+            <span class="spacer vertical-divider show-lg-up"></span>
             <div class="menu-setting">
               <div class="setting">
                 <button class="btn btn-icon waves-effect btn-small dropdown-trigger ma-1" type="button" @click.stop="toggleSettings">
