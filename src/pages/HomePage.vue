@@ -25,22 +25,22 @@ useSeo({
 <template>
   <main>
   <!-- HERO -->
-  <section class="hero">
+  <section class="hero-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7">
           <p class="hero-label">{{ t.home.label }}</p>
-          <h1 class="hero-title">{{ t.home.title }}</h1>
-          <p class="hero-subtitle">{{ t.home.subtitle }}</p>
+          <h1 class="use-text-title">{{ t.home.title }}</h1>
+          <p class="use-text-subtitle2 hero-subtitle">{{ t.home.subtitle }}</p>
           <div class="hero-badges">
-            <span class="badge"><i>◆</i> {{ t.home.badgeAiReady }}</span>
-            <span class="badge"><i>◆</i> {{ t.home.badgeSitemap }}</span>
-            <span class="badge"><i>◆</i> {{ t.home.badgeSchemaOrg }}</span>
-            <span class="badge"><i>◆</i> {{ t.home.badgeNoDb }}</span>
+            <span class="badge-chip">{{ t.home.badgeAiReady }}</span>
+            <span class="badge-chip">{{ t.home.badgeSitemap }}</span>
+            <span class="badge-chip">{{ t.home.badgeSchemaOrg }}</span>
+            <span class="badge-chip">{{ t.home.badgeNoDb }}</span>
           </div>
           <div class="hero-cta">
-            <RouterLink to="/features/url-api/" class="btn btn-primary btn-lg">{{ t.home.ctaStart }}</RouterLink>
-            <a href="/blog/" class="btn btn-outline ms-3">{{ t.home.ctaGuide }}</a>
+            <RouterLink to="/features/url-api/" class="btn primary btn-large">{{ t.home.ctaStart }}</RouterLink>
+            <a href="/blog/" class="btn btn-flat primary-text btn-large">{{ t.home.ctaGuide }}</a>
           </div>
         </div>
         <div class="col-lg-5 text-center mt-4 mt-lg-0">
@@ -58,45 +58,47 @@ useSeo({
   </section>
 
   <!-- ANSWER-FIRST -->
-  <section class="block block-answer">
+  <section class="space-top-short">
     <div class="container">
-      <p class="block-answer-text">{{ t.home.answerFirst }}</p>
+      <div class="answer-block">
+        <p class="use-text-subtitle2 text-center">{{ t.home.answerFirst }}</p>
+      </div>
     </div>
   </section>
 
   <!-- KEY FACTS -->
-  <section class="section">
+  <section class="space-top-short">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
-          <h2 class="section-title">{{ t.home.keyFactsTitle }}</h2>
-          <p class="section-desc">{{ t.home.keyFactsDesc }}</p>
+          <h2 class="use-text-title2">{{ t.home.keyFactsTitle }}</h2>
+          <p class="use-text-subtitle2">{{ t.home.keyFactsDesc }}</p>
         </div>
         <div class="col-lg-7">
           <div class="facts-grid">
-            <div class="fact-card">
-              <div class="fact-number">0</div>
-              <div class="fact-text">{{ t.home.fact0 }}</div>
+            <div class="counter-item">
+              <div class="counter-number">0</div>
+              <div class="counter-text">{{ t.home.fact0 }}</div>
             </div>
-            <div class="fact-card">
-              <div class="fact-number">100%</div>
-              <div class="fact-text">{{ t.home.fact100pct }}</div>
+            <div class="counter-item">
+              <div class="counter-number">100%</div>
+              <div class="counter-text">{{ t.home.fact100pct }}</div>
             </div>
-            <div class="fact-card">
-              <div class="fact-number">51</div>
-              <div class="fact-text">{{ t.home.fact51 }}</div>
+            <div class="counter-item">
+              <div class="counter-number">51</div>
+              <div class="counter-text">{{ t.home.fact51 }}</div>
             </div>
-            <div class="fact-card">
-              <div class="fact-number">68KB</div>
-              <div class="fact-text">{{ t.home.fact68kb }}</div>
+            <div class="counter-item">
+              <div class="counter-number">68KB</div>
+              <div class="counter-text">{{ t.home.fact68kb }}</div>
             </div>
-            <div class="fact-card">
-              <div class="fact-number">10</div>
-              <div class="fact-text">{{ t.home.fact10 }}</div>
+            <div class="counter-item">
+              <div class="counter-number">10</div>
+              <div class="counter-text">{{ t.home.fact10 }}</div>
             </div>
-            <div class="fact-card">
-              <div class="fact-number">2.8s</div>
-              <div class="fact-text">{{ t.home.fact28s }}</div>
+            <div class="counter-item">
+              <div class="counter-number">2.8s</div>
+              <div class="counter-text">{{ t.home.fact28s }}</div>
             </div>
           </div>
         </div>
@@ -104,20 +106,20 @@ useSeo({
     </div>
   </section>
 
-  <!-- FEATURED SNIPPET + DEFINITION -->
-  <section class="section bg-muted">
+  <!-- FEATURED SNIPPET + COMPARISON -->
+  <section class="space-top-short bg-muted">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="fs-title">{{ t.home.whatIsTitle }}</h3>
+          <h3 class="use-text-title2">{{ t.home.whatIsTitle }}</h3>
           <div class="featured-snippet">
             <p>{{ t.home.whatIsText }}</p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="fs-title">{{ t.home.comparisonTitle }}</h3>
+          <h3 class="use-text-title2">{{ t.home.comparisonTitle }}</h3>
           <div class="table-responsive">
-            <table class="table table-striped">
+            <table class="table striped">
               <thead><tr><th>{{ t.home.comparisonParam }}</th><th>{{ t.home.comparisonWordPress }}</th><th>{{ siteConfig.name }}</th></tr></thead>
               <tbody>
                 <tr><td>{{ t.home.comparisonRowDb }}</td><td>{{ t.home.comparisonRowDbWp }}</td><td><strong>{{ t.home.comparisonRowDbCms }}</strong></td></tr>
@@ -135,33 +137,33 @@ useSeo({
   </section>
 
   <!-- HOW IT WORKS -->
-  <section class="section">
+  <section class="space-top-short">
     <div class="container">
-      <h2 class="section-title text-center mb-5">{{ t.home.howItWorksTitle }}</h2>
+      <h2 class="use-text-title2 text-center mb-5">{{ t.home.howItWorksTitle }}</h2>
       <div class="row">
         <div class="col-md-3">
-          <div class="step-card">
+          <div class="card step-card">
             <div class="step-number">1</div>
             <h4>{{ t.home.step1Title }}</h4>
             <p>{{ t.home.step1Desc }}</p>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="step-card">
+          <div class="card step-card">
             <div class="step-number">2</div>
             <h4>{{ t.home.step2Title }}</h4>
             <p>{{ t.home.step2Desc }}</p>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="step-card">
+          <div class="card step-card">
             <div class="step-number">3</div>
             <h4>{{ t.home.step3Title }}</h4>
             <p>{{ t.home.step3Desc }}</p>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="step-card">
+          <div class="card step-card">
             <div class="step-number">4</div>
             <h4>{{ t.home.step4Title }}</h4>
             <p>{{ t.home.step4Desc }}</p>
@@ -172,12 +174,12 @@ useSeo({
   </section>
 
   <!-- LATEST ARTICLES -->
-  <section class="section bg-muted">
+  <section class="space-top-short bg-muted">
     <div class="container">
-      <h2 class="section-title mb-4">{{ t.home.latestArticles }}</h2>
+      <h2 class="use-text-title2 mb-4">{{ t.home.latestArticles }}</h2>
       <div class="row">
         <div v-for="item in articles.slice(0, 6)" :key="item.frontmatter.slug" class="col-md-6 col-lg-4 mb-3">
-          <div class="article-card">
+          <div class="card article-card">
             <h3>
               <RouterLink :to="`/blog/${item.frontmatter.slug}/`">
                 {{ item.frontmatter.title }}
@@ -197,19 +199,19 @@ useSeo({
         </div>
       </div>
       <div class="text-center mt-4">
-        <RouterLink to="/blog/" class="btn btn-primary">{{ t.home.allArticles }}</RouterLink>
+        <RouterLink to="/blog/" class="btn primary">{{ t.home.allArticles }}</RouterLink>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="block block-cta text-center">
+  <section class="cta-section text-center">
     <div class="container">
-      <h2 class="cta-title">{{ t.home.ctaTitle }}</h2>
-      <p class="cta-desc">{{ t.home.ctaDesc }}</p>
+      <h2 class="use-text-title2 cta-title">{{ t.home.ctaTitle }}</h2>
+      <p class="use-text-subtitle2 cta-desc">{{ t.home.ctaDesc }}</p>
       <div class="cta-buttons">
-        <RouterLink to="/pricing/" class="btn btn-light btn-lg me-3">{{ t.home.ctaRepo }}</RouterLink>
-        <RouterLink to="/docs/getting-started/" class="btn btn-outline-light btn-lg">{{ t.home.ctaDeployGuide }}</RouterLink>
+        <RouterLink to="/pricing/" class="btn primary btn-large me-3">{{ t.home.ctaRepo }}</RouterLink>
+        <RouterLink to="/docs/getting-started/" class="btn secondary btn-large">{{ t.home.ctaDeployGuide }}</RouterLink>
       </div>
     </div>
   </section>
@@ -217,65 +219,33 @@ useSeo({
 </template>
 
 <style scoped>
-/* HERO */
-.hero {
-  background: linear-gradient(135deg, var(--color-text) 0%, #2d3748 100%);
+.hero-section {
+  background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #304ffe 100%);
   color: #fff;
   padding: 80px 0 60px;
 }
+.hero-section .use-text-title { color: #fff; }
+.hero-section .use-text-subtitle2 { color: rgba(255,255,255,0.85); }
 .hero-label {
-  color: var(--color-accent);
+  color: var(--color-accent-light);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0.9;
 }
-.hero-title {
-  font-size: 42px;
-  font-weight: 800;
-  line-height: 1.15;
-  margin: 12px 0 16px;
-}
-.hero-subtitle {
-  color: rgba(255,255,255,0.8);
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 24px;
-  max-width: 600px;
-}
-.hero-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 28px;
-}
-.hero-badges .badge {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(255,255,255,0.15);
+.hero-subtitle { max-width: 600px; margin-bottom: 24px; }
+.hero-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+.badge-chip {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
   border-radius: 20px;
   color: rgba(255,255,255,0.9);
   font-size: 13px;
   padding: 6px 16px;
 }
-.hero-badges .badge i {
-  color: var(--color-accent);
-  margin-right: 6px;
-}
-.hero-cta {
-  display: flex;
-  align-items: center;
-}
-.hero-cta .btn-outline {
-  border: 1px solid rgba(255,255,255,0.3);
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-}
-.hero-cta .btn-outline:hover {
-  background: rgba(255,255,255,0.1);
-}
+.hero-cta { display: flex; align-items: center; gap: 12px; }
+.hero-cta .primary-text { color: var(--color-accent-light) !important; }
 .hero-stat-card {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.12);
@@ -283,95 +253,37 @@ useSeo({
   padding: 20px;
   text-align: left;
 }
-.hero-stat-number {
-  color: var(--color-accent);
-  font-size: 36px;
-  font-weight: 700;
-}
-.hero-stat-label {
-  color: rgba(255,255,255,0.7);
-  font-size: 14px;
+.hero-stat-number { color: var(--color-accent-light); font-size: 36px; font-weight: 700; }
+.hero-stat-label { color: rgba(255,255,255,0.7); font-size: 14px; }
+
+.answer-block {
+  background: #e8eaf6;
+  border-radius: 12px;
+  padding: 40px 32px;
 }
 
-/* ANSWER BLOCK */
-.block-answer {
-  background: var(--color-answer-bg);
-  color: var(--color-answer-text);
-  padding: 40px 0;
-}
-.block-answer-text {
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin: 0 auto;
-  max-width: 800px;
-}
-
-/* SECTIONS */
-.section {
-  padding: 64px 0;
-}
+.space-top-short { padding: 64px 0; }
 .bg-muted { background: var(--color-bg-muted); }
-.section-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-.section-desc {
-  color: var(--color-text-secondary);
-  font-size: 15px;
-}
 
-/* FACTS GRID */
-.facts-grid {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(2, 1fr);
-}
-.fact-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+.facts-grid { display: grid; gap: 12px; grid-template-columns: repeat(2, 1fr); }
+.counter-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 20px;
 }
-.fact-number {
-  color: var(--color-accent);
-  font-size: 28px;
-  font-weight: 800;
-  margin-bottom: 4px;
-}
-.fact-text {
-  color: var(--color-text-secondary);
-  font-size: 14px;
-  line-height: 1.4;
-}
+.counter-number { color: var(--color-accent); font-size: 28px; font-weight: 800; margin-bottom: 4px; }
+.counter-text { color: #666; font-size: 14px; line-height: 1.4; }
 
-/* FEATURED SNIPPET */
-.fs-title {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
 .featured-snippet {
-  background: var(--color-surface);
+  background: #fff;
   border-left: 4px solid var(--color-accent);
   border-radius: 0 8px 8px 0;
   padding: 20px;
 }
-.featured-snippet p {
-  font-size: 15px;
-  line-height: 1.6;
-  margin: 0;
-}
+.featured-snippet p { font-size: 15px; line-height: 1.6; margin: 0; }
 
-/* STEPS */
-.step-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  padding: 24px;
-  height: 100%;
-}
+.step-card { border: 1px solid #e0e0e0; border-radius: 10px; padding: 24px; height: 100%; }
 .step-number {
   background: var(--color-accent);
   border-radius: 50%;
@@ -385,79 +297,25 @@ useSeo({
   margin-bottom: 12px;
   width: 40px;
 }
-.step-card h4 {
-  font-size: 17px;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-.step-card p {
-  color: var(--color-text-secondary);
-  font-size: 14px;
-  line-height: 1.5;
-}
+.step-card h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+.step-card p { color: #666; font-size: 14px; line-height: 1.5; }
 
-/* ARTICLES */
-.article-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  height: 100%;
-  padding: 20px;
-}
-.article-card h3 {
-  font-size: 16px;
-  margin: 0 0 6px;
-}
-.article-card h3 a {
-  color: var(--color-text);
-  text-decoration: none;
-}
-.article-card h3 a:hover {
-  color: var(--color-accent);
-}
-.card-desc {
-  color: var(--color-text-secondary);
-  font-size: 13px;
-  margin: 0 0 8px;
-}
-.card-meta {
-  color: var(--color-text-muted);
-  font-size: 12px;
-}
+.article-card { border: 1px solid #e0e0e0; border-radius: 8px; height: 100%; padding: 20px; }
+.article-card h3 { font-size: 16px; margin: 0 0 6px; }
+.article-card h3 a { color: #333; text-decoration: none; }
+.article-card h3 a:hover { color: var(--color-accent); }
+.card-desc { color: #666; font-size: 13px; margin: 0 0 8px; }
+.card-meta { color: #999; font-size: 12px; }
 .meta-sep { margin-left: 10px; }
 .meta-link { color: var(--color-accent); margin-left: 10px; text-decoration: none; }
 .meta-link:hover { text-decoration: underline; }
 
-/* CTA */
-.block-cta {
-  background: var(--color-cta-bg);
-  color: var(--color-cta-text);
+.cta-section {
+  background: linear-gradient(135deg, #1a237e 0%, #304ffe 100%);
+  color: #fff;
   padding: 64px 0;
 }
-.cta-title {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-.cta-desc {
-  font-size: 16px;
-  margin-bottom: 24px;
-  opacity: 0.8;
-}
-.cta-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-.btn-outline-light {
-  border: 1px solid rgba(255,255,255,0.3);
-  border-radius: 8px;
-  color: #fff;
-  padding: 12px 24px;
-  text-decoration: none;
-}
-.btn-outline-light:hover {
-  background: rgba(255,255,255,0.1);
-}
+.cta-title { color: #fff; }
+.cta-desc { color: rgba(255,255,255,0.8); margin-bottom: 24px; }
+.cta-buttons { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
 </style>

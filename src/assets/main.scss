@@ -1,10 +1,28 @@
 /* ═══════════════════════════════
    PixInLink — Main Stylesheet
-   Active theme: Oiron Cloud Pro
+   Theme CSS loaded from index.html (public/themes/oiron/)
    ═══════════════════════════════ */
 
 /* Code highlighting */
 @import "highlight.js/styles/github.css";
 
-/* === ACTIVE THEME === */
-@import "themes/oiron-cloud/theme.scss";
+/* Design Tokens — Oiron Cloud palette (compatibility with page components) */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-text: #212121;
+  --color-text-secondary: #616161;
+  --color-text-muted: #9e9e9e;
+  --color-border: #e0e0e0;
+  --color-accent: #304ffe;
+  --color-accent-hover: #536dfe;
+  --color-accent-light: #82b1ff;
+  --color-bg-muted: #f5f5f5;
+  --color-tag-bg: #e8eaf6;
+  --color-answer-bg: linear-gradient(135deg, #1a237e, #304ffe);
+  --color-answer-text: #ffffff;
+  --color-cta-bg: linear-gradient(135deg, #1a237e, #304ffe);
+  --color-cta-text: #ffffff;
+  --color-faq-bg: #f5f5f5;
+  --color-faq-border: #e0e0e0;
+}
