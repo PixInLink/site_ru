@@ -41,13 +41,13 @@ const pages = loadPages();
 
 const locale = process.env.VITE_LOCALE || "ru";
 const isRu = locale === "ru";
-const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://githubcms.com").replace(/\/+$/, "");
-const alternateUrl = siteUrl.includes("githubcms.ru") ? siteUrl.replace("githubcms.ru", "githubcms.com") : siteUrl.replace("githubcms.com", "githubcms.ru");
-const siteName = "GitHub CMS";
-const siteDescription = isRu
-  ? "Статический сайт с AI-видимостью из коробки. Markdown → JSON-LD → деплой за 2 минуты."
-  : "Static site with AI visibility out of the box. Markdown → JSON-LD → deploy in 2 minutes.";
-const defaultImage = `https://pixinlink.ru/api/v1/1200x630/github-cms`;
+const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://pixinlink.ru").replace(/\/+$/, "");
+const alternateUrl = siteUrl;
+const siteName = "PixInLink";
+  const siteDescription = isRu
+    ? "PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений."
+    : "PixInLink — AI image generator. Create dynamic images via URL for websites, emails and apps.";
+  const defaultImage = `https://pixinlink.ru/api/v1/1200x630/pixinlink-ai-image-generator`;
 const bcHome = isRu ? "Главная" : "Home";
 const bcBlog = isRu ? "Блог" : "Blog";
 
@@ -720,7 +720,7 @@ for (const sa of sectionArticles) {
       type: "article",
       image: defaultImage,
       jsonLd: [
-        { "@context": "https://schema.org", "@type": "Article", headline: sa.title, description: sa.desc, mainEntityOfPage: siteUrl + sa.route, author: { "@type": "Person", name: "GitHub CMS Team" }, datePublished: "2026-05-11", inLanguage: "ru" },
+        { "@context": "https://schema.org", "@type": "Article", headline: sa.title, description: sa.desc, mainEntityOfPage: siteUrl + sa.route, author: { "@type": "Person", name: "PixInLink Team" }, datePublished: "2026-05-11", inLanguage: "ru" },
         { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: bcHome, item: siteUrl + "/" }, { "@type": "ListItem", position: 2, name: sa.parentName, item: siteUrl + parentRoute }, { "@type": "ListItem", position: 3, name: sa.title }] },
       ],
     },

@@ -129,13 +129,13 @@ export function detectStatisticalFromHtml(html) {
   return results;
 }
 
-export function detectPersonFromHtml(html, siteName = "GitHub CMS") {
+export function detectPersonFromHtml(html, siteName = "PixInLink") {
   const m = html.match(/(?:Автор|author)[:\s]*<[^>]*>([^<]+)<\/[^>]*>/i) || html.match(/(?:Автор|author)[:\s]*([А-ЯA-Z][а-яa-z]+\s+[А-ЯA-Z][а-яa-z]+)/);
   if (!m) return null;
   return {"@context":"https://schema.org","@type":"Person",name:m[1].trim(),affiliation:{"@type":"Organization",name:siteName}};
 }
 
-export function detectCaseStudyFromHtml(html, siteName = "GitHub CMS") {
+export function detectCaseStudyFromHtml(html, siteName = "PixInLink") {
   if (!/(кейс|case\s*study|внедрен|миграц)/i.test(html)) return null;
   const cm = html.match(/(?:клиент|заказчик|компани[яи]|customer|client)[:\s]*"?([А-ЯA-Z][^"<,\n]{3,50})/i);
   if (!cm) return null;
@@ -177,14 +177,14 @@ export function detectCitationFromHtml(html) {
   return null;
 }
 
-export function detectMethodologyFromHtml(html, siteName = "GitHub CMS") {
+export function detectMethodologyFromHtml(html, siteName = "PixInLink") {
   if (!/(методолог|methodology|как мы |how we |источник|первичный опыт)/i.test(html)) return null;
   const mm = html.match(/(?:методология|methodology|как мы (?:это |проверя|созда|исследу))[:\s]+([^.<]{30,300})/i);
   if (!mm) return null;
   return {"@context":"https://schema.org","@type":"ScholarlyArticle",name:siteName,methodology:mm[1].replace(/<[^>]+>/g,"").trim(),inLanguage:"ru"};
 }
 
-export function detectAllSchemasFromHtml(html, siteName = "GitHub CMS") {
+export function detectAllSchemasFromHtml(html, siteName = "PixInLink") {
   const schemas = [];
   const faq = detectFaqFromHtml(html); if (faq) schemas.push(faq);
   const howto = detectHowToFromHtml(html); if (howto) schemas.push(howto);

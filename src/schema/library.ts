@@ -81,7 +81,7 @@ export function createArticle(context: PageContext): JsonLd {
     dateModified: article?.frontmatter?.updated || article?.frontmatter?.date || context.modifiedTime,
     author: article?.frontmatter?.author
       ? createPerson({ name: article.frontmatter.author })
-      : { "@type": "Person", name: "GitHub CMS Team" },
+      : { "@type": "Person", name: "PixInLink Team" },
     image: context.image,
     mainEntityOfPage: context.url,
     keywords: context.tags?.join(", "),

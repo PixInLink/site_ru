@@ -100,7 +100,7 @@ function toContentFile(absolutePath, relativePath) {
       layout: String(frontmatter.layout ?? "article"),
       section: String(frontmatter.section ?? ""),
       updated: frontmatter.updated ? String(frontmatter.updated) : undefined,
-      author: String(frontmatter.author ?? "GitHub CMS"),
+      author: String(frontmatter.author ?? "PixInLink"),
       category: String(frontmatter.category ?? "General"),
       tags: normalizeStringArray(frontmatter.tags),
       schema_type: String(frontmatter.schema_type ?? "Article"),

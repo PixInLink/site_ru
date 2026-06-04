@@ -29,9 +29,9 @@ loadEnvFile(join(process.cwd(), ".env"));
 
 const articles = loadArticles();
 const locale = process.env.VITE_LOCALE || "ru";
-const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://githubcms.com").replace(/\/+$/, "");
+const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://pixinlink.ru").replace(/\/+$/, "");
 const isRu = locale === "ru";
-const siteName = "GitHub CMS";
+const siteName = "PixInLink";
 const siteDescription = isRu
   ? "Статический сайт с AI-видимостью из коробки. Markdown → JSON-LD → деплой за 2 минуты."
   : "Static site with AI visibility out of the box. Markdown → JSON-LD → deploy in 2 minutes.";

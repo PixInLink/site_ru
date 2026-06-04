@@ -59,7 +59,7 @@ export const allPages = [
       },
       {
         "question": "Как сделать промпт для og:image?",
-        "answer": "Используйте подстановку H1 вашей статьи в промпт и добавьте фиксированный seed.\r\n\r\n(блок: cta)\r\n## Хватит читать — пора тестировать\r\n\r\nВставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Попробовать бесплатно](https://app.pixinlink.ru/register)"
+        "answer": "Используйте подстановку H1 вашей статьи в промпт и добавьте фиксированный seed.\n\n(блок: cta)\n## Хватит читать — пора тестировать\n\nВставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Попробовать бесплатно](https://app.pixinlink.ru/register)"
       }
     ],
     "readingTime": 4,
@@ -101,7 +101,7 @@ export const allPages = [
       },
       {
         "question": "Какой инструмент лучше для Instagram?",
-        "answer": "Для Instagram-контента вручную — Midjourney лучше по качеству художественной композиции. Но для автоматизации массового постинга через API — PixInLink.\r\n\r\n(блок: cta)\r\n## Хватит читать — пора тестировать\r\n\r\nВставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Получить 50 генераций бесплатно](https://app.pixinlink.ru/register)"
+        "answer": "Для Instagram-контента вручную — Midjourney лучше по качеству художественной композиции. Но для автоматизации массового постинга через API — PixInLink.\n\n(блок: cta)\n## Хватит читать — пора тестировать\n\nВставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Получить 50 генераций бесплатно](https://app.pixinlink.ru/register)"
       }
     ],
     "readingTime": 5,
@@ -291,33 +291,6 @@ export const allPages = [
     "faqItems": [],
     "readingTime": 9,
     "section": "features",
-    "isIndex": false
-  },
-  {
-    "path": "content/ru/home-variant-1.md",
-    "frontmatter": {
-      "title": "PixInLink — AI-генератор изображений для бизнеса",
-      "description": "PixInLink — сервис генерации изображений через URL. Динамические картинки для сайтов, рассылок и AI-приложений.",
-      "date": "2026-05-21",
-      "author": "PixInLink",
-      "layout": "home",
-      "schema_type": "WebSite",
-      "tags": [
-        "pixinlink",
-        "ai",
-        "images"
-      ],
-      "slug": "pixinlink-ai-generator-izobrazhenij-dlya-biznesa",
-      "image": "",
-      "section": "",
-      "category": "General",
-      "geo": []
-    },
-    "html": "<h2>PixInLink</h2>\n<p>Контент в процессе переноса с Next.js на GitHub CMS.</p>\n",
-    "blocks": {},
-    "faqItems": [],
-    "readingTime": 1,
-    "section": "root",
     "isIndex": false
   },
   {

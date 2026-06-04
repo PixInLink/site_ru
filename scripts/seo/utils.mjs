@@ -80,11 +80,9 @@ export function collectPageHtmlFiles(dir) {
 export function getLocaleConfig() {
   const locale = process.env.VITE_LOCALE || "ru";
   const isRu = locale === "ru";
-  const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://githubcms.com").replace(/\/+$/, "");
-  const alternateUrl = siteUrl.includes("githubcms.ru")
-    ? siteUrl.replace("githubcms.ru", "githubcms.com")
-    : siteUrl.replace("githubcms.com", "githubcms.ru");
-  const siteName = "GitHub CMS";
+  const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://pixinlink.ru").replace(/\/+$/, "");
+  const alternateUrl = siteUrl;
+  const siteName = "PixInLink";
   const siteDescription = isRu
     ? "Статический сайт с AI-видимостью из коробки. Markdown → JSON-LD → деплой за 2 минуты."
     : "Static site with AI visibility out of the box. Markdown → JSON-LD → deploy in 2 minutes.";

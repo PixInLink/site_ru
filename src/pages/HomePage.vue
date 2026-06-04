@@ -39,7 +39,7 @@ useSeo({
             <span class="badge"><i>◆</i> {{ t.home.badgeNoDb }}</span>
           </div>
           <div class="hero-cta">
-            <a href="https://github.com/hubcms-dot/githubcms" class="btn btn-primary btn-lg">{{ t.home.ctaStart }}</a>
+            <RouterLink to="/features/url-api/" class="btn btn-primary btn-lg">{{ t.home.ctaStart }}</RouterLink>
             <a href="/blog/" class="btn btn-outline ms-3">{{ t.home.ctaGuide }}</a>
           </div>
         </div>
@@ -208,8 +208,8 @@ useSeo({
       <h2 class="cta-title">{{ t.home.ctaTitle }}</h2>
       <p class="cta-desc">{{ t.home.ctaDesc }}</p>
       <div class="cta-buttons">
-        <a href="https://github.com/hubcms-dot/githubcms" class="btn btn-light btn-lg me-3">{{ t.home.ctaRepo }}</a>
-        <RouterLink to="/blog/deploy-vps-nginx-ssl/" class="btn btn-outline-light btn-lg">{{ t.home.ctaDeployGuide }}</RouterLink>
+        <RouterLink to="/pricing/" class="btn btn-light btn-lg me-3">{{ t.home.ctaRepo }}</RouterLink>
+        <RouterLink to="/docs/getting-started/" class="btn btn-outline-light btn-lg">{{ t.home.ctaDeployGuide }}</RouterLink>
       </div>
     </div>
   </section>

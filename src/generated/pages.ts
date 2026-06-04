@@ -210,33 +210,6 @@ export const pages = [
     "isIndex": false
   },
   {
-    "path": "content/ru/home-variant-1.md",
-    "frontmatter": {
-      "title": "PixInLink — AI-генератор изображений для бизнеса",
-      "description": "PixInLink — сервис генерации изображений через URL. Динамические картинки для сайтов, рассылок и AI-приложений.",
-      "date": "2026-05-21",
-      "author": "PixInLink",
-      "layout": "home",
-      "schema_type": "WebSite",
-      "tags": [
-        "pixinlink",
-        "ai",
-        "images"
-      ],
-      "slug": "pixinlink-ai-generator-izobrazhenij-dlya-biznesa",
-      "image": "",
-      "section": "",
-      "category": "General",
-      "geo": []
-    },
-    "html": "<h2>PixInLink</h2>\n<p>Контент в процессе переноса с Next.js на GitHub CMS.</p>\n",
-    "blocks": {},
-    "faqItems": [],
-    "readingTime": 1,
-    "section": "root",
-    "isIndex": false
-  },
-  {
     "path": "content/ru/integrations/index.md",
     "frontmatter": {
       "title": "Интеграции PixInLink: подключи к своему стеку",
