@@ -26,15 +26,17 @@ import { t } from "../i18n";
           <h6>{{ t.footer.pages }}</h6>
           <ul class="footer-links">
             <li><RouterLink to="/">{{ t.footer.home }}</RouterLink></li>
-            <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
+            <li><RouterLink to="/pricing/">{{ t.footer.pricing }}</RouterLink></li>
+            <li><RouterLink to="/features/">{{ t.nav.features }}</RouterLink></li>
             <li><RouterLink to="/blog/">{{ t.footer.blog }}</RouterLink></li>
+            <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
           </ul>
         </div>
         <div class="col-md-3">
           <h6>{{ t.footer.more }}</h6>
           <ul class="footer-links">
+            <li><RouterLink to="/docs/">{{ t.footer.docs }}</RouterLink></li>
             <li><RouterLink to="/contact/">{{ t.footer.contact }}</RouterLink></li>
-            <li><RouterLink to="/templates/">{{ t.footer.templates }}</RouterLink></li>
             <li><a href="/rss.xml">{{ t.footer.rss }}</a></li>
           </ul>
         </div>

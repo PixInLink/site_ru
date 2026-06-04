@@ -84,9 +84,9 @@ export function getLocaleConfig() {
   const alternateUrl = siteUrl;
   const siteName = "PixInLink";
   const siteDescription = isRu
-    ? "Статический сайт с AI-видимостью из коробки. Markdown → JSON-LD → деплой за 2 минуты."
-    : "Static site with AI visibility out of the box. Markdown → JSON-LD → deploy in 2 minutes.";
-  const defaultImage = "https://pixinlink.ru/api/v1/1200x630/github-cms";
+    ? "PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений."
+    : "PixInLink — AI image generator. Create dynamic images via URL for websites, emails and apps.";
+  const defaultImage = "https://pixinlink.ru/api/v1/1200x630/pixinlink-ai-image-generator";
   const bcHome = isRu ? "Главная" : "Home";
   const bcBlog = isRu ? "Блог" : "Blog";
   return { locale, isRu, siteUrl, alternateUrl, siteName, siteDescription, defaultImage, bcHome, bcBlog };

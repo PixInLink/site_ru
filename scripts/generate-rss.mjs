@@ -33,8 +33,8 @@ const siteUrl = (process.env.VITE_SITE_URL || process.env.SITE_URL || "https://p
 const isRu = locale === "ru";
 const siteName = "PixInLink";
 const siteDescription = isRu
-  ? "Статический сайт с AI-видимостью из коробки. Markdown → JSON-LD → деплой за 2 минуты."
-  : "Static site with AI visibility out of the box. Markdown → JSON-LD → deploy in 2 minutes.";
+  ? "PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений."
+  : "PixInLink — AI image generator. Create dynamic images via URL for websites, emails and apps.";
 const rssLanguage = isRu ? "ru" : "en";
 
 function esc(value) {

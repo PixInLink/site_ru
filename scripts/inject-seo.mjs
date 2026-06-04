@@ -55,16 +55,14 @@ function buildOrgJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ООО «ФОНИИ»",
-    legalName: "ООО «ФОНИИ»",
+    name: "PixInLink",
+    legalName: "ООО «ПиксИнЛинк»",
     url: siteUrl,
     logo: siteUrl + "/images/logo-200x40.png",
-    foundingDate: "2025",
-    taxID: "7720943604",
-    vatID: "772001001",
-    address: { "@type": "PostalAddress", streetAddress: "111141, г. Москва, пр-кт Зелёный, д 3а, стр. 1", addressCountry: "RU" },
-    contactPoint: { "@type": "ContactPoint", telephone: "+7 (495) 324-30-88", email: "info@fonai.ru", contactType: "Customer Service", areaServed: "Россия, СНГ", availableLanguage: ["ru"] },
-    sameAs: ["https://vk.com/githubcrm", "https://t.me/githubcrm", "https://youtube.com/@githubcrm", "https://github.com/hubcms-dot/githubcms"],
+    foundingDate: "2024",
+    address: { "@type": "PostalAddress", addressCountry: "RU" },
+    contactPoint: { "@type": "ContactPoint", email: "info@pixinlink.ru", contactType: "Customer Service", areaServed: "Россия, СНГ", availableLanguage: ["ru"] },
+    sameAs: ["https://github.com/PixInLink", "https://pixinlink.ru"],
   };
 }
 
