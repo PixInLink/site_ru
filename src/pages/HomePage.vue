@@ -45,7 +45,7 @@ useSeo({
         </div>
         <div class="col-lg-5 text-center mt-4 mt-lg-0">
           <div class="hero-stat-card">
-            <div class="hero-stat-number">≤200ms</div>
+            <div class="hero-stat-number">10–30s</div>
             <div class="hero-stat-label">{{ t.home.statTtfbLabel }}</div>
           </div>
           <div class="hero-stat-card mt-3">

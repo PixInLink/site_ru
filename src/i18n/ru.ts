@@ -43,11 +43,14 @@ export const ru = {
     subtitle:
       "Вставьте описание прямо в URL тега img — и изображение появится само. Никаких фотобанков, никакого Photoshop, никакой регистрации.",
     badgeAiReady: "AI-генерация",
-    badgeSitemap: "50+ страниц",
-    badgeSchemaOrg: "JSON-LD Schema.org",
+    badgeSitemap: "URL API",
+    badgeSchemaOrg: "Yandex CDN",
     badgeNoDb: "0 регистрация",
     ctaStart: "Попробовать бесплатно",
     ctaGuide: "Как это работает",
+
+    statTtfbLabel: "среднее время генерации",
+    statPagesLabel: "бесплатных изображений",
 
     answerFirst:
       "PixInLink — российский SaaS-сервис генерации изображений по URL. Одна строка кода заменяет дизайнера, стоковые фото и ручной Photoshop. Вставьте URL в img src — и уникальное AI-изображение появится само за 10–30 секунд.",
