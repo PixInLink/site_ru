@@ -5,9 +5,9 @@ import { t } from "../i18n";
 
 <template>
   <footer class="footer-sitemap">
-    <div class="container">
+    <div class="container mq-sm-down" data-class="fixed-width">
       <div class="row">
-        <div class="col-md-4 logo-area">
+        <div class="col-md-4 col-sm-12 pa-lg-4 logo-area">
           <div class="logo">
             <span class="logo-main landscape large">
               <img src="/images/logo-40x40.png" alt="" width="40" height="40">
@@ -15,6 +15,65 @@ import { t } from "../i18n";
             </span>
           </div>
           <p class="body-2">{{ siteConfig.description }}</p>
+          <p class="body-2 hidden-sm-down">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
+        </div>
+        <div class="col-md-5 col-sm-12 pa-4 site-map-item">
+          <ul class="show-sm-down collapsible">
+            <li class="accordion-content">
+              <div class="collapsible-header">
+                <h6 class="title">{{ t.footer.pages }}</h6>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><RouterLink to="/">{{ t.footer.home }}</RouterLink></li>
+                  <li><RouterLink to="/features/">{{ t.nav.features }}</RouterLink></li>
+                  <li><RouterLink to="/pricing/">{{ t.footer.pricing }}</RouterLink></li>
+                  <li><RouterLink to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
+                  <li><RouterLink to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-content">
+              <div class="collapsible-header">
+                <h6 class="title">{{ t.footer.more }}</h6>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body">
+                <ul>
+                  <li><RouterLink to="/blog/">{{ t.footer.blog }}</RouterLink></li>
+                  <li><RouterLink to="/docs/">{{ t.footer.docs }}</RouterLink></li>
+                  <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
+                  <li><RouterLink to="/contact/">{{ t.footer.contact }}</RouterLink></li>
+                  <li><a href="/rss.xml">{{ t.footer.rss }}</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="row show-md-up justify-content-start">
+            <div class="col pa-4">
+              <h6 class="title mb-4">{{ t.footer.pages }}</h6>
+              <ul>
+                <li><RouterLink to="/">{{ t.footer.home }}</RouterLink></li>
+                <li><RouterLink to="/features/">{{ t.nav.features }}</RouterLink></li>
+                <li><RouterLink to="/pricing/">{{ t.footer.pricing }}</RouterLink></li>
+                <li><RouterLink to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
+                <li><RouterLink to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
+              </ul>
+            </div>
+            <div class="col pa-4">
+              <h6 class="title mb-4">{{ t.footer.more }}</h6>
+              <ul>
+                <li><RouterLink to="/blog/">{{ t.footer.blog }}</RouterLink></li>
+                <li><RouterLink to="/docs/">{{ t.footer.docs }}</RouterLink></li>
+                <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
+                <li><RouterLink to="/contact/">{{ t.footer.contact }}</RouterLink></li>
+                <li><a href="/rss.xml">{{ t.footer.rss }}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 pa-4">
           <div class="socmed">
             <a
               v-for="link in siteConfig.socialLinks"
@@ -23,45 +82,13 @@ import { t } from "../i18n";
               :title="link"
               target="_blank"
               rel="noopener noreferrer"
-              class="social-link"
+              class="btn btn-icon waves-effect"
             >
               <span class="ion-link icon"></span>
-              {{ link.replace('https://', '').split('/')[0] }}
             </a>
           </div>
+          <p class="body-2 mt-5 text-center hidden-md-up">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
         </div>
-        <div class="col-md-4 site-map-item">
-          <div class="row">
-            <div class="col-6 pa-4">
-              <h6 class="title mb-4">{{ t.footer.pages }}</h6>
-              <ul>
-                <li><RouterLink to="/">{{ t.footer.home }}</RouterLink></li>
-                <li><RouterLink to="/pricing/">{{ t.footer.pricing }}</RouterLink></li>
-                <li><RouterLink to="/features/">{{ t.nav.features }}</RouterLink></li>
-                <li><RouterLink to="/blog/">{{ t.footer.blog }}</RouterLink></li>
-                <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
-              </ul>
-            </div>
-            <div class="col-6 pa-4">
-              <h6 class="title mb-4">{{ t.footer.more }}</h6>
-              <ul>
-                <li><RouterLink to="/docs/">{{ t.footer.docs }}</RouterLink></li>
-                <li><RouterLink to="/contact/">{{ t.footer.contact }}</RouterLink></li>
-                <li><a href="/rss.xml">{{ t.footer.rss }}</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 site-map-item">
-          <h6 class="title mb-4">{{ t.footer.more }}</h6>
-          <ul>
-            <li><RouterLink to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
-            <li><RouterLink to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p class="body-2 text-center">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
       </div>
     </div>
   </footer>
@@ -69,49 +96,43 @@ import { t } from "../i18n";
 
 <style scoped>
 .footer-sitemap {
-  background: var(--color-text);
-  color: #fff;
+  position: relative;
+  z-index: 1;
 }
 .footer-sitemap .title {
   color: var(--color-accent-light);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-sitemap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-sitemap ul li {
+  margin-bottom: 4px;
 }
 .footer-sitemap ul li a {
   color: rgba(255,255,255,0.75);
+  font-size: 14px;
+  text-decoration: none;
 }
 .footer-sitemap ul li a:hover {
   color: #fff;
 }
 .footer-sitemap .body-2 {
   color: rgba(255,255,255,0.65);
+  font-size: 14px;
 }
 .footer-sitemap .logo-main {
   color: #fff;
 }
 .footer-sitemap .socmed .btn {
   background: rgba(255,255,255,0.1);
+  margin-right: 4px;
 }
 .footer-sitemap .socmed .icon {
   color: var(--color-accent-light);
-}
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  color: rgba(255,255,255,0.75);
-  font-size: 13px;
-  text-decoration: none;
-  padding: 6px 12px;
-  border-radius: 6px;
-  background: rgba(255,255,255,0.1);
-  transition: background 0.2s;
-}
-.social-link:hover {
-  background: rgba(255,255,255,0.2);
-  color: #fff;
-}
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  margin-top: 32px;
-  padding-top: 16px;
 }
 </style>
