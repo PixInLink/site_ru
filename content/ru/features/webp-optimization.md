@@ -7,22 +7,18 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="webp-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="https://pixinlink.ru/features/" class="badge" style="background:#e8eaf6;color:#3949ab;border-radius:4px;padding:5px 10px;">Возможности</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">WebP-оптимизация</span>
       </div>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Не нужно конвертировать вручную или ставить плагины — PixInLink генерирует изображение сразу в WebP (50 KB вместо 300 KB PNG) и доставляет через геораспределенный CDN.
       </p>
-
       <div class="card pa-0 mb-4" style="background:#1e1e1e;border-radius:12px;overflow:hidden;">
         <div class="pa-2 d-flex align-items-center" style="background:#2d2d2d;border-bottom:1px solid #3a3a3a;">
           <span style="color:#9cdcfe;font-size:12px;font-family:monospace;">HTML</span>
@@ -34,7 +30,6 @@ schema_type: "WebPage"
      loading=<span style="color:#ce9178;">"lazy"</span>&gt;</pre>
         </div>
       </div>
-
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="#test-difference" class="btn-flat btn-rounded"
            style="background:#3949ab;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;">
@@ -48,7 +43,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="webp-tldr">
   <div class="row">
@@ -62,7 +56,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="webp-keyfacts">
   <div class="row">
@@ -97,7 +90,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ: Почему PNG убивает PageSpeed -->
 <div class="container" id="webp-intro">
   <div class="row">
@@ -165,13 +157,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПРИМЕРЫ КОДА -->
 <div class="container" id="webp-code">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Примеры использования</h2>
-
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #3949ab;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Базовый сценарий</h4>
         <p class="body-2 mb-2">Ничего указывать не нужно, сервер вернёт <strong>WebP</strong>.</p>
@@ -182,7 +172,6 @@ schema_type: "WebPage"
      loading=<span style="color:#ce9178;">"lazy"</span>&gt;</pre>
         </div>
       </div>
-
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #43a047;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Оптимально для продакшена</h4>
         <p class="body-2 mb-2">Тег <code>&lt;picture&gt;</code>: <strong>AVIF</strong> для современных браузеров, <strong>WebP</strong> для остальных.</p>
@@ -197,7 +186,6 @@ schema_type: "WebPage"
 &lt;/picture&gt;</pre>
         </div>
       </div>
-
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #e65100;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">LCP-элемент (Hero баннер)</h4>
         <p class="body-2 mb-2">Предварительная загрузка сверхлегкого AVIF без <code>loading="lazy"</code>.</p>
@@ -206,7 +194,6 @@ schema_type: "WebPage"
 &lt;link rel=<span style="color:#ce9178;">"preload"</span> as=<span style="color:#ce9178;">"image"</span>
       href=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>
       imagesrcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>&gt;
-
 &lt;!-- В &lt;body&gt; --&gt;
 &lt;picture&gt;
   &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>
@@ -219,7 +206,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ЧТО ПРОИСХОДИТ ВНУТРИ -->
 <div class="container" id="webp-pipeline">
   <div class="row">
@@ -246,7 +232,6 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как WebP влияет на Core Web Vitals</h2>
-
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #43a047;">
@@ -270,7 +255,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- СРАВНЕНИЕ С ПЛАГИНАМИ -->
 <div class="container" id="webp-compare">
   <div class="row">
@@ -325,39 +309,32 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- FAQ -->
 <div class="container" id="webp-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">WebP отдаётся автоматически или нужно что-то указывать?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Автоматически. Все изображения генерируются в WebP по умолчанию. Формат AVIF нужно запросить явно через параметр <code>&amp;format=avif</code>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Теряется ли качество при конвертации в WebP?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">При <code>quality=85</code> визуальная разница с исходным PNG практически незаметна. Это стандарт индустрии — Google PageSpeed рекомендует значения от 70 до 85 как оптимальный баланс веса и детализации.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли получить PNG, если нужна прозрачность?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Да. Добавьте <code>&amp;format=png</code> в URL. Формат PNG отдается без сжатия (lossless) — файл будет большего размера, но полностью без потерь.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">AVIF работает во всех браузерах?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">AVIF поддерживается примерно в 85% браузеров (2026 год). Для полной совместимости используйте HTML-тег <code>&lt;picture&gt;</code> с WebP-fallback, как показано в примерах кода выше.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Оптимизация тратит дополнительную квоту?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Нет. Квота списывается <strong>ровно один раз</strong> при первичной генерации. Конвертация включена в стоимость. Все повторные запросы идут из CDN-кеша бесплатно.</p>
         </div>
-
       </div>
     </div>
   </div>
@@ -372,7 +349,6 @@ schema_type: "WebPage"
           Откройте эти два URL в браузере и сравните размер загруженного файла во вкладке <strong>Network</strong>
           в инструментах разработчика (DevTools).
         </p>
-
         <div class="row">
           <div class="col-md-6 mb-3">
             <h4 class="headline mb-2" style="font-size:15px;font-weight:700;color:#2e7d32;">✅ WebP (по умолчанию)</h4>
@@ -383,7 +359,6 @@ schema_type: "WebPage"
             </div>
             <p class="body-2 mt-2 mb-0 text-muted">Ожидаемый вес: <strong>~45–55 KB</strong></p>
           </div>
-
           <div class="col-md-6 mb-3">
             <h4 class="headline mb-2" style="font-size:15px;font-weight:700;color:#c62828;">❌ PNG (для сравнения)</h4>
             <div class="pa-2" style="background:#fff;border:1px solid #e0e0e0;border-radius:6px;word-break:break-all;">
@@ -394,13 +369,11 @@ schema_type: "WebPage"
             <p class="body-2 mt-2 mb-0 text-muted">Ожидаемый вес: <strong>~280–320 KB</strong></p>
           </div>
         </div>
-
         <p class="body-2 m-0 mt-3 text-muted"><em>Как проверить: DevTools (F12) → Network → обновите страницу → посмотрите колонку Size.</em></p>
       </div>
     </div>
   </div>
 </div>
-
 <!-- CTA И СМЕЖНЫЕ МАТЕРИАЛЫ -->
 <div class="container" id="webp-cta">
   <div class="row">
@@ -419,7 +392,6 @@ schema_type: "WebPage"
           </a>
         </div>
       </div>
-
       <!-- Карточки навигации -->
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
@@ -441,7 +413,6 @@ schema_type: "WebPage"
           </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>

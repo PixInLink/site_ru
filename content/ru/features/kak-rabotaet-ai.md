@@ -7,22 +7,18 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="how-ai-works-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="https://pixinlink.ru/features/" class="badge" style="background:#e8eaf6;color:#3949ab;border-radius:4px;padding:5px 10px;">Возможности</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Как работает ИИ-генерация</span>
       </div>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;">
         Полный разбор пайплайна: Kandinsky 3.1, CDN-кеш, fallback FLUX и 152-ФЗ
       </p>
-
       <div class="card paper pa-4 mt-4" style="background:linear-gradient(135deg,#e8eaf6 0%,#e3f2fd 100%);border:1px solid #c5cae9;border-radius:12px;">
         <p class="body-1 mb-0" style="line-height:1.85;">
           Когда вы вставляете
@@ -35,7 +31,6 @@ schema_type: "WebPage"
           <strong>Первый запрос: 8–10 секунд.</strong> Все последующие: <strong>менее 100 мс.</strong>
         </p>
       </div>
-
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="https://pixinlink.ru/docs/getting-started/" class="btn-flat btn-rounded"
            style="background:#3949ab;color:#fff;padding:10px 24px;font-weight:600;">
@@ -49,7 +44,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="how-ai-works-tldr">
   <div class="row">
@@ -69,7 +63,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="how-ai-works-keyfacts">
   <div class="row">
@@ -100,7 +93,6 @@ schema_type: "WebPage"
             <p class="body-2 text-muted mb-0">durability Yandex Object Storage — 99.999999999%</p>
           </div>
         </div>
-
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #00838f;">
             <div style="font-size:28px;font-weight:700;color:#00838f;">SHA-256</div>
@@ -129,61 +121,52 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ОПРЕДЕЛЕНИЯ -->
 <div class="container" id="how-ai-works-definitions">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые понятия</h2>
       <div class="row mb-5">
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #3949ab;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">AI-пайплайн</h4>
             <p class="body-2 m-0" style="line-height:1.75;">Цепочка обработки запроса: от текстового промпта до готового изображения. Включает трансляцию, улучшение промпта, нейросетевую генерацию, постобработку, загрузку в хранилище и CDN-доставку. В PixInLink — автоматический, асинхронный, с fallback-моделью.</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #e53935;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Kandinsky 3.1</h4>
             <p class="body-2 m-0" style="line-height:1.75;">Российская диффузионная нейросеть от Sber (SberCloud). Обучена на русскоязычных данных — лучше понимает кириллические промпты, чем Midjourney или DALL-E. Первичная AI-модель в PixInLink. FLUX.1 — резервная.</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #fb8c00;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">CDN (Content Delivery Network)</h4>
             <p class="body-2 m-0" style="line-height:1.75;">Сеть серверов в разных городах, каждый хранит копию изображения. Yandex Cloud CDN: 140 точек присутствия в РФ и СНГ. Пользователь получает изображение с ближайшего сервера — скорость &lt;100 мс.</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #43a047;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Immutable кеш</h4>
             <p class="body-2 m-0" style="line-height:1.75;">Изображение записывается в S3 один раз и никогда не изменяется. URL содержит SHA-256 хеш всех параметров — любое изменение создаёт новый объект. Это гарантирует, что ваш <code>og:image</code> не изменится неожиданно.</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #00838f;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Cache miss / Cache hit</h4>
             <p class="body-2 m-0" style="line-height:1.75;"><strong>Cache miss:</strong> изображения нет в кеше → нужна генерация (~8 сек). <strong>Cache hit:</strong> изображение уже создано → CDN отдаёт мгновенно (&lt;100 мс), квота не расходуется. После первой генерации все повторные запросы — cache hit.</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #8e24aa;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Диффузионная модель</h4>
             <p class="body-2 m-0" style="line-height:1.75;">Класс нейросетей, обученных генерировать изображения из случайного шума под управлением текста. Kandinsky не хранит готовые фото — он создаёт их заново каждый раз. Аналогия: не библиотека, а художник, который рисует по описанию.</p>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ -->
 <div class="container" id="how-ai-works-intro">
   <div class="row">
@@ -209,7 +192,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- FEATURED SNIPPET -->
 <div class="container" id="how-ai-works-snippet">
   <div class="row">
@@ -235,7 +217,6 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">10 шагов от URL до изображения: полный пайплайн</h2>
-
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #3949ab;">
         <div class="d-flex align-items-center mb-2">
@@ -251,7 +232,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Валидация: width/height 16–8192, HEX 6 символов, prompt не пустой. Если что-то не так → <code>400 Bad Request</code>.</p>
       </div>
-
       <!-- Шаг 2 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -268,7 +248,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Одинаковый prompt + seed = одинаковый хеш = тот же кешированный файл. Изменили seed — новый хеш — новое изображение.</p>
       </div>
-
       <!-- Шаг 3 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #43a047;">
         <div class="d-flex align-items-center mb-2">
@@ -291,7 +270,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Шаг 4 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #00838f;">
         <div class="d-flex align-items-center mb-2">
@@ -303,7 +281,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-0">API сразу возвращает SVG-заглушку (200 OK, ~200 байт) с заголовком <code>X-Job-Id</code>. SVG показывает фон цвета <code>bg=</code> с текстом «Generating image...». Браузер не ждёт 8 секунд — видит заглушку немедленно. Параллельно API создаёт запись в PostgreSQL (<code>status=pending</code>) и отправляет задачу в очередь Celery.</p>
       </div>
-
       <!-- Шаг 5 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #8e24aa;">
         <div class="d-flex align-items-center mb-2">
@@ -315,7 +292,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-0">Задача появляется в Redis-очереди. <strong>Celery Worker</strong> берёт её. Приоритеты: <code>high</code> — Enterprise/Pro, <code>default</code> — обычные, <code>bulk</code> — batch. Пул: 3 GPU-воркера × concurrency=2 = <strong>6 параллельных генераций</strong> одновременно. При длине очереди &gt;50 → auto-scale добавляет воркер.</p>
       </div>
-
       <!-- Шаг 6 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #fb8c00;">
         <div class="d-flex align-items-center mb-2">
@@ -333,7 +309,6 @@ schema_type: "WebPage"
         </ol>
         <p class="body-2 mt-2 mb-0 text-muted">Диффузионные модели обучены преимущественно на английских данных. Yandex Translate + нативная RU-обучка Kandinsky = лучшее качество для кириллических промптов.</p>
       </div>
-
       <!-- Шаг 7 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-center mb-2">
@@ -365,7 +340,6 @@ schema_type: "WebPage"
           <p class="body-2 m-0">💡 <strong>Для вас это невидимо:</strong> даже если Kandinsky недоступен, изображение всё равно будет сгенерировано — через FLUX, автоматически.</p>
         </div>
       </div>
-
       <!-- Шаг 8 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #00838f;">
         <div class="d-flex align-items-center mb-2">
@@ -383,7 +357,6 @@ schema_type: "WebPage"
           <li><strong>Strip EXIF/IPTC:</strong> все метаданные удаляются. Ваши промпты не хранятся в файле</li>
         </ol>
       </div>
-
       <!-- Шаг 9 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -401,7 +374,6 @@ Durability: 99.999999999%</pre>
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Объект никогда не перезаписывается. Новые параметры → новый хеш → новый объект. Ваш <code>og:image</code> не изменится неожиданно.</p>
       </div>
-
       <!-- Шаг 10 -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #43a047;">
         <div class="d-flex align-items-center mb-2">
@@ -418,7 +390,6 @@ Durability: 99.999999999%</pre>
           <li><strong>Следующий запрос с тем же URL → CDN edge → &lt;100 мс ✅</strong></li>
         </ul>
       </div>
-
       <!-- MERMAID ДИАГРАММА -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Схема пайплайна: от URL до изображения</h3>
       <div class="card paper pa-4 mb-5" style="background:#1e1e1e;border-radius:10px;overflow-x:auto;">
@@ -443,13 +414,11 @@ Durability: 99.999999999%</pre>
     </div>
   </div>
 </div>
-
 <!-- CACHE MISS vs CACHE HIT -->
 <div class="container" id="how-ai-works-cache">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Почему первый запрос медленный, а повторный мгновенный?</h2>
-
       <div class="card paper pa-4 mb-4" style="background:#fff8e1;border-left:4px solid #ffb300;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">🎂 Аналогия: кондитерская</h4>
         <p class="body-1 m-0" style="line-height:1.85;">
@@ -460,7 +429,6 @@ Durability: 99.999999999%</pre>
           все последующие — готовый торт в витрине CDN.
         </p>
       </div>
-
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight m-0">
@@ -487,7 +455,6 @@ Durability: 99.999999999%</pre>
     </div>
   </div>
 </div>
-
 <!-- УНИКАЛЬНОСТЬ -->
 <div class="container" id="how-ai-works-uniqueness">
   <div class="row">
@@ -517,13 +484,11 @@ Durability: 99.999999999%</pre>
     </div>
   </div>
 </div>
-
 <!-- FALLBACK АРХИТЕКТУРА -->
 <div class="container" id="how-ai-works-fallback">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Надёжность: что происходит, если AI недоступен?</h2>
-
       <div class="row mb-4">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #3949ab;text-align:center;">
@@ -547,7 +512,6 @@ Durability: 99.999999999%</pre>
           </div>
         </div>
       </div>
-
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -565,7 +529,6 @@ Durability: 99.999999999%</pre>
           </table>
         </div>
       </div>
-
       <div class="card paper pa-3 mb-5" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:8px;">
         <p class="body-2 m-0">
           <strong>Circuit Breaker:</strong> при 5 подряд ошибках Kandinsky → Circuit Breaker открывается на 60 сек.
@@ -575,7 +538,6 @@ Durability: 99.999999999%</pre>
     </div>
   </div>
 </div>
-
 <!-- 152-ФЗ -->
 <div class="container" id="how-ai-works-152fz">
   <div class="row">
@@ -609,7 +571,6 @@ Durability: 99.999999999%</pre>
     </div>
   </div>
 </div>
-
 <!-- SEED И ВОСПРОИЗВОДИМОСТЬ -->
 <div class="container" id="how-ai-works-seed">
   <div class="row">
@@ -624,7 +585,6 @@ Durability: 99.999999999%</pre>
         Для <code>og:image</code> стабильность критична: если сегодня у статьи один og:image,
         а завтра другой — соцсети покажут старую версию из своего кеша. Решение: зафиксируй seed.
       </p>
-
       <div class="row mb-4">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
@@ -659,59 +619,48 @@ seed = crc32(slug) % 2147483647
     </div>
   </div>
 </div>
-
 <!-- FAQ -->
 <div class="container" id="how-ai-works-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему первое изображение генерируется медленнее?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Cache miss — нейросеть Kandinsky 3.1 рисует специально для этого запроса. P95 = 8 секунд. Все повторные запросы отдаются из CDN: &lt;100 мс. Квота при cache hit не расходуется.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Расходуется ли квота при повторном запросе?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Нет. Cache hit не расходует квоту. 500 генераций на Starter — это 500 уникальных промптов. Один промпт можно запрашивать любое количество раз — квота тратится 1 раз при первой генерации.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Kandinsky или FLUX.1 — какую модель выбрать?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Выбор происходит автоматически. Kandinsky 3.1 — первичная модель, лучше для русских промптов (8 сек). FLUX.1 — резервная, немного быстрее (4 сек). Принудительный выбор модели доступен в REST API для тарифа Pro.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Изображения хранятся вечно?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">CDN-кеш = 1 год. В Yandex Object Storage: 180 дней → Cold Storage, 365 дней → удаление (lifecycle policy). После удаления следующий запрос = новая генерация.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Могут ли два пользователя получить одинаковое изображение?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">При одинаковом prompt + seed — да, CDN отдаст тот же кешированный файл. Изображение уникально создано для этого промпта. Хотите гарантированную уникальность — не указывайте seed (random каждый раз).</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как обрабатываются запрещённые промпты?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Kandinsky 3.1 имеет встроенный content policy filter. Запросы с NSFW, насилием и запрещённым контентом отклоняются. PixInLink дополнительно проверяет на уровне API Gateway.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли использовать изображения коммерчески?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Да, на платных тарифах (без watermark) — полные коммерческие права. На Free (с watermark) — личное использование. Подробнее: <a href="https://pixinlink.ru/terms/">pixinlink.ru/terms</a>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Сколько GPU-ресурсов на одну генерацию?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Kandinsky 3.1 API — GPU на стороне SberCloud. FLUX.1 self-hosted: RTX 4090, 24 GB VRAM, concurrency=2 на worker. При высокой нагрузке (utilization &gt;85%) auto-scale добавляет GPU-воркеры автоматически.</p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- E-E-A-T -->
 <div class="container" id="how-ai-works-eeaat">
   <div class="row">
@@ -733,12 +682,10 @@ seed = crc32(slug) % 2147483647
     </div>
   </div>
 </div>
-
 <!-- ФИНАЛЬНЫЙ CTA -->
 <div class="container" id="how-ai-works-cta">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8eaf6 0%,#e3f2fd 100%);border-radius:16px;">
         <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">
           Попробуйте пайплайн в действии
@@ -756,7 +703,6 @@ seed = crc32(slug) % 2147483647
         </div>
         <p class="body-2 text-muted mt-3 mb-0">Вопросы по архитектуре: <a href="mailto:dev@pixinlink.ru">dev@pixinlink.ru</a></p>
       </div>
-
       <!-- Смежные материалы -->
       <div class="row mb-5">
         <div class="col-md-3 mb-3">
@@ -784,7 +730,6 @@ seed = crc32(slug) % 2147483647
           </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>

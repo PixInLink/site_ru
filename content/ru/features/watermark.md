@@ -7,22 +7,18 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="watermark-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="https://pixinlink.ru/features/" class="badge" style="background:#e8eaf6;color:#3949ab;border-radius:4px;padding:5px 10px;">Возможности</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Водяной знак</span>
       </div>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Free-тариф: знак «PixInLink.com» вшит в пиксели. Starter от 490 руб/мес — без знака. Business — ваш бренд.
       </p>
-
       <div class="card pa-4 mb-4" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:12px;">
         <h3 class="headline mb-3" style="font-size:18px;font-weight:700;color:#1976d2;">Как убрать водяной знак — 3 шага</h3>
         <ol class="body-1 m-0 mb-3" style="line-height:1.9;padding-left:20px;">
@@ -38,11 +34,9 @@ schema_type: "WebPage"
           <span class="body-2 text-muted">Карта не нужна для Free. Апгрейд — через Kassa.</span>
         </div>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- ЗАЧЕМ НУЖЕН WATERMARK -->
 <div class="container" id="watermark-why">
   <div class="row">
@@ -104,13 +98,11 @@ schema_type: "WebPage"
         </div>
       </div>
       <p class="body-2 text-muted mb-5">Подробнее о квотах каждого тарифа → <a href="https://pixinlink.ru/pricing/">/pricing</a></p>
-
 <!-- ВНЕШНИЙ ВИД И ПРИМЕРЫ -->
       <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как выглядит водяной знак</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         Текст «PixInLink.com» всегда расположен в правом нижнем углу, отступ составляет ~5% от краев. Используется белый шрифт Arial, полупрозрачность (opacity) 50% и черная тень 1px для читаемости на любом фоне. Размер шрифта масштабируется: на картинке 800px высота текста составит ~20px. Рендеринг идёт с antialiasing.
       </p>
-
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-3" style="height:100%;border-top:4px solid #9e9e9e;">
@@ -141,23 +133,19 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПОШАГОВАЯ ИНСТРУКЦИЯ -->
 <div class="container" id="watermark-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Пошагово: как убрать водяной знак</h2>
-
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Шаг 1. Перейди на страницу тарифов</h4>
         <p class="body-2 m-0">Открой <a href="https://pixinlink.ru/pricing/">/pricing</a> и выбери тариф Starter (490 руб/мес) или выше.</p>
       </div>
-
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Шаг 2. Оплати через Kassa</h4>
         <p class="body-2 m-0">Доступны: Visa, Mastercard, МИР, СБП, SberPay, Pay-сервисы. Тариф активируется мгновенно. API-ключ обновляется автоматически (менять его не нужно).</p>
       </div>
-
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Шаг 3. Обнови URL в своём коде</h4>
         <ul class="body-2 m-0 pl-3">
@@ -165,7 +153,6 @@ schema_type: "WebPage"
           <li><strong>Вариант Б:</strong> используй URL без параметра (поведение «без знака» включено на Starter по умолчанию).</li>
         </ul>
       </div>
-
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #e53935;background:#ffebee;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;color:#c62828;">Шаг 4. Перегенерируй старые изображения (Важно)</h4>
         <p class="body-2 mb-2">Старые картинки лежат в CDN-кеше (TTL = 1 год). Оплата тарифа не удаляет знак с кешированных файлов. Принудительный сброс кеша:</p>
@@ -175,7 +162,6 @@ schema_type: "WebPage"
         </ul>
         <p class="body-2 mt-2 m-0 text-muted"><em>Сервер сделает новую генерацию, которая пройдет без водяного знака.</em></p>
       </div>
-
     </div>
   </div>
 </div>
@@ -185,7 +171,6 @@ schema_type: "WebPage"
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Почему watermark нельзя убрать через CSS или DevTools</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">Не тратьте время на попытки обойти систему на бесплатном тарифе. Вот факты:</p>
-
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
@@ -209,7 +194,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- БИЗНЕС-ВОДЯНОЙ ЗНАК -->
 <div class="container" id="watermark-business">
   <div class="row">
@@ -221,7 +205,6 @@ schema_type: "WebPage"
       <p class="body-1 mb-4" style="line-height:1.85;">
         Настройка доступна в интерфейсе (Dashboard → Settings → Watermark) или программно через REST API. Opacity повышена до 80% для лучшей читаемости бренда. В будущих обновлениях: загрузка PNG-логотипа.
       </p>
-
       <div class="card pa-4 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-2" style="color:#fff;">Установить кастомный watermark через API (Business):</p>
         <pre style="color:#9cdcfe;font-size:13px;line-height:1.7;margin:0;">curl -X POST https://api.pixinlink.ru/api/v1/user/watermark \
@@ -238,7 +221,6 @@ schema_type: "WebPage"
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Я оплатил Starter, но watermark всё ещё есть. Что делать?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">
@@ -247,32 +229,26 @@ schema_type: "WebPage"
             3) В URL остался параметр <code>&amp;watermark=true</code>.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Влияет ли watermark на качество изображения?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Минимально. Текст рендерится с antialiasing поверх готового изображения, затем кодируется в WebP (quality=85). Для абсолютно чистых файлов (без артефактов наложения) нужен Starter.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно использовать Free-изображения на коммерческом сайте?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Технически можно, но знак «PixInLink.com» будет виден. По <a href="https://pixinlink.ru/legal/terms/">Terms of Service</a>, Free-тариф предназначен для личного некоммерческого использования.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли поставить свой логотип картинкой?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Пока поддерживается только текст (до 50 символов). Загрузка PNG-логотипа запланирована в обновлениях — статус в <a href="https://pixinlink.ru/docs/changelog/">/docs/changelog</a>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Мне нужно брендировать только половину картинок, как быть?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">На Starter+ знак отключён по умолчанию. Для тех картинок, где он нужен, добавьте <code>&amp;watermark=true</code> (стандартный) или управляйте кастомным текстом через REST API (Business).</p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- CTA -->
 <div class="container" id="watermark-cta">
   <div class="row">

@@ -6,7 +6,6 @@ order:
       ru: Главная
       en: Home
     dropdown: true
-    component: HomePage
 
   - id: about
     path: /about/

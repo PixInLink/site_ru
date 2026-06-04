@@ -7,22 +7,18 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="wp-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="/integrations" class="badge" style="background:#e8f5e9;color:#2e7d32;border-radius:4px;padding:5px 10px;">Интеграции</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">WordPress</span>
       </div>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Уникальный featured image и og:image для каждой публикации без Photoshop, стоков и ручной работы
       </p>
-
       <!-- Hero-сниппет -->
       <div class="card pa-0 mb-4" style="background:#1e1e1e;border-radius:12px;overflow:hidden;">
         <div class="pa-2 d-flex align-items-center" style="background:#2d2d2d;border-bottom:1px solid #3a3a3a;">
@@ -39,13 +35,11 @@ schema_type: "WebPage"
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
         </div>
       </div>
-
       <p class="body-1 text-muted mb-4" style="line-height:1.75;">
         Настройте автоматическую генерацию прямо сейчас с помощью PHP-кода.
         Полноценный плагин с визуальным интерфейсом — в <strong>Q2 2026</strong>.
         Попробуйте: <a href="https://pixinlink.ru/api/v1/1200x630/рецепт-тирамису" target="_blank">pixinlink.ru/api/v1/1200x630/рецепт-тирамису</a>
       </p>
-
       <div class="d-flex flex-wrap" style="gap:12px;">
         <a href="#wp-howto" class="btn-flat btn-rounded"
            style="background:#2e7d32;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;">
@@ -63,7 +57,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="wp-tldr">
   <div class="row">
@@ -81,7 +74,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="wp-keyfacts">
   <div class="row">
@@ -140,7 +132,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ОПРЕДЕЛЕНИЕ -->
 <div class="container" id="wp-definition">
   <div class="row">
@@ -157,7 +148,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ -->
 <div class="container" id="wp-intro">
   <div class="row">
@@ -176,7 +166,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- FEATURED SNIPPET -->
 <div class="container" id="wp-snippet">
   <div class="row">
@@ -202,7 +191,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
         </div>
         <p class="body-2 m-0 text-muted">Добавить в: <code>/wp-content/themes/ВАША-ТЕМА-child/functions.php</code></p>
       </div>
-
       <!-- Проблема → Решение → Результат -->
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
@@ -232,17 +220,14 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- СОВМЕСТИМОСТЬ -->
 <div class="container" id="wp-compatibility">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Совместимость с WordPress-экосистемой</h2>
-
       <!-- Таблица 1: Совместимость -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Поддерживаемые компоненты</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -267,7 +252,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
           </table>
         </div>
       </div>
-
       <!-- Таблица 2: Методы интеграции -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Методы интеграции — выберите свой</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -304,7 +288,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
           </table>
         </div>
       </div>
-
       <!-- Таблица 3: Параметры URL -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Рекомендуемые параметры URL для WordPress</h3>
       <div class="card paper pa-0 mb-5 overflow-hidden">
@@ -327,7 +310,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
     </div>
   </div>
 </div>
-
 <!-- СРАВНЕНИЕ С АНАЛОГАМИ -->
 <div class="container" id="wp-compare">
   <div class="row">
@@ -411,7 +393,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
     </div>
   </div>
 </div>
-
 <!-- СТАТИСТИКА -->
 <div class="container" id="wp-stats">
   <div class="row">
@@ -450,13 +431,11 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
     </div>
   </div>
 </div>
-
 <!-- СХЕМЫ АРХИТЕКТУРЫ -->
 <div class="container" id="wp-architecture">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как это работает: архитектура</h2>
-
       <div class="row mb-5">
         <!-- Без плагина -->
         <div class="col-md-6 mb-3">
@@ -501,7 +480,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как интегрировать PixInLink в WordPress — 8 шагов</h2>
-
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #3949ab;">
         <div class="d-flex align-items-center mb-2">
@@ -513,7 +491,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
         </div>
         <p class="body-2 mb-0">Создайте папку <code>/wp-content/themes/ВАША-ТЕМА-child/</code> с двумя файлами: <code>style.css</code> и <code>functions.php</code>. Это безопасное место для всего кода PixInLink.</p>
       </div>
-
       <!-- Шаг 2 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -525,7 +502,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
         </div>
         <p class="body-2 mb-0">Зарегистрируйтесь на pixinlink.ru → личный кабинет → API Keys → создать ключ. Ключ имеет вид <code>pixl_xxxxxxxxxxxx</code>. На Free-тарифе ключ не нужен — работает по IP, 50 изображений/мес.</p>
       </div>
-
       <!-- Шаг 3 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #2e7d32;">
         <div class="d-flex align-items-center mb-2">
@@ -554,7 +530,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
         </div>
       </div>
-
       <!-- Шаг 4 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #fb8c00;">
         <div class="d-flex align-items-center mb-2">
@@ -603,7 +578,6 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
           </div>
         </div>
       </div>
-
       <!-- Шаг 5 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #8e24aa;">
         <div class="d-flex align-items-center mb-2">
@@ -619,7 +593,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Без seed изображение может незначительно меняться при смене CDN-кеша. С seed — стабильно на весь срок жизни поста.</p>
       </div>
-
       <!-- Шаг 6 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #00838f;">
         <div class="d-flex align-items-center mb-2">
@@ -652,7 +625,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
           </div>
         </div>
       </div>
-
       <!-- Шаг 7 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-center mb-2">
@@ -669,7 +641,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
           <li><strong>Telegram:</strong> написать боту <a href="https://t.me/WebpageBot" target="_blank">@WebpageBot</a></li>
         </ul>
       </div>
-
       <!-- Шаг 8 -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -684,14 +655,12 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
     </div>
   </div>
 </div>
-
 <!-- 8 СНИППЕТОВ -->
 <div class="container" id="wp-snippets">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-2" style="font-size:24px;font-weight:700;">Готовые сниппеты — скопируйте и вставьте</h2>
       <p class="body-1 text-muted mb-4">Всегда используйте <strong>child theme</strong>. Перед работой проверьте параметры в <a href="/features/url-api">URL API документации</a>.</p>
-
       <div class="row">
         <!-- Сниппет 1 -->
         <div class="col-md-6 mb-4">
@@ -712,7 +681,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 2 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #2e7d32;">
@@ -733,7 +701,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 3 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #8e24aa;">
@@ -754,7 +721,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 4 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #fb8c00;">
@@ -776,7 +742,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 5 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #00838f;">
@@ -796,7 +761,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 6 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
@@ -816,7 +780,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 7 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #1976d2;">
@@ -837,7 +800,6 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             </div>
           </div>
         </div>
-
         <!-- Сниппет 8 -->
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #6a1b9a;">

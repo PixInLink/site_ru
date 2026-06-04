@@ -7,22 +7,18 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="sdk-python-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="/integrations" class="badge" style="background:#e8f5e9;color:#2e7d32;border-radius:4px;padding:5px 10px;">Интеграции</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Python SDK</span>
       </div>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         От <code>pip install</code> до первого изображения — всего 5 строк кода
       </p>
-
       <!-- Hero код -->
       <div class="card pa-0 mb-4" style="background:#1e1e1e;border-radius:12px;overflow:hidden;">
         <div class="pa-2 d-flex align-items-center" style="background:#2d2d2d;border-bottom:1px solid #3a3a3a;">
@@ -31,13 +27,11 @@ schema_type: "WebPage"
         </div>
         <div class="pa-4">
           <pre style="color:#9cdcfe;font-size:14px;line-height:1.8;margin:0;"><span style="color:#c586c0;">from</span> <span style="color:#4ec9b0;">pixinlink</span> <span style="color:#c586c0;">import</span> PixInLink
-
 client = PixInLink(api_key=<span style="color:#ce9178;">"pk_live_..."</span>)  <span style="color:#6a9955;"># или без ключа для Free</span>
 url = client.image_url(<span style="color:#ce9178;">"рыжая кошка на подоконнике"</span>, width=<span style="color:#b5cea8;">800</span>, height=<span style="color:#b5cea8;">400</span>)
 client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
         </div>
       </div>
-
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="/docs/getting-started" class="btn-flat btn-rounded"
            style="background:#2e7d32;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;">
@@ -55,7 +49,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="sdk-python-tldr">
   <div class="row">
@@ -75,7 +68,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="sdk-python-keyfacts">
   <div class="row">
@@ -134,7 +126,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
     </div>
   </div>
 </div>
-
 <!-- ОПРЕДЕЛЕНИЕ -->
 <div class="container" id="sdk-python-definition">
   <div class="row">
@@ -149,7 +140,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ -->
 <div class="container" id="sdk-python-intro">
   <div class="row">
@@ -175,7 +165,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Установка</h2>
-
       <!-- Менеджеры пакетов -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Выберите менеджер пакетов</h3>
       <div class="row mb-4">
@@ -207,13 +196,11 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
           </div>
         </div>
       </div>
-
       <!-- Опциональные зависимости -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">С Pillow (для обработки в памяти)</h3>
       <div class="card pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <code style="color:#a5d6a7;font-size:13px;">pip install pixinlink[pillow]</code>
       </div>
-
       <!-- Требования -->
       <div class="card paper pa-0 mb-5 overflow-hidden">
         <div class="table-responsive">
@@ -233,7 +220,6 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
     </div>
   </div>
 </div>
-
 <!-- АУТЕНТИФИКАЦИЯ -->
 <div class="container" id="sdk-python-auth">
   <div class="row">
@@ -274,14 +260,12 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
           </table>
         </div>
       </div>
-
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <h4 class="headline mb-2" style="font-size:15px;font-weight:700;">Через переменную окружения (рекомендуется)</h4>
           <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
             <pre style="color:#9cdcfe;font-size:13px;margin:0;"><span style="color:#6a9955;"># .env</span>
 PIXINLINK_API_KEY=pk_live_ваш_ключ
-
 <span style="color:#6a9955;"># Python</span>
 <span style="color:#c586c0;">import</span> os
 client = PixInLink()  <span style="color:#6a9955;"># читает из env автоматически</span></pre>
@@ -298,13 +282,11 @@ client = PixInLink()  <span style="color:#6a9955;"># читает из env ав�
     </div>
   </div>
 </div>
-
 <!-- СПРАВОЧНИК МЕТОДОВ -->
 <div class="container" id="sdk-python-methods">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Полный справочник методов</h2>
-
       <!-- image_url() -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #2e7d32;">
         <div class="d-flex align-items-center mb-3">
@@ -324,7 +306,6 @@ client = PixInLink()  <span style="color:#6a9955;"># читает из env ав�
         </div>
         <p class="body-2 m-0 text-muted">Возвращает: <code>str</code>. Сетевые запросы не выполняются.</p>
       </div>
-
       <!-- download() -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-3">
@@ -343,7 +324,6 @@ print(f<span style="color:#ce9178;">"Сохранено: {path}"</span>)</pre>
         </div>
         <p class="body-2 m-0 text-muted">Возвращает: <code>pathlib.Path</code>. При Cache Miss ждёт генерацию автоматически.</p>
       </div>
-
       <!-- generate() -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #fb8c00;">
         <div class="d-flex align-items-center mb-3">
@@ -360,7 +340,6 @@ print(f<span style="color:#ce9178;">"Сохранено: {path}"</span>)</pre>
         </div>
         <p class="body-2 m-0 text-muted">Возвращает: <code>bytes</code>. Pillow: <code>Image.open(io.BytesIO(image_bytes))</code></p>
       </div>
-
       <!-- generate_batch() -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #8e24aa;">
         <div class="d-flex align-items-center mb-3">
@@ -374,7 +353,6 @@ print(f<span style="color:#ce9178;">"Сохранено: {path}"</span>)</pre>
     {<span style="color:#ce9178;">"prompt"</span>: <span style="color:#ce9178;">"утренний кофе"</span>,   <span style="color:#ce9178;">"width"</span>: <span style="color:#b5cea8;">800</span>,  <span style="color:#ce9178;">"height"</span>: <span style="color:#b5cea8;">400</span>},
     {<span style="color:#ce9178;">"prompt"</span>: <span style="color:#ce9178;">"офис разработчиков"</span>, <span style="color:#ce9178;">"width"</span>: <span style="color:#b5cea8;">1200</span>, <span style="color:#ce9178;">"height"</span>: <span style="color:#b5cea8;">630</span>},
 ]
-
 results = client.generate_batch(
     requests,
     output_dir=<span style="color:#ce9178;">"blog_images/"</span>,
@@ -384,7 +362,6 @@ results = client.generate_batch(
         </div>
         <p class="body-2 m-0 text-muted">Возвращает: <code>list[dict]</code> с <code>path</code>, <code>status</code>, <code>url</code>.</p>
       </div>
-
       <!-- quota() -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #00838f;">
         <div class="d-flex align-items-center mb-3">
@@ -402,7 +379,6 @@ print(f<span style="color:#ce9178;">"Сброс: {info['reset_at']}"</span>)</pr
     </div>
   </div>
 </div>
-
 <!-- АСИНХРОННЫЙ КЛИЕНТ -->
 <div class="container" id="sdk-python-async">
   <div class="row">
@@ -416,7 +392,6 @@ print(f<span style="color:#ce9178;">"Сброс: {info['reset_at']}"</span>)</pr
       <div class="card pa-3 mb-5" style="background:#1e1e1e;border-radius:10px;">
         <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#c586c0;">import</span> asyncio
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> AsyncPixInLink
-
 <span style="color:#c586c0;">async def</span> <span style="color:#dcdcaa;">main</span>():
     <span style="color:#c586c0;">async with</span> AsyncPixInLink(api_key=<span style="color:#ce9178;">"pk_live_..."</span>) <span style="color:#c586c0;">as</span> client:
         <span style="color:#6a9955;"># Параллельная генерация нескольких изображений</span>
@@ -427,7 +402,6 @@ print(f<span style="color:#ce9178;">"Сброс: {info['reset_at']}"</span>)</pr
         ]
         results = <span style="color:#c586c0;">await</span> asyncio.gather(*tasks)
         print(f<span style="color:#ce9178;">"Сгенерировано {len(results)} изображений"</span>)
-
 asyncio.run(main())</pre>
       </div>
     </div>
@@ -438,7 +412,6 @@ asyncio.run(main())</pre>
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Сценарии интеграции</h2>
-
       <!-- FastAPI -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #00897b;">
         <div class="d-flex align-items-center mb-3">
@@ -451,10 +424,8 @@ asyncio.run(main())</pre>
 <span style="color:#c586c0;">from</span> fastapi.responses <span style="color:#c586c0;">import</span> RedirectResponse
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> AsyncPixInLink
 <span style="color:#c586c0;">from</span> pixinlink.utils <span style="color:#c586c0;">import</span> seed_from_string
-
 app = FastAPI()
 pixinlink = AsyncPixInLink()
-
 <span style="color:#dcdcaa;">@app.get</span>(<span style="color:#ce9178;">"/og-image/{slug}"</span>)
 <span style="color:#c586c0;">async def</span> <span style="color:#dcdcaa;">og_image</span>(slug: str):
     prompt = slug.replace(<span style="color:#ce9178;">"-"</span>, <span style="color:#ce9178;">" "</span>)
@@ -466,7 +437,6 @@ pixinlink = AsyncPixInLink()
     <span style="color:#c586c0;">return</span> RedirectResponse(url=url, status_code=<span style="color:#b5cea8;">302</span>)</pre>
         </div>
       </div>
-
       <!-- Django -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-3">
@@ -479,7 +449,6 @@ pixinlink = AsyncPixInLink()
 {% load pixinlink_tags %}
 &lt;meta property=<span style="color:#ce9178;">"og:image"</span>
   content=<span style="color:#ce9178;">"{% pixinlink_url article.title width=1200 height=630 seed_key=article.slug %}"</span>&gt;
-
 &lt;img src=<span style="color:#ce9178;">"{% pixinlink_url 'кофе на столе' width=800 height=400 seed_key=article.slug %}"</span>&gt;</pre>
         </div>
         <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
@@ -487,16 +456,13 @@ pixinlink = AsyncPixInLink()
 <span style="color:#c586c0;">from</span> django.db.models.signals <span style="color:#c586c0;">import</span> post_save
 <span style="color:#c586c0;">from</span> django.dispatch <span style="color:#c586c0;">import</span> receiver
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> PixInLink
-
 client = PixInLink()
-
 <span style="color:#dcdcaa;">@receiver</span>(post_save, sender=Article)
 <span style="color:#c586c0;">def</span> <span style="color:#dcdcaa;">warmup_og_image</span>(sender, instance, created, **kwargs):
     <span style="color:#c586c0;">if</span> created:
         client.generate(instance.title, width=<span style="color:#b5cea8;">1200</span>, height=<span style="color:#b5cea8;">630</span>)</pre>
         </div>
       </div>
-
       <!-- Jupyter -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #f57f17;">
         <div class="d-flex align-items-center mb-3">
@@ -507,9 +473,7 @@ client = PixInLink()
         <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
           <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#c586c0;">from</span> IPython.display <span style="color:#c586c0;">import</span> Image, display
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> PixInLink
-
 client = PixInLink()
-
 <span style="color:#6a9955;"># Сравнение стилей для одного промпта</span>
 <span style="color:#c586c0;">for</span> style <span style="color:#c586c0;">in</span> [<span style="color:#ce9178;">"realistic"</span>, <span style="color:#ce9178;">"artistic"</span>, <span style="color:#ce9178;">"sketch"</span>, <span style="color:#ce9178;">"3d-render"</span>]:
     img_bytes = client.generate(<span style="color:#ce9178;">"киберпанк ночной город"</span>, width=<span style="color:#b5cea8;">400</span>, height=<span style="color:#b5cea8;">250</span>, style=style)
@@ -517,7 +481,6 @@ client = PixInLink()
     display(Image(data=img_bytes, width=<span style="color:#b5cea8;">400</span>))</pre>
         </div>
       </div>
-
       <!-- S3 / Yandex S3 -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-center mb-3">
@@ -528,13 +491,11 @@ client = PixInLink()
         <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
           <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#c586c0;">import</span> boto3
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> PixInLink
-
 client = PixInLink()
 s3 = boto3.client(<span style="color:#ce9178;">"s3"</span>,
     endpoint_url=<span style="color:#ce9178;">"https://storage.yandexcloud.net"</span>,
     region_name=<span style="color:#ce9178;">"ru-central1"</span>
 )
-
 image_bytes = client.generate(<span style="color:#ce9178;">"утренний офис"</span>, width=<span style="color:#b5cea8;">1200</span>, height=<span style="color:#b5cea8;">630</span>)
 s3.put_object(
     Bucket=<span style="color:#ce9178;">"my-media-bucket"</span>,
@@ -545,7 +506,6 @@ s3.put_object(
 )</pre>
         </div>
       </div>
-
       <!-- CLI -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #6a1b9a;">
         <div class="d-flex align-items-center mb-3">
@@ -557,14 +517,12 @@ s3.put_object(
           <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#6a9955;"># gen.py</span>
 <span style="color:#c586c0;">import</span> argparse
 <span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> PixInLink
-
 parser = argparse.ArgumentParser()
 parser.add_argument(<span style="color:#ce9178;">"prompt"</span>)
 parser.add_argument(<span style="color:#ce9178;">"-o"</span>, <span style="color:#ce9178;">"--output"</span>, default=<span style="color:#ce9178;">"image.webp"</span>)
 parser.add_argument(<span style="color:#ce9178;">"--style"</span>, default=<span style="color:#ce9178;">"realistic"</span>)
 parser.add_argument(<span style="color:#ce9178;">"--seed"</span>, type=int)
 args = parser.parse_args()
-
 client = PixInLink()
 client.download(args.prompt, output_path=args.output, style=args.style, seed=args.seed)
 print(f<span style="color:#ce9178;">"✅ Сохранено: {args.output}"</span>)</pre>
@@ -573,7 +531,6 @@ print(f<span style="color:#ce9178;">"✅ Сохранено: {args.output}"</spa
           <code style="color:#a5d6a7;font-size:12px;">python gen.py "рыжая кошка на подоконнике" -o cat.webp --style realistic --seed 42</code>
         </div>
       </div>
-
       <!-- Пакетный прогрев блога -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #2e7d32;">
         <div class="d-flex align-items-center mb-3">
@@ -584,16 +541,13 @@ print(f<span style="color:#ce9178;">"✅ Сохранено: {args.output}"</spa
         <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
           <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#c586c0;">from</span> pixinlink <span style="color:#c586c0;">import</span> PixInLink
 <span style="color:#c586c0;">from</span> pixinlink.utils <span style="color:#c586c0;">import</span> seed_from_string
-
 client = PixInLink(api_key=<span style="color:#ce9178;">"pk_live_..."</span>)
-
 <span style="color:#6a9955;"># articles — ваш список slug + title</span>
 requests = [
     {<span style="color:#ce9178;">"prompt"</span>: a.title, <span style="color:#ce9178;">"seed"</span>: seed_from_string(a.slug),
      <span style="color:#ce9178;">"width"</span>: <span style="color:#b5cea8;">1200</span>, <span style="color:#ce9178;">"height"</span>: <span style="color:#b5cea8;">630</span>}
     <span style="color:#c586c0;">for</span> a <span style="color:#c586c0;">in</span> articles
 ]
-
 results = client.generate_batch(requests, output_dir=<span style="color:#ce9178;">"og_images/"</span>, max_concurrent=<span style="color:#b5cea8;">5</span>)
 ok = sum(<span style="color:#b5cea8;">1</span> <span style="color:#c586c0;">for</span> r <span style="color:#c586c0;">in</span> results <span style="color:#c586c0;">if</span> r[<span style="color:#ce9178;">"status"</span>] == <span style="color:#ce9178;">"ok"</span>)
 print(f<span style="color:#ce9178;">"✅ Прогрето {ok}/{len(results)} изображений"</span>)</pre>
@@ -602,13 +556,11 @@ print(f<span style="color:#ce9178;">"✅ Прогрето {ok}/{len(results)} и
     </div>
   </div>
 </div>
-
 <!-- УТИЛИТЫ -->
 <div class="container" id="sdk-python-utils">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Утилиты: <code>pixinlink.utils</code></h2>
-
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #00838f;">
@@ -616,7 +568,6 @@ print(f<span style="color:#ce9178;">"✅ Прогрето {ok}/{len(results)} и
             <p class="body-2 mb-3" style="line-height:1.75;">Вычисляет детерминированный <code>int</code> из строки по алгоритму crc32. Один slug = всегда одинаковый seed = стабильный <code>og:image</code>.</p>
             <div class="card pa-3" style="background:#1e1e1e;border-radius:6px;">
               <pre style="color:#9cdcfe;font-size:12px;margin:0;">from pixinlink.utils import seed_from_string
-
 seed = seed_from_string("kak-pravilno-pit-kofe")
 # → 847392145 (всегда)</pre>
             </div>
@@ -628,7 +579,6 @@ seed = seed_from_string("kak-pravilno-pit-kofe")
             <p class="body-2 mb-3" style="line-height:1.75;">Стандартизированные пресеты для часто используемых форматов. Исключает опечатки в размерах.</p>
             <div class="card pa-3" style="background:#1e1e1e;border-radius:6px;">
               <pre style="color:#9cdcfe;font-size:12px;margin:0;">from pixinlink.utils import ImageSize
-
 # OG_IMAGE: 1200×630
 # STORY:    1080×1920
 # SQUARE:   1080×1080
@@ -641,7 +591,6 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
     </div>
   </div>
 </div>
-
 <!-- ИСКЛЮЧЕНИЯ -->
 <div class="container" id="sdk-python-exceptions">
   <div class="row">
@@ -664,7 +613,6 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
       </div>
       <div class="card pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <pre style="color:#9cdcfe;font-size:13px;margin:0;line-height:1.8;"><span style="color:#c586c0;">from</span> pixinlink.exceptions <span style="color:#c586c0;">import</span> QuotaExceededError, RateLimitError, AIProviderError
-
 <span style="color:#c586c0;">try</span>:
     img = client.generate(<span style="color:#ce9178;">"горный закат"</span>, width=<span style="color:#b5cea8;">1200</span>, height=<span style="color:#b5cea8;">630</span>)
 <span style="color:#c586c0;">except</span> QuotaExceededError:
@@ -677,7 +625,6 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
     </div>
   </div>
 </div>
-
 <!-- CHANGELOG -->
 <div class="container" id="sdk-python-changelog">
   <div class="row">
@@ -703,49 +650,40 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
     </div>
   </div>
 </div>
-
 <!-- FAQ -->
 <div class="container" id="sdk-python-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">SDK или прямой requests?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">SDK незаменим для продакшна: обрабатывает cache miss, повторные попытки при 429, кодирование кириллицы и управление квотой. Прямой <code>requests</code> подходит только для одноразовых скриптов без retry-логики.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Работает ли SDK в Serverless (AWS Lambda, Yandex Cloud Functions)?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Да. Но таймаут выполнения нужно увеличить минимум до <strong>60 секунд</strong> — генерация при cache miss занимает 8–10 сек, плюс поллинг. По умолчанию Lambda-таймаут = 3 сек.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как SDK обрабатывает SVG-placeholder?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Автоматически: читает заголовок <code>Content-Type</code>, при <code>image/svg+xml</code> ждёт 5 секунд и повторяет запрос — до 5 попыток. Вам не нужно писать эту логику самостоятельно.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли использовать SDK в многопоточном окружении?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Синхронный <code>PixInLink</code> — thread-safe для параллельных запросов. Для asyncio-приложений используйте <code>AsyncPixInLink</code> — он не блокирует event loop.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Pillow обязателен?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Нет. Pillow — опциональная зависимость. Нужна только если вы обрабатываете байты изображений в памяти: <code>Image.open(io.BytesIO(image_bytes))</code>. Для <code>download()</code> и <code>image_url()</code> Pillow не нужен.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как узнать остаток квоты из кода?</h4>
           <p class="body-1 m-0" style="line-height:1.75;"><code>info = client.quota()</code> возвращает <code>dict</code> с полями <code>plan</code>, <code>used</code>, <code>limit</code>, <code>reset_at</code>. Удобно для логирования в CI/CD и мониторинга в production.</p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- E-E-A-T -->
 <div class="container" id="sdk-python-eeaat">
   <div class="row">
@@ -762,7 +700,6 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
     </div>
   </div>
 </div>
-
 <!-- CTA -->
 <div class="container" id="sdk-python-cta">
   <div class="row">
@@ -791,7 +728,6 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
         </div>
         <p class="body-2 text-muted mt-3 mb-0">Технические вопросы: <a href="https://t.me/pixinlinkdev">@pixinlinkdev</a> · <a href="mailto:dev@pixinlink.ru">dev@pixinlink.ru</a></p>
       </div>
-
       <!-- Смежные материалы -->
       <div class="row mb-5">
         <div class="col-md-3 mb-3">

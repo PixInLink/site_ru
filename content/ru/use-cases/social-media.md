@@ -7,26 +7,21 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 ﻿<!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="social-media-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="/use-cases" class="badge" style="background:#e3f2fd;color:#1976d2;border-radius:4px;padding:5px 10px;">Кейсы</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Соцсети</span>
       </div>
-
       <h1 class="use-text-title2" style="font-size:2.8rem;line-height:1.2;margin-bottom:18px;">
         Изображения для соцсетей без дизайнера — прямо из URL
       </h1>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.25rem;line-height:1.6;">
         ВКонтакте, Telegram, Instagram, YouTube — нужный размер в одной ссылке.
       </p>
-
       <div class="card paper pa-4 mt-4" style="background:linear-gradient(135deg,#f3f8ff 0%,#eef7f5 100%);border:1px solid #dbe7f3;border-radius:12px;">
         <p class="body-1 m-0" style="font-size:1.05rem;line-height:1.75;">
           Генерируйте уникальные изображения без Canva, сложных фотостоков и дорогого дизайнера.
@@ -34,7 +29,6 @@ schema_type: "WebPage"
           Например: <code>pixinlink.ru/api/v1/1200x630/кофейня-утром-уютная-атмосфера</code>
         </p>
       </div>
-
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="https://app.pixinlink.ru/register" class="btn-flat btn-rounded" style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;">
           Попробовать бесплатно — 50 изображений
@@ -43,11 +37,9 @@ schema_type: "WebPage"
           Starter — 490 ₽/мес
         </a>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="social-media-tldr">
   <div class="row">
@@ -65,13 +57,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="social-media-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
-
       <div class="row mb-4">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #1976d2;">
@@ -98,7 +88,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <ul class="body-1 mb-5" style="line-height:1.9;list-style:none;padding-left:0;">
         <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
           <span><strong>Canva Pro:</strong> 1 600 ₽/мес — PixInLink Starter: 490 ₽/мес — разница <strong>3×</strong></span>
@@ -113,13 +102,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ -->
 <div class="container" id="social-media-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Задача, с которой сталкивается каждый SMM</h2>
-
       <p class="body-1 mb-4" style="line-height:1.85;">
         Представьте: SMM-менеджер ведёт 5 клиентов. Каждый клиент публикует
         15 постов в неделю с изображениями. Это 75 уникальных изображений в неделю,
@@ -127,7 +114,6 @@ schema_type: "WebPage"
         10–15 минут. Итого: <strong>50+ часов в месяц</strong> уходит только на картинки.
         Фотостоки предлагают тиражные фото, которые уже видели все конкуренты.
       </p>
-
       <div class="card paper pa-4 mb-5" style="background:#fff8e1;border-left:4px solid #ffb300;">
         <p class="body-1 m-0" style="line-height:1.75;">
           <strong>Решение:</strong> один URL с описанием превращается в уникальное AI-изображение
@@ -138,13 +124,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ТАБЛИЦА РАЗМЕРОВ (ОСНОВНАЯ) -->
 <div class="container" id="social-media-sizes">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Какой размер изображения нужен для каждой соцсети?</h2>
-
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -169,7 +153,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <p class="body-2 text-muted mb-5">
         💡 <strong>Лайфхак:</strong> 1280×720 одновременно работает для Telegram, YouTube превью и Дзен.
         1200×630 закрывает ВКонтакте, og:image Telegram и Дзен — один размер для трёх платформ.
@@ -177,15 +160,12 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПРОБЛЕМА → РЕШЕНИЕ → РЕЗУЛЬТАТ -->
 <div class="container" id="social-media-problem-solution">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Три сценария, которые тормозят SMM</h2>
-
       <div class="row mb-4">
-
         <!-- Сценарий А: Canva -->
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
@@ -194,7 +174,6 @@ schema_type: "WebPage"
             <p class="body-2 mb-0"><span class="text-danger">❌ Минусы:</span> каждое изображение вручную, шаблоны повторяются, нет уникальности. <strong>1 600 ₽/мес</strong> + время</p>
           </div>
         </div>
-
         <!-- Сценарий Б: Фотостоки -->
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #fb8c00;">
@@ -203,7 +182,6 @@ schema_type: "WebPage"
             <p class="body-2 mb-0"><span class="text-danger">❌ Минусы:</span> те же фото у всех конкурентов, не соответствует теме поста, поиск занимает 5–10 мин</p>
           </div>
         </div>
-
         <!-- Сценарий В: Дизайнер -->
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #7b1fa2;">
@@ -213,7 +191,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Решение -->
       <div class="card paper pa-4 mb-4" style="background:#e8f5e9;border:1px solid #a5d6a7;border-radius:12px;">
         <h3 class="headline mb-3" style="font-size:20px;color:#2e7d32;">✅ Решение PixInLink</h3>
@@ -223,7 +200,6 @@ schema_type: "WebPage"
           <code>pixinlink.ru/1200x630/ffffff/000000?prompt=уютная+кофейня+утро&style=realistic</code>
         </p>
       </div>
-
       <!-- Результат -->
       <div class="card paper pa-4 mb-5" style="background:#e3f2fd;border:1px solid #90caf9;border-radius:12px;">
         <h3 class="headline mb-3" style="font-size:20px;color:#1565c0;">📊 Результат: SMM-агентство, 5 клиентов, 300 изображений/мес</h3>
@@ -249,11 +225,9 @@ schema_type: "WebPage"
           <strong>Экономия: 45 часов и 110 ₽ в месяц + вовлечённость постов +38%</strong>
         </div>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- ДАННЫЕ И СТАТИСТИКА -->
 <div class="container" id="social-media-stats">
   <div class="row">
@@ -269,13 +243,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПОЛНАЯ ТАБЛИЦА ФОРМАТОВ -->
 <div class="container" id="social-media-full-table">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Полная таблица размеров для всех соцсетей</h2>
-
       <!-- ВКонтакте -->
       <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">ВКонтакте</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -295,7 +267,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <!-- Telegram -->
       <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">Telegram</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -314,7 +285,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <!-- Instagram -->
       <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">Instagram</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -332,7 +302,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <!-- YouTube + Pinterest + ОК + Дзен -->
       <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">YouTube, Pinterest, Одноклассники, Дзен</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -355,7 +324,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <div class="card paper pa-3 mb-5" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:8px;">
         <p class="body-2 m-0">
           💡 <strong>Шпаргалка:</strong>
@@ -367,13 +335,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- СРАВНЕНИЕ С CANVA / ФОТОСТОКАМИ -->
 <div class="container" id="social-media-comparison">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">PixInLink vs Canva vs Фотостоки vs Дизайнер</h2>
-
       <div class="card paper pa-0 mb-5 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight m-0">
@@ -454,7 +420,6 @@ schema_type: "WebPage"
           </table>
         </div>
       </div>
-
       <div class="card paper pa-3 mb-5" style="background:#fff8e1;border-left:4px solid #ffb300;">
         <p class="body-2 m-0">
           <strong>Итог:</strong> PixInLink выигрывает по цене + скорости + уникальности.
@@ -465,13 +430,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ГОТОВЫЕ URL ПО НИШАМ -->
 <div class="container" id="social-media-ready-urls">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Готовые URL для постов — копируй и используй</h2>
-
       <!-- ВКонтакте -->
       <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">
         <span style="background:#e8eaf6;padding:3px 10px;border-radius:4px;">ВКонтакте 1200×630</span>
@@ -518,7 +481,6 @@ schema_type: "WebPage"
           https://pixinlink.ru/1200x630/ffffff/000000?prompt={промпт}&style=realistic&seed={число}
         </code>
       </div>
-
       <!-- Telegram -->
       <h3 class="headline mb-2 mt-5" style="font-size:18px;font-weight:700;">
         <span style="background:#e0f2f1;padding:3px 10px;border-radius:4px;">Telegram 1280×720</span>
@@ -565,7 +527,6 @@ schema_type: "WebPage"
           https://pixinlink.ru/1280x720/0d0d0d/00e5ff?prompt={промпт}&style=cyberpunk&seed={число}
         </code>
       </div>
-
       <!-- Instagram -->
       <h3 class="headline mb-2 mt-5" style="font-size:18px;font-weight:700;">
         <span style="background:#fce4ec;padding:3px 10px;border-radius:4px;">Instagram 1080×1080 (квадрат)</span>
@@ -612,7 +573,6 @@ schema_type: "WebPage"
           https://pixinlink.ru/1080x1080/ffffff/212121?prompt={промпт}&style=realistic&seed={число}
         </code>
       </div>
-
       <!-- YouTube -->
       <h3 class="headline mb-2 mt-5" style="font-size:18px;font-weight:700;">
         <span style="background:#fff8e1;padding:3px 10px;border-radius:4px;">YouTube 1280×720</span>
@@ -649,7 +609,6 @@ schema_type: "WebPage"
           https://pixinlink.ru/1280x720/212121/ff8f00?prompt={промпт}&style=realistic&seed={число}
         </code>
       </div>
-
     </div>
   </div>
 </div>
@@ -658,7 +617,6 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как создать изображение для поста за 3 шага</h2>
-
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #1976d2;">
@@ -693,7 +651,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Пример полного URL -->
       <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-2" style="color:#888;">Пример готового URL:</p>
@@ -704,13 +661,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- АВТОМАТИЗАЦИЯ -->
 <div class="container" id="social-media-automation">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Автоматизация: изображение для каждого поста без ручного создания</h2>
-
       <!-- Ручной режим -->
       <h3 class="headline mb-2" style="font-size:18px;font-weight:700;">Ручной режим (30 секунд)</h3>
       <ol class="body-1 mb-4" style="line-height:2.0;padding-left:20px;">
@@ -718,7 +673,6 @@ schema_type: "WebPage"
         <li>Открыть → изображение загрузилось</li>
         <li>Сохранить → загрузить в пост ВКонтакте / Telegram</li>
       </ol>
-
       <!-- SMMplanner -->
       <h3 class="headline mb-2" style="font-size:18px;font-weight:700;">Через SMMplanner (для агентств)</h3>
       <p class="body-1 mb-4" style="line-height:1.85;">
@@ -726,7 +680,6 @@ schema_type: "WebPage"
         Вставьте URL PixInLink в поле «Изображение из URL» при создании шаблона.
         Каждый пост по шаблону автоматически получит уникальное изображение по теме.
       </p>
-
       <!-- Make / Integromat -->
       <h3 class="headline mb-2" style="font-size:18px;font-weight:700;">Через Make (Integromat)</h3>
       <p class="body-1 mb-2" style="line-height:1.75;">
@@ -740,7 +693,6 @@ Step 2: Build URL:
   ?prompt={encoded_title}&style=realistic
 Step 3: Post to VK with image_url={pixinlink_url}</pre>
       </div>
-
       <!-- n8n -->
       <h3 class="headline mb-2" style="font-size:18px;font-weight:700;">Через n8n (самохостинг)</h3>
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
@@ -751,44 +703,35 @@ const seed = Date.now() % 2147483647;
 const imageUrl =
   `https://pixinlink.ru/1200x630/ffffff/000000`
   + `?prompt=${prompt}&style=realistic&seed=${seed}`;
-
 return [{ json: { ...($input.item.json), image_url: imageUrl } }];</pre>
       </div>
-
       <!-- Telegram-бот -->
       <h3 class="headline mb-2" style="font-size:18px;font-weight:700;">Telegram-бот (авто-посты с изображениями)</h3>
       <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;"><span style="color:#608b4e;"># Python + pyTelegramBotAPI</span>
 import telebot
 from urllib.parse import quote
-
 bot = telebot.TeleBot("ВАШ_TOKEN")
-
 def make_image_url(prompt: str, w=1280, h=720) -> str:
     return (
         f"https://pixinlink.ru/{w}x{h}/ffffff/000000"
         f"?prompt={quote(prompt)}&style=realistic"
     )
-
 @bot.message_handler(commands=['post'])
 def auto_post(message):
     topic = message.text.replace('/post ', '')
     img_url = make_image_url(topic)
     bot.send_photo(message.chat.id, img_url, caption=topic)
-
 bot.polling()</pre>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- КЕЙСЫ -->
 <div class="container" id="social-media-cases">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Кейсы: как используют PixInLink</h2>
-
       <!-- Кейс 1 -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-start mb-2">
@@ -816,7 +759,6 @@ bot.polling()</pre>
           <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/0d0d0d/ff9800?prompt=ресторан-доставка-еда-вечер&style=realistic</code>
         </div>
       </div>
-
       <!-- Кейс 2 -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #43a047;">
         <div class="d-flex align-items-start mb-2">
@@ -844,7 +786,6 @@ bot.polling()</pre>
           <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1280x720/0d0d0d/00e5ff?prompt={тема_поста}&style=cyberpunk</code>
         </div>
       </div>
-
       <!-- Кейс 3 -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #fb8c00;">
         <div class="d-flex align-items-start mb-2">
@@ -872,19 +813,15 @@ bot.polling()</pre>
           <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/fff8f0/5d4037?prompt=деревянная-полка-в-скандинавском-интерьере&style=realistic</code>
         </div>
       </div>
-
     </div>
   </div>
 </div>
-
 <!-- FAQ -->
 <div class="container" id="social-media-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
-
       <div class="faq-list mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Можно ли загрузить изображение в ВКонтакте напрямую из URL?
@@ -895,7 +832,6 @@ bot.polling()</pre>
             URL работает напрямую.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Почему в Telegram вставляется ссылка, а не картинка?
@@ -905,7 +841,6 @@ bot.polling()</pre>
             именно фото-медиафайл — сохраните картинку и отправьте как фото.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Какой размер выбрать для одновременного постинга в ВКонтакте и Telegram?
@@ -915,7 +850,6 @@ bot.polling()</pre>
             обеих платформ и не будет обрезан.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Можно ли сделать изображение с текстом поверх (заголовок, цитата)?
@@ -925,7 +859,6 @@ bot.polling()</pre>
             Сейчас текст можно добавить в промпт: «...с крупной надписью SALE на баннере».
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Как сделать, чтобы изображение не менялось при повторных публикациях?
@@ -935,7 +868,6 @@ bot.polling()</pre>
             Он фиксирует генерацию: одинаковый prompt + seed = всегда одинаковое изображение.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Подходят ли изображения для таргетированной рекламы ВКонтакте?
@@ -945,7 +877,6 @@ bot.polling()</pre>
             <strong>Starter и выше</strong>. На Free-тарифе права принадлежат сервису.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Нужна ли регистрация для 50 бесплатных изображений?
@@ -955,7 +886,6 @@ bot.polling()</pre>
             не требуются.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Как автоматически прикреплять изображения через SMMplanner?
@@ -965,7 +895,6 @@ bot.polling()</pre>
             Шаблон с этим полем применится к каждому посту в серии.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Можно ли использовать изображения для Reels и YouTube Shorts?
@@ -975,7 +904,6 @@ bot.polling()</pre>
             Reels, Shorts и ВКонтакте Клипов.
           </p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Есть ли ограничения на коммерческое использование в рекламе?
@@ -985,12 +913,10 @@ bot.polling()</pre>
             На <strong>Starter и выше</strong> — права на 100% переданы вам, включая рекламу.
           </p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- ШПАРГАЛКА ФОРМАТОВ -->
 <div class="container" id="social-media-cheatsheet">
   <div class="row">
@@ -1028,14 +954,12 @@ bot.polling()</pre>
     </div>
   </div>
 </div>
-
 <!-- ОТЗЫВЫ -->
 <div class="container" id="social-media-reviews">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Что говорят SMM-специалисты</h2>
       <div class="row mb-5">
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
             <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">
@@ -1044,7 +968,6 @@ bot.polling()</pre>
             <p class="body-2 text-muted m-0"><strong>Маша Д.</strong>, SMM-менеджер, Москва</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
             <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">
@@ -1053,7 +976,6 @@ bot.polling()</pre>
             <p class="body-2 text-muted m-0"><strong>Артём К.</strong>, автор tech-канала, Санкт-Петербург</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
             <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">
@@ -1062,7 +984,6 @@ bot.polling()</pre>
             <p class="body-2 text-muted m-0"><strong>Наталья В.</strong>, руководитель SMM-агентства, Краснодар</p>
           </div>
         </div>
-
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
             <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">
@@ -1071,12 +992,10 @@ bot.polling()</pre>
             <p class="body-2 text-muted m-0"><strong>Сергей М.</strong>, YouTuber, Новосибирск</p>
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- ДОВЕРИЕ / E-E-A-T -->
 <div class="container" id="social-media-trust">
   <div class="row">
@@ -1099,15 +1018,11 @@ bot.polling()</pre>
     </div>
   </div>
 </div>
-
 <!-- JSON-LD -->
-
-
 <!-- ФИНАЛЬНЫЙ CTA -->
 <div class="container" id="social-media-cta">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <!-- Калькулятор экономии -->
       <div class="card paper pa-4 mb-5" style="background:#f8f9fa;border-radius:12px;border:1px solid #e0e0e0;">
         <h3 class="headline mb-3" style="font-size:20px;font-weight:700;">Калькулятор экономии</h3>
@@ -1126,7 +1041,6 @@ bot.polling()</pre>
           </div>
         </div>
       </div>
-
       <!-- CTA-блок -->
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
         <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Готовы автоматизировать контент для соцсетей?</h3>
@@ -1140,7 +1054,6 @@ bot.polling()</pre>
           </a>
         </div>
       </div>
-
       <!-- Смежный контент -->
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
@@ -1162,7 +1075,6 @@ bot.polling()</pre>
           </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>

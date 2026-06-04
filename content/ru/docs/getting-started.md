@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 ﻿  <!-- ХЕДЕР ДОКУМЕНТАЦИИ (GETTING STARTED) -->
   <div class="container mt-5 pt-5 mb-4" id="docs-header">
     <div class="row">
@@ -23,7 +22,6 @@ schema_type: "WebPage"
         <p class="use-text-subtitle2 text-muted" style="font-size: 1.3rem;">
           Без регистрации, без установки библиотек. Просто вставьте URL в тег <code>img</code>.
         </p>
-        
         <div class="card paper pa-4 mt-4" style="background: #f1f8e9; border: 1px solid #c5e1a5; border-radius: 8px;">
           <p class="body-1 m-0" style="color: #2e7d32;">
             <strong>🔥 Попробуйте прямо сейчас:</strong> Откройте эту ссылку в новой вкладке браузера — и получите первое изображение:
@@ -34,17 +32,14 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: Введение и TL;DR -->
   <div class="container" id="docs-intro">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <h3 class="display-2 mb-3 mt-4" style="font-size: 24px; font-weight: 700;">Почему PixInLink меняет правила игры</h3>
         <p class="body-1 mb-4" style="line-height: 1.8;">
           Обычно создание иллюстрации для блога — это процесс из 5 шагов: открыть Canva, создать дизайн, скачать файл, загрузить на сервер, вставить на страницу. Это занимает 10–15 минут. С <strong>PixInLink</strong> вы просто пишете URL прямо в атрибут <code>src</code> тега картинки — это занимает 60 секунд. 
         </p>
-
         <!-- Проблема - Решение -->
         <div class="row mb-5">
           <div class="col-md-6">
@@ -60,7 +55,6 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
-
         <h3 class="display-2 mb-3" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 50 генераций/мес бесплатно (с водяным знаком).</li>
@@ -68,29 +62,23 @@ schema_type: "WebPage"
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>CDN-кеш:</strong> Первая генерация 10–30 сек. Повторные запросы — <strong>менее 100 мс</strong>.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Форматы:</strong> Автоматическая отдача в WebP для ускорения LCP.</li>
         </ul>
-
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: Пошаговая инструкция (Как работает) -->
   <div class="container" id="docs-step-by-step">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <h3 class="display-2 mb-4 mt-4" style="font-size: 24px; font-weight: 700;">Пошаговая инструкция (Первый запрос)</h3>
-        
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #2196F3;">
           <h5 class="headline mb-2">Шаг 1: Откройте браузер (0–5 сек)</h5>
           <p class="body-2 mb-2">Вставьте в адресную строку следующую ссылку и нажмите Enter:</p>
           <code style="background: #f5f5f5; padding: 4px 8px; border-radius: 4px; word-break: break-all;">https://pixinlink.ru/800x600/ffffff/000000?prompt=современный+офис+программистов</code>
         </div>
-
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #FF9800;">
           <h5 class="headline mb-2">Шаг 2: Дождитесь генерации (5–30 сек)</h5>
           <p class="body-2 mb-0">При первом запросе вы увидите серый плейсхолдер <em>«Generating image...»</em>. Это нормально — нейросеть рисует картинку. <strong>Обновите страницу через 15–20 секунд</strong>, и вы увидите готовый результат.</p>
         </div>
-
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #4CAF50;">
           <h5 class="headline mb-2">Шаг 3: Вставьте в свой HTML (30–40 сек)</h5>
           <p class="body-2 mb-2">Теперь просто скопируйте URL и вставьте его в код вашего сайта (или поста в CMS):</p>
@@ -99,12 +87,10 @@ schema_type: "WebPage"
      <span style="color: #9cdcfe;">alt=</span><span style="color: #ce9178;">"Офис программистов"</span> <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span><span style="color: #ce9178;">"800"</span> <span style="color: #9cdcfe;">height=</span><span style="color: #ce9178;">"600"</span><span style="color: #569cd6;">&gt;</span></code></pre>
           </div>
         </div>
-
         <div class="card paper pa-4 mb-5" style="border-left: 4px solid #9C27B0;">
           <h5 class="headline mb-2">Шаг 4: Зафиксируйте картинку (Опционально)</h5>
           <p class="body-2 mb-0">Чтобы при очистке кеша картинка не сгенерировалась заново, добавьте параметр <code>&amp;seed=12345</code> (любое число). Это гарантирует, что изображение навсегда останется неизменным.</p>
         </div>
-
         <!-- Жизненный цикл (Архитектура) -->
         <h3 class="display-2 mb-3 mt-5" style="font-size: 20px; font-weight: 700;">Как это работает под капотом (Жизненный цикл)</h3>
         <div class="card paper pa-3 text-left mb-5" style="background: #1e1e1e; border-radius: 8px;">
@@ -115,26 +101,21 @@ schema_type: "WebPage"
               &rarr; AI (Kandinsky) &rarr; сжатие в WebP &rarr; загрузка в CDN
               &rarr; повторный запрос &rarr; <span style="color: #4CAF50;">HIT (302)</span></pre>
         </div>
-
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: Интеграции по платформам -->
   <div class="container" id="docs-integrations">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интеграция в вашу платформу</h3>
         <p class="body-1 mb-4">Выберите платформу, чтобы увидеть готовый пример кода для копирования.</p>
-
         <!-- Имитация Tabs -->
         <div class="card paper pa-0 mb-5 overflow-hidden">
           <div class="card-content" style="padding: 0;">
             <div style="background: #f5f5f5; padding: 10px 20px; border-bottom: 1px solid #ddd; font-weight: 600;">
               Примеры кода (WordPress, React, Python)
             </div>
-            
             <div style="padding: 20px;">
               <h6 class="use-text-subtitle2 mb-2 text-primary">1. WordPress (без плагина, Custom HTML)</h6>
               <p class="body-2 text-muted mb-2">В редакторе Gutenberg нажмите «+» &rarr; «Пользовательский HTML»:</p>
@@ -142,25 +123,21 @@ schema_type: "WebPage"
                 <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span><span style="color: #ce9178;">"https://pixinlink.ru/800x400/ffffff/000000?prompt=офис"</span>
      <span style="color: #9cdcfe;">alt=</span><span style="color: #ce9178;">"Офис"</span> <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span><span style="color: #ce9178;">"800"</span> <span style="color: #9cdcfe;">height=</span><span style="color: #ce9178;">"400"</span><span style="color: #569cd6;">&gt;</span></code></pre>
               </div>
-
               <h6 class="use-text-subtitle2 mb-2 text-primary">2. React / Next.js (Компонент)</h6>
               <div class="card paper pa-3 text-left mb-4" style="background: #1e1e1e; border-radius: 8px;">
                 <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">export function</span> <span style="color: #dcdcaa;">PixInLinkImage</span>({ prompt, width = <span style="color: #b5cea8;">800</span>, height = <span style="color: #b5cea8;">600</span>, seed = <span style="color: #ce9178;">''</span> }) {
   <span style="color: #569cd6;">let</span> url = <span style="color: #ce9178;">`https://pixinlink.ru/</span><span style="color: #569cd6;">${</span>width<span style="color: #569cd6;">}</span><span style="color: #ce9178;">x</span><span style="color: #569cd6;">${</span>height<span style="color: #569cd6;">}</span><span style="color: #ce9178;">/ffffff/000000?prompt=</span><span style="color: #569cd6;">${</span><span style="color: #dcdcaa;">encodeURIComponent</span>(prompt)<span style="color: #569cd6;">}</span><span style="color: #ce9178;">`</span>;
   <span style="color: #c586c0;">if</span> (seed) url += <span style="color: #ce9178;">`&amp;seed=</span><span style="color: #569cd6;">${</span>seed<span style="color: #569cd6;">}</span><span style="color: #ce9178;">`</span>;
-  
   <span style="color: #c586c0;">return</span> (
     <span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span>{url} <span style="color: #9cdcfe;">alt=</span>{prompt} <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span>{width} <span style="color: #9cdcfe;">height=</span>{height} <span style="color: #569cd6;">/&gt;</span>
   );
 }</code></pre>
               </div>
-
               <h6 class="use-text-subtitle2 mb-2 text-primary">3. Python (Django Template Tag)</h6>
               <div class="card paper pa-3 text-left mb-0" style="background: #1e1e1e; border-radius: 8px;">
                 <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #c586c0;">from</span> django <span style="color: #c586c0;">import</span> template
 <span style="color: #c586c0;">from</span> urllib.parse <span style="color: #c586c0;">import</span> quote
 register = template.Library()
-
 <span style="color: #569cd6;">@register.simple_tag</span>
 <span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">pixinlink_img</span>(prompt, width=<span style="color: #b5cea8;">800</span>, height=<span style="color: #b5cea8;">600</span>, seed=<span style="color: #ce9178;">''</span>):
     url = <span style="color: #ce9178;">f"https://pixinlink.ru/{width}x{height}/ffffff/000000?prompt={quote(prompt)}"</span>
@@ -170,11 +147,9 @@ register = template.Library()
             </div>
           </div>
         </div>
-
         <!-- ИНТЕРАКТИВНЫЙ ГЕНЕРАТОР -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интерактивный конструктор URL</h3>
         <p class="body-1 mb-4">Сгенерируйте код прямо здесь. Заполните форму, и мы соберем для вас готовый тег.</p>
-        
         <div class="card paper pa-4 mb-5" style="background: #fafafa; border: 1px solid #e0e0e0;">
           <form id="url-generator-form">
             <div class="row">
@@ -204,7 +179,6 @@ register = template.Library()
               </div>
             </div>
           </form>
-
           <div id="gen-result" style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #e0e0e0; display: block;">
             <p class="mb-1"><strong>Готовый тег для вставки:</strong></p>
             <div class="card paper pa-2 text-left mb-2" style="background: #1e1e1e; border-radius: 8px;">
@@ -214,10 +188,7 @@ register = template.Library()
             </div>
           </div>
         </div>
-
         <!-- JS для формы -->
-        
-
         <!-- КЕЙСЫ (Как используют PixInLink) -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">3 реальных кейса использования</h3>
         <div class="row mb-5">
@@ -243,11 +214,9 @@ register = template.Library()
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
-
   <!-- FAQ АГРЕГАТОР (Аккордеон) -->
   <div class="faq-style page-section mb-5 mt-5" id="faq">
     <div class="root">
@@ -287,7 +256,6 @@ register = template.Library()
       </div>
     </div>
   </div>
-
   <!-- ИСТОЧНИКИ И МЕТОДОЛОГИЯ -->
   <div class="container mb-5" id="docs-sources">
     <div class="row">
@@ -304,7 +272,6 @@ register = template.Library()
       </div>
     </div>
   </div>
-
   <!-- CALL TO ACTION (СЛЕДУЮЩИЕ ШАГИ) -->
   <div class="container mb-5" id="cta-block">
     <div class="row">
@@ -335,5 +302,4 @@ register = template.Library()
       </div>
     </div>
   </div>
-
   <!-- JSON-LD SEO Разметка (HowTo + BreadcrumbList) -->

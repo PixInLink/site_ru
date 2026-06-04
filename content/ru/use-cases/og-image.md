@@ -7,26 +7,21 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 ﻿<!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="open-graph-header">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="d-flex align-items-center mb-3">
         <a href="/use-cases" class="badge" style="background:#e3f2fd;color:#1976d2;border-radius:4px;padding:5px 10px;">Кейсы</a>
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">OG-изображения</span>
       </div>
-
       <h1 class="use-text-title2" style="font-size:2.8rem;line-height:1.2;margin-bottom:18px;">
         OG-изображения 1200×630 автоматически — для каждой страницы сайта
       </h1>
-
       <p class="use-text-subtitle2 text-muted" style="font-size:1.25rem;line-height:1.6;">
         Одна строка кода — уникальное превью в ВКонтакте, Telegram, WhatsApp для каждого поста
       </p>
-
       <div class="card paper pa-4 mt-4" style="background:linear-gradient(135deg,#f3f8ff 0%,#eef7f5 100%);border:1px solid #dbe7f3;border-radius:12px;">
         <p class="body-1 mb-2" style="line-height:1.75;">
           У каждой страницы сайта может быть своё уникальное превью для соцсетей без Photoshop, Canva
@@ -41,7 +36,6 @@ schema_type: "WebPage"
           </code>
         </div>
       </div>
-
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="/docs/getting-started" class="btn-flat btn-rounded"
            style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;">
@@ -55,7 +49,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- TL;DR -->
 <div class="container" id="open-graph-tldr">
   <div class="row">
@@ -73,13 +66,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- KEY FACTS -->
 <div class="container" id="open-graph-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
-
       <div class="row mb-4">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #1976d2;">
@@ -106,7 +97,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <ul class="body-1 mb-5" style="line-height:1.9;list-style:none;padding-left:0;">
         <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
           <span><strong>1200×630 px</strong> — базовый формат OG, стабильно работающий во ВКонтакте, Telegram, Facebook, LinkedIn, WhatsApp</span>
@@ -124,7 +114,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ОПРЕДЕЛЕНИЕ -->
 <div class="container" id="open-graph-definition">
   <div class="row">
@@ -140,7 +129,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ВВЕДЕНИЕ -->
 <div class="container" id="open-graph-intro">
   <div class="row">
@@ -168,7 +156,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- FEATURED SNIPPET -->
 <div class="container" id="open-graph-snippet">
   <div class="row">
@@ -187,7 +174,6 @@ schema_type: "WebPage"
 &lt;meta property="og:image:height" content="630"&gt;
 &lt;meta property="og:image:alt" content="Описание изображения"&gt;</pre>
       </div>
-
       <!-- Схема жизненного цикла -->
       <div class="card paper pa-4 mb-5" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
         <h4 class="headline mb-3" style="font-size:16px;font-weight:700;">Жизненный цикл og:image с PixInLink</h4>
@@ -264,7 +250,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Таблица: размеры og:image по платформам -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Размеры og:image для разных платформ</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -287,7 +272,6 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-4" style="background:#e8f5e9;border-left:4px solid #43a047;">
         <p class="body-2 m-0">💡 <strong>1200×630</strong> — универсальный размер для всех 6 платформ. Один URL в <code>og:image</code> закрывает все сети сразу.</p>
       </div>
-
       <!-- Таблица: параметры URL -->
       <h3 class="headline mb-3 mt-4" style="font-size:18px;font-weight:700;">URL-параметры PixInLink для og:image</h3>
       <div class="card paper pa-0 mb-5 overflow-hidden">
@@ -316,7 +300,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- СРАВНЕНИЕ С АНАЛОГАМИ -->
 <div class="container" id="open-graph-comparison">
   <div class="row">
@@ -397,7 +380,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ДАННЫЕ И СТАТИСТИКА -->
 <div class="container" id="open-graph-stats">
   <div class="row">
@@ -413,13 +395,11 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- HOWTO: 7 ШАГОВ + КОД 4 ПЛАТФОРМЫ -->
 <div class="container" id="open-graph-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как настроить автоматические og:image за 15 минут</h2>
-
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -428,7 +408,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-0">Откройте <a href="https://developers.facebook.com/tools/debug/" target="_blank">Facebook Sharing Debugger</a> или инструмент предпросмотра ВКонтакте, вставьте URL страницы и посмотрите, какой image видит краулер сейчас.</p>
       </div>
-
       <!-- Шаг 2 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #43a047;">
         <div class="d-flex align-items-center mb-2">
@@ -437,7 +416,6 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-0"><strong>Free</strong>: 50 генераций/мес, с водяным знаком — для теста. <strong>Starter</strong>: 490 ₽/мес, без водяного знака — для продакшна.</p>
       </div>
-
       <!-- Шаг 3 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #fb8c00;">
         <div class="d-flex align-items-center mb-2">
@@ -449,14 +427,12 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mt-2 mb-0">Промпт = slug страницы, тема статьи, товарный title или очищенный H1.</p>
       </div>
-
       <!-- Шаг 4: КОД -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #8e24aa;">
         <div class="d-flex align-items-center mb-3">
           <div style="background:#8e24aa;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">4</div>
           <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Интегрируйте в вашу платформу</h4>
         </div>
-
         <!-- Tabs: платформы -->
         <ul class="nav nav-tabs mb-3" id="ogTabs" role="tablist" style="border-bottom:1px solid #e0e0e0;">
           <li class="nav-item"><a class="nav-link active" href="#ogWordpress">WordPress</a></li>
@@ -464,7 +440,6 @@ schema_type: "WebPage"
           <li class="nav-item"><a class="nav-link" href="#ogHugo">Hugo</a></li>
           <li class="nav-item"><a class="nav-link" href="#ogDjango">Django</a></li>
         </ul>
-
         <!-- WordPress -->
         <div id="ogWordpress">
           <p class="body-2 mb-2 text-muted">functions.php или кастомный плагин:</p>
@@ -476,7 +451,6 @@ add_filter('wpseo_opengraph_image', function($img) {
 });</pre>
           </div>
         </div>
-
         <!-- Next.js -->
         <div id="ogNextjs" class="mt-3">
           <p class="body-2 mb-2 text-muted">app/layout.tsx или generateMetadata:</p>
@@ -495,7 +469,6 @@ export async function generateMetadata({ params }) {
 }</pre>
           </div>
         </div>
-
         <!-- Hugo -->
         <div id="ogHugo" class="mt-3">
           <p class="body-2 mb-2 text-muted">layouts/partials/head.html:</p>
@@ -508,14 +481,12 @@ export async function generateMetadata({ params }) {
 &lt;meta property="og:image:alt" content="{{ .Title }}"&gt;</pre>
           </div>
         </div>
-
         <!-- Django -->
         <div id="ogDjango" class="mt-3">
           <p class="body-2 mb-2 text-muted">views.py + шаблон:</p>
           <div class="pa-3" style="background:#1e1e1e;border-radius:8px;">
             <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;"><span style="color:#608b4e;"># Создаём стабильный URL og:image из title страницы</span>
 from django.utils.text import slugify
-
 og_image = (
   f"https://pixinlink.ru/api/v1/1200x630/{slugify(post.title)}"
   f"?seed={post.id}"
@@ -525,7 +496,6 @@ og_image = (
           </div>
         </div>
       </div>
-
       <!-- Шаг 5 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #00838f;">
         <div class="d-flex align-items-center mb-2">
@@ -534,7 +504,6 @@ og_image = (
         </div>
         <p class="body-2 mb-0">Передавайте <code>?seed=</code> на основе ID страницы или slug-хеша — одинаковый seed всегда возвращает одно и то же изображение. <code>?seed=post.id</code> в Django, <code>?seed={{ .Params.id }}</code> в Hugo.</p>
       </div>
-
       <!-- Шаг 6 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-center mb-2">
@@ -556,7 +525,6 @@ og_image = (
           </div>
         </div>
       </div>
-
       <!-- Шаг 7 -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #ffb300;">
         <div class="d-flex align-items-center mb-2">
@@ -565,7 +533,6 @@ og_image = (
         </div>
         <p class="body-2 mb-0">Следите за числом генераций в дашборде и обновляйте тариф заранее, если сайт активно репостят. Статус API: <a href="https://status.pixinlink.ru" target="_blank">status.pixinlink.ru</a>.</p>
       </div>
-
     </div>
   </div>
 </div>
@@ -594,13 +561,11 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- КЕЙСЫ -->
 <div class="container" id="open-graph-cases">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Кейсы внедрения</h2>
-
       <!-- Кейс 1: Новостной портал -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-start mb-2">
@@ -628,7 +593,6 @@ og_image = (
           <code style="font-size:12px;">pixinlink.ru/api/v1/1200x630/открытие-новой-больницы-в-самаре</code>
         </div>
       </div>
-
       <!-- Кейс 2: SaaS-стартап -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-start mb-2">
@@ -656,7 +620,6 @@ og_image = (
           <code style="font-size:12px;">`https://pixinlink.ru/api/v1/1200x630/${encodeURIComponent(title)}?seed=42`</code>
         </div>
       </div>
-
       <!-- Кейс 3: Интернет-магазин -->
       <div class="card paper pa-4 mb-5" style="border-left:4px solid #43a047;">
         <div class="d-flex align-items-start mb-2">
@@ -684,7 +647,6 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- ПРИМЕРЫ ПО ТИПАМ САЙТОВ -->
 <div class="container" id="open-graph-examples">
   <div class="row">
@@ -719,7 +681,6 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- TROUBLESHOOTING -->
 <div class="container" id="open-graph-troubleshooting">
   <div class="row">
@@ -737,69 +698,56 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- FAQ -->
 <div class="container" id="open-graph-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что такое og:image и зачем он нужен?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">URL изображения в Open Graph-разметке — соцсеть использует его в карточке ссылки при репосте. От качества превью напрямую зависит кликабельность ссылки в ленте.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему Telegram не обновляет og:image сразу после изменения URL?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Telegram кеширует предпросмотр страницы. Для принудительного обновления используйте <a href="https://t.me/WebpageBot" target="_blank">@WebpageBot</a> — он заново сканирует URL и пересобирает preview.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как автоматически формировать промпт из заголовка страницы?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">WordPress: <code>sanitize_title(get_the_title())</code>. Django: <code>slugify(post.title)</code>. Hugo: <code>{{ .Title | urlize }}</code>. Next.js: <code>encodeURIComponent(title)</code>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Нужна ли регистрация для использования PixInLink в og:image?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Для теста — нет. Для продакшна с контролем лимитов и без водяного знака — нужен тариф Starter.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Сколько генераций нужно сайту с 500 страницами?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Не 500 сразу. Генерация происходит по мере реальных репостов — когда краулер впервые запрашивает <code>og:image</code>. Длинный архив не «съедает» весь лимит за первый день.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как убедиться, что og:image отображается правильно во ВКонтакте?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Используйте инструмент предпросмотра ВКонтакте, вставьте URL страницы и посмотрите, какое изображение видит краулер. Аналогичен Facebook Sharing Debugger.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли добавить логотип или текст на og:image?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Title overlay и брендинг-шаблоны — в roadmap <strong>Q2–Q3 2026</strong>. Пока текст можно включить в промпт: <code>«...с крупной надписью Brand Name»</code>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что будет, если CDN недоступен?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Краулер может не получить картинку. Рекомендуется иметь fallback <code>og:image</code> (статический дефолт) и отслеживать статус на <a href="https://status.pixinlink.ru" target="_blank">status.pixinlink.ru</a>.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как зафиксировать изображение, чтобы оно не менялось?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Параметр <code>?seed=ID_страницы</code> или хеш slug. Одинаковый prompt + seed = всегда одинаковое изображение.</p>
         </div>
-
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Поддерживается ли og:image для AMP-страниц?</h4>
           <p class="body-1 m-0" style="line-height:1.75;">Да. Open Graph работает через мета-теги страницы независимо от формата верстки. AMP-страница имеет те же мета-теги в <code>&lt;head&gt;</code>.</p>
         </div>
-
       </div>
     </div>
   </div>
 </div>
-
 <!-- ОТЗЫВЫ -->
 <div class="container" id="open-graph-reviews">
   <div class="row">
@@ -834,7 +782,6 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- КАЛЬКУЛЯТОР -->
 <div class="container" id="open-graph-calculator">
   <div class="row">
@@ -865,7 +812,6 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- E-E-A-T -->
 <div class="container" id="open-graph-trust">
   <div class="row">
@@ -889,15 +835,11 @@ og_image = (
     </div>
   </div>
 </div>
-
 <!-- JSON-LD -->
-
-
 <!-- ФИНАЛЬНЫЙ CTA -->
 <div class="container" id="open-graph-cta">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
         <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">
           Попробовать og:image — 50 генераций бесплатно
@@ -915,7 +857,6 @@ og_image = (
         </div>
         <p class="body-2 text-muted mt-3 mb-0">Поддержка 24/7: <a href="https://t.me/pixinlinksupport">@pixinlinksupport</a></p>
       </div>
-
       <!-- Смежный контент -->
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
@@ -937,7 +878,6 @@ og_image = (
           </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>

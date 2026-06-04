@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
   <!-- HERO: Возможности PixInLink -->
   <div class="banner-basic">
     <div class="banner-wrap">
@@ -31,7 +30,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- ФИЧИ (Block 2A) -->
   <div class="container page-section" id="features">
     <div class="row mb-4">
@@ -53,7 +51,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/url-api/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 2: ИИ-генерация Kandinsky -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -63,7 +60,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/kak-rabotaet-ai/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 3: Стили -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -73,7 +69,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/styles/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 4: Улучшение промпта -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -83,7 +78,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/prompt-enhancement/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 5: CDN-доставка -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -93,7 +87,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/cdn-delivery/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 6: WebP-оптимизация -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -103,7 +96,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/webp-optimization/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 7: Водяной знак -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -113,7 +105,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/watermark/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 8: Seed -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -123,7 +114,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/seed/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 9: Иммутабельный кеш -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -133,7 +123,6 @@ schema_type: "WebPage"
           <a href="https://pixinlink.ru/features/kak-rabotaet-ai/#cache" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
-
       <!-- Фича 10: Безопасность и 152-ФЗ -->
       <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
         <div class="feature-list">
@@ -145,7 +134,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- КТО ЭТО ИСПОЛЬЗУЕТ (Block 13: Таблица) -->
   <div class="container page-section" id="audience">
     <div class="row mb-4">
@@ -195,7 +183,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- ПОПРОБУЙТЕ ПРЯМО СЕЙЧАС (Примеры URL) -->
   <div class="container page-section" id="try-now">
     <div class="row mb-4">
@@ -213,7 +200,6 @@ schema_type: "WebPage"
           <p class="body-2 m-0" style="color: #858585;">Параметры: размер 800×400, промпт на русском, стиль фотореализма.</p>
         </div>
       </div>
-      
       <!-- Пример 2 -->
       <div class="col-md-12 mb-3">
         <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
@@ -222,7 +208,6 @@ schema_type: "WebPage"
           <p class="body-2 m-0" style="color: #858585;">Параметры: квадрат 600×600, стиль аниме, зафиксированный seed для постоянного результата.</p>
         </div>
       </div>
-
       <!-- Пример 3 -->
       <div class="col-md-12 mb-3">
         <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
@@ -233,7 +218,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- FAQ (Block 7A) -->
   <div class="faq-style page-section" id="faq">
     <div class="root">
@@ -271,7 +255,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- СТА (Block 8) - Начните бесплатно -->
   <div class="call-to-action page-section pb-5" id="cta">
     <div class="container fixed-width-md-up">

@@ -7,6 +7,8 @@ export interface Page {
   html: string;
   blocks: Record<string, string>;
   readingTime: number;
+  section: string;
+  isIndex?: boolean;
 }
 
 export const pages: Page[] = generatedPages.map((page) => ({
@@ -19,6 +21,8 @@ export const pages: Page[] = generatedPages.map((page) => ({
   html: page.html,
   blocks: { ...page.blocks },
   readingTime: page.readingTime,
+  section: page.section || "",
+  isIndex: page.isIndex ?? false,
 }));
 
 export function findPageBySlug(slug: string): Page | undefined {

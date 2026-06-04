@@ -8,8 +8,16 @@ export const siteTree = {
       "titleRu": "Главная",
       "titleEn": "Home",
       "dropdown": true,
-      "pages": [],
-      "component": "HomePage"
+      "pages": [
+        {
+          "slug": "home-variant-1",
+          "title": "PixInLink — AI-генератор изображений по URL. Без дизайнера, без стоков.",
+          "description": "PixInLink — российский SaaS-сервис генерации изображений через URL. Вставьте описание в img src — уникальное AI-изображение появится само за 10–30 секунд.",
+          "isIndex": true,
+          "path": "content/ru/home/index.md"
+        }
+      ],
+      "component": null
     },
     {
       "id": "about",

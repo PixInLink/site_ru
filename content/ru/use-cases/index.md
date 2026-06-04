@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 ﻿  <!-- HERO: Сценарии использования -->
   <div class="banner-basic">
     <div class="banner-wrap">
@@ -31,7 +30,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- ВАРИАНТЫ ИНТЕГРАЦИИ (Block 2A адаптированный в 2 колонки) -->
   <div class="container page-section" id="cases-grid">
     <div class="row mb-5">
@@ -40,7 +38,6 @@ schema_type: "WebPage"
         <p class="use-text-subtitle2">Как именно внедрить URL API в ваш процесс</p>
       </div>
     </div>
-    
     <div class="row">
       <!-- Кейс 1: Заголовки блога -->
       <div class="col-md-6 pa-4">
@@ -55,7 +52,6 @@ schema_type: "WebPage"
           <a href="/use-cases/blog-headers" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 2: og:image -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -69,7 +65,6 @@ schema_type: "WebPage"
           <a href="/use-cases/og-image" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 3: Соцсети -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -83,7 +78,6 @@ schema_type: "WebPage"
           <a href="/use-cases/social-media" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 4: E-commerce -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -97,7 +91,6 @@ schema_type: "WebPage"
           <a href="/use-cases/ecommerce-placeholders" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 5: SEO-контент -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -111,7 +104,6 @@ schema_type: "WebPage"
           <a href="/use-cases/seo-content" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 6: Новости -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -125,7 +117,6 @@ schema_type: "WebPage"
           <a href="/use-cases/news-media" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 7: Email-рассылки -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -139,7 +130,6 @@ schema_type: "WebPage"
           <a href="/use-cases/email-marketing" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
       </div>
-
       <!-- Кейс 8: Прототипы -->
       <div class="col-md-6 pa-4">
         <div class="feature-list card paper pa-4 h-100 text-left">
@@ -155,7 +145,6 @@ schema_type: "WebPage"
       </div>
     </div> <!-- Закрываем row сетки -->
   </div>
-
   <!-- ОДИН ФОРМАТ — ЛЮБОЙ СЦЕНАРИЙ (Таблица) -->
   <div class="container page-section" id="formats-table">
     <div class="row mb-4">
@@ -215,7 +204,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- КАК ЭТО РАБОТАЕТ (Шаги, Block 2A) -->
   <div class="container page-section" id="how-it-works">
     <div class="row mb-5">
@@ -251,7 +239,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- CTA (Block 8) - Попробуйте на своём проекте -->
   <div class="call-to-action page-section pb-5" id="cta">
     <div class="container fixed-width-md-up">
@@ -273,7 +260,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- FAQ (Block 7A) -->
   <div class="faq-style page-section mb-5" id="faq">
     <div class="root">
@@ -320,5 +306,4 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- JSON-LD SEO Разметка -->

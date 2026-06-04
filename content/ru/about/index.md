@@ -8,7 +8,6 @@ layout: "page"
 schema_type: "AboutPage"
 cover_image: "https://pixinlink.ru/images/logo-saas.png"
 ---
-
 <div class="banner-basic mb-5">
   <div class="banner-wrap">
     <div class="inner">
@@ -25,17 +24,13 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
     </div>
   </div>
 </div>
-
 <div class="container page-section max-md">
   <div class="row">
     <div class="col-12">
-
       <h3>Кто мы</h3>
       <p>PixInLink — российский сервис генерации изображений по URL. Наша миссия: избавить разработчиков, блогеров и владельцев сайтов от зависимости от стоковых фотографий, дизайнеров и сложного бэкенда для создания визуального контента.</p>
       <p>Мы построили платформу, где изображение — это просто URL. Вы формируете ссылку вида <code>pixinlink.ru/800x400/описание</code>, вставляете её в тег <code>&lt;img src=""&gt;</code>, и сервис автоматически генерирует уникальное AI-изображение, конвертирует в WebP и доставляет через CDN.</p>
-
       <h3 class="mt-5">Технологический стек</h3>
-
       <div class="row mt-4">
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4 h-100" style="border-top: 4px solid #2196F3;">
@@ -62,9 +57,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
           </div>
         </div>
       </div>
-
       <h3 class="mt-5">Ключевые цифры</h3>
-
       <div class="row mt-4 text-center">
         <div class="col-sm-3 col-6 mb-4">
           <h4 style="color: #2196F3; font-size: 2.5rem; font-weight: 700;">12</h4>
@@ -83,7 +76,6 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
           <p class="body-2 text-muted">кеширования в CDN</p>
         </div>
       </div>
-
       <h3 class="mt-5">Интеграции</h3>
       <p>PixInLink интегрируется с основными CMS и платформами:</p>
       <ul>
@@ -93,16 +85,12 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
         <li><strong>REST API</strong> — прямое HTTP-взаимодействие, токен-авторизация, bulk-генерация</li>
         <li><strong>Make.com / Zapier</strong> — no-code автоматизация через webhook-интеграцию</li>
       </ul>
-
       <h3 class="mt-5">Юридическая информация</h3>
       <p>Юридическое лицо: ООО «ПиксИнЛинк». Платформа зарегистрирована в соответствии с законодательством РФ. Все серверы расположены на территории России.</p>
       <p>Подробнее: <a href="https://pixinlink.ru/legal/terms/">Пользовательское соглашение</a> и <a href="https://pixinlink.ru/legal/privacy/">Политика конфиденциальности</a>.</p>
-
     </div>
   </div>
 </div>
-
 (блок: cta)
 ## Присоединяйтесь к PixInLink
-
 12 изображений бесплатно — без регистрации и кредитной карты. [Начать сейчас](https://app.pixinlink.ru/register)

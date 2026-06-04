@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO: Введение в интеграции PixInLink -->
 <div class="banner-basic">
   <div class="banner-wrap">
@@ -29,7 +28,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПЛАГИНЫ И ИНТЕГРАЦИИ (Block 2A) -->
 <div class="container page-section" id="cms-plugins">
   <div class="row mb-5">
@@ -38,7 +36,6 @@ schema_type: "WebPage"
       <p class="use-text-subtitle2">Готовые решения для популярных платформ</p>
     </div>
   </div>
-  
   <div class="row">
     <!-- WordPress -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
@@ -57,7 +54,6 @@ schema_type: "WebPage"
         <a href="/integrations/wordpress" class="btn-flat primary-text waves-effect mt-2">Документация</a>
       </div>
     </div>
-
     <!-- ModX -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
       <div class="feature-list">
@@ -74,7 +70,6 @@ schema_type: "WebPage"
         <a href="/integrations/modx" class="btn-flat primary-text waves-effect mt-2">Документация</a>
       </div>
     </div>
-
     <!-- Webflow -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
       <div class="feature-list">
@@ -91,7 +86,6 @@ schema_type: "WebPage"
         <a href="/integrations/webflow" class="btn-flat primary-text waves-effect mt-2">Документация</a>
       </div>
     </div>
-
     <!-- Ghost CMS -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
       <div class="feature-list">
@@ -104,7 +98,6 @@ schema_type: "WebPage"
         <a href="/integrations/ghost" class="btn-flat primary-text waves-effect mt-2">Документация</a>
       </div>
     </div>
-
     <!-- Zapier -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
       <div class="feature-list">
@@ -123,7 +116,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- SDK SECTION (Адаптированный Block 2B: чередующиеся блоки) -->
 <div class="container page-section" id="sdk">
   <div class="row mb-5">
@@ -132,7 +124,6 @@ schema_type: "WebPage"
       <p class="use-text-subtitle2">Готовые библиотеки для вашего бэкенда</p>
     </div>
   </div>
-
   <!-- Python SDK -->
   <div class="row align-items-center mb-5">
     <div class="col-md-6 px-4">
@@ -148,7 +139,6 @@ schema_type: "WebPage"
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
 <pre class="m-0" style="font-family: monospace;">
 <span style="color: #c586c0;">from</span> pixinlink <span style="color: #c586c0;">import</span> PixInLink
-
 client = PixInLink(api_key=<span style="color: #ce9178;">"pk_live_..."</span>)
 url = client.generate(
     prompt=<span style="color: #ce9178;">"офис"</span>, 
@@ -159,7 +149,6 @@ url = client.generate(
       </div>
     </div>
   </div>
-
   <!-- JavaScript SDK -->
   <div class="row align-items-center mb-5 flex-md-row-reverse">
     <div class="col-md-6 px-4">
@@ -175,7 +164,6 @@ url = client.generate(
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
 <pre class="m-0" style="font-family: monospace;">
 <span style="color: #c586c0;">import</span> { PixInLink } <span style="color: #c586c0;">from</span> <span style="color: #ce9178;">'pixinlink-sdk'</span>;
-
 <span style="color: #569cd6;">const</span> client = <span style="color: #569cd6;">new</span> PixInLink({ apiKey: <span style="color: #ce9178;">'pk_live_...'</span> });
 <span style="color: #569cd6;">const</span> url = <span style="color: #c586c0;">await</span> client.generate({ 
     prompt: <span style="color: #ce9178;">'офис'</span>, 
@@ -186,7 +174,6 @@ url = client.generate(
       </div>
     </div>
   </div>
-  
   <!-- PHP SDK -->
   <div class="row align-items-center mb-5">
     <div class="col-md-6 px-4">
@@ -212,7 +199,6 @@ url = client.generate(
     </div>
   </div>
 </div>
-
 <!-- REST API (Block 2A) -->
 <div class="container page-section" id="api">
   <div class="row mb-4">
@@ -251,7 +237,6 @@ url = client.generate(
     </div>
   </div>
 </div>
-
 <!-- НАЧНИ БЕЗ ПЛАГИНА НАПРЯМУЮ (Код) -->
 <div class="container page-section" id="direct">
   <div class="row align-items-center">
@@ -275,7 +260,6 @@ url = client.generate(
     </div>
   </div>
 </div>
-
 <!-- ТАБЛИЦА: Выбор нужной интеграции (Block 13) -->
 <div class="container page-section">
   <div class="row mb-4">
@@ -334,7 +318,6 @@ url = client.generate(
     </div>
   </div>
 </div>
-
 <!-- FAQ (Block 7A) -->
 <div class="faq-style page-section" id="faq">
   <div class="root">
@@ -381,7 +364,6 @@ url = client.generate(
     </div>
   </div>
 </div>
-
 <!-- СТА (Block 8) - Не нашли свою платформу -->
 <div class="call-to-action page-section pb-5">
   <div class="container fixed-width-md-up">

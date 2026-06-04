@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
   <!-- ХЕДЕР ДОКУМЕНТАЦИИ -->
   <div class="container mt-5 pt-5 mb-4" id="api-header">
     <div class="row">
@@ -23,7 +22,6 @@ schema_type: "WebPage"
         <p class="body-1 mt-3" style="font-size: 1.1rem; line-height: 1.6;">
           Достаточно вставить правильный URL в атрибут <code>&lt;img src="..."&gt;</code> вашего сайта — никаких токенов OAuth, никаких асинхронных POST-запросов и вебхуков для старта работы. Сервер мгновенно вернёт готовое изображение или placeholder.
         </p>
-        
         <!-- Самый простой запрос -->
         <h6 class="use-text-subtitle2 mt-4 mb-2">Самый простой запрос:</h6>
         <div class="card paper pa-3 text-left mb-2" style="background: #1e1e1e; border-radius: 8px;">
@@ -35,12 +33,10 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: TL;DR, Факты и Схема -->
   <div class="container" id="api-intro">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <!-- TL;DR -->
         <div class="card paper pa-4 mb-5" style="background: #f1f8e9; border-left: 4px solid #4CAF50; box-shadow: none;">
           <h5 class="headline mb-2" style="color: #2E7D32;">TL;DR</h5>
@@ -52,7 +48,6 @@ schema_type: "WebPage"
             Справочник ниже — всё для copy-paste.
           </p>
         </div>
-
         <!-- Ключевые факты (Key Facts) -->
         <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
@@ -64,13 +59,11 @@ schema_type: "WebPage"
           <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i> <strong>5 форматов ответа HTTP:</strong> 302 (hit), 200 (miss), 400, 401, 429.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i> <strong>Rate limit:</strong> Free: 5 req/min; Business: 600 req/min.</li>
         </ul>
-
         <!-- Что такое URL API -->
         <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Что такое URL API?</h3>
         <p class="body-1 mb-4" style="line-height: 1.8;">
           <strong>URL API (URL-based API)</strong> — это интерфейс, где все параметры запроса передаются непосредственно в URL-строке, а сервер возвращает готовый ресурс по HTTP GET-запросу. В отличие от стандартного REST API (POST → async job → polling → download), наш URL API можно вставить прямо в HTML, и всю сложную асинхронную работу под капотом выполнит наш сервер. Идеально для статических сайтов (Hugo, Next.js), мета-тегов <code>og:image</code> и email-рассылок.
         </p>
-
         <!-- Схема архитектуры (Cache Hit / Miss) -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Как работает запрос (Архитектура)</h3>
         <div class="card paper pa-4 mb-5" style="background: #fdfdfd; border: 1px solid #eee;">
@@ -85,20 +78,16 @@ schema_type: "WebPage"
             </li>
           </ol>
         </div>
-
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: Справочник параметров -->
   <div class="container" id="api-parameters">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <!-- PATH PARAMETERS -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Path Parameters (обязательные)</h3>
         <p class="body-1 mb-4">Параметры пути передаются непосредственно в структуре URL до знака вопроса <code>?</code>. Порядок строгий: <code>/{width}x{height}/{background_hex}/{foreground_hex}</code>.</p>
-        
         <div class="card paper pa-0 mb-4 overflow-hidden">
           <div class="table-responsive">
             <table class="highlight striped m-0">
@@ -147,10 +136,8 @@ schema_type: "WebPage"
         <p class="body-2 text-muted mb-5">
           <strong>Примечание:</strong> Значения размеров вне диапазона «зажимаются» (clamped) без ошибки. Параметры цвета (bg/fg) — это визуальная подсказка для нейросети, а не жесткое правило.
         </p>
-
         <!-- QUERY PARAMETERS -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Query Parameters (опциональные)</h3>
-        
         <!-- 1. prompt -->
         <h5 class="headline mb-2 text-primary" id="param-prompt">1. prompt — Текстовое описание</h5>
         <p class="body-2 text-muted mb-3">Обязательный параметр (в строке запроса или в slug-пути). Максимум 500 символов (обрезается без ошибки).</p>
@@ -158,7 +145,6 @@ schema_type: "WebPage"
           <li><strong>Поведение:</strong> Если промпт короткий (1-3 слова), AI автоматически добавляет дескрипторы для улучшения качества. Русский язык (Kandinsky 3.1) поддерживается нативно.</li>
           <li><strong>Кодирование:</strong> Обязательно используйте URL-encode (пробелы = <code>%20</code> или <code>+</code>).</li>
         </ul>
-
         <!-- 2. style -->
         <h5 class="headline mb-2 text-primary mt-5" id="param-style">2. style — Художественный стиль</h5>
         <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -182,11 +168,9 @@ schema_type: "WebPage"
             </table>
           </div>
         </div>
-
         <!-- 3. seed -->
         <h5 class="headline mb-2 text-primary mt-5" id="param-seed">3. seed — Фиксация результата</h5>
         <p class="body-1 mb-3">Тип: <code>integer</code> (1–2 147 483 647). Если не передан — при каждом новом запросе (cache-miss) генерируется уникальное изображение. Если передан — комбинация «тот же prompt + тот же seed» всегда возвращает одну и ту же картинку. Незаменимо для <code>og:image</code>.</p>
-        
         <div class="row">
           <div class="col-md-6">
             <h6 class="use-text-subtitle2 mt-2 mb-2">PHP (Алгоритм из slug)</h6>
@@ -209,7 +193,6 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
-
         <!-- 4. format -->
         <h5 class="headline mb-2 text-primary mt-5" id="param-format">4. format — Формат вывода</h5>
         <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -231,7 +214,6 @@ schema_type: "WebPage"
             </table>
           </div>
         </div>
-
         <!-- 5. watermark & callback -->
         <div class="row">
           <div class="col-md-6">
@@ -244,7 +226,6 @@ schema_type: "WebPage"
             <p class="body-2 mb-3">Тип: URL. Доступно для Pro+. Сервер отправит POST-запрос с JSON-payload, когда генерация завершится. Идеально для прогрева кеша.</p>
           </div>
         </div>
-
         <div class="card paper pa-3 text-left mb-5" style="background: #1e1e1e; border-radius: 8px;">
           <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #ce9178; font-size: 13px;"><span style="color: #6a9955;">// Пример payload на ваш callback URL</span>
 {
@@ -254,20 +235,16 @@ schema_type: "WebPage"
   <span style="color: #9cdcfe;">"prompt"</span>: <span style="color: #ce9178;">"офис разработчиков"</span>
 }</code></pre>
         </div>
-
       </div>
     </div>
   </div>
-
   <!-- КОНТЕНТ: Аутентификация и Коды ответов -->
   <div class="container" id="api-auth-errors">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        
         <!-- Аутентификация -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Аутентификация</h3>
         <p class="body-1 mb-3">API поддерживает две схемы работы: анонимную (Free-тариф) и авторизованную (Starter+). Для авторизации используется стандартный заголовок <code>Authorization: Bearer</code>.</p>
-        
         <div class="row mb-5">
           <div class="col-md-6">
             <h6 class="use-text-subtitle2 mb-2">1. Free тариф (Без токена)</h6>
@@ -285,11 +262,9 @@ Authorization: Bearer pk_live_вашключ</code></pre>
             <p class="body-2 text-muted">Полные права, без watermark.</p>
           </div>
         </div>
-
         <!-- Коды ответов HTTP -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Коды ответов HTTP</h3>
         <p class="body-1 mb-4">API использует стандартные HTTP-коды. При успешном попадании в кэш возвращается <code>302 Found</code>, при промахе — <code>200 OK</code> с временным SVG (и запускается фоновая генерация).</p>
-
         <div class="card paper pa-0 mb-4 overflow-hidden">
           <div class="table-responsive">
             <table class="highlight striped m-0">
@@ -342,7 +317,6 @@ Authorization: Bearer pk_live_вашключ</code></pre>
             </table>
           </div>
         </div>
-
         <!-- Пример 400 Bad Request -->
         <h6 class="use-text-subtitle2 mt-4 mb-2">Пример тела ответа (400 Bad Request):</h6>
         <div class="card paper pa-3 text-left mb-5" style="background: #1e1e1e; border-radius: 8px;">
@@ -352,7 +326,6 @@ Authorization: Bearer pk_live_вашключ</code></pre>
   <span style="color: #ce9178;">"field"</span>: <span style="color: #ce9178;">"width"</span>
 }</code></pre>
         </div>
-
         <!-- Rate Limits и квоты -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Rate Limits и квоты</h3>
         <p class="body-1 mb-4">Cache hit (302) не считается генерацией — квота не расходуется. Списание происходит только при Cache miss (200).</p>
@@ -376,7 +349,6 @@ Authorization: Bearer pk_live_вашключ</code></pre>
             </table>
           </div>
         </div>
-
         <!-- Полный пример URL -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Полный пример API-запроса</h3>
         <div class="card paper pa-4 mb-4 text-left" style="background: #1e1e1e; border-radius: 8px;">
@@ -387,14 +359,11 @@ Authorization: Bearer pk_live_вашключ</code></pre>
 <span style="color: #9cdcfe;">&amp;format</span>=webp
 <span style="color: #9cdcfe;">&amp;watermark</span>=false
 <span style="color: #9cdcfe;">&amp;callback</span>=https%3A%2F%2Fmysite.ru%2Fhook
-
 <span style="color: #569cd6;">Authorization:</span> Bearer pk_live_вашключздесь</pre>
         </div>
-
       </div>
     </div>
   </div>
-
   <!-- CALL TO ACTION -->
   <div class="container mb-5" id="cta-block">
     <div class="row">

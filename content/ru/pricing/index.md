@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 <!-- HERO: Тарифы PixInLink -->
 <div class="banner-basic">
   <div class="banner-wrap">
@@ -24,12 +23,10 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- КАРТОЧКИ ТАРИФОВ (Block 5B) -->
 <div class="container page-section" id="pricing-cards">
   <div class="pricing-wrap">
     <div class="row align-items-end">
-      
       <!-- Тариф 1: Free -->
       <div class="col-lg-3 col-sm-6 px-3 mb-4">
         <div class="card center-box price-card">
@@ -52,7 +49,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Тариф 2: Starter -->
       <div class="col-lg-3 col-sm-6 px-3 mb-4">
         <div class="card center-box price-card">
@@ -76,7 +72,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Тариф 3: Pro (Популярный) -->
       <div class="col-lg-3 col-sm-6 px-3 mb-4">
         <div class="card center-box price-card" style="border: 2px solid #2196F3; transform: scale(1.05); z-index: 1;">
@@ -101,7 +96,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
       <!-- Тариф 4: Business -->
       <div class="col-lg-3 col-sm-6 px-3 mb-4">
         <div class="card center-box price-card">
@@ -125,7 +119,6 @@ schema_type: "WebPage"
           </div>
         </div>
       </div>
-
     </div>
   </div>
   <div class="row mt-3">
@@ -134,7 +127,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ПОДРОБНОЕ СРАВНЕНИЕ ТАРИФОВ (Block 13) -->
 <div class="container page-section" id="compare">
   <div class="row mb-4">
@@ -250,7 +242,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- БЛОК ROI / ОКУПАЕМОСТЬ -->
 <div class="container page-section" id="roi">
   <div class="row align-items-center mb-5 flex-md-row-reverse">
@@ -298,7 +289,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ОТЗЫВЫ (Block 4A) -->
 <div class="container page-section" id="reviews">
   <div class="row mb-5">
@@ -322,7 +312,6 @@ schema_type: "WebPage"
         </div>
       </div>
     </div>
-    
     <!-- Отзыв 2 -->
     <div class="col-md-4 mb-4">
       <div class="card testi-card pa-4 h-100" style="background: #1e1e1e; color: #fff; border-radius: 8px;">
@@ -337,7 +326,6 @@ schema_type: "WebPage"
         </div>
       </div>
     </div>
-
     <!-- Отзыв 3 -->
     <div class="col-md-4 mb-4">
       <div class="card testi-card pa-4 h-100" style="background: #1e1e1e; color: #fff; border-radius: 8px;">
@@ -354,7 +342,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- РАСШИРЕННЫЙ FAQ (Block 7A) -->
 <div class="faq-style page-section" id="faq">
   <div class="root">
@@ -420,7 +407,6 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-
 <!-- ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ -->
 <div class="container page-section pt-0" id="legal">
   <div class="row">

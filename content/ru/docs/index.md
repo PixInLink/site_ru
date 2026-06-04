@@ -7,7 +7,6 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-
 ﻿  <!-- HERO: Поисковый баннер (Block 1C) -->
   <section class="search-banner page-section pb-3" style="background-color: #f5f5f5;">
     <div class="container max-md">
@@ -15,7 +14,6 @@ schema_type: "WebPage"
         <div class="col-sm-12">
           <h2 class="use-text-title2 text-center">Документация PixInLink</h2>
           <h3 class="use-text-subtitle2 text-center mb-4">Справочник по URL API, интеграциям, оплате и настройке.</h3>
-          
           <!-- Строка поиска -->
           <div class="search mb-4">
             <div class="input-field" style="background: #fff; border-radius: 8px; padding: 5px 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
@@ -23,7 +21,6 @@ schema_type: "WebPage"
               <input id="docs_search" type="text" placeholder="Поиск по документации... например: '429', 'og:image', 'watermark'" style="border: none; border-bottom: none; box-shadow: none; width: calc(100% - 40px); margin-left: 40px; margin-bottom: 0;">
             </div>
           </div>
-
           <!-- Alert: Новый пользователь -->
           <div class="alert alert-info text-left d-flex align-items-center" style="background-color: #e3f2fd; border-left: 4px solid #2196F3; padding: 16px; border-radius: 4px;">
             <i class="material-icons mr-3" style="color: #2196F3;">rocket_launch</i>
@@ -32,16 +29,13 @@ schema_type: "WebPage"
               Первое изображение за 60 секунд &rarr; <a href="/docs/getting-started" style="color: #1976d2; font-weight: bold;">[Начать здесь]</a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
-
   <!-- СЕТКА КАТЕГОРИЙ (Block 2A - 3 колонки) -->
   <div class="container page-section" id="docs-categories">
     <div class="row">
-      
       <!-- Колонка 1: Начало работы -->
       <div class="col-md-4 pa-4 mb-4">
         <div class="card paper pa-4 h-100">
@@ -65,7 +59,6 @@ schema_type: "WebPage"
           </ul>
         </div>
       </div>
-
       <!-- Колонка 2: Аккаунт и оплата -->
       <div class="col-md-4 pa-4 mb-4">
         <div class="card paper pa-4 h-100">
@@ -93,7 +86,6 @@ schema_type: "WebPage"
           </ul>
         </div>
       </div>
-
       <!-- Колонка 3: Для разработчиков -->
       <div class="col-md-4 pa-4 mb-4">
         <div class="card paper pa-4 h-100">
@@ -117,10 +109,8 @@ schema_type: "WebPage"
           </ul>
         </div>
       </div>
-
     </div>
   </div>
-
   <!-- ЧАСТО ИЩУТ (Теги) -->
   <div class="container page-section pt-0" id="popular-searches">
     <div class="row mb-3">
@@ -143,7 +133,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- ШПАРГАЛКА: СТРУКТУРА URL (Таблица) -->
   <div class="container page-section" id="url-cheatsheet">
     <div class="row mb-4">
@@ -157,7 +146,6 @@ schema_type: "WebPage"
         </div>
       </div>
     </div>
-    
     <div class="card paper pa-4">
       <div class="table-responsive">
         <table class="highlight striped responsive-table">
@@ -207,7 +195,6 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- НУЖНА ПОМОЩЬ? (Block 2A - Контакты) -->
   <div class="container page-section" id="help-support">
     <div class="row mb-5">
@@ -246,5 +233,4 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-
   <!-- JSON-LD SEO Разметка -->

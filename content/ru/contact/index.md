@@ -8,7 +8,6 @@ layout: "page"
 schema_type: "ContactPage"
 cover_image: "https://pixinlink.ru/images/logo-saas.png"
 ---
-
 <div class="banner-basic mb-5">
   <div class="banner-wrap">
     <div class="inner">
@@ -25,13 +24,10 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
     </div>
   </div>
 </div>
-
 <div class="container page-section max-md">
   <div class="row">
     <div class="col-12">
-
       <h3>Способы связи</h3>
-
       <div class="row mt-4">
         <div class="col-md-4 mb-4">
           <div class="card paper pa-4 text-center h-100" style="border-top: 4px solid #2196F3;">
@@ -58,9 +54,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
           </div>
         </div>
       </div>
-
       <h3 class="mt-5">По каким вопросам обращаться</h3>
-
       <div class="row mt-4">
         <div class="col-md-6 mb-4">
           <div class="card paper pa-4">
@@ -89,17 +83,13 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
           </div>
         </div>
       </div>
-
       <h3 class="mt-5">Реквизиты</h3>
       <p>ООО «ПиксИнЛинк»</p>
       <p>Платформа зарегистрирована в соответствии с законодательством РФ. Все серверы расположены на территории России (Yandex Cloud, Selectel) в соответствии с 152-ФЗ.</p>
       <p>Цены действительны с мая 2026. НДС 20% включён в стоимость. Оплата картами Visa, MIR, SberPay, СБП.</p>
-
     </div>
   </div>
 </div>
-
 (блок: cta)
 ## Остались вопросы?
-
 Напишите на [info@pixinlink.ru](mailto:info@pixinlink.ru) — ответим в течение 24 часов.
