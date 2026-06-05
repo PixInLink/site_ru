@@ -15,7 +15,7 @@ export const ru = {
     docs: "Документация",
     about: "О компании",
     contact: "Контакты",
-    serviceTitle: "Всё о сервисе",
+    serviceTitle: "О Сервисе",
     signIn: "Вход",
     account: "Аккаунт",
     signOut: "Выход",

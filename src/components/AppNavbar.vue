@@ -116,7 +116,7 @@ onUnmounted(() => {
               <ul class="main-menu">
                 <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/">{{ t.nav.home }}</RouterLink></li>
                 <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/about/">{{ t.nav.about }}</RouterLink></li>
-                <li>
+                <li class="has-mega-menu">
                   <button class="btn btn-flat megamenu-trigger-click waves-effect" data-target="sample-page" @click.stop="serviceOpen = !serviceOpen">
                     {{ t.nav.serviceTitle }}
                     <i class="material-icons right icon">keyboard_arrow_down</i>
@@ -240,6 +240,9 @@ onUnmounted(() => {
   z-index: 1000;
   border-radius: 0 0 8px 8px;
 }
+.has-mega-menu {
+  position: relative;
+}
 .mega-menu-root .menu-list {
   display: block;
   padding: 8px 16px;
@@ -261,5 +264,11 @@ onUnmounted(() => {
   border-radius: 4px;
   min-width: 200px;
   padding: 8px 0;
+}
+.header-content,
+.nav-menu,
+.scrollactive-nav,
+.main-menu {
+  overflow: visible;
 }
 </style>
