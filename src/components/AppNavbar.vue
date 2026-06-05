@@ -108,8 +108,7 @@ onUnmounted(() => {
             <div class="logo">
               <RouterLink to="/">
                 <span class="logo-main landscape large">
-                  <img src="/images/logo-40x40.png" alt="" width="40" height="40">
-                  {{ siteConfig.name }}
+                  <img src="/images/logo-200x40.png" alt="PixInLink" width="200" height="40">
                 </span>
               </RouterLink>
             </div>
