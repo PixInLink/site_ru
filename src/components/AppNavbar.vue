@@ -125,32 +125,20 @@ onUnmounted(() => {
                 <li :class="{ current: isCurrent('/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/">{{ t.nav.home }}</RouterLink></li>
                 <li :class="{ current: isCurrent('/about/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/about/">{{ t.nav.about }}</RouterLink></li>
                 <li class="has-mega-menu" :class="{ current: isCurrent('/features/') || isCurrent('/use-cases/') || isCurrent('/integrations/') || isCurrent('/docs/') }">
-                  <button class="btn btn-flat megamenu-trigger-click waves-effect" type="button" @click.prevent="serviceOpen = !serviceOpen">
+                  <button class="btn btn-flat megamenu-trigger-click waves-effect" type="button" @click="serviceOpen = !serviceOpen">
                     {{ t.nav.serviceTitle }}
                     <i class="material-icons right icon">keyboard_arrow_down</i>
                   </button>
                   <template v-if="serviceOpen">
                     <div class="mega-menu-backdrop" @click="serviceOpen = false"></div>
                     <div class="mega-menu-root" id="sample-page">
-                    <div class="mega-menu">
-                      <div class="container max-md">
-                        <div class="row">
-                          <div class="col-sm-6 mb-6">
-                            <ul>
-                              <li class="waves-effect"><RouterLink class="menu-list" to="/features/">{{ t.nav.features }}</RouterLink></li>
-                              <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 mb-6">
-                            <ul>
-                              <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
-                              <li class="waves-effect"><RouterLink class="menu-list" to="/docs/">{{ t.nav.docs }}</RouterLink></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
+                      <ul>
+                          <li class="waves-effect"><RouterLink class="menu-list" to="/features/">{{ t.nav.features }}</RouterLink></li>
+                          <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
+                          <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
+                          <li class="waves-effect"><RouterLink class="menu-list" to="/docs/">{{ t.nav.docs }}</RouterLink></li>
+                        </ul>
                     </div>
-                  </div>
                   </template>
                 </li>
                 <li :class="{ current: isCurrent('/blog/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/blog/">{{ t.nav.blog }}</RouterLink></li>
@@ -253,15 +241,16 @@ onUnmounted(() => {
   position: absolute;
   top: 100%;
   left: 0;
-  right: 0;
   background: #fff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   z-index: 1000;
   overflow: visible;
+  border-radius: 8px;
+  min-width: 200px;
 }
 .mega-menu-root .menu-list {
   display: block;
-  padding: 10px 16px;
+  padding: 6px 20px;
   font-size: 14px;
   color: #333;
   text-decoration: none;
@@ -270,8 +259,10 @@ onUnmounted(() => {
   background: #f5f5f5;
   color: var(--color-accent);
 }
-.mega-menu-root .mega-menu {
-  padding: 24px 0;
+.mega-menu-root ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
 }
 .setting-panel {
   position: absolute;
