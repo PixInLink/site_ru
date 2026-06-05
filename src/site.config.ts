@@ -28,7 +28,7 @@ export const siteConfig = {
   orgType: "Organization",
   orgName: "PixInLink",
   orgLegalName: "PixInLink",
-  logoUrl: "/images/logo-200x40.png",
+  logoUrl: "/images/logo-230x48.svg",
   foundingDate: "2024",
 
   // Contacts

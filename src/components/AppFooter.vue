@@ -10,7 +10,7 @@ import { t } from "../i18n";
         <div class="col-md-4 col-sm-12 pa-lg-4 logo-area">
           <div class="logo">
             <span class="logo-main landscape large">
-              <img src="/images/logo-200x40.png" alt="PixInLink" width="200" height="40">
+              <img src="/images/logo-230x48.svg" alt="PixInLink" width="230" height="48">
             </span>
           </div>
           <p class="body-2">{{ siteConfig.description }}</p>
