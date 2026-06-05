@@ -265,7 +265,22 @@ onUnmounted(() => {
 .mega-menu-root ul {
   list-style: none;
   margin: 0;
-  padding: 4px 0;
+  padding: 10px 0;
+}
+.mega-menu-root li {
+  margin: 0;
+  padding: 0;
+}
+.mega-menu-root .menu-list {
+  display: block;
+  height: 40px;
+  line-height: 20px;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 .mega-menu-root li {
   margin: 0;
