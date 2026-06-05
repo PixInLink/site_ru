@@ -198,6 +198,12 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+.logo-main.large img {
+  max-width: 230px;
+  max-height: 48px;
+  width: 230px;
+  height: 48px;
+}
 .show-sidenav {
   transform: translateX(0) !important;
 }

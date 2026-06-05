@@ -94,6 +94,12 @@ import { t } from "../i18n";
 </template>
 
 <style scoped>
+.logo-main.large img {
+  max-width: 230px;
+  max-height: 48px;
+  width: 230px;
+  height: 48px;
+}
 .footer-sitemap {
   position: relative;
   z-index: 1;
