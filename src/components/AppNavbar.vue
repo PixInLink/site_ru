@@ -40,6 +40,9 @@ function onDocClick(e: MouseEvent) {
   if (!target.closest("#dropdown_config") && !target.closest(".dropdown-trigger")) {
     settingsOpen.value = false;
   }
+  if (!target.closest("#sample-page") && !target.closest(".megamenu-trigger-click")) {
+    serviceOpen.value = false;
+  }
 }
 
 function onScroll() {
@@ -129,17 +132,15 @@ onUnmounted(() => {
                     {{ t.nav.serviceTitle }}
                     <i class="material-icons right icon">keyboard_arrow_down</i>
                   </button>
-                  <template v-if="serviceOpen">
-                    <div class="mega-menu-backdrop" @click="serviceOpen = false"></div>
-                    <div class="mega-menu-root" id="sample-page">
-                      <ul>
-                          <li class="waves-effect"><RouterLink class="menu-list" to="/features/">{{ t.nav.features }}</RouterLink></li>
-                          <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
-                          <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
-                          <li class="waves-effect"><RouterLink class="menu-list" to="/docs/">{{ t.nav.docs }}</RouterLink></li>
-                        </ul>
-                    </div>
-                  </template>
+                  <div v-if="serviceOpen" class="mega-menu-root" id="sample-page" @click.stop>
+                    <ul>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/features/">{{ t.nav.features }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/docs/">{{ t.nav.docs }}</RouterLink></li>
+                    </ul>
+                  </div>
+                  <div v-if="serviceOpen" class="mega-menu-backdrop" @click="serviceOpen = false"></div>
                 </li>
                 <li :class="{ current: isCurrent('/blog/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/blog/">{{ t.nav.blog }}</RouterLink></li>
                 <li :class="{ current: isCurrent('/contact/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/contact/">{{ t.nav.contact }}</RouterLink></li>
