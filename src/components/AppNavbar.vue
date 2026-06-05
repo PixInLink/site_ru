@@ -1,13 +1,21 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
+import { useRoute } from "vue-router";
 import { siteConfig } from "../site.config";
 import { t } from "../i18n";
 
+const route = useRoute();
 const isRu = siteConfig.locale === "ru";
 const menuOpen = ref(false);
 const serviceOpen = ref(false);
 const settingsOpen = ref(false);
 const isDark = ref(false);
+const isHeaderFixed = ref(false);
+
+function isCurrent(path: string) {
+  if (path === "/") return route.path === "/";
+  return route.path.startsWith(path);
+}
 
 function toggleTheme() {
   isDark.value = !isDark.value;
@@ -27,22 +35,21 @@ function toggleSettings() {
   settingsOpen.value = !settingsOpen.value;
 }
 
-function closeSettings() {
-  settingsOpen.value = false;
-}
-
 function onDocClick(e: MouseEvent) {
   const target = e.target as HTMLElement;
   if (!target.closest("#dropdown_config") && !target.closest(".dropdown-trigger")) {
     settingsOpen.value = false;
   }
-  if (!target.closest("#sample-page") && !target.closest(".megamenu-trigger-click")) {
-    serviceOpen.value = false;
-  }
+}
+
+function onScroll() {
+  isHeaderFixed.value = window.scrollY > 20;
 }
 
 onMounted(() => {
   document.addEventListener("click", onDocClick);
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
   const saved = localStorage.getItem("theme");
   if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
     isDark.value = true;
@@ -52,6 +59,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   document.removeEventListener("click", onDocClick);
+  window.removeEventListener("scroll", onScroll);
 });
 </script>
 
@@ -98,7 +106,7 @@ onUnmounted(() => {
     </div>
     <div v-if="menuOpen" class="sidenav-overlay" @click="closeMenu()"></div>
 
-    <header class="app-bar header" id="header">
+    <header class="app-bar header" id="header" :class="{ fixed: isHeaderFixed }">
       <div class="container">
         <div class="header-content">
           <nav class="nav-menu">
@@ -114,14 +122,16 @@ onUnmounted(() => {
             </div>
             <div class="scrollactive-nav show-lg-up multi-menu scrollnav">
               <ul class="main-menu">
-                <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/">{{ t.nav.home }}</RouterLink></li>
-                <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/about/">{{ t.nav.about }}</RouterLink></li>
-                <li class="has-mega-menu">
-                  <button class="btn btn-flat megamenu-trigger-click waves-effect" data-target="sample-page" @click.stop="serviceOpen = !serviceOpen">
+                <li :class="{ current: isCurrent('/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/">{{ t.nav.home }}</RouterLink></li>
+                <li :class="{ current: isCurrent('/about/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/about/">{{ t.nav.about }}</RouterLink></li>
+                <li class="has-mega-menu" :class="{ current: isCurrent('/features/') || isCurrent('/use-cases/') || isCurrent('/integrations/') || isCurrent('/docs/') }">
+                  <button class="btn btn-flat megamenu-trigger-click waves-effect" type="button" @click.prevent="serviceOpen = !serviceOpen">
                     {{ t.nav.serviceTitle }}
                     <i class="material-icons right icon">keyboard_arrow_down</i>
                   </button>
-                  <div class="mega-menu-root dropdown-content" id="sample-page" :style="{ display: serviceOpen ? 'block' : 'none' }">
+                  <template v-if="serviceOpen">
+                    <div class="mega-menu-backdrop" @click="serviceOpen = false"></div>
+                    <div class="mega-menu-root" id="sample-page">
                     <div class="mega-menu">
                       <div class="container max-md">
                         <div class="row">
@@ -141,9 +151,10 @@ onUnmounted(() => {
                       </div>
                     </div>
                   </div>
+                  </template>
                 </li>
-                <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/blog/">{{ t.nav.blog }}</RouterLink></li>
-                <li><RouterLink class="btn btn-flat anchor-link waves-effect" to="/contact/">{{ t.nav.contact }}</RouterLink></li>
+                <li :class="{ current: isCurrent('/blog/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/blog/">{{ t.nav.blog }}</RouterLink></li>
+                <li :class="{ current: isCurrent('/contact/') }"><RouterLink class="btn btn-flat anchor-link waves-effect" to="/contact/">{{ t.nav.contact }}</RouterLink></li>
               </ul>
             </div>
           </nav>
@@ -156,7 +167,7 @@ onUnmounted(() => {
                 <button class="btn btn-icon waves-effect btn-small dropdown-trigger ma-1" type="button" @click.stop="toggleSettings">
                   <i class="icon material-icons" id="setting_icon">settings</i>
                 </button>
-                <div class="dropdown-content setting" id="dropdown_config" :style="{ display: settingsOpen ? 'block' : 'none' }">
+                <div v-show="settingsOpen" class="setting-panel" id="dropdown_config">
                   <ul class="collection with-header">
                     <li class="collection-header">{{ isDark ? t.nav.themeDark : t.nav.themeLight }}</li>
                     <li class="collection-item no-hover pl-4">
@@ -230,7 +241,15 @@ onUnmounted(() => {
   display: none;
   padding: 0;
 }
-.mega-menu-root.dropdown-content {
+.has-mega-menu {
+  position: relative;
+}
+.mega-menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+}
+.mega-menu-root {
   position: absolute;
   top: 100%;
   left: 0;
@@ -238,14 +257,11 @@ onUnmounted(() => {
   background: #fff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   z-index: 1000;
-  border-radius: 0 0 8px 8px;
-}
-.has-mega-menu {
-  position: relative;
+  overflow: visible;
 }
 .mega-menu-root .menu-list {
   display: block;
-  padding: 8px 16px;
+  padding: 10px 16px;
   font-size: 14px;
   color: #333;
   text-decoration: none;
@@ -254,7 +270,10 @@ onUnmounted(() => {
   background: #f5f5f5;
   color: var(--color-accent);
 }
-.dropdown-content.setting {
+.mega-menu-root .mega-menu {
+  padding: 24px 0;
+}
+.setting-panel {
   position: absolute;
   top: 100%;
   right: 0;
