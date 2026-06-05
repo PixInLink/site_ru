@@ -270,9 +270,12 @@ onUnmounted(() => {
 .mega-menu-root li {
   margin: 0;
   padding: 0;
+  display: block;
+  overflow: visible;
 }
 .mega-menu-root .menu-list {
   display: block;
+  width: 100%;
   height: 40px;
   line-height: 20px;
   padding: 10px 16px;
@@ -281,6 +284,10 @@ onUnmounted(() => {
   text-decoration: none;
   white-space: nowrap;
   box-sizing: border-box;
+}
+.mega-menu-root .menu-list:hover {
+  background: #f5f5f5;
+  color: var(--color-accent);
 }
 .mega-menu-root li {
   margin: 0;
