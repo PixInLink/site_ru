@@ -52,6 +52,14 @@
   display: none;
 }
 
+/* Footer counter — ensure white text on dark bg */
+.footer-counter.extend .use-text-title,
+.footer-counter.extend .use-text-title2,
+.footer-counter.extend .use-text-subtitle2,
+.footer-counter.extend .counter-wrap {
+  color: #fff;
+}
+
 /* Testimonial slider nav buttons */
 #testimonials .carousel {
   position: relative;

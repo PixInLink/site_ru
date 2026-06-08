@@ -4,8 +4,7 @@ import { t } from "../i18n";
 </script>
 
 <template>
-  <div class="footer-wrapper">
-    <footer class="footer-sitemap">
+  <footer class="footer-sitemap">
     <div class="container mq-sm-down" data-class="fixed-width">
       <div class="row">
         <div class="col-md-4 col-sm-12 pa-lg-4 logo-area">
@@ -79,12 +78,6 @@ import { t } from "../i18n";
       </div>
     </div>
   </footer>
-    <div class="building-deco-footer">
-      <img class="img-2d3d img-left" src="/themes/oiron/images/cloud/building_deco_footer_side_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/building_deco_footer_side_3d@2x.png" alt="Офисное здание" loading="lazy" />
-      <img class="img-2d3d img-center" src="/themes/oiron/images/cloud/building_deco_footer_center_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/building_deco_footer_center_3d@2x.png" alt="Центральное здание" loading="lazy" />
-      <img class="img-2d3d img-left" src="/themes/oiron/images/cloud/building_deco_footer_side_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/building_deco_footer_side_3d@2x.png" alt="Офисное здание" loading="lazy" />
-    </div>
-  </div>
 </template>
 
 <style scoped>
