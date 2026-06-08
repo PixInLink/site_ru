@@ -1,8 +1,12 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { onMounted, computed } from "vue";
+import { useRoute } from "vue-router";
 import AppNavbar from "./components/AppNavbar.vue";
 import AppFooter from "./components/AppFooter.vue";
 import BackToTop from "./components/BackToTop.vue";
+
+const route = useRoute();
+const isHome = computed(() => route.path === "/");
 
 onMounted(() => {
   const preloader = document.getElementById("preloader");
@@ -37,7 +41,7 @@ onMounted(() => {
             <img class="img-right" src="/themes/oiron/images/cloud/building_deco_footer_side_3d@2x.png" alt="building">
           </div>
         </div>
-        <AppFooter />
+        <AppFooter v-if="!isHome" />
         <BackToTop />
       </div>
     </div>
