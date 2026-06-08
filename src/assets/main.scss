@@ -26,3 +26,11 @@
   --color-faq-bg: #f5f5f5;
   --color-faq-border: #e0e0e0;
 }
+
+/* SVG icon colors — recolor white SVGs to match original scheme */
+.icon-cyan {
+  filter: invert(77%) sepia(61%) saturate(7488%) hue-rotate(157deg) brightness(96%) contrast(101%);
+}
+.icon-amber {
+  filter: invert(79%) sepia(41%) saturate(2025%) hue-rotate(354deg) brightness(103%) contrast(98%);
+}
