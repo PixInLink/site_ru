@@ -52,16 +52,6 @@
   display: none;
 }
 
-/* Footer counter — dark background + white text */
-.footer-counter.extend {
-  background: linear-gradient(180deg, #0d0f2b 0%, #1a237e 100%);
-}
-.footer-counter.extend .use-text-title,
-.footer-counter.extend .use-text-title2,
-.footer-counter.extend .use-text-subtitle2 {
-  color: #fff;
-}
-
 /* Testimonial slider nav buttons */
 #testimonials .carousel {
   position: relative;
