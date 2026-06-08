@@ -35,7 +35,7 @@ raw_html: true
                       <div class="col-md-6 col-sm-12 px-sm-6 px-0 py-3 d-flex align-items-center">
                         <div class="text">
                           <h4 class="use-text-title2">AI-генератор изображений по URL: одна строка кода вместо дизайнера.</h4>
-                          <h5 class="use-text-subtitle2">Вставьте описание прямо в URL атрибута img src — и изображение появится само. Никаких фотобанков, ручного Photoshop и сложной настройки. PixInLink генерирует картинку через нейросеть, оптимизирует в WebP и раздаёт через CDN.</h5>
+                          <h5 class="use-text-subtitle2">PixInLink генерирует картинку через нейросеть, обрезает и оптимизирует в WebP.</h5>
                           <div class="btn-area">
                             <a class="btn waves-effect btn-flat btn-large button primary-text" href="/features/url-api">Документация API</a>
                             <a class="btn waves-effect button btn-large primary" href="/pricing">Попробовать бесплатно</a>
@@ -202,7 +202,7 @@ raw_html: true
             </div>
           </div>
         </div>
-        <div class="cloud-top">
+        <div class="cloud-top">        
           <svg>
             <g transform="translate(0.000000, -10.000000)">
               <g transform="translate(628.500000, 205.500000) scale(1, -1) translate(-628.500000, -205.500000) translate(-17.000000, 10.000000)">
@@ -244,10 +244,8 @@ raw_html: true
       <div class="wrapper">
         <div class="desc">
           <div class="main-title align-center dark">
-            <p class="caption-title">benefit</p>
-            <h4>Почему PixInLink удобнее ручной генерации</h4>
-          </div>
-          <p class="use-text-subtitle2">Вставляйте короткий URL в <code>img src</code>, получайте готовое изображение за секунды и повторно отдавайте его через CDN без лишней нагрузки на сайт.</p>
+            <p class="caption-title">генерация pixinlink</p>           
+          </div>          
           <div class="carousel">
             <div class="nav">
               <a class="prev" id="benefit_prev"><i class="material-icons">keyboard_arrow_left</i></a>
@@ -325,7 +323,7 @@ raw_html: true
             <!-- Факт 2 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_2.svg" width="48" height="48" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_2.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">100% уникальность</h6>
                 <p class="use-text-paragraph">Каждый URL запускает генерацию с нуля через Kandinsky 3.1 или FLUX.1. Никаких дублей в поисковой выдаче и проблем с авторскими правами.</p>
               </div>
@@ -333,7 +331,7 @@ raw_html: true
             <!-- Факт 3 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_3.svg" width="48" height="48" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_3.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">В 6 раз легче, чем JPEG</h6>
                 <p class="use-text-paragraph">Автоматическая оптимизация «на лету» (WebP/AVIF по умолчанию, quality=85). Идеально для PageSpeed и SEO.</p>
               </div>
@@ -349,7 +347,7 @@ raw_html: true
             <!-- Факт 5 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_5.svg" width="48" height="48" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_5.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">50 генераций — 0 ₽</h6>
                 <p class="use-text-paragraph">Бесплатный тариф навсегда. Не нужно привязывать карту или проходить долгую регистрацию для старта.</p>
               </div>
@@ -357,7 +355,7 @@ raw_html: true
             <!-- Факт 6 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_6.svg" width="48" height="48" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_6.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">Соответствие 152-ФЗ</h6>
                 <p class="use-text-paragraph">Вся инфраструктура (Yandex Managed Services, GPU-воркеры Selectel) и данные физически находятся на территории РФ.</p>
               </div>
