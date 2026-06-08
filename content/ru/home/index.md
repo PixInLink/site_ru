@@ -592,7 +592,7 @@ raw_html: true
                       <p>Показывайте изображение мгновенно, пока генерация выполняется.</p>
                     </div>
                     <div class="icon">
-                      <img src="/images/cloud/icon2_1.svg" width="32" height="32" loading="lazy" alt="" class="icon-cyan">
+                      <img src="/images/cloud/icon2_1.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
                     </div>
                   </div>
                 </div>
@@ -628,7 +628,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="32" height="32" loading="lazy" alt="" class="icon-primary"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Прогнозируемая загрузка</strong>
                       <p>Сервис готов к росту трафика и частым запросам.</p>
                     </div>
@@ -638,7 +638,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="32" height="32" loading="lazy" alt="" class="icon-primary"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Удобно для бизнеса</strong>
                       <p>Подходит для лендингов, блогов, SaaS и контент-проектов.</p>
                     </div>
@@ -648,7 +648,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.6000000000000001s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="32" height="32" loading="lazy" alt="" class="icon-primary"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Ответственный AI-подход</strong>
                       <p>Поддерживайте watermark, лимиты и безопасные настройки для пользователей.</p>
                     </div>
