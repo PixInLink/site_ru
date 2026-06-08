@@ -314,10 +314,10 @@ raw_html: true
             <p class="use-text-subtitle2 text-center mt-3">Забудьте о ручном поиске на стоках и медленном скачивании файлов. PixInLink автоматизирует весь цикл создания визуала.</p>
           </div>
           <div class="row spacing6 grid">             
-            <!-- Факт 1 -->
+             <!-- Факт 1 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-flash" style="font-size: 48px; color: #00BCD4;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_1.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">&lt; 100 мс отдача из кэша</h6>
                 <p class="use-text-paragraph">Первая генерация занимает ~8 секунд. Все последующие загрузки мгновенны благодаря Yandex Cloud CDN (140+ точек присутствия).</p>
               </div>
@@ -325,7 +325,7 @@ raw_html: true
             <!-- Факт 2 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-ios-color-wand" style="font-size: 48px; color: #00BCD4;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_2.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">100% уникальность</h6>
                 <p class="use-text-paragraph">Каждый URL запускает генерацию с нуля через Kandinsky 3.1 или FLUX.1. Никаких дублей в поисковой выдаче и проблем с авторскими правами.</p>
               </div>
@@ -333,7 +333,7 @@ raw_html: true
             <!-- Факт 3 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-ios-speedometer" style="font-size: 48px; color: #00BCD4;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_3.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">В 6 раз легче, чем JPEG</h6>
                 <p class="use-text-paragraph">Автоматическая оптимизация «на лету» (WebP/AVIF по умолчанию, quality=85). Идеально для PageSpeed и SEO.</p>
               </div>
@@ -341,7 +341,7 @@ raw_html: true
             <!-- Факт 4 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-images" style="font-size: 48px; color: #F8AF3A;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_4.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">6 стилей генерации</h6>
                 <p class="use-text-paragraph">Управляйте эстетикой через URL: <code>realistic</code>, <code>illustration</code>, <code>3d</code>, <code>pixel-art</code>, <code>cyberpunk</code>, <code>anime</code>.</p>
               </div>
@@ -349,7 +349,7 @@ raw_html: true
             <!-- Факт 5 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-social-usd" style="font-size: 48px; color: #F8AF3A;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_5.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">50 генераций — 0 ₽</h6>
                 <p class="use-text-paragraph">Бесплатный тариф навсегда. Не нужно привязывать карту или проходить долгую регистрацию для старта.</p>
               </div>
@@ -357,7 +357,7 @@ raw_html: true
             <!-- Факт 6 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <i class="ion-locked" style="font-size: 48px; color: #F8AF3A;"></i> </figure>
+                <figure> <img src="/images/cloud/icon1_6.svg" width="48" height="48" loading="lazy" alt=""> </figure>
                 <h6 class="use-text-subtitle">Соответствие 152-ФЗ</h6>
                 <p class="use-text-paragraph">Вся инфраструктура (Yandex Managed Services, GPU-воркеры Selectel) и данные физически находятся на территории РФ.</p>
               </div>
