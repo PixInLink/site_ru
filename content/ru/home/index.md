@@ -28,7 +28,7 @@ raw_html: true
               <div class="slide" id="slide1">
                 <div class="inner">
                   <div class="img background-banner">
-                    <img class="img-2d3d" src="/themes/oiron/images/cloud/background_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/background_3d@2x.png" alt="background" />
+                    <img class="img-2d3d" src="/themes/oiron/images/cloud/background_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/background_3d@2x.png" alt="Фоновое изображение облачной инфраструктуры" />
                   </div>
                   <div class="container">
                     <div class="row">
@@ -238,7 +238,7 @@ raw_html: true
 <section class="space-top-short" id="benefit">
   <div class="root">
     <div class="illustration-bg">
-      <img class="img-2d3d" src="/themes/oiron/images/cloud/benefit_3d@2x.png" data-2d="./assets" data-3d="./assets/images/cloud/benefit_3d@2x.png" alt="feature" />
+      <img class="img-2d3d" src="/themes/oiron/images/cloud/benefit_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/benefit_3d@2x.png" alt="Преимущества PixInLink" />
     </div>
     <div class="container max-md fixed-width">
       <div class="wrapper">
@@ -255,14 +255,14 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/современный-офис" loading="lazy" alt="светлый офис" />
+                    <img src="https://pixinlink.ru/766x510/офис-светлый" loading="lazy" alt="светлый офис" />
                   </figure>
                 </div>
               </div>
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/айти-команда" loading="lazy" alt="айти команда" />
+                    <img src="https://pixinlink.ru/766x510/руководители-бизнеса" loading="lazy" alt="айти команда" />
                   </figure>
                 </div>
               </div>
@@ -283,7 +283,7 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/дизайнер-компьютер" loading="lazy" alt="монитор и графики" />
+                    <img src="https://pixinlink.ru/766x510/город-с-высоты-полета" loading="lazy" alt="монитор и графики" />
                   </figure>
                 </div>
               </div>
@@ -327,7 +327,7 @@ raw_html: true
                     </g>
                   </g>
                 </svg>
-                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration1_3d@2x.png" alt="background" />
+                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration1_3d@2x.png" alt="Фоновое изображение облачной инфраструктуры" />
               </figure>
               <div class="main-title align-center">
                 <p class="caption-title">Build It</p>
@@ -355,7 +355,7 @@ raw_html: true
                     </g>
                   </g>
                 </svg>
-                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration2_3d@2x.png" alt="background" />
+                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration2_3d@2x.png" alt="Фоновое изображение облачной инфраструктуры" />
               </figure>
               <div class="main-title align-center">
                 <p class="caption-title">SMART DEPLOYMENT</p>
@@ -379,7 +379,7 @@ raw_html: true
                       <p>Показывайте изображение мгновенно, пока генерация выполняется.</p>
                     </div>
                     <div class="icon">
-                      <img src="/images/cloud/icon2_1.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                      <img src="/images/cloud/icon2_1.svg" width="80" height="80" loading="lazy" alt="Быстрый placeholder" class="icon-orange">
                     </div>
                   </div>
                 </div>
@@ -391,7 +391,7 @@ raw_html: true
                       <p>Подключайте генерацию через URL, API и готовые сценарии для сайта.</p>
                     </div>
                     <div class="icon">
-                      <img src="/images/cloud/icon2_2.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                      <img src="/images/cloud/icon2_2.svg" width="80" height="80" loading="lazy" alt="Простая интеграция" class="icon-orange">
                     </div>
                   </div>
                 </div>
@@ -403,7 +403,7 @@ raw_html: true
                       <p>Работайте через CDN, кеширование и облачную доставку без лишних задержек.</p>
                     </div>
                     <div class="icon">
-                      <img src="/images/cloud/icon2_3.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                      <img src="/images/cloud/icon2_3.svg" width="80" height="80" loading="lazy" alt="Стабильная инфраструктура" class="icon-orange">
                     </div>
                   </div>
                 </div>
@@ -415,7 +415,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="80" height="80" loading="lazy" alt="Прогнозируемая загрузка" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Прогнозируемая загрузка</strong>
                       <p>Сервис готов к росту трафика и частым запросам.</p>
                     </div>
@@ -425,7 +425,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="80" height="80" loading="lazy" alt="Удобно для бизнеса" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Удобно для бизнеса</strong>
                       <p>Подходит для лендингов, блогов, SaaS и контент-проектов.</p>
                     </div>
@@ -435,7 +435,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.6000000000000001s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="80" height="80" loading="lazy" alt="Ответственный AI-подход" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Ответственный AI-подход</strong>
                       <p>Поддерживайте watermark, лимиты и безопасные настройки для пользователей.</p>
                     </div>
@@ -463,7 +463,7 @@ raw_html: true
              <!-- Факт 1 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_1.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_1.svg" width="140" height="140" loading="lazy" alt="Кэш CDN и скорость" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">&lt; 100 мс отдача из кэша</h6>
                 <p class="use-text-paragraph">Первая генерация занимает ~8 секунд. Все последующие загрузки мгновенны благодаря Yandex Cloud CDN (140+ точек присутствия).</p>
               </div>
@@ -471,7 +471,7 @@ raw_html: true
             <!-- Факт 2 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_2.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_2.svg" width="140" height="140" loading="lazy" alt="Уникальная генерация" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">100% уникальность</h6>
                 <p class="use-text-paragraph">Каждый URL запускает генерацию с нуля через Kandinsky 3.1 или FLUX.1. Никаких дублей в поисковой выдаче и проблем с авторскими правами.</p>
               </div>
@@ -479,7 +479,7 @@ raw_html: true
             <!-- Факт 3 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_3.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_3.svg" width="140" height="140" loading="lazy" alt="Оптимизация WebP" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">В 6 раз легче, чем JPEG</h6>
                 <p class="use-text-paragraph">Автоматическая оптимизация «на лету» (WebP/AVIF по умолчанию, quality=85). Идеально для PageSpeed и SEO.</p>
               </div>
@@ -487,7 +487,7 @@ raw_html: true
             <!-- Факт 4 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_4.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_4.svg" width="140" height="140" loading="lazy" alt="Стили генерации" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">6 стилей генерации</h6>
                 <p class="use-text-paragraph">Управляйте эстетикой через URL: <code>realistic</code>, <code>illustration</code>, <code>3d</code>, <code>pixel-art</code>, <code>cyberpunk</code>, <code>anime</code>.</p>
               </div>
@@ -495,7 +495,7 @@ raw_html: true
             <!-- Факт 5 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_5.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_5.svg" width="140" height="140" loading="lazy" alt="Бесплатный тариф" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">50 генераций — 0 ₽</h6>
                 <p class="use-text-paragraph">Бесплатный тариф навсегда. Не нужно привязывать карту или проходить долгую регистрацию для старта.</p>
               </div>
@@ -503,7 +503,7 @@ raw_html: true
             <!-- Факт 6 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_6.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_6.svg" width="140" height="140" loading="lazy" alt="Соответствие 152-ФЗ" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">Соответствие 152-ФЗ</h6>
                 <p class="use-text-paragraph">Вся инфраструктура (Yandex Managed Services, GPU-воркеры Selectel) и данные физически находятся на территории РФ.</p>
               </div>
@@ -529,7 +529,7 @@ raw_html: true
                          <div class="col-md-6 col-sm-12 px-sm-6 px-0 order-lg-0">
                            <div class="wow fadeInRightShort" data-wow-delay="0.4s" data-wow-offset="100" data-wow-duration="0.3s">
                              <figure class="illustration">
-                               <img class="img-2d3d" src="/themes/oiron/images/cloud/feature1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/feature1_3d@2x.png" alt="feature" />
+                               <img class="img-2d3d" src="/themes/oiron/images/cloud/feature1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/feature1_3d@2x.png" alt="Преимущества PixInLink" />
                              </figure>
                            </div>
                          </div>
@@ -556,7 +556,7 @@ raw_html: true
                          <div class="col-md-6 col-sm-12 pa-sm-6 px-0">
                            <div class="wow fadeInLeftShort" data-wow-delay="0.4s" data-wow-duration="0.3s">
                              <figure class="illustration">
-                               <img class="img-2d3d" src="/themes/oiron/images/cloud/feature2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/feature2_3d@2x.png" alt="feature" />
+                               <img class="img-2d3d" src="/themes/oiron/images/cloud/feature2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/feature2_3d@2x.png" alt="Преимущества PixInLink" />
                              </figure>
                            </div>
                          </div>

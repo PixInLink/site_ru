@@ -45,3 +45,9 @@
 .main-feature .item figure {
   text-align: center;
 }
+
+/* Hide timeline bullet pseudo-elements */
+.timeline .left-side .text:after,
+.timeline .right-side .text:after {
+  display: none;
+}
