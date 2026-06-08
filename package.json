@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "npm run generate:content && vite",
-    "build": "npm run generate:content && npm run generate:site-tree && npm run build:section-content && vite-ssg build && npm run generate:seo-files && npm run inject:seo && npm run generate:rss",
+    "build": "npm run copy:vendor-js && npm run generate:content && npm run generate:site-tree && npm run build:section-content && vite-ssg build && npm run generate:seo-files && npm run inject:seo && npm run generate:rss",
     "preview": "vite preview",
     "check:dist-secrets": "node scripts/dev/check-dist-secrets.mjs",
     "generate:content": "node scripts/generate-content.mjs",
@@ -14,6 +14,7 @@
     "inject:seo": "node scripts/inject-seo.mjs",
     "generate:rss": "node scripts/generate-rss.mjs",
     "build:section-content": "node scripts/build-section-content.mjs",
+    "copy:vendor-js": "node -e \"var fs=require('fs');['jquery.min.js','slick.min.js'].forEach(f=>fs.copyFileSync('node_modules/'+(f==='slick.min.js'?'slick-carousel/slick/':'jquery/dist/')+f,'public/themes/oiron/vendors/'+f))\"",
     "build:ru": "node scripts/build-locale.mjs ru",
     "build:en": "node scripts/build-locale.mjs en",
     "build:free": "node scripts/validate-edition.mjs --edition free --build-only",
@@ -53,9 +54,11 @@
     "bootstrap": "^5.3.8",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.11.1",
+    "jquery": "^3.7.1",
     "js-yaml": "^4.1.1",
     "markdown-it": "^14.1.0",
     "sanitize-html": "^2.14.0",
+    "slick-carousel": "^1.8.1",
     "vite-ssg": "^28.3.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
