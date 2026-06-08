@@ -37,7 +37,10 @@ useSeo(() => {
 
 <template>
   <template v-if="page">
-    <template v-if="isRawHtml">
+    <template v-if="page.rawHtml">
+      <main v-html="page.rawHtml" />
+    </template>
+    <template v-else-if="isRawHtml">
       <main v-html="page.html" />
     </template>
     <template v-else>

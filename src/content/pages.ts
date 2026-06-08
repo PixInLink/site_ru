@@ -5,6 +5,7 @@ export interface Page {
   path: string;
   frontmatter: ArticleFrontmatter;
   html: string;
+  rawHtml?: string;
   blocks: Record<string, string>;
   readingTime: number;
   section: string;
@@ -19,6 +20,7 @@ export const pages: Page[] = generatedPages.map((page) => ({
     geo: page.frontmatter.geo ? [...page.frontmatter.geo] : undefined,
   },
   html: page.html,
+  rawHtml: (page as Record<string, unknown>).rawHtml as string | undefined,
   blocks: { ...page.blocks },
   readingTime: page.readingTime,
   section: page.section || "",
