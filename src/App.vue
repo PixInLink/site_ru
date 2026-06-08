@@ -3,6 +3,7 @@ import { onMounted } from "vue";
 import AppNavbar from "./components/AppNavbar.vue";
 import AppFooter from "./components/AppFooter.vue";
 import BackToTop from "./components/BackToTop.vue";
+import CookieNotice from "./components/CookieNotice.vue";
 
 onMounted(() => {
   const preloader = document.getElementById("preloader");
@@ -41,6 +42,7 @@ onMounted(() => {
           </div>
         </div>
         <BackToTop />
+        <CookieNotice />
       </div>
     </div>
   </div>
