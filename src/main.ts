@@ -13,13 +13,30 @@ declare global {
 export const createApp = ViteSSG(App, { routes }, async () => {
   if (!import.meta.env.SSR) {
     await import("bootstrap/js/dist/collapse");
-    setTimeout(() => {
-      const preloader = document.getElementById("preloader");
-      if (preloader) preloader.style.display = "none";
-      initSliders();
-    }, 300);
+    initWhenReady();
   }
 });
+
+function initWhenReady() {
+  const $ = window.$;
+  if ($?.fn?.slick) {
+    const preloader = document.getElementById("preloader");
+    if (preloader) preloader.style.display = "none";
+    initSliders();
+    initWaves();
+  } else {
+    setTimeout(initWhenReady, 50);
+  }
+}
+
+function initWaves() {
+  try {
+    const M = (window as unknown as Record<string, unknown>).M as { Waves?: { init: () => void } } | undefined;
+    if (M?.Waves) {
+      M.Waves.init();
+    }
+  } catch { /* materialize.js may not be loaded */ }
+}
 
 function initSliders() {
   const $ = window.$;
