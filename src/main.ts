@@ -23,19 +23,13 @@ function initWhenReady() {
     const preloader = document.getElementById("preloader");
     if (preloader) preloader.style.display = "none";
     initSliders();
-    initWaves();
+    try {
+      const M = (window as unknown as Record<string, unknown>).M as { Waves?: { init: () => void } } | undefined;
+      if (M?.Waves) M.Waves.init();
+    } catch { /* materialize.js may not be loaded */ }
   } else {
     setTimeout(initWhenReady, 50);
   }
-}
-
-function initWaves() {
-  try {
-    const M = (window as unknown as Record<string, unknown>).M as { Waves?: { init: () => void } } | undefined;
-    if (M?.Waves) {
-      M.Waves.init();
-    }
-  } catch { /* materialize.js may not be loaded */ }
 }
 
 function initSliders() {
