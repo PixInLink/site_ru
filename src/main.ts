@@ -13,6 +13,7 @@ declare global {
 export const createApp = ViteSSG(App, { routes }, async () => {
   if (!import.meta.env.SSR) {
     await import("bootstrap/js/dist/collapse");
+    console.log("[PXL] module ready, $=", !!window.$, "slick=", !!window.$?.fn?.slick);
     initWhenReady();
   }
 });
@@ -20,6 +21,7 @@ export const createApp = ViteSSG(App, { routes }, async () => {
 function initWhenReady() {
   const $ = window.$;
   if ($?.fn?.slick) {
+    console.log("[PXL] slick OK → init sliders");
     const preloader = document.getElementById("preloader");
     if (preloader) preloader.style.display = "none";
     initSliders();
