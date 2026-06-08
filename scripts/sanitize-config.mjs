@@ -6,7 +6,7 @@ export const sanitizerOptions = {
     ...sanitizeHtml.defaults.allowedAttributes,
     a: ["href", "name", "target", "rel"],
     img: ["src", "alt", "width", "height", "loading"],
-    "*": ["id", "class", "style"],
+    "*": ["id", "class", "style", "data-*"],
   },
   allowedStyles: {
     "*": {
