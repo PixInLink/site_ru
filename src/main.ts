@@ -34,7 +34,9 @@ function initWhenReady() {
   }
 }
 
-function initSliders() {
+export function initSliders() {
+  // Skip if already initialized — prevents double init on SPA navigation
+  if (document.querySelector(".slick-initialized")) return;
   const $ = window.$;
   if (!$) return;
 

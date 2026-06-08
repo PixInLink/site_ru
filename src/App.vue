@@ -1,9 +1,23 @@
 <script setup lang="ts">
-import { onMounted } from "vue";
+import { onMounted, watch } from "vue";
+import { useRoute } from "vue-router";
 import AppNavbar from "./components/AppNavbar.vue";
 import AppFooter from "./components/AppFooter.vue";
 import BackToTop from "./components/BackToTop.vue";
 import CookieNotice from "./components/CookieNotice.vue";
+import { initSliders } from "./main";
+
+const route = useRoute();
+
+// Re-init sliders when navigating back to home after SPA nav
+watch(
+  () => route.path,
+  (to, from) => {
+    if (to === "/" && from !== "/") {
+      setTimeout(initSliders, 100);
+    }
+  }
+);
 
 onMounted(() => {
   const preloader = document.getElementById("preloader");
