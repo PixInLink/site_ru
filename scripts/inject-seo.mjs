@@ -164,7 +164,7 @@ function detectHowToFromHtml(html) {
   }
   if (steps.length >= 3) {
     const titleMatch = html.match(/<h[12][^>]*>([^<]*)<\/h[12]>/i);
-    return { "@context": "https://schema.org", "@type": "HowTo", name: titleMatch?.[1]?.trim() || "Инструкция", step: steps.map((s, i) => ({ "@type": "HowToStep", position: String(i + 1), name: s.name, text: s.text })) };
+    return { "@context": "https://schema.org", "@type": "HowTo", name: titleMatch?.[1]?.trim() || "How-To Guide", step: steps.map((s, i) => ({ "@type": "HowToStep", position: String(i + 1), name: s.name, text: s.text })) };
   }
   return null;
 }
@@ -280,7 +280,7 @@ function detectCaseStudyFromHtml(html) {
   if (!cm) return null;
   const pm = html.match(/(?:проблем[аы]|problem)[:\s]([^.<\n]{15,150})/i);
   const rm = html.match(/(?:результат|result|итог|экономия|сократили|увеличили)[:\s]*([^.<\n]{10,150})/i);
-  return {"@context":"https://schema.org","@type":"CaseStudy",headline:"Кейс внедрения",about:{"@type":"Organization",name:cm[1].trim()},problem:pm?.[1]?.trim()||"Оптимизация",solution:"Решение внедрено",result:rm?.[1]?.trim()||"Положительный результат"};
+  return {"@context":"https://schema.org","@type":"CaseStudy",headline:"Case Study",about:{"@type":"Organization",name:cm[1].trim()},problem:pm?.[1]?.trim()||"Optimization needed",solution:"Solution implemented",result:rm?.[1]?.trim()||"Positive outcome"};
 }
 
 // ── TABLE detector ──
@@ -293,7 +293,7 @@ function detectTableFromHtml(html) {
 // ── VIDEO detector ──
 function detectVideoFromHtml(html) {
   const results = []; const re = /<(?:iframe[^>]+src="(https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be|vimeo\.com)[^"]*)"|<video[^>]*src="([^"]*)")[^>]*>/gi; let m;
-  while ((m=re.exec(html))!==null) { const u=m[1]||m[2]; if (u) results.push({"@context":"https://schema.org","@type":"VideoObject",name:"Видео",description:"Видео на странице",contentUrl:u,uploadDate:new Date().toISOString().slice(0,10)}); }
+  while ((m=re.exec(html))!==null) { const u=m[1]||m[2]; if (u) results.push({"@context":"https://schema.org","@type":"VideoObject",name:"Video",description:"Video on page",contentUrl:u,uploadDate:new Date().toISOString().slice(0,10)}); }
   return results;
 }
 

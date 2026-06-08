@@ -265,20 +265,25 @@ onUnmounted(() => {
 .mega-menu-root ul {
   list-style: none;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
 }
 .mega-menu-root li {
   margin: 0;
   padding: 0;
   display: block;
+  width: 100%;
   overflow: visible;
+}
+.mega-menu-root li.waves-effect {
+  display: block;
+  width: 100%;
 }
 .mega-menu-root .menu-list {
   display: block;
   width: 100%;
   height: 40px;
-  line-height: 20px;
-  padding: 10px 16px;
+  line-height: 40px;
+  padding: 0 16px;
   font-size: 14px;
   color: #333;
   text-decoration: none;
@@ -288,10 +293,6 @@ onUnmounted(() => {
 .mega-menu-root .menu-list:hover {
   background: #f5f5f5;
   color: var(--color-accent);
-}
-.mega-menu-root li {
-  margin: 0;
-  padding: 0;
 }
 .setting-panel {
   position: absolute;

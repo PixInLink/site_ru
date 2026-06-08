@@ -23,7 +23,8 @@ loadEnvFile(path.join(process.cwd(), ".env"));
 
 const args = process.argv.slice(2);
 const dirIndex = args.indexOf("--dir");
-const outputDir = path.resolve(dirIndex === -1 ? "dist" : args[dirIndex + 1]);
+const rawDir = dirIndex === -1 ? "dist" : args[dirIndex + 1];
+const outputDir = path.resolve((!rawDir || rawDir.startsWith("--")) ? "dist" : rawDir);
 const locale = process.env.VITE_LOCALE || "ru";
 const edition = process.env.VITE_EDITION || "free";
 const isPro = edition === "pro";

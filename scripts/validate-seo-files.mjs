@@ -110,6 +110,8 @@ function validateHealthz(healthz) {
 }
 
 function readArticleRoutes() {
+  if (!existsSync(contentDir)) return [];
+
   return readdirSync(contentDir)
     .filter((file) => file.endsWith(".md"))
     .map((file) => {
@@ -154,6 +156,8 @@ function readPageRoutes() {
 }
 
 function readCategoryRoutes() {
+  if (!existsSync(contentDir)) return [];
+
   const categories = new Set();
   const blogFiles = readdirSync(contentDir).filter((f) => f.endsWith(".md"));
   for (const file of blogFiles) {
@@ -166,6 +170,8 @@ function readCategoryRoutes() {
 }
 
 function readTagRoutes() {
+  if (!existsSync(contentDir)) return [];
+
   const tags = new Set();
   const blogFiles = readdirSync(contentDir).filter((f) => f.endsWith(".md"));
   for (const file of blogFiles) {
@@ -181,6 +187,8 @@ function readTagRoutes() {
 }
 
 function readPaginationRoutes() {
+  if (!existsSync(contentDir)) return [];
+
   const blogFiles = readdirSync(contentDir).filter((f) => f.endsWith(".md"));
   const totalPages = Math.ceil(blogFiles.length / 5);
   const routes = [];

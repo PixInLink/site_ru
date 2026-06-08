@@ -144,26 +144,6 @@ function breadcrumbName(seg: string): string {
     case "blog": return t.breadcrumb.blog
     case "category": return t.breadcrumb.category
     case "tag": return t.breadcrumb.tag
-    case "templates": return t.breadcrumb.templates
-    case "about": return t.breadcrumb.about
-    case "about-guide": return "Руководство и команда"
-    case "about-mission": return "Миссия и ценности"
-    case "about-careers": return "Вакансии и карьера"
-    case "about-history": return "История компании"
-    case "about-reviews": return "Отзывы и письма"
-    case "about-certificates": return "Сертификаты и реквизиты"
-    case "about-press": return "Пресс-центр"
-    case "about-partners": return "Партнёрская программа"
-    case "contact": return t.breadcrumb.contact
-    case "section-geo": return t.razdel.sections[1].title
-    case "section-devops": return t.razdel.sections[2].title
-    case "section-content": return t.razdel.sections[3].title
-    case "shop": return "Магазин"
-    case "shop-section-1": return "Демо раздел товара 1"
-    case "shop-section-2": return "Демо раздел товара 2"
-    case "shop-section-3": return "Демо раздел товара 3"
-    case "shop-section-4": return "Демо раздел товара 4"
-    case "shop-section-5": return "Демо раздел товара 5"
     default: return seg.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
   }
 }

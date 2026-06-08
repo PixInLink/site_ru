@@ -4,6 +4,11 @@ import { join, basename } from "node:path";
 const args = process.argv.slice(2);
 const templateName = args[0];
 
+if (!/[a-zA-Z0-9_-]+$/.test(templateName)) {
+  console.error("Invalid template name. Use only alphanumeric characters, hyphens, and underscores.");
+  process.exit(1);
+}
+
 if (!templateName) {
   console.error("Usage: node scripts/install-template.mjs <template-name>");
   console.error("Example: node scripts/install-template.mjs purple-geo");
@@ -36,7 +41,12 @@ console.log("1. Updating main.scss...");
 const mainScssPath = join(process.cwd(), "src", "assets", "main.scss");
 let mainScss = readFileSync(mainScssPath, "utf8");
 
-const themeLine = metadata.entry || `themes/${templateName}/theme.scss`;
+const rawEntry = metadata.entry;
+if (rawEntry && (rawEntry.includes("..") || rawEntry.startsWith("/") || /^[a-zA-Z]:/.test(rawEntry))) {
+  console.error("Invalid theme entry in theme.json: path traversal detected.");
+  process.exit(1);
+}
+const themeLine = rawEntry || `themes/${templateName}/theme.scss`;
 mainScss = mainScss.replace(
   /@import\s+["']themes\/[^"']+["']\s*;?/g,
   `@import "${themeLine}";`,

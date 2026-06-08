@@ -10,7 +10,7 @@ export function detectReviewFromHtml(text) {
   }
   if (reviews.length >= 1) {
     const avg = (reviews.reduce((s,r)=>s+r.r,0)/reviews.length).toFixed(1);
-    return { "@context":"https://schema.org","@type":"AggregateRating", ratingValue: avg, bestRating:"5", worstRating:"1", ratingCount: String(reviews.length), reviewCount: String(reviews.length), review: reviews.map(r=>({ "@type":"Review", author:{ "@type":"Person", name: r.a }, reviewRating:{ "@type":"Rating", ratingValue: String(r.r) }, reviewBody: r.t, datePublished: r.d })) };
+    return { "@context":"https://schema.org","@type":"Product", name:"Service Reviews", aggregateRating:{ "@type":"AggregateRating", ratingValue: avg, bestRating:"5", worstRating:"1", ratingCount: String(reviews.length), reviewCount: String(reviews.length) }, review: reviews.map(r=>({ "@type":"Review", author:{ "@type":"Person", name: r.a }, reviewRating:{ "@type":"Rating", ratingValue: String(r.r) }, reviewBody: r.t, datePublished: r.d })) };
   }
   return null;
 }
