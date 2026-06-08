@@ -415,7 +415,7 @@ raw_html: true
               <li class="type-primary">
                 <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
                   <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
                     <div class="text"><strong class="use-text-subtitle2">Прогнозируемая загрузка</strong>
                       <p>Сервис готов к росту трафика и частым запросам.</p>
                     </div>
