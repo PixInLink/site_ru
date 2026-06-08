@@ -255,7 +255,7 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/светлый-офис" loading="lazy" alt="светлый офис" />
+                    <img src="https://pixinlink.ru/766x510/современный-офис" loading="lazy" alt="светлый офис" />
                   </figure>
                 </div>
               </div>
@@ -269,7 +269,7 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/ноутбук-на-столе" loading="lazy" alt="ноутбук на столе" />
+                    <img src="https://pixinlink.ru/766x510/сотрудник-офиса" loading="lazy" alt="ноутбук на столе" />
                   </figure>
                 </div>
               </div>
@@ -283,7 +283,7 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/монитор-и-графики" loading="lazy" alt="монитор и графики" />
+                    <img src="https://pixinlink.ru/766x510/дизайнер-компьютер" loading="lazy" alt="монитор и графики" />
                   </figure>
                 </div>
               </div>
@@ -300,7 +300,155 @@ raw_html: true
       </div>
     </div>
   </div>
-</section><!-- ##### END BENEFIT #####-->
+</section>
+<!-- ##### END BENEFIT #####-->
+<!-- ##### END COMPARISON TABLE ##### --> 
+<section class="space-top" id="integration">
+  <div class="root">
+    <div class="container">
+      <div class="row">
+        <div class="dashed-divider"></div>
+        <div class="col-md-6 col-sm-12 px-sm-10 mb-10 mb-md-0">
+          <div class="wow fadeInDownShort" data-wow-delay="0.5s" data-wow-duration="0.5s">
+            <div>
+              <figure class="illustration">
+                <svg class="droplet secondary-color" width="7px" height="128px" viewBox="0 0 7 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                    <g transform="translate(-407.000000, -3715.000000)">
+                      <g transform="translate(170.000000, 3715.000000)">
+                        <g transform="translate(32.000000, 0.000000)">
+                          <g transform="translate(205.444444, 0.000000)">
+                            <rect x="-1.26565425e-14" y="80" width="6" height="48" rx="3"></rect>
+                            <rect x="1.01030295e-13" y="35" width="6" height="28" rx="3"></rect>
+                            <rect x="1.01030295e-13" y="0" width="6" height="20.5" rx="3"></rect>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration1_3d@2x.png" alt="background" />
+              </figure>
+              <div class="main-title align-center">
+                <p class="caption-title">Build It</p>
+                <h4>Гибкая интеграция по URL</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 px-sm-10">
+          <div class="wow fadeInDownShort" data-wow-delay="0.8s" data-wow-duration="0.5s">
+            <div>
+              <figure class="illustration">
+                <svg class="droplet primary-color" width="7px" height="128px" viewBox="0 0 7 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill-rule="evenodd">
+                    <g transform="translate(-407.000000, -3715.000000)">
+                      <g transform="translate(170.000000, 3715.000000)">
+                        <g transform="translate(32.000000, 0.000000)">
+                          <g transform="translate(205.444444, 0.000000)">
+                            <rect x="-1.26565425e-14" y="80" width="6" height="48" rx="3"></rect>
+                            <rect x="1.01030295e-13" y="35" width="6" height="28" rx="3"></rect>
+                            <rect x="1.01030295e-13" y="0" width="6" height="20.5" rx="3"></rect>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration2_3d@2x.png" alt="background" />
+              </figure>
+              <div class="main-title align-center">
+                <p class="caption-title">SMART DEPLOYMENT</p>
+                <h4>Надёжная доставка и масштабирование</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="timeline">
+        <div class="solid-divider"></div>
+        <div class="row">
+          <div class="col-sm-6 py-0 px-md-10">
+            <ul class="left-side">
+              <li class="type-secondary">
+                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="text"><strong class="use-text-subtitle2">Быстрый placeholder</strong>
+                      <p>Показывайте изображение мгновенно, пока генерация выполняется.</p>
+                    </div>
+                    <div class="icon">
+                      <img src="/images/cloud/icon2_1.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="type-secondary">
+                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.30000000000000004s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="text"><strong class="use-text-subtitle2">Простая интеграция</strong>
+                      <p>Подключайте генерацию через URL, API и готовые сценарии для сайта.</p>
+                    </div>
+                    <div class="icon">
+                      <img src="/images/cloud/icon2_2.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="type-secondary">
+                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="text"><strong class="use-text-subtitle2">Стабильная инфраструктура</strong>
+                      <p>Работайте через CDN, кеширование и облачную доставку без лишних задержек.</p>
+                    </div>
+                    <div class="icon">
+                      <img src="/images/cloud/icon2_3.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 py-0 px-md-10">
+            <ul class="right-side">
+              <li class="type-primary">
+                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="text"><strong class="use-text-subtitle2">Прогнозируемая загрузка</strong>
+                      <p>Сервис готов к росту трафика и частым запросам.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="type-primary">
+                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="text"><strong class="use-text-subtitle2">Удобно для бизнеса</strong>
+                      <p>Подходит для лендингов, блогов, SaaS и контент-проектов.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="type-primary">
+                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.6000000000000001s" data-wow-duration="0.5s">
+                  <div class="item">
+                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="50" height="50" loading="lazy" alt="" class="icon-sky"></div>
+                    <div class="text"><strong class="use-text-subtitle2">Ответственный AI-подход</strong>
+                      <p>Поддерживайте watermark, лимиты и безопасные настройки для пользователей.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- ##### END INTEGRATION #####-->
   <!-- ##### FEATURE (КЛЮЧЕВЫЕ ФАКТЫ) #####-->
   <section class="space-top-short" id="feature">
     <div class="root">
@@ -439,7 +587,7 @@ raw_html: true
       <!-- Шаг 2 -->
       <div class="col-md-3 col-sm-6 text-center mb-5">
         <div style="font-size: 4rem; color: #e0e0e0; font-weight: 900; line-height: 1; margin-bottom: 15px;">2</div>
-        <h6 class="use-text-subtitle font-weight-bold">Вставляете в img src</h6>
+        <h6 class="use-text-subtitle font-weight-bold">Вставляете в img</h6>
         <p class="use-text-paragraph text-muted mt-2">Одна строка в HTML-коде, шаблоне WordPress или Tilda — и изображение появится само.</p>
       </div>      
       <!-- Шаг 3 -->
@@ -515,153 +663,6 @@ raw_html: true
     </div>
   </div>
 </section>
-<!-- ##### END COMPARISON TABLE ##### --> 
-<section class="space-top" id="integration">
-  <div class="root">
-    <div class="container">
-      <div class="row">
-        <div class="dashed-divider"></div>
-        <div class="col-md-6 col-sm-12 px-sm-10 mb-10 mb-md-0">
-          <div class="wow fadeInDownShort" data-wow-delay="0.5s" data-wow-duration="0.5s">
-            <div>
-              <figure class="illustration">
-                <svg class="droplet secondary-color" width="7px" height="128px" viewBox="0 0 7 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <g stroke="none" stroke-width="1" fill-rule="evenodd">
-                    <g transform="translate(-407.000000, -3715.000000)">
-                      <g transform="translate(170.000000, 3715.000000)">
-                        <g transform="translate(32.000000, 0.000000)">
-                          <g transform="translate(205.444444, 0.000000)">
-                            <rect x="-1.26565425e-14" y="80" width="6" height="48" rx="3"></rect>
-                            <rect x="1.01030295e-13" y="35" width="6" height="28" rx="3"></rect>
-                            <rect x="1.01030295e-13" y="0" width="6" height="20.5" rx="3"></rect>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration1_3d@2x.png" alt="background" />
-              </figure>
-              <div class="main-title align-center">
-                <p class="caption-title">Build It</p>
-                <h4>Гибкая интеграция по URL</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 px-sm-10">
-          <div class="wow fadeInDownShort" data-wow-delay="0.8s" data-wow-duration="0.5s">
-            <div>
-              <figure class="illustration">
-                <svg class="droplet primary-color" width="7px" height="128px" viewBox="0 0 7 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <g stroke="none" stroke-width="1" fill-rule="evenodd">
-                    <g transform="translate(-407.000000, -3715.000000)">
-                      <g transform="translate(170.000000, 3715.000000)">
-                        <g transform="translate(32.000000, 0.000000)">
-                          <g transform="translate(205.444444, 0.000000)">
-                            <rect x="-1.26565425e-14" y="80" width="6" height="48" rx="3"></rect>
-                            <rect x="1.01030295e-13" y="35" width="6" height="28" rx="3"></rect>
-                            <rect x="1.01030295e-13" y="0" width="6" height="20.5" rx="3"></rect>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                 <img class="img-2d3d" src="/themes/oiron/images/cloud/integration2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration2_3d@2x.png" alt="background" />
-              </figure>
-              <div class="main-title align-center">
-                <p class="caption-title">SMART DEPLOYMENT</p>
-                <h4>Надёжная доставка и масштабирование</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="timeline">
-        <div class="solid-divider"></div>
-        <div class="row">
-          <div class="col-sm-6 py-0 px-md-10">
-            <ul class="left-side">
-              <li class="type-secondary">
-                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="text"><strong class="use-text-subtitle2">Быстрый placeholder</strong>
-                      <p>Показывайте изображение мгновенно, пока генерация выполняется.</p>
-                    </div>
-                    <div class="icon">
-                      <img src="/images/cloud/icon2_1.svg" width="50" height="50" loading="lazy" alt="" class="icon-orange">
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="type-secondary">
-                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.30000000000000004s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="text"><strong class="use-text-subtitle2">Простая интеграция</strong>
-                      <p>Подключайте генерацию через URL, API и готовые сценарии для сайта.</p>
-                    </div>
-                    <div class="icon">
-                      <img src="/images/cloud/icon2_2.svg" width="32" height="32" loading="lazy" alt="" class="icon-cyan">
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="type-secondary">
-                <div class="wow fadeInRightShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="text"><strong class="use-text-subtitle2">Стабильная инфраструктура</strong>
-                      <p>Работайте через CDN, кеширование и облачную доставку без лишних задержек.</p>
-                    </div>
-                    <div class="icon">
-                      <img src="/images/cloud/icon2_3.svg" width="32" height="32" loading="lazy" alt="" class="icon-cyan">
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-6 py-0 px-md-10">
-            <ul class="right-side">
-              <li class="type-primary">
-                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.2s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_4.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
-                    <div class="text"><strong class="use-text-subtitle2">Прогнозируемая загрузка</strong>
-                      <p>Сервис готов к росту трафика и частым запросам.</p>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="type-primary">
-                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.4s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_5.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
-                    <div class="text"><strong class="use-text-subtitle2">Удобно для бизнеса</strong>
-                      <p>Подходит для лендингов, блогов, SaaS и контент-проектов.</p>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="type-primary">
-                <div class="wow fadeInLeftShort" data-wow-offset="-100" data-wow-delay="0.6000000000000001s" data-wow-duration="0.5s">
-                  <div class="item">
-                    <div class="icon"><img src="/images/cloud/icon2_6.svg" width="32" height="32" loading="lazy" alt="" class="icon-sky"></div>
-                    <div class="text"><strong class="use-text-subtitle2">Ответственный AI-подход</strong>
-                      <p>Поддерживайте watermark, лимиты и безопасные настройки для пользователей.</p>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- ##### END INTEGRATION #####-->
 <!-- ##### BLOG POSTS ##### -->
 <section class="space-top-short" id="latest-posts">
   <div class="container">
