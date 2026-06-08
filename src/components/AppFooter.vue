@@ -106,15 +106,15 @@ import { t } from "../i18n";
   margin-bottom: 4px;
 }
 .footer-sitemap ul li a {
-  color: rgba(255,255,255,0.75);
+  color: rgba(0, 0, 0, 0.75);
   font-size: 14px;
   text-decoration: none;
 }
 .footer-sitemap ul li a:hover {
-  color: #fff;
+  color: #000;
 }
 .footer-sitemap .body-2 {
-  color: rgba(255,255,255,0.65);
+  color: rgba(0, 0, 0, 0.65);
   font-size: 14px;
 }
 .footer-sitemap .logo-main {
