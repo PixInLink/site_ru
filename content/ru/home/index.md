@@ -663,6 +663,57 @@ raw_html: true
     </div>
   </div>
 </section>
+<section class="space-top-short" id="map-locations">
+  <div class="root">
+    <div class="container">
+      <div class="main-title align-center">
+        <p class="caption-title">PixInLink работает там, где нужен быстрый визуальный контент.</p>
+        <h4>Глобальная доставка без лишней сложности</h4>
+      </div>
+      <div class="row">
+        <div class="col-md-7 col-sm-12 map-wrap">
+          <div class="world-map">
+            <div class="location-wrap">
+              <div class="location-item" style="left: 100px; top: 150px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="CDN-кеш и быстрый placeholder" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 120px; top: 100px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="URL-first генерация для лендингов" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 400px; top: 40px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Интеграции для контентных проектов" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 500px; top: 300px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Масштабирование под рост трафика" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 270px; top: 220px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="AI-изображения для блогов и SaaS" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 100px; top: 200px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Готово для быстрой вставки в сайт" type="button"><span class="location"><span class="dot primary-color"></span></span></button></div>
+              <div class="location-item" style="left: 100px; top: 40px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Watermark и freemium-модель" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 330px; top: 100px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="SEO-контент и предпросмотр" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 30px; top: 50px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Без сложной настройки" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 400px; top: 150px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Инфраструктура под API-запросы" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 480px; top: 100px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Стабильная выдача изображений" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 250px; top: 100px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Подходит для WordPress и SaaS" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 150px; top: 300px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Готовые сценарии роста" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 300px; top: 140px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Быстрый старт без лишних шагов" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 480px; top: 280px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Контент для международной аудитории" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+              <div class="location-item" style="left: 300px; top: 100px"><button class="btn-icon waves-effect tooltipped" data-position="top" data-tooltip="Доставка через CDN и кеш" type="button"><span class="location"><span class="dot secondary-color"></span></span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <div class="text">
+            <div class="wow fadeInLeftShort" data-wow-offset="100" data-wow-delay="0.2s" data-wow-duration="0.3s">
+              <div class="px-4">
+                <h3 class="use-text-subtitle title-primary"><span></span>Быстрый старт</h3>
+                <p class="use-text-paragraph">Показывайте placeholder за миллисекунды и отдавайте готовые изображения через CDN, чтобы пользователь видел результат без ожидания.</p>
+              </div>
+            </div>
+            <div class="wow fadeInLeftShort" data-wow-offset="100" data-wow-delay="0.2s" data-wow-duration="0.3s">
+              <div class="px-4">
+                <h3 class="use-text-subtitle title-secondary"><span></span>Рост без перегруза</h3>
+                <p class="use-text-paragraph">PixInLink подходит для блогов, SaaS, лендингов и WordPress-проектов, где важны простая интеграция, watermark и стабильная доставка контента.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ##### END MAP #####-->
 <!-- ##### BLOG POSTS ##### -->
 <section class="space-top-short" id="latest-posts">
   <div class="container">
@@ -700,6 +751,77 @@ raw_html: true
   </div>
 </section>
 <!-- ##### END BLOG POSTS ##### --> 
+<section class="space-top-short" id="testimonials">
+  <div class="root">
+    <div class="container fixed-width-lg-up">
+      <div class="main-title align-center">
+        <p class="caption-title">О PixInLink говорят</p>
+        <h4>Быстрый placeholder, понятный API и удобный рост</h4>
+      </div>
+      <div class="slider-wrap">
+        <div class="carousel">
+          <button class="waves-effect btn btn-small primary nav prev" id="prev_testi">
+            <i class="ion-ios-arrow-back"></i>
+          </button>
+          <div class="slick-carousel" id="testimonial_carousel">
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">У нас перестали ждать загрузку картинки: placeholder появляется сразу, а готовый результат приходит через CDN без лишних действий.</p>
+                <h6>Антон К.</h6>
+                <p class="caption">Product Manager</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">Интеграция по URL оказалась намного проще, чем отдельный сложный пайплайн генерации изображений.</p>
+                <h6>Мария С.</h6>
+                <p class="caption">Frontend Developer</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">Для контентных страниц и лендингов это удобный способ быстро генерировать визуалы и не перегружать сайт.</p>
+                <h6>Илья В.</h6>
+                <p class="caption">Growth Designer</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">Нравится, что сервис сразу рассчитан на масштабирование: URL-first подход, кеширование и стабильная выдача работают логично.</p>
+                <h6>Олег П.</h6>
+                <p class="caption">CTO</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">Мы используем PixInLink для быстрых превью и AI-креативов — это помогает экономить время команды и ускоряет публикации.</p>
+                <h6>Екатерина Л.</h6>
+                <p class="caption">Content Lead</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-card">
+                <div class="icon"><i class="material-icons">format_quote</i></div>
+                <p class="text">Хорошее решение для проектов, где важны простой запуск, watermark для free-тарифа и понятный путь к Pro.</p>
+                <h6>Денис М.</h6>
+                <p class="caption">CEO SaaS Studio</p>
+              </div>
+            </div>
+          </div>
+          <button class="waves-effect btn btn-small primary nav next" id="next_testi">
+            <i class="ion-ios-arrow-forward"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ##### END TESTIMONIALS #####-->
 <!-- ##### FINAL CTA ##### -->
 <section class="space-top-short" id="final-cta">
   <div class="container">
