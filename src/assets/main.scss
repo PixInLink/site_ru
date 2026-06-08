@@ -52,11 +52,13 @@
   display: none;
 }
 
-/* Footer counter — ensure white text on dark bg */
+/* Footer counter — dark background + white text */
+.footer-counter.extend {
+  background: linear-gradient(180deg, #0d0f2b 0%, #1a237e 100%);
+}
 .footer-counter.extend .use-text-title,
 .footer-counter.extend .use-text-title2,
-.footer-counter.extend .use-text-subtitle2,
-.footer-counter.extend .counter-wrap {
+.footer-counter.extend .use-text-subtitle2 {
   color: #fff;
 }
 
