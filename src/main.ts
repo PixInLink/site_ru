@@ -12,6 +12,10 @@ declare global {
 
 export const createApp = ViteSSG(App, { routes }, async () => {
   if (!import.meta.env.SSR) {
+    window.onerror = (msg, src, line, col, err) => {
+      console.error("[PixInLink] JS error:", msg, src, line, col, err?.stack);
+    };
+    console.log("[PixInLink] module loaded, $=", !!window.$, "$.fn.slick=", !!(window.$ && window.$.fn && window.$.fn.slick));
     await import("bootstrap/js/dist/collapse");
     initWhenReady();
   }
@@ -20,29 +24,24 @@ export const createApp = ViteSSG(App, { routes }, async () => {
 function initWhenReady() {
   const $ = window.$;
   if ($?.fn?.slick) {
+    console.log("[PixInLink] jQuery+slick OK, initializing sliders");
     const preloader = document.getElementById("preloader");
     if (preloader) preloader.style.display = "none";
     initSliders();
     initWaves();
   } else {
+    console.log("[PixInLink] waiting for slick... $=", !!$, "$.fn=", !!($ && $.fn), "$.fn.slick=", !!($ && $.fn && $.fn.slick));
     setTimeout(initWhenReady, 50);
   }
 }
 
-function initWaves() {
-  try {
-    const M = (window as unknown as Record<string, unknown>).M as { Waves?: { init: () => void } } | undefined;
-    if (M?.Waves) {
-      M.Waves.init();
-    }
-  } catch { /* materialize.js may not be loaded */ }
-}
-
 function initSliders() {
+  try {
   const $ = window.$;
-  if (!$) return;
+  if (!$) { console.log("[PixInLink] initSliders: no jQuery"); return; }
 
   const $banner = $("#banner_slider");
+  console.log("[PixInLink] banner_slider found:", !!$banner.length);
   if ($banner.length) {
     $banner.slick({
       dots: false,
@@ -60,6 +59,7 @@ function initSliders() {
         },
       ],
     });
+    console.log("[PixInLink] banner_slider initialized");
 
     const $nav = $("#banner_nav a");
     $nav.on("click", function (this: HTMLElement) {
@@ -95,6 +95,7 @@ function initSliders() {
         },
       ],
     });
+    console.log("[PixInLink] promotion_slider initialized, found:", !!$promo.length);
 
     $("#promotion_prev").on("click", () => $promo.slick("slickPrev"));
     $("#promotion_next").on("click", () => $promo.slick("slickNext"));
@@ -112,8 +113,12 @@ function initSliders() {
       fade: true,
       autoplaySpeed: 10000,
     });
+    console.log("[PixInLink] benefit_slider initialized, found:", !!$benefit.length);
 
     $("#benefit_prev").on("click", () => $benefit.slick("slickPrev"));
     $("#benefit_next").on("click", () => $benefit.slick("slickNext"));
+  }
+  } catch (e) {
+    console.error("[PixInLink] slider init error:", e);
   }
 }
