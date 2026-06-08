@@ -317,7 +317,7 @@ raw_html: true
              <!-- Факт 1 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_1.svg" width="48" height="48" loading="lazy" alt="" class="icon-cyan"> </figure>
+                <figure> <img src="/images/cloud/icon1_1.svg" width="140" height="140" loading="lazy" alt="" class="icon-cyan"> </figure>
                 <h6 class="use-text-subtitle">&lt; 100 мс отдача из кэша</h6>
                 <p class="use-text-paragraph">Первая генерация занимает ~8 секунд. Все последующие загрузки мгновенны благодаря Yandex Cloud CDN (140+ точек присутствия).</p>
               </div>
@@ -341,7 +341,7 @@ raw_html: true
             <!-- Факт 4 -->
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
-                <figure> <img src="/images/cloud/icon1_4.svg" width="48" height="48" loading="lazy" alt="" class="icon-amber"> </figure>
+                <figure> <img src="/images/cloud/icon1_4.svg" width="140" height="140" loading="lazy" alt="" class="icon-amber"> </figure>
                 <h6 class="use-text-subtitle">6 стилей генерации</h6>
                 <p class="use-text-paragraph">Управляйте эстетикой через URL: <code>realistic</code>, <code>illustration</code>, <code>3d</code>, <code>pixel-art</code>, <code>cyberpunk</code>, <code>anime</code>.</p>
               </div>
@@ -365,6 +365,59 @@ raw_html: true
           </div>
         </div>
       </div>
+         <div class="more-feature">
+                  <div class="container">
+                    <div class="item">
+                      <div class="row spacing6">
+                        <div class="col-md-6 col-sm-12 pa-sm-4 px-0 order-lg-5">
+                          <div class="text">
+                            <div class="main-title align-left">
+                              <p class="caption-title">EASY INTEGRATIONS</p>
+                              <h4>Fast, secure and always online.</h4>
+                            </div>
+                            <div class="text-center text-lg-start">
+                              <p class="use-text-subtitle2 text-center text-lg-start">With industry-leading load times, guaranteed 99.9% uptime and expert, 24/7 support, your site couldn’t ask for more.</p><a class="btn primary waves-effect" href="#">learn more</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 px-sm-6 px-0 order-lg-0">
+                          <div class="wow fadeInRightShort" data-wow-delay="0.4s" data-wow-offset="100" data-wow-duration="0.3s">
+                            <figure class="illustration">
+                              <img class="img-2d3d" src="./assets/images/cloud/feature1_3d@2x.png" data-2d="./assets" data-3d="./assets/images/cloud/feature1_3d@2x.png" alt="feature" />
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="divider" />
+                    <div class="item">
+                      <div class="row spacing6">
+                        <div class="col-md-6 col-sm-12 pa-sm-4 px-0">
+                          <div class="text text-right">
+                            <div class="wow fadeInRightShort" data-wow-delay="0.4s" data-wow-duration="0.3s">
+                              <div>
+                                <div class="main-title align-right">
+                                  <p class="caption-title">SMART DEPLOYMENT</p>
+                                  <h4>Deploy and scale seamlessly</h4>
+                                </div>
+                                <div class="text-center text-md-end">
+                                  <p class="use-text-subtitle2 text-center text-md-end">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p><a class="btn primary waves-effect" href="#">learn more</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 pa-sm-6 px-0">
+                          <div class="wow fadeInLeftShort" data-wow-delay="0.4s" data-wow-duration="0.3s">
+                            <figure class="illustration">
+                              <img class="img-2d3d" src="./assets/images/cloud/feature2_3d@2x.png" data-2d="./assets" data-3d="./assets/images/cloud/feature2_3d@2x.png" alt="feature" />
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
     </div>
   </section>
   <!-- ##### END FEATURE #####--> 

@@ -34,3 +34,8 @@
 .icon-amber {
   filter: invert(79%) sepia(41%) saturate(2025%) hue-rotate(354deg) brightness(103%) contrast(98%);
 }
+
+/* Center feature icons */
+.main-feature .item figure {
+  text-align: center;
+}
