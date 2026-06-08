@@ -112,4 +112,20 @@ function initSliders() {
     $("#benefit_prev").on("click", () => $benefit.slick("slickPrev"));
     $("#benefit_next").on("click", () => $benefit.slick("slickNext"));
   }
+
+  const $testi = $("#testimonial_carousel");
+  if ($testi.length) {
+    $testi.slick({
+      dots: false,
+      arrows: false,
+      speed: 500,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+    });
+
+    $("#prev_testi").on("click", () => $testi.slick("slickPrev"));
+    $("#next_testi").on("click", () => $testi.slick("slickNext"));
+  }
 }
