@@ -9,18 +9,11 @@ const isRu = siteConfig.locale === "ru";
 const menuOpen = ref(false);
 const serviceOpen = ref(false);
 const settingsOpen = ref(false);
-const isDark = ref(false);
 const isHeaderFixed = ref(false);
 
 function isCurrent(path: string) {
   if (path === "/") return route.path === "/";
   return route.path.startsWith(path);
-}
-
-function toggleTheme() {
-  isDark.value = !isDark.value;
-  document.documentElement.setAttribute("data-theme", isDark.value ? "dark" : "");
-  localStorage.setItem("theme", isDark.value ? "dark" : "light");
 }
 
 function closeMenu() {
@@ -53,11 +46,6 @@ onMounted(() => {
   document.addEventListener("click", onDocClick);
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
-  const saved = localStorage.getItem("theme");
-  if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-    isDark.value = true;
-    document.documentElement.setAttribute("data-theme", "dark");
-  }
 });
 
 onUnmounted(() => {
@@ -157,23 +145,8 @@ onUnmounted(() => {
                   <i class="icon material-icons" id="setting_icon">settings</i>
                 </button>
                 <div v-show="settingsOpen" class="setting-panel" id="dropdown_config">
-                  <ul class="collection with-header">
-                    <li class="collection-header">{{ isDark ? t.nav.themeDark : t.nav.themeLight }}</li>
-                    <li class="collection-item no-hover pl-4">
-                      <div class="flex-menu">
-                        <div class="switch">
-                          <label>
-                            light
-                            <input type="checkbox" :checked="isDark" @change="toggleTheme"><span class="lever"></span>
-                            dark
-                          </label>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="dropdown-divider"></div>
                   <ul class="collection with-header lang-menu" id="lang_menu">
-                    <li class="collection-header">language</li>
+                    <li class="collection-header">{{ t.nav.language }}</li>
                     <li class="collection-item lang-list waves-effect avatar">
                       <a :href="siteConfig.ruDomain">
                         <div class="flag circle"><i class="ar"></i></div>

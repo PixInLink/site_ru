@@ -21,6 +21,7 @@ export const ru = {
     signOut: "Выход",
     themeLight: "Light",
     themeDark: "Dark",
+    language: "Язык",
     langSwitch: "English",
     langSwitchDomain: "https://pixinlink.com",
   },
