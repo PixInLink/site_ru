@@ -358,7 +358,7 @@ raw_html: true
                  <img class="img-2d3d" src="/themes/oiron/images/cloud/integration2_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration2_3d@2x.png" alt="Фоновое изображение облачной инфраструктуры" />
               </figure>
               <div class="main-title align-center">
-                <p class="caption-title">SMART DEPLOYMENT</p>
+                <p class="caption-title">Умное развертывание</p>
                 <h4>Надёжная доставка и масштабирование</h4>
               </div>
             </div>
