@@ -330,7 +330,7 @@ raw_html: true
                  <img class="img-2d3d" src="/themes/oiron/images/cloud/integration1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/integration1_3d@2x.png" alt="Фоновое изображение облачной инфраструктуры" />
               </figure>
               <div class="main-title align-center">
-                <p class="caption-title">Build It</p>
+                <p class="caption-title">Создайте</p>
                 <h4>Гибкая интеграция по URL</h4>
               </div>
             </div>
@@ -518,7 +518,7 @@ raw_html: true
                          <div class="col-md-6 col-sm-12 pa-sm-4 px-0 order-lg-5">
                            <div class="text">
                              <div class="main-title align-left">
-                               <p class="caption-title">EASY INTEGRATIONS</p>
+                               <p class="caption-title">Легкая интеграция</p>
                                <h4>Генерация изображений по URL — быстро и удобно.</h4>
                              </div>
                              <div class="text-center text-lg-start">
@@ -532,18 +532,19 @@ raw_html: true
                                <img class="img-2d3d" src="/themes/oiron/images/cloud/feature1_3d@2x.png" data-2d="/themes/oiron" data-3d="/themes/oiron/images/cloud/feature1_3d@2x.png" alt="Преимущества PixInLink" />
                              </figure>
                            </div>
-                         </div>
-                       </div>
-                     </div>
-                     <hr class="divider" />
-                     <div class="item">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container"><hr class="divider" /></div>
+                  <div class="container">
+                   <div class="item">
                        <div class="row spacing6">
                          <div class="col-md-6 col-sm-12 pa-sm-4 px-0">
                            <div class="text text-right">
                              <div class="wow fadeInRightShort" data-wow-delay="0.4s" data-wow-duration="0.3s">
                                <div>
                                  <div class="main-title align-right">
-                                   <p class="caption-title">SMART DEPLOYMENT</p>
+                <p class="caption-title">Умное развертывание</p>
                                    <h4>Масштабируйте сервис без лишних сложностей.</h4>
                                  </div>
                                  <div class="text-center text-md-end">
