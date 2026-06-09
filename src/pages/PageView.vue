@@ -26,10 +26,11 @@ useSeo(() => {
       type: "website",
     };
   }
+  const canonicalPath = currentPage.isIndex ? "/" : `/${currentPage.frontmatter.slug}/`;
   return {
     title: currentPage.frontmatter.title,
     description: currentPage.frontmatter.description,
-    path: `/${currentPage.frontmatter.slug}/`,
+    path: canonicalPath,
     type: "website",
   };
 });
