@@ -107,11 +107,18 @@ import { t } from "../i18n";
   margin-top: 16px;
 }
 .footer-sitemap .select-lang select {
+  display: block;
+  width: auto;
+  min-width: 140px;
   background: rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  padding: 8px 12px;
+  padding: 8px 32px 8px 12px;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
 }
 </style>
