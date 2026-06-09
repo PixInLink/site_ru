@@ -145,8 +145,7 @@ onUnmounted(() => {
                   <i class="icon material-icons" id="setting_icon">settings</i>
                 </button>
                 <div v-show="settingsOpen" class="setting-panel" id="dropdown_config">
-                  <ul class="collection with-header lang-menu" id="lang_menu">
-                    <li class="collection-header">{{ t.nav.language }}</li>
+                  <ul class="collection lang-menu" id="lang_menu">
                     <li class="collection-item lang-list waves-effect avatar">
                       <a :href="siteConfig.ruDomain">
                         <div class="flag circle"><i class="ar"></i></div>
