@@ -23,107 +23,103 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-<!-- КАРТОЧКИ ТАРИФОВ (Block 5B) -->
-<div class="container page-section" id="pricing-cards">
-  <div class="pricing-wrap">
-    <div class="row align-items-end">
-      <!-- Тариф 1: Free -->
-      <div class="col-lg-3 col-sm-6 px-3 mb-4">
-        <div class="card center-box price-card">
-          <div class="card-title price-header justify-center">
-            <h5 class="text-xs-center headline">Free</h5>
-          </div>
-          <div class="card-text p-4">
-            <div class="card-pricing mb-3">
-              <h2 class="price text-xs-center display-2" style="font-weight: 700;">0 ₽</h2>
-              <h6 class="title text-center">/ мес</h6>
+<!-- КАРТОЧКИ ТАРИФОВ -->
+<div class="container-general">
+  <div class="mt-12">
+    <div class="container">
+      <h3 class="use-text-title use-text-primary text-center mb-4">Тарифы и планы</h3>
+      <p class="use-text-subtitle2 text-center mb-4">Начните с бесплатного тарифа и масштабируйтесь по мере роста ваших задач.</p>
+      <div class="pricing-wrap">
+        <div class="row align-items-end">
+          <!-- Free -->
+          <div class="col-md-3 col-sm-6 px-0">
+            <div class="card pricing-card">
+              <div class="title-card">
+                <p class="use-text-secondary-color">Free</p>
+                <div class="card-pricing">
+                  <h2 class="use-text-title use-text-secondary">0 ₽</h2>
+                  <h6 class="use-text-paragraph">&nbsp;/мес</h6>
+                </div>
+              </div>
+              <ul>
+                <li>50 изображений</li>
+                <li>Водяной знак</li>
+                <li>Для тестов</li>
+              </ul>
+              <div class="btn-area secondary-color">
+                <p>50 генераций бесплатно, навсегда. Без карты.</p>
+                <a class="btn button full-width waves-effect secondary" href="https://app.pixinlink.ru/register">Начать бесплатно</a>
+              </div>
             </div>
-            <ul class="mb-4" style="list-style: none; padding-left: 0;">
-              <li class="text-center subtitle-1 pb-2 border-bottom">50 изображений</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Водяной знак</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Для тестов</li>
-            </ul>
           </div>
-          <div class="text-center p-4">
-            <a href="https://app.pixinlink.ru/register" class="btn primary waves-effect btn-outlined block" style="width: 100%;">Начать бесплатно</a>
+          <!-- Starter -->
+          <div class="col-md-3 col-sm-6 px-0">
+            <div class="card pricing-card">
+              <div class="title-card">
+                <p class="use-text-primary-color">Starter</p>
+                <div class="card-pricing">
+                  <h2 class="use-text-title use-text-primary">490 ₽</h2>
+                  <h6 class="use-text-paragraph">&nbsp;/мес</h6>
+                </div>
+              </div>
+              <ul>
+                <li>500 изображений</li>
+                <li>Без водяного знака</li>
+                <li>Коммерческое использование</li>
+                <li>0.98 ₽ за шт.</li>
+              </ul>
+              <div class="btn-area primary-color">
+                <p>Идеально для блогов и небольших сайтов.</p>
+                <a class="btn button full-width waves-effect primary" href="https://app.pixinlink.ru/register?plan=starter">Выбрать Starter</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pro -->
+          <div class="col-md-3 col-sm-6 px-0">
+            <div class="card pricing-card bg">
+              <div class="title-card">
+                <p class="use-text-primary-color">Pro</p><i class="material-icons icon">star_border</i>
+                <div class="card-pricing">
+                  <h2 class="use-text-title use-text-primary">1 490 ₽</h2>
+                  <h6 class="use-text-paragraph">&nbsp;/мес</h6>
+                </div>
+              </div>
+              <ul>
+                <li>2 000 изображений</li>
+                <li>API-ключ + Все стили</li>
+                <li>Приоритетная очередь</li>
+                <li>0.75 ₽ за шт.</li>
+              </ul>
+              <div class="btn-area primary-color">
+                <p>Самый популярный. Для агентств и команд.</p>
+                <a class="btn button full-width waves-effect primary" href="https://app.pixinlink.ru/register?plan=pro">Выбрать Pro</a>
+              </div>
+            </div>
+          </div>
+          <!-- Business -->
+          <div class="col-md-3 col-sm-6 px-0">
+            <div class="card pricing-card">
+              <div class="title-card">
+                <p class="use-text-primary-color">Business</p>
+                <div class="card-pricing">
+                  <h2 class="use-text-title use-text-primary">4 990 ₽</h2>
+                  <h6 class="use-text-paragraph">&nbsp;/мес</h6>
+                </div>
+              </div>
+              <ul>
+                <li>10 000 изображений</li>
+                <li>Bulk API &amp; Webhooks</li>
+                <li>Поддержка SLA 4 ч.</li>
+                <li>0.50 ₽ за шт.</li>
+              </ul>
+              <div class="btn-area primary-color">
+                <p>Для крупных порталов и high-load проектов.</p>
+                <a class="btn button full-width waves-effect primary" href="https://app.pixinlink.ru/register?plan=business">Связаться с нами</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Тариф 2: Starter -->
-      <div class="col-lg-3 col-sm-6 px-3 mb-4">
-        <div class="card center-box price-card">
-          <div class="card-title price-header justify-center">
-            <h5 class="text-xs-center headline">Starter</h5>
-          </div>
-          <div class="card-text p-4">
-            <div class="card-pricing mb-3">
-              <h2 class="price text-xs-center display-2" style="font-weight: 700;">490 ₽</h2>
-              <h6 class="title text-center">/ мес</h6>
-            </div>
-            <p class="text-center body-2 mb-3" style="color: #858585;">0.98 ₽ за шт.</p>
-            <ul class="mb-4" style="list-style: none; padding-left: 0;">
-              <li class="text-center subtitle-1 pb-2 border-bottom">500 изображений</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Без водяного знака</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Коммерческое использование</li>
-            </ul>
-          </div>
-          <div class="text-center p-4">
-            <a href="https://app.pixinlink.ru/register?plan=starter" class="btn primary waves-effect btn-outlined block" style="width: 100%;">Выбрать Starter</a>
-          </div>
-        </div>
-      </div>
-      <!-- Тариф 3: Pro (Популярный) -->
-      <div class="col-lg-3 col-sm-6 px-3 mb-4">
-        <div class="card center-box price-card" style="border: 2px solid #2196F3; transform: scale(1.05); z-index: 1;">
-          <div class="card-title price-header justify-center" style="background: #2196F3; color: white;">
-            <h5 class="text-xs-center headline mb-0">Pro</h5>
-            <div class="small-title text-xs-center body-2">Самый популярный</div>
-          </div>
-          <div class="card-text p-4">
-            <div class="card-pricing mb-3">
-              <h2 class="price text-xs-center display-2" style="font-weight: 700;">1 490 ₽</h2>
-              <h6 class="title text-center">/ мес</h6>
-            </div>
-            <p class="text-center body-2 mb-3" style="color: #858585;">0.75 ₽ за шт.</p>
-            <ul class="mb-4" style="list-style: none; padding-left: 0;">
-              <li class="text-center subtitle-1 pb-2 border-bottom">2 000 изображений</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">API-ключ + Все стили</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Приоритетная очередь</li>
-            </ul>
-          </div>
-          <div class="text-center p-4">
-            <a href="https://app.pixinlink.ru/register?plan=pro" class="btn primary waves-effect block" style="width: 100%;">Выбрать Pro</a>
-          </div>
-        </div>
-      </div>
-      <!-- Тариф 4: Business -->
-      <div class="col-lg-3 col-sm-6 px-3 mb-4">
-        <div class="card center-box price-card">
-          <div class="card-title price-header justify-center">
-            <h5 class="text-xs-center headline">Business</h5>
-          </div>
-          <div class="card-text p-4">
-            <div class="card-pricing mb-3">
-              <h2 class="price text-xs-center display-2" style="font-weight: 700;">4 990 ₽</h2>
-              <h6 class="title text-center">/ мес</h6>
-            </div>
-            <p class="text-center body-2 mb-3" style="color: #858585;">0.50 ₽ за шт.</p>
-            <ul class="mb-4" style="list-style: none; padding-left: 0;">
-              <li class="text-center subtitle-1 pb-2 border-bottom">10 000 изображений</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Bulk API &amp; Webhooks</li>
-              <li class="text-center subtitle-1 py-2 border-bottom">Поддержка SLA 4 ч.</li>
-            </ul>
-          </div>
-          <div class="text-center p-4">
-            <a href="https://app.pixinlink.ru/register?plan=business" class="btn primary waves-effect btn-outlined block" style="width: 100%;">Выбрать Business</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row mt-3">
-    <div class="col-12 text-center text-muted body-2">
-      Для Enterprise (Свыше 10 000 генераций и White-label) — <a href="mailto:enterprise@pixinlink.ru">свяжитесь с нами</a>.
     </div>
   </div>
 </div>
