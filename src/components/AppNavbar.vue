@@ -274,8 +274,43 @@ onUnmounted(() => {
   box-shadow: 0 4px 16px rgba(0,0,0,0.12);
   z-index: 1000;
   border-radius: 4px;
-  min-width: 200px;
-  padding: 8px 0;
+  min-width: 180px;
+  padding: 0;
+}
+.setting-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.setting-panel li {
+  display: block;
+}
+.setting-panel .menu-list {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 16px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.setting-panel .menu-list:hover {
+  background: #f5f5f5;
+  color: var(--color-accent);
+}
+.setting-panel {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  z-index: 1000;
+  border-radius: 4px;
+  min-width: 180px;
+  padding: 0;
 }
 .header-content,
 .nav-menu,
