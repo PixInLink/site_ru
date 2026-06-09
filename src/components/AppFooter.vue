@@ -44,9 +44,9 @@ import { t } from "../i18n";
             <a class="btn btn-icon waves-effect"><span class="ion-social-linkedin icon"></span></a>
           </div>
           <div class="select-lang select-outlined">
-            <select class="select" id="lang_select">
-              <option value="ru" selected>Русский</option>
-              <option value="en">English</option>
+            <select class="select" id="lang_select" onchange="window.location.href = this.value">
+              <option value="https://pixinlink.ru/" selected>Русский</option>
+              <option value="https://pixinlink.com/">&lrm;English</option>
             </select>
           </div>
           <p class="body-2 mt-5 text-center hidden-md-up">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
