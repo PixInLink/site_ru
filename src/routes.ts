@@ -5,6 +5,7 @@ import ArticlePage from "./pages/ArticlePage.vue";
 import BlogIndex from "./pages/BlogIndex.vue";
 import CategoryPage from "./pages/CategoryPage.vue";
 import PageView from "./pages/PageView.vue";
+import NotFound from "./pages/NotFound.vue";
 import TagPage from "./pages/TagPage.vue";
 import { slugify } from "./utils/slug";
 
@@ -37,4 +38,5 @@ export const routes: RouteRecordRaw[] = [
   ...nonHomePages.map(page => ({
     path: `/${page.frontmatter.slug}/`, component: PageView, props: { slug: page.frontmatter.slug },
   })),
+  { path: "/:pathMatch(.*)*", component: NotFound },
 ];
