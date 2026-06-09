@@ -122,10 +122,10 @@ onUnmounted(() => {
                   </button>
                   <div v-if="serviceOpen" class="mega-menu-root" id="sample-page" @click.stop>
                     <ul>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/features/">{{ t.nav.features }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/">{{ t.nav.useCases }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/docs/">{{ t.nav.docs }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/features/"><i class="material-icons">auto_awesome</i> {{ t.nav.features }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/"><i class="material-icons">work</i> {{ t.nav.useCases }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/"><i class="material-icons">extension</i> {{ t.nav.integrations }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/docs/"><i class="material-icons">menu_book</i> {{ t.nav.docs }}</RouterLink></li>
                     </ul>
                   </div>
                   <div v-if="serviceOpen" class="mega-menu-backdrop" @click="serviceOpen = false"></div>
@@ -261,6 +261,11 @@ onUnmounted(() => {
   text-decoration: none;
   white-space: nowrap;
   box-sizing: border-box;
+}
+.mega-menu-root .menu-list .material-icons {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 .mega-menu-root .menu-list:hover {
   background: #f5f5f5;
