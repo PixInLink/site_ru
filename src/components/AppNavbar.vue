@@ -145,13 +145,9 @@ onUnmounted(() => {
                   <i class="icon material-icons" id="setting_icon">settings</i>
                 </button>
                 <div v-show="settingsOpen" class="setting-panel" id="dropdown_config">
-                  <ul class="collection lang-menu" id="lang_menu">
-                    <li class="collection-item lang-list waves-effect">
-                      <a :href="siteConfig.ruDomain" class="menu-list">Русский</a>
-                    </li>
-                    <li class="collection-item lang-list waves-effect">
-                      <a :href="siteConfig.enDomain" class="menu-list">English</a>
-                    </li>
+                  <ul>
+                    <li class="waves-effect"><a :href="siteConfig.ruDomain" class="menu-list">Русский</a></li>
+                    <li class="waves-effect"><a :href="siteConfig.enDomain" class="menu-list">English</a></li>
                   </ul>
                 </div>
               </div>
