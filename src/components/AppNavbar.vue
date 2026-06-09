@@ -146,17 +146,11 @@ onUnmounted(() => {
                 </button>
                 <div v-show="settingsOpen" class="setting-panel" id="dropdown_config">
                   <ul class="collection lang-menu" id="lang_menu">
-                    <li class="collection-item lang-list waves-effect avatar">
-                      <a :href="siteConfig.ruDomain">
-                        <div class="flag circle"><i class="ar"></i></div>
-                        <span class="content lang-opt text-truncate">Русский</span>
-                      </a>
+                    <li class="collection-item lang-list waves-effect">
+                      <a :href="siteConfig.ruDomain" class="menu-list">Русский</a>
                     </li>
-                    <li class="collection-item lang-list waves-effect avatar">
-                      <a :href="siteConfig.enDomain">
-                        <div class="flag circle"><i class="en"></i></div>
-                        <span class="content lang-opt text-truncate">English</span>
-                      </a>
+                    <li class="collection-item lang-list waves-effect">
+                      <a :href="siteConfig.enDomain" class="menu-list">English</a>
                     </li>
                   </ul>
                 </div>
