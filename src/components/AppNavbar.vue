@@ -76,6 +76,7 @@ onUnmounted(() => {
                     <li class="collection-item side-group-link"><a class="waves-effect text-truncate menu-list" href="/use-cases/" @click.prevent="closeMenu(); $router.push('/use-cases/')">{{ t.nav.useCases }}</a></li>
                     <li class="collection-item side-group-link"><a class="waves-effect text-truncate menu-list" href="/integrations/" @click.prevent="closeMenu(); $router.push('/integrations/')">{{ t.nav.integrations }}</a></li>
                     <li class="collection-item side-group-link"><a class="waves-effect text-truncate menu-list" href="/docs/" @click.prevent="closeMenu(); $router.push('/docs/')">{{ t.nav.docs }}</a></li>
+                    <li class="collection-item side-group-link"><a class="waves-effect text-truncate menu-list" href="/pricing/" @click.prevent="closeMenu(); $router.push('/pricing/')">{{ t.nav.pricing }}</a></li>
                   </ul>
                 </div>
               </div>
@@ -126,6 +127,7 @@ onUnmounted(() => {
                       <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/"><i class="material-icons">work</i> {{ t.nav.useCases }}</RouterLink></li>
                       <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/"><i class="material-icons">extension</i> {{ t.nav.integrations }}</RouterLink></li>
                       <li class="waves-effect"><RouterLink class="menu-list" to="/docs/"><i class="material-icons">menu_book</i> {{ t.nav.docs }}</RouterLink></li>
+                      <li class="waves-effect"><RouterLink class="menu-list" to="/pricing/"><i class="material-icons">monetization_on</i> {{ t.nav.pricing }}</RouterLink></li>
                     </ul>
                   </div>
                   <div v-if="serviceOpen" class="mega-menu-backdrop" @click="serviceOpen = false"></div>
