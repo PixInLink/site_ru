@@ -16,7 +16,7 @@ import { t } from "../i18n";
           <p class="body-2">{{ siteConfig.description }}</p>
           <p class="body-2 hidden-sm-down">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
         </div>
-        <div class="col-md-3 col-sm-12 pa-4 site-map-item">
+        <div class="col-md-2 col-sm-12 pa-4 site-map-item">
           <h6 class="title mb-4">{{ t.footer.pages }}</h6>
           <ul>
             <li><RouterLink to="/">{{ t.footer.home }}</RouterLink></li>
@@ -26,7 +26,7 @@ import { t } from "../i18n";
             <li><RouterLink to="/integrations/">{{ t.nav.integrations }}</RouterLink></li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-12 pa-4 site-map-item">
+        <div class="col-md-2 col-sm-12 pa-4 site-map-item">
           <h6 class="title mb-4">{{ t.footer.more }}</h6>
           <ul>
             <li><RouterLink to="/blog/">{{ t.footer.blog }}</RouterLink></li>
@@ -34,6 +34,13 @@ import { t } from "../i18n";
             <li><RouterLink to="/about/">{{ t.footer.about }}</RouterLink></li>
             <li><RouterLink to="/contact/">{{ t.footer.contact }}</RouterLink></li>
             <li><a href="/rss.xml">{{ t.footer.rss }}</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-12 pa-4 site-map-item">
+          <h6 class="title mb-4">{{ t.footer.legal }}</h6>
+          <ul>
+            <li><RouterLink to="/legal/privacy/">{{ t.footer.privacy }}</RouterLink></li>
+            <li><RouterLink to="/legal/terms/">{{ t.footer.terms }}</RouterLink></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-12 pa-4">

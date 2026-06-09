@@ -35,6 +35,9 @@ export const en = {
     docs: "Docs",
     pricing: "Pricing",
     rss: "RSS Feed",
+    legal: "Legal",
+    privacy: "Privacy Policy",
+    terms: "Terms of Use",
   },
 
   blog: {
