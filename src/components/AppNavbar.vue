@@ -266,6 +266,11 @@ onUnmounted(() => {
   font-size: 18px;
   vertical-align: middle;
   margin-right: 8px;
+  display: inline;
+  line-height: 1;
+  float: none;
+  width: auto;
+  height: auto;
 }
 .mega-menu-root .menu-list:hover {
   background: #f5f5f5;
