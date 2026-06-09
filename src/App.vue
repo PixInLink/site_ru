@@ -37,8 +37,7 @@ onMounted(() => {
           <div>
             <div class="counter-wrap">
               <div class="container max-md">
-                <h3 class="use-text-title">12&nbsp;бесплатно&nbsp;·&nbsp;10-30&nbsp;сек&nbsp;·&nbsp;50+&nbsp;стилей</h3>
-                <p class="use-text-subtitle2">Изображений через URL API</p>
+                <h3 class="use-text-title">12 изображений · за 30 сек. через API · без вотермарка</h3>
               </div>
             </div>
             <div class="action">

@@ -52,6 +52,11 @@
   display: none;
 }
 
+/* Turn off text-transform: capitalize on h4 */
+h4 {
+  text-transform: none;
+}
+
 /* Testimonial slider nav buttons */
 #testimonials .carousel {
   position: relative;
