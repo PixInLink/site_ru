@@ -25,6 +25,7 @@ function initWhenReady() {
     const preloader = document.getElementById("preloader");
     if (preloader) preloader.style.display = "none";
     initSliders();
+    initAccordions();
     try {
       const M = (window as unknown as Record<string, unknown>).M as { Waves?: { init: () => void } } | undefined;
       if (M?.Waves) M.Waves.init();
@@ -130,4 +131,31 @@ export function initSliders() {
     $("#prev_testi").on("click", () => $testi.slick("slickPrev"));
     $("#next_testi").on("click", () => $testi.slick("slickNext"));
   }
+}
+
+function initAccordions() {
+  const $ = window.$;
+  if (!$) return;
+  $(".collapsible-header").off("click").on("click", function () {
+    const $header = $(this);
+    const $body = $header.next(".collapsible-body");
+    const $item = $header.closest("li");
+    const $parent = $header.closest(".collapsible");
+    const allowMultiple = $parent.data("collapsible") === "expandable";
+
+    if (!allowMultiple) {
+      const $siblings = $item.siblings("li");
+      $siblings.find(".collapsible-body").slideUp(200);
+      $siblings.removeClass("active");
+    }
+
+    $body.slideToggle(200);
+    $item.toggleClass("active");
+  });
+
+  $(".collapsible-header").first().each(function () {
+    if (!$(this).closest("li").hasClass("active")) {
+      $(this).trigger("click");
+    }
+  });
 }
