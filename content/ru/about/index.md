@@ -102,11 +102,6 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
         </div>
       </div>
     </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="col-md-6 col-sm-8 px-lg-6">
       <div class="about-style">
         <div class="progress-wrap">
