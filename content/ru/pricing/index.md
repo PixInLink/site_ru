@@ -373,7 +373,7 @@ schema_type: "WebPage"
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>В личном кабинете вы можете запросить оплату по счёту. Мы предоставляем договор-оферту, акт и счёт. НДС 20% включён в стоимость.</p>
+                  <p>В личном кабинете вы можете запросить оплату по счёту. Мы предоставляем договор-оферту, акт и счёт.</p>
                 </div>
               </li>
             </ul>
@@ -388,8 +388,8 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12">
       <div class="card paper pa-4 text-center body-2" style="background: transparent; box-shadow: none; border-top: 1px solid #e0e0e0;">
-        <p class="mb-1 text-muted">Цены действительны с мая 2026. НДС 20% включён в стоимость. Оплата картами Visa, MIR, SberPay, СБП.</p>
-        <p class="mb-0 text-muted">Юридическое лицо: ООО «ПиксИнЛинк» | Безопасность серверов: 152-ФЗ (Yandex Cloud, Selectel).</p>
+        <p class="mb-1 text-muted">Цены действительны с июня 2026. Мы работаем на АУСН, НДС не облагается. Оплата картами Visa, MIR, SberPay, СБП.</p>
+        <p class="mb-0 text-muted">Юридическое лицо: ООО «ФОНИИ» | Безопасность серверов: 152-ФЗ (Yandex Cloud, Selectel).</p>
       </div>
     </div>
   </div>
