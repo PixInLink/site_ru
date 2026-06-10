@@ -22,7 +22,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-6 col-sm-12 px-sm-5 px-0 py-4">
               <div class="text">
-                <h4 class="use-text-title2">О PixInLink</h4>
+                <h1 class="use-text-title2">О PixInLink</h1>
                 <h5 class="use-text-subtitle2">Российский SaaS-сервис генерации изображений по URL для бизнеса. Мы помогаем разработчикам, блогерам и владельцам сайтов создавать визуальный контент без стоков, дизайнеров и сложного бэкенда.</h5>
               </div>
             </div>
