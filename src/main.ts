@@ -135,17 +135,16 @@ export function initSliders() {
   const $team = $("#about_team_carousel");
   if ($team.length) {
     $team.slick({
-      dots: false,
+      dots: true,
       arrows: false,
       speed: 500,
       slidesToShow: 1,
+      slidesToScroll: 1,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 5000,
-      centerMode: true,
-      centerPadding: "60px",
       responsive: [
-        { breakpoint: 600, settings: { centerMode: false, slidesToShow: 1 } },
+        { breakpoint: 600, settings: { slidesToShow: 1 } },
       ],
     });
   }

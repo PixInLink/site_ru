@@ -154,14 +154,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
       </div>
       <div class="carousel mt-12">
         <div class="team-carousel" id="about_team_carousel">
-          <div class="item px-sm-3 px-3" data-key="0">
+          <div class="item px-2" data-key="0">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/фиолетовый-фон-абстрактные-разводы)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/фиолетовый-аватар-иконка-gigachat" alt="GigaChat — основная модель генерации" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>GigaChat</strong></h6>
@@ -178,14 +172,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </div>
           </div>
-          <div class="item px-sm-3 px-3" data-key="1">
+          <div class="item px-2" data-key="1">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/красный-фон-абстрактный-градиент)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/красный-аватар-иконка-flux" alt="FLUX.1 — резервная модель генерации" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>FLUX.1</strong></h6>
@@ -202,14 +190,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </div>
           </div>
-          <div class="item px-sm-3 px-3" data-key="2">
+          <div class="item px-2" data-key="2">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/розовый-фон-нежный-градиент)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/розовый-аватар-иконка-cdn" alt="CDN — быстрая доставка изображений" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>CDN на 140 узлах</strong></h6>
@@ -226,14 +208,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </div>
           </div>
-          <div class="item px-sm-3 px-3" data-key="3">
+          <div class="item px-2" data-key="3">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/фиолетовый-фон-материал-дизайн)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/синий-аватар-иконка-безопасность" alt="152-ФЗ — безопасная инфраструктура в РФ" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>152-ФЗ и безопасность</strong></h6>
@@ -250,14 +226,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </div>
           </div>
-          <div class="item px-sm-3 px-3" data-key="4">
+          <div class="item px-2" data-key="4">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/индиго-фон-абстрактная-волна)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/индиго-аватар-иконка-интеграции" alt="Интеграции — WordPress, MODX, Python SDK, REST API" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>Интеграции</strong></h6>
@@ -274,14 +244,8 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </div>
           </div>
-          <div class="item px-sm-3 px-3" data-key="5">
+          <div class="item px-2" data-key="5">
             <div class="card profile-card landscape round">
-              <div class="figure">
-                <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/бирюзовый-фон-бизнес-стиль)"></div>
-              </div>
-              <div class="avatar-img avatar big">
-                <img src="https://pixinlink.ru/200x200/бирюзовый-аватар-иконка-реквизиты" alt="Реквизиты ООО «ФОНИИ»" />
-              </div>
               <div class="properties text-truncate">
                 <div class="card-content">
                   <h6><strong>Реквизиты и юр. информация</strong></h6>
