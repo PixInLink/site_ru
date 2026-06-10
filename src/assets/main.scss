@@ -62,6 +62,11 @@ h3, h4, h5, h6 {
   width: auto !important;
 }
 
+/* About team slider — prevent full-width slides */
+#about_team_carousel .slick-slide {
+  max-width: 480px;
+}
+
 /* Testimonial slider nav buttons */
 #testimonials .carousel {
   position: relative;
