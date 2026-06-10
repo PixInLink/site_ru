@@ -98,3 +98,8 @@ h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
 }
+
+/* Fix Materialize progress bars — override width:0 !important */
+.progress-linear {
+  width: auto !important;
+}
