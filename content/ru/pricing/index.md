@@ -1,6 +1,6 @@
 ---
 title: "Тарифы PixInLink — выберите план под ваши задачи"
-description: "Тарифы PixInLink: от бесплатного тестирования до Enterprise с white-label. Генерация уникальных изображений по цене от 0.50 ₽ до 0.98 ₽ за штуку."
+description: "Тарифы PixInLink: от бесплатных 12 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц."
 slug: "pricing"
 date: "2026-05-21"
 author: "PixInLink"
@@ -15,7 +15,7 @@ schema_type: "WebPage"
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-8 col-sm-12 px-md-5 px-0 text-center">
             <div class="text">
-              <p class="body-1 mt-4">Начните генерировать уникальные изображения прямо сейчас. Протестируйте сервис абсолютно бесплатно — 50 генераций доступны сразу после регистрации, без привязки кредитной карты. Для профессиональных задач стоимость одного изображения составляет от 0.50 ₽ до 0.98 ₽.</p>
+              <p class="body-1 mt-4">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
             </div>
           </div>
         </div>
@@ -42,12 +42,13 @@ schema_type: "WebPage"
                 </div>
               </div>
               <ul>
-                <li>50 изображений</li>
-                <li>Водяной знак</li>
-                <li>Для тестов</li>
+                <li>12 изображений</li>
+                <li>Без водяного знака</li>
+                <li>WebP-оптимизация</li>
+                <li>Email-поддержка</li>
               </ul>
               <div class="btn-area secondary-color">
-                <p>50 генераций бесплатно, навсегда. Без карты.</p>
+                <p>Бесплатно навсегда. Без карты.</p>
                 <a class="btn button full-width waves-effect secondary" href="https://app.pixinlink.ru/register">Начать бесплатно</a>
               </div>
             </div>
@@ -58,15 +59,15 @@ schema_type: "WebPage"
               <div class="title-card">
                 <p class="use-text-primary-color">Starter</p>
                 <div class="card-pricing">
-                  <h2 class="use-text-title use-text-primary">490 ₽</h2>
+                  <h2 class="use-text-title use-text-primary">300 ₽</h2>
                   <h6 class="use-text-paragraph">&nbsp;/мес</h6>
                 </div>
               </div>
               <ul>
-                <li>500 изображений</li>
+                <li>50 изображений</li>
                 <li>Без водяного знака</li>
-                <li>Коммерческое использование</li>
-                <li>0.98 ₽ за шт.</li>
+                <li>WebP + CDN</li>
+                <li>2 API-ключа</li>
               </ul>
               <div class="btn-area primary-color">
                 <p>Идеально для блогов и небольших сайтов.</p>
@@ -80,15 +81,17 @@ schema_type: "WebPage"
               <div class="title-card">
                 <p class="use-text-primary-color">Pro</p><i class="material-icons icon">star_border</i>
                 <div class="card-pricing">
-                  <h2 class="use-text-title use-text-primary">1 490 ₽</h2>
+                  <h2 class="use-text-title use-text-primary">2 500 ₽</h2>
                   <h6 class="use-text-paragraph">&nbsp;/мес</h6>
                 </div>
               </div>
               <ul>
-                <li>2 000 изображений</li>
-                <li>API-ключ + Все стили</li>
-                <li>Приоритетная очередь</li>
-                <li>0.75 ₽ за шт.</li>
+                <li>500 изображений</li>
+                <li>Priority CDN</li>
+                <li>Bulk API</li>
+                <li>5 API-ключей</li>
+                <li>99.9% SLA</li>
+                <li>Chat-поддержка</li>
               </ul>
               <div class="btn-area primary-color">
                 <p>Самый популярный. Для агентств и команд.</p>
@@ -102,22 +105,28 @@ schema_type: "WebPage"
               <div class="title-card">
                 <p class="use-text-primary-color">Business</p>
                 <div class="card-pricing">
-                  <h2 class="use-text-title use-text-primary">4 990 ₽</h2>
+                  <h2 class="use-text-title use-text-primary">4 500 ₽</h2>
                   <h6 class="use-text-paragraph">&nbsp;/мес</h6>
                 </div>
               </div>
               <ul>
-                <li>10 000 изображений</li>
-                <li>Bulk API &amp; Webhooks</li>
-                <li>Поддержка SLA 4 ч.</li>
-                <li>0.50 ₽ за шт.</li>
+                <li>1 000 изображений</li>
+                <li>Кастомный водяной знак</li>
+                <li>Priority Chat</li>
+                <li>20 API-ключей</li>
+                <li>99.95% SLA</li>
               </ul>
               <div class="btn-area primary-color">
                 <p>Для крупных порталов и high-load проектов.</p>
-                <a class="btn button full-width waves-effect primary" href="https://app.pixinlink.ru/register?plan=business">Связаться с нами</a>
+                <a class="btn button full-width waves-effect primary" href="https://app.pixinlink.ru/register?plan=business">Выбрать Business</a>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 text-center text-muted body-2">
+          Нужен Enterprise (2 000 изображений, 50 API-ключей, кастомный водяной знак, персональный менеджер)? <a href="mailto:enterprise@pixinlink.ru">Свяжитесь с нами</a>.
         </div>
       </div>
     </div>
@@ -148,90 +157,66 @@ schema_type: "WebPage"
           <tr>
             <td><strong>Цена/мес</strong></td>
             <td>0 ₽</td>
-            <td>490 ₽</td>
-            <td>1 490 ₽</td>
-            <td>4 990 ₽</td>
-            <td>По запросу</td>
+            <td>300 ₽</td>
+            <td>2 500 ₽</td>
+            <td>4 500 ₽</td>
+            <td>9 990 ₽</td>
           </tr>
           <tr>
             <td><strong>Изображений в месяц</strong></td>
+            <td>12</td>
             <td>50</td>
             <td>500</td>
+            <td>1 000</td>
             <td>2 000</td>
-            <td>10 000</td>
-            <td>Custom</td>
-          </tr>
-          <tr>
-            <td><strong>Стоимость 1 шт.</strong></td>
-            <td>0 ₽</td>
-            <td>0.98 ₽</td>
-            <td>0.75 ₽</td>
-            <td>0.50 ₽</td>
-            <td>Индивидуально</td>
           </tr>
           <tr>
             <td><strong>Водяной знак</strong></td>
-            <td>✅ (Вшит)</td>
             <td>❌</td>
             <td>❌</td>
             <td>❌</td>
-            <td>Лого клиента</td>
+            <td>✅ Кастомный</td>
+            <td>✅ Кастомный</td>
           </tr>
           <tr>
-            <td><strong>Коммерческое использование</strong></td>
-            <td>❌</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td>✅</td>
-          </tr>
-          <tr>
-            <td><strong>API-ключ</strong></td>
-            <td>❌</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td>✅ (до 5 ключей)</td>
-            <td>✅ (неограниченно)</td>
-          </tr>
-          <tr>
-            <td><strong>Rate limit (запросов/мин)</strong></td>
+            <td><strong>API-ключей</strong></td>
+            <td>0</td>
+            <td>2</td>
             <td>5</td>
-            <td>30</td>
-            <td>120</td>
-            <td>600</td>
-            <td>Без ограничений</td>
+            <td>20</td>
+            <td>50</td>
           </tr>
           <tr>
-            <td><strong>Стили генерации</strong></td>
-            <td>Базовые</td>
-            <td>Базовые</td>
-            <td>Все стили</td>
-            <td>Все стили</td>
-            <td>Кастомные</td>
-          </tr>
-          <tr>
-            <td><strong>Приоритет очереди</strong></td>
-            <td>❌</td>
+            <td><strong>CDN</strong></td>
             <td>❌</td>
             <td>✅</td>
-            <td>✅ (Высокий)</td>
-            <td>✅ (Высший)</td>
+            <td>✅ Priority</td>
+            <td>✅ Priority</td>
+            <td>✅ Priority</td>
           </tr>
           <tr>
-            <td><strong>Bulk API & Webhooks</strong></td>
-            <td>❌</td>
+            <td><strong>Bulk API</strong></td>
             <td>❌</td>
             <td>❌</td>
             <td>✅</td>
             <td>✅</td>
+            <td>✅</td>
           </tr>
           <tr>
-            <td><strong>SLA uptime & Поддержка</strong></td>
-            <td>Docs</td>
-            <td>Email 48ч</td>
-            <td>99.9% + TG</td>
-            <td>99.95% + Менеджер</td>
-            <td>SLA 4ч + Онбординг</td>
+            <td><strong>SLA uptime</strong></td>
+            <td>—</td>
+            <td>—</td>
+            <td>99.9%</td>
+            <td>99.95%</td>
+            <td>99.95%</td>
+          </tr>
+          <tr>
+            <td><strong>Поддержка</strong></td>
+            <td>Email</td>
+            <td>Email</td>
+            <td>Chat</td>
+            <td>Priority Chat</td>
+            <td>Персональный менеджер</td>
           </tr>
         </tbody>
       </table>
@@ -244,39 +229,39 @@ schema_type: "WebPage"
     <div class="col-md-5 px-4 mb-4">
       <h3 class="use-text-title2 mb-3">PixInLink vs Фотостоки</h3>
       <p class="body-1 mb-3">Стандартная подписка на фотобанк (Shutterstock) обойдётся в ~2 000 ₽ за 25 фото, которые уже используются на тысячах других сайтов. Фрилансер берет от 500 ₽ за картинку.</p>
-      <p class="body-1 mb-4">PixInLink предлагает генерацию уникальных изображений по цене от <strong>0.50 ₽ до 0.98 ₽</strong> за штуку, напрямую доставляя их в код вашего сайта.</p>
-    </div>
-    <div class="col-md-7 px-4">
-      <div class="card paper pa-4">
-        <h5 class="use-text-subtitle mb-3 text-center">Таблица окупаемости (ROI)</h5>
-        <div class="table-responsive">
-          <table class="highlight responsive-table">
-            <thead>
-              <tr>
-                <th>Сценарий</th>
-                <th>Затраты до</th>
-                <th>С PixInLink</th>
-                <th style="color: #4CAF50;">Результат</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Блогер</strong> (30 статей/мес)</td>
-                <td>Стоки ~2 000 ₽</td>
-                <td>Starter: 490 ₽</td>
-                <td style="color: #4CAF50; font-weight: bold;">Экономия 1 510 ₽</td>
-              </tr>
-              <tr>
-                <td><strong>Агентство</strong> (500 фото/мес)</td>
-                <td>Дизайнер: ~400 000 ₽</td>
-                <td>Pro: 1 490 ₽</td>
-                <td style="color: #4CAF50; font-weight: bold;">Экономия >398 000 ₽</td>
-              </tr>
-              <tr>
-                <td><strong>Магазин</strong> (1 000 og:image)</td>
-                <td>Отсутствовали (0 ₽)</td>
-                <td>Business: 4 990 ₽</td>
-                <td style="color: #4CAF50; font-weight: bold;">Рост CTR соцсетей</td>
+              <p class="body-1 mb-4">PixInLink предлагает генерацию уникальных изображений от 300 ₽/мес с доставкой прямо в код вашего сайта через URL.</p>
+            </div>
+            <div class="col-md-7 px-4">
+              <div class="card paper pa-4">
+                <h5 class="use-text-subtitle mb-3 text-center">Таблица окупаемости (ROI)</h5>
+                <div class="table-responsive">
+                  <table class="highlight responsive-table">
+                    <thead>
+                      <tr>
+                        <th>Сценарий</th>
+                        <th>Затраты до</th>
+                        <th>С PixInLink</th>
+                        <th style="color: #4CAF50;">Результат</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Блогер</strong> (30 статей/мес)</td>
+                        <td>Стоки ~2 000 ₽</td>
+                        <td>Starter: 300 ₽</td>
+                        <td style="color: #4CAF50; font-weight: bold;">Экономия 1 700 ₽</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Агентство</strong> (500 фото/мес)</td>
+                        <td>Дизайнер: ~400 000 ₽</td>
+                        <td>Pro: 2 500 ₽</td>
+                        <td style="color: #4CAF50; font-weight: bold;">Экономия >397 000 ₽</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Магазин</strong> (1 000 og:image)</td>
+                        <td>Отсутствовали (0 ₽)</td>
+                        <td>Business: 4 500 ₽</td>
+                        <td style="color: #4CAF50; font-weight: bold;">Рост CTR соцсетей</td>
               </tr>
             </tbody>
           </table>
@@ -298,7 +283,7 @@ schema_type: "WebPage"
     <div class="col-md-4 mb-4">
       <div class="card testi-card pa-4 h-100" style="background: #1e1e1e; color: #fff; border-radius: 8px;">
         <div style="color: #FFC107; margin-bottom: 10px;" class="material-icons">star star star star star</div>
-        <p class="body-1 mb-4" style="flex-grow: 1;">«Начал с Free, проверил качество — перешёл на Starter через неделю. 490 рублей в месяц за 500 уникальных изображений — это смешные деньги.»</p>
+        <p class="body-1 mb-4" style="flex-grow: 1;">«Начал с Free, проверил качество — перешёл на Starter. 300 рублей в месяц за 50 уникальных изображений без водяного знака — отличная цена.»</p>
         <div class="name d-flex align-items-center">
           <div class="icon-avatar mr-3" style="width: 40px; height: 40px; background: #3f51b5; border-radius: 50%; display: flex; align-items: center; justify-content: center;">И</div>
           <div class="caption">
@@ -326,7 +311,7 @@ schema_type: "WebPage"
     <div class="col-md-4 mb-4">
       <div class="card testi-card pa-4 h-100" style="background: #1e1e1e; color: #fff; border-radius: 8px;">
         <div style="color: #FFC107; margin-bottom: 10px;" class="material-icons">star star star star star</div>
-        <p class="body-1 mb-4" style="flex-grow: 1;">«Business-тариф закрывает og:image для всего нашего портала. 10 000 генераций в месяц — это с запасом.»</p>
+        <p class="body-1 mb-4" style="flex-grow: 1;">«Business-тариф закрывает og:image для всего нашего портала. 1 000 генераций в месяц с кастомным водяным знаком — то что нужно.»</p>
         <div class="name d-flex align-items-center">
           <div class="icon-avatar mr-3" style="width: 40px; height: 40px; background: #009688; border-radius: 50%; display: flex; align-items: center; justify-content: center;">Н</div>
           <div class="caption">
@@ -366,7 +351,7 @@ schema_type: "WebPage"
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Генерация приостанавливается. Вы можете докупить пакет из 1 000 изображений за 890 ₽ (для Starter/Pro), дождаться нового месяца или перейти на тариф выше.</p>
+                  <p>Генерация приостанавливается. Вы можете докупить пакет изображений, дождаться нового месяца или перейти на тариф выше.</p>
                 </div>
               </li>
               <li class="accordion-content paper">
@@ -375,7 +360,7 @@ schema_type: "WebPage"
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Да. При оплате за год вы получаете 2 месяца бесплатно на тарифах Starter, Pro и Business (например, Pro на год стоит 14 900 ₽ вместо 17 880 ₽).</p>
+                  <p>Да. При оплате за год вы получаете 2 месяца бесплатно на тарифах Starter, Pro и Business.</p>
                 </div>
               </li>
               <li class="accordion-content paper">
@@ -384,7 +369,7 @@ schema_type: "WebPage"
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Мы возвращаем деньги в течение 7 дней с первой оплаты без лишних вопросов, если вы использовали менее 50 генераций на платном тарифе.</p>
+                  <p>Мы возвращаем деньги в течение 7 дней с первой оплаты без лишних вопросов, если вы использовали менее 10 генераций на платном тарифе.</p>
                 </div>
               </li>
               <li class="accordion-content paper">
