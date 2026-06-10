@@ -57,23 +57,21 @@ h3, h4, h5, h6 {
   text-transform: none !important;
 }
 
-/* About photo carousel — nav button spacing */
-.about-style .gallery-root .carousel {
-  position: relative;
+/* About photo carousel — nav buttons visible and positioned */
+.about-style .gallery-root .carousel .nav {
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 .about-style .gallery-root .carousel .nav.prev {
-  position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
+  right: auto;
 }
 .about-style .gallery-root .carousel .nav.next {
-  position: absolute;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
+  left: auto;
 }
 
 /* Testimonial slider nav buttons */
