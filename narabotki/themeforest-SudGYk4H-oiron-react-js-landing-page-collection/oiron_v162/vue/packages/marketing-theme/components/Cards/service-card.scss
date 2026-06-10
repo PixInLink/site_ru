@@ -1,0 +1,39 @@
+$frame-deco: '/images/decoration/frame-deco.png';
+
+/* Default Card */
+.service-card {
+  direction: ltr;
+  width: 240px;
+  height: 380px;
+  overflow: hidden;
+  margin: spacing(3, 1);
+  @include breakpoints-up(sm) {
+    margin: spacing(3, 2);
+  }
+  &.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
+    border-radius: 0;
+  }
+  figure {
+    overflow: hidden;
+    height: 170px;
+    margin-bottom: $spacing3;
+    img {
+      min-height: 100%;
+      width: 100%;
+    }
+  }
+  h6 {
+    margin-bottom: $spacing2;
+    font-size: 18px;
+    font-weight: $font-bold;
+  }
+  p {
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: $spacing3
+  }
+}
+
+.content {
+  padding: spacing(0, 2.5);
+}

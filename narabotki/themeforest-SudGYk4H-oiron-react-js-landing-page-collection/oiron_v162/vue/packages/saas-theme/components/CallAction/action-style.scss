@@ -1,0 +1,100 @@
+$wave-deco-light: '/images/saas/deco-wave-light.png';
+
+@mixin deco-cta {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -40px;
+  left: 0;
+  opacity: 0.3;
+  background-size: 1000px 150px;
+  background-image: url($wave-deco-light);
+  background-repeat: repeat-x;
+}
+
+.root {
+  position: relative;
+  &.v-container.home {
+    @include breakpoints-down(sm) {
+      padding: 0 !important;
+      margin-top: -100px;
+    }
+  }
+  p {
+    margin: 0
+  }
+}
+
+.deco {
+  @include deco-cta;
+  background-position: -160px 50px;
+  transform: scale(1.2, 0.7);
+  @include breakpoints-down(xs) {
+    bottom: -60px;
+  }
+  &:before {
+    content: "";
+    transform: scale(1.2, 1);
+    @include deco-cta;
+    background-position: 250px 10px;
+  }
+}
+.button.v-btn {
+  @include breakpoints-up(md) {
+    width: 240px;
+    font-size: 18px
+  }
+}
+
+.paper {
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(120deg, $palette-primary-dark, $palette-primary-main);
+  padding: $spacing4;
+  color: $palette-common-white !important;
+  text-align: center;
+  &.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
+    border-radius: 60px;
+  }
+  @include breakpoints-down(sm) {
+    text-align: center
+  }
+  @include breakpoints-up(lg) {
+    padding: spacing(4, 10);
+    margin: spacing(0, 4);
+  }
+  @include breakpoints-up(sm) {
+    border-radius: 200px !important;
+  }
+  @include breakpoints-down(sm) {
+    margin-bottom: $spacing5;
+  }
+  @include breakpoints-down(xs) {
+    padding: spacing(4, 2);
+    text-align: center
+  }
+  h4 {
+    font-weight: 700;
+    @include breakpoints-down(xs) {
+      font-size: 28px !important;
+      margin-bottom: $spacing2
+    }
+  }
+  p {
+    font-size: 24px;
+    @include breakpoints-down(sm) {
+      margin-bottom: $spacing5
+    }
+    @include breakpoints-down(xs) {
+      font-size: 18px;
+      margin-bottom: $spacing3
+    }
+  }
+}
+
+.right-icon {
+  @include margin-left($spacing1);
+  .v-application--is-rtl & {
+    transform: rotate(180deg)
+  }
+}

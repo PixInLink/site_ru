@@ -31,10 +31,10 @@ schema_type: "WebPage"
       </div>
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="https://app.pixinlink.ru/register" class="btn-flat btn-rounded" style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;">
-          Попробовать бесплатно — 50 изображений
+          Попробовать бесплатно — 12 изображений
         </a>
         <a href="/pricing" class="btn-flat btn-rounded" style="background:#e3f2fd;color:#1976d2;padding:10px 24px;">
-          Starter — 490 ₽/мес
+          Starter — 300 ₽/мес
         </a>
       </div>
     </div>
@@ -51,7 +51,7 @@ schema_type: "WebPage"
           ВКонтакте пост → <code>1200×630</code>, Telegram → <code>1280×720</code>,
           Instagram квадрат → <code>1080×1080</code>, Story/Reels → <code>1080×1920</code>.<br>
           AI генерирует уникальное изображение за 15 секунд.
-          Free: 50 картинок/мес без регистрации. Starter: 500/мес за 490 ₽.
+          Free: 12 картинок/мес с регистрацией. Starter: 50/мес за 300 ₽.
         </p>
       </div>
     </div>
@@ -90,10 +90,10 @@ schema_type: "WebPage"
       </div>
       <ul class="body-1 mb-5" style="line-height:1.9;list-style:none;padding-left:0;">
         <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
-          <span><strong>Canva Pro:</strong> 1 600 ₽/мес — PixInLink Starter: 490 ₽/мес — разница <strong>3×</strong></span>
+          <span><strong>Canva Pro:</strong> 1 600 ₽/мес — PixInLink Starter: 300 ₽/мес — разница <strong>5×</strong></span>
         </li>
         <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
-          <span><strong>0 ₽ для старта</strong> — 50 изображений без регистрации и кредитной карты</span>
+          <span><strong>0 ₽ для старта</strong> — 12 изображений с регистрацией, без карты</span>
         </li>
         <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
           <span><strong>1 шаблон URL</strong> покрывает все платформы: меняй только размер в ссылке</span>

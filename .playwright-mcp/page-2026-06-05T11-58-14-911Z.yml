@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - img "loading" [ref=e3]
+  - generic [ref=e6]:
+    - generic [ref=e7]: "[plugin:vite:vue] Element is missing end tag."
+    - generic [ref=e8]: D:/Documents/GitHub/PixInLink/PixInLink_site_RU/src/components/AppNavbar.vue:132:19
+    - generic [ref=e9]: 130 | <i class="material-icons right icon">keyboard_arrow_down</i> 131 | </button> 132 | <template v-if="serviceOpen"> | ^ 133 | <div class="mega-menu-backdrop" @click="serviceOpen = false"></div> 134 | <div class="mega-menu-root dropdown-content" id="sample-page">
+    - generic [ref=e10]: at createCompilerError (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1378:17) at emitError (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3014:5) at Object.onclosetag (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:2381:13) at Tokenizer.stateInClosingTagName (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:799:16) at Tokenizer.parse (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:1157:16) at Object.baseParse (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-core\dist\compiler-core.cjs.js:3053:13) at Object.parse (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-dom\dist\compiler-dom.cjs.js:910:23) at Object.parse$1 [as parse] (D:\Documents\GitHub\PixInLink\PixInLink_site_RU\node_modules\@vue\compiler-sfc\dist\compiler-sfc.cjs.js:1824:24) at createDescriptor (file:///D:/Documents/GitHub/PixInLink/PixInLink_site_RU/node_modules/@vitejs/plugin-vue/dist/index.mjs:50:42) at handleHotUpdate (file:///D:/Documents/GitHub/PixInLink/PixInLink_site_RU/node_modules/@vitejs/plugin-vue/dist/index.mjs:1148:25)
+    - generic [ref=e11]:
+      - text: Click outside, press Esc key, or fix the code to dismiss.
+      - text: You can also disable this overlay by setting
+      - code [ref=e12]: server.hmr.overlay
+      - text: to
+      - code [ref=e13]: "false"
+      - text: in
+      - code [ref=e14]: vite.config.ts
+      - text: .

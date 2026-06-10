@@ -1,0 +1,113 @@
+﻿  <!-- HERO: Блог PixInLink -->
+  <div class="banner-basic mb-5">
+    <div class="banner-wrap">
+      <div class="inner">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-8 col-sm-12 px-md-5 px-0 text-center">
+              <div class="text">
+                <h4 class="text-h4">Блог PixInLink: изображения, SEO и ИИ для сайта</h4>
+                <h5 class="text-h5 mt-3">Практические руководства для блогеров, вебмастеров и разработчиков.</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ФИЛЬТРЫ / ТЕГИ -->
+  <div class="container page-section pt-0 pb-4" id="blog-tags">
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+          <a href="/blog" class="btn primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none;">Все</a>
+          <a href="/blog/tag/wordpress" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">WordPress</a>
+          <a href="/blog/tag/seo" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">SEO</a>
+          <a href="/blog/tag/og-image" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">og:image</a>
+          <a href="/blog/tag/ai" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">ИИ-генерация</a>
+          <a href="/blog/tag/pagespeed" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">PageSpeed</a>
+          <a href="/blog/tag/social" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">Соцсети</a>
+          <a href="/blog/tag/prompts" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">Промпты</a>
+          <a href="/blog/tag/api" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">API</a>
+          <a href="/blog/tag/guides" class="btn btn-outlined primary waves-effect mr-2 mb-2" style="border-radius: 20px; text-transform: none; color: #757575; border-color: #e0e0e0;">Руководства</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ БЛОГА (Первая часть текста) -->
+  <div class="container max-md" id="blog-content-1">
+    <div class="row">
+      <div class="col-12">
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          В современной веб-разработке и контент-маркетинге изображения перестали быть просто декоративным элементом. В 2026 году визуальный контент напрямую определяет, насколько успешно страница привлекает органический трафик и конвертирует читателей. Оптимизация медиафайлов стала неотъемлемой частью технического SEO: метрика <strong>LCP (Largest Contentful Paint)</strong> из набора Core Web Vitals требует загрузки основного контента быстрее 2.5 секунд, что заставляет вебмастеров тщательно настраивать lazy loading, использовать современные форматы вроде WebP или AVIF и внедрять CDN-решения. Применение современных архитектурных паттернов для доставки медиа требует комплексного подхода, включая правильную расстановку атрибутов для предотвращения <strong>CLS (Cumulative Layout Shift)</strong> и настройку стратегий кэширования.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ГЛАВНАЯ СТАТЬЯ (Адаптированный Block 2B) -->
+  <div class="container page-section" id="featured-post">
+    <div class="row mb-3">
+      <div class="col-12 text-center">
+        <h4 class="use-text-subtitle mb-4">Главная статья</h4>
+      </div>
+    </div>
+    
+    <div class="card paper pa-0 mb-5" style="overflow: hidden; border-radius: 12px; transition: transform 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      <div class="row align-items-center m-0">
+        
+        <!-- Картинка слева -->
+        <div class="col-md-6 p-0 h-100">
+          <img src="https://placehold.co/800x600/2196F3/fff?text=PixInLink+vs+Midjourney" alt="PixInLink vs Midjourney" style="width: 100%; height: 100%; object-fit: cover; min-height: 300px;" />
+        </div>
+        
+        <!-- Текст справа -->
+        <div class="col-md-6 pa-5 text-left">
+          <div class="d-flex flex-wrap mb-3">
+            <span class="badge" style="background: #e3f2fd; color: #1976d2; border-radius: 4px; padding: 5px 10px; margin-right: 8px;">Сравнение</span>
+            <span class="badge" style="background: #e3f2fd; color: #1976d2; border-radius: 4px; padding: 5px 10px; margin-right: 8px;">Midjourney</span>
+            <span class="badge" style="background: #e3f2fd; color: #1976d2; border-radius: 4px; padding: 5px 10px;">DALL-E</span>
+          </div>
+          
+          <h3 class="display-2 mb-3" style="font-size: 24px; font-weight: 700; line-height: 1.3;">
+            PixInLink vs Midjourney vs DALL-E: честное сравнение
+          </h3>
+          
+          <p class="body-1 mb-4 text-muted" style="line-height: 1.6;">
+            Три генератора изображений — один конкретный вопрос: что выбрать для сайта на русском языке в 2026 году? Сравниваем по качеству, цене, скорости и соответствию 152-ФЗ.
+          </p>
+          
+          <a href="/blog/pixinlink-vs-midjourney" class="btn primary waves-effect px-4" style="border-radius: 6px;">Читать статью &rarr;</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ БЛОГА (Продолжение текста) -->
+  <div class="container max-md pb-5" id="blog-content-2">
+    <div class="row">
+      <div class="col-12">
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          Однако технической безупречности недостаточно. Поисковые алгоритмы научились распознавать шаблонные стоковые фотографии, отдавая приоритет страницам с уникальным, релевантным визуальным рядом. Именно здесь на помощь приходят технологии машинного обучения и генеративные нейросети. Генерация изображений с помощью искусственного интеллекта решает фундаментальную проблему масштабирования контента.
+        </p>
+        
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          Модели на базе латентной диффузии, такие как <strong>Kandinsky 3.1</strong>, позволяют создавать детализированные иллюстрации по текстовым описаниям, понимая сложный контекст и специфику русского языка. Развитие архитектуры U-Net и текстовых энкодеров позволяет генерировать не просто красивые абстракции, но и точные фотореалистичные сцены, инфографику и элементы интерфейсов.
+        </p>
+
+        <!-- Врезанная цитата -->
+        <div class="card paper pa-4 mb-4 text-center" style="background: #f9f9f9; border-left: 4px solid #2196F3; box-shadow: none;">
+          <p class="body-2 m-0" style="font-style: italic; color: #555; font-size: 1.1rem;">
+            «Это полностью устраняет зависимость от платных фотостоков и услуг дизайнеров для рутинных задач.»
+          </p>
+        </div>
+
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          Разработчики и SEO-специалисты могут автоматизировать процесс: от генерации <code>og:image</code> для красивого шеринга в социальных сетях до пакетного создания превью для сотен новостных статей через API. Важным аспектом становится не только качество картинки, но и правовая безопасность, включая строгое соблюдение <strong>152-ФЗ</strong> при работе с облачными сервисами на территории России.
+        </p>
+      </div>
+    </div>
+  </div>

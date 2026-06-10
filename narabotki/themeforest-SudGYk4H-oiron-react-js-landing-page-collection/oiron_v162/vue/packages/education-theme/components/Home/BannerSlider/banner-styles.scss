@@ -1,0 +1,280 @@
+.banner-wrap {
+  position: relative;
+  display: block;
+}
+
+.bg-deco {
+  position: absolute;
+  width: 110%;
+  height: 1260px;
+  @include use-theme(background, $palette-primary-light, $palette-primary-dark);
+  opacity: 0.27;
+  transform: rotate(-10deg);
+  top: -560px;
+  left: -40px;
+  border-radius: 80px;
+}
+
+.small-deco {
+  position: relative;
+  @include breakpoints-down(xs) {
+    display: none;
+  }
+  & > div {
+    position: absolute;
+    width: 475px;
+    height: 300px;
+    @include use-theme(background, $palette-primary-light, $palette-primary-dark);
+    transform: rotate(-10deg);
+    top: -200px;
+    @include right(-40px);
+    border-radius: 40px;
+  }
+}
+
+.slide {
+  direction: ltr;
+  position: relative;
+  @include breakpoints-down(sm) {
+    text-align: center;
+  }
+  @include breakpoints-down(xs) {
+    overflow: hidden;
+  }
+  img {
+    margin: 0 auto;
+    max-height: 350px;
+    position: relative;
+    @include rtl-flip;
+    @include breakpoints-up(sm) {
+      max-width: 100%;
+    }
+  }
+  &.center-content {
+    padding-top: 120px;
+  }
+}
+
+.img-slide1 {
+  @include breakpoints-down(lg) {
+    float: left
+  }
+}
+
+.img-slide2 {
+  @include breakpoints-between(md, lg) {
+    float: right
+  }
+  @include breakpoints-down(xs) {
+    left: -150px
+  }
+}
+
+.h-banner {
+  text-align: center;
+  img {
+    @include breakpoints-up(md) {
+      width: 50%;
+    }
+    @include breakpoints-down(sm) {
+      margin-top: $spacing10;
+    }
+    @include breakpoints-down(xs) {
+      left: 0;
+    }
+  }
+}
+
+.background-banner {
+  position: absolute;
+  z-index: 3;
+  @include right(-250px);
+  @include rtl-flip;
+  bottom: 100px;
+  img {
+    max-height: 300px;
+  }
+  @include breakpoints-down(sm) {
+    bottom: 0;
+  }
+  @include breakpoints-down(xs) {
+    display: none;
+  }
+  @include breakpoints-up(xl) {
+    display: none;
+  }
+}
+
+.slide-nav-group {
+  position: relative;
+}
+
+.carousel {
+  .slide {
+    height: auto;
+    @include breakpoints-up(md) {
+      height: 580px;
+    }
+    @include breakpoints-down(sm) {
+      padding-top: $spacing20;
+    }
+    @include breakpoints-down(xs) {
+      padding-top: $spacing15;
+    }
+  }
+}
+
+.inner {
+  display: flex;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  @include breakpoints-down('md') {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.text {
+  @include breakpoints-down(sm) {
+    text-align: center;
+  }
+  h4 {
+    font-weight: $font-bold;
+    margin-bottom: $spacing2;
+  }
+  h5 {
+    @include palette-text-secondary;
+    margin-bottom: $spacing4
+  }
+}
+
+.title {
+  position: relative;
+  h4 {
+    position: relative;
+  }
+  &-left {
+    &:before {
+      content: '';
+      height: 20px;
+      @include use-theme(background, $palette-secondary-light, $palette-secondary-dark);
+      @include use-theme(opacity, 1, 0.7);
+      width: 40%;
+      position: absolute;
+      bottom: 10px;
+      @include left(0);
+      z-index: 0;
+      @include breakpoints-down(sm) {
+        height: 10px;
+        @include left(30%);
+      }
+    }
+  }
+  &-right {
+    &:before {
+      content: '';
+      height: 20px;
+      @include use-theme(background, $palette-secondary-light, $palette-secondary-dark);
+      @include use-theme(opacity, 1, 0.7);
+      width: 40%;
+      position: absolute;
+      bottom: 10px;
+      @include right(0);
+      z-index: 0;
+      @include breakpoints-down(sm) {
+        height: 10px;
+        @include left(30%);
+      }
+    }
+  }
+  &-center {
+    &:before {
+      content: '';
+      height: 20px;
+      @include use-theme(background, $palette-secondary-light, $palette-secondary-dark);
+      @include use-theme(opacity, 1, 0.7);
+      width: 40%;
+      position: absolute;
+      bottom: 10px;
+      @include left(30%);
+      z-index: 0;
+    }
+  }
+}
+
+.title-wrap {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.btn-area {
+  .v-btn.v-btn--contained {
+    width: 180px;  
+  }
+  .v-btn.v-btn--variant-text {
+    padding: $spacing1 0;
+    @include margin-right($spacing4);
+    @include use-theme(color, $palette-primary-dark, $palette-primary-light)
+  }
+  .v-btn {
+    font-size: 18px;
+    font-weight: $font-bold
+  }
+}
+
+.slide-nav {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  .v-btn {
+    text-transform: none;
+    height: auto;
+    flex: 1;
+    border: 1px solid transparent;
+    font-weight: $font-regular;
+    position: relative;
+    :deep(.v-btn__content) {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+    strong {
+      text-transform: capitalize;
+      font-size: 28px;
+      display: block;
+      font-weight: $font-bold;
+      @include margin-left(-2px);
+      z-index: 1;
+    }
+    &:before {
+      content: '';
+      height: 14px;
+      @include use-theme(background, $palette-primary-light, $palette-primary-dark);
+      width: 0%;
+      position: absolute;
+      top: 24px;
+      @include left(46px);
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      transition: all 0.3s ease-out;
+      background: none;
+      &:before {
+        width: 60%;
+      }
+    }
+    &.active {
+      &:before {
+        width: 60%;
+      }
+      strong {
+        @include use-theme(color, $palette-primary-dark, $palette-primary-light);
+      }
+    }
+  }
+}
+
+.divider {
+  margin: spacing(0, 2)
+}

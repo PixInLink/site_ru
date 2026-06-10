@@ -254,13 +254,21 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8f5e9 0%,#e3f2fd 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Убрать водяной знак — 490 руб/мес</h3>
-        <p class="body-1 text-muted mb-4">Starter: 500 генераций в месяц. Без знака. Отмена в любой момент.</p>
-        <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
-          <a href="https://pixinlink.ru/pricing/starter/" class="btn-flat btn-rounded"
-             style="background:#2e7d32;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
-            Starter — 490 руб/мес
-          </a>
+        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Водяной знак отсутствует на всех тарифах</h3>
+          <p class="body-1 text-muted mb-4">Starter: 300 ₽/мес, 50 изображений. Business: кастомный логотип. Отмена в любой момент.</p>
+          <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
+            <a href="https://app.pixinlink.ru/register?plan=starter" class="btn-flat btn-rounded"
+               style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+              Starter — 300 ₽/мес
+            </a>
+            <a href="https://app.pixinlink.ru/register?plan=pro" class="btn-flat btn-rounded"
+               style="background:#00897b;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+              Pro — 2 500 ₽/мес
+            </a>
+            <a href="https://app.pixinlink.ru/register?plan=business" class="btn-flat btn-rounded"
+               style="background:#6a1b9a;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+              Business — 4 500 ₽/мес
+            </a>
           <a href="https://pixinlink.ru/pricing/pro/" class="btn-flat btn-rounded"
              style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
             Pro — 1 490 руб/мес

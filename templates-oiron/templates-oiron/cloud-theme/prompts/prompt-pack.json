@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "oiron-cloud-prompts",
+  "templateId": "oiron-cloud-pro",
+  "version": "1.0.0",
+  "edition": "pro",
+  "language": "ru",
+  "htmlProfile": "markdown-plus-safe-bootstrap",
+  "templates": [
+    {
+      "id": "article-cloud-seo",
+      "source": "templates-oiron/cloud-theme/prompts/article-cloud-seo.md",
+      "output": "content/{locale}/blog/{YYYY-MM-DD}-{slug}.md",
+      "requiredBlocks": ["hero", "feature-grid", "benefits", "testimonials", "cta", "faq"],
+      "requiredVariables": ["cloud_service_name", "primary_keyword", "target_audience", "value_proposition", "company_name", "source_facts", "primary_cta"]
+    },
+    {
+      "id": "landing-cloud",
+      "source": "templates-oiron/cloud-theme/prompts/landing-cloud.md",
+      "output": "content/{locale}/pages/{slug}.md",
+      "requiredBlocks": ["hero", "feature-grid", "benefits", "testimonials", "stats", "cta"],
+      "requiredVariables": ["site_name", "hero_title", "hero_subtitle", "primary_keyword", "target_audience", "primary_cta", "pricing_tiers"]
+    }
+  ]
+}

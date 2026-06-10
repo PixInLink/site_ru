@@ -1,0 +1,237 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e55]:
+    - main [ref=e56]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: AI-ГЕНЕРАТОР ИЗОБРАЖЕНИЙ ПО URL
+          - heading "PixInLink — генерация изображений через URL. Без дизайнера, без стоков." [level=1] [ref=e62]
+          - paragraph [ref=e63]: Вставьте описание прямо в URL тега img — и изображение появится само. Никаких фотобанков, никакого Photoshop, никакой регистрации.
+          - generic [ref=e64]: AI-генерация URL API Yandex CDN 0 регистрация
+          - generic [ref=e65]:
+            - link "Попробовать бесплатно" [ref=e66] [cursor=pointer]:
+              - /url: /features/url-api/
+            - link "Как это работает" [ref=e67] [cursor=pointer]:
+              - /url: /blog/
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: 10–30s
+            - generic [ref=e71]: среднее время генерации
+          - generic [ref=e72]:
+            - generic [ref=e73]: 50+
+            - generic [ref=e74]: бесплатных изображений
+      - paragraph [ref=e78]: PixInLink — российский SaaS-сервис генерации изображений по URL. Одна строка кода заменяет дизайнера, стоковые фото и ручной Photoshop. Вставьте URL в img src — и уникальное AI-изображение появится само за 10–30 секунд.
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Ключевые факты" [level=2] [ref=e83]
+          - paragraph [ref=e84]: Почему PixInLink выигрывает у стоков и ручной генерации
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: "0"
+            - generic [ref=e89]: изображений в месяц бесплатно — без регистрации и карты
+          - generic [ref=e90]:
+            - generic [ref=e91]: 100%
+            - generic [ref=e92]: уникальных изображений — AI генерирует каждый раз новую картинку
+          - generic [ref=e93]:
+            - generic [ref=e94]: "51"
+            - generic [ref=e95]: секунд — среднее время генерации от запроса до CDN
+          - generic [ref=e96]:
+            - generic [ref=e97]: 68KB
+            - generic [ref=e98]: легче JPEG — WebP по умолчанию, оптимизация автоматическая
+          - generic [ref=e99]:
+            - generic [ref=e100]: "10"
+            - generic [ref=e101]: стилей генерации — realistic, artistic, cartoon, sketch, 3d-render
+          - generic [ref=e102]:
+            - generic [ref=e103]: 2.8s
+            - generic [ref=e104]: серверов в РФ — Yandex Cloud, соответствие 152-ФЗ
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - heading "Что такое PixInLink и как он работает" [level=3] [ref=e109]
+          - paragraph [ref=e111]: PixInLink — онлайн-сервис, который генерирует уникальное AI-изображение по описанию в URL. Вы формируете ссылку вида pixinlink.ru/800x400/описание, вставляете её в img src, и сервис автоматически создаёт картинку через нейросеть, конвертирует в WebP и доставляет через CDN.
+        - generic [ref=e112]:
+          - heading "PixInLink vs альтернативы" [level=3] [ref=e113]
+          - table [ref=e115]:
+            - rowgroup [ref=e116]:
+              - row "Критерий Стоки / Midjourney PixInLink" [ref=e117]:
+                - columnheader "Критерий" [ref=e118]
+                - columnheader "Стоки / Midjourney" [ref=e119]
+                - columnheader "PixInLink" [ref=e120]
+            - rowgroup [ref=e121]:
+              - row "Цена старт от $29/мес Бесплатно" [ref=e122]:
+                - cell "Цена старт" [ref=e123]
+                - cell "от $29/мес" [ref=e124]
+                - cell "Бесплатно" [ref=e125]:
+                  - strong [ref=e126]: Бесплатно
+              - row "Время получения 15–30 мин 10–30 сек" [ref=e127]:
+                - cell "Время получения" [ref=e128]
+                - cell "15–30 мин" [ref=e129]
+                - cell "10–30 сек" [ref=e130]:
+                  - strong [ref=e131]: 10–30 сек
+              - row "Вставка в img src Нет Да" [ref=e132]:
+                - cell "Вставка в img src" [ref=e133]
+                - cell "Нет" [ref=e134]
+                - cell "Да" [ref=e135]:
+                  - strong [ref=e136]: Да
+              - row "Уникальность Нет / ручная Каждый раз" [ref=e137]:
+                - cell "Уникальность" [ref=e138]
+                - cell "Нет / ручная" [ref=e139]
+                - cell "Каждый раз" [ref=e140]:
+                  - strong [ref=e141]: Каждый раз
+              - row "Оплата картой МИР Не всегда Да" [ref=e142]:
+                - cell "Оплата картой МИР" [ref=e143]
+                - cell "Не всегда" [ref=e144]
+                - cell "Да" [ref=e145]:
+                  - strong [ref=e146]: Да
+              - row "152-ФЗ (серверы РФ) Нет Да" [ref=e147]:
+                - cell "152-ФЗ (серверы РФ)" [ref=e148]
+                - cell "Нет" [ref=e149]
+                - cell "Да" [ref=e150]:
+                  - strong [ref=e151]: Да
+      - generic [ref=e153]:
+        - heading "Как это работает" [level=2] [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: "1"
+            - heading "Формируете URL" [level=4] [ref=e159]
+            - paragraph [ref=e160]: "Указываете размеры и описание прямо в ссылке: pixinlink.ru/800x400/офис-программисты"
+          - generic [ref=e162]:
+            - generic [ref=e163]: "2"
+            - heading "Вставляете в img src" [level=4] [ref=e164]
+            - paragraph [ref=e165]: Одна строка в HTML или WordPress — и изображение появляется само.
+          - generic [ref=e167]:
+            - generic [ref=e168]: "3"
+            - heading "AI генерирует" [level=4] [ref=e169]
+            - paragraph [ref=e170]: Нейросеть создаёт уникальное изображение за 10–30 секунд.
+          - generic [ref=e172]:
+            - generic [ref=e173]: "4"
+            - heading "CDN доставляет" [level=4] [ref=e174]
+            - paragraph [ref=e175]: WebP-файл кешируется на год и отдаётся с ближайшего узла Yandex Cloud.
+      - generic [ref=e177]:
+        - heading "Последние статьи" [level=2] [ref=e178]
+        - paragraph [ref=e182]: Читайте последние статьи в нашем блоге о генерации изображений, AI и автоматизации контента.
+        - link "Все статьи →" [ref=e184] [cursor=pointer]:
+          - /url: /blog/
+      - generic [ref=e186]:
+        - heading "Попробуйте PixInLink сегодня" [level=2] [ref=e187]
+        - paragraph [ref=e188]: 12 изображений бесплатно — без регистрации, без кредитной карты. Просто вставьте URL в img src.
+        - generic [ref=e189]:
+          - link "Начать бесплатно" [ref=e190] [cursor=pointer]:
+            - /url: /pricing/
+          - link "Смотреть тарифы" [ref=e191] [cursor=pointer]:
+            - /url: /docs/getting-started/
+  - generic [ref=e192]:
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - heading "12 бесплатно · 10-30 сек · 50+ стилей" [level=3] [ref=e197]
+        - paragraph [ref=e198]: Изображений через URL API
+      - generic [ref=e199]:
+        - heading "Готовы попробовать?" [level=4] [ref=e200]
+        - link "Начать бесплатно" [ref=e201] [cursor=pointer]:
+          - /url: /pricing/
+    - generic [ref=e202]:
+      - img "building" [ref=e203]
+      - img "building" [ref=e204]
+      - img "building" [ref=e205]
+  - contentinfo [ref=e206]:
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - img "PixInLink" [ref=e212]
+        - paragraph [ref=e213]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+        - paragraph [ref=e214]: © 2026 PixInLink
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - heading "Страницы" [level=6] [ref=e218]
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "Главная" [ref=e221] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e222]:
+              - link "Возможности" [ref=e223] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e224]:
+              - link "Тарифы" [ref=e225] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e226]:
+              - link "Сценарии" [ref=e227] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e228]:
+              - link "Интеграции" [ref=e229] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e230]:
+          - heading "Ещё" [level=6] [ref=e231]
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - link "Блог" [ref=e234] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e235]:
+              - link "Документация" [ref=e236] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e237]:
+              - link "О компании" [ref=e238] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e239]:
+              - link "Контакты" [ref=e240] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e241]:
+              - link "RSS Лента" [ref=e242] [cursor=pointer]:
+                - /url: /rss.xml
+      - generic [ref=e244]:
+        - link "" [ref=e245] [cursor=pointer]:
+          - /url: https://github.com/PixInLink
+          - generic [ref=e246]: 
+        - link "" [ref=e247] [cursor=pointer]:
+          - /url: https://pixinlink.ru
+          - generic [ref=e248]: 

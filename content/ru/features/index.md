@@ -101,7 +101,7 @@ schema_type: "WebPage"
         <div class="feature-list">
           <div class="icon primary material-icons">branding_watermark</div>
           <h5 class="headline">Водяной знак</h5>
-          <p class="body-1 mb-2">На Free-тарифе вшивается текст «Made with PixInLink». В Starter он убирается параметром <code>&amp;watermark=false</code>, а на Business — свой логотип.</p>
+          <p class="body-1 mb-2">На всех тарифах водяной знак отсутствует. На Business и Enterprise — возможность загрузить собственный логотип.</p>
           <a href="https://pixinlink.ru/features/watermark/" class="btn-flat primary-text waves-effect">Подробнее →</a>
         </div>
       </div>
@@ -236,7 +236,7 @@ schema_type: "WebPage"
                     <i class="material-icons right arrow">expand_more</i>
                   </div>
                   <div class="collapsible-body detail">
-                    <p>Нет. Free-тариф работает без регистрации — просто вставьте URL. Доступно 50 генераций в месяц абсолютно бесплатно, без привязки банковской карты.</p>
+                    <p>Free-тариф требует регистрации — 12 изображений в месяц без водяного знака. Без привязки банковской карты.</p>
                   </div>
                 </li>
                 <li class="accordion-content paper">
@@ -262,8 +262,8 @@ schema_type: "WebPage"
         <div class="card paper">
           <div class="row align-items-center mb-0">
             <div class="col-lg-7 col-md-12 pa-4">
-              <h4 class="use-text-title2 pb-2">Начните бесплатно — 50 генераций</h4>
-              <p class="use-text-subtitle2 mb-0">Карта не нужна. Free-тариф не истекает. Апгрейд в любой момент.</p>
+              <h4 class="use-text-title2 pb-2">Начните бесплатно — 12 изображений</h4>
+              <p class="use-text-subtitle2 mb-0">Без водяного знака. Free-тариф не истекает. Апгрейд в любой момент.</p>
             </div>
             <div class="col-lg-5 col-md-12 pa-4 text-lg-right text-left">
               <div class="d-flex flex-wrap align-items-center justify-content-lg-end">

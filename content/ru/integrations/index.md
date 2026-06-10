@@ -336,7 +336,7 @@ url = client.generate(
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Нет. URL API (<code>img src=</code>) работает без ключа на Free-тарифе. API-ключ нужен для: отключения водяного знака, увеличенных лимитов, привязки к домену, вызовов Bulk API и настройки Webhooks.</p>
+                  <p>Нет. URL API (<code>img src=</code>) работает без ключа. API-ключ нужен для увеличенных лимитов, привязки к домену, вызовов Bulk API и настройки Webhooks.</p>
                 </div>
               </li>
               <li class="accordion-content paper">

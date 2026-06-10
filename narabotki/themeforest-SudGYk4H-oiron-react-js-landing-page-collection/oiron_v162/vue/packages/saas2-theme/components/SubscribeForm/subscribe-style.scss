@@ -1,0 +1,50 @@
+.root {
+  position: relative;
+  text-align: center;
+  margin-bottom: $spacing12;
+  z-index: 10;
+  .container {
+    position: relative;
+    @include breakpoints-down(xs) {
+      padding: spacing(0, 1) !important
+    }
+  }
+}
+
+.form {
+  position: relative;
+  margin-top: $spacing2
+}
+
+.field {
+  padding-right: 150px;
+  padding-left: $spacing3;
+  color: #fff;
+  width: 100%;
+  border-radius: 56px;
+  @include palette-background-paper;
+  border: 1px solid $palette-primary-main;
+  :deep(.v-field--variant-solo) {
+    box-shadow: none;
+    margin-bottom: 0;
+    background: none;
+  }
+  :deep(.v-text-field__details) {
+    display: none
+  }
+}
+
+.button {
+  position: absolute;
+  @include right($spacing1);
+  top: 7px;
+  width: 140px;
+  @include breakpoints-down(sm) {
+    padding: spacing(0.5, 3);
+    min-width: 0;
+    width:auto;
+  }
+  @include breakpoints-down(xs) {
+    padding: spacing(0.5, 1)
+  }
+}

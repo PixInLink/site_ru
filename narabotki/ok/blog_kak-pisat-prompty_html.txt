@@ -1,0 +1,450 @@
+﻿  <!-- ХЕДЕР СТАТЬИ БЛОГА -->
+  <div class="container max-md mt-5 pt-5 mb-4" id="article-header">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="d-flex justify-content-center mb-3">
+          <a href="/blog/tag/guides" class="badge" style="background: #e3f2fd; color: #1976d2; border-radius: 4px; padding: 5px 10px;">Руководства</a>
+          <a href="/blog/tag/prompts" class="badge ml-2" style="background: #e3f2fd; color: #1976d2; border-radius: 4px; padding: 5px 10px;">Промпты</a>
+        </div>
+        <h1 class="use-text-title2" style="font-size: 2.5rem; line-height: 1.3; margin-bottom: 20px;">
+          Как писать промпты для AI-изображений: полное руководство с примерами
+        </h1>
+        <p class="use-text-subtitle2 text-muted">От «кошка» до профессионального фотореализма — пошаговый разбор</p>
+        <div class="mt-3 text-muted body-2">Опубликовано: 15 мая 2026 • Читать: 7 мин</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ: Введение и TL;DR -->
+  <div class="container max-md" id="article-content-1">
+    <div class="row">
+      <div class="col-12">
+        
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          В этом руководстве мы разберем, как составить идеальный промпт для генерации AI-изображений через URL-запросы в PixInLink. Вы узнаете, как работают стили, почему важен контекст и как избежать типичных ошибок. В PixInLink промпты работают прямо в URL — вы просто вставляете ссылку в тег <code>&lt;img src=""&gt;</code> вашего сайта, и изображение генерируется на лету.
+        </p>
+
+        <!-- Пример URL -->
+        <p class="body-2 mb-2 text-muted">Попробуйте прямо сейчас:</p>
+        <div class="card paper pa-3 mb-5 text-center" style="background: #1e1e1e; border-radius: 8px;">
+          <code style="color: #ce9178; font-size: 15px; word-break: break-all;">
+            https://pixinlink.ru/api/v1/800x400/рыжая-кошка-на-подоконнике-солнечный-свет
+          </code>
+        </div>
+
+        <!-- TL;DR Block -->
+        <div class="card paper pa-4 mb-5" style="background: #f1f8e9; border-left: 4px solid #4CAF50; box-shadow: none;">
+          <h5 class="headline mb-2" style="color: #2E7D32;">TL;DR (Кратко)</h5>
+          <p class="body-1 m-0" style="line-height: 1.6;">
+            <strong>Хороший промпт = конкретный субъект + контекст/сцена + освещение + стиль.</strong> Максимум 500 символов, оптимально до 300. Русский язык работает лучше английского. Пример: "рыжая кошка на белом подоконнике, утренний свет из окна, фотореализм" &rarr; параметр <code>style=realistic</code>.
+          </p>
+        </div>
+
+        <h3 class="display-2 mb-3 mt-5" style="font-size: 24px; font-weight: 700;">Ключевые факты в цифрах</h3>
+        <ul class="body-1 mb-5" style="line-height: 1.8; font-size: 1.1rem; padding-left: 20px;">
+          <li class="mb-2"><strong>500 символов</strong> — максимальная длина промпта (всё, что больше, обрезается автоматически).</li>
+          <li class="mb-2"><strong>6 стилей генерации:</strong> realistic, illustration, 3d, pixel-art, cyberpunk, anime.</li>
+          <li class="mb-2"><strong>Кириллица работает отлично:</strong> Kandinsky 3.1 обучен на масштабных русскоязычных наборах данных.</li>
+          <li class="mb-2"><strong>Точность генерации:</strong> 1 слово промпта vs 10 слов — точность попадания растёт в 3–5 раз с добавлением деталей.</li>
+          <li class="mb-2"><strong>Seed (1 - 2 147 483 647):</strong> фиксирует изображение навсегда, чтобы оно не менялось при перезагрузках.</li>
+          <li class="mb-2"><strong>10–30 секунд:</strong> время первой генерации. Повторные загрузки из кеша CDN — мгновенно.</li>
+          <li class="mb-2"><strong>0 ₽ для старта:</strong> доступно 50 бесплатных генераций без регистрации.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ: Формула промпта и Таблица -->
+  <div class="container max-md" id="article-content-2">
+    <div class="row">
+      <div class="col-12">
+        
+        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Формула промпта: 5 элементов</h3>
+        <p class="body-1 mb-4" style="line-height: 1.8; font-size: 1.1rem;">
+          Промпт для PixInLink строится по строгой формуле: <strong>[Субъект] + [Детали] + [Сцена/контекст] + [Освещение] + [Стиль]</strong>. Главное правило: чем конкретнее, тем точнее результат.
+        </p>
+
+        <!-- Шаг 1 -->
+        <div class="card paper pa-4 mb-3 d-flex align-items-start" style="box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <div class="icon primary material-icons mr-3" style="font-size: 32px; color: #2196F3;">person</div>
+          <div>
+            <h5 class="headline mb-1" style="font-size: 18px;">Элемент 1: Субъект</h5>
+            <p class="body-2 text-muted mb-2">Это самая важная часть. Нейросеть строит композицию вокруг субъекта.</p>
+            <div class="body-2">
+              <span style="color: #d32f2f;">❌ Плохо:</span> «изображение для статьи» <br>
+              <span style="color: #388e3c;">✅ Хорошо:</span> «ноутбук на деревянном столе»
+            </div>
+          </div>
+        </div>
+
+        <!-- Шаг 2 -->
+        <div class="card paper pa-4 mb-3 d-flex align-items-start" style="box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <div class="icon primary material-icons mr-3" style="font-size: 32px; color: #2196F3;">palette</div>
+          <div>
+            <h5 class="headline mb-1" style="font-size: 18px;">Элемент 2: Детали и атрибуты</h5>
+            <p class="body-2 text-muted mb-2">Используйте 2–3 атрибута (цвет, размер, материал), не больше.</p>
+            <div class="body-2">
+              <span style="color: #d32f2f;">❌ Плохо:</span> «кошка» <br>
+              <span style="color: #388e3c;">✅ Хорошо:</span> «рыжая пушистая кошка, зелёные глаза, сидит»
+            </div>
+          </div>
+        </div>
+
+        <!-- Шаг 3 -->
+        <div class="card paper pa-4 mb-3 d-flex align-items-start" style="box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <div class="icon primary material-icons mr-3" style="font-size: 32px; color: #2196F3;">place</div>
+          <div>
+            <h5 class="headline mb-1" style="font-size: 18px;">Элемент 3: Контекст и сцена</h5>
+            <p class="body-2 text-muted mb-2">Определяет фон и окружение вашего субъекта.</p>
+            <div class="body-2">
+              <span style="color: #d32f2f;">❌ Плохо:</span> «офис» <br>
+              <span style="color: #388e3c;">✅ Хорошо:</span> «современный open-space офис, панорамные окна, вечер»
+            </div>
+          </div>
+        </div>
+
+        <!-- Шаг 4 -->
+        <div class="card paper pa-4 mb-3 d-flex align-items-start" style="box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <div class="icon primary material-icons mr-3" style="font-size: 32px; color: #2196F3;">wb_sunny</div>
+          <div>
+            <h5 class="headline mb-1" style="font-size: 18px;">Элемент 4: Освещение</h5>
+            <p class="body-2 text-muted mb-2">Один из главных факторов качества (утренний свет, неоновая подсветка, soft light).</p>
+            <div class="body-2">
+              <span style="color: #d32f2f;">❌ Плохо:</span> (без указания освещения) <br>
+              <span style="color: #388e3c;">✅ Хорошо:</span> «мягкий утренний свет из окна, длинные тени»
+            </div>
+          </div>
+        </div>
+
+        <!-- Шаг 5 -->
+        <div class="card paper pa-4 mb-5 d-flex align-items-start" style="box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+          <div class="icon primary material-icons mr-3" style="font-size: 32px; color: #2196F3;">style</div>
+          <div>
+            <h5 class="headline mb-1" style="font-size: 18px;">Элемент 5: Стиль</h5>
+            <p class="body-2 text-muted m-0">Передается в PixInLink отдельным параметром <code>&amp;style=</code> (например, realistic, anime, 3d).</p>
+          </div>
+        </div>
+
+        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Примеры: до и после доработки промпта</h3>
+        
+        <div class="card paper pa-4 mb-5">
+          <div class="table-responsive">
+            <table class="highlight striped responsive-table">
+              <thead>
+                <tr>
+                  <th style="min-width: 100px;">Ниша</th>
+                  <th style="color: #d32f2f; min-width: 150px;">Плохой промпт</th>
+                  <th style="color: #388e3c; min-width: 250px;">Хороший промпт</th>
+                </tr>
+              </thead>
+              <tbody class="body-2">
+                <tr>
+                  <td><strong>Блог IT</strong></td>
+                  <td>«программирование»</td>
+                  <td>«разработчик за ноутбуком в тёмном офисе, мониторы с кодом, синяя подсветка, cyberpunk»</td>
+                </tr>
+                <tr>
+                  <td><strong>Кулинария</strong></td>
+                  <td>«еда»</td>
+                  <td>«тарелка пасты карбонара, сыр пармезан сверху, белая тарелка, студийное освещение, food photo»</td>
+                </tr>
+                <tr>
+                  <td><strong>E-commerce</strong></td>
+                  <td>«товар»</td>
+                  <td>«кожаная коричневая сумка-шоппер, белый фон, студийный свет, e-commerce product shot»</td>
+                </tr>
+                <tr>
+                  <td><strong>Недвижимость</strong></td>
+                  <td>«квартира»</td>
+                  <td>«светлая однокомнатная квартира-студия, скандинавский интерьер, панорамные окна, дневной свет»</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ: 6 стилей генерации -->
+  <div class="container max-md" id="article-content-3">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">6 стилей генерации: когда использовать каждый</h3>
+      </div>
+    </div>
+    <div class="row">
+      
+      <!-- Стиль 1: realistic -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #2196F3;">
+          <h5 class="headline mb-2">1. realistic — Фотореализм</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> бизнес-контент, блоги, e-commerce, новости.</p>
+          <p class="body-1 mb-3">Создаёт изображение, неотличимое от профессиональной фотографии. Лучший выбор для 80% задач.</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=realistic
+          </code>
+        </div>
+      </div>
+
+      <!-- Стиль 2: illustration -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #E91E63;">
+          <h5 class="headline mb-2">2. illustration — Цифровая иллюстрация</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> детские темы, мягкие ниши (психология), обучение.</p>
+          <p class="body-1 mb-3">Художественный вид, ближе к цифровой живописи. Совет: добавьте «digital painting, soft colors».</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=illustration
+          </code>
+        </div>
+      </div>
+
+      <!-- Стиль 3: 3d -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #9C27B0;">
+          <h5 class="headline mb-2">3. 3d — 3D-рендер</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> продуктовые сайты, стартапы, игровой контент.</p>
+          <p class="body-1 mb-3">Генерирует изображения в Blender-стиле: объёмные объекты и студийное освещение.</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=3d
+          </code>
+        </div>
+      </div>
+
+      <!-- Стиль 4: pixel-art -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #4CAF50;">
+          <h5 class="headline mb-2">4. pixel-art — Пиксельная графика</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> игровые сайты, ретро-блоги, геймдев.</p>
+          <p class="body-1 mb-3">16-bit или 32-bit стилистика. Уникальная визуальная ниша. Совет: добавьте «game sprite, retro».</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=pixel-art
+          </code>
+        </div>
+      </div>
+
+      <!-- Стиль 5: cyberpunk -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #00BCD4;">
+          <h5 class="headline mb-2">5. cyberpunk — Киберпанк</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> IT-блоги, tech, gaming, sci-fi.</p>
+          <p class="body-1 mb-3">Неон, тёмные фоны, хай-тек эстетика. Рекомендуемый фон: тёмный (000000 или 0d0d0d).</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=cyberpunk
+          </code>
+        </div>
+      </div>
+
+      <!-- Стиль 6: anime -->
+      <div class="col-md-6 mb-4">
+        <div class="card paper pa-4 h-100" style="border-top: 4px solid #FF9800;">
+          <h5 class="headline mb-2">6. anime — Аниме</h5>
+          <p class="body-2 text-muted mb-2"><strong>Когда:</strong> развлекательный контент, молодёжная аудитория.</p>
+          <p class="body-1 mb-3">Японская анимационная эстетика — яркие цвета, чёткие контуры. Совет: добавьте «manga art».</p>
+          <code class="d-block pa-2" style="background: #1e1e1e; color: #ce9178; border-radius: 4px; font-size: 13px; word-break: break-all;">
+            ...&amp;style=anime
+          </code>
+        </div>
+      </div>
+    </div> <!-- Конец сетки стилей -->
+
+    <!-- Параметры BG / FG -->
+    <div class="row mt-4">
+      <div class="col-12">
+        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Параметры bg и fg</h3>
+        <p class="body-1 mb-4" style="line-height: 1.8;">
+          Параметры <code>bg</code> и <code>fg</code> в URL задают цветовую подсказку для нейросети. <code>bg</code> влияет на фон, а <code>fg</code> — на цвета объектов переднего плана.
+        </p>
+        <div class="card paper pa-4 mb-5">
+          <div class="table-responsive">
+            <table class="highlight responsive-table">
+              <thead>
+                <tr>
+                  <th>Задача</th>
+                  <th>bg (Фон)</th>
+                  <th>fg (Акцент)</th>
+                </tr>
+              </thead>
+              <tbody class="body-2">
+                <tr>
+                  <td>Белый фон (e-commerce)</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#ffffff; border:1px solid #ccc; border-radius:50%; margin-right:5px;"></span>ffffff</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#000000; border-radius:50%; margin-right:5px;"></span>000000</td>
+                </tr>
+                <tr>
+                  <td>Тёмная тема (tech)</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#0d0d0d; border:1px solid #ccc; border-radius:50%; margin-right:5px;"></span>0d0d0d</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#00ff88; border-radius:50%; margin-right:5px;"></span>00ff88</td>
+                </tr>
+                <tr>
+                  <td>Синий корпоратив (бизнес)</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#e8f4f8; border:1px solid #ccc; border-radius:50%; margin-right:5px;"></span>e8f4f8</td>
+                  <td><span style="display:inline-block; width:12px; height:12px; background:#1a73e8; border-radius:50%; margin-right:5px;"></span>1a73e8</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ АГРЕГАТОР (Аккордеон) -->
+  <div class="faq-style page-section mb-5" id="faq">
+    <div class="root">
+      <div class="container max-md">
+        <h3 class="display-2 mb-4 text-center" style="font-size: 24px; font-weight: 700;">Частые вопросы о промптах</h3>
+        <div class="accordion">
+          <ul class="collapsible">
+            
+            <li class="accordion-content paper active">
+              <div class="collapsible-header content">
+                <p class="heading">Можно ли писать промпты на русском?</p>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body detail">
+                <p>Да, Kandinsky 3.1 отлично работает с русским языком. Более того, наша система проводит автоматическое улучшение (beautification) текстовых подсказок перед генерацией.</p>
+              </div>
+            </li>
+            
+            <li class="accordion-content paper">
+              <div class="collapsible-header content">
+                <p class="heading">Почему изображение получилось не таким, как я ожидал?</p>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body detail">
+                <p>Проверьте запрос на наличие противоречивых деталей (например, «ночь» и «солнечный свет») и обязательно укажите конкретный параметр <code>style=</code>.</p>
+              </div>
+            </li>
+            
+            <li class="accordion-content paper">
+              <div class="collapsible-header content">
+                <p class="heading">Как сделать промпт для og:image?</p>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body detail">
+                <p>Используйте подстановку заголовка H1 вашей статьи в URL-промпт и обязательно добавьте фиксированный параметр <code>seed=число</code>, чтобы картинка не менялась при репостах.</p>
+              </div>
+            </li>
+
+            <li class="accordion-content paper">
+              <div class="collapsible-header content">
+                <p class="heading">Есть ли запрещённые слова в промпте?</p>
+                <i class="material-icons right arrow">expand_more</i>
+              </div>
+              <div class="collapsible-body detail">
+                <p>Да. Запросы содержащие NSFW (18+), сцены насилия и имена известных персонажей или знаменитостей блокируются автоматической системой модерации контента.</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- КОНТЕНТ: Как вставить в URL (Код-блоки) -->
+  <div class="container max-md" id="article-content-4">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Как вставить промпт в URL правильно</h3>
+        
+        <!-- Правила -->
+        <h5 class="headline mb-2">Правило 1: Пробелы</h5>
+        <p class="body-1 mb-4">Пробел должен передаваться как <code>%20</code> или <code>+</code>. Дефис (<code>-</code>) также работает, если вы используете slug-формат (например, <code>/утренний-свет-офис</code>).</p>
+        
+        <h5 class="headline mb-2">Правило 2: Кириллица в URL</h5>
+        <p class="body-1 mb-4">Вы можете передавать промпт как query-параметр (<code>?prompt=...</code>) или как path-параметр. Path-param рекомендуется для генерации <code>og:image</code>.</p>
+        
+        <h5 class="headline mb-2">Правило 3: Длина и Спецсимволы</h5>
+        <p class="body-1 mb-4">Максимальная длина — 500 символов. Обязательно кодируйте спецсимволы: <code>&amp;</code> &rarr; <code>%26</code>, <code>=</code> &rarr; <code>%3D</code>.</p>
+
+        <!-- Код PHP -->
+        <h6 class="use-text-subtitle2 mb-2 mt-4">Код-блок PHP:</h6>
+        <div class="card paper pa-3 mb-4 text-left" style="background: #1e1e1e; border-radius: 8px;">
+          <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 14px;"><span style="color: #569cd6;">&lt;?php</span>
+<span style="color: #9cdcfe;">$prompt</span> = <span style="color: #ce9178;">"рыжая кошка на подоконнике, утренний свет"</span>;
+<span style="color: #9cdcfe;">$url</span> = <span style="color: #ce9178;">"https://pixinlink.ru/800x400/ffffff/000000?prompt="</span> . <span style="color: #dcdcaa;">urlencode</span>(<span style="color: #9cdcfe;">$prompt</span>);
+<span style="color: #6a9955;">// Результат: ?prompt=%D1%80%D1%8B%D0%B6%D0%B0%D1%8F+%D0%BA%D0...</span>
+<span style="color: #569cd6;">?&gt;</span></code></pre>
+        </div>
+
+        <!-- Источники -->
+        <div class="card paper pa-4 mt-5 mb-5" style="background: #f5f5f5; box-shadow: none;">
+          <h5 class="headline mb-3" style="font-size: 18px;">Источники и методология</h5>
+          <p class="body-2 text-muted mb-2">Эффективность промптов оценена на основе A/B тестирования команды PixInLink. Рекомендации базируются на:</p>
+          <ul class="body-2 text-muted" style="padding-left: 20px;">
+            <li>Sber AI, Kandinsky 3.1 Documentation (ai.sber.ru)</li>
+            <li>Black Forest Labs, FLUX Model Card</li>
+            <li>OpenAI, Prompt Engineering Guide</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CALL TO ACTION -->
+  <div class="container max-md mb-5" id="cta-block">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="card paper pa-5" style="border-radius: 12px; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);">
+          <h3 class="use-text-title2 mb-3">Хватит читать — пора генерировать</h3>
+          <p class="use-text-subtitle2 mb-4">Попробуйте свой первый промпт бесплатно — вам доступно 50 изображений.</p>
+          <a href="/getting-started" class="btn primary waves-effect px-5 py-2" style="border-radius: 30px; font-size: 1.1rem;">Попробовать бесплатно</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JSON-LD SEO Разметка -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Как писать промпты для AI-изображений: полное руководство с примерами",
+        "description": "Подробное руководство: как составить промпт для генерации AI-изображений через URL. Стили realistic, illustration, 3d, pixel-art, cyberpunk, anime. Примеры для блога, e-commerce, соцсетей.",
+        "author": {
+          "@type": "Organization",
+          "name": "PixInLink Team"
+        },
+        "datePublished": "2026-05-15",
+        "articleSection": "Промпты для AI"
+      },
+      {
+        "@type": "HowTo",
+        "name": "Как написать промпт для AI-изображения за 5 шагов",
+        "step": [
+          { "@type": "HowToStep", "name": "Субъект", "text": "Укажите кто или что изображено." },
+          { "@type": "HowToStep", "name": "Детали и атрибуты", "text": "Добавьте 2-3 атрибута (цвет, размер, материал)." },
+          { "@type": "HowToStep", "name": "Контекст и сцена", "text": "Укажите место и что происходит." },
+          { "@type": "HowToStep", "name": "Освещение", "text": "Выберите тип света (утренний, студийный и т.д.)." },
+          { "@type": "HowToStep", "name": "Стиль", "text": "Укажите параметр стиля (realistic, anime и др.)." }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Можно ли писать промпты на русском?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Да, Kandinsky 3.1 отлично работает с русским языком." }
+          },
+          {
+            "@type": "Question",
+            "name": "Почему изображение получилось не таким, как я ожидал?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Проверьте запрос на наличие противоречивых деталей и укажите конкретный стиль." }
+          },
+          {
+            "@type": "Question",
+            "name": "Как сделать промпт для og:image?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Используйте подстановку H1 вашей статьи в промпт и добавьте фиксированный seed." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "oiron-cloud-pro",
+  "name": "Oiron Cloud Pro",
+  "version": "1.0.0",
+  "edition": "pro",
+  "license": "commercial",
+  "author": "Oiron / GitHub CMS",
+  "compatibleGithubCms": ">=0.1.0 <1.0.0",
+  "description": "Paid SaaS/Cloud template pack adapted from ThemeForest Oiron Cloud Theme. Sky-blue palette with glass cards, Montserrat typography, Material Design iconography, and full Bootstrap 5 grid system. Ideal for cloud services, SaaS startups, and IT companies.",
+  "preview": "https://pixinlink.ru/api/v1/800x500/cloud-theme-oiron-saas-landing",
+  "price": {
+    "amount": 3500,
+    "currency": "RUB"
+  },
+  "includes": [
+    "theme",
+    "prompts",
+    "geo-blocks",
+    "schema-map",
+    "demo-content"
+  ],
+  "limits": {
+    "templateSwitching": true,
+    "homeVariants": 5,
+    "marketplaceInstall": true,
+    "advancedGeoBlocks": true,
+    "componentOverrides": true
+  },
+  "sourcePaths": {
+    "themeEntry": "templates-oiron/cloud-theme/theme.scss",
+    "prompts": [
+      "templates-oiron/cloud-theme/prompts/article-cloud-seo.md",
+      "templates-oiron/cloud-theme/prompts/landing-cloud.md"
+    ],
+    "geoBlocks": "templates-oiron/cloud-theme/geo/blocks.json",
+    "schemaMap": "templates-oiron/cloud-theme/geo/schema-map.json"
+  },
+  "install": {
+    "themeTarget": "src/assets/themes/oiron-cloud",
+    "promptTarget": "content/{locale}/templates/oiron-cloud",
+    "componentTarget": "src/components/theme-overrides/oiron-cloud"
+  }
+}

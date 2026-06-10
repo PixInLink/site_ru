@@ -190,7 +190,7 @@ export const siteTree = {
         {
           "slug": "pricing",
           "title": "Тарифы PixInLink — выберите план под ваши задачи",
-          "description": "Тарифы PixInLink: от бесплатного тестирования до Enterprise с white-label. Генерация уникальных изображений по цене от 0.50 ₽ до 0.98 ₽ за штуку.",
+          "description": "Тарифы PixInLink: от бесплатных 12 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц.",
           "isIndex": true,
           "path": "content/ru/pricing/index.md"
         }

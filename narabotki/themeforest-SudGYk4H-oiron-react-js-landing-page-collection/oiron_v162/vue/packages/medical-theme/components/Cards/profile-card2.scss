@@ -1,0 +1,70 @@
+$frame-deco: '/images/decoration/frame-deco.png';
+
+/* Profile Card */
+.profile {
+  overflow: visible;
+  margin: 0.5rem 0 1rem 0;
+  @include text-align(left);
+  .divider {
+    border-bottom: none;
+    @include palette-divider;
+    background: none;
+    margin: spacing(0, 2)
+  }
+}
+
+.person-block {
+  display: flex;
+  .photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 0 50% 50% 50%;
+    position: relative;
+    top: -8px;
+    @include left(-8px);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .name-card {
+    padding: $spacing1
+  }
+  h4 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+    @include palette-text-secondary
+  }
+}
+
+.action {
+  padding: $spacing2;
+  @include breakpoints-up(sm) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .button {
+    @include breakpoints-up(sm) {
+      width: 100px
+    }
+    @include breakpoints-down(xs) {
+      width: 100%;
+      margin-top: $spacing2
+    }
+  }
+}
+
+.property {
+  span {
+    @include palette-text-disabled;
+    font-size: 14px;
+    display: inline-block;
+    @include margin-right($spacing4);
+    i {
+      font-size: 24px;
+    }
+  }
+}

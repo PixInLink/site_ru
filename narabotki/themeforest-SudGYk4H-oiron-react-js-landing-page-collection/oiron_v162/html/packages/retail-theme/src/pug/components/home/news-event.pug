@@ -1,0 +1,17 @@
+include ../cards/news-card.pug
+include ../titles/title.pug
+
+.root
+  +title-main("center")
+    | #{$t.retail_landing.news_title}
+  p.use-text-subtitle2.text-center
+    | #{$t.retail_landing.news_desc}
+  .blog-wrap
+    .container.fixed-width
+      .row.spacing6.list-news
+        .col-md-5.col-sm-12.py-0.px-sm-5.px-lg-10
+          +news-card("Partnering with the BBB to help people shop safely.", "headline", "portrait", "over", imgAPI.photo[21], link.retail.blogDetail)
+        .col-md-7.col-sm-12.py-0.px-sm-5.px-lg-10
+          +news-card("Attract an audience and build relationships online.", "news", "landscape", "over", imgAPI.photo[22], link.retail.blogDetail)
+          +news-card("Establish a presence for your business online.", "news", "landscape", "over", imgAPI.photo[37], link.retail.blogDetail)
+

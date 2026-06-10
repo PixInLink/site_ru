@@ -1,0 +1,66 @@
+.testi-card {
+  direction: ltr;
+  position: relative
+}
+
+.paper.v-card {
+  padding: spacing(3, 5);
+  height: 300px;
+  width: 280px;
+  border-radius: 0 0 0 100px !important;
+  @include shade;
+  @include breakpoints-up(sm) {
+    width: 320px;
+  }
+  p {
+    height: 75px;
+    overflow: hidden;
+  }
+}
+
+.star-icon {
+  color: #FFC107
+}
+
+.star-icon-disable {
+  .v-theme--light & {
+    color: $light-divider;
+  }
+  .v-theme--dark & {
+    color: $dark-divider;
+  }
+}
+
+.avatar {
+  border: 1px solid #FFF;
+  box-sizing: content-box;
+  @include margin-left($spacing1);
+  border-radius: 0 40px 0 0;
+  border: 4px solid $palette-primary-main
+}
+
+.person {
+  display: flex;
+  margin-top: $spacing5;
+  position: relative;
+  align-items: center;
+  .avatar {
+    width: 70px;
+    height: 70px;
+    img {
+      border-radius: 0;
+    }
+  }
+  .caption {
+    font-style: italic;
+  }
+}
+
+.name {
+  text-align: left;
+  @include margin-left($spacing2);
+  h6 {
+    font-size: 16px;
+    font-weight: $font-bold;
+  }
+}

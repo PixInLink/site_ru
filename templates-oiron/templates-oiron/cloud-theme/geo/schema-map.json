@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "packId": "oiron-cloud-pro",
+  "map": {
+    "hero": ["WebPage", "Article"],
+    "feature-grid": ["ItemList", "Article"],
+    "benefits": ["Article", "ItemList"],
+    "integration": ["ItemList", "WebPage"],
+    "map": ["WebPage", "Place"],
+    "testimonials": ["Review"],
+    "stats": ["Article", "WebPage"],
+    "cta": ["WebPage"]
+  },
+  "recommendedByContentType": {
+    "saas_landing": ["WebPage", "Organization", "FAQPage", "BreadcrumbList"],
+    "cloud_article": ["Article", "FAQPage", "BreadcrumbList"],
+    "cloud_service": ["Service", "Organization", "FAQPage", "BreadcrumbList"],
+    "product": ["Product", "Offer", "FAQPage", "BreadcrumbList"]
+  }
+}

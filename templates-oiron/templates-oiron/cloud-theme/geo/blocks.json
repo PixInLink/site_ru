@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "packId": "oiron-cloud-pro",
+  "blocks": [
+    {
+      "id": "hero",
+      "requiredFor": ["saas_landing", "cloud_article"],
+      "schemaHints": ["WebPage", "Article"],
+      "minWords": 60,
+      "maxWords": 160,
+      "aiPurpose": "Cloud-themed hero section with gradient background, headline, subtitle, and primary CTA button. Designed for SaaS awareness funnel top."
+    },
+    {
+      "id": "feature-grid",
+      "requiredFor": ["saas_landing", "cloud_service", "product"],
+      "schemaHints": ["ItemList", "Article"],
+      "minItems": 3,
+      "maxItems": 6,
+      "aiPurpose": "Grid of feature cards with icons and short descriptions. Each card highlights a key capability or benefit of the cloud service."
+    },
+    {
+      "id": "benefits",
+      "requiredFor": ["saas_landing", "cloud_article"],
+      "schemaHints": ["Article", "ItemList"],
+      "minItems": 2,
+      "maxItems": 4,
+      "aiPurpose": "Alternating text-and-image blocks that explain business benefits. Left-text/right-image and right-text/left-image pattern for visual rhythm."
+    },
+    {
+      "id": "integration",
+      "requiredFor": ["saas_landing", "cloud_service"],
+      "schemaHints": ["ItemList", "WebPage"],
+      "minItems": 3,
+      "maxItems": 8,
+      "aiPurpose": "Grid of integration partner logos or supported platforms with brief labels. Demonstrates ecosystem compatibility."
+    },
+    {
+      "id": "map",
+      "requiredFor": ["saas_landing", "global_landing"],
+      "schemaHints": ["WebPage", "Place"],
+      "minWords": 20,
+      "maxWords": 60,
+      "aiPurpose": "Map placeholder with global presence claim. Static image reference with caption about data center or office locations."
+    },
+    {
+      "id": "testimonials",
+      "requiredFor": ["saas_landing", "cloud_service", "product"],
+      "schemaHints": ["Review"],
+      "minItems": 3,
+      "maxItems": 6,
+      "aiPurpose": "Customer testimonial cards with quotes, names, titles, and company logos. Provides social proof for the cloud product."
+    },
+    {
+      "id": "stats",
+      "requiredFor": ["saas_landing", "cloud_article"],
+      "schemaHints": ["Article", "WebPage"],
+      "minItems": 3,
+      "maxItems": 5,
+      "aiPurpose": "Counter/animated statistics strip showing uptime percentage, active users, data processed, and other metrics."
+    },
+    {
+      "id": "cta",
+      "requiredFor": ["saas_landing", "cloud_service", "product"],
+      "schemaHints": ["WebPage"],
+      "minWords": 30,
+      "maxWords": 100,
+      "aiPurpose": "Call-to-action section at page bottom. Gradient background with headline, supporting text, and primary button. Connects user to trial or purchase."
+    }
+  ]
+}

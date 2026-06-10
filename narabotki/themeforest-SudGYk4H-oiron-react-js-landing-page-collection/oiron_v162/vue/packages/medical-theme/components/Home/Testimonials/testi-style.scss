@@ -1,0 +1,97 @@
+.root {
+  width: 100%;
+  position: relative;
+  padding-bottom: $spacing5;
+  @include breakpoints-down(sm) {
+    text-align: center;
+  }
+}
+
+.carousel {
+  position: relative;
+  z-index: 6;
+  margin-top: $spacing5;
+  :deep(.slick-list) {
+    overflow: visible;
+  }
+  :deep(.splide__pagination) {
+    bottom: $spacing10 * -1;
+    @include breakpoints-up(sm) {
+      @include margin-left(-160px);
+    }
+    li button {
+      width: 10px;
+      height: 10px;
+      transition: width 0.3s ease;
+      background: $palette-primary-light;
+      border-radius: 15px;
+      transform: none;
+      border: none;
+      opacity: 1;
+      margin: spacing(0, 0.5);
+      &.is-active {
+        width: 35px
+      }
+    }
+  }
+  @include breakpoints-up(lg) {
+    @include margin-left(-160px);
+    width: calc(100% + 180px);
+  }
+}
+
+.item {
+  padding: spacing(2);
+  &:focus {
+    outline: none
+  }
+}
+
+.floating-artwork {
+  position: absolute;
+  width: 100%;
+  top: $spacing5 * -1;
+  @include left(0);
+  @include breakpoints-up(lg) {
+    @include left($spacing1);
+  }
+  @media (min-width: 1400px) {
+    @include left($spacing10)
+  }
+  .artwork {
+    display: flex;
+    align-items: flex-end;
+    height: 540px;
+    @include breakpoints-up(md) {
+      @include margin-right($spacing5)
+    }
+    @include breakpoints-up(lg) {
+      @include float(right)
+    }
+    @media (min-width: 1400px) {
+      @include margin-right(-40px)
+    }
+  }
+}
+
+.item-props {
+  @include breakpoints-down(xs) {
+    display: none !important
+  }
+  &-first {
+    .v-locale--is-ltr & {
+      width: 450px
+    }
+    .v-locale--is-ltr & {
+      width: 160px
+    }
+  }
+  &-last {
+    .v-locale--is-ltr & {
+      width: 160px
+    }
+    .v-locale--is-ltr & {
+      width: 450px
+    }
+  }
+}

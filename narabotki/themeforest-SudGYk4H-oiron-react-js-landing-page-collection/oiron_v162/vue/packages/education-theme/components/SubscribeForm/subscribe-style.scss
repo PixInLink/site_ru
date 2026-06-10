@@ -1,0 +1,49 @@
+$wave-deco-light: '/images/education/deco-wave-light.png';
+$wave-deco-dark: '/images/education/deco-wave-dark.png';
+
+.root {
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: $spacing10;
+  @include breakpoints-down(xs) {
+    margin-top: 130px
+  }
+}
+
+.form {
+  position: relative;
+  margin-top: $spacing5
+}
+
+.field {
+  padding-right: 150px;
+  padding-left: $spacing1;
+  color: #fff;
+  width: 100%;
+  border-radius: $rounded-small;
+  border: 1px solid $palette-primary-main;
+  :deep(.v-field--variant-solo) {
+    box-shadow: none;
+    margin-bottom: 0;
+    background: none;
+  }
+  :deep(.v-text-field__details) {
+    display: none
+  }
+}
+
+.button {
+  position: absolute;
+  @include right($spacing1);
+  top: 7px;
+  width: 140px;
+  @include breakpoints-down(sm) {
+    padding: spacing(0.5, 3);
+    min-width: 0;
+    width:auto;
+  }
+  @include breakpoints-down(xs) {
+    padding: spacing(0.5, 1)
+  }
+}

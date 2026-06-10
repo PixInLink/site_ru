@@ -1,0 +1,84 @@
+.price {
+  &-card {
+    text-align: center;
+    overflow: hidden;
+    @include breakpoints-down(xs) {
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    ul {
+      padding: 0 $spacing2;
+    }
+    h2 {
+      margin-bottom: 0;
+      line-height: 48px;
+    }
+    h5 {
+      text-transform: uppercase;
+      margin-bottom: $spacing1
+    }
+    h6 {
+      @include palette-text-secondary
+    }
+    ul {
+      li {
+        @include palette-text-secondary;
+        list-style: none;
+        padding: spacing(1, 0);
+        margin: spacing(1, 0);
+        font-size: 16px;
+        border-bottom: 2px dashed;
+        @include palette-divider;
+        &:last-child {
+          border-bottom: none
+        }
+      }
+    }
+    &.bg {
+      border: 2px solid $palette-primary-main;
+      z-index: 10;
+      .price-header {
+        background: $palette-primary-main;
+        border-radius: 0;
+      }
+      h2 {
+        color: $palette-common-white;
+      }
+      h5 {
+        color: $palette-common-white;
+      }
+      h6 {
+        color: $palette-common-white;
+      }
+    }
+  }
+  &-header {
+    display: block;
+    padding: spacing(5, 2);
+    position: relative;
+    .icon {
+      position: absolute;
+      top: $spacing1;
+      color: $palette-common-white;
+      @include right($spacing1);
+    }
+  }
+}
+
+.btn-area {
+  text-align: center;
+  @include palette-text-secondary;
+  position: relative;
+  padding: spacing(2, 5);
+  p {
+    position: relative;
+    font-size: 14px;
+    margin-bottom: $spacing2
+  }
+}
+
+.card-pricing {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

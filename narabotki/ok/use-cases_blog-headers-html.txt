@@ -1,0 +1,934 @@
+﻿<!-- HERO -->
+<div class="container mt-5 pt-5 mb-4" id="blog-headers-header">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+
+      <div class="d-flex align-items-center mb-3">
+        <a href="/use-cases" class="badge" style="background:#e3f2fd;color:#1976d2;border-radius:4px;padding:5px 10px;">Кейсы</a>
+        <span class="ml-2 text-muted" style="font-size:14px;">/</span>
+        <span class="ml-2 text-muted" style="font-size:14px;">Изображения для блога</span>
+      </div>
+
+      <h1 class="use-text-title2" style="font-size:2.8rem;line-height:1.2;margin-bottom:18px;">
+        Уникальные изображения для каждой статьи блога — прямо из URL
+      </h1>
+
+      <p class="use-text-subtitle2 text-muted" style="font-size:1.25rem;line-height:1.6;">
+        Не нужен дизайнер, Photoshop, фотосток или отдельная нейросеть. Вставьте один URL в
+        <code>img src</code> — и изображение появится автоматически.
+      </p>
+
+      <div class="card paper pa-4 mt-4" style="background:linear-gradient(135deg,#f3f8ff 0%,#eef7f5 100%);border:1px solid #dbe7f3;border-radius:12px;">
+        <p class="body-1 m-0" style="font-size:1.05rem;line-height:1.75;">
+          PixInLink подходит блогерам, редакторам, SEO-командам и владельцам WordPress-сайтов,
+          которым нужны картинки без ручной рутины. Формат простой:<br>
+          <code>https://pixinlink.ru/api/v1/1200x630/рецепт-тирамису-крупный-план</code>
+        </p>
+      </div>
+
+      <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
+        <a href="/register" class="btn-flat btn-rounded" style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;">
+          Попробовать бесплатно — 50 изображений
+        </a>
+        <a href="/pricing" class="btn-flat btn-rounded" style="background:#e3f2fd;color:#1976d2;padding:10px 24px;">
+          Starter — 490 ₽/мес
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TL;DR -->
+<div class="container" id="blog-headers-tldr">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <div class="card paper pa-4 mb-5" style="background:#f8fff7;border-left:4px solid #43a047;box-shadow:none;">
+        <h3 class="headline mb-3" style="font-size:20px;color:#2e7d32;">TL;DR</h3>
+        <p class="body-1 m-0" style="line-height:1.85;">
+          15 секунд — и у статьи появляется уникальное заголовочное изображение по URL.
+          PixInLink подходит блогерам, WordPress-редакторам и контент-командам:<br>
+          <strong>50 изображений/мес бесплатно</strong>, без регистрации.
+          Starter — 490 ₽/мес: водяной знак снят, 500 генераций.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- KEY FACTS -->
+<div class="container" id="blog-headers-keyfacts">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+
+      <div class="row mb-4">
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #1976d2;">
+            <div style="font-size:28px;font-weight:700;color:#1976d2;">15–30 мин</div>
+            <p class="body-2 text-muted mb-0">уходит на поиск и загрузку одной картинки по стандартному процессу</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #43a047;">
+            <div style="font-size:28px;font-weight:700;color:#43a047;">&lt;50 мс</div>
+            <p class="body-2 text-muted mb-0">доставка изображения через CDN в типовом сценарии</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #fb8c00;">
+            <div style="font-size:28px;font-weight:700;color:#fb8c00;">25–34%</div>
+            <p class="body-2 text-muted mb-0">экономии веса файла WebP vs JPEG при сопоставимом качестве</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-3">
+          <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #8e24aa;">
+            <div style="font-size:28px;font-weight:700;color:#8e24aa;">41.9%</div>
+            <p class="body-2 text-muted mb-0">всех сайтов работают на WordPress — прямой img src особенно полезен</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="body-1 mb-5" style="line-height:1.9;list-style:none;padding-left:0;">
+        <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
+          <span><strong>1200×630 px</strong> — самый распространённый размер для OG-изображений и заголовков в соцпревью</span>
+        </li>
+        <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
+          <span><strong>100% изображений</strong> создаются заново по промпту, а не из тиражной базы</span>
+        </li>
+        <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i>
+          <span><strong>0 ₽ для старта</strong> — 50 генераций без регистрации и кредитной карты</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ОПРЕДЕЛЕНИЕ -->
+<div class="container" id="blog-headers-definition">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Что такое заголовочное изображение статьи?</h2>
+      <p class="body-1 mb-5" style="line-height:1.85;">
+        Заголовочное изображение (hero image) — это визуальный элемент, который размещается
+        над текстом или в начале публикации и помогает читателю сразу понять тему материала.
+        Стандартный размер — <strong>1200×630 px</strong> для страницы статьи и Open Graph-превью.
+        Оно усиливает первое впечатление, улучшает визуальную кликабельность ссылки в соцсетях
+        и даёт место для релевантного alt-текста.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ВВЕДЕНИЕ -->
+<div class="container" id="blog-headers-intro">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Задача, с которой сталкивается каждый блогер</h2>
+      <p class="body-1 mb-4" style="line-height:1.85;">
+        Каждая статья в блоге почти всегда требует отдельное изображение. Традиционный маршрут:
+        зайти на Unsplash или Shutterstock, найти подходящий кадр, скачать, обрезать под нужный размер,
+        сжать, загрузить в CMS и расставить alt-тексты. На одну публикацию уходит
+        <strong>15–30 минут</strong>, а при 10 статьях в месяц — это уже около 5 часов рутинной работы.
+      </p>
+      <p class="body-1 mb-4" style="line-height:1.85;">
+        Есть и вторая проблема: стоковые изображения неуникальны. Один и тот же снимок может
+        использоваться на сотнях сайтов, а платная подписка на фотобанк часто стоит заметно
+        дороже, чем автоматическая генерация по URL.
+      </p>
+      <div class="card paper pa-4 mb-5" style="background:#fff8e1;border-left:4px solid #ffb300;">
+        <p class="body-1 m-0" style="line-height:1.75;">
+          <strong>PixInLink меняет процесс:</strong> вы не работаете с файлами — вы работаете с URL.
+          Изображение генерируется прямо по ссылке, остаётся уникальным для каждой статьи и сразу
+          подходит для HTML, WordPress, Ghost, Hugo и других платформ.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURED SNIPPET -->
+<div class="container" id="blog-headers-snippet">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как быстро добавить уникальное изображение в статью блога?</h2>
+      <p class="body-1 mb-3" style="line-height:1.75;">
+        Вставьте URL вида <code>https://pixinlink.ru/api/v1/1200x630/тема-статьи</code>
+        в HTML, Gutenberg, Ghost или шаблон статического сайта. PixInLink автоматически создаст
+        уникальное изображение, оптимизирует в WebP и отдаст через CDN.
+      </p>
+      <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
+        <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;">&lt;img
+  src="https://pixinlink.ru/api/v1/1200x630/тирамису-крем-ягоды"
+  alt="Рецепт тирамису с кремом и свежими ягодами"
+  loading="lazy"
+  width="1200"
+  height="630"
+&gt;</pre>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ПРОБЛЕМА → РЕШЕНИЕ → РЕЗУЛЬТАТ -->
+<div class="container" id="blog-headers-problem-solution">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Проблема → Решение → Результат</h2>
+
+      <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
+            <div style="font-size:20px;font-weight:700;color:#e53935;margin-bottom:8px;">🔴 Проблема</div>
+            <p class="body-2 m-0" style="line-height:1.9;">
+              Стоки → Лицензия → Скачать → Обрезать → Сжать → Загрузить в CMS → Alt-текст.<br><br>
+              <strong>15–30 мин на статью.</strong> При 10 постах в месяц — 5 часов рутины.
+              Стоковые фото неуникальны, один снимок у сотни конкурентов.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-top:4px solid #43a047;">
+            <div style="font-size:20px;font-weight:700;color:#43a047;margin-bottom:8px;">✅ Решение</div>
+            <p class="body-2 m-0" style="line-height:1.9;">
+              PixInLink убирает файловый этап. Один URL в <code>img src</code> — изображение
+              генерируется AI, конвертируется в WebP, отдаётся через CDN.<br><br>
+              Для автора это выглядит как обычная ссылка.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-top:4px solid #1976d2;">
+            <div style="font-size:20px;font-weight:700;color:#1976d2;margin-bottom:8px;">📊 Результат</div>
+            <p class="body-2 m-0" style="line-height:1.9;">
+              <strong>Время:</strong> с 15–30 мин до 2–3 мин/статью<br>
+              <strong>Деньги:</strong> 0 ₽ на Free или ~16 ₽/изображение на Starter<br>
+              <strong>Уникальность:</strong> каждая статья получает свою иллюстрацию<br>
+              <strong>Интеграция:</strong> WordPress, Ghost, Hugo, Jekyll, любой HTML
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Визуализация: время -->
+      <div class="card paper pa-4 mb-5" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="body-2 text-muted mb-2"><strong>Традиционный метод (~23 мин)</strong></p>
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <div style="background:#ffcdd2;border-radius:4px;padding:6px 12px;font-size:13px;">🔍 Поиск на стоке — 7 мин</div>
+              <div style="background:#ffcdd2;border-radius:4px;padding:6px 12px;font-size:13px;">📋 Проверка лицензии — 2 мин</div>
+              <div style="background:#ffcdd2;border-radius:4px;padding:6px 12px;font-size:13px;">⬇️ Скачивание и ресайз — 5 мин</div>
+              <div style="background:#ffcdd2;border-radius:4px;padding:6px 12px;font-size:13px;">🗜️ Сжатие — 2 мин</div>
+              <div style="background:#ffcdd2;border-radius:4px;padding:6px 12px;font-size:13px;">☁️ Загрузка в CMS + alt — 7 мин</div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3 mt-md-0">
+            <p class="body-2 text-muted mb-2"><strong>PixInLink (~2 мин)</strong></p>
+            <div style="display:flex;flex-direction:column;gap:6px;">
+              <div style="background:#c8e6c9;border-radius:4px;padding:6px 12px;font-size:13px;">✍️ Придумать промпт — 1 мин</div>
+              <div style="background:#c8e6c9;border-radius:4px;padding:6px 12px;font-size:13px;">🔗 Собрать URL — 30 сек</div>
+              <div style="background:#c8e6c9;border-radius:4px;padding:6px 12px;font-size:13px;">📋 Вставить в img src — 30 сек</div>
+            </div>
+            <div class="mt-3 pa-2 text-center" style="background:#e8f5e9;border-radius:6px;">
+              <strong style="color:#2e7d32;">Экономия: 21 минута на каждую статью</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ТАБЛИЦА ПАРАМЕТРОВ -->
+<div class="container" id="blog-headers-params">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Технические параметры URL</h2>
+
+      <div class="card paper pa-0 mb-4 overflow-hidden">
+        <div class="table-responsive">
+          <table class="highlight striped m-0">
+            <thead style="background:#f5f5f5;">
+              <tr><th>Параметр</th><th>Значение</th><th>Когда использовать</th></tr>
+            </thead>
+            <tbody class="body-2">
+              <tr><td><code>width×height</code></td><td><strong>1200×630</strong></td><td>Заголовок статьи / OG-изображение</td></tr>
+              <tr><td><code>width×height</code></td><td><strong>800×400</strong></td><td>Иллюстрация внутри текста</td></tr>
+              <tr><td><code>style</code></td><td>realistic</td><td>Тематические фото: еда, путешествия, lifestyle</td></tr>
+              <tr><td><code>style</code></td><td>artistic</td><td>Абстрактные концепции, IT-статьи, digital</td></tr>
+              <tr><td><code>style</code></td><td>cartoon</td><td>Статьи для широкой аудитории, юмор, медиа</td></tr>
+              <tr><td><code>style</code></td><td>sketch</td><td>Обучающий контент, инструкции, how-to</td></tr>
+              <tr><td><code>background</code></td><td>ffffff</td><td>Светлый блог, белый фон</td></tr>
+              <tr><td><code>seed</code></td><td>любое число</td><td>Зафиксировать изображение при повторных запросах</td></tr>
+              <tr><td><code>watermark</code></td><td>false</td><td>Платные тарифы Starter и выше</td></tr>
+              <tr><td><code>format</code></td><td>webp</td><td>Максимальная оптимизация скорости и веса</td></tr>
+              <tr><td><code>format</code></td><td>png</td><td>PNG-вывод или работа в PNG-среде</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Таблица размеров для блога -->
+      <h3 class="headline mb-2 mt-4" style="font-size:18px;font-weight:700;">Стандартные размеры изображений для блога</h3>
+      <div class="card paper pa-0 mb-5 overflow-hidden">
+        <div class="table-responsive">
+          <table class="highlight striped m-0">
+            <thead style="background:#e8eaf6;">
+              <tr><th>Место размещения</th><th>Размер (px)</th><th>Соотношение</th><th>Формат</th><th>Пример alt-текста</th></tr>
+            </thead>
+            <tbody class="body-2">
+              <tr><td>Hero статьи / OG-изображение</td><td><strong>1200×630</strong></td><td>1.91:1</td><td>WebP</td><td>«Тирамису с кремом и ягодами, вид сверху»</td></tr>
+              <tr><td>Иллюстрация внутри текста</td><td><strong>800×400</strong></td><td>2:1</td><td>WebP</td><td>«Схема внедрения PixInLink в WordPress»</td></tr>
+              <tr><td>Карточка превью в списке</td><td><strong>400×300</strong></td><td>4:3</td><td>WebP/JPEG</td><td>«Миниатюра статьи о travel-блоге»</td></tr>
+              <tr><td>Обложка категории</td><td><strong>1200×400</strong></td><td>3:1</td><td>WebP</td><td>«Рубрика: Рецепты итальянской кухни»</td></tr>
+              <tr><td>Email-дайджест / превью</td><td><strong>600×400</strong></td><td>3:2</td><td>JPEG</td><td>«Письмо с подборкой статей за неделю»</td></tr>
+              <tr><td>Миниатюра автора</td><td><strong>200×200</strong></td><td>1:1</td><td>WebP</td><td>«Аватар автора Анны К.»</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- СРАВНЕНИЕ МЕТОДОВ -->
+<div class="container" id="blog-headers-comparison">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Сравнение способов получить изображение для статьи</h2>
+
+      <div class="card paper pa-0 mb-4 overflow-hidden">
+        <div class="table-responsive">
+          <table class="highlight m-0">
+            <thead style="background:#f5f5f5;">
+              <tr>
+                <th>Метод</th>
+                <th style="background:#e3f2fd;">Время</th>
+                <th>Стоимость</th>
+                <th>Уникальность</th>
+                <th>Интеграция в CMS</th>
+              </tr>
+            </thead>
+            <tbody class="body-2">
+              <tr>
+                <td><strong>PixInLink</strong></td>
+                <td style="background:#e8f5e9;font-weight:700;color:#2e7d32;">2–3 мин</td>
+                <td>0 ₽ / 490 ₽ / 1 490 ₽</td>
+                <td>✅ Уникальное</td>
+                <td>✅ Прямой URL</td>
+              </tr>
+              <tr>
+                <td>Unsplash (бесплатный сток)</td>
+                <td>10–20 мин</td>
+                <td>0 ₽</td>
+                <td>❌ Тиражное</td>
+                <td>⚠️ Скачать и загрузить</td>
+              </tr>
+              <tr>
+                <td>Shutterstock (платный сток)</td>
+                <td>10–20 мин</td>
+                <td>от ~$29/мес</td>
+                <td>❌ Тиражное</td>
+                <td>⚠️ Скачать и загрузить</td>
+              </tr>
+              <tr>
+                <td>Midjourney</td>
+                <td>8–15 мин</td>
+                <td>подписка</td>
+                <td>✅ Уникальное</td>
+                <td>❌ Ручная загрузка</td>
+              </tr>
+              <tr>
+                <td>DALL-E 3 / ChatGPT</td>
+                <td>5–12 мин</td>
+                <td>по подписке</td>
+                <td>✅ Уникальное</td>
+                <td>❌ Ручная загрузка</td>
+              </tr>
+              <tr>
+                <td>Canva</td>
+                <td>10–25 мин</td>
+                <td>бесплатно / подписка</td>
+                <td>⚠️ Частично</td>
+                <td>⚠️ Экспорт вручную</td>
+              </tr>
+              <tr>
+                <td>Самостоятельная съёмка</td>
+                <td>30–120+ мин</td>
+                <td>высокая</td>
+                <td>✅ Уникальное</td>
+                <td>❌ Ручной цикл</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card paper pa-3 mb-5" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:8px;">
+        <p class="body-2 m-0">
+          💡 <strong>Итог:</strong> PixInLink — единственный метод, где изображение уникальное
+          <em>и</em> не требует загрузки файла. Он вставляется напрямую в
+          <code>img src</code> как обычная ссылка.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ДАННЫЕ И СТАТИСТИКА -->
+<div class="container" id="blog-headers-stats">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Данные: почему изображения важны для блога</h2>
+      <ol class="body-1 mb-5" style="line-height:2.0;padding-left:20px;">
+        <li>WordPress обслуживает <strong>41.9% всех сайтов</strong> в интернете — формат URL в img src особенно релевантен для блогов [W3Techs, 2026]</li>
+        <li>WebP в среднем на <strong>25–34% легче JPEG</strong> при сопоставимом качестве — прямое влияние на Core Web Vitals [Google Developers, 2023]</li>
+        <li>Размер <strong>1200×630 px</strong> — самый распространённый стандарт для OG-изображений и карточек в соцсетях [Open Graph, 2025]</li>
+        <li>Статьи с изображением каждые 75–100 слов получают <strong>вдвое больше репостов</strong> [BuzzSumo, анализ 1 млн+ статей]</li>
+        <li>Оригинальные иллюстрации показывают лучшие результаты среди всех визуальных форматов — стоковые фото занимают последнее место [HubSpot/Venngage, 2024]</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<!-- HOWTO: 6 ШАГОВ -->
+<div class="container" id="blog-headers-howto">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как добавить уникальное изображение в статью за 2 минуты</h2>
+
+      <div class="row mb-4">
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #1976d2;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#1976d2;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">1</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Определите размер</h4>
+            </div>
+            <p class="body-2 mb-0">Для заголовка — <code>1200×630</code>.
+              Для иллюстрации внутри статьи — <code>800×400</code>.
+              Оба размера работают с OG-превью.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #43a047;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#43a047;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">2</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Составьте промпт на русском</h4>
+            </div>
+            <p class="body-2 mb-0">3–7 слов через дефис. Конкретно: не «еда», а
+              <code>тирамису-крем-ягоды-вид-сверху</code>.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #fb8c00;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#fb8c00;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">3</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Составьте URL</h4>
+            </div>
+            <p class="body-2 mb-0">Шаблон: <code>https://pixinlink.ru/api/v1/{ширина}x{высота}/{промпт}</code></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #8e24aa;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#8e24aa;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">4</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Добавьте в HTML / CMS</h4>
+            </div>
+            <p class="body-2 mb-0">Вставьте URL в <code>img src</code>.
+              WordPress: HTML-блок Gutenberg.
+              Ghost: HTML-блок в редакторе Koenig.
+              Hugo: шаблон статьи.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #00838f;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#00838f;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">5</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Добавьте alt-текст</h4>
+            </div>
+            <p class="body-2 mb-0">Описывайте содержание картинки, не просто название.
+              Хорошо: <em>«Тирамису с кремом и свежими ягодами, вид сверху»</em></p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:4px solid #e53935;">
+            <div class="d-flex align-items-center mb-2">
+              <div style="background:#e53935;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">6</div>
+              <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Зафиксируйте через seed</h4>
+            </div>
+            <p class="body-2 mb-0">Добавьте <code>&seed=42</code> — и при любых повторных
+              запросах вы получите то же изображение.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Пример полного кода -->
+      <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
+        <p class="body-2 mb-2" style="color:#888;">Полный пример для WordPress Gutenberg:</p>
+        <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;">&lt;!-- WordPress: HTML-блок в редакторе Gutenberg --&gt;
+&lt;img
+  src="https://pixinlink.ru/api/v1/1200x630/тирамису-крем-ягоды-вид-сверху?style=realistic&seed=42"
+  alt="Тирамису с кремом и свежими ягодами, вид сверху"
+  loading="lazy"
+  width="1200"
+  height="630"
+  class="wp-post-image"
+&gt;</pre>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ROADMAP -->
+<div class="container" id="blog-headers-roadmap">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Roadmap: что появится для блогеров</h2>
+      <div class="card paper pa-0 mb-5 overflow-hidden">
+        <div class="table-responsive">
+          <table class="highlight striped m-0">
+            <thead style="background:#f5f5f5;">
+              <tr><th>Квартал</th><th>Функция</th><th>Польза для блогеров</th></tr>
+            </thead>
+            <tbody class="body-2">
+              <tr><td><strong>Q2 2026</strong></td><td>Плагин WordPress</td><td>Автозамена плейсхолдеров, Gutenberg-блок, меньше ручного HTML</td></tr>
+              <tr><td><strong>Q3 2026</strong></td><td>SDK JavaScript</td><td>Динамическая генерация в Next.js и Nuxt без бэкенда</td></tr>
+              <tr><td><strong>Q3 2026</strong></td><td>Интеграция Zapier</td><td>Автогенерация изображений из Google Sheets и контент-таблиц</td></tr>
+              <tr><td><strong>Q4 2026</strong></td><td>Bulk API</td><td>Пакетная генерация серий статей, до 100 за один запрос</td></tr>
+              <tr><td><strong>Q1 2027</strong></td><td>Интеграция Webflow</td><td>Работа с CMS Collections без ручных вставок</td></tr>
+              <tr><td><strong>Q1 2027</strong></td><td>Стили v2</td><td>Новые пресеты: cyberpunk, anime, pixel-art</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- КЕЙСЫ -->
+<div class="container" id="blog-headers-cases">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Кейсы: как используют PixInLink блогеры</h2>
+
+      <!-- Кейс 1 -->
+      <div class="card paper pa-4 mb-4" style="border-left:4px solid #43a047;">
+        <div class="d-flex align-items-start mb-2">
+          <div class="mr-3" style="background:#e8f5e9;color:#43a047;font-weight:700;font-size:18px;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0;">1</div>
+          <div>
+            <h3 class="headline mb-1" style="font-size:18px;font-weight:700;">Lifestyle-блогер о рецептах — 30 статей/мес</h3>
+            <p class="body-2 text-muted mb-0">Кулинарный WordPress-блог, статьи о рецептах и десертах</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Проблема</strong></p>
+            <p class="body-2 mb-0">10+ часов/мес на поиск стоков, обрезку и ресайз под превью</p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
+            <p class="body-2 mb-0">Шаблонные URL вида <code>/1200x630/рецепт-[название]</code></p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
+            <p class="body-2 mb-0"><strong>30 уникальных изображений за 30 минут</strong> вместо 10+ часов. Единый визуальный стиль блога.</p>
+          </div>
+        </div>
+        <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
+          <code style="font-size:12px;">https://pixinlink.ru/api/v1/1200x630/паста-карбонара-сыр-бекон-пар?style=realistic</code>
+        </div>
+      </div>
+
+      <!-- Кейс 2 -->
+      <div class="card paper pa-4 mb-4" style="border-left:4px solid #1976d2;">
+        <div class="d-flex align-items-start mb-2">
+          <div class="mr-3" style="background:#e3f2fd;color:#1976d2;font-weight:700;font-size:18px;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0;">2</div>
+          <div>
+            <h3 class="headline mb-1" style="font-size:18px;font-weight:700;">IT-блог о Python и Django — 8–10 статей/мес</h3>
+            <p class="body-2 text-muted mb-0">Технический Hugo-блог, статьи об API, DevOps, архитектуре</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Проблема</strong></p>
+            <p class="body-2 mb-0">«Программист за ноутбуком» из стоков одинаковый у всех tech-блогов</p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
+            <p class="body-2 mb-0"><code>style=artistic</code> + короткий промпт по теме статьи, URL прямо в шаблон Hugo</p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
+            <p class="body-2 mb-0">Уникальные визуалы, которых нет у конкурентов. Редактор не зависит от чужого стока.</p>
+          </div>
+        </div>
+        <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
+          <code style="font-size:12px;">https://pixinlink.ru/api/v1/800x400/python-код-матрица-digital-art?style=artistic</code>
+        </div>
+      </div>
+
+      <!-- Кейс 3 -->
+      <div class="card paper pa-4 mb-5" style="border-left:4px solid #fb8c00;">
+        <div class="d-flex align-items-start mb-2">
+          <div class="mr-3" style="background:#fff8e1;color:#fb8c00;font-weight:700;font-size:18px;width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0;">3</div>
+          <div>
+            <h3 class="headline mb-1" style="font-size:18px;font-weight:700;">SEO-агентство — 200+ статей/мес для 20+ клиентов</h3>
+            <p class="body-2 text-muted mb-0">Массовый SEO-контент, клиентские сайты разных ниш</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Проблема</strong></p>
+            <p class="body-2 mb-0">Стоки не решают уникальность в масштабе, дизайнерский конвейер слишком дорог</p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
+            <p class="body-2 mb-0">Pro-тариф 1 490 ₽/мес (2 000 изображений), генерация по API с подстановкой темы и seed</p>
+          </div>
+          <div class="col-md-4">
+            <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
+            <p class="body-2 mb-0"><strong>200 уникальных изображений без ручной сборки</strong>. Экономия ~15 000–30 000 ₽/мес vs дизайнер.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ПРИМЕРЫ URL ПО НИШАМ -->
+<div class="container" id="blog-headers-examples">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Готовые URL для заголовочных изображений по нишам</h2>
+
+      <div class="card paper pa-0 mb-4 overflow-hidden">
+        <div class="table-responsive">
+          <table class="highlight striped m-0">
+            <thead style="background:#f5f5f5;">
+              <tr><th>Ниша</th><th>Готовый URL</th><th>Что получится</th></tr>
+            </thead>
+            <tbody class="body-2">
+              <tr>
+                <td><strong>Кулинария</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/тирамису-крем-ягоды-вид-сверху</code></td>
+                <td>Десертный hero-visual для рецепта</td>
+              </tr>
+              <tr>
+                <td><strong>IT / Технологии</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/программист-код-ноутбук-ночь?style=artistic</code></td>
+                <td>Атмосферная иллюстрация для tech-статьи</td>
+              </tr>
+              <tr>
+                <td><strong>Путешествия</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/горы-закат-панорама-облака?style=realistic</code></td>
+                <td>Пейзаж для travel-поста</td>
+              </tr>
+              <tr>
+                <td><strong>Финансы</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/монеты-рост-график-бизнес?style=3d-render</code></td>
+                <td>Визуал для аналитики и инвестиций</td>
+              </tr>
+              <tr>
+                <td><strong>Здоровье</strong></td>
+                <td><code style="font-size:11px;">.../800x400/утренняя-пробежка-парк-осень</code></td>
+                <td>Горизонтальная иллюстрация внутри статьи</td>
+              </tr>
+              <tr>
+                <td><strong>Образование</strong></td>
+                <td><code style="font-size:11px;">.../800x400/студент-книги-библиотека?style=sketch</code></td>
+                <td>Мягкий учебный визуал</td>
+              </tr>
+              <tr>
+                <td><strong>Маркетинг</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/команда-brainstorm-стикеры-офис</code></td>
+                <td>Hero для статьи о стратегии и growth</td>
+              </tr>
+              <tr>
+                <td><strong>Lifestyle</strong></td>
+                <td><code style="font-size:11px;">.../600x400/кофе-утро-ноутбук-уют</code></td>
+                <td>Превью для подборки или карточки</td>
+              </tr>
+              <tr>
+                <td><strong>Недвижимость</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/современная-квартира-интерьер-свет?style=realistic</code></td>
+                <td>Обложка для статьи о ремонте</td>
+              </tr>
+              <tr>
+                <td><strong>E-commerce</strong></td>
+                <td><code style="font-size:11px;">.../1200x630/коробки-доставка-онлайн-заказ?style=3d-render</code></td>
+                <td>Визуал для поста о продажах</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card paper pa-3 mb-5" style="background:#f8f9fa;border-left:4px solid #1976d2;">
+        <p class="body-2 m-0"><strong>Правила хорошего промпта для блога:</strong>
+          Конкретность (не «еда», а «тирамису-со-сливками»).
+          Детали сцены: ракурс, свет, атмосфера.
+          Стиль под блог: <code>realistic</code> для food/travel, <code>artistic</code> для IT/abstract.
+          Длина: 3–7 слов через дефис, максимум 10.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="container" id="blog-headers-faq">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <div class="faq-list mb-5">
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли использовать PixInLink для коммерческих блогов?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Да. Для проектов с монетизацией, клиентским контентом и бренд-медиа используйте <strong>Starter или Pro</strong> — водяной знак снят и нет ограничений для продакшна.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как написать эффективный промпт для заголовочного изображения?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">3–7 слов через дефис: объект + детали + ракурс + атмосфера. Вместо <code>маркетинг</code> пишите <code>команда-brainstorm-стикеры-офис</code>.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Нужна ли регистрация для первого изображения?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Нет. Free-план: до 50 изображений/мес без регистрации, с IP-лимитом, водяным знаком и ограничением 5 запросов/мин.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как убрать водяной знак?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Перейдите на <strong>Starter — 490 ₽/мес</strong>: водяной знак снят, 500 генераций.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какой формат лучше — WebP или JPEG?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Для большинства блогов — <strong>WebP</strong>: в среднем на 25–34% легче JPEG при сопоставимом качестве, что улучшает Core Web Vitals. JPEG — только если CMS не поддерживает WebP.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Изображение не подходит — что делать?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Уточните промпт, добавьте детали сцены, смените стиль или попробуйте другой seed. Обычно одного уточнения достаточно.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Поддерживается ли прозрачный фон?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Добавьте <code>format=png</code>. Полный прозрачный фон с альфа-каналом — в roadmap.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как интегрировать с WordPress без плагина?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Вставьте URL в HTML-блок Gutenberg или подставьте в шаблон темы через кастомное поле. Плагин WordPress появится в <strong>Q2 2026</strong>.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Влияет ли CDN PixInLink на скорость сайта?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Положительно. WebP + CDN = меньший вес файла и быстрая доставка. Типовая задержка CDN — менее 50 мс.</p>
+        </div>
+
+        <div class="card paper pa-4 mb-3">
+          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли использовать одно изображение на нескольких страницах?</h4>
+          <p class="body-1 m-0" style="line-height:1.75;">Да. Зафиксируйте изображение через <code>&seed=42</code> и вставляйте один URL в шаблоны, лендинги и карточки.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ОТЗЫВЫ -->
+<div class="container" id="blog-headers-reviews">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Что говорят блогеры и редакторы</h2>
+      <div class="row mb-5">
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
+            <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">«Раньше на каждую статью про десерты тратила слишком много времени только на поиск картинки. Теперь вставляю URL — за пару минут у материала уже есть своя обложка. Главное — изображения больше не повторяются с другими блогами.»</p>
+            <p class="body-2 text-muted m-0"><strong>Анна К.</strong>, lifestyle-блог «Вкусно и просто», Москва</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
+            <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">«Мне понравилось, что всё управляется через URL: размер, стиль, seed. Для Hugo это почти идеальный вариант — не нужно хранить лишние файлы, а визуалы для технических тем выглядят куда свежее, чем очередной стоковый ноутбук.»</p>
+            <p class="body-2 text-muted m-0"><strong>Дмитрий С.</strong>, блог о Python и Django, Санкт-Петербург</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
+            <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">«Когда у тебя десятки статей для клиентов, стоки быстро упираются в повторяемость. PixInLink удобнее именно масштабом: быстро сделать серию под темы и не переплачивать за дизайнерскую рутину.»</p>
+            <p class="body-2 text-muted m-0"><strong>Ольга В.</strong>, контент-менеджер digital-агентства, Новосибирск</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
+            <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">«Для WordPress мне зашёл самый простой сценарий: вставил ссылку — и всё. Не надо скачивать, заново загружать и разбирать медиатеку. Для небольших контентных сайтов очень экономит время.»</p>
+            <p class="body-2 text-muted m-0"><strong>Игорь Т.</strong>, вебмастер, freelance, Екатеринбург</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- E-E-A-T -->
+<div class="container" id="blog-headers-trust">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Надёжность и авторство</h2>
+      <div class="card paper pa-4 mb-3" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
+        <ul class="body-1 mb-0" style="line-height:2.0;list-style:none;padding:0;">
+          <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Материал подготовлен на основе анализа 100+ блогов-клиентов и внутренних данных по генерациям</li>
+          <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Инфраструктура: Yandex Cloud, CDN в РФ, соответствие 152-ФЗ</li>
+          <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>На тарифах Starter и выше права на изображения полностью переданы пользователю</li>
+          <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Внешние данные: W3Techs, Google Developers, BuzzSumo, HubSpot/Venngage</li>
+          <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Статус API: <a href="https://status.pixinlink.ru">status.pixinlink.ru</a>. Поддержка: <a href="mailto:support@pixinlink.ru">support@pixinlink.ru</a></li>
+          <li class="mb-0 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Дата обновления: май 2026</li>
+        </ul>
+      </div>
+      <div class="card paper pa-3 mb-5" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
+        <p class="body-2 text-muted m-0"><strong>Источники:</strong>
+          W3Techs, Usage Statistics WordPress, 2026 ·
+          Google Developers, WebP Compression Study, 2023 ·
+          BuzzSumo, image-to-word ratio and shares ·
+          HubSpot / Venngage, Visual Content Marketing, 2024 ·
+          Open Graph image size reference, 2025
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Уникальные изображения для каждой статьи блога — прямо из URL",
+      "description": "Получите уникальную иллюстрацию к каждой статье за 15 секунд. Вставьте URL вида pixinlink.ru/1200x630/тема-статьи — и AI сгенерирует заголовочное изображение для WordPress, Ghost, Hugo.",
+      "author": { "@type": "Organization", "name": "PixInLink Team" },
+      "publisher": { "@type": "Organization", "name": "PixInLink" },
+      "datePublished": "2026-05-15",
+      "dateModified": "2026-05-19",
+      "mainEntityOfPage": "https://pixinlink.ru/use-cases/blog-headers",
+      "image": "https://pixinlink.ru/api/v1/1200x630/блогер-ноутбук-изображения-создание"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Как добавить уникальное изображение в статью блога за 2 минуты",
+      "totalTime": "PT2M",
+      "step": [
+        { "@type": "HowToStep", "name": "Определите размер", "text": "Заголовок — 1200×630, иллюстрация внутри — 800×400." },
+        { "@type": "HowToStep", "name": "Составьте промпт", "text": "3–7 слов через дефис: объект, детали, ракурс, атмосфера." },
+        { "@type": "HowToStep", "name": "Составьте URL", "text": "https://pixinlink.ru/api/v1/{ширина}x{высота}/{промпт}" },
+        { "@type": "HowToStep", "name": "Добавьте в HTML / CMS", "text": "Вставьте URL в img src, HTML-блок Gutenberg или шаблон Hugo." },
+        { "@type": "HowToStep", "name": "Добавьте alt-текст", "text": "Описывайте содержание: «Тирамису с кремом и свежими ягодами, вид сверху»." },
+        { "@type": "HowToStep", "name": "Зафиксируйте через seed", "text": "Добавьте &seed=42 для повторяемого результата." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Можно ли использовать PixInLink для коммерческих блогов?", "acceptedAnswer": { "@type": "Answer", "text": "Да, для коммерческих блогов используйте Starter или Pro — водяной знак снят и нет ограничений для продакшна." } },
+        { "@type": "Question", "name": "Нужна ли регистрация для первого изображения?", "acceptedAnswer": { "@type": "Answer", "text": "Нет. Free-план позволяет создавать до 50 изображений в месяц без регистрации, но с водяным знаком." } },
+        { "@type": "Question", "name": "Как убрать водяной знак?", "acceptedAnswer": { "@type": "Answer", "text": "Перейдите на Starter — 490 ₽/мес: водяной знак снят, 500 генераций." } },
+        { "@type": "Question", "name": "Какой формат лучше — WebP или JPEG?", "acceptedAnswer": { "@type": "Answer", "text": "WebP: в среднем на 25–34% легче JPEG при сопоставимом качестве." } },
+        { "@type": "Question", "name": "Как интегрировать с WordPress без плагина?", "acceptedAnswer": { "@type": "Answer", "text": "Вставьте URL в HTML-блок Gutenberg или шаблон темы. Плагин WordPress — в Q2 2026." } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://pixinlink.ru/" },
+        { "@type": "ListItem", "position": 2, "name": "Кейсы", "item": "https://pixinlink.ru/use-cases" },
+        { "@type": "ListItem", "position": 3, "name": "Изображения для блога", "item": "https://pixinlink.ru/use-cases/blog-headers" }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- КАЛЬКУЛЯТОР ЭКОНОМИИ + ФИНАЛЬНЫЙ CTA -->
+<div class="container" id="blog-headers-cta">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+
+      <!-- Калькулятор -->
+      <div class="card paper pa-4 mb-5" style="background:#f8f9fa;border-radius:12px;border:1px solid #e0e0e0;">
+        <h3 class="headline mb-3" style="font-size:20px;font-weight:700;">Калькулятор экономии</h3>
+        <p class="body-2 text-muted mb-3">Пример: 20 статей/мес, Shutterstock, 20 мин/изображение</p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="body-2 text-muted mb-1">Сейчас:</p>
+            <ul class="body-1 mb-3" style="line-height:1.9;">
+              <li>⏱ Время: 20 статей × 20 мин = <strong>6.7 часов/мес</strong></li>
+              <li>💰 Деньги: <strong>1 490 ₽/мес</strong> (Shutterstock)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="body-2 text-muted mb-1">С PixInLink Starter:</p>
+            <ul class="body-1 mb-0" style="line-height:1.9;">
+              <li>⏱ Время: 20 × 2 мин = <strong>40 минут/мес</strong></li>
+              <li>💰 Деньги: <strong>490 ₽/мес</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-3 pa-3 text-center" style="background:#e8f5e9;border-radius:8px;">
+          <strong style="color:#2e7d32;font-size:18px;">Экономия: 6 часов и 1 000 ₽ каждый месяц</strong>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
+        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Готовы добавить уникальные изображения в каждую статью?</h3>
+        <p class="body-1 text-muted mb-4">50 изображений бесплатно — без регистрации и кредитной карты</p>
+        <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
+          <a href="/register" class="btn-flat btn-rounded" style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+            Попробовать бесплатно
+          </a>
+          <a href="/pricing/starter" class="btn-flat btn-rounded" style="background:#43a047;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+            Starter — 490 ₽/мес
+          </a>
+        </div>
+        <p class="body-2 text-muted mt-3 mb-0">Отмена в любой момент. Без обязательств.</p>
+      </div>
+
+      <!-- Внутренние ссылки -->
+      <div class="row mb-5">
+        <div class="col-md-4 mb-3">
+          <a href="/use-cases/social-media" class="card paper pa-3 d-block" style="text-decoration:none;color:inherit;">
+            <p class="body-2 text-primary mb-1">→ Кейс</p>
+            <p class="body-1 mb-0 font-weight-bold">Изображения для соцсетей</p>
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="/blog/kak-pisat-prompty" class="card paper pa-3 d-block" style="text-decoration:none;color:inherit;">
+            <p class="body-2 text-primary mb-1">→ Блог</p>
+            <p class="body-1 mb-0 font-weight-bold">Как писать промпты для AI</p>
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <a href="/docs/getting-started" class="card paper pa-3 d-block" style="text-decoration:none;color:inherit;">
+            <p class="body-2 text-primary mb-1">→ Документация</p>
+            <p class="body-1 mb-0 font-weight-bold">Начало работы за 60 секунд</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

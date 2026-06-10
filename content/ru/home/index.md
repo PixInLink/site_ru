@@ -145,7 +145,7 @@ raw_html: true
                     <p class="use-text-subtitle2">Вставьте описание прямо в URL тега img — и изображение появится само. Никаких REST-запросов, токенов и сложных SDK.</p>
                     <div class="time">
                       <h6 class="use-text-caption">
-                        <span>Бесплатно: 50 изображений в месяц</span>
+                        <span>Бесплатно: 12 изображений без водяного знака</span>
                       </h6>
                     </div>
                   </div>
@@ -165,7 +165,7 @@ raw_html: true
                 </div>
                 <div class="col-md-7 col-sm-8">
                   <div class="text">
-                    <h1><a class="btn-flat" href="/pricing/"><span class="btn-content">Тарифы от 0,49 ₽ за изображение</span></a></h1>
+                    <h1><a class="btn-flat" href="/pricing/"><span class="btn-content">Тарифы от 300 ₽ в месяц</span></a></h1>
                     <p class="use-text-subtitle2">Платите только за то, что используете. Цена снижается с ростом объёма. Без скрытых платежей и абонентской платы.</p>
                     <div class="time">
                       <h6 class="use-text-caption">
@@ -496,8 +496,8 @@ raw_html: true
             <div class="col-md-4 col-sm-6 pa-6">
               <div class="item">
                 <figure> <img src="/images/cloud/icon1_5.svg" width="140" height="140" loading="lazy" alt="Бесплатный тариф" class="icon-amber"> </figure>
-                <h6 class="use-text-subtitle">50 генераций — 0 ₽</h6>
-                <p class="use-text-paragraph">Бесплатный тариф навсегда. Не нужно привязывать карту или проходить долгую регистрацию для старта.</p>
+                <h6 class="use-text-subtitle">12 изображений — 0 ₽</h6>
+                <p class="use-text-paragraph">Бесплатный тариф для зарегистрированных пользователей. Без водяного знака, без привязки карты.</p>
               </div>
             </div>            
             <!-- Факт 6 -->
@@ -808,7 +808,7 @@ raw_html: true
             <div class="item">
               <div class="testimonial-card">
                 <div class="icon"><i class="material-icons">format_quote</i></div>
-                <p class="text">Хорошее решение для проектов, где важны простой запуск, watermark для free-тарифа и понятный путь к Pro.</p>
+                <p class="text">Хорошее решение для проектов, где важны простой запуск и понятный путь от Free к Pro.</p>
                 <h6>Денис М.</h6>
                 <p class="caption">CEO SaaS Studio</p>
               </div>
@@ -830,12 +830,12 @@ raw_html: true
       <div class="main-title align-center">
         <p class="caption-title">ПОПРОБУЙТЕ СЕЙЧАС</p>
         <h4>Готовы вставить URL и получить изображение?</h4>
-        <p class="use-text-subtitle2 text-center mt-3"> 50 генераций бесплатно, без регистрации и без карты. Просто вставьте ссылку в <code>img src</code> и проверьте, как это работает. </p>
+        <p class="use-text-subtitle2 text-center mt-3"> Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака. Без карты. </p>
       </div>
       <div class="text-center mt-5">
         <div class="mb-4"> <code style="display: inline-block; padding: 14px 18px; background: #f7f7f7; border-radius: 8px; font-size: 14px;"> &lt;img src="https://pixinlink.ru/1200x420/светлый-офис" loading="lazy" alt="Светлый офис" /&gt; </code> </div>
         <div class="btn-area"> <a class="btn waves-effect button btn-large primary" href="/pricing">Попробовать бесплатно</a> <a class="btn waves-effect btn-flat btn-large button primary-text" href="/docs/getting-started">Смотреть документацию</a> </div>
-        <p class="use-text-caption mt-4"> 12 бесплатных изображений · 10–30 секунд на первую генерацию · 50+ стилей </p>
+        <p class="use-text-caption mt-4"> 12 бесплатных изображений без водяного знака · 10–30 секунд на первую генерацию </p>
       </div>
     </div>
   </div>

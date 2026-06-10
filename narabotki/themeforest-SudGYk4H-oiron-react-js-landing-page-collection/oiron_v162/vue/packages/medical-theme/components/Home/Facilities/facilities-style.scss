@@ -1,0 +1,127 @@
+.root {
+  position: relative;
+  @include breakpoints-up(md) {
+    padding-bottom: $spacing10;
+  }
+}
+
+.carousel-header {
+  position: relative;
+  z-index: 3;
+  margin-bottom: $spacing2;
+  h4 {
+    margin-bottom: $spacing1
+  }
+  @include breakpoints-up(sm) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @include breakpoints-down(xs) {
+    text-align: center;
+  }
+}
+
+.view-all {
+  @include use-theme(color, $palette-primary-dark, $palette-primary-light);
+  @include breakpoints-up(lg) {
+    @include margin-right($spacing10);
+  }
+  @include breakpoints-up(sm) {
+    font-size: 24px;
+  }
+  .v-icon {
+    @include margin-left($spacing1);
+    @include rtl-flip;
+    @include breakpoints-up(sm) {
+      font-size: 36px;
+    }
+  }
+}
+
+.carousel-handle {
+  height: 420px;
+  position: relative;
+  z-index: 10;
+  @include breakpoints-up(sm) {
+    height: 400px;
+  }
+}
+
+.carousel-wrap {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden
+}
+
+.item {
+  & > div {
+    width: 260px;
+  }
+  &:focus {
+    outline: none
+  }
+}
+
+.carousel-prop {
+  width: auto !important;
+  @include breakpoints-down(md) {
+    display: none;
+  }
+  div {
+    width: 350px
+  }
+}
+
+.floating-artwork {
+  position: absolute;
+  width: 100%;
+  left: $spacing4 * -1;
+  top: 140px;
+  @media (min-width: 1400px) {
+    left: $spacing12 * -1
+  }
+  .artwork {
+    @include breakpoints-up(md) {
+      margin-right: $spacing5
+    }
+    @include breakpoints-up(lg) {
+      float: left;
+    }
+    @media (min-width: 1400px) {
+      margin-right: $spacing5 * -1
+    }
+  }
+}
+
+.arrow {
+  .v-locale--is-ltr & {
+    direction: rtl
+  }
+  .v-locale--is-ltr & {
+    direction: ltr
+  }
+  text-align: center;
+  margin-top: $spacing12;
+  position: relative;
+  z-index: 10;
+  button {
+    @include palette-background-paper;
+    margin: $spacing1 * 0.5;
+    .v-theme--dark & {
+      color: $palette-primary-light
+    }
+    .v-theme--light & {
+      color: $palette-primary-dark
+    }
+    @include rtl-flip
+  }
+  @media (max-width: 1279px) {
+    display: none
+  }
+  @include breakpoints-down(md) {
+    display: none;
+    margin-top: 560px
+  }
+}

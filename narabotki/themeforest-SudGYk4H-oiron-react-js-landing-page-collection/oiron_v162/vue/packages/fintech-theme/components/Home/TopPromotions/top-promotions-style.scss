@@ -1,0 +1,46 @@
+.root {
+  position: relative;
+  padding: spacing(10, 0);
+  @include breakpoints-down(sm) {
+    padding: spacing(5, 0);
+  }
+}
+
+.carousel {
+  position: relative;
+  z-index: 5;
+  margin-top: $spacing6;
+  @include breakpoints-up(md) {
+    margin-bottom: 20px;
+  }
+  :deep(.splide__pagination) {
+    position: relative;
+    bottom: $spacing6 * -1;
+    li button {
+      width: 15px;
+      height: 15px;
+      border: 2px solid $palette-primary-main;
+      border-radius: 15px;
+      opacity: 0.7;
+      transition: all 0.5s ease-out;
+      margin: 0 4px;
+      background: none;
+      transform: none;
+      &.is-active {
+        background: $palette-primary-main;
+      }
+    }
+  }
+}
+.item {
+  padding: $spacing1;
+  @include use-theme(border-color, $palette-primary-light, $palette-primary-dark);
+  &:focus {
+    outline: none
+  }
+  > * {
+    margin: 0 auto
+  }
+}
+
+

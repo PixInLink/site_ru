@@ -1,0 +1,87 @@
+.carousel-header {
+  position: relative;
+  z-index: 1
+}
+
+.root {
+  width: 100%;
+  position: relative;
+  padding: spacing(10, 0);
+  .v-theme--dark & {
+    @include bg-color-darken($palette-primary-light, 0.8)
+  }
+  .v-theme--light & {
+     @include bg-color-lighten($palette-primary-light, 0.8)
+  }
+}
+
+.carousel {
+  position: relative;
+  z-index: 6;
+  :deep(.splide__list) {
+    direction: ltr
+  }
+  :deep(.splide__slide) {
+    @include use-rtl(direction, rtl)
+  }
+  :deep(.splide__pagination) {
+    bottom: $spacing4 * -1;
+    li button {
+      width: 10px;
+      height: 10px;
+      transition: width 0.3s ease;
+      background: $palette-secondary-light;
+      border-radius: 15px;
+      transform: none;
+      border: none;
+      &.is-active {
+        width: 35px;
+        background: $palette-secondary-light;
+      }
+    }
+  }
+}
+
+.item {
+  padding: spacing(0, 2);
+  &:focus {
+    outline: none
+  }
+}
+
+.floating-artwork {
+  position: absolute;
+  width: 100%;
+  @include left(0);
+  top: $spacing5;
+  @include breakpoints-up(lg) {
+    @include left($spacing3);
+    top: $spacing10 * -1
+  }
+  @media (min-width: 1400px) {
+    @include left($spacing10)
+  }
+  .artwork {
+    display: flex;
+    align-items: flex-end;
+    height: 540px;
+    @include breakpoints-up(md) {
+      margin-right: $spacing5
+    }
+    @include breakpoints-up(lg) {
+      float: right
+    }
+    @media (min-width: 1400px) {
+      margin-right: -40px;
+    }
+  }
+}
+
+.item-props {
+  &-first {
+     width: 450px
+  }
+  &-last {
+     width: 450px
+  }
+}

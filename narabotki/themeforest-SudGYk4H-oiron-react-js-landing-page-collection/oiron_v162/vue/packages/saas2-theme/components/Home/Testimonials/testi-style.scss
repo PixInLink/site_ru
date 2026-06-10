@@ -1,0 +1,186 @@
+.root {
+  position: relative;
+  @include breakpoints-up(sm) {
+    padding-bottom: $spacing10;
+  }
+}
+
+.carousel {
+  position: relative;
+  @include breakpoints-up(md) {
+    padding: spacing(0, 2);
+  }
+  :deep(.splide__list) {
+    direction: ltr
+  }
+  > div {
+    z-index: 10
+  }
+  &:after, &:before {
+    @include breakpoints-up(sm) {
+      content: "";
+      border-radius: 12px;
+      @include palette-background-paper;
+      @include shade;
+      height: 150px;
+      position: absolute;
+    }
+  }
+  &:after {
+    width: 90%;
+    bottom: -10px;
+    @include left(50%);
+    border-radius: 40px;
+    .v-locale--is-ltr & {
+      transform: translate(-50%, 0)
+    }
+    .v-locale--is-rtl & {
+      transform: translate(50%, 0)
+    }
+  }
+  &:before {
+    width: 80%;
+    bottom: -35px;
+    @include left(50%);
+    border-radius: 40px;
+    .v-locale--is-ltr & {
+      transform: translate(-50%, 0)
+    }
+    .v-locale--is-rtl & {
+      transform: translate(50%, 0)
+    }
+  }
+  > button {
+    @include breakpoints-down(xs) {
+      display: none;
+    }
+  }
+}
+
+.item {
+  padding: spacing(3, 1);
+  @include breakpoints-up(md) {
+    padding: $spacing1;
+  }
+  &:focus {
+    outline: none
+  }
+}
+
+.testi-content {
+  position: relative;
+  padding: 0 $spacing3;
+  @include breakpoints-down(xs) {
+    padding: 0 $spacing1;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 40px);
+    top: -20px;
+    left: 0;
+    @include use-theme(background, $palette-secondary-light, $palette-secondary-dark);
+    opacity: 0.3;
+    border-radius: 40px;
+  }
+}
+
+.slide {
+  background: none
+}
+
+.nav {
+  position: absolute;
+  border: none;
+  z-index: 12;
+  top: 48%;
+  width: 60px;
+  height: 60px !important;
+  @include palette-background-paper;
+  @include shade;
+  border-radius: 50%;
+  cursor: pointer;
+  .v-locale--is-rtl & {
+    transform: rotate(180deg)
+  }
+  .v-locale--is-ltr & {
+    transform: rotate(0deg)
+  }
+  i {
+    color: $palette-primary-main;
+    position: relative;
+    font-size: 48px;
+  }
+  &:focus {
+    outline: none
+  }
+  &:hover {
+    opacity: 0.6
+  }
+}
+.prev {
+  @include left(-56px);
+  i {
+    @include right(2px);
+    margin-top: 3px;
+  }
+}
+.next {
+  @include right(-56px);
+  i {
+    @include left(2px);
+    margin-top: 3px;
+  }
+}
+
+
+.pagination {
+  z-index: 22;
+  position: relative;
+  ul {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    bottom: $spacing5 * -1;
+    @include breakpoints-up(sm) {
+      bottom: $spacing12 * -1;
+    }
+    li {
+      position: relative;
+      display: inline-block;
+      width: 15px;
+      height: 10px;
+      margin: 0 5px;
+      padding: 0;
+      border: 1px solid $palette-primary-main;
+      border-radius: 15px;
+      transition: all 0.5s ease-out;
+      &.active {
+        @include use-theme(background, $palette-primary-main, $palette-primary-light);
+        @include use-theme(border-color, $palette-primary-main, $palette-primary-light);
+        width: 30px;
+      }
+      &:hover {
+        opacity: 0.5
+      }
+      button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+      }
+    }
+  }
+}

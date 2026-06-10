@@ -1,0 +1,64 @@
+.footer {
+  padding-bottom: $spacing5;
+  text-align: center;
+  position: relative;
+  padding-top: $spacing20;
+  .v-container {
+    position: relative;
+    z-index: 10;
+  }
+  nav {
+    margin: spacing(6, 0);
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: spacing(0, 1);
+        a {
+          text-transform: capitalize;
+          @include palette-text-primary;
+          text-decoration: none !important;
+          padding: spacing(0, 1);
+          font-size: 18px;
+          @include breakpoints-down(xs) {
+            font-size: 16px
+          }
+        }
+      }
+    }
+  }
+}
+
+.socmed {
+  display: flex;
+  width: 200px;
+  margin: $spacing8 auto;
+  justify-content: space-between;
+}
+
+.icon {
+  padding: $spacing1;
+  width: 40px;
+  height: 40px;
+  @include use-theme(background-color, $light-divider, $dark-divider);
+  &.v-btn {
+    transition: all 0.3s ease-out;
+    i {
+      @include use-theme(color, $palette-primary-main, $palette-secondary-light);
+      width: 25px;
+      height: 25px;
+      font-size: 22px;
+    }
+  }
+}
+
+.copyright {
+  display: block;
+  position: relative;
+  padding: spacing(1.5);
+  margin-top: spacing(3);
+  p {
+    margin-bottom: 0
+  }
+}

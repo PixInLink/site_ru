@@ -1,0 +1,30 @@
+.root {
+  position: relative;
+  @include breakpoints-down(xs) {
+    text-align: center;
+  }
+  p {
+    margin-bottom: $spacing5
+  }
+  .v-btn.white {
+    min-width: 180px;
+    font-size: 18px;
+    color: $palette-primary-dark !important;
+  }
+}
+
+.illu-wrap {
+  position: static;
+}
+
+.btn {
+  &.v-btn {
+    min-width: 150px;
+  }
+}
+
+.illustration {
+  img {
+    width: 100%;
+  }
+}

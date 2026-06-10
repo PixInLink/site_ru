@@ -16,7 +16,7 @@ schema_type: "WebPage"
           <div class="card blog-headline">
             <div class="card-image">
               <div class="responsive-img waves-effect white--text align-end" style="background-image: url(https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук)"></div>
-              <div class="card-title pa-6" style="text-align:center">
+              <div class="card-title pa-8" style="text-align:center">
                 <h1 class="use-text-title2" style="text-align:center">Тарифы и планы на генерацию изображений</h1>
                 <p class="use-text-subtitle2" style="text-align:center;margin-top:12px">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
               </div>
@@ -28,7 +28,7 @@ schema_type: "WebPage"
   </div>
 </div>
 <!-- КАРТОЧКИ ТАРИФОВ -->
-<div class="container-general">
+<div class="container">
   <div class="mt-12">
     <div class="container">
       <h3 class="use-text-title use-text-primary text-center mb-4">Тарифы и планы</h3>

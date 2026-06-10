@@ -1,0 +1,24 @@
+.deco {
+  @include breakpoints-up(lg) {
+    width: 640px
+  }
+  :deep(img) {
+    z-index: 5;
+    position: relative;
+    max-height: 360px;
+  }
+}
+
+.figure {
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.3s ease;
+  @include breakpoints-down(sm) {
+    display: none !important;
+  }
+}
+
+.fade {
+  opacity: 0.15;
+}

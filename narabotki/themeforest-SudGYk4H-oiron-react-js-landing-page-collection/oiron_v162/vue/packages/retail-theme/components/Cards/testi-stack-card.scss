@@ -1,0 +1,80 @@
+.testimonial {
+  position: relative;
+  margin-top: 50px;
+  @include breakpoints-up(sm) {
+  }
+  h5 {
+    font-weight: $font-medium;
+    margin-top: $spacing3 * -1;
+  }
+}
+
+.caption-name {
+  display: block;
+  font-size: 14px;
+  margin-bottom: $spacing2;
+  @include use-theme(color, $palette-primary-dark, $palette-primary-light);
+}
+
+.paper {
+  height: 250px;
+  margin: spacing(3, 0);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: border 0.4s ease-out;
+  padding: $spacing1;
+  overflow: visible;
+  position: relative;
+  &.v-card:not(.v-sheet--tile):not(.v-card--shaped) {
+    border-radius: 40px;
+  }
+  @include breakpoints-up(sm) {
+    padding: spacing(8, 15)
+  }
+}
+
+.text {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 80px;
+  font-size: 18px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  @include breakpoints-down(xs) {
+    font-size: 14px;
+    -webkit-line-clamp: 4
+  }
+}
+
+.avatar {
+  @include shadow8;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: -64px auto 24px;
+  border-radius: 50% !important;
+  border: 20px solid;
+  @include use-theme(border-color, rgba(255, 255, 255, 0.5), rgba(66, 66, 66, 0.5));
+  box-sizing: content-box;
+  box-shadow: none !important;
+  overflow: visible;
+  @include breakpoints-up(sm) {
+    margin: -160px auto 0;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  &:before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0 0px 30px -10px #000;
+  }
+}

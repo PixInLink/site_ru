@@ -1,0 +1,21 @@
+.figure {
+  width: 310px;
+  max-height: 400px;
+  margin-top: $spacing5;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.3s ease;
+  :deep(img) {
+    position: relative;
+    width: 100%;
+    @include margin-left($spacing3);
+    margin-top: $spacing10;
+  }
+  :deep(.aos-animate) {
+    transform: none
+  }
+}
+
+.fade {
+  opacity: 0.15;
+}
