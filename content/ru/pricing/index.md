@@ -232,27 +232,27 @@ schema_type: "WebPage"
                         <th>Сценарий</th>
                         <th>Затраты до</th>
                         <th>С PixInLink</th>
-                        <th style="color: #4CAF50;">Результат</th>
+                        <th style="color: #4CAF50;">Экономия</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td><strong>Блогер</strong> (30 статей/мес)</td>
+                        <td><strong>Блогер</strong><br>(30 статей/мес)</td>
                         <td>Стоки ~2 000 ₽</td>
                         <td>Starter: 300 ₽</td>
-                        <td style="color: #4CAF50; font-weight: bold;">Экономия 1 700 ₽</td>
+                        <td style="color: #4CAF50; font-weight: bold;">1 700 ₽</td>
                       </tr>
                       <tr>
-                        <td><strong>Агентство</strong> (500 фото/мес)</td>
-                        <td>Дизайнер: ~400 000 ₽</td>
+                        <td><strong>Агентство</strong><br>(500 фото/мес)</td>
+                        <td>Фрилансер: ~250 000 ₽</td>
                         <td>Pro: 2 500 ₽</td>
-                        <td style="color: #4CAF50; font-weight: bold;">Экономия >397 000 ₽</td>
+                        <td style="color: #4CAF50; font-weight: bold;">247 500 ₽</td>
                       </tr>
                       <tr>
-                        <td><strong>Магазин</strong> (1 000 og:image)</td>
-                        <td>Отсутствовали (0 ₽)</td>
+                        <td><strong>Магазин</strong><br>(1 000 карточек/мес)</td>
+                        <td>Фрилансер: ~500 000 ₽</td>
                         <td>Business: 4 500 ₽</td>
-                        <td style="color: #4CAF50; font-weight: bold;">Рост CTR соцсетей</td>
+                        <td style="color: #4CAF50; font-weight: bold;">495 500 ₽</td>
               </tr>
             </tbody>
           </table>
