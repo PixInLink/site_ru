@@ -67,7 +67,7 @@ schema_type: "WebPage"
                 <li>50 изображений</li>
                 <li>Без водяного знака</li>
                 <li>WebP + CDN</li>
-                <li>2 API-ключа</li>
+                <li>1 API-ключ</li>
               </ul>
               <div class="btn-area primary-color">
                 <p>Идеально для блогов и небольших сайтов.</p>
@@ -89,7 +89,7 @@ schema_type: "WebPage"
                 <li>500 изображений</li>
                 <li>Priority CDN</li>
                 <li>Bulk API</li>
-                <li>5 API-ключей</li>
+                <li>3 API-ключа</li>
                 <li>99.9% SLA</li>
                 <li>Chat-поддержка</li>
               </ul>
@@ -113,7 +113,7 @@ schema_type: "WebPage"
                 <li>1 000 изображений</li>
                 <li>Кастомный водяной знак</li>
                 <li>Priority Chat</li>
-                <li>20 API-ключей</li>
+                <li>10 API-ключей</li>
                 <li>99.95% SLA</li>
               </ul>
               <div class="btn-area primary-color">
@@ -126,7 +126,7 @@ schema_type: "WebPage"
       </div>
       <div class="row mt-4">
         <div class="col-12 text-center text-muted body-2">
-          Нужен Enterprise (2 000 изображений, 50 API-ключей, кастомный водяной знак, персональный менеджер)? <a href="mailto:enterprise@pixinlink.ru">Свяжитесь с нами</a>.
+          Нужен Enterprise (2 000 изображений, 25 API-ключей, кастомный водяной знак, персональный менеджер)? <a href="mailto:enterprise@pixinlink.ru">Свяжитесь с нами</a>.
         </div>
       </div>
     </div>
@@ -181,10 +181,10 @@ schema_type: "WebPage"
           <tr>
             <td><strong>API-ключей</strong></td>
             <td>0</td>
-            <td>2</td>
-            <td>5</td>
-            <td>20</td>
-            <td>50</td>
+            <td>1</td>
+            <td>3</td>
+            <td>10</td>
+            <td>25</td>
           </tr>
           <tr>
             <td><strong>CDN</strong></td>
