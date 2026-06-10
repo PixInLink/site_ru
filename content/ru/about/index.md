@@ -85,19 +85,23 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
 <!-- ##### VIDEO PROGRESS #####-->
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-md-6 col-sm-8 px-lg-6">
+    <div class="col-md-12 col-sm-8 px-lg-6">
       <div class="about-style">
         <div class="video-root">
           <h4 class="use-text-title2 mb-3">Изображение как URL</h4>
-          <p class="pb-2 use-text-subtitle2"><strong>pixinlink.ru/800x400/описание</strong> — Вы формируете ссылку такого вида, вставляете её в тег <code>&lt;img&gt;</code> и получаете уникальное AI-изображение, обрезанное под ваш формат и сконвертированное в WebP.</p>
-          <div class="video-wrap">
-            <div class="card media-card landscape video">
-              <span class="badge grey darken-4">WebP+CDN</span>
-              <figure><img src="https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук" alt="Обложка о принципе работы сервиса PixInLink" /></figure>
-              <div class="property">
-                <a class="btn play-btn waves-effect"><span class="ion-ios-play"></span></a>
-                <div class="card-title media-title">Генерация изображений без сложной интеграции</div>
-              </div>
+          <p class="pb-2 use-text-subtitle2">Вы формируете ссылку вида <code>pixinlink.ru/800x400/описание</code>, вставляете её в тег <code>&lt;img&gt;</code> и получаете уникальное AI-изображение в WebP через CDN.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-sm-8 px-lg-6">
+      <div class="about-style">
+        <div class="video-root">
+          <div class="video-wrap"><div class="card media-card landscape video"><span class="badge grey darken-4">WebP+CDN</span><figure><img src="https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук" alt="Обложка о принципе работы сервиса PixInLink" /></figure><div class="property"><a class="btn play-btn waves-effect"><span class="ion-ios-play"></span></a><div class="card-title media-title">Генерация изображений без сложной интеграции</div></div></div></div>
+        </div>
+      </div>
+    </div>
             </div>
           </div>
         </div>
