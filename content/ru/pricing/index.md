@@ -9,7 +9,7 @@ schema_type: "WebPage"
 ---
 <!-- HERO: Тарифы PixInLink -->
 <div class="space-top-short">
-  <div class="container">
+  <div class="container-general">
     <div class="row">
       <div class="col-12">
         <div class="blog-style">
