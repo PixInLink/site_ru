@@ -150,7 +150,6 @@ schema_type: "WebPage"
             <th>Starter</th>
             <th>Pro <span style="color: #2196F3;">👑</span></th>
             <th>Business</th>
-            <th>Enterprise</th>
           </tr>
         </thead>
         <tbody>
@@ -160,7 +159,6 @@ schema_type: "WebPage"
             <td>300 ₽</td>
             <td>2 500 ₽</td>
             <td>4 500 ₽</td>
-            <td>9 990 ₽</td>
           </tr>
           <tr>
             <td><strong>Изображений в месяц</strong></td>
@@ -168,14 +166,12 @@ schema_type: "WebPage"
             <td>50</td>
             <td>500</td>
             <td>1 000</td>
-            <td>2 000</td>
           </tr>
           <tr>
             <td><strong>Водяной знак</strong></td>
             <td>❌</td>
             <td>❌</td>
             <td>❌</td>
-            <td>✅ Кастомный</td>
             <td>✅ Кастомный</td>
           </tr>
           <tr>
@@ -184,13 +180,11 @@ schema_type: "WebPage"
             <td>1</td>
             <td>3</td>
             <td>10</td>
-            <td>25</td>
           </tr>
           <tr>
             <td><strong>CDN</strong></td>
             <td>❌</td>
             <td>✅</td>
-            <td>✅ Priority</td>
             <td>✅ Priority</td>
             <td>✅ Priority</td>
           </tr>
@@ -200,14 +194,12 @@ schema_type: "WebPage"
             <td>❌</td>
             <td>✅</td>
             <td>✅</td>
-            <td>✅</td>
           </tr>
           <tr>
             <td><strong>SLA uptime</strong></td>
             <td>—</td>
             <td>—</td>
             <td>99.9%</td>
-            <td>99.95%</td>
             <td>99.95%</td>
           </tr>
           <tr>
@@ -216,7 +208,6 @@ schema_type: "WebPage"
             <td>Email</td>
             <td>Chat</td>
             <td>Priority Chat</td>
-            <td>Персональный менеджер</td>
           </tr>
         </tbody>
       </table>
