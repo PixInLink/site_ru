@@ -15,10 +15,10 @@ schema_type: "WebPage"
         <div class="blog-style">
           <div class="card blog-headline">
             <div class="card-image">
-              <div class="responsive-img waves-effect white--text align-end" style="background-image: url(https://pixinlink.ru/1050x700/много-polaroid-лежат-смешано)"></div>
-              <div class="card-title pa-0">
-                <h1 class="use-text-title2">Тарифы и планы</h1>
-                <span class="text-h6 use-text-subtitle2">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</span>
+              <div class="responsive-img waves-effect white--text align-end" style="background-image: url(https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук)"></div>
+              <div class="card-title pa-0" style="text-align:center">
+                <h1 class="use-text-title2" style="text-align:center">Тарифы и планы на генерацию изображений</h1>
+                <p class="use-text-subtitle2" style="text-align:center;margin-top:12px">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
               </div>
             </div>
           </div>
