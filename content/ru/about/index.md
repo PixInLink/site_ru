@@ -194,15 +194,15 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
             <div class="card profile-card landscape round">
               <div class="properties text-truncate">
                 <div class="card-content">
-                  <h6><strong>CDN на 140 узлах</strong></h6>
-                  <div class="p">Быстрая доставка изображений</div>
-                  <div class="desc"><span>Кеш WebP до 1 года с immutable</span></div>
+                  <h6><strong>Оптимизация изображений</strong></h6>
+                  <div class="p">Обрезка под ваш размер</div>
+                  <div class="desc"><span>Конвертация в легкий WebP</span></div>
                 </div>
                 <div class="action-area">
                   <div class="card-actions action">
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">speed</i>Менее 100 мс</span></span>
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">public</i>Геораспределение</span></span>
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">location_on</i>Россия и СНГ</span></span>
+                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">crop</i>Обрезка под размер</span></span>
+                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">photo</i>Конвертация в WebP</span></span>
+                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">compress</i>В 6 раз легче JPEG</span></span>
                   </div>
                 </div>
               </div>
