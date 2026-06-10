@@ -143,6 +143,7 @@ export function initSliders() {
       infinite: true,
       autoplay: true,
       autoplaySpeed: 5000,
+      variableWidth: false,
       responsive: [
         { breakpoint: 600, settings: { slidesToShow: 1 } },
       ],

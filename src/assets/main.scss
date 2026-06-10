@@ -62,9 +62,15 @@ h3, h4, h5, h6 {
   width: auto !important;
 }
 
-/* About team slider — prevent full-width slides */
+/* About team slider — one card at a time, full width of card content */
+#about_team_carousel .slick-track {
+  display: flex;
+}
 #about_team_carousel .slick-slide {
-  max-width: 480px;
+  height: auto;
+}
+#about_team_carousel .slick-slide > div {
+  height: 100%;
 }
 
 /* Testimonial slider nav buttons */
