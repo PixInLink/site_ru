@@ -238,7 +238,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                   <div class="card-actions action">
                     <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">dns</i>CMS и платформы</span></span>
                     <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">api</i>REST API и webhook</span></span>
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">code</i>5 строк до первого изображения</span></span>
+                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">code</i>5 строк</span></span>
                   </div>
                 </div>
               </div>
