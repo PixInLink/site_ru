@@ -36,10 +36,10 @@ function initWhenReady() {
 }
 
 export function initSliders() {
-  // Destroy existing sliders to allow re-init on SPA navigation
-  $(".slick-initialized").slick("unslick");
   const $ = window.$;
   if (!$) return;
+  // Destroy existing sliders to allow re-init on SPA navigation
+  $(".slick-initialized").slick("unslick");
 
   const $banner = $("#banner_slider");
   if ($banner.length) {
