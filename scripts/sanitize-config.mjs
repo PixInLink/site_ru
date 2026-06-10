@@ -1,7 +1,7 @@
 import sanitizeHtml from "sanitize-html";
 
 export const sanitizerOptions = {
-  allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img", "section", "article"]),
+  allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img", "section", "article", "button"]),
   allowedAttributes: {
     ...sanitizeHtml.defaults.allowedAttributes,
     a: ["href", "name", "target", "rel"],
