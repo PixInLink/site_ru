@@ -137,15 +137,14 @@ export function initSliders() {
     $team.slick({
       dots: true,
       arrows: false,
-      speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1,
+      variableWidth: true,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 5000,
-      variableWidth: false,
       responsive: [
-        { breakpoint: 600, settings: { slidesToShow: 1 } },
+        { breakpoint: 800, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+        { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } },
       ],
     });
   }
