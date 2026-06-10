@@ -54,7 +54,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
     <div class="row justify-content-center align-items-center">
       <div class="col py-4">
         <div class="counter-item">
-          <span class="icon ion-flag use-text-primary-color"></span>
+          <span class="icon ion-flag use-text-primary-color" style="margin-right:16px"></span>
           <div class="text">
             <h4 class="display-1">12</h4>
             <h6 class="use-text-subtitle2">бесплатных изображений в месяц</h6>
@@ -63,7 +63,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
       </div>
       <div class="col py-4">
         <div class="counter-item">
-          <span class="icon ion-android-people use-text-secondary-color"></span>
+          <span class="icon ion-android-people use-text-secondary-color" style="margin-right:16px"></span>
           <div class="text">
             <h4 class="display-1">10–30</h4>
             <h6 class="use-text-subtitle2">секунд генерации</h6>
@@ -72,7 +72,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
       </div>
       <div class="col py-4">
         <div class="counter-item">
-          <span class="icon ion-android-globe use-text-accent-color"></span>
+          <span class="icon ion-android-globe use-text-accent-color" style="margin-right:16px"></span>
           <div class="text">
             <h4 class="display-1">140+</h4>
             <h6 class="use-text-subtitle2">узлов CDN</h6>
@@ -108,15 +108,15 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
         <div class="progress-wrap">
           <ul class="zero" id="progress">
             <li>
-              <div class="text-icon"><i class="ion-wand use-text-primary-color"></i>
-                <h5 class="use-text-subtitle2">Kandinsky 3.1</h5>
+              <div class="text-icon"><i class="ion-wand use-text-primary-color" style="margin-right:12px"></i>
+                <h5 class="use-text-subtitle2">GigaChat</h5>
               </div>
               <div class="progress">
                 <div class="determinate progress-linear primary" style="width: 95%"></div>
               </div>
             </li>
             <li>
-              <div class="text-icon"><i class="ion-social-dribbble-outline use-text-secondary-color"></i>
+              <div class="text-icon"><i class="ion-social-dribbble-outline use-text-secondary-color" style="margin-right:12px"></i>
                 <h5 class="use-text-subtitle2">FLUX.1 fallback</h5>
               </div>
               <div class="progress">
@@ -124,7 +124,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </li>
             <li>
-              <div class="text-icon"><i class="ion-ios-world-outline use-text-accent-color"></i>
+              <div class="text-icon"><i class="ion-ios-world-outline use-text-accent-color" style="margin-right:12px"></i>
                 <h5 class="use-text-subtitle2">CDN и WebP-доставка</h5>
               </div>
               <div class="progress">
@@ -132,7 +132,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </li>
             <li>
-              <div class="text-icon"><i class="ion-ios-camera-outline use-text-primary-color"></i>
+              <div class="text-icon"><i class="ion-ios-camera-outline use-text-primary-color" style="margin-right:12px"></i>
                 <h5 class="use-text-subtitle2">152-ФЗ и безопасность</h5>
               </div>
               <div class="progress">
@@ -140,7 +140,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
               </div>
             </li>
             <li>
-              <div class="text-icon"><i class="ion-ios-snowy use-text-secondary-color"></i>
+              <div class="text-icon"><i class="ion-ios-snowy use-text-secondary-color" style="margin-right:12px"></i>
                 <h5 class="use-text-subtitle2">Интеграции с CMS и API</h5>
               </div>
               <div class="progress">
@@ -169,11 +169,11 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/фиолетовый-фон-абстрактные-разводы)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Kandinsky&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c" alt="Kandinsky 3.1 — основная модель генерации" />
+                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=GigaChat&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c" alt="GigaChat — основная модель генерации" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
-                  <h6><strong>Kandinsky 3.1</strong></h6>
+                  <h6><strong>GigaChat</strong></h6>
                   <div class="p">Основная модель генерации</div>
                   <div class="desc"><span>Понимает кириллицу нативно</span></div>
                 </div>
