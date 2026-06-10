@@ -89,7 +89,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
       <div class="about-style">
         <div class="video-root">
           <h4 class="use-text-title2 mb-3">Изображение как URL</h4>
-          <p class="pb-2 use-text-subtitle2">Вы формируете ссылку вида <code>pixinlink.ru/800x400/описание</code>, вставляете её в тег <code>&lt;img&gt;</code> и получаете уникальное AI-изображение в WebP через CDN.</p>
+          <p class="pb-2 use-text-subtitle2">Вы формируете ссылку вида <code>pixinlink.ru/800x400/описание</code>, вставляете её в тег <code>&lt;img&gt;</code> и получаете уникальное AI-изображение, обрезанное под ваш размер, и сконвертированное в легкий WebP формат.</p>
         </div>
       </div>
     </div>
