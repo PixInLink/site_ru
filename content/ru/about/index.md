@@ -171,24 +171,24 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 </div>
               </div>
             </div>
-          </div>
-          <div class="item px-2" data-key="1">
-            <div class="card profile-card landscape round">
-              <div class="properties text-truncate">
-                <div class="card-content">
-                  <h6><strong>FLUX.1</strong></h6>
-                  <div class="p">Fallback-модель</div>
-                  <div class="desc"><span>Резерв при недоступности основного генератора</span></div>
-                </div>
-                <div class="action-area">
-                  <div class="card-actions action">
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">sync</i>Отказоустойчивость</span></span>
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">check_circle</i>99.9% доступности</span></span>
-                    <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">autorenew</i>Автоматический fallback</span></span>
-                  </div>
+        </div>
+        <div class="item px-2" data-key="1">
+          <div class="card profile-card landscape round">
+            <div class="properties text-truncate">
+              <div class="card-content">
+                <h6><strong>CDN на 140 узлах</strong></h6>
+                <div class="p">Быстрая доставка изображений</div>
+                <div class="desc"><span>Кеш WebP до 1 года с immutable</span></div>
+              </div>
+              <div class="action-area">
+                <div class="card-actions action">
+                  <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">speed</i>Менее 100 мс</span></span>
+                  <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">public</i>Геораспределение</span></span>
+                  <span class="waves-effect btn btn-flat"><span class="btn-content"><i class="icon material-icons">location_on</i>Россия и СНГ</span></span>
                 </div>
               </div>
             </div>
+          </div>
           </div>
           <div class="item px-2" data-key="2">
             <div class="card profile-card landscape round">

@@ -62,16 +62,13 @@ h3, h4, h5, h6 {
   width: auto !important;
 }
 
-/* About team slider — one card at a time, full width of card content */
-#about_team_carousel .slick-track {
-  display: flex;
-}
-#about_team_carousel .slick-slide {
-  height: auto;
-}
-#about_team_carousel .slick-slide > div {
-  height: 100%;
-}
+/* About team slider — eliminate custom showroom sizing, restore native slick behavior */
+.team-carousel .slick-slide>div { line-height:0; width:auto; }
+.team-carousel .slick-track { display:flex; align-items:stretch; }
+.team-carousel .slick-slide { height:inherit; }
+.team-carousel .slick-slide>div>* { width:100%; }
+.team-carousel .item { opacity:1 !important; left:auto; transform:none !important; }
+.team-carousel .center .item { opacity:1; left:auto; transform:none; }
 
 /* Testimonial slider nav buttons */
 #testimonials .carousel {
