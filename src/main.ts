@@ -36,8 +36,8 @@ function initWhenReady() {
 }
 
 export function initSliders() {
-  // Skip if already initialized — prevents double init on SPA navigation
-  if (document.querySelector(".slick-initialized")) return;
+  // Destroy existing sliders to allow re-init on SPA navigation
+  $(".slick-initialized").slick("unslick");
   const $ = window.$;
   if (!$) return;
 
@@ -130,6 +130,45 @@ export function initSliders() {
 
     $("#prev_testi").on("click", () => $testi.slick("slickPrev"));
     $("#next_testi").on("click", () => $testi.slick("slickNext"));
+  }
+
+  const $team = $("#about_team_carousel");
+  if ($team.length) {
+    $team.slick({
+      dots: false,
+      arrows: false,
+      speed: 500,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      centerMode: true,
+      centerPadding: "60px",
+      responsive: [
+        { breakpoint: 600, settings: { centerMode: false, slidesToShow: 1 } },
+      ],
+    });
+  }
+
+  const $photo = $("#about_photo_carousel");
+  if ($photo.length) {
+    $photo.slick({
+      dots: false,
+      arrows: false,
+      speed: 500,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      centerMode: true,
+      centerPadding: "100px",
+      responsive: [
+        { breakpoint: 600, settings: { centerMode: false, slidesToShow: 1 } },
+      ],
+    });
+
+    $("#team_prev").on("click", () => $photo.slick("slickPrev"));
+    $("#team_next").on("click", () => $photo.slick("slickNext"));
   }
 }
 

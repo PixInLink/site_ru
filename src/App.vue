@@ -9,13 +9,11 @@ import { initSliders } from "./main";
 
 const route = useRoute();
 
-// Re-init sliders when navigating back to home after SPA nav
+// Re-init sliders after SPA navigation
 watch(
   () => route.path,
-  (to, from) => {
-    if (to === "/" && from !== "/") {
-      setTimeout(initSliders, 100);
-    }
+  () => {
+    setTimeout(initSliders, 100);
   }
 );
 
