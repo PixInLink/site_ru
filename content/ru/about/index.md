@@ -168,7 +168,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/фиолетовый-фон-абстрактные-разводы)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=GigaChat&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c" alt="GigaChat — основная модель генерации" />
+                <img src="https://pixinlink.ru/200x200/фиолетовый-аватар-иконка-gigachat" alt="GigaChat — основная модель генерации" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
@@ -192,7 +192,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/красный-фон-абстрактный-градиент)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Flux&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c" alt="FLUX.1 — резервная модель генерации" />
+                <img src="https://pixinlink.ru/200x200/красный-аватар-иконка-flux" alt="FLUX.1 — резервная модель генерации" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
@@ -216,7 +216,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/розовый-фон-нежный-градиент)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=CDN&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c,d08b5b,ae5d29,edb98a" alt="CDN — быстрая доставка изображений" />
+                <img src="https://pixinlink.ru/200x200/розовый-аватар-иконка-cdn" alt="CDN — быстрая доставка изображений" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
@@ -240,7 +240,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/фиолетовый-фон-материал-дизайн)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Security&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c,d08b5b,ae5d29,edb98a" alt="152-ФЗ — безопасная инфраструктура в РФ" />
+                <img src="https://pixinlink.ru/200x200/синий-аватар-иконка-безопасность" alt="152-ФЗ — безопасная инфраструктура в РФ" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
@@ -264,7 +264,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/индиго-фон-абстрактная-волна)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Integration&backgroundColor=65c9ff,c0aede&mouth=smile&skinColor=ffdbb4,f8d25c,d08b5b,ae5d29,edb98a" alt="Интеграции — WordPress, MODX, Python SDK, REST API" />
+                <img src="https://pixinlink.ru/200x200/индиго-аватар-иконка-интеграции" alt="Интеграции — WordPress, MODX, Python SDK, REST API" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
@@ -288,7 +288,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <div class="responsive-img" style="background-image:url(https://pixinlink.ru/1050x700/бирюзовый-фон-бизнес-стиль)"></div>
               </div>
               <div class="avatar-img avatar big">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Business&backgroundColor=65c9ff,c0aede&mouth=smile" alt="Реквизиты ООО «ФОНИИ»" />
+                <img src="https://pixinlink.ru/200x200/бирюзовый-аватар-иконка-реквизиты" alt="Реквизиты ООО «ФОНИИ»" />
               </div>
               <div class="properties text-truncate">
                 <div class="card-content">
