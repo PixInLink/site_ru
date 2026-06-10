@@ -167,8 +167,8 @@ export function initSliders() {
       ],
     });
 
-    $("#team_prev").on("click", () => $photo.slick("slickPrev"));
-    $("#team_next").on("click", () => $photo.slick("slickNext"));
+    $("#team_prev").off("click").on("click", () => $photo.slick("slickPrev"));
+    $("#team_next").off("click").on("click", () => $photo.slick("slickNext"));
   }
 }
 
