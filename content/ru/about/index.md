@@ -98,7 +98,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
     <div class="col-md-6 col-sm-8 px-lg-6">
       <div class="about-style">
         <div class="video-root">
-          <div class="video-wrap"><div class="card media-card landscape video"><span class="badge grey darken-4">WebP+CDN</span><figure><img src="https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук" alt="Обложка о принципе работы сервиса PixInLink" /></figure><div class="property"><a class="btn play-btn waves-effect"><span class="ion-ios-play"></span></a><div class="card-title media-title">Генерация изображений без сложной интеграции</div></div></div></div>
+          <div class="video-wrap"><div class="card media-card landscape video"><span class="badge grey darken-4">WebP+CDN</span><figure><img src="https://pixinlink.ru/1050x700/офисная-команда-разработчиков-смотрит-в-монитор" alt="Обложка о принципе работы сервиса PixInLink" /></figure><div class="property"><a class="btn play-btn waves-effect"><span class="ion-ios-play"></span></a><div class="card-title media-title">Генерация изображений без сложной интеграции</div></div></div></div>
         </div>
       </div>
     </div>
@@ -111,15 +111,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <h5 class="use-text-subtitle2">GigaChat</h5>
               </div>
               <div class="progress">
-                <div class="determinate progress-linear primary" style="width: 95%"></div>
-              </div>
-            </li>
-            <li>
-              <div class="text-icon"><i class="ion-social-dribbble-outline use-text-secondary-color" style="margin-right:12px"></i>
-                <h5 class="use-text-subtitle2">FLUX.1 fallback</h5>
-              </div>
-              <div class="progress">
-                <div class="determinate progress-linear secondary" style="width: 85%"></div>
+                <div class="determinate progress-linear primary" style="width:95%"></div>
               </div>
             </li>
             <li>
@@ -127,7 +119,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <h5 class="use-text-subtitle2">CDN и WebP-доставка</h5>
               </div>
               <div class="progress">
-                <div class="determinate progress-linear accent" style="width: 90%"></div>
+                <div class="determinate progress-linear accent" style="width:90%"></div>
               </div>
             </li>
             <li>
@@ -135,7 +127,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <h5 class="use-text-subtitle2">152-ФЗ и безопасность</h5>
               </div>
               <div class="progress">
-                <div class="determinate progress-linear primary" style="width: 100%"></div>
+                <div class="determinate progress-linear primary" style="width:100%"></div>
               </div>
             </li>
             <li>
@@ -143,7 +135,7 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
                 <h5 class="use-text-subtitle2">Интеграции с CMS и API</h5>
               </div>
               <div class="progress">
-                <div class="determinate progress-linear secondary" style="width: 92%"></div>
+                <div class="determinate progress-linear secondary" style="width:92%"></div>
               </div>
             </li>
           </ul>
