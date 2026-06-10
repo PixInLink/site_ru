@@ -154,15 +154,14 @@ export function initSliders() {
     $photo.slick({
       dots: false,
       arrows: false,
-      speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 3,
+      slidesToScroll: 1,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 4000,
-      centerMode: true,
-      centerPadding: "100px",
       responsive: [
-        { breakpoint: 600, settings: { centerMode: false, slidesToShow: 1 } },
+        { breakpoint: 800, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+        { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 } },
       ],
     });
 
