@@ -99,7 +99,7 @@ h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-/* Fix Materialize progress bars — override width:0 !important */
-.progress-linear {
+/* Fix Materialize progress bars — override .about-style rule with higher specificity */
+.about-style .progress .progress-linear {
   width: auto !important;
 }
