@@ -57,9 +57,23 @@ h3, h4, h5, h6 {
   text-transform: none !important;
 }
 
-/* Fix Materialize progress bars — override width:0 !important */
-.progress-linear {
-  width: auto !important;
+/* About photo carousel — nav button spacing */
+.about-style .gallery-root .carousel {
+  position: relative;
+}
+.about-style .gallery-root .carousel .nav.prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.about-style .gallery-root .carousel .nav.next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 
 /* Testimonial slider nav buttons */
