@@ -8,14 +8,18 @@ layout: "page"
 schema_type: "WebPage"
 ---
 <!-- HERO: Тарифы PixInLink -->
-<div class="banner-basic">
-  <div class="banner-wrap">
-    <div class="inner">
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-lg-8 col-sm-12 px-md-5 px-0 text-center">
-            <div class="text">
-              <p class="body-1 mt-4">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
+<div class="space-top-short">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="blog-style">
+          <div class="card blog-headline">
+            <div class="card-image">
+              <div class="responsive-img waves-effect white--text align-end" style="background-image: url(https://pixinlink.ru/1050x700/много-polaroid-лежат-смешано)"></div>
+              <div class="card-title pa-0">
+                <h1 class="use-text-title2">Тарифы и планы</h1>
+                <span class="text-h6 use-text-subtitle2">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</span>
+              </div>
             </div>
           </div>
         </div>
