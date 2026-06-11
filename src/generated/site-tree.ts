@@ -30,7 +30,7 @@ export const siteTree = {
         {
           "slug": "about",
           "title": "О PixInLink — AI-генератор изображений по URL",
-          "description": "PixInLink — российский сервис генерации изображений через URL API. Kandinsky 3.1, CDN-доставка по РФ, интеграция с WordPress и MODX. Соответствие 152-ФЗ.",
+          "description": "PixInLink — российский сервис генерации изображений по URL API. Kandinsky 3.1, CDN-доставка по РФ, WordPress, MODX. Соответствие 152-ФЗ. ООО «ФОНИИ».",
           "isIndex": true,
           "path": "content/ru/about/index.md"
         }
