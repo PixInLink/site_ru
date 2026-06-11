@@ -20,6 +20,8 @@ export const createApp = ViteSSG(App, { routes }, async () => {
 });
 
 function initWhenReady() {
+  const loadingEl = document.querySelector(".loading");
+  if (loadingEl) loadingEl.style.display = "none";
   const $ = window.$;
   if ($?.fn?.slick) {
     const preloader = document.getElementById("preloader");
