@@ -38,11 +38,10 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #testimonials .carousel .nav.next { position: absolute; right: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
 #testimonials .carousel .slick-carousel { width: 100%; overflow: hidden; }
 
-/* ── Footer counter dark background ── */
-.footer-counter.extend { background: linear-gradient(180deg, #0d0f2b 0%, #1a237e 100%); }
+/* ── Footer counter ── */
+.footer-counter.extend { background: #1a237e; }
 .footer-counter.extend .use-text-title,
-.footer-counter.extend .use-text-title2,
-.footer-counter.extend .use-text-subtitle2 { color: #fff; }
+.footer-counter.extend .use-text-title2 { color: #212121; }
 
 /* ── Code highlighting ── */
 @import "highlight.js/styles/github.css";
