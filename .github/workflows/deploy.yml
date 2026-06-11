@@ -36,7 +36,7 @@ jobs:
         run: |
           sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
             -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
-            'CONF=$(sudo grep -rl "pixinlink" /etc/nginx/sites-available/ /etc/nginx/conf.d/ 2>/dev/null | head -1) && if [ -n "$CONF" ]; then sudo sed -i "s|try_files .*|try_files \$uri \$uri/ /index.html;|" "$CONF" && sudo nginx -t && sudo systemctl reload nginx && echo "nginx updated ($CONF)"; else echo "ERROR: nginx config not found"; exit 1; fi'
+            'CONF=$(sudo grep -rl "pixinlink" /etc/nginx/ 2>/dev/null | head -1) && if [ -n "$CONF" ]; then sudo sed -i "s|try_files .*|try_files \$uri \$uri/ /index.html;|" "$CONF" && sudo nginx -t && sudo systemctl reload nginx && echo "nginx updated ($CONF)"; else echo "ERROR: nginx config not found"; exit 1; fi'
 
       - name: Deploy via rsync
         env:
