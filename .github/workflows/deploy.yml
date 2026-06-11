@@ -36,7 +36,7 @@ jobs:
         run: |
           echo "Password length: $(echo -n "$SSHPASS" | wc -c) chars"
           if [ -z "$SSHPASS" ]; then echo "ERROR: VPS_PASSWORD is empty!"; exit 1; fi
-          sshpass -e rsync -avzr --delete \
+          sshpass -e rsync -avzrc --delete \
             -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
             dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/pixinlink-info/
 
