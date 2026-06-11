@@ -116,6 +116,19 @@ export function initSliders() {
     $("#benefit_next").on("click", () => $benefit.slick("slickNext"));
   }
 
+  const $services = $("#services_carousel");
+  if ($services.length) {
+    $services.slick({
+      dots: false,
+      arrows: false,
+      speed: 500,
+      slidesToShow: 1,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+    });
+  }
+
   const $testi = $("#testimonial_carousel");
   if ($testi.length) {
     $testi.slick({

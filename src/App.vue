@@ -18,8 +18,8 @@ watch(
 );
 
 onMounted(() => {
-  const preloader = document.getElementById("preloader");
-  if (preloader) preloader.style.display = "none";
+  const loadingEl = document.querySelector(".loading");
+  if (loadingEl) loadingEl.style.display = "none";
 });
 </script>
 
