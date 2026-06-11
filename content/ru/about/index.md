@@ -128,7 +128,7 @@ raw_html: true
                 <h5 class="use-text-subtitle2">152-ФЗ и безопасность</h5>
               </div>
               <div class="progress">
-                <div class="determinate progress-linear primary" style="width:100%"></div>
+                 <div class="determinate progress-linear primary" style="width:100%;background:#f44336"></div>
               </div>
             </li>
             <li>
