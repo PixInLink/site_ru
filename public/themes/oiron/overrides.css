@@ -39,9 +39,9 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #testimonials .carousel .slick-carousel { width: 100%; overflow: hidden; }
 
 /* ── Footer counter ── */
-.footer-counter.extend { background: #B3E5FC; }
+.footer-counter.extend { background: #F0FAFE; }
 .footer-counter.extend::before { display: none; }
-.footer-sitemap { background: #B3E5FC !important; }
+.footer-sitemap { background: #F0FAFE !important; }
 
 /* ── Code highlighting ── */
 @import "highlight.js/styles/github.css";
