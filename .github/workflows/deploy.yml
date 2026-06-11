@@ -38,19 +38,33 @@ jobs:
           echo "VPS_USER len=$(echo -n '${{ secrets.VPS_USER }}' | wc -c)"
           echo "VPS_PASSWORD len=$(echo -n '${{ secrets.VPS_PASSWORD }}' | wc -c)"
 
-      - name: Deploy via rsync
+      - name: Deploy to server (atomic via symlink)
         env:
           SSHPASS: ${{ secrets.VPS_PASSWORD }}
         run: |
           echo "Password length: $(echo -n "$SSHPASS" | wc -c) chars"
           if [ -z "$SSHPASS" ]; then echo "ERROR: VPS_PASSWORD is empty!"; exit 1; fi
-          echo "Cleaning up old flat .html files from previous deploy..."
+
+          WEBROOT=/var/www/pixinlink-info
+          DEPLOY_ID=$(date +%Y%m%d-%H%M%S)
+          NEW_DIR="${WEBROOT}-${DEPLOY_ID}"
+
+          echo "Uploading to: ${NEW_DIR}"
+
+          sshpass -e rsync -avzrc \
+            -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
+            dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${NEW_DIR}/
+
+          echo "Switching symlink..."
+
           sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
             -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
-            'find /var/www/pixinlink-info -maxdepth 1 -name "*.html" ! -path "*/index.html" -delete 2>/dev/null; rm -rf /var/www/pixinlink-info/features/ /var/www/pixinlink-info/about/ /var/www/pixinlink-info/contact/ /var/www/pixinlink-info/docs/ /var/www/pixinlink-info/integrations/ /var/www/pixinlink-info/pricing/ /var/www/pixinlink-info/use-cases/ 2>/dev/null; echo "Cleanup done"'
-          sshpass -e rsync -avzrc --delete \
-            -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
-            dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/pixinlink-info/
+            "sudo ln -sfn ${NEW_DIR} ${WEBROOT} && sudo nginx -t && sudo systemctl reload nginx && echo 'Deployed: ${NEW_DIR} -> ${WEBROOT}'"
+
+          echo "Cleaning up old releases (keep last 3)..."
+          sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
+            -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
+            'ls -d /var/www/pixinlink-info-* 2>/dev/null | sort | head -n -3 | xargs -r sudo rm -rf && echo "Cleanup done"'
 
       - name: Health check
         run: |
