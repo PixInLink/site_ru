@@ -38,14 +38,6 @@ jobs:
           echo "VPS_USER len=$(echo -n '${{ secrets.VPS_USER }}' | wc -c)"
           echo "VPS_PASSWORD len=$(echo -n '${{ secrets.VPS_PASSWORD }}' | wc -c)"
 
-      - name: Fix host nginx config (remove redirects for subdirectory index)
-        env:
-          SSHPASS: ${{ secrets.VPS_PASSWORD }}
-        run: |
-          sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
-            -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
-            'CONF=$(sudo grep -rl "pixinlink" /etc/nginx/ 2>/dev/null | grep -v "conf.d\|sites-enabled\|\.save\|\.bak" | head -1); if [ -n "$CONF" ]; then echo "Found: $CONF"; sudo cp "$CONF" "$CONF.bak.$(date +%Y%m%d%H%M%S)"; sudo sed -i "s|try_files .*|try_files \$uri \$uri/index.html \$uri/ \$uri.html =404;|g" "$CONF"; sudo sed -i "/return 301.*\/index\.html/d" "$CONF"; sudo sed -i "/rewrite.*permanent.*\/index\.html/d" "$CONF"; sudo nginx -t && sudo systemctl reload nginx 2>/dev/null || sudo nginx -s reload 2>/dev/null || true; echo "nginx config fixed"; else echo "WARNING: nginx config not found"; fi'
-
       - name: Deploy to server (atomic via symlink)
         env:
           SSHPASS: ${{ secrets.VPS_PASSWORD }}
