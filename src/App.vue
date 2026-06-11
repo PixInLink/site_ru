@@ -18,8 +18,10 @@ watch(
 );
 
 onMounted(() => {
-  const loadingEl = document.querySelector(".loading");
-  if (loadingEl) loadingEl.style.display = "none";
+  const loadingEl = document.querySelector<HTMLElement>(".loading");
+  if (loadingEl) {
+    loadingEl.style.setProperty("display", "none", "important");
+  }
 });
 </script>
 
