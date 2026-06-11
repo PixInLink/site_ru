@@ -53,7 +53,7 @@ jobs:
 
           sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
             -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
-            "sudo mkdir -p ${NEW_DIR} && sudo chown $USER ${NEW_DIR}"
+                        "sudo mkdir -p ${NEW_DIR} && sudo chown \$(whoami) ${NEW_DIR}"
 
           sshpass -e rsync -avzrc \
             -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
