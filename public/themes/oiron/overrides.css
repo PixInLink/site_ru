@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 .team-carousel .slick-slide { height: inherit; }
 
 /* ── About: progress bars ── */
-.about-style .zero .progress .progress-linear { width: auto !important; position: relative !important; }
+.about-style .zero .progress .progress-linear { width: auto !important; position: relative !important; height: 100% !important; }
 
 /* ── Testimonials slider ── */
 #testimonials .carousel { position: relative; display: flex; align-items: center; }
