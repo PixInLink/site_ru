@@ -31,18 +31,6 @@ onMounted(() => {
         <AppNavbar />
         <RouterView />
         <div class="footer-counter extend">
-          <span class="round"></span>
-          <div>
-            <div class="counter-wrap">
-              <div class="container max-md">
-                <h3 class="use-text-title">12 изображений без вотермарка · за 10-30 сек через URL API</h3>
-              </div>
-            </div>
-            <div class="action">
-              <h4 class="use-text-title2">Готовы попробовать?</h4>
-              <a class="btn btn-large secondary" href="/pricing/">Начать бесплатно</a>
-            </div>
-          </div>
           <div>
             <AppFooter />
           </div>

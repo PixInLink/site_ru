@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 .footer-counter.extend { background: #B3E5FC; }
 .footer-counter.extend .use-text-title,
 .footer-counter.extend .use-text-title2 { color: #212121; }
-.footer-counter.extend .footer-sitemap { background: #B3E5FC; }
+.footer-sitemap { background: #B3E5FC !important; }
 
 /* ── Code highlighting ── */
 @import "highlight.js/styles/github.css";
