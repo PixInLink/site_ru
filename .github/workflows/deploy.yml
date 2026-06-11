@@ -24,6 +24,14 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Create flat .html files for nginx $uri.html fallback
+        run: |
+          for d in dist/*/; do
+            name=$(basename "$d")
+            [ "$name" = "assets" ] || [ "$name" = "themes" ] || [ "$name" = ".vite" ] || [ "$name" = "images" ] || [ "$name" = "content" ] && continue
+            [ -f "dist/${name}/index.html" ] && cp "dist/${name}/index.html" "dist/${name}.html" && echo "Created: dist/${name}.html"
+          done
+
       - name: Debug secrets
         run: |
           echo "VPS_HOST len=$(echo -n '${{ secrets.VPS_HOST }}' | wc -c)"
