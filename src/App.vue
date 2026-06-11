@@ -22,12 +22,15 @@ onMounted(() => {
   if (loadingEl) {
     loadingEl.style.setProperty("display", "none", "important");
   }
+  const preloaderEl = document.getElementById("preloader");
+  if (preloaderEl) {
+    preloaderEl.style.setProperty("display", "none", "important");
+  }
 });
 </script>
 
 <template>
   <div class="m-application theme--light transition-page" id="app-inner">
-    <div class="loading"></div>
     <div class="m-content cloud cloud-var" id="main-wrap">
       <div class="main-wrap">
         <AppNavbar />
