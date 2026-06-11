@@ -44,6 +44,10 @@ jobs:
         run: |
           echo "Password length: $(echo -n "$SSHPASS" | wc -c) chars"
           if [ -z "$SSHPASS" ]; then echo "ERROR: VPS_PASSWORD is empty!"; exit 1; fi
+          echo "Cleaning up old flat .html files from previous deploy..."
+          sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
+            -p ${{ secrets.VPS_PORT || '22' }} ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
+            'find /var/www/pixinlink-info -maxdepth 1 -name "*.html" ! -path "*/index.html" -delete 2>/dev/null; rm -rf /var/www/pixinlink-info/features/ /var/www/pixinlink-info/about/ /var/www/pixinlink-info/contact/ /var/www/pixinlink-info/docs/ /var/www/pixinlink-info/integrations/ /var/www/pixinlink-info/pricing/ /var/www/pixinlink-info/use-cases/ 2>/dev/null; echo "Cleanup done"'
           sshpass -e rsync -avzrc --delete \
             -e "ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}" \
             dist/ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/var/www/pixinlink-info/
