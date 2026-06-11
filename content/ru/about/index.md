@@ -7,6 +7,7 @@ author: "PixInLink"
 layout: "page"
 schema_type: "AboutPage"
 cover_image: "https://pixinlink.ru/images/logo-saas.png"
+raw_html: true
 ---
 <!-- ##### BANNER #####-->
 <div class="hero-banner-wrap">
