@@ -1,3 +1,12 @@
+---
+title: "Возможности PixInLink: генерация изображений из URL"
+description: "Все возможности PixInLink для автоматической генерации изображений из URL — без дизайнера, без стоков и сложного бэкенда."
+slug: "features"
+date: "2026-05-21"
+author: "PixInLink"
+layout: "page"
+schema_type: "WebPage"
+---
 <!-- ##### BANNER #####-->
 <section id="banner">
   <div class="banner-slider">
