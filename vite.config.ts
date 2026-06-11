@@ -1,5 +1,18 @@
 import vue from "@vitejs/plugin-vue";
+import { execSync } from "node:child_process";
 import { defineConfig, type Plugin } from "vite";
+
+let gitHash = "dev";
+try { gitHash = execSync("git rev-parse --short HEAD", { encoding: "utf8" }).trim(); } catch {}
+
+function cacheBusterPlugin(): Plugin {
+  return {
+    name: "cache-buster",
+    transformIndexHtml(html) {
+      return html.replace(/overrides\.css/g, `overrides.css?v=${gitHash}`);
+    },
+  };
+}
 
 function htmlLangPlugin(): Plugin {
   return {
@@ -12,7 +25,7 @@ function htmlLangPlugin(): Plugin {
 }
 
 export default defineConfig({
-  plugins: [vue(), htmlLangPlugin()],
+  plugins: [vue(), cacheBusterPlugin(), htmlLangPlugin()],
   css: {
     preprocessorOptions: {
       scss: {

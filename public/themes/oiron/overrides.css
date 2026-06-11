@@ -1,0 +1,48 @@
+/* ═══════════════════════════════
+   PixInLink — Overrides Stylesheet
+   Loaded LAST to override any template/vendor CSS.
+   Все правки шаблона здесь — не в styles.css и не в main.scss.
+   ═══════════════════════════════ */
+
+/* ── SVG icon colors ── */
+.icon-cyan  { filter: invert(77%) sepia(61%) saturate(7488%) hue-rotate(157deg) brightness(96%) contrast(101%); }
+.icon-amber { filter: invert(79%) sepia(41%) saturate(2025%) hue-rotate(354deg) brightness(103%) contrast(98%); }
+.icon-orange{ filter: invert(61%) sepia(85%) saturate(4000%) hue-rotate(360deg) brightness(102%) contrast(105%); }
+.icon-sky   { filter: invert(62%) sepia(60%) saturate(4823%) hue-rotate(173deg) brightness(101%) contrast(102%); }
+
+/* ── Feature icons centering ── */
+.main-feature .item figure { text-align: center; }
+
+/* ── Timeline bullets ── */
+.timeline .left-side .text:after,
+.timeline .right-side .text:after { display: none; }
+
+/* ── Disable text-transform:capitalize globally ── */
+h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
+
+/* ── About: photo carousel nav ── */
+.about-style .gallery-root .carousel .nav       { display: block !important; position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; }
+.about-style .gallery-root .carousel .nav.prev  { left: -48px; right: auto; }
+.about-style .gallery-root .carousel .nav.next  { right: -48px; left: auto; }
+
+/* ── About: team slider ── */
+.team-carousel .slick-track { display: flex; align-items: stretch; }
+.team-carousel .slick-slide { height: inherit; }
+
+/* ── About: progress bars ── */
+.about-style .zero .progress .progress-linear { width: auto !important; }
+
+/* ── Testimonials slider ── */
+#testimonials .carousel { position: relative; display: flex; align-items: center; }
+#testimonials .carousel .nav.prev { position: absolute; left: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
+#testimonials .carousel .nav.next { position: absolute; right: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
+#testimonials .carousel .slick-carousel { width: 100%; overflow: hidden; }
+
+/* ── Footer counter dark background ── */
+.footer-counter.extend { background: linear-gradient(180deg, #0d0f2b 0%, #1a237e 100%); }
+.footer-counter.extend .use-text-title,
+.footer-counter.extend .use-text-title2,
+.footer-counter.extend .use-text-subtitle2 { color: #fff; }
+
+/* ── Code highlighting ── */
+@import "highlight.js/styles/github.css";
