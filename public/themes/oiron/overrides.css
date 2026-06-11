@@ -40,8 +40,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 
 /* ── Footer counter ── */
 .footer-counter.extend { background: #B3E5FC; }
-.footer-counter.extend .use-text-title,
-.footer-counter.extend .use-text-title2 { color: #212121; }
+.footer-counter.extend::before { display: none; }
 .footer-sitemap { background: #B3E5FC !important; }
 
 /* ── Code highlighting ── */
