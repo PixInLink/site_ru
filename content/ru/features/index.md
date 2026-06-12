@@ -120,21 +120,28 @@ schema_type: "WebPage"
   <div class="root">
     <div class="container fixed-width">
       <div class="row">
-        <div class="col-md-5 col-sm-12 py-6 ps-lg-15">
-          <div class="ms-md-12 ps-md-3">
-            <div>
-              <div class="title-deco">
-                <h3>Почему это работает</h3>
-              </div>
-            </div>
-            <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.1s" data-wow-duration="0.3s">
-              <div class="puzzle show-lg-up">
-                <div class="piece-small-top"><span></span></div>
-                <div class="piece-small-bottom"><span></span></div>
-              </div>
-            </div>
-          </div>
-        </div>
+<div class="col-md-5 col-sm-12 py-6 ps-lg-15">
+                      <div class="ms-md-12 ps-md-3">
+                        <div>
+                          <div class="title-deco">
+                            <h3>PixInLink</h3>
+                          </div>
+                        </div>
+                        <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.1s" data-wow-duration="0.3s">
+                          <div class="puzzle show-lg-up">
+                            <div class="piece-small-top"><span></span></div>
+                            <div class="piece-small-bottom"><span></span></div>
+                          </div>
+                        </div>
+                        <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.3s" data-wow-duration="0.5s">
+                          <div class="deco">
+                            <div class="big"></div>
+                            <div class="medium"></div>
+                            <div class="small"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
          <div class="col-md-7 col-sm-12 px-sm-6 px-0">
               <div>
                 <h4 class="title-default use-text-subtitle">47% времени на статью уходит на поиск картинок.</h4>
