@@ -303,6 +303,32 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   z-index: 1;
 }
 
+#services .carousel-wrap {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+}
+
+#services .item {
+  padding: 0px 8px 0px 8px;
+  max-width: 260px;
+}
+
+#services .item:focus {
+  outline: none;
+}
+
+@media (max-width: 1279px) {
+  #services .carousel-prop {
+    display: none;
+  }
+}
+
+#services .carousel-prop div {
+  width: 250px;
+}
+
 #services .floating-artwork {
   position: absolute;
   width: 100%;
