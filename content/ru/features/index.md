@@ -7,33 +7,82 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-<!-- ##### BANNER #####-->
 <section id="banner">
   <div class="banner-slider">
     <div class="banner-wrap">
       <div class="carousel">
-          <div class="slider" id="banner_slider">
-            <div class="slider-deco" id="slider_deco">
-              <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s1">&nbsp;</div><div class="deco top s1">&nbsp;</div></div></div></div>
-            </div>
-            <div class="slider" id="banner_slider">
+        <div class="slider-deco" id="slider_deco">
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s1">&nbsp;</div><div class="deco top s1">&nbsp;</div></div></div></div>
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s2">&nbsp;</div><div class="deco top s2">&nbsp;</div></div></div></div>
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s3">&nbsp;</div><div class="deco top s3">&nbsp;</div></div></div></div>
+        </div>
+        <div class="slider" id="banner_slider">          
+          <!-- Slide 1: Главная ценность -->
           <div class="slide" id="slide1">
             <div class="inner">
               <div class="container">
                 <div class="row">
                   <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-center">
                     <div class="text">
-                      <h4 class="use-text-title">Вставьте ссылку — получите изображение</h4>
-                      <h5 class="use-text-subtitle">PixInLink генерирует и хостит AI-изображения прямо из URL. Без дизайнера. Без стоков. Без загрузки файлов.</h5>
+                      <h4 class="use-text-title">Изображения из одной ссылки</h4>
+                      <h5 class="use-text-subtitle">Вставляете URL — GigaChat генерирует картинку. Без дизайнера. Без стоков. За 5 секунд.</h5>
                       <div class="btn-area">
-                        <a class="btn waves-effect btn-outlined btn-large button primary primary-text" href="#services">как это работает</a>
-                        <a class="btn waves-effect button btn-large primary" href="/pricing/" target="_blank">попробовать бесплатно</a>
+                        <a class="btn waves-effect btn-outlined btn-large button primary primary-text" href="#case-studies">Примеры</a>
+                        <a class="btn waves-effect button btn-large primary" href="register.html">12 картинок бесплатно</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12">
                     <div class="img">
-                      <img class="img-2d3d" src="/themes/oiron/images/cloud/banner1_3d@2x.png" loading="lazy" alt="Генерация изображения из URL" />
+                      <img class="img-2d3d" src="/themes/oiron/images/cloud/banner1_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner1_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner1_3d@2x.png" alt="AI-генерация изображений из URL" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2: Стили и гибкость (порядок обратный) -->
+          <div class="slide" id="slide2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-center order-lg-5">
+                    <div class="text">
+                      <h4 class="use-text-title">6 стилей. Один параметр.</h4>
+                      <h5 class="use-text-subtitle">Фотореализм, 3D, аниме, киберпанк. Меняйте <code>&style=</code> в URL — получайте новый результат.</h5>
+                      <div class="btn-area">
+                        <a class="btn waves-effect btn-outlined btn-large button primary" href="#services">Все стили</a>
+                        <a class="btn waves-effect button btn-large primary" href="register.html">Попробовать сейчас</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-lg-6 col-sm-12 order-lg-0">
+                    <div class="img">
+                       <img class="img-2d3d" src="/themes/oiron/images/cloud/banner2_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner2_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner2_3d@2x.png" alt="6 стилей генерации — фотореализм, 3D, аниме" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3: Скорость и CDN (центрированный) -->
+          <div class="slide center-content" id="slide3">
+            <div class="inner">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12 px-sm-12">
+                    <div class="text text-center">
+                      <h4 class="use-text-title">CDN за 100 мс. Картинки летают.</h4>
+                      <h5 class="use-text-subtitle">Yandex Cloud CDN, WebP-оптимизация, кеш на год. PageSpeed растёт автоматически.</h5>
+                      <div class="btn-area">
+                        <a class="btn waves-effect btn-outlined btn-large button primary" href="#expertise">Как это работает</a>
+                        <a class="btn waves-effect button btn-large primary" href="register.html">Начать бесплатно</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <div class="img h-banner">
+                        <img class="img-2d3d" src="/themes/oiron/images/cloud/banner3_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner3_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner3_3d@2x.png" alt="CDN-доставка за 100 мс по всему миру" />
                     </div>
                   </div>
                 </div>
@@ -41,11 +90,31 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
-      </div>
+      </div>      
+      <!-- Навигация слайдера -->
+      <div class="hidden-sm-down">
+        <div class="container max-md">
+          <nav class="slide-nav" id="banner_nav">
+            <a class="waves-effect active" data-slide="0">
+              <strong>Главная</strong>
+              Генерация из URL за 5 секунд
+            </a>
+            <hr class="divider">
+            <a class="waves-effect" data-slide="1">
+              <strong>Стили</strong>
+              6 направлений: от фотореализма до аниме
+            </a>
+            <hr class="divider">
+            <a class="waves-effect" data-slide="2">
+              <strong>Скорость</strong>
+              CDN, WebP, кеш — всё включено
+            </a>
+          </nav>
+        </div>
+      </div>      
     </div>
   </div>
-</section>
-<!-- ##### END BANNER #####-->
+</section><!-- ##### END BANNER #####-->
 <section class="space-top" id="about">
   <div class="root">
     <div class="container fixed-width">
@@ -61,13 +130,6 @@ schema_type: "WebPage"
               <div class="puzzle show-lg-up">
                 <div class="piece-small-top"><span></span></div>
                 <div class="piece-small-bottom"><span></span></div>
-              </div>
-            </div>
-            <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.3s" data-wow-duration="0.5s">
-              <div class="deco">
-                <div class="big"></div>
-                <div class="medium"></div>
-                <div class="small"></div>
               </div>
             </div>
           </div>
