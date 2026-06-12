@@ -162,3 +162,34 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
     left: -140px;
   }
 }
+
+/* ── About Deco (agency theme) ── */
+#about .deco .big {
+  background: var(--v-primary-base);
+  width: 350px;
+  height: 350px;
+  opacity: 0.08;
+  border-radius: 80px;
+  top: 60px;
+  left: 120px;
+}
+
+#about .deco .medium {
+  background: var(--v-secondary-base);
+  width: 180px;
+  height: 180px;
+  opacity: 0.1;
+  border-radius: 40px;
+  top: 20px;
+  left: 80px;
+}
+
+#about .deco .small {
+  border: 8px solid var(--v-primary-base);
+  opacity: 0.3;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  top: 250px;
+  left: 380px;
+}
