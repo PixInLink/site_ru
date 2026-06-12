@@ -209,6 +209,9 @@ export function initSliders() {
         sliderArt.removeClass("faded");
       }
     });
+
+    $("#prev_testi").off("click").on("click", () => $testi.slick("slickPrev"));
+    $("#next_testi").off("click").on("click", () => $testi.slick("slickNext"));
   }
 
   const $team = $("#about_team_carousel");
