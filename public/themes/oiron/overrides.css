@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 /* ── Services Floating Artwork (agency theme) ── */
 #services .root {
   position: relative;
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0px 160px 0px;
 }
 
 .theme--light #services .root {
