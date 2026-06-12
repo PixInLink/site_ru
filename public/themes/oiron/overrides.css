@@ -540,6 +540,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 /* ── Expertise Section (agency theme) ── */
 #expertise .root {
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 959px) {
@@ -575,6 +576,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   height: 300px;
   transform-origin: top;
   left: -230px;
+  overflow: hidden;
 }
 
 #expertise .illustration-wrap span {
