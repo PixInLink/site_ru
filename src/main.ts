@@ -51,9 +51,9 @@ export function initSliders() {
       speed: 800,
       slidesToShow: 1,
       infinite: true,
-      autoplay: true,
-      autoplaySpeed: 7000,
+      autoplay: false,
       cssEase: "ease-out",
+      asNavFor: "#slider_deco",
       responsive: [
         {
           breakpoint: 960,
@@ -61,14 +61,6 @@ export function initSliders() {
         },
       ],
     });
-
-    const $nav = $("#banner_nav a");
-    $nav.on("click", function (this: HTMLElement) {
-      const index = $(this).data("slide");
-      $banner.slick("slickGoTo", index);
-      return false;
-    });
-
     $banner.on(
       "afterChange",
       (_event: unknown, _slick: unknown, currentSlide: number) => {
@@ -76,6 +68,19 @@ export function initSliders() {
         $(`#banner_nav > a[data-slide=${currentSlide}]`).addClass("active");
       }
     );
+
+    const $deco = $("#slider_deco");
+    if ($deco.length) {
+      $deco.slick({
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+        infinite: true,
+        fade: true,
+        cssEase: "ease-out",
+        autoplay: false,
+      });
+    }
   }
 
   const $promo = $("#promotion_slider");
