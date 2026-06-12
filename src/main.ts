@@ -61,6 +61,12 @@ export function initSliders() {
         },
       ],
     });
+    const $nav = $("#banner_nav a");
+    $nav.on("click", function (this: HTMLElement) {
+      const index = $(this).data("slide");
+      $banner.slick("slickGoTo", index);
+      return false;
+    });
     $banner.on(
       "afterChange",
       (_event: unknown, _slick: unknown, currentSlide: number) => {
