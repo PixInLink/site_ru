@@ -34,7 +34,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12">
                     <div class="img">
-                      <img class="img-2d3d" src="/themes/oiron/images/cloud/banner1_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner1_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner1_3d@2x.png" alt="AI-генерация изображений из URL" />
+                      <img class="img-2d3d" src="/themes/oiron/images/agency/banner1_3d@2x.png" data-2d="/themes/oiron/images/agency/banner1_2d@2x.png" data-3d="/themes/oiron/images/agency/banner1_3d@2x.png" alt="AI-генерация изображений из URL" />
                     </div>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12 order-lg-0">
                     <div class="img">
-                       <img class="img-2d3d" src="/themes/oiron/images/cloud/banner2_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner2_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner2_3d@2x.png" alt="6 стилей генерации — фотореализм, 3D, аниме" />
+                       <img class="img-2d3d" src="/themes/oiron/images/agency/banner2_3d@2x.png" data-2d="/themes/oiron/images/agency/banner2_2d@2x.png" data-3d="/themes/oiron/images/agency/banner2_3d@2x.png" alt="6 стилей генерации — фотореализм, 3D, аниме" />
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-12 mt-4">
                     <div class="img h-banner">
-                        <img class="img-2d3d" src="/themes/oiron/images/cloud/banner3_3d@2x.png" data-2d="/themes/oiron/images/cloud/banner3_2d@2x.png" data-3d="/themes/oiron/images/cloud/banner3_3d@2x.png" alt="CDN-доставка за 100 мс по всему миру" />
+                        <img class="img-2d3d" src="/themes/oiron/images/agency/banner3_3d@2x.png" data-2d="/themes/oiron/images/agency/banner3_2d@2x.png" data-3d="/themes/oiron/images/agency/banner3_3d@2x.png" alt="CDN-доставка за 100 мс по всему миру" />
                     </div>
                   </div>
                 </div>
