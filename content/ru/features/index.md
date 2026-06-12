@@ -12,7 +12,11 @@ schema_type: "WebPage"
   <div class="banner-slider">
     <div class="banner-wrap">
       <div class="carousel">
-        <div class="slider" id="banner_slider">
+          <div class="slider" id="banner_slider">
+            <div class="slider-deco" id="slider_deco">
+              <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s1">&nbsp;</div><div class="deco top s1">&nbsp;</div></div></div></div>
+            </div>
+            <div class="slider" id="banner_slider">
           <div class="slide" id="slide1">
             <div class="inner">
               <div class="container">
@@ -29,7 +33,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12">
                     <div class="img">
-                      <img class="img-2d3d" src="https://pixinlink.ru/600x400/Иллюстрация-генерация-из-ссылки" loading="lazy" alt="Генерация изображения из URL" />
+                      <img class="img-2d3d" src="/themes/oiron/images/cloud/banner1_3d@2x.png" loading="lazy" alt="Генерация изображения из URL" />
                     </div>
                   </div>
                 </div>
@@ -57,6 +61,13 @@ schema_type: "WebPage"
               <div class="puzzle show-lg-up">
                 <div class="piece-small-top"><span></span></div>
                 <div class="piece-small-bottom"><span></span></div>
+              </div>
+            </div>
+            <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.3s" data-wow-duration="0.5s">
+              <div class="deco">
+                <div class="big"></div>
+                <div class="medium"></div>
+                <div class="small"></div>
               </div>
             </div>
           </div>
