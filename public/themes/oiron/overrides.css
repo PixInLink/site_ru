@@ -382,3 +382,79 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   opacity: 0.15;
   filter: blur(10px);
 }
+
+/* ── Expertise Section (agency theme) ── */
+#expertise .root {
+  position: relative;
+}
+
+@media (max-width: 959px) {
+  #expertise .root {
+    text-align: center;
+  }
+}
+
+@media (max-width: 959px) {
+  #expertise .root h4 {
+    margin-top: -16px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 1279px) {
+  #expertise .root h3 {
+    margin-bottom: 24px;
+  }
+}
+
+#expertise .decoration {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: -180px;
+  fill: #cccccc;
+}
+
+#expertise .illustration-wrap {
+  position: relative;
+  top: -240px;
+  height: 300px;
+  transform-origin: top;
+  left: -230px;
+}
+
+#expertise .illustration-wrap span {
+  background-size: 100%;
+  display: block;
+  position: relative;
+}
+
+@media (max-width: 959px) {
+  #expertise .illustration-wrap {
+    display: none;
+  }
+}
+
+#expertise .icon-green {
+  top: -179px;
+  width: 320px;
+  height: 600px;
+  background: url("/themes/oiron/images/agency/green_buble.png") no-repeat;
+  left: 30px;
+}
+
+#expertise .icon-violet {
+  width: 560px;
+  height: 560px;
+  top: -620px;
+  background: url("/themes/oiron/images/agency/violet_buble.png") no-repeat;
+  left: -50px;
+}
+
+#expertise .icon-blue {
+  width: 560px;
+  height: 560px;
+  top: -1170px;
+  background: url("/themes/oiron/images/agency/blue_buble.png") no-repeat;
+  left: 0px;
+}
