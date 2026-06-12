@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, onMounted, watch, nextTick } from "vue";
 import { useSeo } from "../composables/useSeo";
 import { findPageBySlug } from "../content/pages";
 import PageBanner from "../components/PageBanner.vue";
 import { t } from "../i18n";
+import { initAccordions } from "../main";
 
 const props = defineProps<{
   slug: string;
@@ -33,6 +34,16 @@ useSeo(() => {
     path: canonicalPath,
     type: "website",
   };
+});
+
+onMounted(() => {
+  nextTick(() => nextTick(() => initAccordions()));
+});
+
+watch(page, (newPage) => {
+  if (newPage?.rawHtml || (newPage?.html?.trim() ?? "").startsWith("<section") || (newPage?.html?.trim() ?? "").startsWith("<div class=") || (newPage?.html?.length ?? 0) > 5000) {
+    nextTick(() => nextTick(() => initAccordions()));
+  }
 });
 </script>
 

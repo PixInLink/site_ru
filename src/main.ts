@@ -249,7 +249,7 @@ export function initSliders() {
   }
 }
 
-function initAccordions() {
+export function initAccordions() {
   const $ = window.$;
   if (!$) return;
   $(".collapsible-header").off("click").on("click", function () {
