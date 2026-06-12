@@ -43,6 +43,7 @@ export function initSliders() {
   // Destroy existing sliders to allow re-init on SPA navigation
   $(".slick-initialized").slick("unslick");
 
+  const $deco = $("#slider_deco");
   const $banner = $("#banner_slider");
   if ($banner.length) {
     $banner.slick({
@@ -53,7 +54,7 @@ export function initSliders() {
       infinite: true,
       autoplay: false,
       cssEase: "ease-out",
-      asNavFor: "#slider_deco",
+      ...($deco.length ? { asNavFor: "#slider_deco" } : {}),
       responsive: [
         {
           breakpoint: 960,
@@ -62,12 +63,12 @@ export function initSliders() {
       ],
     });
     const $nav = $("#banner_nav a");
-    $nav.on("click", function (this: HTMLElement) {
+    $nav.off("click").on("click", function (this: HTMLElement) {
       const index = $(this).data("slide");
       $banner.slick("slickGoTo", index);
       return false;
     });
-    $banner.on(
+    $banner.off("afterChange").on(
       "afterChange",
       (_event: unknown, _slick: unknown, currentSlide: number) => {
         $nav.removeClass("active");
@@ -75,7 +76,6 @@ export function initSliders() {
       }
     );
 
-    const $deco = $("#slider_deco");
     if ($deco.length) {
       $deco.slick({
         dots: false,
