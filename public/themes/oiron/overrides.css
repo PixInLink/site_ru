@@ -194,6 +194,61 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   }
 }
 
+/* ── About Puzzle Pieces (agency theme) ── */
+#about .puzzle {
+  position: relative;
+  top: -40px;
+  left: 60px;
+}
+
+#about .puzzle div {
+  overflow: hidden;
+  position: absolute;
+  background: #dedede;
+  transform: rotate(45deg);
+}
+
+#about .puzzle span {
+  background-size: 100%;
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: relative;
+  top: -110px;
+  transform: rotate(-45deg);
+}
+
+#about .piece-small-top {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  top: -180px;
+  left: 120px;
+}
+
+#about .piece-small-top span {
+  background-image: url("https://pixinlink.ru/110x110/пазл-абстракция-голубой");
+  background-repeat: no-repeat;
+  background-position: 40px center;
+  left: -80px;
+}
+
+#about .piece-small-bottom {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  top: 70px;
+  left: 80px;
+}
+
+#about .piece-small-bottom span {
+  top: -130px;
+  background-image: url("https://pixinlink.ru/75x75/пазл-абстракция-синий");
+  background-repeat: no-repeat;
+  background-position: 40px center;
+  left: -50px;
+}
+
 #about .deco .big {
   background: var(--v-primary-base);
   width: 350px;
