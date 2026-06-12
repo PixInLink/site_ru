@@ -428,10 +428,6 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   padding-left: 120px;
 }
 
-#services .arrow button i {
-  transform: rotate(180deg);
-}
-
 .slider-art .deco {
   width: 450px;
 }

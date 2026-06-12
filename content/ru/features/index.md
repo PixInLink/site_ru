@@ -340,10 +340,10 @@ schema_type: "WebPage"
           </div>
           <nav class="arrow">
             <button class="btn-floating margin" id="next_services">
-              <i class="material-icons">arrow_forward</i>
+              <i class="material-icons">arrow_back</i>
             </button>
             <button class="btn-floating margin" id="prev_services">
-              <i class="material-icons">arrow_back</i>
+              <i class="material-icons">arrow_forward</i>
             </button>
           </nav>
         </div>
