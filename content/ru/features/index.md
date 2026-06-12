@@ -554,7 +554,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Cleo&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_boy.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Алексей, веб-мастер</h6><span class="caption">50+ статей в месяц</span>
@@ -570,7 +570,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Molly&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile&amp;skinColor=ffdbb4,f8d25c" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_girl.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Мария, разработчик плагинов</h6><span class="caption">ModX / WordPress</span>
@@ -586,7 +586,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Pumpkin&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile&amp;skinColor=ffdbb4,f8d25c" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_boy2.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Дмитрий, директор студии</h6><span class="caption">E-commerce проекты</span>
@@ -602,7 +602,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Dusty&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile&amp;skinColor=ffdbb4,f8d25c,d08b5b,ae5d29,edb98a" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_girl2.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Елена, маркетолог</h6><span class="caption">SMM и контент</span>
@@ -618,7 +618,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Sadie&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile&amp;skinColor=ffdbb4,f8d25c,d08b5b,ae5d29,edb98a" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_boy3.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Игорь, технический директор</h6><span class="caption">HighLoad проекты</span>
@@ -634,7 +634,7 @@ schema_type: "WebPage"
             </div>
             <div class="person">
               <div class="avatar-img avatar">
-                <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Annie&amp;backgroundColor=65c9ff,c0aede&amp;mouth=smile" alt="name" />
+                <img src="/themes/oiron/images/avatars/pp_girl3.svg" alt="name" />
               </div>
               <div class="name">
                 <h6>Ольга, начинающий блогер</h6><span class="caption">Telegram / Дзен</span>
@@ -767,7 +767,20 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
+  </div>
+  <div class="floating-artwork">
+    <div class="container fixed-width">
+      <div class="artwork">
+        <div class="slider-art">
+          <div class="deco">
+            <div class="figure show-lg-up" id="art_testimonials">
+              <div class="wow fadeInLeftShort" data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s"><img class="img-2d3d" src="/themes/oiron/images/agency/testimonials_3d@2x.png" data-2d="/themes/oiron/images/agency/testimonials_2d@2x.png" data-3d="/themes/oiron/images/agency/testimonials_3d@2x.png" alt="PixInLink отзывы пользователей"></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 <!-- ##### END CALL ACTION #####-->
 </main>
