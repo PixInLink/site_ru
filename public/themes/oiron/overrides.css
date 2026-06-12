@@ -36,8 +36,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #testimonials .carousel { position: relative; display: flex; align-items: center; }
 #testimonials .carousel .nav.prev { position: absolute; left: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
 #testimonials .carousel .nav.next { position: absolute; right: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
-#testimonials .carousel .slick-carousel { width: 100%; overflow: visible; }
-#testimonials .carousel .slick-carousel .slick-list { overflow: hidden; }
+#testimonials .carousel .slick-carousel { width: 100%; overflow: hidden; }
 
 /* ── Footer counter ── */
 .footer-counter.extend { background: #F0FAFE; }
@@ -695,6 +694,17 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 
 #testimonials .item:focus {
   outline: none;
+}
+
+#testimonials .testimonial-card {
+  padding-top: 52px;
+}
+
+#testimonials .testimonial-card .icon {
+  position: relative;
+  z-index: 0;
+  margin-top: -52px;
+  line-height: 100px;
 }
 
 #testimonials .floating-artwork {
