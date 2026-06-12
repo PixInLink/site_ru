@@ -26,7 +26,7 @@ schema_type: "WebPage"
                   <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-center">
                     <div class="text">
                       <h4 class="use-text-title">Изображения из одной ссылки</h4>
-                      <h5 class="use-text-subtitle">Вставляете URL — GigaChat генерирует картинку. Без дизайнера. Без стоков. За 5 секунд.</h5>
+                      <h5 class="use-text-subtitle">Вставляете URL — GigaChat генерирует картинку. Без дизайнера. Без стоков. За 15 секунд.</h5>
                       <div class="btn-area">
                         <a class="btn waves-effect btn-outlined btn-large button primary primary-text" href="#case-studies">Примеры</a>
                         <a class="btn waves-effect button btn-large primary" href="register.html">12 картинок бесплатно</a>
@@ -49,8 +49,8 @@ schema_type: "WebPage"
                 <div class="row">
                   <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-center order-lg-5">
                     <div class="text">
-                      <h4 class="use-text-title">6 стилей. Один параметр.</h4>
-                      <h5 class="use-text-subtitle">Фотореализм, 3D, аниме, киберпанк. Меняйте <code>&style=</code> в URL — получайте новый результат.</h5>
+                      <h4 class="use-text-title">Настраивайте промпт по своему желанию.</h4>
+<h5 class="use-text-subtitle">Для URL страниц лучше держать путь коротким — 60–120 символов после домена и 3–7 слов в slug.</h5>
                       <div class="btn-area">
                         <a class="btn waves-effect btn-outlined btn-large button primary" href="#services">Все стили</a>
                         <a class="btn waves-effect button btn-large primary" href="register.html">Попробовать сейчас</a>
@@ -97,13 +97,13 @@ schema_type: "WebPage"
         <div class="container max-md">
           <nav class="slide-nav" id="banner_nav">
             <a class="waves-effect active" data-slide="0">
-              <strong>Главная</strong>
-              Генерация из URL за 5 секунд
+              <strong>Генерация</strong>
+              Изображение из URL за 15 секунд
             </a>
             <hr class="divider">
             <a class="waves-effect" data-slide="1">
-              <strong>Стили</strong>
-              6 направлений: от фотореализма до аниме
+              <strong>Промпт</strong>
+              Настраивайте промпт от 3 до 7 слов
             </a>
             <hr class="divider">
             <a class="waves-effect" data-slide="2">
@@ -124,7 +124,7 @@ schema_type: "WebPage"
                       <div class="ms-md-12 ps-md-3">
                         <div>
                           <div class="title-deco">
-                            <h3>Pix<br>In<br>Link</h3>
+                            <h3>PixIn<br>Link</h3>
                           </div>
                         </div>
                         <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.1s" data-wow-duration="0.3s">
@@ -144,8 +144,8 @@ schema_type: "WebPage"
                     </div>
          <div class="col-md-7 col-sm-12 px-sm-6 px-0">
               <div>
-                <h4 class="title-default use-text-subtitle">47% времени на статью уходит на поиск картинок.</h4>
-                <p class="desc use-text-paragraph" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.6;">Вы пишете текст. Оставляете плейсхолдеры. Потом открываете нейросеть, пишете промпт, скачиваете, сжимаете в WebP, загружаете на хостинг. На 10 картинок уходит 2 часа. PixInLink убирает этот этап. Вы пишете ссылку. Сервис сам генерирует, сжимает и кеширует.</p>
+                <h4 class="title-default use-text-subtitle">47% времени на создание статьи для сайта - уходит на поиск картинок</h4>
+                <p class="desc use-text-paragraph" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.6;">Обычно Вы пишете текст. Оставляете плейсхолдеры, что-бы видеть как в размерах будет смотреться изображение на сайте. Потом открываете нейросеть, пишете промпт, скачиваете, обрезаете под свой размер, сжимаете в WebP, загружаете на хостинг. На 10 картинок уходит 2 часа. PixInLink убирает этот этап. Вы пишете ссылку. Сервис сам генерирует, обрезает, сжимает и кеширует.</p>
                 <div class="counter-wrap">
                   <div class="container fixed-width">
                     <div class="row justify-content-center align-items-center">
