@@ -328,7 +328,9 @@ schema_type: "WebPage"
                 <div class="wow fadeInLeftShort" data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s">
                   <div>
                     <img class="img-2d3d" 
-                         src="https://pixinlink.ru/400x500/Иллюстрация-сервис-генерация-изображений" 
+                         src="/themes/oiron/images/agency/services_3d@2x.png" 
+                         data-2d="/themes/oiron/images/agency/services_2d@2x.png" 
+                         data-3d="/themes/oiron/images/agency/services_3d@2x.png" 
                          loading="lazy" 
                          alt="PixInLink сервис генерации изображений" />
                   </div>

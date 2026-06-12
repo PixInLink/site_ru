@@ -131,15 +131,41 @@ export function initSliders() {
 
   const $services = $("#services_carousel");
   if ($services.length) {
+    const showSlide = 4;
+    if (window.innerWidth > 1200) {
+      const prop = window.innerWidth > 1400 ? 0 : 1;
+      const lastSlide = Math.floor(Number($services.data("length")) - showSlide + prop);
+      setTimeout(() => $services.slick("slickGoTo", lastSlide), 100);
+    }
+
     $services.slick({
       dots: false,
-      arrows: false,
+      infinite: false,
       speed: 500,
-      slidesToShow: 1,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 4000,
+      slidesToShow: showSlide,
+      arrows: false,
+      slidesToScroll: 1,
+      variableWidth: true,
+      responsive: [
+        { breakpoint: 1100, settings: { slidesToShow: 3 } },
+        { breakpoint: 800, settings: { slidesToShow: 2 } },
+        { breakpoint: 600, settings: { slidesToShow: 1 } },
+      ],
     });
+
+    const sliderArt = $("#art_services");
+    $services.on("afterChange", (_event: unknown, slick: { currentSlide: number }) => {
+      const prop = window.innerWidth > 1400 ? 1 : 0;
+      const edge = Math.floor(Number($services.data("length")) - showSlide - prop);
+      if (slick.currentSlide <= edge) {
+        sliderArt.addClass("faded");
+      } else {
+        sliderArt.removeClass("faded");
+      }
+    });
+
+    $("#prev_services").on("click", () => $services.slick("slickPrev"));
+    $("#next_services").on("click", () => $services.slick("slickNext"));
   }
 
   const $testi = $("#testimonial_carousel");

@@ -296,3 +296,89 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
     line-height: 42px;
   }
 }
+
+/* ── Services Floating Artwork (agency theme) ── */
+#services .carousel-handle {
+  position: relative;
+  z-index: 1;
+}
+
+#services .floating-artwork {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40px;
+}
+
+@media (min-width: 1280px) {
+  #services .floating-artwork {
+    left: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #services .floating-artwork {
+    left: 80px;
+  }
+}
+
+@media (min-width: 960px) {
+  #services .floating-artwork .artwork {
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #services .floating-artwork .artwork {
+    float: right;
+  }
+}
+
+@media (min-width: 1400px) {
+  #services .floating-artwork .artwork {
+    margin-right: -40px;
+  }
+}
+
+#services .arrow {
+  margin-top: 100px;
+  position: relative;
+  z-index: 10;
+  padding-left: 120px;
+}
+
+#services .arrow button i {
+  transform: rotate(180deg);
+}
+
+.slider-art .deco {
+  width: 450px;
+}
+
+.slider-art .deco img {
+  position: relative;
+  width: 100%;
+}
+
+.slider-art .deco:before {
+  content: "";
+  width: 480px;
+  height: 480px;
+  border-radius: 24px;
+  position: absolute;
+  top: 120px;
+  right: 80px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+@media (max-width: 959px) {
+  .slider-art .deco:before {
+    display: none;
+  }
+}
+
+.slider-art .faded {
+  opacity: 0.15;
+  filter: blur(10px);
+}
