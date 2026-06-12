@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   position: absolute;
   top: 120px;
   right: 80px;
-  background: #fff;
+  background: #bbdefb;
   transform: rotate(45deg);
 }
 
