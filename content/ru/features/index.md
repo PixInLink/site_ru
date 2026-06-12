@@ -124,7 +124,7 @@ schema_type: "WebPage"
                       <div class="ms-md-12 ps-md-3">
                         <div>
                           <div class="title-deco">
-                            <h3>PixInLink</h3>
+                            <h3>Pix<br>In<br>Link</h3>
                           </div>
                         </div>
                         <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.1s" data-wow-duration="0.3s">
