@@ -7,6 +7,7 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
 <section id="banner">
   <div class="banner-slider">
     <div class="banner-wrap">
@@ -584,3 +585,4 @@ schema_type: "WebPage"
       </div>
     </section>
 <!-- ##### END CALL ACTION #####-->
+</main>
