@@ -664,7 +664,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 
 @media (min-width: 1280px) {
   #testimonials .carousel > div {
-    margin-left: -80px;
+    margin-left: 0;
   }
 }
 
