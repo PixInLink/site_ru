@@ -243,8 +243,9 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 
 .title-deco h3 {
   color: #FFF;
-  width: 120px;
+  width: auto;
   position: relative;
+  text-align: center;
   text-transform: capitalize;
   font-size: 48px;
   font-weight: 700;
