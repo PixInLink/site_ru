@@ -458,3 +458,124 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
   background: url("/themes/oiron/images/agency/blue_buble.png") no-repeat;
   left: 0px;
 }
+
+/* ── Testimonials Section (agency theme) ── */
+#testimonials .carousel-header {
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials .root {
+  width: 100%;
+  position: relative;
+  padding: 80px 0px 80px 0px;
+}
+
+.theme--light #testimonials .root {
+  background-color: var(--v-primarylight-base);
+  position: relative;
+}
+
+.theme--light #testimonials .root:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  opacity: 0.8;
+}
+
+.theme--dark #testimonials .root {
+  background-color: var(--v-primarydark-base);
+  position: relative;
+}
+
+.theme--dark #testimonials .root:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
+}
+
+#testimonials .carousel {
+  position: relative;
+  z-index: 6;
+}
+
+@media (min-width: 1280px) {
+  #testimonials .carousel > div {
+    margin-left: -80px;
+  }
+}
+
+#testimonials .carousel .slick-dots {
+  bottom: -64px;
+}
+
+#testimonials .carousel .slick-dots li {
+  width: 10px;
+  height: 10px;
+  transition: width 0.3s ease;
+}
+
+#testimonials .carousel .slick-dots li.slick-active {
+  width: 24px;
+}
+
+#testimonials .carousel .slick-dots li button {
+  width: 10px;
+  height: 10px;
+}
+
+#testimonials .item {
+  padding: 2px;
+  padding-top: 0;
+}
+
+#testimonials .item:focus {
+  outline: none;
+}
+
+#testimonials .floating-artwork {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -40px;
+}
+
+@media (min-width: 1280px) {
+  #testimonials .floating-artwork {
+    left: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #testimonials .floating-artwork {
+    left: 80px;
+  }
+}
+
+@media (max-width: 1279px) {
+  #testimonials .floating-artwork {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  #testimonials .floating-artwork .artwork {
+    float: right;
+    margin-right: -40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #testimonials .floating-artwork .artwork {
+    margin-right: -40px;
+  }
+}
