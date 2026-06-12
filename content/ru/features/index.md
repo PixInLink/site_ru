@@ -50,7 +50,7 @@ schema_type: "WebPage"
                   <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-center order-lg-5">
                     <div class="text">
                       <h4 class="use-text-title">Настраивайте промпт по своему желанию.</h4>
-<h5 class="use-text-subtitle">Для URL страниц лучше держать путь коротким — 60–120 символов после домена и 3–7 слов в slug.</h5>
+<h5 class="use-text-subtitle">Для URL страниц лучше держать путь коротким — промпт 3–7 слов в slug после домена.</h5>
                       <div class="btn-area">
                         <a class="btn waves-effect btn-outlined btn-large button primary" href="#services">Все стили</a>
                         <a class="btn waves-effect button btn-large primary" href="register.html">Попробовать сейчас</a>
@@ -144,7 +144,7 @@ schema_type: "WebPage"
                     </div>
          <div class="col-md-7 col-sm-12 px-sm-6 px-0">
               <div>
-                <h4 class="title-default use-text-subtitle">47% времени на создание статьи для сайта - уходит на поиск картинок</h4>
+                <h4 class="title-default use-text-subtitle">Поиск подходящих изображений и их обработка отнимают до 47% времени, необходимого для подготовки статьи. </h4>
                 <p class="desc use-text-paragraph" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.6;">Обычно Вы пишете текст. Оставляете плейсхолдеры, что-бы видеть как в размерах будет смотреться изображение на сайте. Потом открываете нейросеть, пишете промпт, скачиваете, обрезаете под свой размер, сжимаете в WebP, загружаете на хостинг. На 10 картинок уходит 2 часа. PixInLink убирает этот этап. Вы пишете ссылку. Сервис сам генерирует, обрезает, сжимает и кеширует.</p>
                 <div class="counter-wrap">
                   <div class="container fixed-width">
@@ -181,7 +181,174 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-</section><!-- ##### END ABOUT #####-->
+</section>
+<!-- ##### END ABOUT #####-->
+<!-- ##### SERVICES #####-->
+<section class="space-top space-top-short-md" id="services">
+  <div class="root">
+    <div class="container carousel-header">
+      <h4 class="title-primary">Возможности PixInLink</h4>
+      <a class="btn-flat primary-text waves-effect view-all" href="#case-studies">
+        примеры<i class="material-icons icon">arrow_forward</i>
+      </a>
+    </div>
+    <div class="carousel-handle">
+      <div class="carousel-wrap">
+        <div class="carousel">
+          <div id="services_carousel" data-length="6">            
+            <!-- Card 1: URL-first API -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-url-ссылка-генерация);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">URL-first API</h6>
+                    <p class="use-text-paragraph">Вставляете ссылку в <img src=> — GigaChat генерирует картинку. Бэкенд не нужен.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="#case-studies">примеры</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2: GigaChat генерация -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-нейросеть-гигачат);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">Нейросеть GigaChat</h6>
+                    <p class="use-text-paragraph">Понимает русский контекст. При пиковой нагрузке — мгновенный фоллбэк на FLUX.1.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="#expertise">как работает</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3: 6 стилей -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-шесть-стилей-аниме);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">6 стилей генерации</h6>
+                    <p class="use-text-paragraph">Фотореализм, 3D, аниме, киберпанк. Переключается параметром &style= в URL.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="#case-studies">все стили</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4: CDN-доставка -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-cdn-серверная-доставка);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">CDN Yandex Cloud</h6>
+                    <p class="use-text-paragraph">140 точек в РФ и СНГ. TTFB меньше 100 мс. Кеш на 1 год.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="#expertise">технологии</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 5: WebP оптимизация -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-webp-сжатие-файл);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">WebP и AVIF</h6>
+                    <p class="use-text-paragraph">Картинка весит 50 КБ вместо 300 КБ. PageSpeed растёт автоматически.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="#testimonials">отзывы</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 6: Seed фиксация -->
+            <div class="item">
+              <div class="card product-card portrait over">
+                <a class="waves-effect hidden-link" href="#services">&nbsp;</a>
+                <div class="figure">
+                  <div class="responsive-img" style="background-image:url(https://pixinlink.ru/490x327/Иллюстрация-seed-фиксация-картинка);"></div>
+                </div>
+                <div class="desc">
+                  <div class="text">
+                    <h6 class="title pb-2 text-truncate">Immutable Seed</h6>
+                    <p class="use-text-paragraph">Параметр &seed=42 фиксирует результат. Обложка не изменится при перезагрузке.</p>
+                  </div>
+                  <div>
+                    <div class="property"></div>
+                    <a class="btn btn-outlined primary button block" href="register.html">попробовать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item show-lg-up">
+              <div class="carousel-prop">
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="floating-artwork">
+      <div class="container fixed-width">
+        <div class="artwork">
+          <div class="slider-art">
+            <div class="deco">
+              <div class="figure show-lg-up" id="art_services">
+                <div class="wow fadeInLeftShort" data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s">
+                  <div>
+                    <img class="img-2d3d" 
+                         src="https://pixinlink.ru/400x500/Иллюстрация-сервис-генерация-изображений" 
+                         loading="lazy" 
+                         alt="PixInLink сервис генерации изображений" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="arrow">
+            <button class="btn-floating margin" id="next_services">
+              <i class="material-icons">arrow_back</i>
+            </button>
+            <button class="btn-floating margin" id="prev_services">
+              <i class="material-icons">arrow_forward</i>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- ##### END SERVICES #####-->
 <section class="space-top space-top-short-md" id="services">
   <div class="root">
     <div class="container carousel-header">
