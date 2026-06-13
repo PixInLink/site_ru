@@ -874,6 +874,7 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 @media (min-width: 1280px) {
   #testimonials .floating-artwork {
     left: 24px;
+    top: -80px;
   }
 }
 
@@ -926,4 +927,79 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 
 #testimonials .slick-slide > div {
   overflow: visible !important;
+}
+
+/* ── Testimonial Card Component ── */
+.testi-card {
+  direction: ltr;
+  position: relative;
+}
+
+.testi-card .paper.card {
+  padding: 24px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50px 50px 50px 0;
+}
+
+.testi-card .paper.card p {
+  height: 130px;
+  overflow: hidden;
+}
+
+.testi-card .rating {
+  margin-top: 32px;
+}
+
+.testi-card .star-icon {
+  color: var(--v-accent-base, #ffc107);
+}
+
+.theme--light .testi-card .star-icon-disable {
+  color: rgba(0, 0, 0, 0.12);
+}
+
+.theme--dark .testi-card .star-icon-disable {
+  color: rgba(255, 255, 255, 0.12);
+}
+
+.testi-card .person {
+  display: flex;
+  margin-top: 24px;
+}
+
+.testi-card .person .avatar {
+  width: 55px;
+  height: 55px;
+}
+
+.testi-card .person .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.testi-card .person .name h6 {
+  font-weight: var(--font-medium, 500);
+  margin: 0;
+}
+
+.testi-card .person .caption {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.testi-card .avatar {
+  border: 4px solid #FFF;
+  box-sizing: content-box;
+  border-radius: 50%;
+}
+
+.theme--dark .testi-card .avatar {
+  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.2), 0px 1px 1px 0px rgba(50, 50, 50, 0.14), 0px 2px 1px -1px rgba(50, 50, 50, 0.12);
+}
+
+.theme--light .testi-card .avatar {
+  box-shadow: 0px 1px 3px 0px rgba(128, 128, 128, 0.2), 0px 1px 1px 0px rgba(128, 128, 128, 0.14), 0px 2px 1px -1px rgba(128, 128, 128, 0.12);
 }
