@@ -170,7 +170,7 @@ export function initSliders() {
 
   const $testi = $("#testimonial_carousel");
   if ($testi.length) {
-    const showSlide = 2;
+    const showSlide = 4;
     if (window.innerWidth > 1279) {
       const limit = window.innerWidth > 1400 ? 0 : 1;
       const lastSlide = Math.floor(Number($testi.data("length")) - showSlide + limit);
@@ -179,18 +179,26 @@ export function initSliders() {
 
     $testi.slick({
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: showSlide,
       arrows: false,
       slidesToScroll: 1,
+      variableWidth: true,
       responsive: [
         {
           breakpoint: 1100,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
+            infinite: true,
             dots: false,
+          },
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
           },
         },
         { breakpoint: 600, settings: { slidesToShow: 1 } },
