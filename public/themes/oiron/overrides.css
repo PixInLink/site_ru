@@ -901,3 +901,20 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
     margin-right: -40px;
   }
 }
+
+/* ── Testimonial quote icon: shift into card bounds to prevent slick-list clipping ── */
+#testimonials .testimonial-card {
+  padding-top: 80px;
+}
+
+#testimonials .testimonial-card .icon {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  background: var(--v-primary-base);
+}
