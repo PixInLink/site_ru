@@ -1255,3 +1255,41 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #case-studies .side-filter .filter a {
   user-select: none;
 }
+
+
+/* ── Testimonial quote card (homepage) ── */
+#testimonials .testimonial-card {
+  padding-top: 50px;
+}
+
+#testimonials .testimonial-card .icon {
+  position: absolute;
+  top: -50px;
+  left: 32px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  background: var(--v-primary-base);
+}
+
+/* Slick spacing for quote cards (homepage — when NO testi-card present) */
+#testimonials .slick-carousel:not(:has(.testi-card)) .slick-slide {
+  padding-top: 50px;
+  overflow: visible !important;
+}
+
+#testimonials .slick-carousel:not(:has(.testi-card)) .slick-slide > div {
+  overflow: visible !important;
+}
+
+/* For pages with testi-card (features, etc.) — keep overflow visible, no extra padding */
+#testimonials .slick-carousel:has(.testi-card) .slick-slide {
+  padding-top: 0;
+  overflow: visible !important;
+}
+
+#testimonials .slick-carousel:has(.testi-card) .slick-slide > div {
+  overflow: visible !important;
+}
