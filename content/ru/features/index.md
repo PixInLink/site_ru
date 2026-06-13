@@ -625,7 +625,7 @@ schema_type: "WebPage"
                   </div>
                 </div>
               </div>
-  <div class="tab-pane" id="tab-illustrations" style="display:none">
+  <div class="tab-pane" id="tab-illustrations">
                 <div class="col-sm-7 pa-3">
                   <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
                     <div class="item">
@@ -687,7 +687,7 @@ schema_type: "WebPage"
                   </div>
                 </div>
               </div>
-  <div class="tab-pane" id="tab-social" style="display:none">
+  <div class="tab-pane" id="tab-social">
                 <div class="col-sm-7 pa-3">
                   <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
                     <div class="item">
@@ -749,7 +749,7 @@ schema_type: "WebPage"
                   </div>
                 </div>
               </div>
-  <div class="tab-pane" id="tab-banners" style="display:none">
+  <div class="tab-pane" id="tab-banners">
                 <div class="col-sm-7 pa-3">
                   <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
                     <div class="item">
