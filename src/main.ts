@@ -228,8 +228,8 @@ export function initSliders() {
     $this.addClass("active");
 
     const group = $this.data("group");
-    $("#case_gallery .tab-pane").removeClass("active");
-    $(`#tab-${group}`).addClass("active");
+    $("#case_gallery .tab-pane").hide().removeClass("active");
+    $(`#tab-${group}`).show().addClass("active");
   });
 
   const $team = $("#about_team_carousel");
