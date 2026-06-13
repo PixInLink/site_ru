@@ -38,8 +38,10 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #testimonials .carousel .nav.next { position: absolute; right: -20px; top: 50%; transform: translateY(-50%); z-index: 1; }
 #testimonials .carousel .slick-carousel { width: 100%; overflow: hidden; }
 #testimonials .carousel .slick-carousel .slick-list { overflow-x: hidden !important; overflow-y: visible !important; }
+#testimonials .carousel .slick-carousel .slick-track { overflow: visible !important; }
 #testimonials .carousel .slick-carousel .slick-slide { overflow: visible !important; }
 #testimonials .carousel .slick-carousel .slick-slide > div { overflow: visible !important; }
+#testimonials .item { overflow: visible !important; }
 
 /* ── Footer counter ── */
 .footer-counter.extend { background: #F0FAFE; }
