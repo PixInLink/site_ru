@@ -990,3 +990,268 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 .theme--light .testi-card .avatar {
   box-shadow: 0px 1px 3px 0px rgba(128, 128, 128, 0.2), 0px 1px 1px 0px rgba(128, 128, 128, 0.14), 0px 2px 1px -1px rgba(128, 128, 128, 0.12);
 }
+
+
+/* ── Case Studies Section (agency theme) ── */
+#case-studies .root {
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 959px) {
+  #case-studies .root .nav {
+    display: flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
+}
+
+#case-studies .side-filter .nav {
+  background: none;
+}
+
+#case-studies .side-filter .collection {
+  border: none;
+}
+
+#case-studies .side-filter .filter {
+  border-radius: 8px;
+  text-transform: none;
+  margin-bottom: 8px;
+  width: 90%;
+  padding: 0;
+  min-height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#case-studies .side-filter .filter > a {
+  padding: 4px 16px 4px 16px;
+  display: block;
+  line-height: 32px;
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 959px) {
+  #case-studies .side-filter .filter > a {
+    text-align: center;
+  }
+}
+
+#case-studies .side-filter .active {
+  background: var(--v-primarylight-base);
+  color: var(--v-primarydark-base);
+}
+
+#case-studies .massonry button {
+  width: 100%;
+}
+
+/* Case Card */
+.case-card {
+  box-shadow: none;
+  max-height: 375px;
+  height: auto !important;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  position: relative;
+  text-transform: none !important;
+  padding: 0 !important;
+  background: var(--v-secondarylight-base) !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1280px) {
+  .case-card {
+    min-height: 148px;
+  }
+}
+
+.case-card .figure {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.case-card .figure img {
+  width: 100%;
+  left: -1px;
+  position: relative;
+}
+
+.case-card .title {
+  line-height: 22px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.case-card.small .title {
+  text-align: center;
+}
+
+.case-card.small .property {
+  text-align: center !important;
+  bottom: 0 !important;
+}
+
+.case-card.small .property .title {
+  display: block;
+}
+
+.case-card.big .property {
+  bottom: 0px;
+}
+
+@media (max-width: 1279px) {
+  .case-card.big .property {
+    text-align: center;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .case-card:hover .property {
+    background: var(--v-primary-base);
+    height: 100%;
+    bottom: 0px;
+    opacity: 1;
+  }
+  .case-card:hover .property p {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+
+.case-card .property {
+  transition: all 0.3s ease-out;
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  min-height: 170px;
+  padding: 24px 16px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #FFF;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(238, 238, 238, 0) 20%, #000 90%);
+  text-align: left;
+  left: 0;
+}
+
+.case-card .property .desc {
+  font-weight: var(--font-regular);
+  font-size: 16px;
+  white-space: normal;
+}
+
+@media (max-width: 1279px) {
+  .case-card .property {
+    padding: 8px;
+    text-align: center;
+    bottom: 0;
+  }
+  .case-card .property .desc {
+    display: none;
+  }
+}
+
+.case-card .property .title {
+  white-space: normal;
+}
+
+@media (min-width: 1280px) {
+  .case-card .property .title {
+    display: flex;
+  }
+}
+
+.case-card .property h6 {
+  color: #FFF;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+.case-card .property.full-hide {
+  background: none;
+  opacity: 0;
+}
+
+/* Case card image fit */
+.case-card .figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.case-card .figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Case gallery spacing */
+#case_gallery .pa-3 {
+  padding: 12px;
+}
+
+/* Side-filter heading */
+#case-studies .side-filter h4.title-primary {
+  margin-bottom: 16px;
+}
+
+#case-studies .side-filter p {
+  margin-bottom: 24px;
+}
+
+
+/* ── Case Studies tab switching ── */
+#case_gallery .tab-pane {
+  display: none;
+  width: 100%;
+}
+
+#case_gallery .tab-pane.active {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#case_gallery .tab-pane .col-sm-7 {
+  flex: 0 0 58.333%;
+  max-width: 58.333%;
+}
+
+#case_gallery .tab-pane .col-sm-5 {
+  flex: 0 0 41.667%;
+  max-width: 41.667%;
+}
+
+@media (max-width: 599px) {
+  #case_gallery .tab-pane .col-sm-7,
+  #case_gallery .tab-pane .col-sm-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Side filter navigation */
+#case_categories {
+  margin-top: 8px;
+}
+
+#case_categories .collection-item {
+  list-style: none;
+}
+
+#case-studies .side-filter .filter a {
+  user-select: none;
+}

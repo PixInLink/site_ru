@@ -219,6 +219,19 @@ export function initSliders() {
     $("#next_testi").off("click").on("click", () => $testi.slick("slickNext"));
   }
 
+
+  // Case Studies — tab switching
+  $("#case_categories").on("click", "li.filter", function () {
+    const $this = $(this);
+    if ($this.hasClass("active")) return;
+    $("#case_categories li.filter").removeClass("active");
+    $this.addClass("active");
+
+    const group = $this.data("group");
+    $("#case_gallery .tab-pane").removeClass("active");
+    $(`#tab-${group}`).addClass("active");
+  });
+
   const $team = $("#about_team_carousel");
   if ($team.length) {
     $team.slick({

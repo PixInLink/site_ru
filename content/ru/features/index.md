@@ -5,6 +5,7 @@ slug: "features"
 date: "2026-05-21"
 author: "PixInLink"
 layout: "page"
+raw_html: true
 schema_type: "WebPage"
 ---
 <main class="container-wrap">
@@ -548,87 +549,269 @@ schema_type: "WebPage"
         <div class="col-md-3 col-sm-12 px-10 pt-10 pb-md-10">
           <div class="wow fadeInLeftShort" data-offset="-100" data-delay="0.2s" data-duration="0.3s">
             <div class="side-filter">
-              <h4 class="title-primary">Попробуйте за 10 секунд</h4>
-              <p class="use-text-paragraph small">Откройте ссылки в новой вкладке или вставьте в код сайта. Изображение сгенерируется автоматически.</p>
+              <h4 class="title-primary">Примеры — варианты использования</h4>
+              <p class="use-text-paragraph small">Нажмите на карточку чтобы открыть оригинал. Изображения генерируются через PixInLink API.</p>
+              <ul class="collection nav" id="case_categories">
+                <li class="collection-item filter active" data-group="articles"><a class="waves-effect">Фото для статей</a></li>
+                <li class="collection-item filter" data-group="illustrations"><a class="waves-effect">Иллюстрации</a></li>
+                <li class="collection-item filter" data-group="social"><a class="waves-effect">Для соцсетей</a></li>
+                <li class="collection-item filter" data-group="banners"><a class="waves-effect">Баннеры и хедеры</a></li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-9 col-sm-12 pa-sm-6">
           <div class="massonry">
             <div class="row" id="case_gallery">
-              <div class="col-sm-7 pa-3">
-                <div class="wow fadeInUpShort" data-wow-delay="0.6s" data-wow-duration="0.4s">
-                  <div class="item">
-                    <a class="waves-effect case-card big" href="https://pixinlink.ru/800x400/Иллюстрация-офис-разработчиков?style=realistic" target="_blank">
-                      <span class="figure"><img src="https://pixinlink.ru/711x693/Иллюстрация-офис-разработчиков?style=realistic" loading="lazy" alt="Офис разработчиков, фотореализм"/></span>
-                      <span class="property">
-                        <span class="title">
-                          <span class="text">
-                            <span class="title">Фотореализм (800×400)</span>
-                            <span class="desc">Промпт на русском, стиль — реалистичная съёмка</span>
+  <div class="tab-pane active" id="tab-articles">
+                <div class="col-sm-7 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/600x600/coffee-cup-on-wooden-desk-morning-sunlight?style=realistic&seed=10" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/600x600/coffee-cup-on-wooden-desk-morning-sunlight?style=realistic&seed=10" loading="lazy" alt="Квадрат 600×600 — Чайная чашка на деревянном столе, утренний свет"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Квадрат 600×600</span>
+                              <span class="desc">Карточки статей в сетке, превью для ленты блога</span>
+                            </span>
                           </span>
                         </span>
-                      </span>
-                    </a>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/800x400/modern-office-workspace-with-laptop-and-notebook?style=realistic&seed=20" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/800x400/modern-office-workspace-with-laptop-and-notebook?style=realistic&seed=20" loading="lazy" alt="Горизонтальный 800×400 — Современный офис, ноутбук и блокнот"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Горизонтальный 800×400</span>
+                              <span class="desc">Заглавное фото статьи, широкая карточка в ленте</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
                   </div>
-                  <div class="item">
-                    <a class="waves-effect case-card big" href="https://pixinlink.ru/600x600/Иллюстрация-кот-космос?style=anime&amp;seed=42" target="_blank">
-                      <span class="figure"><img src="https://pixinlink.ru/713x460/Иллюстрация-кот-космос?style=anime&amp;seed=42" loading="lazy" alt="Кот в космосе, аниме"/></span>
-                      <span class="property">
-                        <span class="title">
-                          <span class="text">
-                            <span class="title">Аниме с фиксацией seed (600×600)</span>
-                            <span class="desc">Seed=42 — результат не изменится при повторном запросе</span>
+                </div>
+                <div class="col-sm-5 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.5s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/400x600/woman-reading-book-near-window-rainy-day?style=realistic&seed=30" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/400x600/woman-reading-book-near-window-rainy-day?style=realistic&seed=30" loading="lazy" alt="Вертикальный 400×600 — Девушка читает книгу у окна, дождливый день"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Вертикальный 400×600</span>
+                              <span class="desc">Превью для Telegram, Дзен, VK — вертикальный формат</span>
+                            </span>
                           </span>
                         </span>
-                      </span>
-                    </a>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/1200x400/mountain-landscape-sunset-orange-sky-silhouette?style=realistic&seed=40" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1200x400/mountain-landscape-sunset-orange-sky-silhouette?style=realistic&seed=40" loading="lazy" alt="Баннер 1200×400 — Горный пейзаж на закате, оранжевое небо, силуэты"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Баннер 1200×400</span>
+                              <span class="desc">Шапка блога, фон для заголовка статьи</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-5 pa-3">
-                <div class="wow fadeInUpShort" data-wow-delay="0.4s" data-wow-duration="0.4s">
-                  <div class="item">
-                    <a class="waves-effect case-card medium" href="https://pixinlink.ru/1200x630/Иллюстрация-горы-закат?style=3d" target="_blank">
-                      <span class="figure"><img src="https://pixinlink.ru/521x309/Иллюстрация-горы-закат?style=3d" loading="lazy" alt="Горный пейзаж на закате, 3D"/></span>
-                      <span class="property">
-                        <span class="title">
-                          <span class="text">
-                            <span class="title">Обложка для соцсетей (1200×630)</span>
-                            <span class="desc">Стандартный размер og:image, 3D-рендер</span>
+  <div class="tab-pane" id="tab-illustrations" style="display:none">
+                <div class="col-sm-7 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/600x600/orange-cat-astronaut-floating-in-space-nebula-background?style=illustration&seed=50" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/600x600/orange-cat-astronaut-floating-in-space-nebula-background?style=illustration&seed=50" loading="lazy" alt="Квадрат 600×600 — Рыжий кот-астронавт в открытом космосе, туманность"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Квадрат 600×600</span>
+                              <span class="desc">Иконки для разделов, аватарки для блога</span>
+                            </span>
                           </span>
                         </span>
-                      </span>
-                    </a>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/800x400/futuristic-city-skyline-neon-lights-rain-reflection?style=illustration&seed=60" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/800x400/futuristic-city-skyline-neon-lights-rain-reflection?style=illustration&seed=60" loading="lazy" alt="Горизонтальный 800×400 — Футуристический город, неоновые огни, отражение в дожде"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Горизонтальный 800×400</span>
+                              <span class="desc">Техно-абстракция для IT-статей и обзоров</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
                   </div>
-                  <div class="item">
-                    <a class="waves-effect case-card medium" href="https://pixinlink.ru/400x400/Иллюстрация-товар-фон?style=illustration" target="_blank">
-                      <span class="figure"><img src="https://pixinlink.ru/521x309/Иллюстрация-товар-фон?style=illustration" loading="lazy" alt="Товар на цветном фоне, иллюстрация"/></span>
-                      <span class="property">
-                        <span class="title">
-                          <span class="text">
-                            <span class="title">Карточка товара (400×400)</span>
-                            <span class="desc">Иллюстрация с мягкими градиентами для e-commerce</span>
+                </div>
+                <div class="col-sm-5 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.5s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/400x600/young-girl-with-backpack-walking-through-enchanted-forest?style=illustration&seed=70" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/400x600/young-girl-with-backpack-walking-through-enchanted-forest?style=illustration&seed=70" loading="lazy" alt="Вертикальный 400×600 — Девочка с рюкзаком идёт через волшебный лес"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Вертикальный 400×600</span>
+                              <span class="desc">Персонажная иллюстрация для лонгридов</span>
+                            </span>
                           </span>
                         </span>
-                      </span>
-                    </a>
-                  </div>
-                  <div class="item">
-                    <a class="waves-effect case-card medium" href="https://pixinlink.ru/1920x400/Иллюстрация-хедер-сайт?style=cyberpunk" target="_blank">
-                      <span class="figure"><img src="https://pixinlink.ru/521x309/Иллюстрация-хедер-сайт?style=cyberpunk" loading="lazy" alt="Хедер сайта, киберпанк"/></span>
-                      <span class="property">
-                        <span class="title">
-                          <span class="text">
-                            <span class="title">Широкий хедер (1920×400)</span>
-                            <span class="desc">Киберпанк-стиль для лендингов и промо-страниц</span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/1200x400/giant-robot-standing-on-cliff-overlooking-cyberpunk-city?style=illustration&seed=80" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1200x400/giant-robot-standing-on-cliff-overlooking-cyberpunk-city?style=illustration&seed=80" loading="lazy" alt="Баннер 1200×400 — Гигантский робот на скале с видом на киберпанк-город"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Баннер 1200×400</span>
+                              <span class="desc">Sci-fi панорама для шапки сайта или раздела</span>
+                            </span>
                           </span>
                         </span>
-                      </span>
-                    </a>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
+  <div class="tab-pane" id="tab-social" style="display:none">
+                <div class="col-sm-7 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/1080x1080/flatlay-desk-organizer-notebook-pen-phone?style=illustration&seed=90" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1080x1080/flatlay-desk-organizer-notebook-pen-phone?style=illustration&seed=90" loading="lazy" alt="Квадрат 1080×1080 — Flatlay: органайзер, блокнот, ручка, телефон"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Квадрат 1080×1080</span>
+                              <span class="desc">Instagram пост, квадратный формат для ленты</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/1200x630/business-team-collaboration-around-glass-table?style=illustration&seed=100" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1200x630/business-team-collaboration-around-glass-table?style=illustration&seed=100" loading="lazy" alt="Горизонтальный 1200×630 — Команда бизнесменов за стеклянным столом"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Горизонтальный 1200×630</span>
+                              <span class="desc">og:image — превью при шеринге в соцсети и мессенджеры</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.5s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/1080x1350/person-standing-on-mountain-peak-sunrise?style=illustration&seed=110" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1080x1350/person-standing-on-mountain-peak-sunrise?style=illustration&seed=110" loading="lazy" alt="Вертикальный 1080×1350 — Человек стоит на вершине горы на рассвете"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Вертикальный 1080×1350</span>
+                              <span class="desc">Instagram Stories, Reels — вертикальный формат 4:5</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/1500x500/abstract-gradient-blue-purple-waves?style=illustration&seed=120" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1500x500/abstract-gradient-blue-purple-waves?style=illustration&seed=120" loading="lazy" alt="Баннер 1500×500 — Абстрактный градиент: сине-фиолетовые волны"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Баннер 1500×500</span>
+                              <span class="desc">Twitter/Facebook cover, шапка профиля</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  <div class="tab-pane" id="tab-banners" style="display:none">
+                <div class="col-sm-7 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/1920x600/panoramic-view-of-forest-lake-morning-mist?style=realistic&seed=130" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1920x600/panoramic-view-of-forest-lake-morning-mist?style=realistic&seed=130" loading="lazy" alt="Хедер 1920×600 — Панорама лесного озера в утреннем тумане"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Хедер 1920×600</span>
+                              <span class="desc">Полноширинный хедер сайта на всю высоту экрана</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card big" href="https://pixinlink.ru/1920x400/dark-blue-tech-grid-with-glowing-lines-data-flow?style=illustration&seed=140" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/1920x400/dark-blue-tech-grid-with-glowing-lines-data-flow?style=illustration&seed=140" loading="lazy" alt="Хедер 1920×400 — Тёмно-синяя технологическая сетка со светящимися линиями"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Хедер 1920×400</span>
+                              <span class="desc">Узкий хедер для контентных страниц и лендингов</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-5 pa-3">
+                  <div class="wow fadeInUpShort" data-wow-delay="0.5s" data-wow-duration="0.4s">
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/728x90/sleek-ai-chip-on-circuit-board-close-up?style=illustration&seed=150" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/728x90/sleek-ai-chip-on-circuit-board-close-up?style=illustration&seed=150" loading="lazy" alt="Leaderboard 728×90 — AI-чип на печатной плате, макро"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Leaderboard 728×90</span>
+                              <span class="desc">Рекламный баннер для шапки сайта — горизонтальный</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a class="waves-effect case-card medium" href="https://pixinlink.ru/300x250/colorful-abstract-geometric-shapes-overlapping?style=illustration&seed=160" target="_blank">
+                        <span class="figure"><img src="https://pixinlink.ru/300x250/colorful-abstract-geometric-shapes-overlapping?style=illustration&seed=160" loading="lazy" alt="Medium Rectangle 300×250 — Яркие геометрические фигуры, перекрывающие друг друга"/></span>
+                        <span class="property">
+                          <span class="title">
+                            <span class="text">
+                              <span class="title">Medium Rectangle 300×250</span>
+                              <span class="desc">Сайдбар-баннер, врезка в текст статьи</span>
+                            </span>
+                          </span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
