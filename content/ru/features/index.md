@@ -524,6 +524,19 @@ schema_type: "WebPage"
         </div>
       </div>
     </div>
+    <div class="floating-artwork">
+      <div class="container fixed-width">
+        <div class="artwork">
+          <div class="slider-art">
+            <div class="deco">
+              <div class="figure show-lg-up" id="art_testimonials">
+                <div class="wow fadeInLeftShort" data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s"><img class="img-2d3d" src="/themes/oiron/images/agency/testimonials_3d@2x.png" data-2d="/themes/oiron/images/agency/testimonials_2d@2x.png" data-3d="/themes/oiron/images/agency/testimonials_3d@2x.png" alt="PixInLink отзывы пользователей"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <!-- ##### END TESTIMONIALS #####-->
@@ -644,20 +657,6 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
-  </div>
-  <div class="floating-artwork">
-    <div class="container fixed-width">
-      <div class="artwork">
-        <div class="slider-art">
-          <div class="deco">
-            <div class="figure show-lg-up" id="art_testimonials">
-              <div class="wow fadeInLeftShort" data-wow-offset="-60" data-wow-delay="0.3s" data-wow-duration="0.5s"><img class="img-2d3d" src="/themes/oiron/images/agency/testimonials_3d@2x.png" data-2d="/themes/oiron/images/agency/testimonials_2d@2x.png" data-3d="/themes/oiron/images/agency/testimonials_3d@2x.png" alt="PixInLink отзывы пользователей"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- ##### END CALL ACTION #####-->
 </main>
