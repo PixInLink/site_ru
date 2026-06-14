@@ -138,13 +138,13 @@ schema_type: "WebPage"
             <div class="deco deco-1"></div>
             <div class="deco deco-2"></div>
             <figure class="img big">
-               <img src="/themes/oiron/images/agency/services_3d@2x.png" loading="lazy" alt="Быстрая генерация изображений через нейросеть GigaChat" />
+               <img src="/themes/oiron/images/marketing/services_3d@2x.png" loading="lazy" alt="Быстрая генерация изображений через нейросеть GigaChat" />
              </figure>
              <figure class="img medium">
-               <img src="/themes/oiron/images/agency/about_3d@2x.png" loading="lazy" alt="Шесть стилей генерации от фотореализма до аниме" />
+               <img src="/themes/oiron/images/marketing/about_3d@2x.png" loading="lazy" alt="Шесть стилей генерации от фотореализма до аниме" />
              </figure>
              <figure class="img small">
-               <img src="/themes/oiron/images/agency/team_3d@2x.png" loading="lazy" alt="CDN доставка через 140 точек Yandex Cloud" />
+               <img src="/themes/oiron/images/marketing/team_3d@2x.png" loading="lazy" alt="CDN доставка через 140 точек Yandex Cloud" />
              </figure>
             <div class="deco deco-3"></div>
             <div class="deco deco-4"></div>
