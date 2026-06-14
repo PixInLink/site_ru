@@ -170,10 +170,15 @@ export function initSliders() {
 
   const $testi = $("#testimonial_carousel");
   if ($testi.length) {
-    const showSlide = 4;
+    // Features page uses testi-card (agency theme cards, variableWidth),
+    // homepage uses testimonial-card (quote style, fixed slidesToShow).
+    const isAgencyCards = $testi.find(".testi-card").length > 0;
+    const showSlide = isAgencyCards ? 4 : 2;
+
     if (window.innerWidth > 1279) {
+      const len = Number($testi.data("length")) || 6;
       const limit = window.innerWidth > 1400 ? 0 : 1;
-      const lastSlide = Math.floor(Number($testi.data("length")) - showSlide + limit);
+      const lastSlide = Math.floor(len - showSlide + limit);
       setTimeout(() => $testi.slick("slickGoTo", lastSlide), 100);
     }
 
@@ -184,7 +189,7 @@ export function initSliders() {
       slidesToShow: showSlide,
       arrows: false,
       slidesToScroll: 1,
-      variableWidth: true,
+      variableWidth: isAgencyCards,
       responsive: [
         {
           breakpoint: 1100,
@@ -193,12 +198,6 @@ export function initSliders() {
             slidesToScroll: 1,
             infinite: true,
             dots: false,
-          },
-        },
-        {
-          breakpoint: 800,
-          settings: {
-            slidesToShow: 2,
           },
         },
         { breakpoint: 600, settings: { slidesToShow: 1 } },
