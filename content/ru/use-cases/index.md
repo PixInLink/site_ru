@@ -129,66 +129,66 @@ schema_type: "WebPage"
   </div>
 </section><!-- ##### END BANNER #####-->
 <!-- ##### ABOUT #####-->
-<section class="space-top space-top-short-sm" id="about">
-  <div class="root">
-    <div class="container fixed-width">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">
-          <div class="puzzle">
-            <div class="deco deco-1"></div>
-            <div class="deco deco-2"></div>
-            <figure class="img big">
-               <img src="/themes/oiron/images/marketing/services_3d@2x.png" loading="lazy" alt="Быстрая генерация изображений через нейросеть GigaChat" />
-             </figure>
-             <figure class="img medium">
-               <img src="/themes/oiron/images/marketing/about_3d@2x.png" loading="lazy" alt="Шесть стилей генерации от фотореализма до аниме" />
-             </figure>
-             <figure class="img small">
-               <img src="/themes/oiron/images/marketing/team_3d@2x.png" loading="lazy" alt="CDN доставка через 140 точек Yandex Cloud" />
-             </figure>
-            <div class="deco deco-3"></div>
-            <div class="deco deco-4"></div>
-            <div class="deco deco-5"></div>
-          </div>
-        </div>
-        <div class="col-md-5 col-sm-12 px-0">
-          <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
-          <p>Раньше на 10 картинок к статье уходило 2 часа: нейросеть, Photoshop, FTP, CMS. Теперь вы вставляете URL — GigaChat генерирует, Sharp сжимает в WebP, Yandex CDN раздаёт за 100 мс. Изменение одного символа в ссылке — и получается новое изображение.</p>
-          <div class="counter-wrap">
-            <div class="container">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-sm-4 col">
-                  <div class="counter-item-home">
-                    <div class="text">
-                      <h3 class="use-text-title primary-line">100 мс</h3>
-                      <p class="use-text-subtitle2">TTFB доставки</p>
+            <section class="space-top space-top-short-sm" id="about">
+              <div class="root">
+                <div class="container fixed-width">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">
+                      <div class="puzzle">
+                        <div class="deco deco-1"></div>
+                        <div class="deco deco-2"></div>
+                        <figure class="img big">
+                          <img src="/themes/oiron/images/marketing/services_3d@2x.png" alt="Быстрая генерация изображений через нейросеть GigaChat" />
+                        </figure>
+                        <figure class="img medium">
+                          <img src="/themes/oiron/images/marketing/about_3d@2x.png" alt="Шесть стилей генерации от фотореализма до аниме" />
+                        </figure>
+                        <figure class="img small">
+                          <img src="/themes/oiron/images/marketing/team_3d@2x.png" alt="CDN доставка через 140 точек Yandex Cloud" />
+                        </figure>
+                        <div class="deco deco-3"></div>
+                        <div class="deco deco-4"></div>
+                        <div class="deco deco-5"></div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 col">
-                  <div class="counter-item-home">
-                    <div class="text">
-                      <h3 class="use-text-title secondary-line">6 стилей</h3>
-                      <p class="use-text-subtitle2">генерации</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4 col">
-                  <div class="counter-item-home">
-                    <div class="text">
-                      <h3 class="use-text-title accent-line">140 точек</h3>
-                      <p class="use-text-subtitle2">CDN в РФ и СНГ</p>
+                    <div class="col-md-5 col-sm-12 px-0">
+                      <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
+                      <p>Раньше на 10 картинок к статье уходило 2 часа: нейросеть, Photoshop, FTP, CMS. Теперь вы вставляете URL — GigaChat генерирует, Sharp сжимает в WebP, Yandex CDN раздаёт за 100 мс. Изменение одного символа в ссылке — и получается новое изображение.</p>
+                      <div class="counter-wrap">
+                        <div class="container">
+                          <div class="row justify-content-center align-items-center">
+                            <div class="col-sm-4 col">
+                              <div class="counter-item-home">
+                                <div class="text">
+                                  <h3 class="use-text-title primary-line">100 мс</h3>
+                                  <p class="use-text-subtitle2">TTFB доставки</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4 col">
+                              <div class="counter-item-home">
+                                <div class="text">
+                                  <h3 class="use-text-title secondary-line">6 стилей</h3>
+                                  <p class="use-text-subtitle2">генерации</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4 col">
+                              <div class="counter-item-home">
+                                <div class="text">
+                                  <h3 class="use-text-title accent-line">140 точек</h3>
+                                  <p class="use-text-subtitle2">CDN в РФ и СНГ</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- ##### END ABOUT #####-->
+            </section><!-- ##### END ABOUT #####-->
   <!-- ВАРИАНТЫ ИНТЕГРАЦИИ (Block 2A адаптированный в 2 колонки) -->
   <div class="container page-section" id="cases-grid">
     <div class="row mb-5">
