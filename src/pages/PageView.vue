@@ -50,10 +50,10 @@ watch(page, (newPage) => {
 <template>
   <template v-if="page">
     <template v-if="page.rawHtml">
-      <main v-html="page.rawHtml" />
+      <div v-html="page.rawHtml" />
     </template>
     <template v-else-if="isRawHtml">
-      <main v-html="page.html" />
+      <div v-html="page.html" />
     </template>
     <template v-else>
       <PageBanner :pageTitle="page.frontmatter.title" />
