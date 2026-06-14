@@ -7,7 +7,9 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-  <!-- ХЕДЕР ДОКУМЕНТАЦИИ -->
+<main class="container-wrap">
+
+<!-- ХЕДЕР ДОКУМЕНТАЦИИ -->
   <div class="container mt-5 pt-5 mb-4" id="api-header">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 text-left">
@@ -377,3 +379,4 @@ Authorization: Bearer pk_live_вашключ</code></pre>
       </div>
     </div>
   </div>
+</main>

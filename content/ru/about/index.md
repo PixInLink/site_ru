@@ -9,6 +9,8 @@ schema_type: "AboutPage"
 cover_image: "https://pixinlink.ru/images/logo-saas.png"
 raw_html: true
 ---
+<main class="container-wrap">
+
 <!-- ##### BANNER #####-->
 <div class="hero-banner-wrap">
   <div class="inner-deco">
@@ -355,3 +357,4 @@ raw_html: true
     </div>
   </div>
 </div><!-- ##### END PHOTO SLIDER #####-->
+</main>

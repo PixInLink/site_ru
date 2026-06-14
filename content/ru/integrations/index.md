@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <!-- HERO: Введение в интеграции PixInLink -->
 <div class="banner-basic">
   <div class="banner-wrap">
@@ -382,3 +384,4 @@ url = client.generate(
     </div>
   </div>
 </div>
+</main>

@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 ﻿  <!-- HERO: Поисковый баннер (Block 1C) -->
   <section class="search-banner page-section pb-3" style="background-color: #f5f5f5;">
     <div class="container max-md">
@@ -234,3 +236,4 @@ schema_type: "WebPage"
     </div>
   </div>
   <!-- JSON-LD SEO Разметка -->
+</main>

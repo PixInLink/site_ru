@@ -8,6 +8,8 @@ layout: "page"
 schema_type: "ContactPage"
 cover_image: "https://pixinlink.ru/images/logo-saas.png"
 ---
+<main class="container-wrap">
+
 <div class="banner-basic mb-5">
   <div class="banner-wrap">
     <div class="inner">
@@ -93,3 +95,4 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
 (блок: cta)
 ## Остались вопросы?
 Напишите на [info@pixinlink.ru](mailto:info@pixinlink.ru) — ответим в течение 24 часов.
+</main>

@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 ﻿<!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="social-media-header">
   <div class="row">
@@ -1078,3 +1080,4 @@ bot.polling()</pre>
     </div>
   </div>
 </div>
+</main>

@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <!-- HERO: Тарифы PixInLink -->
 <div class="space-top-short">
   <div class="container-general">
@@ -394,3 +396,4 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
+</main>

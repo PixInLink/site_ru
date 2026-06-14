@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 ﻿  <!-- ХЕДЕР ДОКУМЕНТАЦИИ (GETTING STARTED) -->
   <div class="container mt-5 pt-5 mb-4" id="docs-header">
     <div class="row">
@@ -303,3 +305,4 @@ register = template.Library()
     </div>
   </div>
   <!-- JSON-LD SEO Разметка (HowTo + BreadcrumbList) -->
+</main>

@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <div class="container page-section max-md">
   <div class="row">
     <div class="col-12">
@@ -41,3 +43,4 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
+</main>

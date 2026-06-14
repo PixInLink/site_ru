@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 ﻿<!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="open-graph-header">
   <div class="row">
@@ -881,3 +883,4 @@ og_image = (
     </div>
   </div>
 </div>
+</main>

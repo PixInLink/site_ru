@@ -10,6 +10,8 @@ schema_type: "Article"
 layout: "article"
 cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle-comparison"
 ---
+<main class="container-wrap">
+
 <p>Если вам нужно создавать изображения вручную одно за другим для художественных проектов — это про Midjourney. Если интегрировать генерацию в ChatGPT — это DALL-E. Если автоматизировать изображения для сайта, блога и <code>og:image</code> через один URL — это PixInLink. Статья разберёт все три по 16 критериям с реальными ценами и примерами кода.</p>
 <h3>TL;DR — Для тех кто спешит</h3>
 <table class="highlight striped">
@@ -114,3 +116,4 @@ with open("image.png", "wb") as f:
 (блок: cta)
 ## Хватит читать — пора тестировать
 Вставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Получить 50 генераций бесплатно](https://app.pixinlink.ru/register)
+</main>

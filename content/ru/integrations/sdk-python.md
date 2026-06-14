@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="sdk-python-header">
   <div class="row">
@@ -758,3 +760,4 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
     </div>
   </div>
 </div>
+</main>

@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="wp-header">
   <div class="row">
@@ -823,3 +825,4 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
     </div>
   </div>
 </div>
+</main>

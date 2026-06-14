@@ -7,6 +7,7 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+ <main class="container-wrap">
 ﻿  <!-- HERO: Сценарии использования -->
   <div class="banner-basic">
     <div class="banner-wrap">
@@ -307,3 +308,4 @@ schema_type: "WebPage"
     </div>
   </div>
   <!-- JSON-LD SEO Разметка -->
+   </main>

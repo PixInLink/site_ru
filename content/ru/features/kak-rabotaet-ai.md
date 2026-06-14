@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="how-ai-works-header">
   <div class="row">
@@ -733,3 +735,4 @@ seed = crc32(slug) % 2147483647
     </div>
   </div>
 </div>
+</main>

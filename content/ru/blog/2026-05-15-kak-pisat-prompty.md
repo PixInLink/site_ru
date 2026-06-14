@@ -10,6 +10,8 @@ schema_type: "Article"
 layout: "article"
 cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-pisat-prompty-ai-images-guide"
 ---
+<main class="container-wrap">
+
 <p>В этом руководстве мы разберем, как составить идеальный промпт для генерации AI-изображений через URL-запросы в PixInLink. Вы узнаете, как работают стили, почему важен контекст и как избежать типичных ошибок. В PixInLink промпты работают прямо в URL — вы просто вставляете ссылку в тег <code>&lt;img src=""&gt;</code> вашего сайта, и изображение генерируется на лету.</p>
 <p>Попробуйте прямо сейчас:</p>
 <pre><code>https://pixinlink.ru/api/v1/800x400/рыжая-кошка-на-подоконнике-солнечный-свет</code></pre>
@@ -107,3 +109,4 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-pisat-prompty-ai-images-g
 (блок: cta)
 ## Хватит читать — пора тестировать
 Вставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Попробовать бесплатно](https://app.pixinlink.ru/register)
+</main>

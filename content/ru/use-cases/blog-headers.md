@@ -7,6 +7,8 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
+<main class="container-wrap">
+
 ﻿<!-- SEO META & CANONICAL -->
 <!-- 
   Title: Изображения для блога без дизайнера — PixInLink
@@ -308,3 +310,4 @@ schema_type: "WebPage"
   </div>
 </div>
 <!-- JSON-LD SEO РАЗМЕТКА -->
+</main>
