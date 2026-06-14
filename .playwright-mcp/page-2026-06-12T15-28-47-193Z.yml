@@ -1,0 +1,634 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [active] [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e624]:
+    - main [ref=e625]:
+      - generic [ref=e629]:
+        - generic [ref=e637]:
+          - generic [ref=e641]:
+            - generic [ref=e643]:
+              - heading [level=4] [ref=e644]: Быстрый старт для сайтов, лендингов и SEO-страниц.
+              - heading [level=5] [ref=e645]: PixInLink подходит для Open Graph, статей, карточек товаров и любых шаблонов, где нужно вставить уникальное изображение по ссылке без лишней ручной работы.
+              - generic [ref=e646]:
+                - link [ref=e647] [cursor=pointer]:
+                  - /url: /use-cases/open-graph
+                  - text: Смотреть кейсы
+                - link [ref=e648] [cursor=pointer]:
+                  - /url: /features/url-api
+                  - text: Открыть API
+            - img [ref=e651]
+          - generic [ref=e653]:
+            - img "Фоновое изображение облачной инфраструктуры" [ref=e655]
+            - generic [ref=e657]:
+              - generic [ref=e659]:
+                - 'heading "AI-генератор изображений по URL: одна строка кода вместо дизайнера." [level=4] [ref=e660]'
+                - heading "PixInLink генерирует картинку через нейросеть, обрезает и оптимизирует в WebP." [level=5] [ref=e661]
+                - generic [ref=e662]:
+                  - link "Документация API" [ref=e663] [cursor=pointer]:
+                    - /url: /features/url-api
+                  - link "Попробовать бесплатно" [ref=e664] [cursor=pointer]:
+                    - /url: /pricing
+              - img "banner 1 3D" [ref=e666]
+          - generic [ref=e670]:
+            - generic [ref=e672]:
+              - heading [level=4] [ref=e673]: Изображение появляется само — без регистрации и без дизайнера.
+              - heading [level=5] [ref=e674]: Просто вставьте готовый URL в img src, WordPress или любую CMS. Первый запрос генерируется нейросетью, а повторные отдаются из CDN почти мгновенно.
+              - generic [ref=e675]:
+                - link [ref=e676] [cursor=pointer]:
+                  - /url: /features/kak-rabotaet-ai
+                  - text: Как это работает
+                - link [ref=e677] [cursor=pointer]:
+                  - /url: /docs/getting-started
+                  - text: Начать за 60 секунд
+            - img [ref=e679]
+          - generic [ref=e683]:
+            - generic [ref=e685]:
+              - heading [level=4] [ref=e686]: Быстрый старт для сайтов, лендингов и SEO-страниц.
+              - heading [level=5] [ref=e687]: PixInLink подходит для Open Graph, статей, карточек товаров и любых шаблонов, где нужно вставить уникальное изображение по ссылке без лишней ручной работы.
+              - generic [ref=e688]:
+                - link [ref=e689] [cursor=pointer]:
+                  - /url: /use-cases/open-graph
+                  - text: Смотреть кейсы
+                - link [ref=e690] [cursor=pointer]:
+                  - /url: /features/url-api
+                  - text: Открыть API
+            - img [ref=e693]
+          - generic [ref=e695]:
+            - img [ref=e697]
+            - generic [ref=e699]:
+              - generic [ref=e701]:
+                - heading [level=4] [ref=e702]: "AI-генератор изображений по URL: одна строка кода вместо дизайнера."
+                - heading [level=5] [ref=e703]: PixInLink генерирует картинку через нейросеть, обрезает и оптимизирует в WebP.
+                - generic [ref=e704]:
+                  - link [ref=e705] [cursor=pointer]:
+                    - /url: /features/url-api
+                    - text: Документация API
+                  - link [ref=e706] [cursor=pointer]:
+                    - /url: /pricing
+                    - text: Попробовать бесплатно
+              - img [ref=e708]
+          - generic [ref=e712]:
+            - generic [ref=e714]:
+              - heading [level=4] [ref=e715]: Изображение появляется само — без регистрации и без дизайнера.
+              - heading [level=5] [ref=e716]: Просто вставьте готовый URL в img src, WordPress или любую CMS. Первый запрос генерируется нейросетью, а повторные отдаются из CDN почти мгновенно.
+              - generic [ref=e717]:
+                - link [ref=e718] [cursor=pointer]:
+                  - /url: /features/kak-rabotaet-ai
+                  - text: Как это работает
+                - link [ref=e719] [cursor=pointer]:
+                  - /url: /docs/getting-started
+                  - text: Начать за 60 секунд
+            - img [ref=e721]
+          - generic [ref=e725]:
+            - generic [ref=e727]:
+              - heading [level=4] [ref=e728]: Быстрый старт для сайтов, лендингов и SEO-страниц.
+              - heading [level=5] [ref=e729]: PixInLink подходит для Open Graph, статей, карточек товаров и любых шаблонов, где нужно вставить уникальное изображение по ссылке без лишней ручной работы.
+              - generic [ref=e730]:
+                - link [ref=e731] [cursor=pointer]:
+                  - /url: /use-cases/open-graph
+                  - text: Смотреть кейсы
+                - link [ref=e732] [cursor=pointer]:
+                  - /url: /features/url-api
+                  - text: Открыть API
+            - img [ref=e735]
+        - navigation [ref=e739]:
+          - generic [ref=e740] [cursor=pointer]:
+            - strong [ref=e741]: Первый слайд
+            - text: AI-генерация изображений по URL
+          - separator [ref=e742]
+          - generic [ref=e743] [cursor=pointer]:
+            - strong [ref=e744]: Второй слайд
+            - text: Без регистрации и без дизайнера
+          - separator [ref=e745]
+          - generic [ref=e746] [cursor=pointer]:
+            - strong [ref=e747]: Третий слайд
+            - text: Кейсы, Open Graph и CMS
+      - generic [ref=e749]:
+        - generic:
+          - generic:
+            - link "keyboard_arrow_left" [ref=e750] [cursor=pointer]:
+              - /url: "#!"
+              - generic [ref=e751]: keyboard_arrow_left
+            - link "keyboard_arrow_right" [ref=e752] [cursor=pointer]:
+              - /url: "#!"
+              - generic [ref=e753]: keyboard_arrow_right
+        - generic [ref=e754]:
+          - generic [ref=e757]:
+            - generic [ref=e760]:
+              - generic [ref=e764]: 
+              - generic [ref=e766]:
+                - heading [level=1] [ref=e767]:
+                  - link [ref=e768] [cursor=pointer]:
+                    - /url: /integrations/
+                    - generic [ref=e769]: WordPress, MODX, Python, JavaScript
+                - paragraph [ref=e770]: Готовые плагины для популярных CMS и SDK для разработчиков. Интеграция занимает ровно одну строку кода.
+                - heading [level=6] [ref=e772]: Документация и примеры на сайте
+            - generic [ref=e775]:
+              - generic [ref=e779]: 
+              - generic [ref=e781]:
+                - heading "URL API — генерация изображений без бэкенда" [level=1] [ref=e782]:
+                  - link "URL API — генерация изображений без бэкенда" [ref=e783] [cursor=pointer]:
+                    - /url: /features/url-api/
+                    - generic [ref=e784]: URL API — генерация изображений без бэкенда
+                - paragraph [ref=e785]: Вставьте описание прямо в URL тега img — и изображение появится само. Никаких REST-запросов, токенов и сложных SDK.
+                - 'heading "Бесплатно: 12 изображений без водяного знака" [level=6] [ref=e787]'
+            - generic [ref=e790]:
+              - generic [ref=e794]: 
+              - generic [ref=e796]:
+                - heading [level=1] [ref=e797]:
+                  - link [ref=e798] [cursor=pointer]:
+                    - /url: /pricing/
+                    - generic [ref=e799]: Тарифы от 300 ₽ в месяц
+                - paragraph [ref=e800]: Платите только за то, что используете. Цена снижается с ростом объёма. Без скрытых платежей и абонентской платы.
+                - heading [level=6] [ref=e802]: Оплата картами РФ, счета для юрлиц
+            - generic [ref=e805]:
+              - generic [ref=e809]: 
+              - generic [ref=e811]:
+                - heading [level=1] [ref=e812]:
+                  - link [ref=e813] [cursor=pointer]:
+                    - /url: /integrations/
+                    - generic [ref=e814]: WordPress, MODX, Python, JavaScript
+                - paragraph [ref=e815]: Готовые плагины для популярных CMS и SDK для разработчиков. Интеграция занимает ровно одну строку кода.
+                - heading [level=6] [ref=e817]: Документация и примеры на сайте
+            - generic [ref=e820]:
+              - generic [ref=e824]: 
+              - generic [ref=e826]:
+                - heading [level=1] [ref=e827]:
+                  - link [ref=e828] [cursor=pointer]:
+                    - /url: /features/url-api/
+                    - generic [ref=e829]: URL API — генерация изображений без бэкенда
+                - paragraph [ref=e830]: Вставьте описание прямо в URL тега img — и изображение появится само. Никаких REST-запросов, токенов и сложных SDK.
+                - heading [level=6] [ref=e832]: "Бесплатно: 12 изображений без водяного знака"
+            - generic [ref=e835]:
+              - generic [ref=e839]: 
+              - generic [ref=e841]:
+                - heading [level=1] [ref=e842]:
+                  - link [ref=e843] [cursor=pointer]:
+                    - /url: /pricing/
+                    - generic [ref=e844]: Тарифы от 300 ₽ в месяц
+                - paragraph [ref=e845]: Платите только за то, что используете. Цена снижается с ростом объёма. Без скрытых платежей и абонентской платы.
+                - heading [level=6] [ref=e847]: Оплата картами РФ, счета для юрлиц
+            - generic [ref=e850]:
+              - generic [ref=e854]: 
+              - generic [ref=e856]:
+                - heading [level=1] [ref=e857]:
+                  - link [ref=e858] [cursor=pointer]:
+                    - /url: /integrations/
+                    - generic [ref=e859]: WordPress, MODX, Python, JavaScript
+                - paragraph [ref=e860]: Готовые плагины для популярных CMS и SDK для разработчиков. Интеграция занимает ровно одну строку кода.
+                - heading [level=6] [ref=e862]: Документация и примеры на сайте
+          - img [ref=e864]
+          - img [ref=e874]
+      - generic [ref=e884]:
+        - img "Преимущества PixInLink" [ref=e886]
+        - generic [ref=e889]:
+          - paragraph [ref=e891]: генерация pixinlink
+          - generic [ref=e892]:
+            - generic:
+              - generic [ref=e894] [cursor=pointer]: keyboard_arrow_left
+              - generic [ref=e896] [cursor=pointer]: keyboard_arrow_right
+            - generic [ref=e897]:
+              - generic [ref=e899]:
+                - tabpanel [ref=e900]:
+                  - generic [ref=e901]:
+                    - figure:
+                      - img "светлый офис"
+                - tabpanel [ref=e902]
+                - tabpanel [ref=e904]
+                - tabpanel [ref=e906]
+                - tabpanel [ref=e908]
+                - tabpanel [ref=e910]
+              - tablist [ref=e912]:
+                - tab "1 of 6" [selected] [ref=e913] [cursor=pointer]: • 1
+                - tab "2 of 6" [ref=e914] [cursor=pointer]: • 2
+                - tab "3 of 6" [ref=e915] [cursor=pointer]: • 3
+                - tab "4 of 6" [ref=e916] [cursor=pointer]: • 4
+                - tab "5 of 6" [ref=e917] [cursor=pointer]: • 5
+                - tab "6 of 6" [ref=e918] [cursor=pointer]: • 6
+      - generic [ref=e920]:
+        - generic [ref=e922]:
+          - generic [ref=e926]:
+            - figure [ref=e927]:
+              - img [ref=e928]
+              - img "Фоновое изображение облачной инфраструктуры" [ref=e937]
+            - generic [ref=e938]:
+              - paragraph [ref=e939]: Создайте
+              - heading "Гибкая интеграция по URL" [level=4] [ref=e940]
+          - generic [ref=e943]:
+            - figure [ref=e944]:
+              - img [ref=e945]
+              - img "Фоновое изображение облачной инфраструктуры" [ref=e954]
+            - generic [ref=e955]:
+              - paragraph [ref=e956]: Умное развертывание
+              - heading "Надёжная доставка и масштабирование" [level=4] [ref=e957]
+        - generic [ref=e961]:
+          - list [ref=e963]:
+            - listitem [ref=e964]:
+              - generic [ref=e966]:
+                - generic [ref=e967]:
+                  - strong [ref=e968]: Быстрый placeholder
+                  - paragraph [ref=e969]: Показывайте изображение мгновенно, пока генерация выполняется.
+                - img "Быстрый placeholder" [ref=e971]
+            - listitem [ref=e972]:
+              - generic [ref=e974]:
+                - generic [ref=e975]:
+                  - strong [ref=e976]: Простая интеграция
+                  - paragraph [ref=e977]: Подключайте генерацию через URL, API и готовые сценарии для сайта.
+                - img "Простая интеграция" [ref=e979]
+            - listitem [ref=e980]:
+              - generic [ref=e982]:
+                - generic [ref=e983]:
+                  - strong [ref=e984]: Стабильная инфраструктура
+                  - paragraph [ref=e985]: Работайте через CDN, кеширование и облачную доставку без лишних задержек.
+                - img "Стабильная инфраструктура" [ref=e987]
+          - list [ref=e989]:
+            - listitem [ref=e990]:
+              - generic [ref=e992]:
+                - img "Прогнозируемая загрузка" [ref=e994]
+                - generic [ref=e995]:
+                  - strong [ref=e996]: Прогнозируемая загрузка
+                  - paragraph [ref=e997]: Сервис готов к росту трафика и частым запросам.
+            - listitem [ref=e998]:
+              - generic [ref=e1000]:
+                - img "Удобно для бизнеса" [ref=e1002]
+                - generic [ref=e1003]:
+                  - strong [ref=e1004]: Удобно для бизнеса
+                  - paragraph [ref=e1005]: Подходит для лендингов, блогов, SaaS и контент-проектов.
+            - listitem [ref=e1006]:
+              - generic [ref=e1008]:
+                - img "Ответственный AI-подход" [ref=e1010]
+                - generic [ref=e1011]:
+                  - strong [ref=e1012]: Ответственный AI-подход
+                  - paragraph [ref=e1013]: Поддерживайте watermark, лимиты и безопасные настройки для пользователей.
+      - generic [ref=e1015]:
+        - generic [ref=e1017]:
+          - generic [ref=e1018]:
+            - paragraph [ref=e1019]: ПОЧЕМУ МЫ ВЫИГРЫВАЕМ У РУЧНОЙ РАБОТЫ
+            - heading "Технологии уровня Enterprise в одной ссылке" [level=4] [ref=e1020]
+            - paragraph [ref=e1021]: Забудьте о ручном поиске на стоках и медленном скачивании файлов. PixInLink автоматизирует весь цикл создания визуала.
+          - generic [ref=e1022]:
+            - generic [ref=e1024]:
+              - figure [ref=e1025]:
+                - img "Кэш CDN и скорость" [ref=e1026]
+              - heading "< 100 мс отдача из кэша" [level=6] [ref=e1027]
+              - paragraph [ref=e1028]: Первая генерация занимает ~8 секунд. Все последующие загрузки мгновенны благодаря Yandex Cloud CDN (140+ точек присутствия).
+            - generic [ref=e1030]:
+              - figure [ref=e1031]:
+                - img "Уникальная генерация" [ref=e1032]
+              - heading "100% уникальность" [level=6] [ref=e1033]
+              - paragraph [ref=e1034]: Каждый URL запускает генерацию с нуля через Kandinsky 3.1 или FLUX.1. Никаких дублей в поисковой выдаче и проблем с авторскими правами.
+            - generic [ref=e1036]:
+              - figure [ref=e1037]:
+                - img "Оптимизация WebP" [ref=e1038]
+              - heading "В 6 раз легче, чем JPEG" [level=6] [ref=e1039]
+              - paragraph [ref=e1040]: Автоматическая оптимизация «на лету» (WebP/AVIF по умолчанию, quality=85). Идеально для PageSpeed и SEO.
+            - generic [ref=e1042]:
+              - figure [ref=e1043]:
+                - img "Стили генерации" [ref=e1044]
+              - heading "6 стилей генерации" [level=6] [ref=e1045]
+              - paragraph [ref=e1046]:
+                - text: "Управляйте эстетикой через URL:"
+                - code [ref=e1047]: realistic
+                - text: ","
+                - code [ref=e1048]: illustration
+                - text: ","
+                - code [ref=e1049]: 3d
+                - text: ","
+                - code [ref=e1050]: pixel-art
+                - text: ","
+                - code [ref=e1051]: cyberpunk
+                - text: ","
+                - code [ref=e1052]: anime
+                - text: .
+            - generic [ref=e1054]:
+              - figure [ref=e1055]:
+                - img "Бесплатный тариф" [ref=e1056]
+              - heading "12 изображений — 0 ₽" [level=6] [ref=e1057]
+              - paragraph [ref=e1058]: Бесплатный тариф для зарегистрированных пользователей. Без водяного знака, без привязки карты.
+            - generic [ref=e1060]:
+              - figure [ref=e1061]:
+                - img "Соответствие 152-ФЗ" [ref=e1062]
+              - heading "Соответствие 152-ФЗ" [level=6] [ref=e1063]
+              - paragraph [ref=e1064]: Вся инфраструктура (Yandex Managed Services, GPU-воркеры Selectel) и данные физически находятся на территории РФ.
+        - generic [ref=e1066]:
+          - generic [ref=e1068]:
+            - generic [ref=e1070]:
+              - generic [ref=e1071]:
+                - paragraph [ref=e1072]: Легкая интеграция
+                - heading "Генерация изображений по URL — быстро и удобно." [level=4] [ref=e1073]
+              - generic [ref=e1074]:
+                - paragraph [ref=e1075]: Создавайте AI-изображения через простой URL, получайте мгновенный placeholder и готовый результат из CDN без лишних настроек.
+                - link "Узнать больше" [ref=e1076] [cursor=pointer]:
+                  - /url: "#"
+            - figure [ref=e1079]:
+              - img "Преимущества PixInLink" [ref=e1080]
+          - separator [ref=e1082]
+          - generic [ref=e1085]:
+            - generic [ref=e1089]:
+              - generic [ref=e1090]:
+                - paragraph [ref=e1091]: Умное развертывание
+                - heading "Масштабируйте сервис без лишних сложностей." [level=4] [ref=e1092]
+              - generic [ref=e1093]:
+                - paragraph [ref=e1094]: Разворачивайте проект в облаке, используйте CDN-кеширование и стабильную инфраструктуру для быстрой доставки изображений пользователям.
+                - link "Узнать больше" [ref=e1095] [cursor=pointer]:
+                  - /url: "#"
+            - figure [ref=e1098]:
+              - img "Преимущества PixInLink" [ref=e1099]
+    - generic [ref=e1101]:
+      - generic [ref=e1102]:
+        - paragraph [ref=e1103]: ПАЙПЛАЙН
+        - heading "Как это работает" [level=4] [ref=e1104]
+        - paragraph [ref=e1105]: От простой ссылки до кэширования на CDN — всё происходит автоматически, без вашего бэкенда.
+      - generic [ref=e1106]:
+        - generic [ref=e1107]:
+          - generic [ref=e1108]: "1"
+          - heading "Формируете URL" [level=6] [ref=e1109]
+          - paragraph [ref=e1110]:
+            - text: "Указываете размеры и описание прямо в ссылке:"
+            - code [ref=e1111]: /800x400/офис-разработчики
+        - generic [ref=e1112]:
+          - generic [ref=e1113]: "2"
+          - heading "Вставляете в img" [level=6] [ref=e1114]
+          - paragraph [ref=e1115]: Одна строка в HTML-коде, шаблоне WordPress или Tilda — и изображение появится само.
+        - generic [ref=e1116]:
+          - generic [ref=e1117]: "3"
+          - heading "AI генерирует" [level=6] [ref=e1118]
+          - paragraph [ref=e1119]: Нейросеть (Kandinsky 3.1) создает 100% уникальное изображение специально под ваш запрос за 10–30 секунд.
+        - generic [ref=e1120]:
+          - generic [ref=e1121]: "4"
+          - heading "CDN доставляет" [level=6] [ref=e1122]
+          - paragraph [ref=e1123]: WebP-файл кэшируется на 1 год. При повторном открытии страницы картинка отдается мгновенно с узла Yandex Cloud.
+    - generic [ref=e1125]:
+      - generic [ref=e1126]:
+        - paragraph [ref=e1127]: АНАЛИТИКА
+        - heading "PixInLink vs Альтернативы" [level=4] [ref=e1128]
+        - paragraph [ref=e1129]: Почему API-генерация выгоднее ручной работы с нейросетями и стоками.
+      - table [ref=e1133]:
+        - rowgroup [ref=e1134]:
+          - row "Критерий Стоки / Midjourney PixInLink" [ref=e1135]:
+            - columnheader "Критерий" [ref=e1136]
+            - columnheader "Стоки / Midjourney" [ref=e1137]
+            - columnheader "PixInLink" [ref=e1138]
+        - rowgroup [ref=e1139]:
+          - row "Цена (на старте) от $29/мес Бесплатно" [ref=e1140]:
+            - cell "Цена (на старте)" [ref=e1141]
+            - cell "от $29/мес" [ref=e1142]
+            - cell "Бесплатно" [ref=e1143]
+          - row "Время получения картинки 15–30 мин (написать, сгенерировать, скачать) 10–30 сек (повторно < 100 мс)" [ref=e1144]:
+            - cell "Время получения картинки" [ref=e1145]
+            - cell "15–30 мин (написать, сгенерировать, скачать)" [ref=e1146]
+            - cell "10–30 сек (повторно < 100 мс)" [ref=e1147]
+          - row "Авто-вставка в img src Нет Да" [ref=e1148]:
+            - cell "Авто-вставка в img src" [ref=e1149]
+            - cell "Нет" [ref=e1150]
+            - cell "Да" [ref=e1151]
+          - row "Уникальность контента Нет (стоки) / Ручная (Midjourney) Каждый раз новая (AI)" [ref=e1152]:
+            - cell "Уникальность контента" [ref=e1153]
+            - cell "Нет (стоки) / Ручная (Midjourney)" [ref=e1154]
+            - cell "Каждый раз новая (AI)" [ref=e1155]
+          - row "Оплата картой МИР Не всегда Да (юр. и физ. лица)" [ref=e1156]:
+            - cell "Оплата картой МИР" [ref=e1157]
+            - cell "Не всегда" [ref=e1158]
+            - cell "Да (юр. и физ. лица)" [ref=e1159]
+          - row "Серверы в РФ (152-ФЗ) Нет Да (Yandex Cloud)" [ref=e1160]:
+            - cell "Серверы в РФ (152-ФЗ)" [ref=e1161]
+            - cell "Нет" [ref=e1162]
+            - cell "Да (Yandex Cloud)" [ref=e1163]
+    - generic [ref=e1166]:
+      - generic [ref=e1167]:
+        - paragraph [ref=e1168]: PixInLink работает там, где нужен быстрый визуальный контент.
+        - heading "Глобальная доставка без лишней сложности" [level=4] [ref=e1169]
+      - generic [ref=e1170]:
+        - generic [ref=e1173]:
+          - button [ref=e1175] [cursor=pointer]
+          - button [ref=e1179] [cursor=pointer]
+          - button [ref=e1183] [cursor=pointer]
+          - button [ref=e1187] [cursor=pointer]
+          - button [ref=e1191] [cursor=pointer]
+          - button [ref=e1195] [cursor=pointer]
+          - button [ref=e1199] [cursor=pointer]
+          - button [ref=e1203] [cursor=pointer]
+          - button [ref=e1207] [cursor=pointer]
+          - button [ref=e1211] [cursor=pointer]
+          - button [ref=e1215] [cursor=pointer]
+          - button [ref=e1219] [cursor=pointer]
+          - button [ref=e1223] [cursor=pointer]
+          - button [ref=e1227] [cursor=pointer]
+          - button [ref=e1231] [cursor=pointer]
+          - button [ref=e1235] [cursor=pointer]
+        - generic [ref=e1239]:
+          - generic [ref=e1241]:
+            - heading "Быстрый старт" [level=3] [ref=e1242]: Быстрый старт
+            - paragraph [ref=e1244]: Показывайте placeholder за миллисекунды и отдавайте готовые изображения через CDN, чтобы пользователь видел результат без ожидания.
+          - generic [ref=e1246]:
+            - heading "Рост без перегруза" [level=3] [ref=e1247]: Рост без перегруза
+            - paragraph [ref=e1249]: PixInLink подходит для блогов, SaaS, лендингов и WordPress-проектов, где важны простая интеграция, watermark и стабильная доставка контента.
+    - generic [ref=e1251]:
+      - generic [ref=e1252]:
+        - paragraph [ref=e1253]: БЛОГ
+        - heading "Последние статьи" [level=4] [ref=e1254]
+        - paragraph [ref=e1255]: Читайте свежие материалы о генерации изображений, API-интеграциях и автоматизации контента.
+      - generic [ref=e1256]:
+        - generic [ref=e1259]:
+          - heading "Как писать промпты для генерации изображений" [level=6] [ref=e1260]:
+            - link "Как писать промпты для генерации изображений" [ref=e1261] [cursor=pointer]:
+              - /url: /blog/kak-pisat-prompty
+          - paragraph [ref=e1262]: "Практическое руководство: как формулировать запросы, чтобы получать более точные и предсказуемые изображения."
+        - generic [ref=e1265]:
+          - 'heading "PixInLink и другие генераторы: в чем разница" [level=6] [ref=e1266]':
+            - 'link "PixInLink и другие генераторы: в чем разница" [ref=e1267] [cursor=pointer]':
+              - /url: /blog/sravnenie-generatorov
+          - paragraph [ref=e1268]: Сравниваем URL-first подход, нейросети и классические решения для дизайнеров и контент-команд.
+        - generic [ref=e1271]:
+          - heading "Как автоматически создавать og:image для соцсетей" [level=6] [ref=e1272]:
+            - link "Как автоматически создавать og:image для соцсетей" [ref=e1273] [cursor=pointer]:
+              - /url: /use-cases/open-graph
+          - paragraph [ref=e1274]: Настраиваем Open Graph-картинки для статей, карточек и лендингов без ручной графики.
+    - generic [ref=e1277]:
+      - generic [ref=e1278]:
+        - paragraph [ref=e1279]: О PixInLink говорят
+        - heading "Быстрый placeholder, понятный API и удобный рост" [level=4] [ref=e1280]
+      - generic [ref=e1282]:
+        - button "" [ref=e1283] [cursor=pointer]:
+          - generic [ref=e1284]: 
+        - generic [ref=e1285]:
+          - generic [ref=e1287]:
+            - tabpanel [ref=e1288]:
+              - generic [ref=e1289]:
+                - generic [ref=e1291]: format_quote
+                - paragraph [ref=e1292]: "У нас перестали ждать загрузку картинки: placeholder появляется сразу, а готовый результат приходит через CDN без лишних действий."
+                - heading "Антон К." [level=6] [ref=e1293]
+                - paragraph [ref=e1294]: Product Manager
+            - tabpanel [ref=e1295]:
+              - generic [ref=e1296]:
+                - generic [ref=e1298]: format_quote
+                - paragraph [ref=e1299]: Интеграция по URL оказалась намного проще, чем отдельный сложный пайплайн генерации изображений.
+                - heading "Мария С." [level=6] [ref=e1300]
+                - paragraph [ref=e1301]: Frontend Developer
+            - tabpanel [ref=e1302]:
+              - generic [ref=e1303]:
+                - generic [ref=e1305]: format_quote
+                - paragraph [ref=e1306]: Для контентных страниц и лендингов это удобный способ быстро генерировать визуалы и не перегружать сайт.
+                - heading "Илья В." [level=6] [ref=e1307]
+                - paragraph [ref=e1308]: Growth Designer
+            - tabpanel [ref=e1309]:
+              - generic [ref=e1310]:
+                - generic [ref=e1312]: format_quote
+                - paragraph [ref=e1313]: "Нравится, что сервис сразу рассчитан на масштабирование: URL-first подход, кеширование и стабильная выдача работают логично."
+                - heading "Олег П." [level=6] [ref=e1314]
+                - paragraph [ref=e1315]: CTO
+            - tabpanel [ref=e1316]:
+              - generic [ref=e1317]:
+                - generic [ref=e1319]: format_quote
+                - paragraph [ref=e1320]: Мы используем PixInLink для быстрых превью и AI-креативов — это помогает экономить время команды и ускоряет публикации.
+                - heading [level=6] [ref=e1321]: Екатерина Л.
+                - paragraph [ref=e1322]: Content Lead
+            - tabpanel [ref=e1323]:
+              - generic [ref=e1324]:
+                - generic [ref=e1326]: format_quote
+                - paragraph [ref=e1327]: Хорошее решение для проектов, где важны простой запуск и понятный путь от Free к Pro.
+                - heading [level=6] [ref=e1328]: Денис М.
+                - paragraph [ref=e1329]: CEO SaaS Studio
+          - tablist [ref=e1330]:
+            - tab "1 of 2" [selected] [ref=e1331] [cursor=pointer]: • 1
+            - tab "2 of 2" [ref=e1332] [cursor=pointer]: • 2
+            - tab "3 of 2" [ref=e1333] [cursor=pointer]: • 3
+        - button "" [ref=e1334] [cursor=pointer]:
+          - generic [ref=e1335]: 
+    - generic [ref=e1338]:
+      - generic [ref=e1339]:
+        - paragraph [ref=e1340]: ПОПРОБУЙТЕ СЕЙЧАС
+        - heading "Готовы вставить URL и получить изображение?" [level=4] [ref=e1341]
+        - paragraph [ref=e1342]: Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака. Без карты.
+      - generic [ref=e1343]:
+        - code [ref=e1345]: <img src="https://pixinlink.ru/1200x420/светлый-офис" loading="lazy" alt="Светлый офис" />
+        - generic [ref=e1346]:
+          - link "Попробовать бесплатно" [ref=e1347] [cursor=pointer]:
+            - /url: /pricing
+          - link "Смотреть документацию" [ref=e1348] [cursor=pointer]:
+            - /url: /docs/getting-started
+        - paragraph [ref=e1349]: 12 бесплатных изображений без водяного знака · 10–30 секунд на первую генерацию
+  - generic [ref=e454]:
+    - contentinfo [ref=e456]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - img "PixInLink" [ref=e462]
+          - paragraph [ref=e463]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+          - paragraph [ref=e464]: © 2026 PixInLink
+        - generic [ref=e465]:
+          - heading "Страницы" [level=6] [ref=e466]
+          - list [ref=e467]:
+            - listitem [ref=e468]:
+              - link "Главная" [ref=e469] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e470]:
+              - link "Возможности" [ref=e471] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e472]:
+              - link "Тарифы" [ref=e473] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e474]:
+              - link "Сценарии" [ref=e475] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e476]:
+              - link "Интеграции" [ref=e477] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e478]:
+          - heading "Ещё" [level=6] [ref=e479]
+          - list [ref=e480]:
+            - listitem [ref=e481]:
+              - link "Блог" [ref=e482] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e483]:
+              - link "Документация" [ref=e484] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e485]:
+              - link "О компании" [ref=e486] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e487]:
+              - link "Контакты" [ref=e488] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e489]:
+              - link "RSS Лента" [ref=e490] [cursor=pointer]:
+                - /url: /rss.xml
+        - generic [ref=e491]:
+          - heading "Правовая информация" [level=6] [ref=e492]
+          - list [ref=e493]:
+            - listitem [ref=e494]:
+              - link "Политика конфиденциальности" [ref=e495] [cursor=pointer]:
+                - /url: /legal/privacy/
+            - listitem [ref=e496]:
+              - link "Условия использования" [ref=e497] [cursor=pointer]:
+                - /url: /legal/terms/
+        - generic [ref=e498]:
+          - generic [ref=e499]:
+            - generic [ref=e501] [cursor=pointer]: 
+            - generic [ref=e503] [cursor=pointer]: 
+            - generic [ref=e505] [cursor=pointer]: 
+            - generic [ref=e507] [cursor=pointer]: 
+          - combobox [ref=e509] [cursor=pointer]:
+            - option "Русский" [selected]
+            - option "‎English"
+    - generic [ref=e510]:
+      - img "building" [ref=e621]
+      - img "building" [ref=e622]
+      - img "building" [ref=e623]
+  - generic [ref=e513]:
+    - paragraph [ref=e514]:
+      - text: Наш сайт использует cookies, включая сервисы веб-аналитики (файлы с данными о прошлых посещениях сайта). Продолжая пользоваться сайтом, вы соглашаетесь с
+      - link "политикой конфиденциальности" [ref=e515] [cursor=pointer]:
+        - /url: /legal/privacy/
+      - text: .
+    - button "Принять" [ref=e516] [cursor=pointer]

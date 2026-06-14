@@ -1,0 +1,370 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e712]:
+    - generic [ref=e721] [cursor=pointer]:
+      - heading "Тарифы и планы на генерацию изображений" [level=1] [ref=e722]
+      - paragraph [ref=e723]: Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.
+    - generic [ref=e726]:
+      - heading "Тарифы и планы" [level=3] [ref=e727]
+      - paragraph [ref=e728]: Начните с бесплатного тарифа и масштабируйтесь по мере роста ваших задач.
+      - generic [ref=e730]:
+        - generic [ref=e732]:
+          - generic [ref=e733]:
+            - paragraph [ref=e734]: Free
+            - generic [ref=e735]:
+              - heading "0 ₽" [level=2] [ref=e736]
+              - heading "/мес" [level=6] [ref=e737]
+          - list [ref=e738]:
+            - listitem [ref=e739]: 12 изображений
+            - listitem [ref=e740]: Без водяного знака
+            - listitem [ref=e741]: WebP-оптимизация
+            - listitem [ref=e742]: Email-поддержка
+          - generic [ref=e743]:
+            - paragraph [ref=e744]: Бесплатно навсегда. Без карты.
+            - link "Начать бесплатно" [ref=e745] [cursor=pointer]:
+              - /url: https://app.pixinlink.ru/register
+        - generic [ref=e747]:
+          - generic [ref=e748]:
+            - paragraph [ref=e749]: Starter
+            - generic [ref=e750]:
+              - heading "300 ₽" [level=2] [ref=e751]
+              - heading "/мес" [level=6] [ref=e752]
+          - list [ref=e753]:
+            - listitem [ref=e754]: 50 изображений
+            - listitem [ref=e755]: Без водяного знака
+            - listitem [ref=e756]: WebP + CDN
+            - listitem [ref=e757]: 1 API-ключ
+          - generic [ref=e758]:
+            - paragraph [ref=e759]: Идеально для блогов и небольших сайтов.
+            - link "Выбрать Starter" [ref=e760] [cursor=pointer]:
+              - /url: https://app.pixinlink.ru/register?plan=starter
+        - generic [ref=e762]:
+          - generic [ref=e763]:
+            - paragraph [ref=e764]: Pro
+            - generic [ref=e765]: star_border
+            - generic [ref=e766]:
+              - heading "2 500 ₽" [level=2] [ref=e767]
+              - heading "/мес" [level=6] [ref=e768]
+          - list [ref=e769]:
+            - listitem [ref=e770]: 500 изображений
+            - listitem [ref=e771]: Priority CDN
+            - listitem [ref=e772]: Bulk API
+            - listitem [ref=e773]: 3 API-ключа
+            - listitem [ref=e774]: 99.9% SLA
+            - listitem [ref=e775]: Chat-поддержка
+          - generic [ref=e776]:
+            - paragraph [ref=e777]: Самый популярный. Для агентств и команд.
+            - link "Выбрать Pro" [ref=e778] [cursor=pointer]:
+              - /url: https://app.pixinlink.ru/register?plan=pro
+        - generic [ref=e780]:
+          - generic [ref=e781]:
+            - paragraph [ref=e782]: Business
+            - generic [ref=e783]:
+              - heading "4 500 ₽" [level=2] [ref=e784]
+              - heading "/мес" [level=6] [ref=e785]
+          - list [ref=e786]:
+            - listitem [ref=e787]: 1 000 изображений
+            - listitem [ref=e788]: Кастомный водяной знак
+            - listitem [ref=e789]: Priority Chat
+            - listitem [ref=e790]: 10 API-ключей
+            - listitem [ref=e791]: 99.95% SLA
+          - generic [ref=e792]:
+            - paragraph [ref=e793]: Для крупных порталов и high-load проектов.
+            - link "Выбрать Business" [ref=e794] [cursor=pointer]:
+              - /url: https://app.pixinlink.ru/register?plan=business
+      - generic [ref=e796]:
+        - text: Нужен Enterprise (2 000 изображений, 25 API-ключей, кастомный водяной знак, персональный менеджер)?
+        - link "Свяжитесь с нами" [ref=e797] [cursor=pointer]:
+          - /url: mailto:enterprise@pixinlink.ru
+        - text: .
+    - generic [ref=e798]:
+      - generic [ref=e800]:
+        - heading "Сравнение тарифов" [level=3] [ref=e801]
+        - paragraph [ref=e802]: Полный список возможностей для каждого плана
+      - table [ref=e805]:
+        - rowgroup [ref=e806]:
+          - row "Функция Free Starter Pro 👑 Business" [ref=e807]:
+            - columnheader "Функция" [ref=e808]
+            - columnheader "Free" [ref=e809]
+            - columnheader "Starter" [ref=e810]
+            - columnheader "Pro 👑" [ref=e811]
+            - columnheader "Business" [ref=e812]
+        - rowgroup [ref=e813]:
+          - row "Цена/мес 0 ₽ 300 ₽ 2 500 ₽ 4 500 ₽" [ref=e814]:
+            - cell "Цена/мес" [ref=e815]:
+              - strong [ref=e816]: Цена/мес
+            - cell "0 ₽" [ref=e817]
+            - cell "300 ₽" [ref=e818]
+            - cell "2 500 ₽" [ref=e819]
+            - cell "4 500 ₽" [ref=e820]
+          - row "Изображений в месяц 12 50 500 1 000" [ref=e821]:
+            - cell "Изображений в месяц" [ref=e822]:
+              - strong [ref=e823]: Изображений в месяц
+            - cell "12" [ref=e824]
+            - cell "50" [ref=e825]
+            - cell "500" [ref=e826]
+            - cell "1 000" [ref=e827]
+          - row "Водяной знак ❌ ❌ ❌ ✅ Кастомный" [ref=e828]:
+            - cell "Водяной знак" [ref=e829]:
+              - strong [ref=e830]: Водяной знак
+            - cell "❌" [ref=e831]
+            - cell "❌" [ref=e832]
+            - cell "❌" [ref=e833]
+            - cell "✅ Кастомный" [ref=e834]
+          - row "API-ключей 0 1 3 10" [ref=e835]:
+            - cell "API-ключей" [ref=e836]:
+              - strong [ref=e837]: API-ключей
+            - cell "0" [ref=e838]
+            - cell "1" [ref=e839]
+            - cell "3" [ref=e840]
+            - cell "10" [ref=e841]
+          - row "CDN ❌ ✅ ✅ Priority ✅ Priority" [ref=e842]:
+            - cell "CDN" [ref=e843]:
+              - strong [ref=e844]: CDN
+            - cell "❌" [ref=e845]
+            - cell "✅" [ref=e846]
+            - cell "✅ Priority" [ref=e847]
+            - cell "✅ Priority" [ref=e848]
+          - row "Bulk API ❌ ❌ ✅ ✅" [ref=e849]:
+            - cell "Bulk API" [ref=e850]:
+              - strong [ref=e851]: Bulk API
+            - cell "❌" [ref=e852]
+            - cell "❌" [ref=e853]
+            - cell "✅" [ref=e854]
+            - cell "✅" [ref=e855]
+          - row "SLA uptime — — 99.9% 99.95%" [ref=e856]:
+            - cell "SLA uptime" [ref=e857]:
+              - strong [ref=e858]: SLA uptime
+            - cell "—" [ref=e859]
+            - cell "—" [ref=e860]
+            - cell "99.9%" [ref=e861]
+            - cell "99.95%" [ref=e862]
+          - row "Поддержка Email Email Chat Priority Chat" [ref=e863]:
+            - cell "Поддержка" [ref=e864]:
+              - strong [ref=e865]: Поддержка
+            - cell "Email" [ref=e866]
+            - cell "Email" [ref=e867]
+            - cell "Chat" [ref=e868]
+            - cell "Priority Chat" [ref=e869]
+    - generic [ref=e871]:
+      - generic [ref=e872]:
+        - heading "PixInLink vs Фотостоки" [level=3] [ref=e873]
+        - paragraph [ref=e874]: Стандартная подписка на фотобанк (Shutterstock) обойдётся в ~2 000 ₽ за 25 фото, которые уже используются на тысячах других сайтов. Фрилансер берет от 500 ₽ за картинку.
+        - paragraph [ref=e875]: PixInLink предлагает генерацию уникальных изображений от 300 ₽/мес с доставкой прямо в код вашего сайта через URL.
+      - generic [ref=e877]:
+        - heading "Таблица окупаемости (ROI)" [level=5] [ref=e878]
+        - table [ref=e880]:
+          - rowgroup [ref=e881]:
+            - row "Сценарий Затраты до С PixInLink Экономия" [ref=e882]:
+              - columnheader "Сценарий" [ref=e883]
+              - columnheader "Затраты до" [ref=e884]
+              - columnheader "С PixInLink" [ref=e885]
+              - columnheader "Экономия" [ref=e886]
+          - rowgroup [ref=e887]:
+            - 'row "Блогер (30 статей/мес) Стоки ~2 000 ₽ Starter: 300 ₽ 1 700 ₽" [ref=e888]':
+              - cell "Блогер (30 статей/мес)" [ref=e889]:
+                - strong [ref=e890]: Блогер
+                - text: (30 статей/мес)
+              - cell "Стоки ~2 000 ₽" [ref=e891]
+              - 'cell "Starter: 300 ₽" [ref=e892]'
+              - cell "1 700 ₽" [ref=e893]
+            - 'row "Агентство (500 фото/мес) Фрилансер: ~250 000 ₽ Pro: 2 500 ₽ 247 500 ₽" [ref=e894]':
+              - cell "Агентство (500 фото/мес)" [ref=e895]:
+                - strong [ref=e896]: Агентство
+                - text: (500 фото/мес)
+              - 'cell "Фрилансер: ~250 000 ₽" [ref=e897]'
+              - 'cell "Pro: 2 500 ₽" [ref=e898]'
+              - cell "247 500 ₽" [ref=e899]
+            - 'row "Магазин (1 000 карточек/мес) Фрилансер: ~500 000 ₽ Business: 4 500 ₽ 495 500 ₽" [ref=e900]':
+              - cell "Магазин (1 000 карточек/мес)" [ref=e901]:
+                - strong [ref=e902]: Магазин
+                - text: (1 000 карточек/мес)
+              - 'cell "Фрилансер: ~500 000 ₽" [ref=e903]'
+              - 'cell "Business: 4 500 ₽" [ref=e904]'
+              - cell "495 500 ₽" [ref=e905]
+    - generic [ref=e906]:
+      - generic [ref=e908]:
+        - heading "Что говорят клиенты" [level=3] [ref=e909]
+        - paragraph [ref=e910]: Опыт использования PixInLink на разных тарифах
+      - generic [ref=e911]:
+        - generic [ref=e913]:
+          - generic [ref=e914]: star star star star star
+          - paragraph [ref=e915]: «Начал с Free, проверил качество — перешёл на Starter. 300 рублей в месяц за 50 уникальных изображений без водяного знака — отличная цена.»
+          - generic [ref=e916]:
+            - generic [ref=e917]: И
+            - generic [ref=e918]:
+              - strong [ref=e919]: Игорь Т.
+              - text: Блогер, Тула
+        - generic [ref=e921]:
+          - generic [ref=e922]: star star star star star
+          - paragraph [ref=e923]: «Уже полгода на Starter. За это время не потратил ни рубля на стоки.»
+          - generic [ref=e924]:
+            - generic [ref=e925]: А
+            - generic [ref=e926]:
+              - strong [ref=e927]: Анна К.
+              - text: Lifestyle-блог, Москва
+        - generic [ref=e929]:
+          - generic [ref=e930]: star star star star star
+          - paragraph [ref=e931]: «Business-тариф закрывает og:image для всего нашего портала. 1 000 генераций в месяц с кастомным водяным знаком — то что нужно.»
+          - generic [ref=e932]:
+            - generic [ref=e933]: Н
+            - generic [ref=e934]:
+              - strong [ref=e935]: Наталья В.
+              - text: Техдиректор, Москва
+    - generic [ref=e939]:
+      - generic [ref=e940]:
+        - heading "Часто задаваемые вопросы по тарифам" [level=4] [ref=e941]
+        - paragraph [ref=e942]: Оплата, лимиты, возврат средств и юридические лица.
+        - link "Служба поддержки" [ref=e943] [cursor=pointer]:
+          - /url: /support
+      - list [ref=e946]:
+        - listitem [ref=e947]:
+          - generic [ref=e948] [cursor=pointer]:
+            - paragraph [ref=e949]: Что считается «одной генерацией»?
+            - generic [ref=e950]: expand_more
+          - paragraph [ref=e975]: Одной генерацией считается успешный запрос к API, который вернул изображение. Кешированные повторные запросы (с теми же параметрами) не списывают ваши лимиты.
+        - listitem [ref=e951]:
+          - generic [ref=e952] [cursor=pointer]:
+            - paragraph [ref=e953]: Что происходит, когда я достигаю лимита?
+            - generic [ref=e954]: expand_more
+        - listitem [ref=e955]:
+          - generic [ref=e956] [cursor=pointer]:
+            - paragraph [ref=e957]: Есть ли годовые тарифы и насколько они выгоднее?
+            - generic [ref=e958]: expand_more
+        - listitem [ref=e959]:
+          - generic [ref=e960] [cursor=pointer]:
+            - paragraph [ref=e961]: Как работает возврат средств?
+            - generic [ref=e962]: expand_more
+        - listitem [ref=e963]:
+          - generic [ref=e964] [cursor=pointer]:
+            - paragraph [ref=e965]: Как выставить счёт для юридического лица?
+            - generic [ref=e966]: expand_more
+    - generic [ref=e970]:
+      - paragraph [ref=e971]: Цены действительны с июня 2026. Мы работаем на АУСН, НДС не облагается. Оплата картами Visa, MIR, SberPay, СБП.
+      - paragraph [ref=e972]: "Юридическое лицо: ООО «ФОНИИ» | Безопасность серверов: 152-ФЗ (Yandex Cloud, Selectel)."
+  - generic [ref=e646]:
+    - contentinfo [ref=e648]:
+      - generic [ref=e650]:
+        - generic [ref=e651]:
+          - img "PixInLink" [ref=e654]
+          - paragraph [ref=e655]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+          - paragraph [ref=e656]: © 2026 PixInLink
+        - generic [ref=e657]:
+          - heading "Страницы" [level=6] [ref=e658]
+          - list [ref=e659]:
+            - listitem [ref=e660]:
+              - link "Главная" [ref=e661] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e662]:
+              - link "Возможности" [ref=e663] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e664]:
+              - link "Тарифы" [ref=e665] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e666]:
+              - link "Сценарии" [ref=e667] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e668]:
+              - link "Интеграции" [ref=e669] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e670]:
+          - heading "Ещё" [level=6] [ref=e671]
+          - list [ref=e672]:
+            - listitem [ref=e673]:
+              - link "Блог" [ref=e674] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e675]:
+              - link "Документация" [ref=e676] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e677]:
+              - link "О компании" [ref=e678] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e679]:
+              - link "Контакты" [ref=e680] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e681]:
+              - link "RSS Лента" [ref=e682] [cursor=pointer]:
+                - /url: /rss.xml
+        - generic [ref=e683]:
+          - heading "Правовая информация" [level=6] [ref=e684]
+          - list [ref=e685]:
+            - listitem [ref=e686]:
+              - link "Политика конфиденциальности" [ref=e687] [cursor=pointer]:
+                - /url: /legal/privacy/
+            - listitem [ref=e688]:
+              - link "Условия использования" [ref=e689] [cursor=pointer]:
+                - /url: /legal/terms/
+        - generic [ref=e690]:
+          - generic [ref=e691]:
+            - generic [ref=e693] [cursor=pointer]: 
+            - generic [ref=e695] [cursor=pointer]: 
+            - generic [ref=e697] [cursor=pointer]: 
+            - generic [ref=e699] [cursor=pointer]: 
+          - combobox [ref=e701] [cursor=pointer]:
+            - option "Русский" [selected]
+            - option "‎English"
+    - generic [ref=e702]:
+      - img "building" [ref=e703]
+      - img "building" [ref=e704]
+      - img "building" [ref=e705]
+  - button "Scroll to top" [ref=e973] [cursor=pointer]: ↑
+  - generic [ref=e708]:
+    - paragraph [ref=e709]:
+      - text: Наш сайт использует cookies, включая сервисы веб-аналитики (файлы с данными о прошлых посещениях сайта). Продолжая пользоваться сайтом, вы соглашаетесь с
+      - link "политикой конфиденциальности" [ref=e710] [cursor=pointer]:
+        - /url: /legal/privacy/
+      - text: .
+    - button "Принять" [ref=e711] [cursor=pointer]

@@ -1,0 +1,573 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e55]:
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - heading "О PixInLink" [level=4] [ref=e67]
+        - heading "Российский SaaS-сервис генерации изображений по URL для бизнеса. Мы помогаем разработчикам, блогерам и владельцам сайтов создавать визуальный контент без стоков, дизайнеров и сложного бэкенда." [level=5] [ref=e68]
+      - img "3D-иллюстрация облачного сервиса PixInLink" [ref=e71]
+    - generic [ref=e73]:
+      - img "Архитектурный подход PixInLink" [ref=e74]
+      - img "Облачная инфраструктура PixInLink" [ref=e75]
+      - img "Выгодная модель PixInLink" [ref=e76]
+      - img "Мобильная доступность PixInLink" [ref=e77]
+      - img "Пользовательский профиль PixInLink" [ref=e78]
+      - img "SaaS-сервис PixInLink" [ref=e79]
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85]: 
+        - generic [ref=e86]:
+          - heading "12" [level=4] [ref=e87]
+          - heading "бесплатных изображений в месяц" [level=6] [ref=e88]
+      - generic [ref=e90]:
+        - generic [ref=e91]: 
+        - generic [ref=e92]:
+          - heading "10–30" [level=4] [ref=e93]
+          - heading "секунд генерации" [level=6] [ref=e94]
+      - generic [ref=e96]:
+        - generic [ref=e97]: 
+        - generic [ref=e98]:
+          - heading "140+" [level=4] [ref=e99]
+          - heading "узлов CDN" [level=6] [ref=e100]
+    - generic [ref=e101]:
+      - generic [ref=e105]:
+        - heading "Изображение как URL" [level=4] [ref=e106]
+        - paragraph [ref=e107]:
+          - text: Вы формируете ссылку вида
+          - code [ref=e108]: pixinlink.ru/800x400/описание
+          - text: ", вставляете её в тег"
+          - code [ref=e109]: <img>
+          - text: и получаете уникальное AI-изображение, обрезанное под ваш размер, и сконвертированное в легкий WebP формат.
+      - generic [ref=e110]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: WebP+CDN
+          - figure [ref=e117]:
+            - img "Обложка о принципе работы сервиса PixInLink" [ref=e118]
+          - generic [ref=e119]:
+            - generic [ref=e121] [cursor=pointer]: 
+            - generic [ref=e122]: Генерация изображений без сложной интеграции
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: 
+              - heading "GigaChat" [level=5] [ref=e130]
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: 
+              - heading "CDN и WebP-доставка" [level=5] [ref=e135]
+          - listitem [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: 
+              - heading "152-ФЗ и безопасность" [level=5] [ref=e140]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]: 
+              - heading "Интеграции с CMS и API" [level=5] [ref=e145]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - heading "Технологический стек" [level=4] [ref=e151]
+        - paragraph [ref=e152]: PixInLink строится на моделях генерации, отказоустойчивой инфраструктуре и CDN-архитектуре, чтобы изображения быстро создавались, кешировались и отдавались пользователю без лишних задержек.
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - heading [level=6] [ref=e161]:
+                - strong [ref=e162]: Реквизиты и юр. информация
+              - generic [ref=e163]: ООО «ФОНИИ»
+              - generic [ref=e164]: Официальные данные и контакты
+            - generic [ref=e166]:
+              - generic [ref=e168] [cursor=pointer]:
+                - generic [ref=e169]: fingerprint
+                - text: ИНН 7720943604
+              - generic [ref=e171] [cursor=pointer]:
+                - generic [ref=e172]: account_balance
+                - text: Сбербанк
+              - generic [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: mail
+                - text: info@fonai.ru
+          - tabpanel [ref=e176]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading "GigaChat" [level=6] [ref=e180]:
+                  - strong [ref=e181]: GigaChat
+                - generic [ref=e182]: Основная модель генерации
+                - generic [ref=e183]: Понимает кириллицу нативно
+              - generic [ref=e185]:
+                - generic [ref=e187] [cursor=pointer]:
+                  - generic [ref=e188]: text_fields
+                  - text: Русскоязычные данные
+                - generic [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: palette
+                  - text: Фотореализм и арт
+                - generic [ref=e193] [cursor=pointer]:
+                  - generic [ref=e194]: zoom_out_map
+                  - text: До 8192×8192 px
+          - tabpanel [ref=e195]:
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - heading [level=6] [ref=e199]:
+                  - strong [ref=e200]: CDN на 140 узлах
+                - generic [ref=e201]: Быстрая доставка изображений
+                - generic [ref=e202]: Кеш WebP до 1 года с immutable
+              - generic [ref=e204]:
+                - generic [ref=e206] [cursor=pointer]:
+                  - generic [ref=e207]: speed
+                  - text: Менее 100 мс
+                - generic [ref=e209] [cursor=pointer]:
+                  - generic [ref=e210]: public
+                  - text: Геораспределение
+                - generic [ref=e212] [cursor=pointer]:
+                  - generic [ref=e213]: location_on
+                  - text: Россия и СНГ
+          - tabpanel [ref=e214]:
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - heading [level=6] [ref=e218]:
+                  - strong [ref=e219]: Оптимизация изображений
+                - generic [ref=e220]: Обрезка под ваш размер
+                - generic [ref=e221]: Конвертация в легкий WebP
+              - generic [ref=e223]:
+                - generic [ref=e225] [cursor=pointer]:
+                  - generic [ref=e226]: crop
+                  - text: Обрезка под размер
+                - generic [ref=e228] [cursor=pointer]:
+                  - generic [ref=e229]: photo
+                  - text: Конвертация в WebP
+                - generic [ref=e231] [cursor=pointer]:
+                  - generic [ref=e232]: compress
+                  - text: В 6 раз легче JPEG
+          - tabpanel [ref=e233]:
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - heading [level=6] [ref=e237]:
+                  - strong [ref=e238]: 152-ФЗ и безопасность
+                - generic [ref=e239]: Инфраструктура в РФ
+                - generic [ref=e240]: Yandex Cloud и Selectel
+              - generic [ref=e242]:
+                - generic [ref=e244] [cursor=pointer]:
+                  - generic [ref=e245]: cloud
+                  - text: Российские ЦОД
+                - generic [ref=e247] [cursor=pointer]:
+                  - generic [ref=e248]: verified_user
+                  - text: Соответствие требованиям
+                - generic [ref=e250] [cursor=pointer]:
+                  - generic [ref=e251]: storage
+                  - text: Обработка данных в РФ
+          - tabpanel [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - heading [level=6] [ref=e256]:
+                  - strong [ref=e257]: Интеграции
+                - generic [ref=e258]: WordPress, MODX, Python SDK, REST API
+                - generic [ref=e259]: От no-code до bulk-автоматизации
+              - generic [ref=e261]:
+                - generic [ref=e263] [cursor=pointer]:
+                  - generic [ref=e264]: dns
+                  - text: CMS и платформы
+                - generic [ref=e266] [cursor=pointer]:
+                  - generic [ref=e267]: api
+                  - text: REST API и webhook
+                - generic [ref=e269] [cursor=pointer]:
+                  - generic [ref=e270]: code
+                  - text: 5 строк
+          - tabpanel [ref=e271]:
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - heading [level=6] [ref=e275]:
+                  - strong [ref=e276]: Реквизиты и юр. информация
+                - generic [ref=e277]: ООО «ФОНИИ»
+                - generic [ref=e278]: Официальные данные и контакты
+              - generic [ref=e280]:
+                - generic [ref=e282] [cursor=pointer]:
+                  - generic [ref=e283]: fingerprint
+                  - text: ИНН 7720943604
+                - generic [ref=e285] [cursor=pointer]:
+                  - generic [ref=e286]: account_balance
+                  - text: Сбербанк
+                - generic [ref=e288] [cursor=pointer]:
+                  - generic [ref=e289]: mail
+                  - text: info@fonai.ru
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - heading [level=6] [ref=e294]:
+                - strong [ref=e295]: GigaChat
+              - generic [ref=e296]: Основная модель генерации
+              - generic [ref=e297]: Понимает кириллицу нативно
+            - generic [ref=e299]:
+              - generic [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]: text_fields
+                - text: Русскоязычные данные
+              - generic [ref=e304] [cursor=pointer]:
+                - generic [ref=e305]: palette
+                - text: Фотореализм и арт
+              - generic [ref=e307] [cursor=pointer]:
+                - generic [ref=e308]: zoom_out_map
+                - text: До 8192×8192 px
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - heading [level=6] [ref=e313]:
+                - strong [ref=e314]: CDN на 140 узлах
+              - generic [ref=e315]: Быстрая доставка изображений
+              - generic [ref=e316]: Кеш WebP до 1 года с immutable
+            - generic [ref=e318]:
+              - generic [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]: speed
+                - text: Менее 100 мс
+              - generic [ref=e323] [cursor=pointer]:
+                - generic [ref=e324]: public
+                - text: Геораспределение
+              - generic [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]: location_on
+                - text: Россия и СНГ
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - heading [level=6] [ref=e332]:
+                - strong [ref=e333]: Оптимизация изображений
+              - generic [ref=e334]: Обрезка под ваш размер
+              - generic [ref=e335]: Конвертация в легкий WebP
+            - generic [ref=e337]:
+              - generic [ref=e339] [cursor=pointer]:
+                - generic [ref=e340]: crop
+                - text: Обрезка под размер
+              - generic [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: photo
+                - text: Конвертация в WebP
+              - generic [ref=e345] [cursor=pointer]:
+                - generic [ref=e346]: compress
+                - text: В 6 раз легче JPEG
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - heading [level=6] [ref=e351]:
+                - strong [ref=e352]: 152-ФЗ и безопасность
+              - generic [ref=e353]: Инфраструктура в РФ
+              - generic [ref=e354]: Yandex Cloud и Selectel
+            - generic [ref=e356]:
+              - generic [ref=e358] [cursor=pointer]:
+                - generic [ref=e359]: cloud
+                - text: Российские ЦОД
+              - generic [ref=e361] [cursor=pointer]:
+                - generic [ref=e362]: verified_user
+                - text: Соответствие требованиям
+              - generic [ref=e364] [cursor=pointer]:
+                - generic [ref=e365]: storage
+                - text: Обработка данных в РФ
+          - generic [ref=e368]:
+            - generic [ref=e369]:
+              - heading [level=6] [ref=e370]:
+                - strong [ref=e371]: Интеграции
+              - generic [ref=e372]: WordPress, MODX, Python SDK, REST API
+              - generic [ref=e373]: От no-code до bulk-автоматизации
+            - generic [ref=e375]:
+              - generic [ref=e377] [cursor=pointer]:
+                - generic [ref=e378]: dns
+                - text: CMS и платформы
+              - generic [ref=e380] [cursor=pointer]:
+                - generic [ref=e381]: api
+                - text: REST API и webhook
+              - generic [ref=e383] [cursor=pointer]:
+                - generic [ref=e384]: code
+                - text: 5 строк
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - heading [level=6] [ref=e389]:
+                - strong [ref=e390]: Реквизиты и юр. информация
+              - generic [ref=e391]: ООО «ФОНИИ»
+              - generic [ref=e392]: Официальные данные и контакты
+            - generic [ref=e394]:
+              - generic [ref=e396] [cursor=pointer]:
+                - generic [ref=e397]: fingerprint
+                - text: ИНН 7720943604
+              - generic [ref=e399] [cursor=pointer]:
+                - generic [ref=e400]: account_balance
+                - text: Сбербанк
+              - generic [ref=e402] [cursor=pointer]:
+                - generic [ref=e403]: mail
+                - text: info@fonai.ru
+        - tablist [ref=e404]:
+          - tab "1 of 6" [selected] [ref=e405] [cursor=pointer]: • 1
+          - tab "2 of 6" [ref=e406] [cursor=pointer]: • 2
+          - tab "3 of 6" [ref=e407] [cursor=pointer]: • 3
+          - tab "4 of 6" [ref=e408] [cursor=pointer]: • 4
+          - tab "5 of 6" [ref=e409] [cursor=pointer]: • 5
+          - tab "6 of 6" [ref=e410] [cursor=pointer]: • 6
+    - generic [ref=e413]:
+      - heading "Ключевые цифры и интеграции" [level=4] [ref=e414]
+      - paragraph [ref=e415]: "PixInLink объединяет генерацию, доставку и встраивание изображений в один сценарий: от бесплатных лимитов и кеширования до WordPress, MODX, Python SDK и REST API."
+      - generic [ref=e416]:
+        - button "arrow_back" [ref=e417] [cursor=pointer]:
+          - generic [ref=e418]: arrow_back
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - link [ref=e424] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - img [ref=e425]
+            - generic [ref=e426] [cursor=pointer]:
+              - link [ref=e427]:
+                - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - figure [ref=e428]:
+                - img [ref=e429]
+              - generic [ref=e431]: Кеширование CDN на 1 год
+          - generic [ref=e432]:
+            - link [ref=e434] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - img [ref=e435]
+            - generic [ref=e436] [cursor=pointer]:
+              - link [ref=e437]:
+                - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - figure [ref=e438]:
+                - img [ref=e439]
+              - generic [ref=e441]: Интеграции с CMS и API
+          - generic [ref=e442]:
+            - link [ref=e444] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+            - generic [ref=e445] [cursor=pointer]:
+              - link [ref=e446]:
+                - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+              - generic [ref=e448]: Юридическая информация
+          - generic [ref=e449]:
+            - link "Визуал бесплатного тарифа и лимитов PixInLink" [ref=e451] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/яркий-жёлтый-фон-иконка-изображений
+              - img "Визуал бесплатного тарифа и лимитов PixInLink" [ref=e452]
+            - generic [ref=e453] [cursor=pointer]:
+              - link [ref=e454]:
+                - /url: https://pixinlink.ru/1050x700/яркий-жёлтый-фон-иконка-изображений
+              - figure [ref=e455]:
+                - 'img "Обложка: 12 бесплатных изображений в месяц" [ref=e456]'
+              - generic [ref=e458]: 12 бесплатных изображений в месяц
+          - generic [ref=e459]:
+            - link "Визуал времени генерации — 10–30 секунд" [ref=e461] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/розовый-фон-таймер-часы
+              - img "Визуал времени генерации — 10–30 секунд" [ref=e462]
+            - generic [ref=e463] [cursor=pointer]:
+              - link [ref=e464]:
+                - /url: https://pixinlink.ru/1050x700/розовый-фон-таймер-часы
+              - figure [ref=e465]:
+                - 'img "Обложка: 10–30 секунд на генерацию" [ref=e466]'
+              - generic [ref=e468]: 10–30 секунд на генерацию
+          - generic [ref=e469]:
+            - link "Визуал набора стилевых пресетов" [ref=e471] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/золотой-фон-палитра-стилей
+              - img "Визуал набора стилевых пресетов" [ref=e472]
+            - generic [ref=e473] [cursor=pointer]:
+              - link [ref=e474]:
+                - /url: https://pixinlink.ru/1050x700/золотой-фон-палитра-стилей
+              - figure [ref=e475]:
+                - 'img "Обложка: 6 стилей генерации" [ref=e476]'
+              - generic [ref=e478]: 6 стилей генерации
+          - generic [ref=e479]:
+            - link [ref=e481] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - img [ref=e482]
+            - generic [ref=e483] [cursor=pointer]:
+              - link [ref=e484]:
+                - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - figure [ref=e485]:
+                - img [ref=e486]
+              - generic [ref=e488]: Кеширование CDN на 1 год
+          - generic [ref=e489]:
+            - link [ref=e491] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - img [ref=e492]
+            - generic [ref=e493] [cursor=pointer]:
+              - link [ref=e494]:
+                - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - figure [ref=e495]:
+                - img [ref=e496]
+              - generic [ref=e498]: Интеграции с CMS и API
+          - generic [ref=e499]:
+            - link [ref=e501] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+            - generic [ref=e502] [cursor=pointer]:
+              - link [ref=e503]:
+                - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+              - generic [ref=e505]: Юридическая информация
+          - generic [ref=e506]:
+            - link [ref=e508] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/яркий-жёлтый-фон-иконка-изображений
+              - img [ref=e509]
+            - generic [ref=e510] [cursor=pointer]:
+              - link [ref=e511]:
+                - /url: https://pixinlink.ru/1050x700/яркий-жёлтый-фон-иконка-изображений
+              - figure [ref=e512]:
+                - img [ref=e513]
+              - generic [ref=e515]: 12 бесплатных изображений в месяц
+          - generic [ref=e516]:
+            - link [ref=e518] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/розовый-фон-таймер-часы
+              - img [ref=e519]
+            - generic [ref=e520] [cursor=pointer]:
+              - link [ref=e521]:
+                - /url: https://pixinlink.ru/1050x700/розовый-фон-таймер-часы
+              - figure [ref=e522]:
+                - img [ref=e523]
+              - generic [ref=e525]: 10–30 секунд на генерацию
+          - generic [ref=e526]:
+            - link [ref=e528] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/золотой-фон-палитра-стилей
+              - img [ref=e529]
+            - generic [ref=e530] [cursor=pointer]:
+              - link [ref=e531]:
+                - /url: https://pixinlink.ru/1050x700/золотой-фон-палитра-стилей
+              - figure [ref=e532]:
+                - img [ref=e533]
+              - generic [ref=e535]: 6 стилей генерации
+          - generic [ref=e536]:
+            - link [ref=e538] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - img [ref=e539]
+            - generic [ref=e540] [cursor=pointer]:
+              - link [ref=e541]:
+                - /url: https://pixinlink.ru/1050x700/серый-фон-глобус-сеть
+              - figure [ref=e542]:
+                - img [ref=e543]
+              - generic [ref=e545]: Кеширование CDN на 1 год
+          - generic [ref=e546]:
+            - link [ref=e548] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - img [ref=e549]
+            - generic [ref=e550] [cursor=pointer]:
+              - link [ref=e551]:
+                - /url: https://pixinlink.ru/1050x700/фиолетовый-фон-молекула-связи
+              - figure [ref=e552]:
+                - img [ref=e553]
+              - generic [ref=e555]: Интеграции с CMS и API
+          - generic [ref=e556]:
+            - link [ref=e558] [cursor=pointer]:
+              - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+            - generic [ref=e559] [cursor=pointer]:
+              - link [ref=e560]:
+                - /url: https://pixinlink.ru/1050x700/красный-фон-документы-печать
+              - generic [ref=e562]: Юридическая информация
+        - button "arrow_forward" [ref=e563] [cursor=pointer]:
+          - generic [ref=e564]: arrow_forward
+  - generic [ref=e565]:
+    - generic [ref=e567]:
+      - heading "12 изображений без вотермарка · за 10-30 сек через URL API" [level=3] [ref=e570]
+      - generic [ref=e571]:
+        - heading "Готовы попробовать?" [level=4] [ref=e572]
+        - link "Начать бесплатно" [ref=e573] [cursor=pointer]:
+          - /url: /pricing/
+    - contentinfo [ref=e575]:
+      - generic [ref=e577]:
+        - generic [ref=e578]:
+          - img "PixInLink" [ref=e581]
+          - paragraph [ref=e582]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+          - paragraph [ref=e583]: © 2026 PixInLink
+        - generic [ref=e584]:
+          - heading "Страницы" [level=6] [ref=e585]
+          - list [ref=e586]:
+            - listitem [ref=e587]:
+              - link "Главная" [ref=e588] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e589]:
+              - link "Возможности" [ref=e590] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e591]:
+              - link "Тарифы" [ref=e592] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e593]:
+              - link "Сценарии" [ref=e594] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e595]:
+              - link "Интеграции" [ref=e596] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e597]:
+          - heading "Ещё" [level=6] [ref=e598]
+          - list [ref=e599]:
+            - listitem [ref=e600]:
+              - link "Блог" [ref=e601] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e602]:
+              - link "Документация" [ref=e603] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e604]:
+              - link "О компании" [ref=e605] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e606]:
+              - link "Контакты" [ref=e607] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e608]:
+              - link "RSS Лента" [ref=e609] [cursor=pointer]:
+                - /url: /rss.xml
+        - generic [ref=e610]:
+          - heading "Правовая информация" [level=6] [ref=e611]
+          - list [ref=e612]:
+            - listitem [ref=e613]:
+              - link "Политика конфиденциальности" [ref=e614] [cursor=pointer]:
+                - /url: /legal/privacy/
+            - listitem [ref=e615]:
+              - link "Условия использования" [ref=e616] [cursor=pointer]:
+                - /url: /legal/terms/
+        - generic [ref=e617]:
+          - generic [ref=e618]:
+            - generic [ref=e620] [cursor=pointer]: 
+            - generic [ref=e622] [cursor=pointer]: 
+            - generic [ref=e624] [cursor=pointer]: 
+            - generic [ref=e626] [cursor=pointer]: 
+          - combobox [ref=e628] [cursor=pointer]:
+            - option "Русский" [selected]
+            - option "‎English"
+    - generic [ref=e629]:
+      - img "building" [ref=e630]
+      - img "building" [ref=e631]
+      - img "building" [ref=e632]
+  - generic [ref=e635]:
+    - paragraph [ref=e636]:
+      - text: Наш сайт использует cookies, включая сервисы веб-аналитики (файлы с данными о прошлых посещениях сайта). Продолжая пользоваться сайтом, вы соглашаетесь с
+      - link "политикой конфиденциальности" [ref=e637] [cursor=pointer]:
+        - /url: /legal/privacy/
+      - text: .
+    - button "Принять" [ref=e638] [cursor=pointer]

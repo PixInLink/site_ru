@@ -1,0 +1,136 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e55]:
+    - generic [ref=e59]:
+      - img "404" [ref=e63]
+      - generic [ref=e65]:
+        - heading "404" [level=3] [ref=e66]
+        - heading "Страница не найдена" [level=4] [ref=e67]
+        - paragraph [ref=e68]: Вы можете остаться здесь или вернуться на главную.
+        - link "На главную" [ref=e69] [cursor=pointer]:
+          - /url: /
+  - generic [ref=e70]:
+    - contentinfo [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img "PixInLink" [ref=e78]
+          - paragraph [ref=e79]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+          - paragraph [ref=e80]: © 2026 PixInLink
+        - generic [ref=e81]:
+          - heading "Страницы" [level=6] [ref=e82]
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - link "Главная" [ref=e85] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e86]:
+              - link "Возможности" [ref=e87] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e88]:
+              - link "Тарифы" [ref=e89] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e90]:
+              - link "Сценарии" [ref=e91] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e92]:
+              - link "Интеграции" [ref=e93] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e94]:
+          - heading "Ещё" [level=6] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "Блог" [ref=e98] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e99]:
+              - link "Документация" [ref=e100] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e101]:
+              - link "О компании" [ref=e102] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e103]:
+              - link "Контакты" [ref=e104] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e105]:
+              - link "RSS Лента" [ref=e106] [cursor=pointer]:
+                - /url: /rss.xml
+        - generic [ref=e107]:
+          - heading "Правовая информация" [level=6] [ref=e108]
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - link "Политика конфиденциальности" [ref=e111] [cursor=pointer]:
+                - /url: /legal/privacy/
+            - listitem [ref=e112]:
+              - link "Условия использования" [ref=e113] [cursor=pointer]:
+                - /url: /legal/terms/
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e117] [cursor=pointer]: 
+            - generic [ref=e119] [cursor=pointer]: 
+            - generic [ref=e121] [cursor=pointer]: 
+            - generic [ref=e123] [cursor=pointer]: 
+          - combobox [ref=e125] [cursor=pointer]:
+            - option "Русский" [selected]
+            - option "‎English"
+    - generic [ref=e126]:
+      - img "building" [ref=e127]
+      - img "building" [ref=e128]
+      - img "building" [ref=e129]
+  - generic [ref=e132]:
+    - paragraph [ref=e133]:
+      - text: Наш сайт использует cookies, включая сервисы веб-аналитики (файлы с данными о прошлых посещениях сайта). Продолжая пользоваться сайтом, вы соглашаетесь с
+      - link "политикой конфиденциальности" [ref=e134] [cursor=pointer]:
+        - /url: /legal/privacy/
+      - text: .
+    - button "Принять" [ref=e135] [cursor=pointer]

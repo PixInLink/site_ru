@@ -1,0 +1,401 @@
+- generic [ref=e5]:
+  - generic:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Главная" [ref=e11] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e12]:
+          - link "О компании" [ref=e13] [cursor=pointer]:
+            - /url: /about/
+        - listitem [ref=e14]:
+          - link "О Сервисе keyboard_arrow_down" [ref=e16] [cursor=pointer]:
+            - /url: "#!"
+            - text: О Сервисе
+            - generic [ref=e17]: keyboard_arrow_down
+        - listitem [ref=e18]:
+          - link "Блог" [ref=e19] [cursor=pointer]:
+            - /url: /blog/
+        - listitem [ref=e20]:
+          - link "Контакты" [ref=e21] [cursor=pointer]:
+            - /url: /contact/
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "EN" [ref=e25] [cursor=pointer]:
+            - /url: https://pixinlink.ru
+    - banner [ref=e26]:
+      - generic [ref=e28]:
+        - navigation [ref=e29]:
+          - link "PixInLink" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "PixInLink" [ref=e33]
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "Главная" [ref=e37] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e38]:
+              - link "О компании" [ref=e39] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e40]:
+              - button "О Сервисе keyboard_arrow_down" [ref=e41] [cursor=pointer]:
+                - text: О Сервисе
+                - generic [ref=e42]: keyboard_arrow_down
+            - listitem [ref=e43]:
+              - link "Блог" [ref=e44] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e45]:
+              - link "Контакты" [ref=e46] [cursor=pointer]:
+                - /url: /contact/
+        - navigation [ref=e47]:
+          - link "Вход" [ref=e48] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru
+          - link "Регистрация" [ref=e49] [cursor=pointer]:
+            - /url: https://app.pixinlink.ru/register
+          - button "settings" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: settings
+  - main [ref=e56]:
+    - generic [ref=e59]:
+      - generic [ref=e63]:
+        - generic [ref=e67]:
+          - generic [ref=e69]:
+            - heading [level=4] [ref=e70]: Визуал для соцсетей и рассылок
+            - heading [level=5] [ref=e71]: 1080×1080 для Instagram, 1280×720 для Telegram, 600×300 для email. Меняете только цифры в URL — PixInLink делает всё остальное.
+          - img [ref=e75]
+        - generic [ref=e77]:
+          - img "Декоративный фон" [ref=e79]
+          - generic [ref=e81]:
+            - generic [ref=e83]:
+              - heading "Заголовки блога за 5 секунд" [level=4] [ref=e84]
+              - heading "Оформляйте статьи уникальным визуалом без заезженных стоков. Одна ссылка в <img> — и картинка готова." [level=5] [ref=e85]
+            - img "banner 1 3D" [ref=e89]
+        - generic [ref=e93]:
+          - generic [ref=e95]:
+            - heading [level=4] [ref=e96]: og:image без бэкенда
+            - heading [level=5] [ref=e97]: Разработчики встраивают превью для соцсетей одной строкой в мета-теге. SEO-специалисты получают уникальный визуал для каждой страницы.
+          - img [ref=e101]
+        - generic [ref=e105]:
+          - generic [ref=e107]:
+            - heading [level=4] [ref=e108]: Визуал для соцсетей и рассылок
+            - heading [level=5] [ref=e109]: 1080×1080 для Instagram, 1280×720 для Telegram, 600×300 для email. Меняете только цифры в URL — PixInLink делает всё остальное.
+          - img [ref=e113]
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - heading [level=4] [ref=e122]: Заголовки блога за 5 секунд
+              - heading [level=5] [ref=e123]: Оформляйте статьи уникальным визуалом без заезженных стоков. Одна ссылка в <img> — и картинка готова.
+            - img [ref=e127]
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - heading [level=4] [ref=e134]: og:image без бэкенда
+            - heading [level=5] [ref=e135]: Разработчики встраивают превью для соцсетей одной строкой в мета-теге. SEO-специалисты получают уникальный визуал для каждой страницы.
+          - img [ref=e139]
+        - generic [ref=e143]:
+          - generic [ref=e145]:
+            - heading [level=4] [ref=e146]: Визуал для соцсетей и рассылок
+            - heading [level=5] [ref=e147]: 1080×1080 для Instagram, 1280×720 для Telegram, 600×300 для email. Меняете только цифры в URL — PixInLink делает всё остальное.
+          - img [ref=e151]
+      - navigation [ref=e154]:
+        - generic [ref=e155] [cursor=pointer]:
+          - strong [ref=e156]: Блогерам
+          - text: Заголовки статей без стоковых фото
+        - separator [ref=e157]
+        - generic [ref=e158] [cursor=pointer]:
+          - strong [ref=e159]: Разработчикам
+          - text: og:image и SEO одной строкой
+        - separator [ref=e160]
+        - generic [ref=e161] [cursor=pointer]:
+          - strong [ref=e162]: Маркетологам
+          - text: Точные размеры под Instagram и email
+    - generic [ref=e166]:
+      - generic [ref=e168]:
+        - figure [ref=e171]:
+          - img "Быстрая генерация изображений через нейросеть GigaChat" [ref=e172]
+        - figure [ref=e173]:
+          - img "Шесть стилей генерации от фотореализма до аниме" [ref=e174]
+        - figure [ref=e175]:
+          - img "CDN доставка через 140 точек Yandex Cloud" [ref=e176]
+      - generic [ref=e180]:
+        - heading "Одна ссылка вместо дизайнера, стока и хостинга." [level=4] [ref=e181]
+        - paragraph [ref=e182]: "Раньше на 10 картинок к статье уходило 2 часа: нейросеть, Photoshop, FTP, CMS. Теперь вы вставляете URL — GigaChat генерирует, Sharp сжимает в WebP, Yandex CDN раздаёт за 100 мс. Изменение одного символа в ссылке — и получается новое изображение."
+        - generic [ref=e185]:
+          - generic [ref=e188]:
+            - heading "100 мс" [level=3] [ref=e189]
+            - paragraph [ref=e190]: TTFB доставки
+          - generic [ref=e193]:
+            - heading "6 стилей" [level=3] [ref=e194]
+            - paragraph [ref=e195]: генерации
+          - generic [ref=e198]:
+            - heading "140 точек" [level=3] [ref=e199]
+            - paragraph [ref=e200]: CDN в РФ и СНГ
+    - generic [ref=e201]:
+      - generic [ref=e203]:
+        - heading "Варианты интеграции" [level=3] [ref=e204]
+        - paragraph [ref=e205]: Как именно внедрить URL API в ваш процесс
+      - generic [ref=e206]:
+        - generic [ref=e208]:
+          - generic [ref=e209]: article
+          - heading "Заголовки статей в блоге" [level=5] [ref=e210]
+          - paragraph [ref=e211]:
+            - strong [ref=e212]: "Для кого:"
+            - text: блогеры, контент-менеджеры, редакторы
+          - paragraph [ref=e213]:
+            - text: Генерируйте отдельное изображение к каждой публикации без ручного поиска по базам фотостоков. URL с текстом из заголовка вставляется прямо в тег
+            - code [ref=e214]: <img>
+            - text: .
+          - code [ref=e216]: pixinlink.ru/800x400/как-написать-seo-статью
+          - link "Подробнее →" [ref=e217] [cursor=pointer]:
+            - /url: /use-cases/blog-headers
+        - generic [ref=e219]:
+          - generic [ref=e220]: share
+          - heading "og:image для соцсетей" [level=5] [ref=e221]
+          - paragraph [ref=e222]:
+            - strong [ref=e223]: "Для кого:"
+            - text: SEO-специалисты, вебмастера
+          - paragraph [ref=e224]:
+            - text: Настройте автоматическое создание красивых превью для шеринга в ВК или Telegram. Фиксация
+            - code [ref=e225]: seed
+            - text: в мета-теге гарантирует стабильное изображение.
+          - code [ref=e227]: <meta property="og:image" content="...">
+          - link "Подробнее →" [ref=e228] [cursor=pointer]:
+            - /url: /use-cases/og-image
+        - generic [ref=e230]:
+          - generic [ref=e231]: smartphone
+          - heading "Посты для соцсетей" [level=5] [ref=e232]
+          - paragraph [ref=e233]:
+            - strong [ref=e234]: "Для кого:"
+            - text: SMM-специалисты, маркетологи
+          - paragraph [ref=e235]: "Формируйте изображения под точные требования платформ: квадрат 1080×1080 для Instagram или широкий 1200×628. Вы просто меняете размеры в ссылке."
+          - code [ref=e237]: pixinlink.ru/1080x1080/акция-цветы
+          - link "Подробнее →" [ref=e238] [cursor=pointer]:
+            - /url: /use-cases/social-media
+        - generic [ref=e240]:
+          - generic [ref=e241]: shopping_bag
+          - heading "Карточки товаров (E-com)" [level=5] [ref=e242]
+          - paragraph [ref=e243]:
+            - strong [ref=e244]: "Для кого:"
+            - text: владельцы e-com, разработчики
+          - paragraph [ref=e245]: Заполняйте каталог заглушками до реальной фотосессии, чтобы витрина не выглядела пустой. Используйте название товара в качестве промпта.
+          - code [ref=e247]: pixinlink.ru/600x600/синяя-джинсовая-куртка
+          - link "Подробнее →" [ref=e248] [cursor=pointer]:
+            - /url: /use-cases/ecommerce-placeholders
+        - generic [ref=e250]:
+          - generic [ref=e251]: search
+          - 'heading "SEO: оригинальные изображения" [level=5] [ref=e252]'
+          - paragraph [ref=e253]:
+            - strong [ref=e254]: "Для кого:"
+            - text: SEO-специалисты, контент-маркетологи
+          - paragraph [ref=e255]: Поисковые системы пессимизируют страницы за растиражированный визуал со стоков. Получайте нигде ранее не опубликованную иллюстрацию с точным соответствием alt-тегу.
+          - code [ref=e257]: pixinlink.ru/800x500/купить-ноутбук-москва
+          - link "Подробнее →" [ref=e258] [cursor=pointer]:
+            - /url: /use-cases/seo-content
+        - generic [ref=e260]:
+          - generic [ref=e261]: newspaper
+          - heading "Иллюстрации для новостей" [level=5] [ref=e262]
+          - paragraph [ref=e263]:
+            - strong [ref=e264]: "Для кого:"
+            - text: редакции, новостные сайты, медиа
+          - paragraph [ref=e265]: Оформляйте инфоповоды автоматически без покупки подписок на коммерческие фотобанки. Просто передайте заголовок новости в URL с пропорцией 16:9.
+          - code [ref=e267]: pixinlink.ru/1200x675/технологии-2026
+          - link "Подробнее →" [ref=e268] [cursor=pointer]:
+            - /url: /use-cases/news-media
+        - generic [ref=e270]:
+          - generic [ref=e271]: email
+          - heading "Изображения в email-рассылках" [level=5] [ref=e272]
+          - paragraph [ref=e273]:
+            - strong [ref=e274]: "Для кого:"
+            - text: email-маркетологи (Unisender, SendPulse)
+          - paragraph [ref=e275]:
+            - text: Встраивайте графику в письма через прямую ссылку в
+            - code [ref=e276]: <img src=>
+            - text: . Критически важно фиксировать параметр
+            - code [ref=e277]: seed
+            - text: ", чтобы при открытии письма подписчик видел один баннер."
+          - code [ref=e279]: pixinlink.ru/600x300/летняя-распродажа
+          - link "Подробнее →" [ref=e280] [cursor=pointer]:
+            - /url: /use-cases/email-marketing
+        - generic [ref=e282]:
+          - generic [ref=e283]: layers
+          - heading "Placeholder для прототипов" [level=5] [ref=e284]
+          - paragraph [ref=e285]:
+            - strong [ref=e286]: "Для кого:"
+            - text: UX-дизайнеры, Figma, фронтендеры
+          - paragraph [ref=e287]: Используйте реалистичные placeholder-изображения в wireframes вместо скучных серых прямоугольников. Макет будет выглядеть как финальный дизайн на ранней стадии.
+          - code [ref=e289]: pixinlink.ru/400x300/интерьер-офис
+          - link "Подробнее →" [ref=e290] [cursor=pointer]:
+            - /url: /use-cases/prototyping
+    - generic [ref=e291]:
+      - generic [ref=e293]:
+        - heading "Один формат — любой сценарий" [level=3] [ref=e294]
+        - paragraph [ref=e295]: Меняй только prompt и размер — всё остальное PixInLink делает сам
+      - table [ref=e298]:
+        - rowgroup [ref=e299]:
+          - row "Сценарий Размер Пример URL (Code)" [ref=e300]:
+            - columnheader "Сценарий" [ref=e301]
+            - columnheader "Размер" [ref=e302]
+            - columnheader "Пример URL (Code)" [ref=e303]
+        - rowgroup [ref=e304]:
+          - row "Заголовок статьи 800×400 pixinlink.ru/800x400/ваш-текст" [ref=e305]:
+            - cell "Заголовок статьи" [ref=e306]:
+              - strong [ref=e307]: Заголовок статьи
+            - cell "800×400" [ref=e308]:
+              - generic [ref=e309]: 800×400
+            - cell "pixinlink.ru/800x400/ваш-текст" [ref=e310]
+          - row "og:image 1200×630 pixinlink.ru/1200x630/ваш-текст" [ref=e311]:
+            - cell "og:image" [ref=e312]:
+              - strong [ref=e313]: og:image
+            - cell "1200×630" [ref=e314]:
+              - generic [ref=e315]: 1200×630
+            - cell "pixinlink.ru/1200x630/ваш-текст" [ref=e316]
+          - row "Instagram квадрат 1080×1080 pixinlink.ru/1080x1080/ваш-текст" [ref=e317]:
+            - cell "Instagram квадрат" [ref=e318]:
+              - strong [ref=e319]: Instagram квадрат
+            - cell "1080×1080" [ref=e320]:
+              - generic [ref=e321]: 1080×1080
+            - cell "pixinlink.ru/1080x1080/ваш-текст" [ref=e322]
+          - row "Telegram пост 1280×720 pixinlink.ru/1280x720/ваш-текст" [ref=e323]:
+            - cell "Telegram пост" [ref=e324]:
+              - strong [ref=e325]: Telegram пост
+            - cell "1280×720" [ref=e326]:
+              - generic [ref=e327]: 1280×720
+            - cell "pixinlink.ru/1280x720/ваш-текст" [ref=e328]
+          - row "Карточка товара 600×600 pixinlink.ru/600x600/ваш-текст" [ref=e329]:
+            - cell "Карточка товара" [ref=e330]:
+              - strong [ref=e331]: Карточка товара
+            - cell "600×600" [ref=e332]:
+              - generic [ref=e333]: 600×600
+            - cell "pixinlink.ru/600x600/ваш-текст" [ref=e334]
+          - row "Email-баннер 600×300 pixinlink.ru/600x300/ваш-текст" [ref=e335]:
+            - cell "Email-баннер" [ref=e336]:
+              - strong [ref=e337]: Email-баннер
+            - cell "600×300" [ref=e338]:
+              - generic [ref=e339]: 600×300
+            - cell "pixinlink.ru/600x300/ваш-текст" [ref=e340]
+          - row "Прототип любой pixinlink.ru/400x300/ваш-текст" [ref=e341]:
+            - cell "Прототип" [ref=e342]:
+              - strong [ref=e343]: Прототип
+            - cell "любой" [ref=e344]:
+              - generic [ref=e345]: любой
+            - cell "pixinlink.ru/400x300/ваш-текст" [ref=e346]
+    - generic [ref=e347]:
+      - generic [ref=e349]:
+        - heading "Как это работает" [level=3] [ref=e350]
+        - paragraph [ref=e351]: Три простых шага до готового визуала
+      - generic [ref=e352]:
+        - generic [ref=e354]:
+          - generic [ref=e355]: edit
+          - heading "1. Укажи промпт" [level=5] [ref=e356]
+          - paragraph [ref=e357]: Пишешь описание изображения на русском языке (мы сами переведем и улучшим его).
+        - generic [ref=e359]:
+          - generic [ref=e360]: code
+          - heading "2. Вставь URL" [level=5] [ref=e361]
+          - paragraph [ref=e362]:
+            - text: Используешь ссылку в атрибуте
+            - code [ref=e363]: img src
+            - text: ","
+            - code [ref=e364]: og:image
+            - text: ", свойствах CSS или синтаксисе Markdown."
+        - generic [ref=e366]:
+          - generic [ref=e367]: cloud_done
+          - heading "3. Получи изображение" [level=5] [ref=e368]
+          - paragraph [ref=e369]:
+            - text: Нейросеть Kandinsky генерирует картинку, а наша CDN кеширует результат на 1 год.
+            - emphasis [ref=e370]: (Повторные запросы <100 мс)
+    - generic [ref=e375]:
+      - generic [ref=e376]:
+        - heading "Попробуйте на своём проекте" [level=4] [ref=e377]
+        - paragraph [ref=e378]: "Free-тариф: 50 генераций без привязки карты и без регистрации. Просто вставьте URL в код вашего сайта — и посмотрите результат в реальных условиях."
+      - generic [ref=e380]:
+        - link "Начать бесплатно" [ref=e381] [cursor=pointer]:
+          - /url: https://app.pixinlink.ru/register
+        - link "Документация" [ref=e382] [cursor=pointer]:
+          - /url: /docs
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - heading "Часто задаваемые вопросы" [level=4] [ref=e388]
+        - paragraph [ref=e389]: Технические и юридические аспекты использования PixInLink в продакшене.
+      - list [ref=e392]:
+        - listitem [ref=e393]:
+          - generic [ref=e394] [cursor=pointer]:
+            - paragraph [ref=e395]: Нужен ли бэкенд или дополнительный код?
+            - generic [ref=e396]: expand_more
+        - listitem [ref=e397]:
+          - generic [ref=e398] [cursor=pointer]:
+            - paragraph [ref=e399]: Одно изображение или каждый раз новое?
+            - generic [ref=e400]: expand_more
+        - listitem [ref=e401]:
+          - generic [ref=e402] [cursor=pointer]:
+            - paragraph [ref=e403]: Можно использовать для коммерческих проектов?
+            - generic [ref=e404]: expand_more
+  - generic [ref=e405]:
+    - contentinfo [ref=e407]:
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - img "PixInLink" [ref=e413]
+          - paragraph [ref=e414]: PixInLink — AI-генератор изображений. Создавай динамические картинки через URL для сайтов, рассылок и приложений.
+          - paragraph [ref=e415]: © 2026 PixInLink
+        - generic [ref=e416]:
+          - heading "Страницы" [level=6] [ref=e417]
+          - list [ref=e418]:
+            - listitem [ref=e419]:
+              - link "Главная" [ref=e420] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e421]:
+              - link "Возможности" [ref=e422] [cursor=pointer]:
+                - /url: /features/
+            - listitem [ref=e423]:
+              - link "Тарифы" [ref=e424] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e425]:
+              - link "Сценарии" [ref=e426] [cursor=pointer]:
+                - /url: /use-cases/
+            - listitem [ref=e427]:
+              - link "Интеграции" [ref=e428] [cursor=pointer]:
+                - /url: /integrations/
+        - generic [ref=e429]:
+          - heading "Ещё" [level=6] [ref=e430]
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - link "Блог" [ref=e433] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=e434]:
+              - link "Документация" [ref=e435] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e436]:
+              - link "О компании" [ref=e437] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e438]:
+              - link "Контакты" [ref=e439] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e440]:
+              - link "RSS Лента" [ref=e441] [cursor=pointer]:
+                - /url: /rss.xml
+        - generic [ref=e442]:
+          - heading "Правовая информация" [level=6] [ref=e443]
+          - list [ref=e444]:
+            - listitem [ref=e445]:
+              - link "Политика конфиденциальности" [ref=e446] [cursor=pointer]:
+                - /url: /legal/privacy/
+            - listitem [ref=e447]:
+              - link "Условия использования" [ref=e448] [cursor=pointer]:
+                - /url: /legal/terms/
+        - generic [ref=e449]:
+          - generic [ref=e450]:
+            - generic [ref=e452] [cursor=pointer]: 
+            - generic [ref=e454] [cursor=pointer]: 
+            - generic [ref=e456] [cursor=pointer]: 
+            - generic [ref=e458] [cursor=pointer]: 
+          - combobox [ref=e460] [cursor=pointer]:
+            - option "Русский" [selected]
+            - option "‎English"
+    - generic [ref=e461]:
+      - img "building" [ref=e462]
+      - img "building" [ref=e463]
+      - img "building" [ref=e464]
+  - generic [ref=e467]:
+    - paragraph [ref=e468]:
+      - text: Наш сайт использует cookies, включая сервисы веб-аналитики (файлы с данными о прошлых посещениях сайта). Продолжая пользоваться сайтом, вы соглашаетесь с
+      - link "политикой конфиденциальности" [ref=e469] [cursor=pointer]:
+        - /url: /legal/privacy/
+      - text: .
+    - button "Принять" [ref=e470] [cursor=pointer]
