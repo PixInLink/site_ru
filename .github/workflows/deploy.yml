@@ -69,13 +69,16 @@ jobs:
           echo "Step 2: Upload tarball"
           sshpass -e scp -P ${VPS_PORT} -o StrictHostKeyChecking=accept-new "${TARBALL}" "${DEPLOY_USER}@${VPS_HOST}:/tmp/${TARBALL}" || { echo "SCTP FAILED"; exit 1; }
 
-          echo "Step 3: Extract on server + reload nginx"
+          echo "Step 3: Extract on server"
           sshpass -e ssh ${SSH_OPTS} "${DEPLOY_USER}@${VPS_HOST}" "
-            set -e
             sudo tar xzf /tmp/${TARBALL} -C ${WEBROOT}/
             sudo rm /tmp/${TARBALL}
-            sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'nginx reloaded' || echo 'nginx reload skipped'
-          " || { echo "SSH EXTRACT FAILED"; exit 1; }
+            echo 'extract OK'
+          " || { echo "EXTRACT FAILED"; exit 1; }
+
+          echo "Step 4: Reload nginx"
+          sshpass -e ssh ${SSH_OPTS} "${DEPLOY_USER}@${VPS_HOST}" \
+            "sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'nginx reloaded' || echo 'nginx reload skipped'"
 
           rm "${TARBALL}"
           echo "Deploy finished OK"
