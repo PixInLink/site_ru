@@ -7,30 +7,132 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
- <main class="container-wrap">
-﻿  <!-- HERO: Сценарии использования -->
-  <div class="banner-basic">
+<main class="container-wrap">
+<!-- ##### BANNER #####-->
+<section id="banner">
+  <div class="banner-slider">
     <div class="banner-wrap">
-      <div class="inner">
-        <div class="container">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-lg-7 col-sm-6 px-md-5 px-0">
-              <div class="text">
-                <h1 class="text-h4">Где использовать PixInLink: 8 готовых сценариев</h1>
-                <h5 class="text-h5">От заголовков блога до og:image и email-рассылок — изображение из URL в любом контексте.</h5>
-                <p class="body-1 mt-4">Блогерам и редакторам сервис помогает оформлять материалы визуалом без заезженных стоков. Разработчики и вебмастера автоматически генерируют og:image и интегрируют графику без сложного бэкенда. Маркетологи на лету создают контент нужных форматов для соцсетей и рекламных кампаний.</p>
+      <div class="carousel">
+        <div class="slider-deco" id="slider_deco">
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s1">&nbsp;</div><div class="deco top s1">&nbsp;</div></div></div></div>
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s2">&nbsp;</div><div class="deco top s2">&nbsp;</div></div></div></div>
+          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s3">&nbsp;</div><div class="deco top s3">&nbsp;</div></div></div></div>
+        </div>
+        <div class="slider" id="banner_slider">
+          <!-- Slide 1: Блогерам и редакторам -->
+          <div class="slide" id="slide1">
+            <div class="inner">
+              <div class="img background-banner">
+                <svg width="918px" height="369px" viewBox="0 0 918 369" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="deco-banner" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g>
+                      <polygon class="secondary-light" transform="translate(665.000000, 103.500000) scale(-1, 1) translate(-665.000000, -103.500000) " points="795 19 795 188 535 188"></polygon>
+                      <polygon class="accent-light" transform="translate(500.500000, 130.500000) scale(-1, 1) translate(-500.500000, -130.500000) " points="466 73 535 73 466 188"></polygon>
+                      <polygon class="primary-light" transform="translate(875.500000, 42.500000) scale(-1, 1) translate(-875.500000, -42.500000) " points="875.5 0 889.370415 5.1253534 903.239559 10.2519783 910.620415 23.2312905 918 36.2118742 915.436726 50.9712645 912.873452 65.7319262 890.260441 85 860.74083 85 838.126548 65.7319262 835.563274 50.9712645 833 36.2118742 840.380856 23.2312905 847.760441 10.2519783 861.630856 5.1253534"></polygon>
+                      <polygon class="accent-light" transform="translate(435.000000, 201.500000) scale(-1, 1) translate(-435.000000, -201.500000) " points="435 159 446.499376 180.25 458 201.5 446.499376 222.75 435 244 423.499376 222.75 412 201.5 423.499376 180.25"></polygon>
+                      <path class="primary-main" d="M250.59544,299 C274.014488,299 293,317.960086 293,341.350244 C293,351.917326 289.122872,361.581125 282.714195,369 L223,309.195142 C230.417307,302.841166 240.056923,299 250.59544,299 Z"></path>
+                      <circle class="primary-light" cx="252.615385" cy="343.230769" r="25.7692308"></circle>
+                      <polygon class="secondary-light" points="200 47 200 177 0 177"></polygon>
+                      <polygon class="primary-light" fill-rule="nonzero" transform="translate(58.000000, 209.500000) scale(-1, -1) translate(-58.000000, -209.500000) " points="0 177 116 242 0 242"></polygon>
+                    </g>
+                  </g>
+                </svg>
+                <img class="img-2d3d" src="/themes/oiron/images/cloud/background_3d@2x.png" data-2d="/themes/oiron/images/cloud/background_2d@2x.png" data-3d="/themes/oiron/images/cloud/background_3d@2x.png" alt="Декоративный фон с генерацией изображений для статей блога" />
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-items-center">
+                    <div class="text">
+                      <h4 class="use-text-title">Заголовки блога за 5 секунд</h4>
+                      <h5 class="use-text-subtitle">Оформляйте статьи уникальным визуалом без заезженных стоков. Одна ссылка в &lt;img&gt; — и картинка готова.</h5>
+                      <div class="btn-area">
+                        <a class="btn-flat waves-effect btn-large button use-text-primary" href="#cases-grid">8 сценариев</a>
+                        <a class="btn waves-effect button btn-large secondary" href="https://app.pixinlink.ru/register">50 картинок бесплатно</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-lg-6 col-sm-12">
+                    <div class="img">
+                      <img class="img-2d3d" src="/themes/oiron/images/agency/banner1_3d@2x.png" data-2d="/themes/oiron/images/agency/banner1_2d@2x.png" data-3d="/themes/oiron/images/agency/banner1_3d@2x.png" alt="Автоматическая генерация изображений для заголовков статей в блоге" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6 px-5">
-              <div class="img">
-                <img src="https://pixinlink.ru/images/starter/Illustration.png" alt="Use cases illustration" />
+          </div>
+          <!-- Slide 2: Разработчикам и SEO (порядок обратный) -->
+          <div class="slide" id="slide2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-items-center order-lg-5">
+                    <div class="text">
+                      <h4 class="use-text-title">og:image без бэкенда</h4>
+                      <h5 class="use-text-subtitle">Разработчики встраивают превью для соцсетей одной строкой в мета-теге. SEO-специалисты получают уникальный визуал для каждой страницы.</h5>
+                      <div class="btn-area">
+                        <a class="btn-flat waves-effect btn-large button use-text-primary" href="#cases-grid">как это работает</a>
+                        <a class="btn waves-effect button btn-large secondary" href="https://app.pixinlink.ru/register">попробовать сейчас</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5 col-lg-6 col-sm-12 px-sm-6 order-lg-0">
+                    <div class="img">
+                      <img class="img-2d3d mr-md-12 float-lg-right" src="/themes/oiron/images/agency/banner2_3d@2x.png" data-2d="/themes/oiron/images/agency/banner2_2d@2x.png" data-3d="/themes/oiron/images/agency/banner2_3d@2x.png" alt="Автоматическое создание og:image превью для шеринга в соцсетях" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3: Маркетинг и e-commerce (центрированный) -->
+          <div class="slide center-content" id="slide3">
+            <div class="inner">
+              <div class="container">
+                <div class="row justify-content-end">
+                  <div class="col-12 px-sm-12">
+                    <div class="text text-center">
+                      <h4 class="use-text-title">Визуал для соцсетей и рассылок</h4>
+                      <h5 class="use-text-subtitle">1080×1080 для Instagram, 1280×720 для Telegram, 600×300 для email. Меняете только цифры в URL — PixInLink делает всё остальное.</h5>
+                      <div class="btn-area">
+                        <a class="btn-flat waves-effect btn-large button use-text-primary" href="#cases-grid">все форматы</a>
+                        <a class="btn waves-effect button btn-large secondary" href="https://app.pixinlink.ru/register">начать бесплатно</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="img h-banner">
+                      <img class="img-2d3d" src="/themes/oiron/images/agency/banner3_3d@2x.png" data-2d="/themes/oiron/images/agency/banner3_2d@2x.png" data-3d="/themes/oiron/images/agency/banner3_3d@2x.png" alt="Генерация изображений для социальных сетей Instagram Telegram и email-рассылок" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="hidden-sm-down">
+        <div class="container max-md">
+          <nav class="slide-nav" id="banner_nav">
+            <a class="waves-effect active" data-slide="0">
+              <strong>Блогерам</strong>
+              Заголовки статей без стоковых фото
+            </a>
+            <hr class="divider">
+            <a class="waves-effect" data-slide="1">
+              <strong>Разработчикам</strong>
+              og:image и SEO одной строкой
+            </a>
+            <hr class="divider">
+            <a class="waves-effect" data-slide="2">
+              <strong>Маркетологам</strong>
+              Точные размеры под Instagram и email
+            </a>
+          </nav>
+        </div>
+      </div>
     </div>
   </div>
+</section><!-- ##### END BANNER #####-->
   <!-- ВАРИАНТЫ ИНТЕГРАЦИИ (Block 2A адаптированный в 2 колонки) -->
   <div class="container page-section" id="cases-grid">
     <div class="row mb-5">
