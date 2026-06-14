@@ -13,11 +13,6 @@ schema_type: "WebPage"
   <div class="banner-slider">
     <div class="banner-wrap">
       <div class="carousel">
-        <div class="slider-deco" id="slider_deco">
-          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s1">&nbsp;</div><div class="deco top s1">&nbsp;</div></div></div></div>
-          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s2">&nbsp;</div><div class="deco top s2">&nbsp;</div></div></div></div>
-          <div class="slide"><div class="inner"><div class="deco-wrap"><div class="deco bottom s3">&nbsp;</div><div class="deco top s3">&nbsp;</div></div></div></div>
-        </div>
         <div class="slider" id="banner_slider">
           <!-- Slide 1: Блогерам и редакторам -->
           <div class="slide" id="slide1">
@@ -37,7 +32,7 @@ schema_type: "WebPage"
                     </g>
                   </g>
                 </svg>
-                <img class="img-2d3d" src="/themes/oiron/images/cloud/background_3d@2x.png" data-2d="/themes/oiron/images/cloud/background_2d@2x.png" data-3d="/themes/oiron/images/cloud/background_3d@2x.png" alt="Декоративный фон с генерацией изображений для статей блога" />
+                <img class="img-2d3d" src="/themes/oiron/images/marketing/background_3d@2x.png" data-2d="/themes/oiron/images/marketing/background_2d@2x.png" data-3d="/themes/oiron/images/marketing/background_3d@2x.png" alt="Декоративный фон" />
               </div>
               <div class="container">
                 <div class="row">
@@ -53,7 +48,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12">
                     <div class="img">
-                      <img class="img-2d3d" src="/themes/oiron/images/agency/banner1_3d@2x.png" data-2d="/themes/oiron/images/agency/banner1_2d@2x.png" data-3d="/themes/oiron/images/agency/banner1_3d@2x.png" alt="Автоматическая генерация изображений для заголовков статей в блоге" />
+                      <img class="img-2d3d" src="/themes/oiron/images/marketing/banner1_3d@2x.png" data-2d="/themes/oiron/images/marketing/banner1_2d@2x.png" data-3d="/themes/oiron/images/marketing/banner1_3d@2x.png" alt="banner 1 3D" />
                     </div>
                   </div>
                 </div>
@@ -77,7 +72,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-md-5 col-lg-6 col-sm-12 px-sm-6 order-lg-0">
                     <div class="img">
-                      <img class="img-2d3d mr-md-12 float-lg-right" src="/themes/oiron/images/agency/banner2_3d@2x.png" data-2d="/themes/oiron/images/agency/banner2_2d@2x.png" data-3d="/themes/oiron/images/agency/banner2_3d@2x.png" alt="Автоматическое создание og:image превью для шеринга в соцсетях" />
+                      <img class="img-2d3d mr-md-12 float-lg-right" src="/themes/oiron/images/marketing/banner2_3d@2x.png" data-2d="/themes/oiron/images/marketing/banner2_2d@2x.png" data-3d="/themes/oiron/images/marketing/banner2_3d@2x.png" alt="banner 2 3D" />
                     </div>
                   </div>
                 </div>
@@ -101,7 +96,7 @@ schema_type: "WebPage"
                   </div>
                   <div class="col-12">
                     <div class="img h-banner">
-                      <img class="img-2d3d" src="/themes/oiron/images/agency/banner3_3d@2x.png" data-2d="/themes/oiron/images/agency/banner3_2d@2x.png" data-3d="/themes/oiron/images/agency/banner3_3d@2x.png" alt="Генерация изображений для социальных сетей Instagram Telegram и email-рассылок" />
+                      <img class="img-2d3d" src="/themes/oiron/images/marketing/banner3_3d@2x.png" data-2d="/themes/oiron/images/marketing/banner3_2d@2x.png" data-3d="/themes/oiron/images/marketing/banner3_3d@2x.png" alt="banner 3 3D" />
                     </div>
                   </div>
                 </div>
