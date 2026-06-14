@@ -147,14 +147,14 @@ schema_type: "WebPage"
                               <div class="counter-item-home">
                                 <div class="text">
                                   <h3 class="use-text-title primary-line">100 мс</h3>
-                                  <p class="use-text-subtitle2">TTFB доставки</p>
+                                  <p class="use-text-subtitle2">TTFB </p>
                                 </div>
                               </div>
                             </div>
                             <div class="col-sm-4 col">
                               <div class="counter-item-home">
                                 <div class="text">
-                                  <h3 class="use-text-title secondary-line">6 стилей</h3>
+                                  <h3 class="use-text-title secondary-line">15 сек</h3>
                                   <p class="use-text-subtitle2">генерации</p>
                                 </div>
                               </div>
@@ -163,7 +163,7 @@ schema_type: "WebPage"
                               <div class="counter-item-home">
                                 <div class="text">
                                   <h3 class="use-text-title accent-line">140 точек</h3>
-                                  <p class="use-text-subtitle2">CDN в РФ и СНГ</p>
+                                  <p class="use-text-subtitle2">CDN в РФ </p>
                                 </div>
                               </div>
                             </div>
