@@ -134,23 +134,8 @@ schema_type: "WebPage"
               <div class="root">
                 <div class="container fixed-width">
                   <div class="row">
-                    <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">
-                      <div class="puzzle">
-                        <div class="deco deco-1"></div>
-                        <div class="deco deco-2"></div>
-                        <figure class="img big">
-                          <img src="/themes/oiron/images/marketing/services_3d@2x.png" alt="Быстрая генерация изображений через нейросеть GigaChat" />
-                        </figure>
-                        <figure class="img medium">
-                          <img src="/themes/oiron/images/marketing/about_3d@2x.png" alt="Шесть стилей генерации от фотореализма до аниме" />
-                        </figure>
-                        <figure class="img small">
-                          <img src="/themes/oiron/images/marketing/team_3d@2x.png" alt="CDN доставка через 140 точек Yandex Cloud" />
-                        </figure>
-                        <div class="deco deco-3"></div>
-                        <div class="deco deco-4"></div>
-                        <div class="deco deco-5"></div>
-                      </div>
+                    <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">                     
+                    <img src="https://pixinlink.ru/500x600/иконка-изображение"/>
                     </div>
                     <div class="col-md-5 col-sm-12 px-0">
                       <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
