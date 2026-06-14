@@ -118,71 +118,66 @@ schema_type: "WebPage"
   </div>
 </section><!-- ##### END BANNER #####-->
 <section class="space-top" id="about">
-  <div class="root">
-    <div class="container fixed-width">
-      <div class="row">
-<div class="col-md-5 col-sm-12 py-6 ps-lg-15">
-                      <div class="ms-md-12 ps-md-3">
-                        <div>
-                          <div class="title-deco">
-                            <h3>PixIn<br>Link</h3>
-                          </div>
-                        </div>
-                        <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.1s" data-wow-duration="0.3s">
-                          <div class="puzzle show-lg-up">
-                            <div class="piece-small-top"><span></span></div>
-                            <div class="piece-small-bottom"><span></span></div>
-                          </div>
-                        </div>
-                        <div class="wow zoomInShort" data-wow-offset="10" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                          <div class="deco">
-                            <div class="big"></div>
-                            <div class="medium"></div>
-                            <div class="small"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-         <div class="col-md-7 col-sm-12 px-sm-6 px-0">
-              <div>
-                <h4 class="title-default use-text-subtitle">Поиск подходящих изображений и их обработка отнимают до 47% времени, необходимого для подготовки статьи. </h4>
-                <p class="desc use-text-paragraph" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.6;">Обычно Вы пишете текст. Оставляете плейсхолдеры, что-бы видеть как в размерах будет смотреться изображение на сайте. Потом открываете нейросеть, пишете промпт, скачиваете, обрезаете под свой размер, сжимаете в WebP, загружаете на хостинг. На 10 картинок уходит 2 часа. PixInLink убирает этот этап. Вы пишете ссылку. Сервис сам генерирует, обрезает, сжимает и кеширует.</p>
-                <div class="counter-wrap">
-                  <div class="container fixed-width">
-                    <div class="row justify-content-center align-items-center">
-                      <div class="col">
-                        <div class="counter-item-home">
-                          <div class="text">
-                            <h3 class="use-text-title">100</h3>
-                            <p class="use-text-subtitle2">мс TTFB</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="counter-item-home">
-                          <div class="text">
-                            <h3 class="use-text-title">50</h3>
-                            <p class="use-text-subtitle2">КБ вес WebP</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="counter-item-home">
-                          <div class="text">
-                            <h3 class="use-text-title">140</h3>
-                            <p class="use-text-subtitle2">точек CDN</p>
-                          </div>
-                        </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+   <div class="root">
+     <div class="container fixed-width">
+       <div class="row">
+         <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">
+           <div class="puzzle">
+             <div class="deco deco-1"></div>
+             <div class="deco deco-2"></div>
+             <figure class="img big">
+               <img src="/themes/oiron/images/agency/services_3d@2x.png" loading="lazy" alt="PixInLink — генерация изображений из URL" />
+             </figure>
+             <figure class="img medium">
+               <img src="/themes/oiron/images/agency/about_3d@2x.png" loading="lazy" alt="Шесть стилей генерации изображений" />
+             </figure>
+             <figure class="img small">
+               <img src="/themes/oiron/images/agency/team_3d@2x.png" loading="lazy" alt="CDN доставка изображений за 100 мс" />
+             </figure>
+             <div class="deco deco-3"></div>
+             <div class="deco deco-4"></div>
+             <div class="deco deco-5"></div>
+           </div>
+         </div>
+         <div class="col-md-5 col-sm-12 px-0">
+               <h4 class="title-default use-text-subtitle">Поиск подходящих изображений и их обработка отнимают до 47% времени, необходимого для подготовки статьи. </h4>
+                 <p class="desc use-text-paragraph" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.6;">Обычно Вы пишете текст. Оставляете плейсхолдеры, что-бы видеть как в размерах будет смотреться изображение на сайте. Потом открываете нейросеть, пишете промпт, скачиваете, обрезаете под свой размер, сжимаете в WebP, загружаете на хостинг. На 10 картинок уходит 2 часа. PixInLink убирает этот этап. Вы пишете ссылку. Сервис сам генерирует, обрезает, сжимает и кеширует.</p>
+                 <div class="counter-wrap">
+                   <div class="container fixed-width">
+                     <div class="row justify-content-center align-items-center">
+                       <div class="col">
+                         <div class="counter-item-home">
+                           <div class="text">
+                             <h3 class="use-text-title">100</h3>
+                             <p class="use-text-subtitle2">мс TTFB</p>
+                           </div>
+                         </div>
+                       </div>
+                       <div class="col">
+                         <div class="counter-item-home">
+                           <div class="text">
+                             <h3 class="use-text-title">50</h3>
+                             <p class="use-text-subtitle2">КБ вес WebP</p>
+                           </div>
+                         </div>
+                       </div>
+                       <div class="col">
+                         <div class="counter-item-home">
+                           <div class="text">
+                             <h3 class="use-text-title">140</h3>
+                             <p class="use-text-subtitle2">точек CDN</p>
+                           </div>
+                         </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
 <!-- ##### END ABOUT #####-->
 <!-- ##### SERVICES #####-->
 <section class="space-top space-top-short-md" id="services">
