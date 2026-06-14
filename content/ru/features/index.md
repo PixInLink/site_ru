@@ -340,10 +340,10 @@ schema_type: "WebPage"
             </div>
           </div>
           <nav class="arrow">
-            <button class="btn-floating margin" id="next_services">
+            <button class="btn waves-effect btn-flat" id="next_services">
               <i class="material-icons">arrow_back</i>
             </button>
-            <button class="btn-floating margin" id="prev_services">
+            <button class="btn waves-effect btn-flat" id="prev_services">
               <i class="material-icons">arrow_forward</i>
             </button>
           </nav>
@@ -371,7 +371,7 @@ schema_type: "WebPage"
             </svg>
             <div>
               <div class="title-deco">
-                <h3>Кто использует PixInLink</h3>
+                <h3>URL Link</h3>
               </div>
             </div>
           </div>
@@ -833,7 +833,7 @@ schema_type: "WebPage"
                 </div>
                 <div class="col-md-4 col-sm-12 pa-0">
                   <div class="d-flex align-items-center justify-content-end">
-                    <a class="waves-effect btn button" href="register.html">Начать генерацию<i class="material-icons right-icon">send</i></a>
+                    <a class="waves-effect btn button primary" href="https://app.pixinlink.ru/register">Начать генерацию<i class="material-icons right-icon">send</i></a>
                   </div>
                 </div>
               </div>
