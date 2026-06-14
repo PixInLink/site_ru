@@ -46,7 +46,7 @@ jobs:
           DEPLOY_USER=${{ secrets.VPS_USER }}
           sshpass -e ssh -o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password \
             -p ${{ secrets.VPS_PORT || '22' }} ${DEPLOY_USER}@${{ secrets.VPS_HOST }} \
-            "sudo rm -rf ${WEBROOT}/use-cases/ && sudo mkdir -p ${WEBROOT}/use-cases/ && sudo chown -R ${DEPLOY_USER}:${DEPLOY_USER} ${WEBROOT}/use-cases/ && echo 'use-cases permissions fixed'"
+            "sudo chown -R ${DEPLOY_USER}:${DEPLOY_USER} ${WEBROOT}/ && sudo rm -rf ${WEBROOT}/use-cases/ && echo 'permissions fixed + use-cases cleaned'"
 
       - name: Deploy to server (tar + ssh, bypass rsync)
         env:
