@@ -48,7 +48,7 @@ jobs:
             -p ${{ secrets.VPS_PORT || '22' }} ${DEPLOY_USER}@${{ secrets.VPS_HOST }} \
             "sudo chown -R ${DEPLOY_USER}:${DEPLOY_USER} ${WEBROOT}/ && sudo rm -rf ${WEBROOT}/use-cases/ && echo 'permissions fixed + use-cases cleaned'"
 
-      - name: Deploy to server (tar + ssh, bypass rsync)
+      - name: Deploy to server (scp tar.gz + ssh extract)
         env:
           SSHPASS: ${{ secrets.VPS_PASSWORD }}
         run: |
@@ -57,13 +57,28 @@ jobs:
 
           WEBROOT=/var/www/pixinlink-info
           DEPLOY_USER=${{ secrets.VPS_USER }}
-          SSH_OPTS="-o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${{ secrets.VPS_PORT || '22' }}"
+          VPS_HOST=${{ secrets.VPS_HOST }}
+          VPS_PORT=${{ secrets.VPS_PORT || '22' }}
+          SSH_OPTS="-o StrictHostKeyChecking=accept-new -o PreferredAuthentications=password -p ${VPS_PORT}"
+          TARBALL="deploy-$(date +%s).tar.gz"
 
-          echo "Uploading dist/ via tar stream..."
-          tar czf - -C dist . | sshpass -e ssh $SSH_OPTS ${DEPLOY_USER}@${{ secrets.VPS_HOST }} \
-            "sudo rm -rf ${WEBROOT}/use-cases/ && tar xzf - -C ${WEBROOT}/ && sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'deploy + nginx reload OK' || echo 'deploy OK, nginx reload skipped'"
+          echo "Step 1: Create tarball"
+          tar czf "${TARBALL}" -C dist .
+          echo "Tarball size: $(stat -c%s "${TARBALL}") bytes"
 
-          echo "Deploy finished"
+          echo "Step 2: Upload tarball"
+          sshpass -e scp -P ${VPS_PORT} -o StrictHostKeyChecking=accept-new "${TARBALL}" "${DEPLOY_USER}@${VPS_HOST}:/tmp/${TARBALL}" || { echo "SCTP FAILED"; exit 1; }
+
+          echo "Step 3: Extract on server + reload nginx"
+          sshpass -e ssh ${SSH_OPTS} "${DEPLOY_USER}@${VPS_HOST}" "
+            set -e
+            sudo tar xzf /tmp/${TARBALL} -C ${WEBROOT}/
+            sudo rm /tmp/${TARBALL}
+            sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'nginx reloaded' || echo 'nginx reload skipped'
+          " || { echo "SSH EXTRACT FAILED"; exit 1; }
+
+          rm "${TARBALL}"
+          echo "Deploy finished OK"
 
       - name: Health check
         run: |
