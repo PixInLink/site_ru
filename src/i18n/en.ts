@@ -21,8 +21,27 @@ export const en = {
     signOut: "Sign Out",
     themeLight: "Light",
     themeDark: "Dark",
-    themeLight: "Light",
     language: "Language",
+    submenu: {
+      features: {
+        kakRabotaetAi: "How AI Generation Works",
+        webpOptimization: "WebP & AVIF Out of the Box",
+        watermark: "Watermark on AI Images",
+        urlApi: "URL API: Parameter Reference",
+      },
+      useCases: {
+        blogHeaders: "Images for Blog Posts",
+        ogImage: "OG Images 1200×630",
+        socialMedia: "Images for Social Media",
+      },
+      integrations: {
+        wordpress: "WordPress Plugin",
+        sdkPython: "Python SDK",
+      },
+      docs: {
+        gettingStarted: "First AI Image in 60 Seconds",
+      },
+    },
   },
 
   footer: {

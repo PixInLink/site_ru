@@ -11,6 +11,47 @@ const serviceOpen = ref(false);
 const settingsOpen = ref(false);
 const isHeaderFixed = ref(false);
 
+const submenuSections = [
+  {
+    parentPath: "/features/",
+    icon: "auto_awesome",
+    label: t.nav.features,
+    items: [
+      { to: "/features/kak-rabotaet-ai/", label: t.nav.submenu.features.kakRabotaetAi },
+      { to: "/features/webp-optimization/", label: t.nav.submenu.features.webpOptimization },
+      { to: "/features/watermark/", label: t.nav.submenu.features.watermark },
+      { to: "/features/url-api/", label: t.nav.submenu.features.urlApi },
+    ],
+  },
+  {
+    parentPath: "/use-cases/",
+    icon: "work",
+    label: t.nav.useCases,
+    items: [
+      { to: "/use-cases/blog-headers/", label: t.nav.submenu.useCases.blogHeaders },
+      { to: "/use-cases/og-image/", label: t.nav.submenu.useCases.ogImage },
+      { to: "/use-cases/social-media/", label: t.nav.submenu.useCases.socialMedia },
+    ],
+  },
+  {
+    parentPath: "/integrations/",
+    icon: "extension",
+    label: t.nav.integrations,
+    items: [
+      { to: "/integrations/wordpress/", label: t.nav.submenu.integrations.wordpress },
+      { to: "/integrations/sdk-python/", label: t.nav.submenu.integrations.sdkPython },
+    ],
+  },
+  {
+    parentPath: "/docs/",
+    icon: "menu_book",
+    label: t.nav.docs,
+    items: [
+      { to: "/docs/getting-started/", label: t.nav.submenu.docs.gettingStarted },
+    ],
+  },
+];
+
 function isCurrent(path: string) {
   if (path === "/") return route.path === "/";
   return route.path.startsWith(path);
@@ -123,11 +164,20 @@ onUnmounted(() => {
                   </button>
                   <div v-if="serviceOpen" class="mega-menu-root" id="sample-page" @click.stop>
                     <ul>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/features/"><i class="material-icons">auto_awesome</i> {{ t.nav.features }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/use-cases/"><i class="material-icons">work</i> {{ t.nav.useCases }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/integrations/"><i class="material-icons">extension</i> {{ t.nav.integrations }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/docs/"><i class="material-icons">menu_book</i> {{ t.nav.docs }}</RouterLink></li>
-                      <li class="waves-effect"><RouterLink class="menu-list" to="/pricing/"><i class="material-icons">monetization_on</i> {{ t.nav.pricing }}</RouterLink></li>
+                      <li v-for="section in submenuSections" :key="section.parentPath" class="has-submenu" tabindex="0">
+                        <RouterLink class="menu-list menu-list--parent" :to="section.parentPath">
+                          <span class="menu-list__label"><i class="material-icons">{{ section.icon }}</i> {{ section.label }}</span>
+                          <i class="material-icons arrow-icon">keyboard_arrow_right</i>
+                        </RouterLink>
+                        <ul class="submenu">
+                          <li v-for="item in section.items" :key="item.to">
+                            <RouterLink class="menu-list" :to="item.to">{{ item.label }}</RouterLink>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="waves-effect">
+                        <RouterLink class="menu-list" to="/pricing/"><i class="material-icons">monetization_on</i> {{ t.nav.pricing }}</RouterLink>
+                      </li>
                     </ul>
                   </div>
                   <div v-if="serviceOpen" class="mega-menu-backdrop" @click="serviceOpen = false"></div>
@@ -265,6 +315,70 @@ onUnmounted(() => {
   height: auto;
 }
 .mega-menu-root .menu-list:hover {
+  background: #f5f5f5;
+  color: var(--color-accent);
+}
+.has-submenu {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.menu-list--parent {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px !important;
+}
+.menu-list--parent .menu-list__label {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-list--parent .menu-list__label .material-icons {
+  margin-right: 8px;
+}
+.menu-list--parent .arrow-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+  margin-right: 0 !important;
+  transition: transform 0.2s ease;
+}
+.has-submenu:hover > .menu-list--parent .arrow-icon {
+  transform: rotate(90deg);
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  border-radius: 6px;
+  min-width: 280px;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  z-index: 1002;
+}
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+  display: block;
+}
+.submenu .menu-list {
+  display: block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  font-size: 13px;
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.submenu .menu-list:hover {
   background: #f5f5f5;
   color: var(--color-accent);
 }

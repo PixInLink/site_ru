@@ -24,6 +24,26 @@ export const ru = {
     language: "Язык",
     langSwitch: "English",
     langSwitchDomain: "https://pixinlink.com",
+    submenu: {
+      features: {
+        kakRabotaetAi: "Как работает ИИ-генерация",
+        webpOptimization: "WebP и AVIF из коробки",
+        watermark: "Водяной знак на ИИ-изображениях",
+        urlApi: "URL API: справочник параметров",
+      },
+      useCases: {
+        blogHeaders: "Изображения для статей блога",
+        ogImage: "OG-изображения 1200×630",
+        socialMedia: "Изображения для соцсетей",
+      },
+      integrations: {
+        wordpress: "Плагин для WordPress",
+        sdkPython: "Python SDK",
+      },
+      docs: {
+        gettingStarted: "Первое AI-изображение за 60 секунд",
+      },
+    },
   },
 
   footer: {
