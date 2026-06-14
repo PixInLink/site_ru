@@ -77,8 +77,8 @@ jobs:
           " || { echo "EXTRACT FAILED"; exit 1; }
 
           echo "Step 4: Reload nginx"
-          sshpass -e ssh ${SSH_OPTS} "${DEPLOY_USER}@${VPS_HOST}" \
-            "sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'nginx reloaded' || echo 'nginx reload skipped'"
+           sshpass -e ssh ${SSH_OPTS} "${DEPLOY_USER}@${VPS_HOST}" \
+            "sudo kill -HUP \$(pgrep -f 'nginx' | head -1) 2>/dev/null && echo 'nginx reloaded' || echo 'nginx reload skipped'" || true
 
           rm "${TARBALL}"
           echo "Deploy finished OK"
