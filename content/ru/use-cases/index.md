@@ -15,7 +15,7 @@ schema_type: "WebPage"
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-lg-7 col-sm-6 px-md-5 px-0">
               <div class="text">
-                <h4 class="text-h4">Где использовать PixInLink: 8 готовых сценариев</h4>
+                <h1 class="text-h4">Где использовать PixInLink: 8 готовых сценариев</h1>
                 <h5 class="text-h5">От заголовков блога до og:image и email-рассылок — изображение из URL в любом контексте.</h5>
                 <p class="body-1 mt-4">Блогерам и редакторам сервис помогает оформлять материалы визуалом без заезженных стоков. Разработчики и вебмастера автоматически генерируют og:image и интегрируют графику без сложного бэкенда. Маркетологи на лету создают контент нужных форматов для соцсетей и рекламных кампаний.</p>
               </div>
@@ -47,7 +47,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> блогеры, контент-менеджеры, редакторы</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Генерируйте отдельное изображение к каждой публикации без ручного поиска по базам фотостоков. URL с текстом из заголовка вставляется прямо в тег <code>&lt;img&gt;</code>.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/800x400?prompt=как-написать-seo-статью&amp;style=realistic</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/800x400/как-написать-seo-статью</code>
           </div>
           <a href="/use-cases/blog-headers" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -73,7 +73,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> SMM-специалисты, маркетологи</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Формируйте изображения под точные требования платформ: квадрат 1080×1080 для Instagram или широкий 1200×628. Вы просто меняете размеры в ссылке.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/1080x1080?prompt=акция-цветы&amp;style=illustration</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/1080x1080/акция-цветы</code>
           </div>
           <a href="/use-cases/social-media" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -86,7 +86,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> владельцы e-com, разработчики</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Заполняйте каталог заглушками до реальной фотосессии, чтобы витрина не выглядела пустой. Используйте название товара в качестве промпта.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/600x600?prompt=синяя-джинсовая-куртка</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/600x600/синяя-джинсовая-куртка</code>
           </div>
           <a href="/use-cases/ecommerce-placeholders" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -99,7 +99,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> SEO-специалисты, контент-маркетологи</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Поисковые системы пессимизируют страницы за растиражированный визуал со стоков. Получайте нигде ранее не опубликованную иллюстрацию с точным соответствием alt-тегу.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/800x500?prompt=купить-ноутбук-москва</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/800x500/купить-ноутбук-москва</code>
           </div>
           <a href="/use-cases/seo-content" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -112,7 +112,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> редакции, новостные сайты, медиа</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Оформляйте инфоповоды автоматически без покупки подписок на коммерческие фотобанки. Просто передайте заголовок новости в URL с пропорцией 16:9.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/1200x675?prompt=технологии-2026&amp;style=realistic</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/1200x675/технологии-2026</code>
           </div>
           <a href="/use-cases/news-media" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -125,7 +125,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> email-маркетологи (Unisender, SendPulse)</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Встраивайте графику в письма через прямую ссылку в <code>&lt;img src=&gt;</code>. Критически важно фиксировать параметр <code>seed</code>, чтобы при открытии письма подписчик видел один баннер.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/600x300?prompt=летняя-распродажа&amp;seed=1</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/600x300/летняя-распродажа</code>
           </div>
           <a href="/use-cases/email-marketing" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -138,7 +138,7 @@ schema_type: "WebPage"
           <p class="body-2 text-muted mb-3"><strong>Для кого:</strong> UX-дизайнеры, Figma, фронтендеры</p>
           <p class="body-1 mb-4" style="flex-grow: 1;">Используйте реалистичные placeholder-изображения в wireframes вместо скучных серых прямоугольников. Макет будет выглядеть как финальный дизайн на ранней стадии.</p>
           <div class="code-snippet mb-3" style="background: #1e1e1e; padding: 10px; border-radius: 6px; overflow-x: auto;">
-            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/400x300?prompt=интерьер-офис&amp;style=realistic</code>
+            <code style="color: #ce9178; white-space: nowrap;">pixinlink.ru/400x300/интерьер-офис</code>
           </div>
           <a href="/use-cases/prototyping" class="btn-flat primary-text waves-effect">Подробнее &rarr;</a>
         </div>
@@ -167,37 +167,37 @@ schema_type: "WebPage"
             <tr>
               <td><strong>Заголовок статьи</strong></td>
               <td><span class="badge badge-secondary text-dark">800&times;400</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/800x400?prompt=ваш-текст</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/800x400/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>og:image</strong></td>
               <td><span class="badge badge-secondary text-dark">1200&times;630</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1200x630?prompt=ваш-текст&amp;seed=1</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1200x630/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>Instagram квадрат</strong></td>
               <td><span class="badge badge-secondary text-dark">1080&times;1080</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1080x1080?prompt=ваш-текст</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1080x1080/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>Telegram пост</strong></td>
               <td><span class="badge badge-secondary text-dark">1280&times;720</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1280x720?prompt=ваш-текст</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/1280x720/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>Карточка товара</strong></td>
               <td><span class="badge badge-secondary text-dark">600&times;600</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/600x600?prompt=ваш-текст</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/600x600/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>Email-баннер</strong></td>
               <td><span class="badge badge-secondary text-dark">600&times;300</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/600x300?prompt=ваш-текст&amp;seed=1</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/600x300/ваш-текст</td>
             </tr>
             <tr>
               <td><strong>Прототип</strong></td>
               <td><span class="badge badge-secondary text-dark">любой</span></td>
-              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/400x300?prompt=ваш-текст</td>
+              <td style="font-family: monospace; color: #d81b60;">pixinlink.ru/400x300/ваш-текст</td>
             </tr>
           </tbody>
         </table>
@@ -287,7 +287,7 @@ schema_type: "WebPage"
                     <i class="material-icons right arrow">expand_more</i>
                   </div>
                   <div class="collapsible-body detail">
-                    <p>Зависит от параметра <code>seed</code>. Если формировать ссылку без него, генерируется случайное изображение (подходит для декора). С добавлением <code>&amp;seed=число</code> картинка фиксируется и всегда отдается одинаковой (строго обязательно для og:image и рассылок).</p>
+                    <p>Каждый уникальный URL с новым текстом генерирует новое изображение. При повторном запросе того же URL сервис отдаёт закешированный результат — картинка остаётся одинаковой (строго обязательно для og:image и рассылок).</p>
                   </div>
                 </li>
                 <li class="accordion-content paper">
