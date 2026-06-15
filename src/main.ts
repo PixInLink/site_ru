@@ -289,9 +289,12 @@ export function initAccordions() {
     $item.toggleClass("active");
   });
 
-  $(".collapsible-header").first().each(function () {
-    if (!$(this).closest("li").hasClass("active")) {
-      $(this).trigger("click");
+  $(".collapsible").each(function () {
+    const $firstHeader = $(this).find(".collapsible-header").first();
+    const $firstItem = $firstHeader.closest("li");
+    if ($firstItem.length) {
+      $firstItem.addClass("active");
+      $firstItem.find(".collapsible-body").css("display", "block");
     }
   });
 }

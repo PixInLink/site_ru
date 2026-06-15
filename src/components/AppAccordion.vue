@@ -3,7 +3,7 @@ import { provide, reactive } from "vue";
 
 const state = reactive({
   count: 0,
-  active: null as number | null,
+  active: 0,
 });
 
 provide("accordion", state);

@@ -135,7 +135,7 @@ schema_type: "WebPage"
                 <div class="container fixed-width">
                   <div class="row">
                     <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">                     
-                    <img src="https://pixinlink.ru/500x600/иконка-изображение"/>
+                    <img src="https://pixinlink.ru/500x400/иконка-изображение"/>
                     </div>
                     <div class="col-md-5 col-sm-12 px-0">
                       <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
@@ -291,6 +291,99 @@ schema_type: "WebPage"
     </div> <!-- Закрываем row сетки -->
   </div>
   </section>
+  <!-- ##### OUR EXPERTISE #####-->
+            <section class="space-top-short" id="our-expertise">
+              <div class="root">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-7 col-sm-12 px-sm-6">
+                      <h4 class="use-text-title2 text-capitalize">Our Expertise</h4>
+                      <p class="desc use-text-subtitle2">Which is why we provide you with the human resources you need to build whenever you need them. Your team is dedicated to your projects. And the team is flexible!</p>
+                      <div class="running-tag">
+                        <div class="slick-carousel" id="speciality_carousel">
+                          <div class="tag-group">
+                            <span class="tag-item">social media</span>
+                            <span class="tag-item">marketing</span>
+                            <span class="tag-item">SEO</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Web Development</span>
+                            <span class="tag-item">UI Designs</span>
+                            <span class="tag-item">Mobile Apps</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Photography</span>
+                            <span class="tag-item">Company Profile</span>
+                            <span class="tag-item">Visual Editing</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">social media</span>
+                            <span class="tag-item">marketing</span>
+                            <span class="tag-item">SEO</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Web Development</span>
+                            <span class="tag-item">UI Designs</span>
+                            <span class="tag-item">Mobile Apps</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Photography</span>
+                            <span class="tag-item">Company Profile</span>
+                            <span class="tag-item">Visual Editing</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">social media</span>
+                            <span class="tag-item">marketing</span>
+                            <span class="tag-item">SEO</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Web Development</span>
+                            <span class="tag-item">UI Designs</span>
+                            <span class="tag-item">Mobile Apps</span>
+                          </div>
+                          <div class="tag-group">
+                            <span class="tag-item">Photography</span>
+                            <span class="tag-item">Company Profile</span>
+                            <span class="tag-item">Visual Editing</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-sm-12 px-6">
+                      <div class="illustration-wrap">
+                        <div class="wow fadeIn" data-wow-offset="-150" data-wow-delay="0s" data-wow-duration="0.3s">
+                          <div>
+                            <div class="home-deco">
+                              <div class="deco-building">
+                                <svg width="508px" height="492px" viewbox="0 0 508 492" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                  <g id="deco-building" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g>
+                                      <ellipse class="primary-light" cx="461" cy="152.5" rx="47" ry="47.5"></ellipse>
+                                      <circle class="primary-main" cx="460.5" cy="152.5" r="27.5"></circle>
+                                      <polygon class="secondary-light" points="286.097754 0 286.097754 121.721472 98.9114927 121.721472"></polygon>
+                                      <polygon class="accent-dark" points="286.097754 38.8932515 335.774108 38.8932515 286.097754 121.721472"></polygon>
+                                      <ellipse class="secondary-main-stroke" stroke-width="10" cx="331.771466" cy="393.253988" rx="38.1968296" ry="36.7742331"></ellipse>
+                                      <rect class="secondary-light" x="244.340819" y="391.813497" width="169.90753" height="100.11411"></rect>
+                                      <path class="primary-light" d="M43.4755614,323.927607 L229.475561,323.927607 C284.704036,323.927607 329.475561,368.699132 329.475561,423.927607 L329.475561,491.927607 L329.475561,491.927607 L43.4755614,491.927607 L43.4755614,323.927607 Z" transform="translate(186.475561, 407.927607) scale(-1, 1) translate(-186.475561, -407.927607) "></path>
+                                      <rect class="secondary-dark" x="0.278731836" y="234.8" width="44.6367239" height="44.6552147"></rect>
+                                    </g>
+                                  </g>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="wow fadeInRightShort" data-wow-offset="-150" data-wow-delay="0.3s" data-wow-duration="0.3s">
+                          <figure>
+                            <img class="img-2d3d" src="./assets/images/marketing/speciality_3d@2x.png" data-2d="./assets" data-3d="./assets/images/marketing/speciality_3d@2x.png" alt="speciality 3d" />
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END OUR EXPERTISE #####-->
   <!-- ОДИН ФОРМАТ — ЛЮБОЙ СЦЕНАРИЙ (Таблица) -->
   <div class="container page-section" id="formats-table">
     <div class="row mb-4">
