@@ -219,6 +219,23 @@ export function initSliders() {
   }
 
 
+  // OUR EXPERTISE — speciality tag carousel
+  const $speciality = $("#speciality_carousel");
+  if ($speciality.length) {
+    $speciality.slick({
+      dots: false,
+      infinite: true,
+      speed: 500,
+      centerMode: true,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: true,
+    });
+  }
+
   // Case Studies — tab switching
   $("#case_categories").on("click", "li.filter", function () {
     const $this = $(this);

@@ -375,7 +375,7 @@ schema_type: "WebPage"
                         </div>
                         <div class="wow fadeInRightShort" data-wow-offset="-150" data-wow-delay="0.3s" data-wow-duration="0.3s">
                           <figure>
-                            <img class="img-2d3d" src="./assets/images/marketing/speciality_3d@2x.png" data-2d="./assets" data-3d="./assets/images/marketing/speciality_3d@2x.png" alt="speciality 3d" />
+                             <img class="img-2d3d" src="/themes/oiron/images/marketing/speciality_3d@2x.png" data-2d="/themes/oiron/images/marketing/speciality_2d@2x.png" data-3d="/themes/oiron/images/marketing/speciality_3d@2x.png" alt="speciality 3d" />
                           </figure>
                         </div>
                       </div>

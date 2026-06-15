@@ -1293,3 +1293,130 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #testimonials .slick-carousel:has(.testi-card) .slick-slide > div {
   overflow: visible !important;
 }
+
+/* OUR EXPERTISE — use-cases page */
+#our-expertise .root {
+  position: relative;
+}
+
+@media (max-width: 959px) {
+  #our-expertise .root {
+    text-align: center;
+  }
+  #our-expertise .root h4 {
+    margin-top: -16px;
+    margin-bottom: 24px;
+  }
+}
+
+#our-expertise .desc {
+  line-height: 32px;
+}
+
+@media (min-width: 600px) {
+  #our-expertise .desc {
+    padding: 24px 0;
+  }
+}
+
+#our-expertise .running-tag {
+  position: relative;
+  height: 130px;
+}
+
+@media (max-width: 599px) {
+  #our-expertise .running-tag {
+    margin-top: 32px;
+  }
+}
+
+#our-expertise .tag-item {
+  display: inline-block;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in;
+  border: 1px solid;
+  font-size: 14px;
+  margin-bottom: 17px;
+  padding: 4px;
+  border-color: rgba(0, 0, 0, 0.12);
+  margin-right: 8px;
+}
+
+@media (min-width: 960px) {
+  #our-expertise .tag-item {
+    padding: 4px 32px;
+  }
+}
+
+#our-expertise .tag-group {
+  display: block;
+}
+
+#our-expertise .tag-group:focus {
+  outline: none;
+}
+
+#our-expertise .running-tag .slick-active.tag-group > .tag-item:first-child {
+  border-color: var(--v-primary-base);
+  color: var(--v-primarydark-base);
+}
+
+#our-expertise .running-tag .slick-active.tag-group > .tag-item:nth-child(2) {
+  border-color: var(--v-secondary-base);
+  color: var(--v-secondarydark-base);
+}
+
+#our-expertise .running-tag .slick-active.tag-group > .tag-item:last-child {
+  border-color: var(--v-accent-base);
+  color: var(--v-accentdark-base);
+}
+
+#our-expertise .illustration-wrap {
+  position: relative;
+}
+
+#our-expertise .illustration-wrap figure {
+  max-width: 370px;
+  position: relative;
+}
+
+#our-expertise .illustration-wrap figure img {
+  width: 100%;
+}
+
+@media (max-width: 959px) {
+  #our-expertise .illustration-wrap {
+    display: none;
+  }
+}
+
+/* SVG decorative fills for #our-expertise */
+#our-expertise .home-deco .primary-light {
+  fill: var(--v-primarylight-base);
+}
+
+#our-expertise .home-deco .primary-main {
+  fill: var(--v-primary-base);
+}
+
+#our-expertise .home-deco .secondary-light {
+  fill: var(--v-secondarylight-base);
+}
+
+#our-expertise .home-deco .secondary-dark {
+  fill: var(--v-secondarydark-base);
+}
+
+#our-expertise .home-deco .accent-dark {
+  fill: var(--v-accentdark-base);
+}
+
+#our-expertise .home-deco .secondary-main-stroke {
+  stroke: var(--v-secondary-base);
+}
+
+#our-expertise .home-deco .deco-building {
+  position: absolute;
+  left: 20px;
+  top: -30px;
+}
