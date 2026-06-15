@@ -135,7 +135,7 @@ schema_type: "WebPage"
                 <div class="container fixed-width">
                   <div class="row">
                     <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">                     
-                    <img src="https://pixinlink.ru/500x400/иконка-изображение"/>
+                    <img src="https://pixinlink.ru/500x400/иллюстрация-иконка-изображения" alt="Иллюстрация" class="img-fluid">
                     </div>
                     <div class="col-md-5 col-sm-12 px-0">
                       <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
@@ -297,7 +297,7 @@ schema_type: "WebPage"
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-7 col-sm-12 px-sm-6">
-          <h4 class="use-text-title2 text-capitalize">Одна ссылка — любая сфера</h4>
+          <h4 class="use-text-title2 text-capitalize">Единая точка генерации изображений</h4>
           <p class="desc use-text-subtitle2">PixInLink работает там, где нужны картинки: блог, интернет-магазин, рассылка, соцсети, прототип. Меняете только промпт и размер в URL — остальное делает сервис. Одна технология закрывает задачи маркетолога, разработчика, дизайнера и редактора.</p>
           <div class="running-tag">
             <div class="slick-carousel" id="speciality_carousel">
@@ -385,7 +385,21 @@ schema_type: "WebPage"
   </div>
 </section>
 <!-- ##### END OUR EXPERTISE #####-->
-  <!-- ОДИН ФОРМАТ — ЛЮБОЙ СЦЕНАРИЙ (Таблица) -->
+ <!-- ##### COMPANY LOGO #####-->
+            <section class="space-top space-bottom-short" id="company">
+              <div class="company-logo fixed-width">
+                <div class="root">
+                  <img src="./assets/images/logos/architect.png" alt="logo0" />
+                  <img src="./assets/images/logos/cloud.png" alt="logo1" />
+                  <img src="./assets/images/logos/coin.png" alt="logo2" />
+                  <img src="./assets/images/logos/mobile.png" alt="logo3" />
+                  <img src="./assets/images/logos/profile.png" alt="logo4" />
+                  <img src="./assets/images/logos/saas.png" alt="logo5" />
+                </div>
+              </div>
+            </section>
+            <!-- ##### END COMPANY LOGO #####-->
+ <!-- ОДИН ФОРМАТ — ЛЮБОЙ СЦЕНАРИЙ (Таблица) -->
   <div class="container page-section" id="formats-table">
     <div class="row mb-4">
       <div class="col-12 text-center">
@@ -444,6 +458,143 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
+    <!-- ##### CASE STUDIES #####-->
+            <section id="case-studies">
+              <div class="root">
+                <div class="container carousel-header">
+                  <div class="text">
+                    <h4 class="use-text-title2 text-capitalize">Case studies</h4>
+                    <p class="use-text-subtitle2">Projects crafted with passion, built for results</p>
+                  </div><a class="btn-flat primary-text waves-effect view-all" href="products.html">see all<i class="material-icons icon">arrow_forward</i></a>
+                </div>
+                <div class="carousel-handle">
+                  <div class="carousel-wrap">
+                    <div class="slick-carousel" id="case_studies_carousel" data-length="10">
+                      <div class="item carousel-prop">
+                        <div></div>
+                      </div>
+                      <div class="item">
+                        <div>
+                          <a class="waves-effect case-card big" href="https://placehold.co/713x460/79c0ff/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/713x460/79c0ff/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Building Inspectors</span>
+                            <span class="desc">Responsible for inspecting buildings</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/711x693/52596b/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/711x693/52596b/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Car Seat Clip</span>
+                            <span class="desc">Powering many of the personal computers</span></span>
+                            </span></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/mobile.png" alt="logo"/></span><span class="text"><span class="title">Indoor Solution</span>
+                            <span class="desc">Solutions for the retail industry</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/profile.png" alt="logo"/></span><span class="text"><span class="title">Media Asset Management</span>
+                            <span class="desc">Builds advanced media asset</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/architect.png" alt="logo"/></span><span class="text"><span class="title">Investment Evolution</span>
+                            <span class="desc">Global fintech in consumer loans</span></span>
+                            </span></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div>
+                          <a class="waves-effect case-card big" href="https://placehold.co/713x460/4a0cfd/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/713x460/4a0cfd/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Case City of Tampere</span>
+                            <span class="desc">Speeds up the handling of matters in the City of Tampere</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/521x309/4a0cfd/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/521x309/4a0cfd/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Systems modelling</span>
+                            <span class="desc">Situational snapshot as a basis for strategic development</span></span>
+                            </span></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/490x327/fdcc0c/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/490x327/fdcc0c/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Legal register centre</span>
+                            <span class="desc">From ideas to concepts with service design</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/713x460/79c0ff/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/713x460/79c0ff/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">5G test automation</span>
+                            <span class="desc">Test automation for testing 5G phones and mobile routers.</span></span>
+                            </span></span>
+                          </a>
+                          <a class="waves-effect case-card medium" href="https://placehold.co/521x309/fdcc0c/FFFFFF">
+                            <span class="figure"><img src="https://placehold.co/521x309/fdcc0c/FFFFFF" alt="img"/></span>
+                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Finnish Tax Administration</span>
+                            <span class="desc">Expertise in testing large-scale products</span></span>
+                            </span></span>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <nav class="arrow"><a class="btn waves-effect margin prev primary disabled" id="prev_case"><i class="material-icons icon">arrow_back</i></a><a class="btn waves-effect margin next primary" id="next_case"><i class="material-icons icon">arrow_forward</i></a></nav>
+                </div>
+                <div class="floating-artwork">
+                  <div class="container fixed-width">
+                    <div class="artwork">
+                      <div class="slider-art">
+                        <div class="figure show-lg-up" id="art_case_studies">
+                          <div>
+                            <div class="wow fadeIn" data-wow-offset="0" data-wow-delay="0s" data-wow-duration="0.3s">
+                              <div class="home-deco">
+                                <div class="deco-light">
+                                  <svg width="256px" height="249px" viewbox="0 0 256 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="deco-light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                      <g>
+                                        <path class="accent-light" d="M128.536205,86.951552 L170.136093,86.951552 L170.136093,86.951552 L170.136093,248.127127 L28.536205,248.127127 L28.536205,186.951552 C28.536205,131.723077 73.30773,86.951552 128.536205,86.951552 Z"></path>
+                                        <polygon class="secondary-light" transform="translate(212.775060, 42.858051) scale(-1, 1) translate(-212.775060, -42.858051) " points="255.473995 -3.15937752e-14 255.473995 85.7161014 170.076125 85.7161014"></polygon>
+                                        <polygon class="secondary-main" transform="translate(233.854671, 21.342857) scale(-1, 1) translate(-233.854671, -21.342857) " points="255.114187 0 255.114187 42.6857143 212.595156 42.6857143"></polygon>
+                                        <g class="primary-main" transform="translate(-75.000000, -3203.000000)">
+                                          <g transform="translate(0.000000, 2843.000000)">
+                                            <g transform="translate(75.000000, 274.000000)">
+                                              <g>
+                                                <path d="M8.82900417,95.0103308 L48.2434059,95.0103308 L48.2434059,133.838992 L8.82900417,133.838992 L8.82900417,95.0103308 Z M0.0702482381,86.951552 L57.0021618,86.951552 L57.0021618,142.630387 L0.0702482381,142.630387 L0.0702482381,86.951552 Z"></path>
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wow fadeInLeftShort" data-wow-offset="250" data-wow-delay="0.3s" data-wow-duration="0.5s">
+                              <img class="illustration img-2d3d" src="./assets/images/marketing/case_studies_3d@2x.png" data-2d="./assets" data-3d="./assets/images/marketing/case_studies_3d@2x.png" alt="case-studies" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section><!-- ##### END CASE STUDIES #####-->
   <!-- КАК ЭТО РАБОТАЕТ (Шаги, Block 2A) -->
   <div class="container page-section" id="how-it-works">
     <div class="row mb-5">
