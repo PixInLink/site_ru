@@ -389,12 +389,12 @@ schema_type: "WebPage"
             <section class="space-top space-bottom-short" id="company">
               <div class="company-logo fixed-width">
                 <div class="root">
-                  <img src="./assets/images/logos/architect.png" alt="logo0" />
-                  <img src="./assets/images/logos/cloud.png" alt="logo1" />
-                  <img src="./assets/images/logos/coin.png" alt="logo2" />
-                  <img src="./assets/images/logos/mobile.png" alt="logo3" />
-                  <img src="./assets/images/logos/profile.png" alt="logo4" />
-                  <img src="./assets/images/logos/saas.png" alt="logo5" />
+                  <img src="/themes/oiron/images/logos/architect.png" alt="logo0" />
+                  <img src="/themes/oiron/images/logos/cloud.png" alt="logo1" />
+                  <img src="/themes/oiron/images/logos/coin.png" alt="logo2" />
+                  <img src="/themes/oiron/images/logos/mobile.png" alt="logo3" />
+                  <img src="/themes/oiron/images/logos/profile.png" alt="logo4" />
+                  <img src="/themes/oiron/images/logos/saas.png" alt="logo5" />
                 </div>
               </div>
             </section>
@@ -477,13 +477,13 @@ schema_type: "WebPage"
                         <div>
                           <a class="waves-effect case-card big" href="https://placehold.co/713x460/79c0ff/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/713x460/79c0ff/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Building Inspectors</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Building Inspectors</span>
                             <span class="desc">Responsible for inspecting buildings</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/711x693/52596b/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/711x693/52596b/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Car Seat Clip</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Car Seat Clip</span>
                             <span class="desc">Powering many of the personal computers</span></span>
                             </span></span>
                           </a>
@@ -493,19 +493,19 @@ schema_type: "WebPage"
                         <div>
                           <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/mobile.png" alt="logo"/></span><span class="text"><span class="title">Indoor Solution</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/mobile.png" alt="logo"/></span><span class="text"><span class="title">Indoor Solution</span>
                             <span class="desc">Solutions for the retail industry</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/profile.png" alt="logo"/></span><span class="text"><span class="title">Media Asset Management</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/profile.png" alt="logo"/></span><span class="text"><span class="title">Media Asset Management</span>
                             <span class="desc">Builds advanced media asset</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/490x327/ffc999/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/490x327/ffc999/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/architect.png" alt="logo"/></span><span class="text"><span class="title">Investment Evolution</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/architect.png" alt="logo"/></span><span class="text"><span class="title">Investment Evolution</span>
                             <span class="desc">Global fintech in consumer loans</span></span>
                             </span></span>
                           </a>
@@ -515,13 +515,13 @@ schema_type: "WebPage"
                         <div>
                           <a class="waves-effect case-card big" href="https://placehold.co/713x460/4a0cfd/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/713x460/4a0cfd/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Case City of Tampere</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Case City of Tampere</span>
                             <span class="desc">Speeds up the handling of matters in the City of Tampere</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/521x309/4a0cfd/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/521x309/4a0cfd/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Systems modelling</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Systems modelling</span>
                             <span class="desc">Situational snapshot as a basis for strategic development</span></span>
                             </span></span>
                           </a>
@@ -531,19 +531,19 @@ schema_type: "WebPage"
                         <div>
                           <a class="waves-effect case-card medium" href="https://placehold.co/490x327/fdcc0c/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/490x327/fdcc0c/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Legal register centre</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Legal register centre</span>
                             <span class="desc">From ideas to concepts with service design</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/713x460/79c0ff/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/713x460/79c0ff/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">5G test automation</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">5G test automation</span>
                             <span class="desc">Test automation for testing 5G phones and mobile routers.</span></span>
                             </span></span>
                           </a>
                           <a class="waves-effect case-card medium" href="https://placehold.co/521x309/fdcc0c/FFFFFF">
                             <span class="figure"><img src="https://placehold.co/521x309/fdcc0c/FFFFFF" alt="img"/></span>
-                            <span class="property"><span class="title"><span class="logo"><img src="./assets/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Finnish Tax Administration</span>
+                            <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Finnish Tax Administration</span>
                             <span class="desc">Expertise in testing large-scale products</span></span>
                             </span></span>
                           </a>
