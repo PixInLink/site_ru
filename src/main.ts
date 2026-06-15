@@ -236,6 +236,50 @@ export function initSliders() {
     });
   }
 
+  // CASE STUDIES — slick carousel
+  const $caseCarousel = $("#case_studies_carousel");
+  if ($caseCarousel.length) {
+    const showSlide = 2;
+    if (window.innerWidth > 1200) {
+      const prop = window.innerWidth > 1400 ? 0 : 1;
+      const lastSlide = Math.floor(Number($caseCarousel.data("length")) - showSlide + prop);
+      setTimeout(() => $caseCarousel.slick("slickGoTo", lastSlide), 100);
+    }
+
+    $caseCarousel.slick({
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 2,
+      arrows: false,
+      slidesToScroll: 1,
+      variableWidth: true,
+      responsive: [
+        {
+          breakpoint: 1100,
+          settings: {
+            dots: false,
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+
+    const sliderArt = $("#art_case_studies");
+    $caseCarousel.on("afterChange", (_event: unknown, _slick: unknown, currentSlide: number) => {
+      if (currentSlide >= 1) {
+        sliderArt.addClass("faded");
+        $("#prev_case").removeClass("disabled");
+      } else {
+        sliderArt.removeClass("faded");
+        $("#prev_case").addClass("disabled");
+      }
+    });
+
+    $("#prev_case").off("click").on("click", () => $caseCarousel.slick("slickPrev"));
+    $("#next_case").off("click").on("click", () => $caseCarousel.slick("slickNext"));
+  }
+
   // Case Studies — tab switching
   $("#case_categories").on("click", "li.filter", function () {
     const $this = $(this);

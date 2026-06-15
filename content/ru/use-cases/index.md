@@ -547,7 +547,6 @@ schema_type: "WebPage"
                             <span class="desc">Expertise in testing large-scale products</span></span>
                             </span></span>
                           </a>
-
                         </div>
                       </div>
                     </div>
@@ -585,7 +584,7 @@ schema_type: "WebPage"
                               </div>
                             </div>
                             <div class="wow fadeInLeftShort" data-wow-offset="250" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                              <img class="illustration img-2d3d" src="./assets/images/marketing/case_studies_3d@2x.png" data-2d="./assets" data-3d="./assets/images/marketing/case_studies_3d@2x.png" alt="case-studies" />
+                              <img class="illustration img-2d3d" src="/themes/oiron/images/marketing/case_studies_3d@2x.png" data-2d="/themes/oiron/images/marketing/case_studies_2d@2x.png" data-3d="/themes/oiron/images/marketing/case_studies_3d@2x.png" alt="case-studies" />
                             </div>
                           </div>
                         </div>
