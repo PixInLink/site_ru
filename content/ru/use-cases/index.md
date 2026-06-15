@@ -627,27 +627,33 @@ schema_type: "WebPage"
       </div>
     </div>
   </div>
-  <!-- CTA (Block 8) - Попробуйте на своём проекте -->
-  <div class="call-to-action page-section pb-5" id="cta">
-    <div class="container fixed-width-md-up">
-      <div class="root">
-        <div class="card paper">
-          <div class="row align-items-center mb-0">
-            <div class="col-lg-7 col-md-12 pa-4">
-              <h4 class="use-text-title2 pb-2">Попробуйте на своём проекте</h4>
-              <p class="use-text-subtitle2 mb-0">Free-тариф: 50 генераций без привязки карты и без регистрации. Просто вставьте URL в код вашего сайта — и посмотрите результат в реальных условиях.</p>
-            </div>
-            <div class="col-lg-5 col-md-12 pa-4 text-lg-right text-left">
-              <div class="d-flex flex-wrap align-items-center justify-content-lg-end">
-                <a class="waves-effect btn btn-large primary mr-3 mb-2" href="https://app.pixinlink.ru/register">Начать бесплатно</a>
-                <a class="waves-effect btn btn-large btn-outlined secondary mb-2" href="/docs">Документация</a>
+  <!-- ##### CALL ACTION #####-->
+  <section class="space-bottom">
+    <div class="call-to-action">
+      <div class="container fixed-width-md-up">
+        <div class="root">
+          <div class="deco"><span class="deco-top"></span><span class="deco-bottom"></span><span class="deco-right"></span></div>
+          <div class="wow fadeInUpShort" data-wow-delay="0.3s" data-wow-duration="0.5s" data-wow-offset="40">
+            <div class="card paper">
+              <div class="deco-button"></div>
+              <div class="row align-items-center mb-0">
+                <div class="col-md-8 col-sm-12 px-sm-6 px-0">
+                  <h4 class="use-text-title2 pb-2">Попробуйте на своём проекте</h4>
+                  <p>Просто вставьте URL в код вашего сайта — и посмотрите результат в реальных условиях.</p>
+                </div>
+                <div class="col-md-4 col-sm-12 ps-md-12">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <a class="waves-effect btn button primary btn-large" href="https://app.pixinlink.ru/register">Начать бесплатно</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <!-- ##### END CALL ACTION #####-->
   <!-- FAQ (Block 7A) -->
   <div class="faq-style page-section mb-5" id="faq">
     <div class="root">
