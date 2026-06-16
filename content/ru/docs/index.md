@@ -112,75 +112,85 @@ raw_html: true
 </div>
 <!-- ##### END СТРУКТУРА URL #####-->
 
-<!-- ##### ПАРАМЕТРЫ #####-->
-<div class="container page-section" id="parameters">
-  <div class="row mb-5">
-    <div class="col-12 text-center">
-      <h3 class="use-text-title2">Дополнительные параметры</h3>
-      <p class="use-text-subtitle2">Тонкая настройка через query-параметры после описания</p>
-    </div>
-  </div>
+<!-- ##### СЕТКА КАТЕГОРИЙ #####-->
+<div class="container page-section" id="docs-categories">
   <div class="row">
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">palette</div>
-        <h5 class="headline"><code>style</code></h5>
-        <p class="body-2 mb-2">Стиль генерации. Доступны: <code>realistic</code>, <code>cartoon</code>, <code>oil</code>, <code>sketch</code>, <code>cyberpunk</code>, <code>watercolor</code>.</p>
-        <p class="body-2 text-muted">Пример: <code>?style=oil</code></p>
-        <p class="body-2 text-muted">По умолчанию: <code>realistic</code></p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">tag</div>
-        <h5 class="headline"><code>seed</code></h5>
-        <p class="body-2 mb-2">Число для воспроизводимости. Одинаковый seed + prompt = одинаковое изображение.</p>
-        <p class="body-2 text-muted">Пример: <code>?seed=42</code></p>
-        <p class="body-2 text-muted">По умолчанию: случайный</p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">photo</div>
-        <h5 class="headline"><code>format</code></h5>
-        <p class="body-2 mb-2">Формат выходного изображения.</p>
-        <p class="body-2 text-muted">Пример: <code>?format=webp</code></p>
-        <p class="body-2 text-muted">Значения: <code>webp</code>, <code>png</code>, <code>avif</code>. По умолчанию: <code>webp</code></p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">branding_watermark</div>
-        <h5 class="headline"><code>watermark</code></h5>
-        <p class="body-2 mb-2">Водяной знак на изображении.</p>
-        <p class="body-2 text-muted">Пример: <code>?watermark=false</code></p>
-        <p class="body-2 text-muted">Значения: <code>true</code>, <code>false</code>. Убрать водяной знак можно на тарифе Starter и выше.</p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">color_lens</div>
-        <h5 class="headline"><code>bg</code> / <code>fg</code></h5>
-        <p class="body-2 mb-2">Цвет фона и текста (HEX без #).</p>
-        <p class="body-2 text-muted">Пример: <code>?bg=ffffff&fg=333333</code></p>
-        <p class="body-2 text-muted">По умолчанию: <code>ffffff</code> / <code>000000</code></p>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 pa-4">
-      <div class="feature-list card paper pa-4 h-100">
-        <div class="icon primary material-icons">link</div>
-        <h5 class="headline">Полный пример</h5>
-        <div class="card paper pa-3 mt-2" style="background: #1e1e1e; border-radius: 4px;">
-          <code style="color: #ce9178; font-size: 12px; word-break: break-all;">
-            /800x400/офис?style=oil&amp;seed=42&amp;format=webp
-          </code>
+    <!-- Колонка 1: Начало работы -->
+    <div class="col-md-4 pa-4 mb-4">
+      <div class="card paper pa-4 h-100">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon primary material-icons mr-2" style="font-size: 28px;">menu_book</div>
+          <h5 class="headline m-0">Начало работы</h5>
         </div>
-        <p class="body-2 text-muted mt-2">Параметры можно комбинировать через <code>&amp;</code></p>
+        <ul class="body-1" style="list-style: none; padding-left: 0;">
+          <li class="mb-3">
+            <a href="/docs/getting-started/" class="primary-text"><strong>Быстрый старт</strong></a><br>
+            <span class="body-2 text-muted">Первое изображение за 60 секунд</span>
+          </li>
+          <li class="mb-3">
+            <a href="/features/url-api/" class="primary-text"><strong>URL API справочник</strong></a><br>
+            <span class="body-2 text-muted">Параметры: width, height, prompt...</span>
+          </li>
+          <li class="mb-3">
+            <a href="/integrations/" class="primary-text"><strong>Примеры кода</strong></a><br>
+            <span class="body-2 text-muted">WordPress, Python, JS, cURL</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Колонка 2: Аккаунт и оплата -->
+    <div class="col-md-4 pa-4 mb-4">
+      <div class="card paper pa-4 h-100">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon primary material-icons mr-2" style="font-size: 28px;">account_circle</div>
+          <h5 class="headline m-0">Аккаунт и оплата</h5>
+        </div>
+        <ul class="body-1" style="list-style: none; padding-left: 0;">
+          <li class="mb-3">
+            <a href="/pricing/" class="primary-text"><strong>Оплата и подписка</strong></a><br>
+            <span class="body-2 text-muted">Kassa, Visa/СБП, счета, возврат</span>
+          </li>
+          <li class="mb-3">
+            <a href="/pricing/" class="primary-text"><strong>Квоты и лимиты</strong></a><br>
+            <span class="body-2 text-muted">Rate limit, 429-ошибки, сброс лимитов</span>
+          </li>
+          <li class="mb-3">
+            <a href="/features/watermark/" class="primary-text"><strong>Водяной знак</strong></a><br>
+            <span class="body-2 text-muted">Как убрать через watermark=false</span>
+          </li>
+          <li class="mb-3">
+            <a href="/docs/getting-started/" class="primary-text"><strong>FAQ</strong></a><br>
+            <span class="body-2 text-muted">30 вопросов: генерация, оплата, WP</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Колонка 3: Для разработчиков -->
+    <div class="col-md-4 pa-4 mb-4">
+      <div class="card paper pa-4 h-100">
+        <div class="d-flex align-items-center mb-3">
+          <div class="icon primary material-icons mr-2" style="font-size: 28px;">code</div>
+          <h5 class="headline m-0">Для разработчиков</h5>
+        </div>
+        <ul class="body-1" style="list-style: none; padding-left: 0;">
+          <li class="mb-3">
+            <a href="/integrations/" class="primary-text"><strong>API Reference</strong></a><br>
+            <span class="body-2 text-muted">OpenAPI: все /api/v1/* эндпоинты</span>
+          </li>
+          <li class="mb-3">
+            <a href="/integrations/" class="primary-text"><strong>Webhooks 🔜</strong></a><br>
+            <span class="body-2 text-muted">image.ready, HMAC-подпись</span>
+          </li>
+          <li class="mb-3">
+            <a href="/docs/getting-started/" class="primary-text"><strong>Changelog</strong></a><br>
+            <span class="body-2 text-muted">История версий: v1.0 &rarr; v2.0</span>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
-<!-- ##### END ПАРАМЕТРЫ #####-->
+<!-- ##### END СЕТКА КАТЕГОРИЙ #####-->
 
 <!-- ##### ЧАСТО ИЩУТ #####-->
 <div class="container page-section pt-0" id="popular-searches">
@@ -206,80 +216,44 @@ raw_html: true
 </div>
 <!-- ##### END ЧАСТО ИЩУТ #####-->
 
-<!-- ##### КАТЕГОРИИ ДОКУМЕНТАЦИИ #####-->
-<div class="container page-section" id="docs-categories">
+<!-- ##### НУЖНА ПОМОЩЬ? #####-->
+<div class="container page-section" id="help-support">
   <div class="row mb-5">
     <div class="col-12 text-center">
-      <h3 class="use-text-title2">Разделы документации</h3>
-      <p class="use-text-subtitle2">Основные темы, которые помогут начать работу</p>
+      <h3 class="use-text-title2">Нужна помощь?</h3>
+      <p class="use-text-subtitle2">Мы всегда на связи, чтобы помочь с интеграцией</p>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4 pa-4 mb-4">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/документация-быстрый-старт-pixinlink-url-api" alt="Быстрый старт PixInLink" />
-        </figure>
-        <div class="desc">
-          <div class="text">
-            <h6 class="use-text-subtitle2">Быстрый старт</h6>
-            <p class="body-2">Первое изображение за 60 секунд. Пошаговая инструкция: от URL до вставки на сайт.</p>
-          </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/docs/getting-started/">Читать</a>
-        </div>
+    <!-- Email -->
+    <div class="col-md-4 pa-4 text-center">
+      <div class="feature-list card paper pa-4 h-100">
+        <div class="icon primary material-icons mb-3" style="font-size: 48px;">email</div>
+        <h5 class="headline">Email поддержка</h5>
+        <p class="body-1 mb-3">Ответ в течение 24 часов.</p>
+        <a href="mailto:support@pixinlink.ru" class="btn-flat primary-text waves-effect">support@pixinlink.ru</a>
       </div>
     </div>
-    <div class="col-md-4 pa-4 mb-4">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/интеграции-api-wordpress-modx-python-sdk-подключение" alt="Интеграции PixInLink" />
-        </figure>
-        <div class="desc">
-          <div class="text">
-            <h6 class="use-text-subtitle2">Интеграции</h6>
-            <p class="body-2">Плагины для WordPress и MODX, SDK для Python и JavaScript, REST API и прямая вставка URL.</p>
-          </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/">Все интеграции</a>
-        </div>
+    <!-- Telegram -->
+    <div class="col-md-4 pa-4 text-center">
+      <div class="feature-list card paper pa-4 h-100">
+        <div class="icon primary material-icons mb-3" style="font-size: 48px;">group</div>
+        <h5 class="headline">Комьюнити</h5>
+        <p class="body-1 mb-3">Вопросы, советы, обмен опытом.</p>
+        <a href="https://t.me/pixinlinkusers" target="_blank" class="btn-flat primary-text waves-effect">t.me/pixinlinkusers</a>
       </div>
     </div>
-    <div class="col-md-4 pa-4 mb-4">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/возможности-url-api-генерация-webp-водяной-знак" alt="Возможности PixInLink" />
-        </figure>
-        <div class="desc">
-          <div class="text">
-            <h6 class="use-text-subtitle2">Возможности</h6>
-            <p class="body-2">URL API, WebP-оптимизация, водяные знаки, CDN-доставка, AI-генерация и параметры запросов.</p>
-          </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/features/">Все возможности</a>
-        </div>
+    <!-- Баги -->
+    <div class="col-md-4 pa-4 text-center">
+      <div class="feature-list card paper pa-4 h-100">
+        <div class="icon primary material-icons mb-3" style="font-size: 48px;">bug_report</div>
+        <h5 class="headline">Нашли ошибку?</h5>
+        <p class="body-1 mb-3">Опишите проблему с <code>X-Request-ID</code>.</p>
+        <a href="mailto:support@pixinlink.ru" class="btn-flat primary-text waves-effect">Написать тикет</a>
       </div>
     </div>
   </div>
 </div>
-<!-- ##### END КАТЕГОРИИ ДОКУМЕНТАЦИИ #####-->
-
-<!-- ##### ПОДДЕРЖКА #####-->
-<div class="call-to-action page-section pb-5">
-  <div class="container fixed-width-md-up">
-    <div class="root">
-      <div class="card paper">
-        <div class="row align-items-center mb-0">
-          <div class="col-md-8 pa-4">
-            <h4 class="use-text-title2 pb-2">Нужна помощь?</h4>
-            <p class="use-text-subtitle2 mb-0">Если вы не нашли ответа в документации — напишите нам. Мы отвечаем в течение 24 часов. Так же приглашаем в комьюнити в Telegram.</p>
-          </div>
-          <div class="col-md-4 pa-4 text-md-right">
-            <a class="waves-effect btn-large secondary button mr-2" href="mailto:support@pixinlink.ru">Email</a>
-            <a class="waves-effect btn-large primary button" href="https://t.me/pixinlinkusers" target="_blank">Telegram</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- ##### END ПОДДЕРЖКА #####-->
+<!-- ##### END НУЖНА ПОМОЩЬ? #####-->
 
 </main>
