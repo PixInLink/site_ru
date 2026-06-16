@@ -135,7 +135,7 @@ schema_type: "WebPage"
                 <div class="container fixed-width">
                   <div class="row">
                     <div class="col-md-6 col-sm-12 pa-sm-6 hidden-sm-down">                     
-                    <img src="https://pixinlink.ru/500x400/блондинка-сотрудник-офис" alt="Иллюстрация" class="img-fluid">
+                    <img src="https://pixinlink.ru/500x400/цветная-иконка-иллюстрация" alt="Иллюстрация" class="img-fluid">
                     </div>
                     <div class="col-md-5 col-sm-12 px-0">
                       <h4 class="title-default use-text-subtitle">Одна ссылка вместо дизайнера, стока и хостинга.</h4>
