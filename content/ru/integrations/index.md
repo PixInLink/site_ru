@@ -42,7 +42,7 @@ raw_html: true
 <!-- ##### END HERO #####-->
 
 <!-- ##### ПЛАГИНЫ CMS #####-->
-<div class="container page-section" id="cms-plugins">
+<div class="container page-section space-top-short" id="cms-plugins">
   <div class="row mb-5">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">Плагины для CMS</h3>
@@ -52,91 +52,91 @@ raw_html: true
   <div class="row">
     <!-- WordPress -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/wordpress-интерфейс-плагин-pixinlink-генерация-изображений" alt="Плагин PixInLink для WordPress" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/wordpress-интерфейс-плагин-pixinlink-генерация-изображений);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">WordPress</h6>
-            <p class="body-2">Официальный плагин с Gutenberg-блоком и шорткодом <code>[pixinlink]</code>. Интеграция с WooCommerce, автообложки записей, кеш на 30 дней.</p>
+            <h6 class="title pb-2 text-truncate">WordPress</h6>
+            <p class="use-text-paragraph">Официальный плагин с Gutenberg-блоком и шорткодом <code>[pixinlink]</code>. Интеграция с WooCommerce, автообложки записей, кеш на 30 дней.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/wordpress/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/integrations/wordpress/">Документация</a>
         </div>
       </div>
     </div>
     <!-- MODX -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/modx-cms-панель-администратора-интеграция-pixinlink" alt="Сниппет PixInLink для MODX Revolution" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/modx-cms-панель-администратора-интеграция-pixinlink);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">MODX Revolution</h6>
-            <p class="body-2">Сниппет с TV-полями и автозаменой URL в контенте. Установка через MODX Extras, поддержка шаблонов и кеширования.</p>
+            <h6 class="title pb-2 text-truncate">MODX Revolution</h6>
+            <p class="use-text-paragraph">Сниппет с TV-полями и автозаменой URL в контенте. Установка через MODX Extras, поддержка шаблонов и кеширования.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/modx/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/integrations/modx/">Документация</a>
         </div>
       </div>
     </div>
     <!-- Ghost CMS -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/ghost-cms-блог-платформа-редактор-интеграция-pixinlink" alt="Интеграция PixInLink с Ghost CMS" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/ghost-cms-блог-платформа-редактор-интеграция-pixinlink);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">Ghost CMS</h6>
-            <p class="body-2">Интеграция через Code Injection и Handlebars-шаблоны. Без внешних зависимостей, идеально для блогов и медиа-изданий.</p>
+            <h6 class="title pb-2 text-truncate">Ghost CMS</h6>
+            <p class="use-text-paragraph">Интеграция через Code Injection и Handlebars-шаблоны. Без внешних зависимостей, идеально для блогов и медиа-изданий.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/ghost/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/integrations/ghost/">Документация</a>
         </div>
       </div>
     </div>
     <!-- Webflow -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/webflow-конструктор-сайтов-дизайн-интеграция-pixinlink" alt="Интеграция PixInLink с Webflow" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/webflow-конструктор-сайтов-дизайн-интеграция-pixinlink);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">Webflow</h6>
-            <p class="body-2">Embed-блок и CMS Collections. Автогенерация обложек для записей, динамические изображения через URL API.</p>
+            <h6 class="title pb-2 text-truncate">Webflow</h6>
+            <p class="use-text-paragraph">Embed-блок и CMS Collections. Автогенерация обложек для записей, динамические изображения через URL API.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/webflow/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/integrations/webflow/">Документация</a>
         </div>
       </div>
     </div>
     <!-- Zapier -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/zapier-автоматизация-сценарии-api-интеграция-pixinlink" alt="Интеграция PixInLink с Zapier" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/zapier-автоматизация-сценарии-api-интеграция-pixinlink);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">Zapier</h6>
-            <p class="body-2">Готовые Zap-шаблоны: Google Sheets &rarr; Изображение &rarr; Slack, Airtable &rarr; Изображение. Триггеры на генерацию и оплату.</p>
+            <h6 class="title pb-2 text-truncate">Zapier</h6>
+            <p class="use-text-paragraph">Готовые Zap-шаблоны: Google Sheets &rarr; Изображение &rarr; Slack, Airtable &rarr; Изображение. Триггеры на генерацию и оплату.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/integrations/zapier/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/integrations/zapier/">Документация</a>
         </div>
       </div>
     </div>
     <!-- Tilda / другие конструкторы -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="card product-card portrait over">
-        <figure>
-          <img src="https://pixinlink.ru/600x400/конструктор-сайтов-tilda-html-вставка-изображение-url" alt="Прямая вставка URL для любых конструкторов" />
-        </figure>
+       <div class="card product-card portrait over">
+        <div class="figure">
+          <div class="responsive-img" style="background-image:url(https://pixinlink.ru/600x400/конструктор-сайтов-tilda-html-вставка-изображение-url);"></div>
+        </div>
         <div class="desc">
           <div class="text">
-            <h6 class="use-text-subtitle2">Любой конструктор</h6>
-            <p class="body-2">Tilda, Readymag, Notion, Wix — всё, что умеет вставлять изображение по URL, уже работает с PixInLink без настройки.</p>
+            <h6 class="title pb-2 text-truncate">Любой конструктор</h6>
+            <p class="use-text-paragraph">Tilda, Readymag, Notion, Wix — всё, что умеет вставлять изображение по URL, уже работает с PixInLink без настройки.</p>
           </div>
-          <a class="btn btn-flat primary-text waves-effect" href="/docs/">Документация</a>
+          <a class="btn btn-outlined primary button block" href="/docs/">Документация</a>
         </div>
       </div>
     </div>
@@ -145,7 +145,7 @@ raw_html: true
 <!-- ##### END ПЛАГИНЫ CMS #####-->
 
 <!-- ##### SDK #####-->
-<div class="container page-section" id="sdk">
+<div class="container page-section space-top-short" id="sdk">
   <div class="row mb-5">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">Официальные SDK</h3>
