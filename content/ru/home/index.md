@@ -263,28 +263,28 @@ raw_html: true
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/руководители-бизнеса" loading="lazy" alt="айти команда" />
+                    <img src="https://pixinlink.ru/766x510/программисты" loading="lazy" alt="айти команда" />
                   </figure>
                 </div>
               </div>
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/сотрудник-офиса" loading="lazy" alt="ноутбук на столе" />
+                    <img src="https://pixinlink.ru/766x510/сотрудники-офиса" loading="lazy" alt="сотрудники офиса" />
                   </figure>
                 </div>
               </div>
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/рабочее-место" loading="lazy" alt="рабочее место" />
+                    <img src="https://pixinlink.ru/766x510/бизнес-партнеры" loading="lazy" alt="бизнес партнеры" />
                   </figure>
                 </div>
               </div>
               <div class="slide">
                 <div class="border-gradient">
                   <figure>
-                    <img src="https://pixinlink.ru/766x510/город-с-высоты-полета" loading="lazy" alt="монитор и графики" />
+                    <img src="https://pixinlink.ru/766x510/город-высоты-полета" loading="lazy" alt="Город с высоты полета" />
                   </figure>
                 </div>
               </div>
