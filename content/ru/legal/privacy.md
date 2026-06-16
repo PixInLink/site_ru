@@ -9,9 +9,10 @@ schema_type: "WebPage"
 ---
 <main class="container-wrap">
 
-<div class="container page-section max-md">
+<div class="container mt-5 pt-5 page-section max-md">
   <div class="row">
     <div class="col-12">
+      <h1 class="use-text-title2 mb-4">Политика конфиденциальности</h1>
       <h3>1. Какие данные мы собираем</h3>
       <p>При регистрации через форму на сайте pixinlink.ru мы запрашиваем:</p>
       <ul>

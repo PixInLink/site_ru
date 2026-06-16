@@ -18,6 +18,7 @@ schema_type: "WebPage"
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Водяной знак</span>
       </div>
+      <h1 class="use-text-title2">Водяной знак на ИИ-изображениях</h1>
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Free-тариф: знак «PixInLink.com» вшит в пиксели. Starter от 490 руб/мес — без знака. Business — ваш бренд.
       </p>

@@ -18,6 +18,7 @@ schema_type: "WebPage"
           <span class="ml-2 text-muted" style="font-size: 14px;">/</span>
           <span class="ml-2 text-muted" style="font-size: 14px;">URL API</span>
         </div>
+        <h1 class="use-text-title2">URL API: справочник параметров</h1>
         <p class="use-text-subtitle2 text-muted" style="font-size: 1.3rem;">
           Генерируйте изображения одним HTTP GET-запросом — без SDK, без настройки и без бэкенда.
         </p>

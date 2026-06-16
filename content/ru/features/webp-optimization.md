@@ -18,6 +18,7 @@ schema_type: "WebPage"
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">WebP-оптимизация</span>
       </div>
+      <h1 class="use-text-title2">WebP и AVIF из коробки</h1>
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Не нужно конвертировать вручную или ставить плагины — PixInLink генерирует изображение сразу в WebP (50 KB вместо 300 KB PNG) и доставляет через геораспределенный CDN.
       </p>

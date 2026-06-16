@@ -18,6 +18,7 @@ schema_type: "WebPage"
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">WordPress</span>
       </div>
+      <h1 class="use-text-title2">Плагин PixInLink для WordPress</h1>
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         Уникальный featured image и og:image для каждой публикации без Photoshop, стоков и ручной работы
       </p>

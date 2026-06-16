@@ -18,6 +18,7 @@ schema_type: "WebPage"
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Как работает ИИ-генерация</span>
       </div>
+      <h1 class="use-text-title2">Как работает ИИ-генерация в PixInLink</h1>
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;">
         Полный разбор пайплайна: Kandinsky 3.1, CDN-кеш, fallback FLUX и 152-ФЗ
       </p>

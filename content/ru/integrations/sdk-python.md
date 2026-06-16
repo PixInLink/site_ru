@@ -18,6 +18,7 @@ schema_type: "WebPage"
         <span class="ml-2 text-muted" style="font-size:14px;">/</span>
         <span class="ml-2 text-muted" style="font-size:14px;">Python SDK</span>
       </div>
+      <h1 class="use-text-title2">Python SDK PixInLink</h1>
       <p class="use-text-subtitle2 text-muted" style="font-size:1.2rem;line-height:1.6;margin-bottom:24px;">
         От <code>pip install</code> до первого изображения — всего 5 строк кода
       </p>
