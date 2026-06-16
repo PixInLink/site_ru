@@ -1,28 +1,37 @@
 ---
-title: "Интеграции PixInLink: подключи к своему стеку"
-description: "PixInLink — интеграции с WordPress, ModX, Ghost, Zapier, Python, JavaScript, PHP. Плагины, SDK и REST API для любой платформы."
+title: "Интеграции PixInLink: WordPress, MODX, SDK, REST API"
+description: "Подключите PixInLink к вашему сайту или приложению. Готовые плагины для WordPress и MODX, SDK для Python и JavaScript, REST API и прямая вставка через URL без кода."
 slug: "integrations"
 date: "2026-05-21"
 author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
+raw_html: true
 ---
 <main class="container-wrap">
 
-<!-- HERO: Введение в интеграции PixInLink -->
-<div class="banner-basic">
-  <div class="banner-wrap">
-    <div class="inner">
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-lg-7 col-sm-6 px-md-5 px-0">
-            <div class="text">
-              <p class="body-1 mt-4">PixInLink предлагает три варианта интеграции в зависимости от вашего стека и задач. Для статических сайтов и блогов используйте HTML-тег с прямым URL (работает без кода). Для готовых систем управления контентом установите официальный CMS-плагин. Разработчикам доступны нативные SDK для Python, JavaScript и PHP, а также прямые вызовы к REST API.</p>
+<!-- ##### HERO #####-->
+<div class="hero-banner-wrap">
+  <div class="inner-deco">
+    <div class="deco-wrap">
+      <div class="cloud-deco"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="banner-basic">
+      <div class="banner-wrap">
+        <div class="inner">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6 col-sm-12 px-sm-5 px-0 py-4">
+              <div class="text">
+                <h1 class="use-text-title2">Интеграции PixInLink</h1>
+                <h5 class="use-text-subtitle2">Встройте AI-генерацию изображений в свой сайт, блог или приложение. От простой HTML-вставки без кода до нативных SDK и REST API для сложных сценариев.</h5>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 px-5">
-            <div class="img">
-              <img src="https://pixinlink.ru/images/starter/Illustration.png" alt="PixInLink Integrations" />
+            <div class="col-md-6 col-sm-12 px-sm-5 py-4">
+              <div class="img">
+                <img class="img-2d3d" src="https://pixinlink.ru/800x500/pixInLink-интеграции-api-плагины-cms-иллюстрация" data-2d="/themes/oiron" data-3d="https://pixinlink.ru/800x500/pixInLink-интеграции-api-плагины-cms-иллюстрация" alt="Иллюстрация интеграций PixInLink — API, плагины, SDK" />
+              </div>
             </div>
           </div>
         </div>
@@ -30,112 +39,126 @@ schema_type: "WebPage"
     </div>
   </div>
 </div>
-<!-- ПЛАГИНЫ И ИНТЕГРАЦИИ (Block 2A) -->
+<!-- ##### END HERO #####-->
+
+<!-- ##### ПЛАГИНЫ CMS #####-->
 <div class="container page-section" id="cms-plugins">
   <div class="row mb-5">
     <div class="col-12 text-center">
-      <h3 class="use-text-title2">Плагины для CMS и сервисы</h3>
-      <p class="use-text-subtitle2">Готовые решения для популярных платформ</p>
+      <h3 class="use-text-title2">Плагины для CMS</h3>
+      <p class="use-text-subtitle2">Готовые решения для популярных платформ — установка в один клик</p>
     </div>
   </div>
   <div class="row">
     <!-- WordPress -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="feature-list">
-        <div class="icon primary material-icons">article</div>
-        <h5 class="headline">
-          WordPress 
-          <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ v1.1</span>
-        </h5>
-        <p class="body-1 mb-2">Официальный плагин включает Gutenberg-блок, шорткод и интеграцию с WooCommerce.</p>
-        <ul class="body-2 text-muted ps-3">
-          <li>Вставка в 1 клик</li>
-          <li>Шорткод: <code>[pixinlink prompt="..."]</code></li>
-          <li>Кеш URL на 30 дней</li>
-        </ul>
-        <a href="/integrations/wordpress" class="btn-flat primary-text waves-effect mt-2">Документация</a>
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/wordpress-интерфейс-плагин-pixinlink-генерация-изображений" alt="Плагин PixInLink для WordPress" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">WordPress</h6>
+            <p class="body-2">Официальный плагин с Gutenberg-блоком и шорткодом <code>[pixinlink]</code>. Интеграция с WooCommerce, автообложки записей, кеш на 30 дней.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/integrations/wordpress/">Документация</a>
+        </div>
       </div>
     </div>
-    <!-- ModX -->
+    <!-- MODX -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="feature-list">
-        <div class="icon primary material-icons">view_quilt</div>
-        <h5 class="headline">
-          ModX Revolution
-          <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ v1.2</span>
-        </h5>
-        <p class="body-1 mb-2">Сниппет для MODX с TV-полями и автозаменой в контенте. Устанавливается через MODX Extras.</p>
-        <ul class="body-2 text-muted ps-3">
-          <li>Готовые Snippet</li>
-          <li>TV-поля для шаблонов</li>
-        </ul>
-        <a href="/integrations/modx" class="btn-flat primary-text waves-effect mt-2">Документация</a>
-      </div>
-    </div>
-    <!-- Webflow -->
-    <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="feature-list">
-        <div class="icon primary material-icons">web</div>
-        <h5 class="headline">
-          Webflow
-          <span class="badge badge-warning text-dark" style="font-size: 0.5em; vertical-align: middle;">🔜 v2.0 (Янв 2027)</span>
-        </h5>
-        <p class="body-1 mb-2">Интеграция через CMS Collections и Embed-блок. Автогенерация обложек для записей.</p>
-        <ul class="body-2 text-muted ps-3">
-          <li>Нативный Embed-блок</li>
-          <li>Динамические изображения</li>
-        </ul>
-        <a href="/integrations/webflow" class="btn-flat primary-text waves-effect mt-2">Документация</a>
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/modx-cms-панель-администратора-интеграция-pixinlink" alt="Сниппет PixInLink для MODX Revolution" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">MODX Revolution</h6>
+            <p class="body-2">Сниппет с TV-полями и автозаменой URL в контенте. Установка через MODX Extras, поддержка шаблонов и кеширования.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/integrations/modx/">Документация</a>
+        </div>
       </div>
     </div>
     <!-- Ghost CMS -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="feature-list">
-        <div class="icon primary material-icons">history_edu</div>
-        <h5 class="headline">
-          Ghost CMS
-          <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ Доступен</span>
-        </h5>
-        <p class="body-1 mb-2">Интеграция через Code Injection и handlebars-шаблоны для блогов. Без внешних зависимостей.</p>
-        <a href="/integrations/ghost" class="btn-flat primary-text waves-effect mt-2">Документация</a>
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/ghost-cms-блог-платформа-редактор-интеграция-pixinlink" alt="Интеграция PixInLink с Ghost CMS" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">Ghost CMS</h6>
+            <p class="body-2">Интеграция через Code Injection и Handlebars-шаблоны. Без внешних зависимостей, идеально для блогов и медиа-изданий.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/integrations/ghost/">Документация</a>
+        </div>
+      </div>
+    </div>
+    <!-- Webflow -->
+    <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/webflow-конструктор-сайтов-дизайн-интеграция-pixinlink" alt="Интеграция PixInLink с Webflow" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">Webflow</h6>
+            <p class="body-2">Embed-блок и CMS Collections. Автогенерация обложек для записей, динамические изображения через URL API.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/integrations/webflow/">Документация</a>
+        </div>
       </div>
     </div>
     <!-- Zapier -->
     <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
-      <div class="feature-list">
-        <div class="icon primary material-icons">bolt</div>
-        <h5 class="headline">
-          Zapier
-          <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ v1.3</span>
-        </h5>
-        <p class="body-1 mb-2">Готовые Zap-шаблоны для автоматизации. Поддерживает триггеры Image Ready, Payment Succeeded.</p>
-        <ul class="body-2 text-muted ps-3">
-          <li>Sheets &rarr; Image &rarr; Slack</li>
-          <li>Airtable &rarr; Image</li>
-        </ul>
-        <a href="/integrations/zapier" class="btn-flat primary-text waves-effect mt-2">Документация</a>
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/zapier-автоматизация-сценарии-api-интеграция-pixinlink" alt="Интеграция PixInLink с Zapier" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">Zapier</h6>
+            <p class="body-2">Готовые Zap-шаблоны: Google Sheets &rarr; Изображение &rarr; Slack, Airtable &rarr; Изображение. Триггеры на генерацию и оплату.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/integrations/zapier/">Документация</a>
+        </div>
+      </div>
+    </div>
+    <!-- Tilda / другие конструкторы -->
+    <div class="col-lg-4 col-sm-6 pa-6 py-md-3">
+      <div class="card product-card portrait over">
+        <figure>
+          <img src="https://pixinlink.ru/600x400/конструктор-сайтов-tilda-html-вставка-изображение-url" alt="Прямая вставка URL для любых конструкторов" />
+        </figure>
+        <div class="desc">
+          <div class="text">
+            <h6 class="use-text-subtitle2">Любой конструктор</h6>
+            <p class="body-2">Tilda, Readymag, Notion, Wix — всё, что умеет вставлять изображение по URL, уже работает с PixInLink без настройки.</p>
+          </div>
+          <a class="btn btn-flat primary-text waves-effect" href="/docs/">Документация</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<!-- SDK SECTION (Адаптированный Block 2B: чередующиеся блоки) -->
+<!-- ##### END ПЛАГИНЫ CMS #####-->
+
+<!-- ##### SDK #####-->
 <div class="container page-section" id="sdk">
   <div class="row mb-5">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">Официальные SDK</h3>
-      <p class="use-text-subtitle2">Готовые библиотеки для вашего бэкенда</p>
+      <p class="use-text-subtitle2">Нативные библиотеки для вашего бэкенда — генерация изображений в 5 строк</p>
     </div>
   </div>
   <!-- Python SDK -->
   <div class="row align-items-center mb-5">
     <div class="col-md-6 px-4">
-      <h4 class="use-text-title2 mb-3">
-        Python SDK 
-        <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ v1.4</span>
-      </h4>
+      <h4 class="use-text-title2 mb-3">Python SDK</h4>
       <p class="body-1 mb-2"><code>pip install pixinlink</code></p>
-      <p class="body-1 mb-3">Поддержка async/await, встроенный механизм retry и обработка ошибок. Идеально подходит для Django, FastAPI и скриптов автоматизации.</p>
-      <a href="/integrations/sdk-python" class="btn-flat primary-text waves-effect">Документация</a>
+      <p class="body-1 mb-3">Поддержка async/await, встроенный retry и обработка ошибок. Идеально для Django, FastAPI и скриптов автоматизации.</p>
+      <a href="/integrations/sdk-python/" class="btn-flat primary-text waves-effect">Документация</a>
     </div>
     <div class="col-md-6 px-4">
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
@@ -143,8 +166,8 @@ schema_type: "WebPage"
 <span style="color: #c586c0;">from</span> pixinlink <span style="color: #c586c0;">import</span> PixInLink
 client = PixInLink(api_key=<span style="color: #ce9178;">"pk_live_..."</span>)
 url = client.generate(
-    prompt=<span style="color: #ce9178;">"офис"</span>, 
-    width=<span style="color: #b5cea8;">800</span>, 
+    prompt=<span style="color: #ce9178;">"офис"</span>,
+    width=<span style="color: #b5cea8;">800</span>,
     height=<span style="color: #b5cea8;">400</span>
 )
 </pre>
@@ -154,23 +177,20 @@ url = client.generate(
   <!-- JavaScript SDK -->
   <div class="row align-items-center mb-5 flex-md-row-reverse">
     <div class="col-md-6 px-4">
-      <h4 class="use-text-title2 mb-3">
-        JavaScript SDK 
-        <span class="badge badge-success" style="font-size: 0.5em; vertical-align: middle;">✅ v1.4</span>
-      </h4>
+      <h4 class="use-text-title2 mb-3">JavaScript SDK</h4>
       <p class="body-1 mb-2"><code>npm install pixinlink-sdk</code></p>
-      <p class="body-1 mb-3">Поддержка Node.js, браузерного окружения и строгая типизация TypeScript. Отличный выбор для Next.js и Express.</p>
-      <a href="/integrations/sdk-javascript" class="btn-flat primary-text waves-effect">Документация</a>
+      <p class="body-1 mb-3">Node.js, браузер и TypeScript с полной типизацией. Отличный выбор для Next.js, Express и статических сайтов.</p>
+      <a href="/integrations/sdk-javascript/" class="btn-flat primary-text waves-effect">Документация</a>
     </div>
     <div class="col-md-6 px-4">
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
 <pre class="m-0" style="font-family: monospace;">
 <span style="color: #c586c0;">import</span> { PixInLink } <span style="color: #c586c0;">from</span> <span style="color: #ce9178;">'pixinlink-sdk'</span>;
 <span style="color: #569cd6;">const</span> client = <span style="color: #569cd6;">new</span> PixInLink({ apiKey: <span style="color: #ce9178;">'pk_live_...'</span> });
-<span style="color: #569cd6;">const</span> url = <span style="color: #c586c0;">await</span> client.generate({ 
-    prompt: <span style="color: #ce9178;">'офис'</span>, 
-    width: <span style="color: #b5cea8;">800</span>, 
-    height: <span style="color: #b5cea8;">400</span> 
+<span style="color: #569cd6;">const</span> url = <span style="color: #c586c0;">await</span> client.generate({
+    prompt: <span style="color: #ce9178;">'офис'</span>,
+    width: <span style="color: #b5cea8;">800</span>,
+    height: <span style="color: #b5cea8;">400</span>
 });
 </pre>
       </div>
@@ -179,21 +199,18 @@ url = client.generate(
   <!-- PHP SDK -->
   <div class="row align-items-center mb-5">
     <div class="col-md-6 px-4">
-      <h4 class="use-text-title2 mb-3">
-        PHP SDK 
-        <span class="badge badge-warning text-dark" style="font-size: 0.5em; vertical-align: middle;">🔜 Дек 2026</span>
-      </h4>
+      <h4 class="use-text-title2 mb-3">PHP SDK</h4>
       <p class="body-1 mb-2"><code>composer require pixinlink/php-sdk</code></p>
-      <p class="body-1 mb-3">Включает Laravel Service Provider и Facade для быстрой интеграции.</p>
-      <a href="/integrations/sdk-php" class="btn-flat primary-text waves-effect">Документация</a>
+      <p class="body-1 mb-3">Включает Laravel Service Provider и Facade для быстрой интеграции в PHP-проекты.</p>
+      <a href="/integrations/sdk-php/" class="btn-flat primary-text waves-effect">Документация</a>
     </div>
     <div class="col-md-6 px-4">
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
 <pre class="m-0" style="font-family: monospace;">
 <span style="color: #9cdcfe;">$client</span> = <span style="color: #569cd6;">new</span> PixInLink([<span style="color: #ce9178;">'api_key'</span> => <span style="color: #ce9178;">'pk_live_...'</span>]);
 <span style="color: #9cdcfe;">$url</span> = <span style="color: #9cdcfe;">$client</span>->generate([
-    <span style="color: #ce9178;">'prompt'</span> => <span style="color: #ce9178;">'офис'</span>, 
-    <span style="color: #ce9178;">'width'</span> => <span style="color: #b5cea8;">800</span>, 
+    <span style="color: #ce9178;">'prompt'</span> => <span style="color: #ce9178;">'офис'</span>,
+    <span style="color: #ce9178;">'width'</span> => <span style="color: #b5cea8;">800</span>,
     <span style="color: #ce9178;">'height'</span> => <span style="color: #b5cea8;">400</span>
 ]);
 </pre>
@@ -201,60 +218,65 @@ url = client.generate(
     </div>
   </div>
 </div>
-<!-- REST API (Block 2A) -->
+<!-- ##### END SDK #####-->
+
+<!-- ##### REST API #####-->
 <div class="container page-section" id="api">
-  <div class="row mb-4">
+  <div class="row mb-5">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">REST API</h3>
+      <p class="use-text-subtitle2">Прямой доступ к API для максимальной гибкости и нестандартных интеграций</p>
     </div>
   </div>
   <div class="row">
     <div class="col-lg-3 col-sm-6 pa-4">
-      <div class="feature-list">
+      <div class="feature-list card paper pa-4 text-center">
         <div class="icon primary material-icons">vpn_key</div>
         <h5 class="headline">Аутентификация</h5>
-        <p class="body-2">API-ключ передаётся в заголовке X-API-Key. Работает только с привязанными доменами.</p>
+        <p class="body-2">API-ключ в заголовке <code>X-API-Key</code>. Привязка к домену, безопасная передача по HTTPS.</p>
       </div>
     </div>
     <div class="col-lg-3 col-sm-6 pa-4">
-      <div class="feature-list">
+      <div class="feature-list card paper pa-4 text-center">
         <div class="icon primary material-icons">dynamic_feed</div>
-        <h5 class="headline">Bulk API 🔜</h5>
-        <p class="body-2">Асинхронная генерация до 100 изображений за запрос (возвращает job_id).</p>
+        <h5 class="headline">Генерация и кеш</h5>
+        <p class="body-2">Асинхронные запросы, встроенный CDN-кеш на 30 дней, WebP-конвертация без потери качества.</p>
       </div>
     </div>
     <div class="col-lg-3 col-sm-6 pa-4">
-      <div class="feature-list">
+      <div class="feature-list card paper pa-4 text-center">
         <div class="icon primary material-icons">notifications_active</div>
-        <h5 class="headline">Webhooks 🔜</h5>
-        <p class="body-2">События image.ready, payment.succeeded. Механизм retry с exponential backoff.</p>
+        <h5 class="headline">Webhooks</h5>
+        <p class="body-2">События <code>image.ready</code>, <code>payment.succeeded</code>. Retry с exponential backoff.</p>
       </div>
     </div>
     <div class="col-lg-3 col-sm-6 pa-4">
-      <div class="feature-list">
+      <div class="feature-list card paper pa-4 text-center">
         <div class="icon primary material-icons">error_outline</div>
         <h5 class="headline">Коды ошибок</h5>
-        <p class="body-2">400 (невалидные параметры), 403 (домен не привязан), 429 (rate limit).</p>
+        <p class="body-2">400 — неверные параметры, 403 — домен не привязан, 429 — превышен лимит запросов.</p>
       </div>
     </div>
   </div>
 </div>
-<!-- НАЧНИ БЕЗ ПЛАГИНА НАПРЯМУЮ (Код) -->
+<!-- ##### END REST API #####-->
+
+<!-- ##### НАЧНИ БЕЗ ПЛАГИНА #####-->
 <div class="container page-section" id="direct">
   <div class="row align-items-center">
     <div class="col-md-6 px-4">
-      <h3 class="use-text-title2 mb-3">Начни без плагина напрямую</h3>
-      <p class="body-1 mb-4">Любую интеграцию можно отложить на потом. Прямо сейчас вставь URL в свой сайт. Работает с HTML, WordPress (functions.php) или Python.</p>
-      <a href="/docs" class="btn btn-large primary waves-effect mr-3">Документация</a>
-      <a href="https://pixinlink.ru/pricing/" class="btn btn-large btn-outlined secondary waves-effect">Смотреть тарифы</a>
+      <h3 class="use-text-title2 mb-3">Начните без плагина — просто вставьте URL</h3>
+      <p class="body-1 mb-4">Любую интеграцию можно настроить позже. Прямо сейчас вставьте URL в тег <code>&lt;img&gt;</code> на своём сайте. Работает с любым HTML, WordPress, Tilda, Notion, Webflow и кодом на любом языке.</p>
+      <a href="/docs/" class="btn btn-large primary waves-effect mr-3">Документация</a>
+      <a href="/pricing/" class="btn btn-large btn-outlined secondary waves-effect">Смотреть тарифы</a>
     </div>
     <div class="col-md-6 px-4">
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
-        <p class="mb-1" style="color:#569cd6; font-size:12px;">HTML</p>
+        <p class="mb-1" style="color:#569cd6; font-size:12px;">HTML — одна строка</p>
 <pre class="m-0 mb-3" style="font-family: monospace;">
 &lt;<span style="color: #569cd6;">img</span> <span style="color: #9cdcfe;">src</span>=<span style="color: #ce9178;">"https://pixinlink.ru/800x400?prompt=ваш-промпт"</span> <span style="color: #9cdcfe;">alt</span>=<span style="color: #ce9178;">"..."</span>&gt;
 </pre>
-        <p class="mb-1" style="color:#569cd6; font-size:12px;">WordPress</p>
+        <p class="mb-1" style="color:#569cd6; font-size:12px;">WordPress (functions.php)</p>
 <pre class="m-0" style="font-family: monospace;">
 <span style="color: #9cdcfe;">$url</span> = <span style="color: #ce9178;">'https://pixinlink.ru/800x400?prompt='</span> . <span style="color: #dcdcaa;">urlencode</span>(<span style="color: #9cdcfe;">$prompt</span>);
 </pre>
@@ -262,11 +284,14 @@ url = client.generate(
     </div>
   </div>
 </div>
-<!-- ТАБЛИЦА: Выбор нужной интеграции (Block 13) -->
-<div class="container page-section">
+<!-- ##### END НАЧНИ БЕЗ ПЛАГИНА #####-->
+
+<!-- ##### ТАБЛИЦА ВЫБОРА #####-->
+<div class="container page-section" id="comparison">
   <div class="row mb-4">
     <div class="col-12 text-center">
-      <h3 class="use-text-title2">Выбор нужной интеграции</h3>
+      <h3 class="use-text-title2">Какой способ интеграции выбрать</h3>
+      <p class="use-text-subtitle2">От простой вставки URL до полноценного SDK — выберите подходящий вариант для вашего стека</p>
     </div>
   </div>
   <div class="card paper pa-4">
@@ -274,53 +299,102 @@ url = client.generate(
       <table class="highlight striped responsive-table">
         <thead>
           <tr>
-            <th>Вы используете</th>
-            <th>Рекомендуем</th>
+            <th>Ваш стек</th>
+            <th>Способ интеграции</th>
+            <th>Сложность</th>
             <th>Тариф</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>WordPress</td>
-            <td>Плагин + Gutenberg-блок</td>
-            <td><span class="badge badge-secondary text-dark">Free &rarr; Starter</span></td>
+            <td>
+              <strong>Плагин PixInLink</strong>
+              <br><small class="text-muted">Gutenberg-блок, шорткод, WooCommerce</small>
+            </td>
+            <td><span class="badge badge-success">Низкая</span></td>
+            <td>Free / Starter</td>
           </tr>
           <tr>
-            <td>ModX Revolution</td>
-            <td>Сниппет PixInLink</td>
-            <td><span class="badge badge-secondary text-dark">Free &rarr; Starter</span></td>
+            <td>MODX Revolution</td>
+            <td>
+              <strong>Сниппет PixInLink</strong>
+              <br><small class="text-muted">TV-поля, автозамена URL в контенте</small>
+            </td>
+            <td><span class="badge badge-success">Низкая</span></td>
+            <td>Free / Starter</td>
           </tr>
           <tr>
-            <td>Ghost / Hugo / Jekyl</td>
-            <td><code>img src=</code> напрямую</td>
-            <td><span class="badge badge-success">Free</span></td>
+            <td>Ghost / Hugo / Jekyll</td>
+            <td>
+              <strong>Прямой URL в <code>&lt;img&gt;</code></strong>
+              <br><small class="text-muted">Вставка ссылки — работает сразу</small>
+            </td>
+            <td><span class="badge badge-success">Минимальная</span></td>
+            <td>Free</td>
           </tr>
           <tr>
-            <td>Webflow</td>
-            <td>Embed + CMS Collections</td>
-            <td><span class="badge badge-primary">Starter</span></td>
+            <td>Tilda / Webflow / Readymag</td>
+            <td>
+              <strong>Embed + URL API</strong>
+              <br><small class="text-muted">Вставка изображения по ссылке</small>
+            </td>
+            <td><span class="badge badge-success">Низкая</span></td>
+            <td>Starter</td>
           </tr>
           <tr>
-            <td>Python / Django / JS / PHP</td>
-            <td>Официальные SDK</td>
-            <td><span class="badge badge-warning text-dark">Pro</span></td>
+            <td>Python / Django / FastAPI</td>
+            <td>
+              <strong>Python SDK</strong>
+              <br><small class="text-muted">pip install, async/await, retry</small>
+            </td>
+            <td><span class="badge badge-primary">Средняя</span></td>
+            <td>Pro</td>
+          </tr>
+          <tr>
+            <td>JavaScript / Node.js / Next.js</td>
+            <td>
+              <strong>JavaScript SDK</strong>
+              <br><small class="text-muted">npm install, TypeScript, браузер</small>
+            </td>
+            <td><span class="badge badge-primary">Средняя</span></td>
+            <td>Pro</td>
+          </tr>
+          <tr>
+            <td>PHP / Laravel</td>
+            <td>
+              <strong>PHP SDK</strong>
+              <br><small class="text-muted">composer require, Service Provider</small>
+            </td>
+            <td><span class="badge badge-primary">Средняя</span></td>
+            <td>Pro</td>
           </tr>
           <tr>
             <td>Zapier / Make / n8n</td>
-            <td>Zapier App</td>
-            <td><span class="badge badge-primary">Starter</span></td>
+            <td>
+              <strong>Zapier App</strong>
+              <br><small class="text-muted">Готовые шаблоны автоматизации</small>
+            </td>
+            <td><span class="badge badge-success">Низкая</span></td>
+            <td>Starter</td>
           </tr>
           <tr>
-            <td>Корпоративный деплой (100+ img)</td>
-            <td>Bulk API / REST API + Webhooks</td>
-            <td><span class="badge badge-danger">Business / Enterprise</span></td>
+            <td>Корпоративный / 1000+ изображений</td>
+            <td>
+              <strong>REST API + Webhooks</strong>
+              <br><small class="text-muted">Bulk-генерация, асинхронные события</small>
+            </td>
+            <td><span class="badge badge-warning text-dark">Высокая</span></td>
+            <td>Business / Enterprise</td>
           </tr>
         </tbody>
       </table>
     </div>
   </div>
 </div>
-<!-- FAQ (Block 7A) -->
+<!-- ##### END ТАБЛИЦА ВЫБОРА #####-->
+
+<!-- ##### FAQ #####-->
 <div class="faq-style page-section" id="faq">
   <div class="root">
     <div class="container fixed-width">
@@ -338,16 +412,7 @@ url = client.generate(
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Нет. URL API (<code>img src=</code>) работает без ключа. API-ключ нужен для увеличенных лимитов, привязки к домену, вызовов Bulk API и настройки Webhooks.</p>
-                </div>
-              </li>
-              <li class="accordion-content paper">
-                <div class="collapsible-header content">
-                  <p class="heading">SDK уже доступны или в разработке?</p>
-                  <i class="material-icons right arrow">expand_more</i>
-                </div>
-                <div class="collapsible-body detail">
-                  <p>Python и JavaScript SDK — доступны (v1.4). PHP SDK — выйдет в декабре 2026 (v1.7). Опции Bulk API и Webhooks ожидаются в декабре 2026 (v1.6). Актуальный статус всегда доступен на <code>/integrations/roadmap</code>.</p>
+                  <p>Нет. Прямой URL-доступ (<code>img src=</code>) работает без регистрации. API-ключ нужен для увеличенных лимитов, привязки домена, SDK, Bulk API и Webhooks.</p>
                 </div>
               </li>
               <li class="accordion-content paper">
@@ -356,7 +421,16 @@ url = client.generate(
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Да. Вставьте URL напрямую в поле изображения или в HTML-блок. Плагин добавляет удобство (Gutenberg-блок, внутренний кеш), но не является обязательным для работы.</p>
+                  <p>Да. Вставьте URL напрямую в поле изображения или HTML-блок. Плагин добавляет удобство — Gutenberg-блок, встроенный кеш и автообложки, но не обязателен для работы.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Как быстро развернуть интеграцию в своём проекте?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Для начала достаточно скопировать URL в тег <code>&lt;img&gt;</code> — это займёт меньше минуты. SDK подключаются одной командой (<code>pip install</code> или <code>npm install</code>) и требуют 5 строк кода для первого запроса. CMS-плагины устанавливаются через стандартный каталог плагинов вашей платформы.</p>
                 </div>
               </li>
             </ul>
@@ -366,7 +440,9 @@ url = client.generate(
     </div>
   </div>
 </div>
-<!-- СТА (Block 8) - Не нашли свою платформу -->
+<!-- ##### END FAQ #####-->
+
+<!-- ##### CTA #####-->
 <div class="call-to-action page-section pb-5">
   <div class="container fixed-width-md-up">
     <div class="root">
@@ -374,14 +450,16 @@ url = client.generate(
         <div class="row align-items-center mb-0">
           <div class="col-md-8 pa-4">
             <h4 class="use-text-title2 pb-2">Не нашли свою платформу?</h4>
-            <p class="use-text-subtitle2 mb-0">Любая платформа, умеющая загружать изображения по URL, уже работает с PixInLink без настройки. Если нужна специфическая интеграция — напишите нам.</p>
+            <p class="use-text-subtitle2 mb-0">Любая платформа, умеющая отображать изображения по URL, уже совместима с PixInLink. Если нужна специфическая интеграция или кастомный SDK — напишите нам.</p>
           </div>
           <div class="col-md-4 pa-4 text-md-right">
-            <a class="waves-effect btn-large secondary button" href="/support">Написать в поддержку</a>
+            <a class="waves-effect btn-large secondary button" href="/contact/">Написать в поддержку</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!-- ##### END CTA #####-->
+
 </main>
