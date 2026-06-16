@@ -174,7 +174,8 @@ schema_type: "WebPage"
                   </div>
                 </div>
               </div>
-            </section><!-- ##### END ABOUT #####-->
+            </section>
+            <!-- ##### END ABOUT #####-->
   <!-- ВАРИАНТЫ ИНТЕГРАЦИИ (Block 2A адаптированный в 2 колонки) -->
   <div class="container page-section" id="cases-grid">
     <div class="row mb-5">
@@ -475,14 +476,14 @@ schema_type: "WebPage"
           </div>
           <div class="item">
             <div>
-              <a class="waves-effect case-card big" href="https://pixinlink.ru/713x460/Иллюстрация-заголовок-блог-статья">
-                <span class="figure"><img src="https://pixinlink.ru/713x460/Иллюстрация-заголовок-блог-статья" loading="lazy" alt="Заголовок статьи в блоге"/></span>
+              <a class="waves-effect case-card big" href="https://pixinlink.ru/713x460/современный-офис">
+                <span class="figure"><img src="https://pixinlink.ru/713x460/современный-офис" loading="lazy" alt="Заголовок статьи в блоге"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/cloud.png" alt="logo"/></span><span class="text"><span class="title">Заголовки блога</span>
                 <span class="desc">Уникальный визуал без стоковых фото</span></span>
                 </span></span>
               </a>
-              <a class="waves-effect case-card medium" href="https://pixinlink.ru/711x693/Иллюстрация-превью-соцсети-og">
-                <span class="figure"><img src="https://pixinlink.ru/711x693/Иллюстрация-превью-соцсети-og" loading="lazy" alt="og:image превью для соцсетей"/></span>
+              <a class="waves-effect case-card medium" href="https://pixinlink.ru/711x693/котята">
+                <span class="figure"><img src="https://pixinlink.ru/711x693/котята" loading="lazy" alt="og:image превью для соцсетей"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">og:image для соцсетей</span>
                 <span class="desc">Стабильные превью с фиксацией seed</span></span>
                 </span></span>
@@ -497,14 +498,14 @@ schema_type: "WebPage"
                 <span class="desc">Точные размеры под Instagram и Telegram</span></span>
                 </span></span>
               </a>
-              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/Иллюстрация-карточка-товар-одежда">
-                <span class="figure"><img src="https://pixinlink.ru/490x327/Иллюстрация-карточка-товар-одежда" loading="lazy" alt="Карточка товара в интернет-магазине"/></span>
+              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/ноутбук">
+                <span class="figure"><img src="https://pixinlink.ru/490x327/ноутбук" loading="lazy" alt="Карточка товара в интернет-магазине"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/profile.png" alt="logo"/></span><span class="text"><span class="title">Карточки товаров E-com</span>
                 <span class="desc">Заглушки каталога до фотосессии</span></span>
                 </span></span>
               </a>
-              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/Иллюстрация-seo-картинка-ноутбук">
-                <span class="figure"><img src="https://pixinlink.ru/490x327/Иллюстрация-seo-картинка-ноутбук" loading="lazy" alt="SEO оригинальное изображение для поиска"/></span>
+              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/офис-сотрудники">
+                <span class="figure"><img src="https://pixinlink.ru/490x327/офис-сотрудники" loading="lazy" alt="офис сотрудники"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/architect.png" alt="logo"/></span><span class="text"><span class="title">SEO: уникальные картинки</span>
                 <span class="desc">Без пессимизации за стоковый визуал</span></span>
                 </span></span>
@@ -519,8 +520,8 @@ schema_type: "WebPage"
                 <span class="desc">Прямая ссылка в img src для Unisender и SendPulse</span></span>
                 </span></span>
               </a>
-              <a class="waves-effect case-card medium" href="https://pixinlink.ru/521x309/Иллюстрация-макет-сайт-интерфейс">
-                <span class="figure"><img src="https://pixinlink.ru/521x309/Иллюстрация-макет-сайт-интерфейс" loading="lazy" alt="Прототип сайта с реалистичными изображениями"/></span>
+              <a class="waves-effect case-card medium" href="https://pixinlink.ru/521x309/макет-сайт-интерфейс">
+                <span class="figure"><img src="https://pixinlink.ru/521x309/макет-сайт-интерфейс" loading="lazy" alt="Прототип сайта с реалистичными изображениями"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Placeholder для прототипов</span>
                 <span class="desc">Реалистичные макеты вместо серых квадратов</span></span>
                 </span></span>
@@ -529,8 +530,8 @@ schema_type: "WebPage"
           </div>
           <div class="item">
             <div>
-              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/Иллюстрация-новость-технологии-будущее">
-                <span class="figure"><img src="https://pixinlink.ru/490x327/Иллюстрация-новость-технологии-будущее" loading="lazy" alt="Иллюстрация для новостной статьи"/></span>
+              <a class="waves-effect case-card medium" href="https://pixinlink.ru/490x327/Иллюстрация-новость-технологии">
+                <span class="figure"><img src="https://pixinlink.ru/490x327/Иллюстрация-новость-технологии" loading="lazy" alt="Иллюстрация для новостной статьи"/></span>
                 <span class="property"><span class="title"><span class="logo"><img src="/themes/oiron/images/logos/fashion.png" alt="logo"/></span><span class="text"><span class="title">Иллюстрации для новостей</span>
                 <span class="desc">Автоматическое оформление инфоповодов 16:9</span></span>
                 </span></span>
