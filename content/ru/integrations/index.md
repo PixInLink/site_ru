@@ -274,11 +274,11 @@ url = client.generate(
       <div class="card paper pa-4" style="background: #1e1e1e; color: #d4d4d4; border-radius: 8px;">
         <p class="mb-1" style="color:#569cd6; font-size:12px;">HTML — одна строка</p>
 <pre class="m-0 mb-3" style="font-family: monospace;">
-&lt;<span style="color: #569cd6;">img</span> <span style="color: #9cdcfe;">src</span>=<span style="color: #ce9178;">"https://pixinlink.ru/800x400?prompt=ваш-промпт"</span> <span style="color: #9cdcfe;">alt</span>=<span style="color: #ce9178;">"..."</span>&gt;
+&lt;<span style="color: #569cd6;">img</span> <span style="color: #9cdcfe;">src</span>=<span style="color: #ce9178;">"https://pixinlink.ru/800x400/ваш-промпт"</span> <span style="color: #9cdcfe;">alt</span>=<span style="color: #ce9178;">"..."</span>&gt;
 </pre>
         <p class="mb-1" style="color:#569cd6; font-size:12px;">WordPress (functions.php)</p>
 <pre class="m-0" style="font-family: monospace;">
-<span style="color: #9cdcfe;">$url</span> = <span style="color: #ce9178;">'https://pixinlink.ru/800x400?prompt='</span> . <span style="color: #dcdcaa;">urlencode</span>(<span style="color: #9cdcfe;">$prompt</span>);
+<span style="color: #9cdcfe;">$url</span> = <span style="color: #ce9178;">'https://pixinlink.ru/800x400/'</span> . <span style="color: #dcdcaa;">urlencode</span>(<span style="color: #9cdcfe;">$prompt</span>);
 </pre>
       </div>
     </div>
