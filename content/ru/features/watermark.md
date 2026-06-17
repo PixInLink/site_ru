@@ -111,7 +111,7 @@ schema_type: "WebPage"
           <div class="card paper pa-3" style="height:100%;border-top:4px solid #9e9e9e;">
             <p class="body-2 mb-1 font-weight-bold">Free (со знаком)</p>
             <div class="pa-2 mb-2" style="background:#1e1e1e;border-radius:4px;word-break:break-all;">
-              <code style="color:#9cdcfe;font-size:11px;">https://pixinlink.ru/800x400?prompt=горы</code>
+              <code style="color:#9cdcfe;font-size:11px;">https://pixinlink.ru/800x400/горы</code>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ schema_type: "WebPage"
           <div class="card paper pa-3" style="height:100%;border-top:4px solid #43a047;">
             <p class="body-2 mb-1 font-weight-bold">Starter/Pro (без знака)</p>
             <div class="pa-2 mb-2" style="background:#1e1e1e;border-radius:4px;word-break:break-all;">
-              <code style="color:#9cdcfe;font-size:11px;">.../800x400?prompt=горы&amp;watermark=false</code>
+              <code style="color:#9cdcfe;font-size:11px;">.../800x400/горы?watermark=false</code>
             </div>
             <p class="body-2 m-0 text-muted" style="font-size:11px;">Нужен API-ключ в заголовке</p>
           </div>
@@ -128,7 +128,7 @@ schema_type: "WebPage"
           <div class="card paper pa-3" style="height:100%;border-top:4px solid #fb8c00;">
             <p class="body-2 mb-1 font-weight-bold">Business (ваш бренд)</p>
             <div class="pa-2 mb-2" style="background:#1e1e1e;border-radius:4px;word-break:break-all;">
-              <code style="color:#9cdcfe;font-size:11px;">.../800x400?prompt=горы&amp;watermark=МойБренд</code>
+              <code style="color:#9cdcfe;font-size:11px;">.../800x400/горы?watermark=МойБренд</code>
             </div>
           </div>
         </div>

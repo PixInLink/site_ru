@@ -199,7 +199,7 @@ schema_type: "WebPage"
         <p class="body-1 m-0" style="line-height:1.85;">
           Один URL = одно изображение для поста. Промпт = тема поста.
           Размер = нужный для конкретной платформы. Никаких программ, никаких шаблонов, никаких дизайнеров.<br><br>
-          <code>pixinlink.ru/1200x630/ffffff/000000?prompt=уютная+кофейня+утро&style=realistic</code>
+          <code>pixinlink.ru/1200x630/уютная-кофейня-утро?style=realistic</code>
         </p>
       </div>
       <!-- Результат -->
@@ -480,7 +480,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-1" style="color:#888;">Шаблон URL для ВКонтакте:</p>
         <code style="color:#a5d6a7;word-break:break-all;">
-          https://pixinlink.ru/1200x630/ffffff/000000?prompt={промпт}&style=realistic&seed={число}
+          https://pixinlink.ru/1200x630/{промпт}?style=realistic&seed={число}
         </code>
       </div>
       <!-- Telegram -->
@@ -526,7 +526,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-1" style="color:#888;">Шаблон URL для Telegram:</p>
         <code style="color:#80cbc4;word-break:break-all;">
-          https://pixinlink.ru/1280x720/0d0d0d/00e5ff?prompt={промпт}&style=cyberpunk&seed={число}
+          https://pixinlink.ru/1280x720/{промпт}?style=cyberpunk&seed={число}
         </code>
       </div>
       <!-- Instagram -->
@@ -572,7 +572,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-1" style="color:#888;">Шаблон URL для Instagram:</p>
         <code style="color:#f48fb1;word-break:break-all;">
-          https://pixinlink.ru/1080x1080/ffffff/212121?prompt={промпт}&style=realistic&seed={число}
+          https://pixinlink.ru/1080x1080/{промпт}?style=realistic&seed={число}
         </code>
       </div>
       <!-- YouTube -->
@@ -608,7 +608,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-1" style="color:#888;">Шаблон URL для YouTube:</p>
         <code style="color:#ffe082;word-break:break-all;">
-          https://pixinlink.ru/1280x720/212121/ff8f00?prompt={промпт}&style=realistic&seed={число}
+          https://pixinlink.ru/1280x720/{промпт}?style=realistic&seed={число}
         </code>
       </div>
     </div>
@@ -657,7 +657,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-5" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-2" style="color:#888;">Пример готового URL:</p>
         <code style="color:#a5d6a7;word-break:break-all;font-size:13px;">
-          https://pixinlink.ru/1200x630/ffffff/000000?prompt=тарелка+борща+сметана+укроп+деревянный+стол&style=realistic&seed=42
+          https://pixinlink.ru/1200x630/тарелка-борща-сметана-укроп-деревянный-стол?style=realistic&seed=42
         </code>
       </div>
     </div>
@@ -691,8 +691,7 @@ schema_type: "WebPage"
         <pre style="color:#ce9178;font-size:13px;margin:0;white-space:pre-wrap;">Trigger: Notion "New row in Posts DB"
 Step 1: Text → urlencode(post.title)
 Step 2: Build URL:
-  https://pixinlink.ru/1200x630/ffffff/000000
-  ?prompt={encoded_title}&style=realistic
+  https://pixinlink.ru/1200x630/{encoded_title}?style=realistic
 Step 3: Post to VK with image_url={pixinlink_url}</pre>
       </div>
       <!-- n8n -->
@@ -703,8 +702,8 @@ const title = $input.item.json.title;
 const prompt = encodeURIComponent(title);
 const seed = Date.now() % 2147483647;
 const imageUrl =
-  `https://pixinlink.ru/1200x630/ffffff/000000`
-  + `?prompt=${prompt}&style=realistic&seed=${seed}`;
+  `https://pixinlink.ru/1200x630/${prompt}`
+  + `?style=realistic&seed=${seed}`;
 return [{ json: { ...($input.item.json), image_url: imageUrl } }];</pre>
       </div>
       <!-- Telegram-бот -->
@@ -716,8 +715,8 @@ from urllib.parse import quote
 bot = telebot.TeleBot("ВАШ_TOKEN")
 def make_image_url(prompt: str, w=1280, h=720) -> str:
     return (
-        f"https://pixinlink.ru/{w}x{h}/ffffff/000000"
-        f"?prompt={quote(prompt)}&style=realistic"
+        f"https://pixinlink.ru/{w}x{h}/{quote(prompt)}"
+        f"?style=realistic"
     )
 @bot.message_handler(commands=['post'])
 def auto_post(message):
@@ -758,7 +757,7 @@ bot.polling()</pre>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/0d0d0d/ff9800?prompt=ресторан-доставка-еда-вечер&style=realistic</code>
+          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/ресторан-доставка-еда-вечер?style=realistic</code>
         </div>
       </div>
       <!-- Кейс 2 -->
@@ -785,7 +784,7 @@ bot.polling()</pre>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1280x720/0d0d0d/00e5ff?prompt={тема_поста}&style=cyberpunk</code>
+          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1280x720/{тема_поста}?style=cyberpunk</code>
         </div>
       </div>
       <!-- Кейс 3 -->
@@ -812,7 +811,7 @@ bot.polling()</pre>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/fff8f0/5d4037?prompt=деревянная-полка-в-скандинавском-интерьере&style=realistic</code>
+          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1200x630/деревянная-полка-в-скандинавском-интерьере?style=realistic</code>
         </div>
       </div>
     </div>

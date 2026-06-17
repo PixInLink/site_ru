@@ -28,7 +28,7 @@ schema_type: "WebPage"
           <span class="ml-auto" style="color:#6a9955;font-size:11px;">&lt;!-- По умолчанию отдаётся WebP, экономя 85% веса --&gt;</span>
         </div>
         <div class="pa-4">
-          <pre style="color:#9cdcfe;font-size:14px;line-height:1.8;margin:0;">&lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400?prompt=офис-разработчиков"</span>
+          <pre style="color:#9cdcfe;font-size:14px;line-height:1.8;margin:0;">&lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/офис-разработчиков"</span>
      alt=<span style="color:#ce9178;">"Офис разработчиков"</span>
      loading=<span style="color:#ce9178;">"lazy"</span>&gt;</pre>
         </div>
@@ -170,7 +170,7 @@ schema_type: "WebPage"
         <p class="body-2 mb-2">Ничего указывать не нужно, сервер вернёт <strong>WebP</strong>.</p>
         <div class="card pa-3" style="background:#1e1e1e;border-radius:6px;">
           <pre style="color:#9cdcfe;font-size:13px;line-height:1.7;margin:0;">&lt;!-- WebP отдаётся автоматически --&gt;
-&lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400?prompt=офис-разработчиков"</span>
+&lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/офис-разработчиков"</span>
      alt=<span style="color:#ce9178;">"Офис разработчиков"</span>
      loading=<span style="color:#ce9178;">"lazy"</span>&gt;</pre>
         </div>
@@ -180,11 +180,11 @@ schema_type: "WebPage"
         <p class="body-2 mb-2">Тег <code>&lt;picture&gt;</code>: <strong>AVIF</strong> для современных браузеров, <strong>WebP</strong> для остальных.</p>
         <div class="card pa-3" style="background:#1e1e1e;border-radius:6px;">
           <pre style="color:#9cdcfe;font-size:13px;line-height:1.7;margin:0;">&lt;picture&gt;
-  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/800x400?prompt=офис&amp;format=avif"</span>
+  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/офис?format=avif"</span>
           type=<span style="color:#ce9178;">"image/avif"</span>&gt;
-  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/800x400?prompt=офис&amp;format=webp"</span>
+  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/офис?format=webp"</span>
           type=<span style="color:#ce9178;">"image/webp"</span>&gt;
-  &lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400?prompt=офис"</span>
+  &lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/офис"</span>
        alt=<span style="color:#ce9178;">"Офис"</span> loading=<span style="color:#ce9178;">"lazy"</span>&gt;
 &lt;/picture&gt;</pre>
         </div>
@@ -195,13 +195,13 @@ schema_type: "WebPage"
         <div class="card pa-3" style="background:#1e1e1e;border-radius:6px;">
           <pre style="color:#9cdcfe;font-size:13px;line-height:1.7;margin:0;">&lt;!-- В &lt;head&gt; --&gt;
 &lt;link rel=<span style="color:#ce9178;">"preload"</span> as=<span style="color:#ce9178;">"image"</span>
-      href=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>
-      imagesrcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>&gt;
+      href=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630/баннер?format=avif"</span>
+      imagesrcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630/баннер?format=avif"</span>&gt;
 &lt;!-- В &lt;body&gt; --&gt;
 &lt;picture&gt;
-  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер&amp;format=avif"</span>
+  &lt;source srcset=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630/баннер?format=avif"</span>
           type=<span style="color:#ce9178;">"image/avif"</span>&gt;
-  &lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630?prompt=баннер"</span>
+  &lt;img src=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630/баннер"</span>
        alt=<span style="color:#ce9178;">"Главный баннер"</span> fetchpriority=<span style="color:#ce9178;">"high"</span>&gt;
 &lt;/picture&gt;</pre>
         </div>

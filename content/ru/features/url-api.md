@@ -45,7 +45,7 @@ schema_type: "WebPage"
           <h5 class="headline mb-2" style="color: #2E7D32;">TL;DR</h5>
           <p class="body-1 m-0" style="line-height: 1.6;">
             URL API PixInLink = <strong>GET-запрос → изображение</strong> (или 302 редирект из CDN-кеша).<br>
-            <strong>Обязательные параметры:</strong> <code>{width}x{height}</code> в пути и <code>?prompt=</code>.<br>
+            <strong>Обязательные параметры:</strong> <code>{width}x{height}</code> в пути и <code>/{prompt}</code> (текст описания изображения).<br>
             <strong>Ключевые опции:</strong> <code>style=</code> (6 значений), <code>seed=</code> (фиксация), <code>format=</code> (webp/avif/png).<br>
             <strong>Аутентификация:</strong> Bearer-токен для тарифов Starter+, без токена для Free.<br>
             Справочник ниже — всё для copy-paste.
@@ -355,7 +355,7 @@ Authorization: Bearer pk_live_вашключ</code></pre>
         <!-- Полный пример URL -->
         <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Полный пример API-запроса</h3>
         <div class="card paper pa-4 mb-4 text-left" style="background: #1e1e1e; border-radius: 8px;">
-          <pre style="margin: 0; white-space: pre-wrap; font-family: monospace; color: #ce9178; font-size: 14px; line-height: 1.5;">GET https://pixinlink.ru/1200x630/ffffff/000000
+          <pre style="margin: 0; white-space: pre-wrap; font-family: monospace; color: #ce9178; font-size: 14px; line-height: 1.5;">GET https://pixinlink.ru/1200x630/{промпт}
 <span style="color: #9cdcfe;">?prompt</span>=современный%20офис%20разработчиков%20вечер
 <span style="color: #9cdcfe;">&amp;style</span>=realistic
 <span style="color: #9cdcfe;">&amp;seed</span>=20260515

@@ -305,7 +305,7 @@ client = PixInLink()  <span style="color:#6a9955;"># читает из env ав�
     format=<span style="color:#ce9178;">"webp"</span>,
     seed=<span style="color:#b5cea8;">42</span>
 )
-<span style="color:#6a9955;"># → "https://pixinlink.ru/api/v1/1200x630?prompt=...&seed=42"</span></pre>
+<span style="color:#6a9955;"># -> "https://pixinlink.ru/1200x630/офис-разработчиков?seed=42"</span></pre>
         </div>
         <p class="body-2 m-0 text-muted">Возвращает: <code>str</code>. Сетевые запросы не выполняются.</p>
       </div>

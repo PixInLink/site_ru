@@ -28,7 +28,7 @@ schema_type: "WebPage"
           <p class="body-1 m-0" style="color: #2e7d32;">
             <strong>🔥 Попробуйте прямо сейчас:</strong> Откройте эту ссылку в новой вкладке браузера — и получите первое изображение:
             <br>
-            <a href="https://pixinlink.ru/800x600/ffffff/000000?prompt=красивый+закат+над+горами" target="_blank" style="word-break: break-all; font-weight: bold; margin-top: 8px; display: inline-block;">https://pixinlink.ru/800x600/ffffff/000000?prompt=красивый+закат+над+горами</a>
+            <a href="https://pixinlink.ru/800x600/красивый-закат-над-горами" target="_blank" style="word-break: break-all; font-weight: bold; margin-top: 8px; display: inline-block;">https://pixinlink.ru/800x600/красивый-закат-над-горами</a>
           </p>
         </div>
       </div>
@@ -75,7 +75,7 @@ schema_type: "WebPage"
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #2196F3;">
           <h5 class="headline mb-2">Шаг 1: Откройте браузер (0–5 сек)</h5>
           <p class="body-2 mb-2">Вставьте в адресную строку следующую ссылку и нажмите Enter:</p>
-          <code style="background: #f5f5f5; padding: 4px 8px; border-radius: 4px; word-break: break-all;">https://pixinlink.ru/800x600/ffffff/000000?prompt=современный+офис+программистов</code>
+          <code style="background: #f5f5f5; padding: 4px 8px; border-radius: 4px; word-break: break-all;">https://pixinlink.ru/800x600/современный-офис-программистов</code>
         </div>
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #FF9800;">
           <h5 class="headline mb-2">Шаг 2: Дождитесь генерации (5–30 сек)</h5>
@@ -85,7 +85,7 @@ schema_type: "WebPage"
           <h5 class="headline mb-2">Шаг 3: Вставьте в свой HTML (30–40 сек)</h5>
           <p class="body-2 mb-2">Теперь просто скопируйте URL и вставьте его в код вашего сайта (или поста в CMS):</p>
           <div class="card paper pa-2 text-left mb-0" style="background: #1e1e1e; border-radius: 8px;">
-            <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span><span style="color: #ce9178;">"https://pixinlink.ru/800x600/ffffff/000000?prompt=современный+офис+программистов"</span>
+            <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span><span style="color: #ce9178;">"https://pixinlink.ru/800x600/современный-офис-программистов"</span>
      <span style="color: #9cdcfe;">alt=</span><span style="color: #ce9178;">"Офис программистов"</span> <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span><span style="color: #ce9178;">"800"</span> <span style="color: #9cdcfe;">height=</span><span style="color: #ce9178;">"600"</span><span style="color: #569cd6;">&gt;</span></code></pre>
           </div>
         </div>
@@ -122,13 +122,13 @@ schema_type: "WebPage"
               <h6 class="use-text-subtitle2 mb-2 text-primary">1. WordPress (без плагина, Custom HTML)</h6>
               <p class="body-2 text-muted mb-2">В редакторе Gutenberg нажмите «+» &rarr; «Пользовательский HTML»:</p>
               <div class="card paper pa-3 text-left mb-4" style="background: #1e1e1e; border-radius: 8px;">
-                <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span><span style="color: #ce9178;">"https://pixinlink.ru/800x400/ffffff/000000?prompt=офис"</span>
+                <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span><span style="color: #ce9178;">"https://pixinlink.ru/800x400/офис"</span>
      <span style="color: #9cdcfe;">alt=</span><span style="color: #ce9178;">"Офис"</span> <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span><span style="color: #ce9178;">"800"</span> <span style="color: #9cdcfe;">height=</span><span style="color: #ce9178;">"400"</span><span style="color: #569cd6;">&gt;</span></code></pre>
               </div>
               <h6 class="use-text-subtitle2 mb-2 text-primary">2. React / Next.js (Компонент)</h6>
               <div class="card paper pa-3 text-left mb-4" style="background: #1e1e1e; border-radius: 8px;">
                 <pre style="margin: 0; white-space: pre-wrap;"><code style="color: #d4d4d4; font-size: 13px;"><span style="color: #569cd6;">export function</span> <span style="color: #dcdcaa;">PixInLinkImage</span>({ prompt, width = <span style="color: #b5cea8;">800</span>, height = <span style="color: #b5cea8;">600</span>, seed = <span style="color: #ce9178;">''</span> }) {
-  <span style="color: #569cd6;">let</span> url = <span style="color: #ce9178;">`https://pixinlink.ru/</span><span style="color: #569cd6;">${</span>width<span style="color: #569cd6;">}</span><span style="color: #ce9178;">x</span><span style="color: #569cd6;">${</span>height<span style="color: #569cd6;">}</span><span style="color: #ce9178;">/ffffff/000000?prompt=</span><span style="color: #569cd6;">${</span><span style="color: #dcdcaa;">encodeURIComponent</span>(prompt)<span style="color: #569cd6;">}</span><span style="color: #ce9178;">`</span>;
+  <span style="color: #569cd6;">let</span> url = <span style="color: #ce9178;">`https://pixinlink.ru/</span><span style="color: #569cd6;">${</span>width<span style="color: #569cd6;">}</span><span style="color: #ce9178;">x</span><span style="color: #569cd6;">${</span>height<span style="color: #569cd6;">}</span><span style="color: #ce9178;">/</span><span style="color: #569cd6;">${</span><span style="color: #dcdcaa;">encodeURIComponent</span>(prompt)<span style="color: #569cd6;">}</span><span style="color: #ce9178;">`</span>;
   <span style="color: #c586c0;">if</span> (seed) url += <span style="color: #ce9178;">`&amp;seed=</span><span style="color: #569cd6;">${</span>seed<span style="color: #569cd6;">}</span><span style="color: #ce9178;">`</span>;
   <span style="color: #c586c0;">return</span> (
     <span style="color: #569cd6;">&lt;img</span> <span style="color: #9cdcfe;">src=</span>{url} <span style="color: #9cdcfe;">alt=</span>{prompt} <span style="color: #9cdcfe;">loading=</span><span style="color: #ce9178;">"lazy"</span> <span style="color: #9cdcfe;">width=</span>{width} <span style="color: #9cdcfe;">height=</span>{height} <span style="color: #569cd6;">/&gt;</span>
@@ -142,7 +142,7 @@ schema_type: "WebPage"
 register = template.Library()
 <span style="color: #569cd6;">@register.simple_tag</span>
 <span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">pixinlink_img</span>(prompt, width=<span style="color: #b5cea8;">800</span>, height=<span style="color: #b5cea8;">600</span>, seed=<span style="color: #ce9178;">''</span>):
-    url = <span style="color: #ce9178;">f"https://pixinlink.ru/{width}x{height}/ffffff/000000?prompt={quote(prompt)}"</span>
+    url = <span style="color: #ce9178;">f"https://pixinlink.ru/{width}x{height}/{quote(prompt)}"</span>
     <span style="color: #c586c0;">if</span> seed: url += <span style="color: #ce9178;">f"&amp;seed={seed}"</span>
     <span style="color: #c586c0;">return</span> <span style="color: #ce9178;">f'&lt;img src="{url}" alt="{prompt}" loading="lazy" width="{width}" height="{height}"&gt;'</span></code></pre>
               </div>
@@ -185,7 +185,7 @@ register = template.Library()
             <p class="mb-1"><strong>Готовый тег для вставки:</strong></p>
             <div class="card paper pa-2 text-left mb-2" style="background: #1e1e1e; border-radius: 8px;">
               <code id="res-html" style="color: #9cdcfe; font-size: 13px; word-break: break-all;">
-                &lt;img src="https://pixinlink.ru/800x600/ffffff/000000?prompt=%D0%BE%D1%84%D0%B8%D1%81%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2%2C%20%D0%BD%D0%B5%D0%BE%D0%BD&amp;style=cyberpunk" alt="AI Image" loading="lazy" width="800" height="600"&gt;
+                &lt;img src="https://pixinlink.ru/800x600/офис-разработчиков-неон?style=cyberpunk" alt="AI Image" loading="lazy" width="800" height="600"&gt;
               </code>
             </div>
           </div>
@@ -299,7 +299,7 @@ register = template.Library()
           <h3 class="use-text-title2 mb-3">Готовы к полноценной работе?</h3>
           <p class="use-text-subtitle2 mb-4">Выберите тариф для коммерческого использования без водяных знаков.</p>
           <a href="/pricing" class="btn primary waves-effect px-5 py-2 mr-3 mb-2" style="border-radius: 30px; font-size: 1rem;">Выбрать тариф</a>
-          <a href="https://pixinlink.ru/800x600/ffffff/000000?prompt=первое+изображение+с+pixinlink" target="_blank" class="btn outline primary waves-effect px-5 py-2 mb-2" style="border-radius: 30px; font-size: 1rem;">Тестовый URL</a>
+          <a href="https://pixinlink.ru/800x600/первое-изображение-с-pixinlink" target="_blank" class="btn outline primary waves-effect px-5 py-2 mb-2" style="border-radius: 30px; font-size: 1rem;">Тестовый URL</a>
         </div>
       </div>
     </div>

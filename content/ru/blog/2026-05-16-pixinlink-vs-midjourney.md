@@ -73,7 +73,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
 </table>
 <h3>Разница в коде: 1 строка против бэкенда</h3>
 <h5 style="color: #2196F3;">PixInLink (HTML)</h5>
-<pre><code>&lt;img src="https://pixinlink.ru/1200x630/ffffff/000000?prompt=офис-разработчиков-современный" /&gt;</code></pre>
+<pre><code>&lt;img src="https://pixinlink.ru/1200x630/офис-разработчиков-современный" /&gt;</code></pre>
 <h5 style="color: #009688;">DALL-E 3 (Python-бэкенд)</h5>
 <pre><code>import openai, requests
 client = openai.OpenAI(api_key="sk-...")

@@ -97,7 +97,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-pisat-prompty-ai-images-g
   </tbody>
 </table>
 <p>Пример URL с bg/fg:</p>
-<pre><code>https://pixinlink.ru/800x400/000000/ffffff?prompt=неоновый-город-ночью&style=cyberpunk</code></pre>
+<pre><code>https://pixinlink.ru/800x400/неоновый-город-ночью?style=cyberpunk</code></pre>
 (блок: faq)
 ## FAQ
 **Q: Можно ли писать промпты на русском?**

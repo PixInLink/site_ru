@@ -231,7 +231,7 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-2">Браузер отправляет GET-запрос. API на <strong>FastAPI (Python 3.12)</strong> принимает и парсит URL.</p>
         <div class="pa-3" style="background:#1e1e1e;border-radius:6px;">
-          <code style="color:#9cdcfe;font-size:12px;">GET /800x400/ffffff/000000?prompt=офис-программисты&style=realistic&seed=42</code>
+          <code style="color:#9cdcfe;font-size:12px;">GET /800x400/офис-программисты?style=realistic&seed=42</code>
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Валидация: width/height 16–8192, HEX 6 символов, prompt не пустой. Если что-то не так → <code>400 Bad Request</code>.</p>
       </div>
@@ -246,7 +246,7 @@ schema_type: "WebPage"
         </div>
         <p class="body-2 mb-2">API вычисляет SHA-256 от нормализованных параметров. Каждая уникальная комбинация = уникальный ассет:</p>
         <div class="pa-3" style="background:#1e1e1e;border-radius:6px;">
-          <pre style="color:#9cdcfe;font-size:12px;margin:0;">hash = SHA256("800x400/ffffff/000000?prompt=office&style=realistic&seed=42")
+          <pre style="color:#9cdcfe;font-size:12px;margin:0;">hash = SHA256("800x400/office?style=realistic&seed=42")
 → abc123def456...</pre>
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Одинаковый prompt + seed = одинаковый хеш = тот же кешированный файл. Изменили seed — новый хеш — новое изображение.</p>
@@ -593,7 +593,7 @@ Durability: 99.999999999%</pre>
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
             <h4 class="headline mb-2" style="font-size:14px;font-weight:700;">Без seed</h4>
             <div class="pa-2" style="background:#1e1e1e;border-radius:6px;margin-bottom:8px;">
-              <code style="color:#9cdcfe;font-size:11px;">pixinlink.ru/1200x630?prompt=кот</code>
+              <code style="color:#9cdcfe;font-size:11px;">pixinlink.ru/1200x630/кот</code>
             </div>
             <p class="body-2 mb-0">Random seed каждый раз → разные изображения → не кешируется. Подходит для декоративных элементов.</p>
           </div>
@@ -602,7 +602,7 @@ Durability: 99.999999999%</pre>
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #43a047;">
             <h4 class="headline mb-2" style="font-size:14px;font-weight:700;">С фиксированным seed</h4>
             <div class="pa-2" style="background:#1e1e1e;border-radius:6px;margin-bottom:8px;">
-              <code style="color:#a5d6a7;font-size:11px;">pixinlink.ru/1200x630?prompt=кот&seed=42</code>
+              <code style="color:#a5d6a7;font-size:11px;">pixinlink.ru/1200x630/кот&seed=42</code>
             </div>
             <p class="body-2 mb-0">Стабильный CDN-кеш. Идеально для og:image и заголовков статей.</p>
           </div>
