@@ -36,7 +36,7 @@ export const sectionNav = {
     "titleRu": "Интеграции",
     "titleEn": "Integrations",
     "articles": {
-      "integrations/sdk-python": "Python SDK PixInLink",
+      "integrations/sdk-python": "Python SDK PixInLink — генерация URL изображений из кода (Alpha)",
       "integrations/wordpress": "Плагин PixInLink для WordPress — AI-изображения в каждом посте автоматически"
     }
   },

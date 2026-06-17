@@ -125,8 +125,8 @@ export const siteTree = {
         },
         {
           "slug": "integrations/sdk-python",
-          "title": "Python SDK PixInLink",
-          "description": "Python SDK PixInLink: pip install pixinlink — 5 строк кода до первого AI-изображения. AsyncPixInLink, generate_batch, quota. Python 3.10+.",
+          "title": "Python SDK PixInLink — генерация URL изображений из кода (Alpha)",
+          "description": "Python-пакет imageshub: формирование URL для img src из Python-кода. Два метода, без зависимостей. Roadmap: HTTP-клиент, async, batch-generate.",
           "isIndex": false,
           "path": "content/ru/integrations/sdk-python.md"
         },
