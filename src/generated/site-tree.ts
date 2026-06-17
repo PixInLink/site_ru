@@ -79,8 +79,8 @@ export const siteTree = {
         },
         {
           "slug": "features/kak-rabotaet-ai",
-          "title": "Как работает ИИ-генерация в PixInLink: от URL до изображения за 8 секунд",
-          "description": "Полный технический разбор пайплайна PixInLink: Kandinsky 3.1, FLUX.1, Yandex Translate, WebP-оптимизация, CDN-кеш 1 год, fallback-архитектура и 152-ФЗ.",
+          "title": "Как работает ИИ-генерация в PixInLink: от URL до изображения за 10–30 секунд",
+          "description": "Полный технический разбор пайплайна PixInLink: GigaChat, многопоточная генерация, WebP-оптимизация, CDN-кеш 1 год и 152-ФЗ.",
           "isIndex": false,
           "path": "content/ru/features/kak-rabotaet-ai.md"
         },

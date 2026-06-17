@@ -25,7 +25,7 @@ export const sectionNav = {
     "titleRu": "Возможности",
     "titleEn": "Features",
     "articles": {
-      "features/kak-rabotaet-ai": "Как работает ИИ-генерация в PixInLink: от URL до изображения за 8 секунд",
+      "features/kak-rabotaet-ai": "Как работает ИИ-генерация в PixInLink: от URL до изображения за 10–30 секунд",
       "features/url-api": "URL API PixInLink: полный справочник параметров",
       "features/watermark": "Водяной знак на ИИ-изображениях: как работает и как убрать",
       "features/webp-optimization": "WebP и AVIF из коробки: каждое изображение оптимизируется автоматически"
