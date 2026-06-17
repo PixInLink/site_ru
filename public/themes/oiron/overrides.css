@@ -1933,3 +1933,8 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 #about .root {
   margin-bottom: 40px !important;
 }
+
+/* Subpages — top padding below sticky header */
+main.container-wrap {
+  padding-top: 40px !important;
+}
