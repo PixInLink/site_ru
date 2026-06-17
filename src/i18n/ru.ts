@@ -42,6 +42,7 @@ export const ru = {
       },
       docs: {
         gettingStarted: "Первое AI-изображение за 60 секунд",
+        faq: "FAQ",
       },
     },
   },

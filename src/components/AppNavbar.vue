@@ -48,6 +48,7 @@ const submenuSections = [
     label: t.nav.docs,
     items: [
       { to: "/docs/getting-started/", label: t.nav.submenu.docs.gettingStarted },
+      { to: "/docs/faq/", label: t.nav.submenu.docs.faq },
     ],
   },
 ];

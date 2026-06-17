@@ -40,6 +40,7 @@ export const en = {
       },
       docs: {
         gettingStarted: "First AI Image in 60 Seconds",
+        faq: "FAQ",
       },
     },
   },
