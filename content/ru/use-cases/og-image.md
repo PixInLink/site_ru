@@ -742,7 +742,7 @@ og_image = (
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Для теста — нет (12 ген/мес зарег., 30/день аноним). Для продакшна с контролем лимитов и без водяного знака — нужен тариф Starter (300 ₽/мес).</p>
+                  <p>Для теста — нет (12 ген/мес зарег., 30/мес аноним). Для продакшна с контролем лимитов и без водяного знака — нужен тариф Starter (300 ₽/мес).</p>
                 </div>
               </li>
               <li class="accordion-content paper">

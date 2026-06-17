@@ -59,7 +59,7 @@ schema_type: "WebPage"
         </div>
         <h3 class="display-1 mb-3" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
-          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 12 генераций/мес бесплатно с регистрацией (с водяным знаком). 30/день без регистрации.</li>
+          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 12 генераций/мес бесплатно с регистрацией (с водяным знаком). 30/мес без регистрации.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Русский язык:</strong> Промпт транслитерируется (кириллица → латиница) и передаётся в AI-движок.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Redis-кеш:</strong> Первая генерация 10–30 сек. Повторные запросы — <strong>менее 100 мс</strong>.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Формат:</strong> Автоматическая отдача в WebP (quality=85).</li>
@@ -231,7 +231,7 @@ register = template.Library()
                 <i class="material-icons right arrow">expand_more</i>
               </div>
               <div class="collapsible-body detail">
-                <p>Нет. Первые 12 изображений — с регистрацией бесплатно. Без регистрации — 30/день на домен. Вы можете тестировать прямо сейчас. Для коммерческого использования (убрать водяной знак) нужна регистрация и тариф от 300 ₽/мес.</p>
+                <p>Нет. Первые 12 изображений — с регистрацией бесплатно. Без регистрации — 30/мес на домен. Вы можете тестировать прямо сейчас. Для коммерческого использования (убрать водяной знак) нужна регистрация и тариф от 300 ₽/мес.</p>
               </div>
             </li>
             <li class="accordion-content paper">

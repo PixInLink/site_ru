@@ -71,7 +71,7 @@ schema_type: "WebPage"
           Текущее решение: <strong>5–10 строк PHP</strong> в functions.php child theme, 10 минут настройки.<br>
           Плагин с визуальным интерфейсом — <strong>Q2 2026</strong>.<br>
           Поддержка: <strong>Yoast SEO, RankMath, AIOSEO, Gutenberg, Elementor, Divi</strong>.<br>
-          <strong>Free: 12 изобр/мес (зарег.) или 30/день (аноним)</strong> без ключа. <strong>Starter: 300 ₽/мес</strong> — без водяного знака.
+          <strong>Free: 12 изобр/мес (зарег.) или 30/мес (аноним)</strong> без ключа. <strong>Starter: 300 ₽/мес</strong> — без водяного знака.
         </p>
       </div>
     </div>
@@ -527,7 +527,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>12 изображений в месяц с регистрацией. Без регистрации — 30 в день на домен (по Referer). Starter (300 ₽/мес) — 50 генераций без водяного знака.</p>
+                  <p>12 изображений в месяц с регистрацией. Без регистрации — 30 в месяц на домен (по Referer). Starter (300 ₽/мес) — 50 генераций без водяного знака.</p>
                 </div>
               </li>
               <li class="accordion-content paper">

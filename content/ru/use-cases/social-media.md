@@ -868,7 +868,7 @@ bot.polling()</pre>
                   <i class="material-icons right arrow">expand_more</i>
                 </div>
                 <div class="collapsible-body detail">
-                  <p>Нет. 12 изображений доступны бесплатно с регистрацией, или 30/день на домен без регистрации.</p>
+                  <p>Нет. 12 изображений доступны бесплатно с регистрацией, или 30/мес на домен без регистрации.</p>
                 </div>
               </li>
               <li class="accordion-content paper">
