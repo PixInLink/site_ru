@@ -43,7 +43,7 @@ raw_html: true
 
 <!-- ##### БЫСТРЫЙ СТАРТ #####-->
 <div class="container page-section space-top-short" id="quickstart" style="margin-top: 40px;">
-  <div class="row align-items-center">
+  <div class="row align-items-center" style="padding-top: 40px;">
     <div class="col-md-6 px-4">
       <h3 class="use-text-title2 mb-3">Быстрый старт</h3>
       <p class="body-1 mb-2">Первое изображение — за 60 секунд. Вам не нужен API-ключ, регистрация или плагин.</p>
