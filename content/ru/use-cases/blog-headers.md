@@ -32,7 +32,7 @@ schema_type: "WebPage"
       </p>
       <div class="card pa-4 mb-5" style="background:#f3f8ff;border-left:4px solid #1976d2;border-radius:4px;">
         <p class="body-1 m-0" style="font-weight:600;">
-          TL;DR: 15 секунд — и у статьи появляется уникальное заголовочное изображение по URL. PixInLink подходит блогерам, WordPress-редакторам и контент-командам: 50 изображений в месяц доступны бесплатно, а Starter за 490 ₽/мес снимает водяной знак и даёт 500 генераций.
+          TL;DR: 15 секунд — и у статьи появляется уникальное заголовочное изображение по URL. PixInLink подходит блогерам, WordPress-редакторам и контент-командам: 12 изображений в месяц для зарегистрированных бесплатно (30/день анонимно), а Starter за 300 ₽/мес убирает водяной знак и даёт 50 генераций.
         </p>
       </div>
     </div>
@@ -77,11 +77,11 @@ schema_type: "WebPage"
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как быстро добавить уникальное изображение в статью блога?</h2>
       <p class="body-1 mb-3" style="line-height:1.85;font-weight:600;color:#2e7d32;">
-        Вставьте URL вида https://pixinlink.ru/api/v1/1200x630/тема-статьи в HTML, Gutenberg, Ghost или шаблон статического сайта. PixInLink автоматически создаст уникальное изображение, оптимизирует его для веба и отдаст по прямой ссылке.
+          Вставьте URL вида https://pixinlink.ru/1200x630/тема-статьи в HTML, Gutenberg, Ghost или шаблон статического сайта. PixInLink автоматически создаст уникальное изображение, оптимизирует его для веба и отдаст из Redis-кеша.
       </p>
       <div class="pa-3" style="background:#1e1e1e;border-radius:8px;">
 <pre style="color:#9cdcfe;font-size:13px;line-height:1.7;margin:0;">&lt;<span style="color:#569cd6;">img</span>
-  <span style="color:#9cdcfe;">src</span>=<span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/тирамису-крем-ягоды"</span>
+  <span style="color:#9cdcfe;">src</span>=<span style="color:#ce9178;">"https://pixinlink.ru/1200x630/тирамису-крем-ягоды"</span>
   <span style="color:#9cdcfe;">alt</span>=<span style="color:#ce9178;">"Рецепт тирамису с кремом и свежими ягодами"</span>
   <span style="color:#9cdcfe;">loading</span>=<span style="color:#ce9178;">"lazy"</span>
   <span style="color:#9cdcfe;">width</span>=<span style="color:#ce9178;">"1200"</span>
@@ -104,14 +104,14 @@ schema_type: "WebPage"
       <div class="card paper pa-4 mb-3" style="border-top:4px solid #43a047;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;color:#2e7d32;">✅ Решение: Изображение по ссылке</h4>
         <p class="body-2 m-0" style="line-height:1.75;">
-          PixInLink убирает файловый этап. Вы формируете URL и вставляете его в <code>&lt;img src&gt;</code>. Под капотом AI генерирует картинку, конвертирует в WebP и отдаёт через CDN. Для автора это выглядит как обычная ссылка.
+          PixInLink убирает файловый этап. Вы формируете URL и вставляете его в <code>&lt;img src&gt;</code>. Под капотом AI генерирует картинку, конвертирует в WebP и сохраняет в Redis-кеш. Для автора это выглядит как обычная ссылка.
         </p>
       </div>
       <div class="card paper pa-4" style="border-top:4px solid #1976d2;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;color:#1565c0;">📊 Результат: 2 минуты на статью</h4>
         <ul class="body-2 m-0 pl-3">
           <li><strong>Время:</strong> с 15–30 минут до 2–3 минут на статью.</li>
-          <li><strong>Деньги:</strong> 0 ₽ на Free или ~16 ₽/изображение на Starter.</li>
+          <li><strong>Деньги:</strong> 0 ₽ на Free или ~6 ₽/изображение на Starter.</li>
           <li><strong>Уникальность:</strong> каждое изображение создаётся заново.</li>
         </ul>
       </div>
@@ -132,10 +132,8 @@ schema_type: "WebPage"
             <tr><td><code>width × height</code></td><td>1200×630</td><td>Заголовок статьи / OG-изображение</td></tr>
             <tr><td><code>width × height</code></td><td>800×400</td><td>Иллюстрация внутри текста</td></tr>
             <tr><td><code>style</code></td><td>realistic</td><td>Тематические фото: еда, путешествия, lifestyle</td></tr>
-            <tr><td><code>style</code></td><td>artistic</td><td>Абстрактные концепции, IT-статьи, digital</td></tr>
-            <tr><td><code>background</code></td><td>ffffff</td><td>Светлый блог, белый фон</td></tr>
+            <tr><td><code>style</code></td><td>photographic</td><td>Абстрактные концепции, IT-статьи, digital</td></tr>
             <tr><td><code>seed</code></td><td>12345</td><td>Зафиксировать изображение при повторных запросах</td></tr>
-            <tr><td><code>format</code></td><td>webp</td><td>Максимальная оптимизация скорости загрузки</td></tr>
           </tbody>
         </table>
       </div>
@@ -147,7 +145,7 @@ schema_type: "WebPage"
           </thead>
           <tbody class="body-2">
             <tr style="background:#e8f5e9;">
-              <td><strong>PixInLink (URL)</strong></td><td><strong>2–3 мин</strong></td><td><strong>0 ₽ / 490 ₽</strong></td><td>✅ Да</td><td>✅ Прямой URL</td>
+              <td><strong>PixInLink (URL)</strong></td><td><strong>2–3 мин</strong></td><td><strong>0 ₽ / 300 ₽</strong></td><td>✅ Да</td><td>✅ Прямой URL</td>
             </tr>
             <tr><td>Unsplash (бесплатный)</td><td>10–20 мин</td><td>0 ₽</td><td>❌ Нет</td><td>⚠️ Скачать/Загрузить</td></tr>
             <tr><td>Shutterstock (платный)</td><td>10–20 мин</td><td>от ~$29/мес</td><td>❌ Нет</td><td>⚠️ Скачать/Загрузить</td></tr>
@@ -173,7 +171,7 @@ schema_type: "WebPage"
           <strong>Сформулируйте промпт:</strong> Опишите сцену конкретно (3-7 слов через дефис). Например: <code>тирамису-крем-ягоды-вид-сверху</code>.
         </li>
         <li class="mb-3">
-          <strong>Составьте URL:</strong> Шаблон: <code>https://pixinlink.ru/api/v1/ШИРИНАхВЫСОТА/ваш-промпт</code>. 
+          <strong>Составьте URL:</strong> Шаблон: <code>https://pixinlink.ru/ШИРИНАхВЫСОТА/ваш-промпт</code>. 
           Готовый URL: <code>.../1200x630/тирамису-крем-ягоды-вид-сверху</code>.
         </li>
         <li class="mb-3">
@@ -209,7 +207,7 @@ schema_type: "WebPage"
           </thead>
           <tbody class="body-2">
             <tr><td><strong>Кулинария</strong></td><td><code>/1200x630/тирамису-крем-ягоды-вид-сверху</code></td><td>Десертный hero-visual</td></tr>
-            <tr><td><strong>IT / DevOps</strong></td><td><code>/1200x630/программист-код-ноутбук-ночь?style=artistic</code></td><td>Иллюстрация для tech-статьи</td></tr>
+            <tr>              <td><strong>IT / DevOps</strong></td><td><code>/1200x630/программист-код-ноутбук-ночь?style=photographic</code></td><td>Иллюстрация для tech-статьи</td></tr>
             <tr><td><strong>Путешествия</strong></td><td><code>/1200x630/горы-закат-панорама-облака?style=realistic</code></td><td>Пейзаж для travel-поста</td></tr>
             <tr><td><strong>Маркетинг</strong></td><td><code>/1200x630/команда-brainstorm-стикеры-офис</code></td><td>Hero о стратегии</td></tr>
           </tbody>
@@ -237,7 +235,7 @@ schema_type: "WebPage"
           <div class="card paper pa-4 h-100" style="border-left:4px solid #1976d2;">
             <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Кейс 2: IT-блог (Hugo)</h4>
             <p class="body-2 mb-2"><strong>Задача:</strong> Уйти от стоковых картинок «человек за ноутбуком» для tech-статей.</p>
-            <p class="body-2 mb-2"><strong>Решение:</strong> Использование <code>style=artistic</code> и вставка URL прямо в markdown-шаблон Hugo.</p>
+              <p class="body-2 mb-2"><strong>Решение:</strong> Использование <code>style=photographic</code> и вставка URL прямо в markdown-шаблон Hugo.</p>
             <p class="body-2 m-0" style="font-weight:600;color:#2e7d32;">Результат: 8-10 статей в месяц получают атмосферные визуалы без дизайнеров.</p>
           </div>
         </div>
@@ -251,13 +249,13 @@ schema_type: "WebPage"
     <div class="col-12 col-md-10 offset-md-1">
       <div class="card pa-4" style="background:#e8f5e9;border:1px solid #c8e6c9;border-radius:12px;">
         <h3 class="display-1 mb-3" style="font-size:22px;font-weight:700;color:#2e7d32;">Калькулятор экономии времени</h3>
-        <p class="body-2 mb-3">Пример для <strong>20 статей в месяц</strong> (Шаттерсток, 20 мин/картинка):</p>
-        <ul class="body-1 mb-3" style="line-height:1.8;">
-          <li><strong>Сейчас:</strong> 6.7 часов + 1 490 ₽ (или подписка)</li>
-          <li><strong>С PixInLink Starter:</strong> 40 минут + 490 ₽</li>
-          <li style="font-weight:700;color:#1b5e20;">Экономия: 6 часов рутины и ~1 000 ₽ каждый месяц.</li>
-        </ul>
-        <a href="/pricing/starter" class="btn-flat" style="background:#2e7d32;color:#fff;padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Попробовать за 490 ₽/мес</a>
+          <p class="body-2 mb-3">Пример для <strong>20 статей в месяц</strong> (стоки/дизайнер, 20 мин/картинка):</p>
+          <ul class="body-1 mb-3" style="line-height:1.8;">
+            <li><strong>Вручную:</strong> 6.7 часов на поиск и обработку</li>
+            <li><strong>С PixInLink Starter:</strong> 40 минут + 300 ₽ (50 генераций, cache hit не тратит квоту)</li>
+            <li style="font-weight:700;color:#1b5e20;">Экономия: 6 часов рутины каждый месяц.</li>
+          </ul>
+          <a href="/pricing/starter" class="btn primary waves-effect" style="padding:2px 20px;border-radius:6px;font-weight:600;">Попробовать за 300 ₽/мес</a>
       </div>
     </div>
   </div>
@@ -269,7 +267,7 @@ schema_type: "WebPage"
       <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-3">
         <h4 class="headline mb-1" style="font-size:16px;font-weight:700;">Нужно ли регистрироваться для первого изображения?</h4>
-        <p class="body-2 text-muted">Нет. Free-план даёт до 50 изображений в месяц без регистрации (с IP-лимитом и водяным знаком).</p>
+          <p class="body-2 text-muted">Нет. Анонимно (без регистрации) — 30 изображений в день на домен. Зарегистрированные пользователи Free-тарифа — 12 изображений в месяц. Водяной знак на всех Free-изображениях.</p>
       </div>
       <div class="mb-3">
         <h4 class="headline mb-1" style="font-size:16px;font-weight:700;">Как интегрировать PixInLink с WordPress без плагина?</h4>
@@ -293,7 +291,7 @@ schema_type: "WebPage"
           WordPress занимает 41.9% сайтов (W3Techs). Изображения размером 1200×630px являются индустриальным стандартом для OG-тегов (Open Graph).
         </p>
         <p class="body-2 m-0 text-muted" style="font-size:12px;">
-          <em>Дата обновления: 15 мая 2026. Проверено технической командой PixInLink.</em>
+            <em>Дата обновления: июнь 2026. Проверено технической командой PixInLink.</em>
         </p>
       </div>
     </div>
@@ -304,8 +302,8 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 text-center">
       <h3 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Готовы добавить уникальные изображения в каждую статью?</h3>
-      <a href="/pricing/starter" class="btn-flat" style="background:#1976d2;color:#fff;padding:12px 32px;border-radius:8px;font-size:16px;text-decoration:none;font-weight:600;">Начать за 490 ₽/мес</a>
-      <p class="body-2 text-muted mt-2">Отмена в любой момент. 500 генераций. Без водяного знака.</p>
+      <a href="/pricing/starter" class="btn primary waves-effect" style="padding:2px 32px;border-radius:8px;font-size:16px;font-weight:600;">Начать за 300 ₽/мес</a>
+      <p class="body-2 text-muted mt-2">Отмена в любой момент. 50 генераций. Без водяного знака (привязка домена).</p>
     </div>
   </div>
 </div>
