@@ -471,7 +471,7 @@ schema_type: "WebPage"
               <tr>
                 <td><strong>Новость / город</strong></td>
                 <td><code>современный+город+вечер+огни+динамика</code></td>
-                <td>cyberpunk</td>
+                <td>dark</td>
               </tr>
             </tbody>
           </table>
@@ -497,7 +497,7 @@ schema_type: "WebPage"
               <tr>
                 <td><strong>Tech-канал</strong></td>
                 <td><code>нейросеть+светящиеся+узлы+тёмный+фон</code></td>
-                <td>cyberpunk</td>
+                <td>dark</td>
               </tr>
               <tr>
                 <td><strong>Новости</strong></td>
@@ -526,7 +526,7 @@ schema_type: "WebPage"
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <p class="body-2 mb-1" style="color:#888;">Шаблон URL для Telegram:</p>
         <code style="color:#80cbc4;word-break:break-all;">
-          https://pixinlink.ru/1280x720/{промпт}?style=cyberpunk&seed={число}
+          https://pixinlink.ru/1280x720/{промпт}?style=dark&seed={число}
         </code>
       </div>
       <!-- Instagram -->
@@ -589,7 +589,7 @@ schema_type: "WebPage"
               <tr>
                 <td><strong>Tech-ролик</strong></td>
                 <td><code>футуристичный+интерфейс+технологии+динамика</code></td>
-                <td>cyberpunk</td>
+                <td>dark</td>
               </tr>
               <tr>
                 <td><strong>Обучение</strong></td>
@@ -749,7 +749,7 @@ bot.polling()</pre>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
-            <p class="body-2 mb-0">Pro-тариф 1 490 ₽/мес, автоматизация через Make</p>
+            <p class="body-2 mb-0">Pro-тариф 2 500 ₽/мес, автоматизация через Make</p>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
@@ -776,7 +776,7 @@ bot.polling()</pre>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
-            <p class="body-2 mb-0">Starter 490 ₽/мес, 1 URL на пост по теме заголовка</p>
+            <p class="body-2 mb-0">Starter 300 ₽/мес, 1 URL на пост по теме заголовка</p>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
@@ -784,7 +784,7 @@ bot.polling()</pre>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1280x720/{тема_поста}?style=cyberpunk</code>
+          <code style="font-size:12px;word-break:break-all;">pixinlink.ru/1280x720/{тема_поста}?style=dark</code>
         </div>
       </div>
       <!-- Кейс 3 -->
@@ -803,7 +803,7 @@ bot.polling()</pre>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Решение</strong></p>
-            <p class="body-2 mb-0">Business 4 990 ₽/мес, промпт = название товара + «в интерьере»</p>
+            <p class="body-2 mb-0">Business 4 500 ₽/мес, промпт = название товара + «в интерьере»</p>
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
@@ -822,17 +822,80 @@ bot.polling()</pre>
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
-      <div class="faq-list mb-5">
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
-            Можно ли загрузить изображение в ВКонтакте напрямую из URL?
-          </h4>
-          <p class="body-1 m-0" style="line-height:1.75;">
-            Прямой импорт по URL в посты ВКонтакте не поддерживается. Нужно скачать изображение
-            (Ctrl+S или «Сохранить изображение»), затем загрузить вручную. Для og:image в ссылках —
-            URL работает напрямую.
-          </p>
+      <div class="faq-style mb-5">
+        <div class="root">
+          <div class="accordion">
+            <ul class="collapsible">
+              <li class="accordion-content paper active">
+                <div class="collapsible-header content">
+                  <p class="heading">Какой размер выбрать для ВКонтакте и Telegram одновременно?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p><strong>1200×630</strong> — подходит для обеих платформ и не будет обрезан. Универсальный формат.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Можно ли сделать изображение с текстом поверх?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Text overlay — в разработке (Q2 2026). Сейчас текст можно добавить в промпт: «...с крупной надписью SALE».</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Как зафиксировать изображение при повторных публикациях?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Добавьте <code>&seed={число}</code> в URL. Одинаковый prompt + seed = всегда одинаковое изображение.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Подходят ли изображения для таргетированной рекламы ВКонтакте?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Да, коммерческое использование разрешено на Starter и выше. На Free права принадлежат сервису.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Нужна ли регистрация для первых изображений?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Нет. 12 изображений доступны бесплатно с регистрацией, или 30/день на домен без регистрации.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Можно ли автоматически прикрепить изображения через SMMplanner?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>В SMMplanner вставьте URL PixInLink в поле «Изображение из URL». Шаблон применится к каждому посту.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Можно ли использовать для Reels и YouTube Shorts?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Да. Формат <strong>1080×1920</strong> (9:16) для вертикальных обложек Reels, Shorts и ВКонтакте Клипов.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
             Почему в Telegram вставляется ссылка, а не картинка?
@@ -880,7 +943,7 @@ bot.polling()</pre>
         </div>
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">
-            Нужна ли регистрация для 50 бесплатных изображений?
+            Нужна ли регистрация для 12 изображений?
           </h4>
           <p class="body-1 m-0" style="line-height:1.75;">
             Нет. Просто откройте сформированный URL в браузере — регистрация и кредитная карта
@@ -980,7 +1043,7 @@ bot.polling()</pre>
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
             <p class="body-1 mb-3" style="font-style:italic;line-height:1.75;">
-              «Для агентства Pro-тариф — идеально. 2 000 изображений в месяц покрывают все наши клиентские аккаунты с запасом.»
+              «Для агентства Pro-тариф — идеально. 500 изображений в месяц покрывают все наши клиентские аккаунты с запасом.»
             </p>
             <p class="body-2 text-muted m-0"><strong>Наталья В.</strong>, руководитель SMM-агентства, Краснодар</p>
           </div>
@@ -1032,7 +1095,7 @@ bot.polling()</pre>
             <p class="body-2 text-muted mb-1">Сейчас (30 постов/мес, Canva, 12 мин/изображение):</p>
             <p class="body-1 mb-3">6 часов + 1 600 ₽/мес</p>
             <p class="body-2 text-muted mb-1">С PixInLink Starter:</p>
-            <p class="body-1 mb-0">15 минут + 490 ₽/мес</p>
+            <p class="body-1 mb-0">15 минут + 300 ₽/мес</p>
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="card pa-3 w-100 text-center" style="background:#e8f5e9;border-radius:8px;">
@@ -1045,13 +1108,13 @@ bot.polling()</pre>
       <!-- CTA-блок -->
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
         <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">Готовы автоматизировать контент для соцсетей?</h3>
-        <p class="body-1 text-muted mb-4">50 изображений бесплатно — без регистрации и кредитной карты</p>
+        <p class="body-1 text-muted mb-4">12 изображений — без регистрации и кредитной карты</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
           <a href="https://app.pixinlink.ru/register" class="btn primary waves-effect" style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Попробовать бесплатно
           </a>
           <a href="/pricing/starter" class="btn primary waves-effect" style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
-            Starter — 490 ₽/мес
+            Starter 300 ₽/мес
           </a>
         </div>
       </div>
