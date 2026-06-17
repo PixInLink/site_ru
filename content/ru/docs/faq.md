@@ -8,7 +8,6 @@ layout: "page"
 schema_type: "FAQPage"
 ---
 <main class="container-wrap container-pages">
-
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="faq-header">
   <div class="row">
@@ -66,7 +65,6 @@ schema_type: "FAQPage"
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 1: НАЧАЛО РАБОТЫ -->
 <!-- ============================================================ -->
@@ -77,7 +75,6 @@ schema_type: "FAQPage"
         <span style="background:#1976d2;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">1</span>
         &nbsp; Как начать и первый запрос
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Нужна ли регистрация для первой генерации?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -88,7 +85,6 @@ schema_type: "FAQPage"
           <strong>12 генераций/мес</strong>, платные тарифы — от 50 до 2 000 генераций/мес без водяного знака.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какой самый простой способ получить первое изображение?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -96,7 +92,6 @@ schema_type: "FAQPage"
           Это всё — никаких SDK, регистраций, установок. Через 10–30 секунд вы увидите готовое изображение.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему при первом открытии ссылки появляется надпись «Генерируется...»?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -105,7 +100,6 @@ schema_type: "FAQPage"
            вы увидите результат. Все последующие запросы отдают изображение мгновенно из кеша.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли использовать русский язык в промпте?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -115,7 +109,6 @@ schema_type: "FAQPage"
           конкретные существительные и избегать сложных грамматических конструкций.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Где хранятся сгенерированные изображения?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -124,7 +117,6 @@ schema_type: "FAQPage"
            Вы просто вставляете URL в тег <code>&lt;img&gt;</code> — и изображение загружается напрямую с нашего CDN.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как долго изображение будет доступно по ссылке?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -133,7 +125,6 @@ schema_type: "FAQPage"
            В течение года оно гарантированно доступно. При сбросе кеша — перегенерируется по тому же URL.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли скачать изображение на компьютер?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -144,7 +135,6 @@ schema_type: "FAQPage"
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 2: ВОДЯНОЙ ЗНАК И ТАРИФЫ -->
 <!-- ============================================================ -->
@@ -155,7 +145,6 @@ schema_type: "FAQPage"
         <span style="background:#43a047;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">2</span>
         &nbsp; Водяной знак и тарифы
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему на моём изображении есть водяной знак?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -166,7 +155,6 @@ schema_type: "FAQPage"
           монолитный файл с текстом внутри.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как убрать водяной знак?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -177,7 +165,6 @@ schema_type: "FAQPage"
           запрошенные с этого домена, будут без водяного знака.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какие тарифы есть и сколько они стоят?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -223,7 +210,6 @@ schema_type: "FAQPage"
         </div>
           <p class="body-2 mt-2">Подробнее на <a href="/pricing/">/pricing</a>.</p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что ещё даёт каждый тариф кроме квоты?</h4>
         <div class="table-responsive mt-2">
@@ -244,7 +230,6 @@ schema_type: "FAQPage"
           </table>
         </div>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как сменить тариф?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -252,7 +237,6 @@ schema_type: "FAQPage"
           Доступны карты Visa, Mastercard, МИР, СБП, SberPay. Тариф активируется мгновенно после оплаты.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли отменить подписку?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -260,7 +244,6 @@ schema_type: "FAQPage"
           водяной знак включается. Сгенерированные ранее изображения остаются на CDN.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что будет со старыми изображениями при апгрейде тарифа?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -274,7 +257,6 @@ schema_type: "FAQPage"
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 3: ПРОМПТЫ И СТИЛИ -->
 <!-- ============================================================ -->
@@ -285,7 +267,6 @@ schema_type: "FAQPage"
         <span style="background:#fb8c00;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">3</span>
         &nbsp; Промпты и стили
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как написать хороший промпт?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -294,7 +275,6 @@ schema_type: "FAQPage"
           Оптимальная длина — <strong>3–7 слов</strong>. Будьте конкретны: не «город», а «вечерний мегаполис неоновые огни дождь».
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Сколько символов максимум в промпте?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -302,7 +282,6 @@ schema_type: "FAQPage"
           промпт: убирает лишние пробелы, приводит к Unicode NFKC, удаляет спецсимволы.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какие стили доступны?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -324,7 +303,6 @@ schema_type: "FAQPage"
           </table>
         </div>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Чем стили отличаются друг от друга на практике?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -336,7 +314,6 @@ schema_type: "FAQPage"
           <strong>dark</strong> — тёмная палитра, высокая контрастность.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли генерировать в стиле pixel-art или cyberpunk?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -346,7 +323,6 @@ schema_type: "FAQPage"
           <a href="/features/url-api/">URL API</a>.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Поддерживается ли negative prompt (что НЕ рисовать)?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -355,7 +331,6 @@ schema_type: "FAQPage"
           запрещённых элементов через URL. Для продвинутого контроля используйте REST API.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как зафиксировать результат, чтобы он не менялся?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -368,7 +343,6 @@ schema_type: "FAQPage"
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 4: ПАРАМЕТРЫ URL -->
 <!-- ============================================================ -->
@@ -379,7 +353,6 @@ schema_type: "FAQPage"
         <span style="background:#8e24aa;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">4</span>
         &nbsp; Технические параметры URL
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какие размеры изображений поддерживаются?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -388,7 +361,6 @@ schema_type: "FAQPage"
           Примеры: <code>/1200x630/</code>, <code>/1080x1920/</code>, <code>/800x400/</code>.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли задать цветовую тему?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -398,7 +370,6 @@ schema_type: "FAQPage"
           через bg/fg в пути — см. документацию REST API.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Какие форматы файлов доступны?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -409,7 +380,6 @@ schema_type: "FAQPage"
           на 25–34% легче JPEG при том же качестве.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что означает ?seed= и когда его использовать?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -420,7 +390,6 @@ schema_type: "FAQPage"
           <br>— Меняете тариф и хотите перегенерировать старые изображения (новый seed)
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как работает кэширование изображений?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -434,7 +403,6 @@ schema_type: "FAQPage"
           Квота расходуется только при cache miss — повторные запросы бесплатны.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Есть ли ограничение на количество запросов?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -443,7 +411,6 @@ schema_type: "FAQPage"
           Cache hit (повторные запросы) не расходуют квоту и не учитываются в rate limit.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как передать API-ключ в URL?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -459,7 +426,6 @@ schema_type: "FAQPage"
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 5: WORDPRESS И CMS -->
 <!-- ============================================================ -->
@@ -470,7 +436,6 @@ schema_type: "FAQPage"
         <span style="background:#00838f;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">5</span>
         &nbsp; WordPress и CMS
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как вставить изображение в WordPress без плагина?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -481,7 +446,6 @@ schema_type: "FAQPage"
         </div>
         <p class="body-2 mt-2 text-muted">Изображение загрузится напрямую с CDN PixInLink, не занимая место в медиабиблиотеке WordPress.</p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как автоматизировать featured image для всех постов?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -499,7 +463,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
         </div>
         <p class="body-2 mt-2 text-muted">Этот код срабатывает только когда featured image не задан вручную — ваши собственные обложки не перезаписываются.</p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как настроить og:image для Yoast SEO?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -515,7 +478,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
         </div>
         <p class="body-2 mt-2 text-muted">Yoast будет использовать сгенерированное AI-изображение как og:image для всех постов без заданной вручную обложки.</p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Поддерживаются ли RankMath и AIOSEO?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -524,7 +486,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           PixInLink с заголовком поста, если изображение не задано вручную.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Работает ли PixInLink с Elementor и Divi?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -534,7 +495,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           В обоих случаях изображение загружается с CDN без сохранения в медиабиблиотеку.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Есть ли готовый WordPress-плагин?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -544,7 +504,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           Рекомендуемый способ — PHP-код в <code>functions.php</code> (5–10 строк), описанный выше.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как вставить изображение в Hugo / Next.js / Django?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -558,7 +517,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
     </div>
   </div>
 </div>
-
 <!-- ============================================================ -->
 <!-- РАЗДЕЛ 6: КВОТЫ, RATE LIMITS И ОШИБКИ -->
 <!-- ============================================================ -->
@@ -569,7 +527,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
         <span style="background:#e53935;color:#fff;padding:3px 12px;border-radius:4px;font-size:18px;">6</span>
         &nbsp; Квоты, rate limits и ошибки
       </h2>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему я получил ошибку 429 Too Many Requests?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -581,7 +538,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           Для анонимных пользователей 429 также означает превышение лимита 30 изображений в месяц с домена.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Чем отличается rate limit от месячной квоты?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -591,7 +547,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           Расходуется только при cache miss (новых генерациях). Сбрасывается 1-го числа (UTC).
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Расходуется ли квота при повторных запросах к тому же URL?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -601,7 +556,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           <strong>один cache miss</strong>. Это делает PixInLink экономичным для сайтов с высокой посещаемостью.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Когда сбрасывается месячная квота?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -610,7 +564,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           независимо от даты регистрации или оплаты.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что делать при ошибке 502 Bad Gateway?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -620,7 +573,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           <a href="https://status.pixinlink.ru">status.pixinlink.ru</a>.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему изображение показывает ошибку 400 Bad Request?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -631,7 +583,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           <br>— Пример ошибки: <code>/800x630/</code> — width=800, height=630 (не hex), должно быть <code>/800x400/</code>
         </p>
       </div>
-
       <div class="card paper pa-4 mb-3">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как узнать остаток квоты?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -640,7 +591,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
           <br><strong>В личном кабинете:</strong> Dashboard → секция Usage → текущий остаток и график.
         </p>
       </div>
-
       <div class="card paper pa-4 mb-5">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что будет при превышении анонимного лимита?</h4>
         <p class="body-1 m-0" style="line-height:1.75;">
@@ -653,7 +603,6 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
     </div>
   </div>
 </div>
-
 <!-- CTA -->
 <div class="container mb-5" id="faq-cta">
   <div class="row">
@@ -710,5 +659,4 @@ add_filter('post_thumbnail_html', function($html, $post_id) {
     </div>
   </div>
 </div>
-
 </main>
