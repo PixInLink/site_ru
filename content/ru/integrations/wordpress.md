@@ -32,7 +32,7 @@ schema_type: "WebPage"
           <pre style="color:#9cdcfe;font-size:13px;line-height:1.8;margin:0;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $title = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span> . $title . <span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span> . $title . <span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
@@ -41,7 +41,7 @@ schema_type: "WebPage"
       <p class="body-1 text-muted mb-4" style="line-height:1.75;">
         Настройте автоматическую генерацию прямо сейчас с помощью PHP-кода.
         Полноценный плагин с визуальным интерфейсом — в <strong>Q2 2026</strong>.
-        Попробуйте: <a href="https://pixinlink.ru/api/v1/1200x630/рецепт-тирамису" target="_blank">pixinlink.ru/api/v1/1200x630/рецепт-тирамису</a>
+        Попробуйте: <a href="https://pixinlink.ru/1200x630/рецепт-тирамису" target="_blank">pixinlink.ru/1200x630/рецепт-тирамису</a>
       </p>
       <div class="d-flex flex-wrap" style="gap:12px;">
         <a href="#wp-howto" class="btn primary waves-effect"
@@ -71,7 +71,7 @@ schema_type: "WebPage"
           Текущее решение: <strong>5–10 строк PHP</strong> в functions.php child theme, 10 минут настройки.<br>
           Плагин с визуальным интерфейсом — <strong>Q2 2026</strong>.<br>
           Поддержка: <strong>Yoast SEO, RankMath, AIOSEO, Gutenberg, Elementor, Divi</strong>.<br>
-          <strong>Free: 50 изображений/мес</strong> без ключа. <strong>Starter: 490 ₽/мес</strong> — без водяного знака.
+          <strong>Free: 12 изобр/мес (зарег.) или 30/день (аноним)</strong> без ключа. <strong>Starter: 300 ₽/мес</strong> — без водяного знака.
         </p>
       </div>
     </div>
@@ -185,7 +185,7 @@ schema_type: "WebPage"
 add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $title = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>
         . $title .
         <span style="color:#ce9178;">'" alt="'</span> . get_the_title($post_id) . <span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
@@ -218,7 +218,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
               <li>10 мин настройки вместо 10 ч работы</li>
               <li>Красивые превью в Telegram и ВКонтакте</li>
               <li>0 MB на хостинге — всё на CDN</li>
-              <li>От 0 ₽ (Free) до 490 ₽/мес (Starter)</li>
+              <li>От 0 ₽ (Free) до 300 ₽/мес (Starter)</li>
             </ul>
           </div>
         </div>
@@ -490,10 +490,80 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
           <div>
             <h3 class="headline mb-0" style="font-size:16px;font-weight:700;">Создайте child theme</h3>
             <span class="body-2 text-muted">Зачем: изменения в functions.php родительской темы сотрутся при обновлении</span>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FAQ -->
+<div class="container" id="wp-faq">
+  <div class="row">
+    <div class="col-12 col-md-10 offset-md-1">
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <div class="faq-style mb-5">
+        <div class="root">
+          <div class="accordion">
+            <ul class="collapsible">
+              <li class="accordion-content paper active">
+                <div class="collapsible-header content">
+                  <p class="heading">Нужен ли API-ключ для работы в WordPress?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Для catch-all URL API ключ не передаётся в URL. Аутентификация — через привязку домена (Referer). Зарегистрируйтесь, привяжите домен сайта — водяной знак исчезнет автоматически. API-ключ нужен только для REST API.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Изображения сохраняются в медиабиблиотеку WordPress?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Нет. Изображения отдаются по URL напрямую из кеша PixInLink и не занимают места на вашем хостинге. Медиабиблиотека остаётся пустой — 0 MB дополнительной нагрузки.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Сколько изображений можно получить бесплатно?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>12 изображений в месяц с регистрацией. Без регистрации — 30 в день на домен (по Referer). Starter (300 ₽/мес) — 50 генераций без водяного знака.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Есть ли готовый плагин для WordPress?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Сейчас — только shortcode [imgeshub]. Полноценный плагин с Gutenberg-блоком, настройками и featured image — в разработке (roadmap Q3 2026). Пока используйте PHP-сниппеты в functions.php (10 минут настройки).</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Будет ли featured image уникальным для каждого поста?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Да. Промпт формируется из заголовка поста через <code>sanitize_title()</code>. Разные заголовки = разные изображения. Для стабильности добавьте <code>?seed=ID_поста</code>.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Работает ли с Gutenberg, Elementor, Divi?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Да. Gutenberg — через HTML-блок или PHP-сниппет. Elementor — Image Widget → External Image URL. Divi — Image Module → поле URL. Везде работает через прямую вставку URL.</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <p class="body-2 mb-0">Создайте папку <code>/wp-content/themes/ВАША-ТЕМА-child/</code> с двумя файлами: <code>style.css</code> и <code>functions.php</code>. Это безопасное место для всего кода PixInLink.</p>
       </div>
+    </div>
+  </div>
+</div>
       <!-- Шаг 2 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -503,7 +573,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
             <span class="body-2 text-muted">Free-тариф: ключ не нужен</span>
           </div>
         </div>
-        <p class="body-2 mb-0">Зарегистрируйтесь на pixinlink.ru → личный кабинет → API Keys → создать ключ. Ключ имеет вид <code>pixl_xxxxxxxxxxxx</code>. На Free-тарифе ключ не нужен — работает по IP, 50 изображений/мес.</p>
+        <p class="body-2 mb-0">Зарегистрируйтесь на pixinlink.ru → личный кабинет → API Keys → создать ключ. Ключ имеет вид <code>pk_live_xxxxxxxxxxxx</code>. На Free-тарифе ключ не нужен — работает по домену из Referer, 50 изображений/мес.</p>
       </div>
       <!-- Шаг 3 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #2e7d32;">
@@ -522,9 +592,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (!empty($html)) <span style="color:#c586c0;">return</span> $html;
   $title = sanitize_title(get_the_title($post_id));
-  $api_key = <span style="color:#ce9178;">'ВАШ_API_КЛЮЧ'</span>; <span style="color:#6a9955;">// или '' для Free</span>
-  $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$title}"</span>;
-  <span style="color:#c586c0;">if</span> ($api_key) $url .= <span style="color:#ce9178;">"?key={$api_key}"</span>;
+  $url = <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$title}"</span>;
   <span style="color:#c586c0;">return</span> sprintf(
     <span style="color:#ce9178;">'&lt;img src="%s" alt="%s" loading="lazy" width="1200" height="630"&gt;'</span>,
     esc_url($url),
@@ -549,7 +617,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'wpseo_opengraph_image'</span>, <span style="color:#c586c0;">function</span>($img) {
   <span style="color:#c586c0;">if</span> (empty($img)) {
     $title = sanitize_title(get_the_title());
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$title}"</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$title}"</span>;
   }
   <span style="color:#c586c0;">return</span> $img;
 });</pre>
@@ -561,7 +629,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'rank_math/opengraph/facebook/image'</span>, <span style="color:#c586c0;">function</span>($img) {
   <span style="color:#c586c0;">if</span> (empty($img)) {
     $title = sanitize_title(get_the_title());
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$title}"</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$title}"</span>;
   }
   <span style="color:#c586c0;">return</span> $img;
 });</pre>
@@ -573,7 +641,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'aioseo_opengraph_image'</span>, <span style="color:#c586c0;">function</span>($img) {
   <span style="color:#c586c0;">if</span> (empty($img)) {
     $title = sanitize_title(get_the_title());
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$title}"</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$title}"</span>;
   }
   <span style="color:#c586c0;">return</span> $img;
 });</pre>
@@ -592,7 +660,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
         </div>
         <div class="card pa-3" style="background:#1e1e1e;border-radius:8px;">
           <pre style="color:#9cdcfe;font-size:13px;line-height:1.8;margin:0;"><span style="color:#6a9955;">// В URL добавить seed = ID поста</span>
-$url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$title}?seed="</span> . $post_id;</pre>
+$url = <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$title}?seed="</span> . $post_id;</pre>
         </div>
         <p class="body-2 mt-2 mb-0 text-muted">Без seed изображение может незначительно меняться при смене CDN-кеша. С seed — стабильно на весь срок жизни поста.</p>
       </div>
@@ -611,7 +679,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             <div class="card pa-2" style="background:#1e1e1e;border-radius:6px;">
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">&lt;figure class=<span style="color:#ce9178;">"wp-block-image size-large"</span>&gt;
   &lt;img
-    src=<span style="color:#ce9178;">"https://pixinlink.ru/api/v1/800x400/ПРОМПТ"</span>
+    src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/ПРОМПТ"</span>
     alt=<span style="color:#ce9178;">"Описание"</span>
     loading=<span style="color:#ce9178;">"lazy"</span>
     width=<span style="color:#ce9178;">"800"</span> height=<span style="color:#ce9178;">"400"</span>
@@ -677,7 +745,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $t = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>.$t.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>.$t.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
@@ -696,8 +764,8 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $t = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>
-        .$t.<span style="color:#ce9178;">'?key=pixl_ВАШ_КЛЮЧ" loading="lazy"&gt;'</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>
+        .$t.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
@@ -716,7 +784,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $t = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>
         .$t.<span style="color:#ce9178;">'?seed='</span>.$post_id.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
@@ -736,8 +804,8 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html)) {
     $t = sanitize_title(get_the_title($post_id));
-    $style = has_category(<span style="color:#ce9178;">'news'</span>, $post_id) ? <span style="color:#ce9178;">'photo'</span> : <span style="color:#ce9178;">'realistic'</span>;
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>
+    $style = has_category(<span style="color:#ce9178;">'news'</span>, $post_id) ? <span style="color:#ce9178;">'photographic'</span> : <span style="color:#ce9178;">'realistic'</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>
         .$t.<span style="color:#ce9178;">'?style='</span>.$style.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
@@ -757,7 +825,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'wpseo_opengraph_image'</span>, <span style="color:#c586c0;">function</span>($img) {
   <span style="color:#c586c0;">if</span> (empty($img)) {
     $t = sanitize_title(get_the_title());
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$t}"</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$t}"</span>;
   }
   <span style="color:#c586c0;">return</span> $img;
 });</pre>
@@ -776,7 +844,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'rank_math/opengraph/facebook/image'</span>, <span style="color:#c586c0;">function</span>($img) {
   <span style="color:#c586c0;">if</span> (empty($img)) {
     $t = sanitize_title(get_the_title());
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$t}"</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">"https://pixinlink.ru/1200x630/{$t}"</span>;
   }
   <span style="color:#c586c0;">return</span> $img;
 });</pre>
@@ -794,7 +862,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
             <div class="card pa-2" style="background:#1e1e1e;border-radius:6px;">
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">&lt;figure class=<span style="color:#ce9178;">"wp-block-image size-large"</span>&gt;
   &lt;img
-    src=<span style="color:#ce9178;">"https://pixinlink.ru/api/v1/800x400/ПРОМПТ"</span>
+    src=<span style="color:#ce9178;">"https://pixinlink.ru/800x400/ПРОМПТ"</span>
     alt=<span style="color:#ce9178;">"Описание"</span>
     loading=<span style="color:#ce9178;">"lazy"</span>
     width=<span style="color:#b5cea8;">"800"</span> height=<span style="color:#b5cea8;">"400"</span>
@@ -815,7 +883,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
               <pre style="color:#9cdcfe;font-size:12px;margin:0;line-height:1.7;">add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span style="color:#c586c0;">function</span>($html, $post_id) {
   <span style="color:#c586c0;">if</span> (empty($html) && has_category(<span style="color:#ce9178;">'food'</span>, $post_id)) {
     $t = sanitize_title(get_the_title($post_id));
-    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/api/v1/1200x630/'</span>.$t.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
+    <span style="color:#c586c0;">return</span> <span style="color:#ce9178;">'&lt;img src="https://pixinlink.ru/1200x630/'</span>.$t.<span style="color:#ce9178;">'" loading="lazy"&gt;'</span>;
   }
   <span style="color:#c586c0;">return</span> $html;
 }, <span style="color:#b5cea8;">10</span>, <span style="color:#b5cea8;">2</span>);</pre>
