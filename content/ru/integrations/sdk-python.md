@@ -75,7 +75,7 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
 <div class="container" id="sdk-python-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #2e7d32;">
@@ -133,7 +133,7 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
 <div class="container" id="sdk-python-definition">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Что такое Python SDK PixInLink</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Что такое Python SDK PixInLink</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         Python SDK PixInLink — официальная клиентская библиотека, которая инкапсулирует вызовы
         <a href="/features/url-api">URL API</a> в нативные Python-методы. Вместо ручного
@@ -147,7 +147,7 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
 <div class="container" id="sdk-python-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Зачем SDK, если есть requests?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Зачем SDK, если есть requests?</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         Прямой <code>requests.get()</code> требует самостоятельно обрабатывать: 302-редиректы
         при cache hit, поллинг SVG-плейсхолдера при cache miss (ждём 8–10 сек генерации),
@@ -167,7 +167,7 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
 <div class="container" id="sdk-python-install">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Установка</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Установка</h2>
       <!-- Менеджеры пакетов -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Выберите менеджер пакетов</h3>
       <div class="row mb-4">
@@ -227,7 +227,7 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
 <div class="container" id="sdk-python-auth">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Аутентификация</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Аутентификация</h2>
       <p class="body-1 mb-3" style="line-height:1.75;">
         Секретный ключ API всегда начинается с префикса <code>pk_live_</code>.
         Получить ключ: <a href="/dashboard/api-keys">Dashboard → API Keys</a>.
@@ -289,7 +289,7 @@ client = PixInLink()  <span style="color:#6a9955;"># читает из env ав�
 <div class="container" id="sdk-python-methods">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Полный справочник методов</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Полный справочник методов</h2>
       <!-- image_url() -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #2e7d32;">
         <div class="d-flex align-items-center mb-3">
@@ -386,7 +386,7 @@ print(f<span style="color:#ce9178;">"Сброс: {info['reset_at']}"</span>)</pr
 <div class="container" id="sdk-python-async">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">AsyncPixInLink — асинхронный клиент</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">AsyncPixInLink — асинхронный клиент</h2>
       <p class="body-1 mb-3" style="line-height:1.75;">
         Класс <code>AsyncPixInLink</code> разработан для <strong>FastAPI</strong>, <strong>aiohttp</strong>
         и любого asyncio-приложения. Не блокирует event loop во время генерации (~8 сек).
@@ -414,7 +414,7 @@ asyncio.run(main())</pre>
 <div class="container" id="sdk-python-integrations">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Сценарии интеграции</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Сценарии интеграции</h2>
       <!-- FastAPI -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #00897b;">
         <div class="d-flex align-items-center mb-3">
@@ -563,7 +563,7 @@ print(f<span style="color:#ce9178;">"✅ Прогрето {ok}/{len(results)} и
 <div class="container" id="sdk-python-utils">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Утилиты: <code>pixinlink.utils</code></h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Утилиты: <code>pixinlink.utils</code></h2>
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #00838f;">
@@ -598,7 +598,7 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
 <div class="container" id="sdk-python-exceptions">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Иерархия исключений</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Иерархия исключений</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -632,7 +632,7 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
 <div class="container" id="sdk-python-changelog">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">История версий</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">История версий</h2>
       <div class="card paper pa-0 mb-5 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -657,7 +657,7 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
 <div class="container" id="sdk-python-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">SDK или прямой requests?</h4>
@@ -708,7 +708,7 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8f5e9 0%,#e3f2fd 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Начните прямо сейчас</h3>
+        <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">Начните прямо сейчас</h3>
         <p class="body-1 text-muted mb-4">Одна команда в терминале:</p>
         <div class="pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;display:inline-block;min-width:260px;">
           <code style="color:#a5d6a7;font-size:16px;">pip install pixinlink</code>

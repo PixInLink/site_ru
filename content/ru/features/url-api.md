@@ -52,7 +52,7 @@ schema_type: "WebPage"
           </p>
         </div>
         <!-- Ключевые факты (Key Facts) -->
-        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
+        <h3 class="display-1 mb-4" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
           <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i> <strong>Один GET-запрос → изображение:</strong> POST не нужен, тело запроса не нужно.</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i> <strong>6 стилей:</strong> realistic, illustration, 3d, pixel-art, cyberpunk, anime.</li>
@@ -63,7 +63,7 @@ schema_type: "WebPage"
           <li class="mb-2 d-flex"><i class="material-icons mr-2 text-primary">done</i> <strong>Rate limit:</strong> Free: 5 req/min; Business: 600 req/min.</li>
         </ul>
         <!-- Что такое URL API -->
-        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Что такое URL API?</h3>
+        <h3 class="display-1 mb-4" style="font-size: 24px; font-weight: 700;">Что такое URL API?</h3>
         <p class="body-1 mb-4" style="line-height: 1.8;">
           <strong>URL API (URL-based API)</strong> — это интерфейс, где все параметры запроса передаются непосредственно в URL-строке, а сервер возвращает готовый ресурс по HTTP GET-запросу. В отличие от стандартного REST API (POST → async job → polling → download), наш URL API можно вставить прямо в HTML, и всю сложную асинхронную работу под капотом выполнит наш сервер. Идеально для статических сайтов (Hugo, Next.js), мета-тегов <code>og:image</code> и email-рассылок.
         </p>

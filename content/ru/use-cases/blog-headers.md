@@ -42,7 +42,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-key-facts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <ul class="body-1" style="line-height:1.85;">
         <li><strong>15–30 минут</strong> уходит у блогера на поиск, обрезку и загрузку одной картинки по внутренней оценке PixInLink.</li>
         <li><strong>1200×630 px</strong> — самый распространённый размер для OG-изображений и заголовков статей в соцпревью [Open Graph стандарт, 2025].</li>
@@ -75,7 +75,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-featured-snippet">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как быстро добавить уникальное изображение в статью блога?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как быстро добавить уникальное изображение в статью блога?</h2>
       <p class="body-1 mb-3" style="line-height:1.85;font-weight:600;color:#2e7d32;">
         Вставьте URL вида https://pixinlink.ru/api/v1/1200x630/тема-статьи в HTML, Gutenberg, Ghost или шаблон статического сайта. PixInLink автоматически создаст уникальное изображение, оптимизирует его для веба и отдаст по прямой ссылке.
       </p>
@@ -122,7 +122,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-tables">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Технические параметры URL</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Технические параметры URL</h2>
       <div class="table-responsive mb-5">
         <table class="highlight striped">
           <thead style="background:#f5f5f5;">
@@ -139,7 +139,7 @@ schema_type: "WebPage"
           </tbody>
         </table>
       </div>
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Сравнение с аналогами</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Сравнение с аналогами</h2>
       <div class="table-responsive mb-4">
         <table class="highlight striped">
           <thead style="background:#f5f5f5;">
@@ -164,7 +164,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как добавить уникальное изображение за 2 минуты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Как добавить уникальное изображение за 2 минуты</h2>
       <ol class="body-1 pl-3" style="line-height:1.9;">
         <li class="mb-3">
           <strong>Определите размер:</strong> Для заголовочного изображения берите 1200×630 px (стандарт OG), для иллюстрации внутри — 800×400 px.
@@ -201,7 +201,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-url-examples">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Примеры URL для разных ниш</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Примеры URL для разных ниш</h2>
       <div class="table-responsive">
         <table class="highlight striped">
           <thead style="background:#f5f5f5;">
@@ -223,7 +223,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-cases">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Кейсы внедрения</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Кейсы внедрения</h2>
       <div class="row mb-4">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4 h-100" style="border-left:4px solid #fbc02d;">
@@ -250,7 +250,7 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="card pa-4" style="background:#e8f5e9;border:1px solid #c8e6c9;border-radius:12px;">
-        <h3 class="display-2 mb-3" style="font-size:22px;font-weight:700;color:#2e7d32;">Калькулятор экономии времени</h3>
+        <h3 class="display-1 mb-3" style="font-size:22px;font-weight:700;color:#2e7d32;">Калькулятор экономии времени</h3>
         <p class="body-2 mb-3">Пример для <strong>20 статей в месяц</strong> (Шаттерсток, 20 мин/картинка):</p>
         <ul class="body-1 mb-3" style="line-height:1.8;">
           <li><strong>Сейчас:</strong> 6.7 часов + 1 490 ₽ (или подписка)</li>
@@ -266,7 +266,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-3">
         <h4 class="headline mb-1" style="font-size:16px;font-weight:700;">Нужно ли регистрироваться для первого изображения?</h4>
         <p class="body-2 text-muted">Нет. Free-план даёт до 50 изображений в месяц без регистрации (с IP-лимитом и водяным знаком).</p>
@@ -303,7 +303,7 @@ schema_type: "WebPage"
 <div class="container mb-5" id="blog-cta">
   <div class="row">
     <div class="col-12 text-center">
-      <h3 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Готовы добавить уникальные изображения в каждую статью?</h3>
+      <h3 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Готовы добавить уникальные изображения в каждую статью?</h3>
       <a href="/pricing/starter" class="btn-flat" style="background:#1976d2;color:#fff;padding:12px 32px;border-radius:8px;font-size:16px;text-decoration:none;font-weight:600;">Начать за 490 ₽/мес</a>
       <p class="body-2 text-muted mt-2">Отмена в любой момент. 500 генераций. Без водяного знака.</p>
     </div>

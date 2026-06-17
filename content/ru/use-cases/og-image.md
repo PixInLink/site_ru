@@ -72,7 +72,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <div class="row mb-4">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #1976d2;">
@@ -120,7 +120,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-definition">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Что такое og:image</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Что такое og:image</h2>
       <p class="body-1 mb-5" style="line-height:1.85;">
         Open Graph изображение (<code>og:image</code>) — это URL картинки в мета-теге страницы,
         который соцсеть или мессенджер использует для генерации превью ссылки при репосте.
@@ -135,7 +135,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Проблема, которую не решает SEO-плагин</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Проблема, которую не решает SEO-плагин</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         У сайта на 200–300 страниц почти всегда одна и та же ситуация: контент есть, а нормальных
         превью при репосте нет. Telegram, ВКонтакте или Facebook показывают либо дефолтный логотип,
@@ -162,7 +162,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-snippet">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как автоматически генерировать og:image для каждой страницы?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как автоматически генерировать og:image для каждой страницы?</h2>
       <p class="body-1 mb-3" style="line-height:1.75;">
         Вставьте в мета-тег <code>og:image</code> URL PixInLink, где последняя часть URL формируется
         из заголовка, slug или названия страницы. Когда страницу репостят, краулер запрашивает
@@ -216,7 +216,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-problem-solution">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Проблема → Решение → Результат</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Проблема → Решение → Результат</h2>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #e53935;">
@@ -306,7 +306,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-comparison">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">PixInLink vs Vercel OG vs Cloudinary vs Bannerbear</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">PixInLink vs Vercel OG vs Cloudinary vs Bannerbear</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight m-0">
@@ -386,7 +386,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-stats">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Данные: зачем og:image важен</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Данные: зачем og:image важен</h2>
       <ol class="body-1 mb-5" style="line-height:2.0;padding-left:20px;">
         <li>Open Graph считает <code>og:image</code> базовым свойством объекта, поддерживая <code>og:image:width</code>, <code>og:image:height</code> и <code>og:image:alt</code></li>
         <li>Facebook рекомендует задавать ширину изображения не менее 600 пикселей и тестировать результат через <strong>Sharing Debugger</strong></li>
@@ -401,7 +401,7 @@ schema_type: "WebPage"
 <div class="container" id="open-graph-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как настроить автоматические og:image за 15 минут</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Как настроить автоматические og:image за 15 минут</h2>
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <div class="d-flex align-items-center mb-2">
@@ -542,7 +542,7 @@ og_image = (
 <div class="container" id="open-graph-roadmap">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Roadmap: что появится в og:image генерации</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Roadmap: что появится в og:image генерации</h2>
       <div class="card paper pa-0 mb-5 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -567,7 +567,7 @@ og_image = (
 <div class="container" id="open-graph-cases">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Кейсы внедрения</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Кейсы внедрения</h2>
       <!-- Кейс 1: Новостной портал -->
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #e53935;">
         <div class="d-flex align-items-start mb-2">
@@ -653,7 +653,7 @@ og_image = (
 <div class="container" id="open-graph-examples">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Примеры og:image URL по типам сайтов</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Примеры og:image URL по типам сайтов</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -687,7 +687,7 @@ og_image = (
 <div class="container" id="open-graph-troubleshooting">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Что делать, если og:image не отображается</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Что делать, если og:image не отображается</h2>
       <div class="card paper pa-4 mb-5" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
         <ol class="body-1 mb-0" style="line-height:2.0;padding-left:20px;">
           <li><strong>Проверьте серверный рендер</strong> — краулеры читают HTML-мета-теги. Если OG-теги добавляются только через JavaScript, краулер их не увидит</li>
@@ -704,7 +704,7 @@ og_image = (
 <div class="container" id="open-graph-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что такое og:image и зачем он нужен?</h4>
@@ -754,7 +754,7 @@ og_image = (
 <div class="container" id="open-graph-reviews">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Что говорят разработчики и SEO-специалисты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Что говорят разработчики и SEO-специалисты</h2>
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:3px solid #e0e0e0;">
@@ -788,7 +788,7 @@ og_image = (
 <div class="container" id="open-graph-calculator">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Сколько генераций og:image нужно вашему сайту?</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Сколько генераций og:image нужно вашему сайту?</h2>
       <div class="card paper pa-4 mb-5" style="background:#f8f9fa;border-radius:12px;border:1px solid #e0e0e0;">
         <p class="body-2 text-muted mb-3">Логика: генерация происходит по мере реальных репостов, а не сразу для всего архива</p>
         <div class="card paper pa-0 overflow-hidden">
@@ -818,7 +818,7 @@ og_image = (
 <div class="container" id="open-graph-trust">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Надёжность и авторство</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Надёжность и авторство</h2>
       <div class="card paper pa-4 mb-3" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
         <ul class="body-1 mb-0" style="line-height:2.0;list-style:none;padding:0;">
           <li class="mb-1 d-flex"><i class="material-icons mr-2 text-primary" style="font-size:20px;">verified</i>Технические примеры проверены на WordPress 6.5, Next.js 14, Hugo 0.124 и Django</li>
@@ -843,7 +843,7 @@ og_image = (
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">
+        <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">
           Попробовать og:image — 50 генераций бесплатно
         </h3>
         <p class="body-1 text-muted mb-4">Интеграция за 15 минут. Без регистрации для первого теста.</p>

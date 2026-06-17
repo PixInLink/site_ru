@@ -81,7 +81,7 @@ schema_type: "WebPage"
 <div class="container" id="wp-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #1976d2;">
@@ -139,7 +139,7 @@ schema_type: "WebPage"
 <div class="container" id="wp-definition">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Что такое featured image в WordPress</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Что такое featured image в WordPress</h2>
       <div class="card paper pa-4 mb-5" style="background:#fafafa;border-left:4px solid #9e9e9e;">
         <p class="body-1 m-0" style="line-height:1.85;">
           <strong>Featured image</strong> (миниатюра записи) — главное изображение поста, которое выводится в начале статьи,
@@ -155,7 +155,7 @@ schema_type: "WebPage"
 <div class="container" id="wp-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Почему 80% постов без изображений?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Почему 80% постов без изображений?</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         Каждый WordPress-блогер сталкивается с одной и той же проблемой: вы публикуете 20 постов в месяц,
         и каждому нужен featured image. Варианты, доступные сейчас, отнимают время или деньги:
@@ -173,7 +173,7 @@ schema_type: "WebPage"
 <div class="container" id="wp-snippet">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как автоматически добавить featured image в WordPress через PixInLink?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как автоматически добавить featured image в WordPress через PixInLink?</h2>
       <div class="card paper pa-4 mb-3" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:10px;">
         <p class="body-1 mb-3" style="line-height:1.75;">
           Добавьте фильтр в <code>functions.php</code> вашей child theme — featured image будет генерироваться
@@ -230,7 +230,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 <div class="container" id="wp-compatibility">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Совместимость с WordPress-экосистемой</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Совместимость с WordPress-экосистемой</h2>
       <!-- Таблица 1: Совместимость -->
       <h3 class="headline mb-3" style="font-size:18px;font-weight:700;">Поддерживаемые компоненты</h3>
       <div class="card paper pa-0 mb-4 overflow-hidden">
@@ -317,7 +317,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 <div class="container" id="wp-compare">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">PixInLink vs другие способы добавить изображения</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">PixInLink vs другие способы добавить изображения</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -400,7 +400,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 <div class="container" id="wp-stats">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Данные и исследования</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Данные и исследования</h2>
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #1976d2;">
@@ -438,7 +438,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 <div class="container" id="wp-architecture">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как это работает: архитектура</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Как это работает: архитектура</h2>
       <div class="row mb-5">
         <!-- Без плагина -->
         <div class="col-md-6 mb-3">
@@ -482,7 +482,7 @@ add_filter(<span style="color:#ce9178;">'post_thumbnail_html'</span>, <span styl
 <div class="container" id="wp-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как интегрировать PixInLink в WordPress — 8 шагов</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Как интегрировать PixInLink в WordPress — 8 шагов</h2>
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #3949ab;">
         <div class="d-flex align-items-center mb-2">
@@ -662,7 +662,7 @@ $url = <span style="color:#ce9178;">"https://pixinlink.ru/api/v1/1200x630/{$titl
 <div class="container" id="wp-snippets">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-2" style="font-size:24px;font-weight:700;">Готовые сниппеты — скопируйте и вставьте</h2>
+      <h2 class="display-1 mb-2" style="font-size:24px;font-weight:700;">Готовые сниппеты — скопируйте и вставьте</h2>
       <p class="body-1 text-muted mb-4">Всегда используйте <strong>child theme</strong>. Перед работой проверьте параметры в <a href="/features/url-api">URL API документации</a>.</p>
       <div class="row">
         <!-- Сниппет 1 -->

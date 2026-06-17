@@ -63,7 +63,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #43a047;">
@@ -97,7 +97,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Почему PNG «убивает» PageSpeed</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Почему PNG «убивает» PageSpeed</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         Google PageSpeed Insights жестко пессимизирует страницы за устаревшие форматы графики. Аудит
         <strong>«Serve images in next-gen formats»</strong> требует отдавать пользователям WebP или AVIF.
@@ -123,7 +123,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-formats">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Три формата — когда что использовать</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Три формата — когда что использовать</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -164,7 +164,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-code">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Примеры использования</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Примеры использования</h2>
       <div class="card paper pa-4 mb-4" style="border-left:4px solid #3949ab;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Базовый сценарий</h4>
         <p class="body-2 mb-2">Ничего указывать не нужно, сервер вернёт <strong>WebP</strong>.</p>
@@ -213,7 +213,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-pipeline">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Что происходит внутри: от генерации до WebP</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Что происходит внутри: от генерации до WebP</h2>
       <div class="card paper pa-4 mb-5" style="border:1px solid #e0e0e0;border-radius:10px;">
         <ol class="body-1 m-0" style="line-height:1.9;padding-left:20px;">
           <li class="mb-2"><strong>Генерация:</strong> Kandinsky 3.1 или FLUX.1 генерирует изображение в формате PNG (сырой вывод AI-модели).</li>
@@ -234,7 +234,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-cwv">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Как WebP влияет на Core Web Vitals</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Как WebP влияет на Core Web Vitals</h2>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #43a047;">
@@ -262,7 +262,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-compare">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Сравнение: PixInLink vs ручная конвертация</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Сравнение: PixInLink vs ручная конвертация</h2>
       <div class="card paper pa-0 mb-5 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -316,7 +316,7 @@ schema_type: "WebPage"
 <div class="container" id="webp-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-5">
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">WebP отдаётся автоматически или нужно что-то указывать?</h4>
@@ -346,7 +346,7 @@ schema_type: "WebPage"
 <div class="container" id="test-difference">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Проверьте разницу прямо сейчас</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Проверьте разницу прямо сейчас</h2>
       <div class="card paper pa-5 mb-5" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:10px;">
         <p class="body-1 mb-4" style="line-height:1.75;">
           Откройте эти два URL в браузере и сравните размер загруженного файла во вкладке <strong>Network</strong>
@@ -382,7 +382,7 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8eaf6 0%,#e3f2fd 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Ускорьте свой сайт сегодня</h3>
+        <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">Ускорьте свой сайт сегодня</h3>
         <p class="body-1 text-muted mb-4">Начните генерировать WebP-изображения из URL без сложных плагинов.</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
           <a href="https://pixinlink.ru/docs/getting-started/" class="btn-flat btn-rounded"

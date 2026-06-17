@@ -38,7 +38,7 @@ schema_type: "WebPage"
   <div class="container" id="docs-intro">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        <h3 class="display-2 mb-3 mt-4" style="font-size: 24px; font-weight: 700;">Почему PixInLink меняет правила игры</h3>
+        <h3 class="display-1 mb-3 mt-4" style="font-size: 24px; font-weight: 700;">Почему PixInLink меняет правила игры</h3>
         <p class="body-1 mb-4" style="line-height: 1.8;">
           Обычно создание иллюстрации для блога — это процесс из 5 шагов: открыть Canva, создать дизайн, скачать файл, загрузить на сервер, вставить на страницу. Это занимает 10–15 минут. С <strong>PixInLink</strong> вы просто пишете URL прямо в атрибут <code>src</code> тега картинки — это занимает 60 секунд. 
         </p>
@@ -57,7 +57,7 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
-        <h3 class="display-2 mb-3" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
+        <h3 class="display-1 mb-3" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 50 генераций/мес бесплатно (с водяным знаком).</li>
           <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Русский язык:</strong> Нативно поддерживается (встроенный переводчик и Kandinsky).</li>
@@ -71,7 +71,7 @@ schema_type: "WebPage"
   <div class="container" id="docs-step-by-step">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        <h3 class="display-2 mb-4 mt-4" style="font-size: 24px; font-weight: 700;">Пошаговая инструкция (Первый запрос)</h3>
+        <h3 class="display-1 mb-4 mt-4" style="font-size: 24px; font-weight: 700;">Пошаговая инструкция (Первый запрос)</h3>
         <div class="card paper pa-4 mb-3" style="border-left: 4px solid #2196F3;">
           <h5 class="headline mb-2">Шаг 1: Откройте браузер (0–5 сек)</h5>
           <p class="body-2 mb-2">Вставьте в адресную строку следующую ссылку и нажмите Enter:</p>
@@ -94,7 +94,7 @@ schema_type: "WebPage"
           <p class="body-2 mb-0">Чтобы при очистке кеша картинка не сгенерировалась заново, добавьте параметр <code>&amp;seed=12345</code> (любое число). Это гарантирует, что изображение навсегда останется неизменным.</p>
         </div>
         <!-- Жизненный цикл (Архитектура) -->
-        <h3 class="display-2 mb-3 mt-5" style="font-size: 20px; font-weight: 700;">Как это работает под капотом (Жизненный цикл)</h3>
+        <h3 class="display-1 mb-3 mt-5" style="font-size: 20px; font-weight: 700;">Как это работает под капотом (Жизненный цикл)</h3>
         <div class="card paper pa-3 text-left mb-5" style="background: #1e1e1e; border-radius: 8px;">
           <pre style="margin: 0; white-space: pre-wrap; font-family: monospace; color: #ce9178; font-size: 13px; line-height: 1.5;">Браузер &rarr; запрашивает img src=pixinlink.ru/...
   &rarr; <span style="color: #569cd6;">PixInLink:</span> проверка CDN-кэша
@@ -223,7 +223,7 @@ register = template.Library()
   <div class="faq-style page-section mb-5 mt-5" id="faq">
     <div class="root">
       <div class="container max-md">
-        <h3 class="display-2 mb-4 text-center" style="font-size: 24px; font-weight: 700;">Частые вопросы</h3>
+        <h3 class="display-1 mb-4 text-center" style="font-size: 24px; font-weight: 700;">Частые вопросы</h3>
         <div class="accordion">
           <ul class="collapsible">
             <li class="accordion-content paper active">
@@ -278,7 +278,7 @@ register = template.Library()
   <div class="container mb-5" id="cta-block">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1 text-center">
-        <h3 class="display-2 mb-4" style="font-size: 24px; font-weight: 700;">Что дальше?</h3>
+        <h3 class="display-1 mb-4" style="font-size: 24px; font-weight: 700;">Что дальше?</h3>
         <div class="row text-left mb-4">
           <div class="col-md-6 mb-3">
             <div class="card paper pa-4" style="border: 1px solid #2196F3; height: 100%;">

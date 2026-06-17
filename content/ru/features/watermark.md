@@ -44,7 +44,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-why">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Зачем вообще водяной знак</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Зачем вообще водяной знак</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         На Free-тарифе PixInLink полностью берет на себя все инфраструктурные расходы: оплату вызовов Kandinsky API, аренду GPU, обработку через Image Processor, загрузку в S3 и глобальную CDN-доставку. Водяной знак — это наш способ обозначить авторство ресурса и мотивировать коммерческие проекты переходить на платную модель.
       </p>
@@ -60,7 +60,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-pricing">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Watermark по тарифам</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Watermark по тарифам</h2>
       <div class="card paper pa-0 mb-3 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -102,7 +102,7 @@ schema_type: "WebPage"
       </div>
       <p class="body-2 text-muted mb-5">Подробнее о квотах каждого тарифа → <a href="https://pixinlink.ru/pricing/">/pricing</a></p>
 <!-- ВНЕШНИЙ ВИД И ПРИМЕРЫ -->
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как выглядит водяной знак</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как выглядит водяной знак</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         Текст «PixInLink.com» всегда расположен в правом нижнем углу, отступ составляет ~5% от краев. Используется белый шрифт Arial, полупрозрачность (opacity) 50% и черная тень 1px для читаемости на любом фоне. Размер шрифта масштабируется: на картинке 800px высота текста составит ~20px. Рендеринг идёт с antialiasing.
       </p>
@@ -140,7 +140,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-howto">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Пошагово: как убрать водяной знак</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Пошагово: как убрать водяной знак</h2>
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #1976d2;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Шаг 1. Перейди на страницу тарифов</h4>
         <p class="body-2 m-0">Открой <a href="https://pixinlink.ru/pricing/">/pricing</a> и выбери тариф Starter (490 руб/мес) или выше.</p>
@@ -172,7 +172,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-technical">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Почему watermark нельзя убрать через CSS или DevTools</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Почему watermark нельзя убрать через CSS или DevTools</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">Не тратьте время на попытки обойти систему на бесплатном тарифе. Вот факты:</p>
       <div class="row mb-5">
         <div class="col-md-4 mb-3">
@@ -201,7 +201,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-business">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Кастомный watermark для бизнеса</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Кастомный watermark для бизнеса</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         На тарифе <strong>Business (4 990 руб/мес)</strong> вместо «PixInLink.com» вы можете установить свой текст: название компании, доменное имя или copyright. Максимум 50 символов (например: «© МояКомпания», «mysite.ru»).
       </p>
@@ -222,7 +222,7 @@ schema_type: "WebPage"
 <div class="container" id="watermark-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="mb-5">
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Я оплатил Starter, но watermark всё ещё есть. Что делать?</h4>
@@ -257,7 +257,7 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8f5e9 0%,#e3f2fd 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">Водяной знак отсутствует на всех тарифах</h3>
+        <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">Водяной знак отсутствует на всех тарифах</h3>
           <p class="body-1 text-muted mb-4">Starter: 300 ₽/мес, 50 изображений. Business: кастомный логотип. Отмена в любой момент.</p>
           <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
             <a href="https://app.pixinlink.ru/register?plan=starter" class="btn-flat btn-rounded"

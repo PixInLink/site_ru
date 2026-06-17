@@ -70,7 +70,7 @@ schema_type: "WebPage"
 <div class="container" id="how-ai-works-keyfacts">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые факты</h2>
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #3949ab;">
@@ -128,7 +128,7 @@ schema_type: "WebPage"
 <div class="container" id="how-ai-works-definitions">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Ключевые понятия</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Ключевые понятия</h2>
       <div class="row mb-5">
         <div class="col-md-6 mb-3">
           <div class="card paper pa-4" style="height:100%;border-left:4px solid #3949ab;">
@@ -174,7 +174,7 @@ schema_type: "WebPage"
 <div class="container" id="how-ai-works-intro">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как работает «магия»?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как работает «магия»?</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         Вы вставляете URL в HTML, а браузер получает уникальное изображение. Откуда оно берётся?
         <strong>Это не стоковое фото.</strong> Это не шаблон из базы данных.
@@ -199,7 +199,7 @@ schema_type: "WebPage"
 <div class="container" id="how-ai-works-snippet">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-3" style="font-size:24px;font-weight:700;">Как PixInLink генерирует изображения из URL?</h2>
+      <h2 class="display-1 mb-3" style="font-size:24px;font-weight:700;">Как PixInLink генерирует изображения из URL?</h2>
       <div class="card paper pa-4 mb-5" style="background:#f3f8ff;border:1px solid #bbdefb;border-radius:10px;">
         <p class="body-1 m-0" style="line-height:1.85;">
           PixInLink принимает URL вида <code>pixinlink.ru/800x400/офис-разработчиков</code>,
@@ -219,7 +219,7 @@ schema_type: "WebPage"
 <div class="container" id="how-ai-works-pipeline">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">10 шагов от URL до изображения: полный пайплайн</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">10 шагов от URL до изображения: полный пайплайн</h2>
       <!-- Шаг 1 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #3949ab;">
         <div class="d-flex align-items-center mb-2">
@@ -421,7 +421,7 @@ Durability: 99.999999999%</pre>
 <div class="container" id="how-ai-works-cache">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Почему первый запрос медленный, а повторный мгновенный?</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Почему первый запрос медленный, а повторный мгновенный?</h2>
       <div class="card paper pa-4 mb-4" style="background:#fff8e1;border-left:4px solid #ffb300;">
         <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">🎂 Аналогия: кондитерская</h4>
         <p class="body-1 m-0" style="line-height:1.85;">
@@ -462,7 +462,7 @@ Durability: 99.999999999%</pre>
 <div class="container" id="how-ai-works-uniqueness">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Гарантия уникальности: это не стоковые фото</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Гарантия уникальности: это не стоковые фото</h2>
       <p class="body-1 mb-4" style="line-height:1.85;">
         Каждое изображение — новая нейросетевая генерация. Kandinsky 3.1 — диффузионная модель:
         она не хранит готовые фотографии, а создаёт изображения из случайного шума,
@@ -491,7 +491,7 @@ Durability: 99.999999999%</pre>
 <div class="container" id="how-ai-works-fallback">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Надёжность: что происходит, если AI недоступен?</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Надёжность: что происходит, если AI недоступен?</h2>
       <div class="row mb-4">
         <div class="col-md-4 mb-3">
           <div class="card paper pa-4" style="height:100%;border-top:4px solid #3949ab;text-align:center;">
@@ -545,7 +545,7 @@ Durability: 99.999999999%</pre>
 <div class="container" id="how-ai-works-152fz">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Российская инфраструктура: соответствие 152-ФЗ</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Российская инфраструктура: соответствие 152-ФЗ</h2>
       <div class="card paper pa-0 mb-4 overflow-hidden">
         <div class="table-responsive">
           <table class="highlight striped m-0">
@@ -578,7 +578,7 @@ Durability: 99.999999999%</pre>
 <div class="container" id="how-ai-works-seed">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Seed: воспроизводимые изображения для og:image</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Seed: воспроизводимые изображения для og:image</h2>
       <p class="body-1 mb-3" style="line-height:1.85;">
         <strong>Seed</strong> — это «рецепт» изображения. Добавьте <code>&seed=42</code> в URL — и PixInLink
         всегда нарисует одно и то же изображение для одного промпта. Без seed — каждый раз разное.
@@ -626,7 +626,7 @@ seed = crc32(slug) % 2147483647
 <div class="container" id="how-ai-works-faq">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
       <div class="faq-list mb-5">
         <div class="card paper pa-4 mb-3">
           <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему первое изображение генерируется медленнее?</h4>
@@ -668,7 +668,7 @@ seed = crc32(slug) % 2147483647
 <div class="container" id="how-ai-works-eeaat">
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
-      <h2 class="display-2 mb-4" style="font-size:24px;font-weight:700;">Об этом материале</h2>
+      <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Об этом материале</h2>
       <div class="card paper pa-4 mb-5" style="background:#fafafa;border:1px solid #e0e0e0;border-radius:8px;">
         <p class="body-1 mb-3" style="line-height:1.85;">
           Архитектура PixInLink разработана командой с опытом в SaaS, distributed systems и computer vision.
@@ -690,7 +690,7 @@ seed = crc32(slug) % 2147483647
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e8eaf6 0%,#e3f2fd 100%);border-radius:16px;">
-        <h3 class="display-2 mb-3" style="font-size:26px;font-weight:700;">
+        <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">
           Попробуйте пайплайн в действии
         </h3>
         <p class="body-1 text-muted mb-4">Первые 50 генераций бесплатно. Без регистрации и кредитной карты.</p>
