@@ -159,8 +159,8 @@ raw_html: true
             <span class="body-2 text-muted">Привязка домена — автоматически без знака</span>
           </li>
           <li class="mb-3">
-            <a href="/docs/getting-started/" class="primary-text"><strong>FAQ</strong></a><br>
-            <span class="body-2 text-muted">30 вопросов: генерация, оплата, WP</span>
+            <a href="/docs/faq/" class="primary-text"><strong>FAQ</strong></a><br>
+            <span class="body-2 text-muted">43 ответа на вопросы: генерация, оплата, WP</span>
           </li>
         </ul>
       </div>

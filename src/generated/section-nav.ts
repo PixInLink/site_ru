@@ -17,6 +17,7 @@ export const sectionNav = {
     "titleRu": "Документация",
     "titleEn": "Documentation",
     "articles": {
+      "docs/faq": "FAQ PixInLink — ответы на частые вопросы",
       "docs/getting-started": "Первое AI-изображение за 60 секунд"
     }
   },

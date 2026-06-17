@@ -53,6 +53,13 @@ export const siteTree = {
           "path": "content/ru/docs/index.md"
         },
         {
+          "slug": "docs/faq",
+          "title": "FAQ PixInLink — ответы на частые вопросы",
+          "description": "Частые вопросы о PixInLink: регистрация, водяной знак, тарифы, промпты, URL API, WordPress и CMS, квоты и ошибки. 43 ответа в 6 разделах.",
+          "isIndex": false,
+          "path": "content/ru/docs/faq.md"
+        },
+        {
           "slug": "docs/getting-started",
           "title": "Первое AI-изображение за 60 секунд",
           "description": "Без регистрации, без установки библиотек. Просто вставьте URL в тег img.",
