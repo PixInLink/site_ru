@@ -43,7 +43,7 @@ raw_html: true
 
 <!-- ##### ПЛАГИНЫ CMS #####-->
 <div class="container page-section space-top-short" id="cms-plugins" style="margin-top: 40px;">
-  <div class="row mb-5">
+  <div class="row mb-5" style="padding-top: 40px;">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">Плагины для CMS</h3>
       <p class="use-text-subtitle2">Готовые решения для популярных платформ — установка в один клик</p>
