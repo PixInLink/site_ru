@@ -47,8 +47,8 @@ export const siteTree = {
       "pages": [
         {
           "slug": "docs",
-          "title": "Документация PixInLink",
-          "description": "Справочник по URL API, интеграциям, оплате и настройке PixInLink",
+          "title": "Документация PixInLink — URL API, интеграции, тарифы",
+          "description": "Справочник по URL API PixInLink: структура ссылки, параметры, размеры, форматы. Быстрый старт, интеграции с WordPress и MODX, SDK для Python и JavaScript.",
           "isIndex": true,
           "path": "content/ru/docs/index.md"
         },
@@ -118,8 +118,8 @@ export const siteTree = {
       "pages": [
         {
           "slug": "integrations",
-          "title": "Интеграции PixInLink: подключи к своему стеку",
-          "description": "PixInLink — интеграции с WordPress, ModX, Ghost, Zapier, Python, JavaScript, PHP. Плагины, SDK и REST API для любой платформы.",
+          "title": "Интеграции PixInLink: WordPress, MODX, SDK, REST API",
+          "description": "Подключите PixInLink к вашему сайту или приложению. Готовые плагины для WordPress и MODX, SDK для Python и JavaScript, REST API и прямая вставка через URL без кода.",
           "isIndex": true,
           "path": "content/ru/integrations/index.md"
         },

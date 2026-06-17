@@ -35,12 +35,12 @@ schema_type: "WebPage"
         </p>
       </div>
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
-        <a href="https://pixinlink.ru/docs/getting-started/" class="btn-flat btn-rounded"
-           style="background:#3949ab;color:#fff;padding:10px 24px;font-weight:600;">
+        <a href="https://pixinlink.ru/docs/getting-started/" class="btn primary waves-effect"
+           style="padding:10px 24px;font-weight:600;border-radius:8px;">
           Начать за 60 секунд
         </a>
-        <a href="https://pixinlink.ru/features/url-api/" class="btn-flat btn-rounded"
-           style="background:#e8eaf6;color:#3949ab;padding:10px 24px;">
+        <a href="https://pixinlink.ru/features/url-api/" class="btn btn-outlined primary waves-effect"
+           style="padding:10px 24px;border-radius:8px;">
           Документация URL API →
         </a>
       </div>
@@ -695,12 +695,12 @@ seed = crc32(slug) % 2147483647
         </h3>
         <p class="body-1 text-muted mb-4">Первые 50 генераций бесплатно. Без регистрации и кредитной карты.</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
-          <a href="https://pixinlink.ru/docs/getting-started/" class="btn-flat btn-rounded"
-             style="background:#3949ab;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="https://pixinlink.ru/docs/getting-started/" class="btn primary waves-effect"
+             style="padding:12px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Начать за 60 секунд
           </a>
-          <a href="https://pixinlink.ru/pricing/" class="btn-flat btn-rounded"
-             style="background:#43a047;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="https://pixinlink.ru/pricing/" class="btn secondary waves-effect"
+             style="padding:12px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Starter — 490 ₽/мес
           </a>
         </div>
