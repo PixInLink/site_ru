@@ -34,6 +34,7 @@ defineProps<{
 
 .breadcrumb {
   font-size: 14px;
+  color: #000000;
 }
 
 .breadcrumb a {
