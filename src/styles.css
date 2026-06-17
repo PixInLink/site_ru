@@ -21,8 +21,19 @@ a {
 
 .page {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1140px;
   padding: 40px 20px 64px;
+}
+
+/* ── Responsive container ── */
+@media (max-width: 1199px) {
+  .page { max-width: 960px; }
+}
+@media (max-width: 991px) {
+  .page { max-width: 720px; }
+}
+@media (max-width: 767px) {
+  .page { max-width: 540px; padding: 24px 16px 40px; }
 }
 
 .site-header {
