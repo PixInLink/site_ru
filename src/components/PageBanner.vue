@@ -24,6 +24,7 @@ defineProps<{
   background: #19202a;
   color: #ffffff;
   padding: 32px 0;
+  padding-top: calc(32px + 64px);
 }
 
 .page-banner h1 {
