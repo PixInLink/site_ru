@@ -21,8 +21,8 @@ defineProps<{
 
 <style scoped>
 .page-banner {
-  background: #19202a;
-  color: #ffffff;
+  background: #e3f2fd;
+  color: #000000;
   padding: 32px 0;
   padding-top: calc(32px + 64px);
 }
@@ -37,12 +37,12 @@ defineProps<{
 }
 
 .breadcrumb a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.65);
   text-decoration: none;
 }
 
 .breadcrumb a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .separator {
