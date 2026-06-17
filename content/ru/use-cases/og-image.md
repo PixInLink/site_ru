@@ -34,18 +34,18 @@ schema_type: "WebPage"
         <div class="pa-3 mt-2" style="background:#1e1e1e;border-radius:8px;">
           <code style="color:#a5d6a7;font-size:13px;">
             &lt;meta property="og:image"
-              content="https://pixinlink.ru/api/v1/1200x630/как-приготовить-тирамису"&gt;
+              content="https://pixinlink.ru/1200x630/как-приготовить-тирамису"&gt;
           </code>
         </div>
       </div>
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
         <a href="/docs/getting-started" class="btn primary waves-effect"
            style="padding:2px 24px;font-weight:600;border-radius:8px;">
-          Попробовать бесплатно — 50 генераций
+          Попробовать бесплатно — 12 генераций
         </a>
         <a href="/pricing/starter" class="btn primary waves-effect"
            style="background:#e3f2fd;color:#1976d2;padding:2px 24px;">
-          Starter — 490 ₽/мес
+          Starter — 300 ₽/мес
         </a>
       </div>
     </div>
@@ -62,7 +62,7 @@ schema_type: "WebPage"
           уникальное AI-изображение при репосте в соцсети. Работает с <strong>WordPress, Next.js, Hugo,
           Django</strong> и обычным HTML. Первый запрос создаёт изображение, затем
           <strong>CDN-кеш хранит его 1 год</strong>.
-          Для продакшна достаточно <strong>Starter за 490 ₽/мес</strong> без водяного знака.
+          Для продакшна достаточно <strong>Starter за 300 ₽/мес</strong> без водяного знака.
         </p>
       </div>
     </div>
@@ -89,7 +89,7 @@ schema_type: "WebPage"
         <div class="col-md-6 col-lg-3 mb-3">
           <div class="card paper pa-4 text-center" style="height:100%;border-top:4px solid #fb8c00;">
             <div style="font-size:28px;font-weight:700;color:#fb8c00;">500</div>
-            <p class="body-2 text-muted mb-0">страниц сайта — 500 уникальных og:image без ручной подготовки</p>
+            <p class="body-2 text-muted mb-0">страниц сайта — 50 уникальных og:image без ручной подготовки</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-3">
@@ -171,7 +171,7 @@ schema_type: "WebPage"
       </p>
       <div class="card paper pa-3 mb-4" style="background:#1e1e1e;border-radius:8px;">
         <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;">&lt;meta property="og:image"
-  content="https://pixinlink.ru/api/v1/1200x630/название-вашей-страницы"&gt;
+  content="https://pixinlink.ru/1200x630/название-вашей-страницы"&gt;
 &lt;meta property="og:image:width" content="1200"&gt;
 &lt;meta property="og:image:height" content="630"&gt;
 &lt;meta property="og:image:alt" content="Описание изображения"&gt;</pre>
@@ -283,11 +283,11 @@ schema_type: "WebPage"
               <tr><th>Параметр</th><th>Значение</th><th>Пример</th><th>Когда использовать</th></tr>
             </thead>
             <tbody class="body-2">
-              <tr><td><code>размер</code></td><td>1200x630</td><td><code>/api/v1/1200x630/новость-дня</code></td><td>Универсально для большинства соцсетей</td></tr>
-              <tr><td><code>style</code></td><td>realistic, artistic, 3d-render, sketch</td><td><code>?style=realistic</code></td><td>Подобрать визуал под тип контента</td></tr>
+              <tr><td><code>размер</code></td><td>1200x630</td><td><code>/1200x630/новость-дня</code></td><td>Универсально для большинства соцсетей</td></tr>
+              <tr><td><code>style</code></td><td>realistic, artistic, 3d, minimal</td><td><code>?style=realistic</code></td><td>Подобрать визуал под тип контента</td></tr>
               <tr><td><code>seed</code></td><td>Число или хеш</td><td><code>?seed=1257</code></td><td>Фиксировать изображение между запросами</td></tr>
-              <tr><td><code>watermark</code></td><td>false (Starter+)</td><td><code>?watermark=false</code></td><td>Продакшн без водяного знака</td></tr>
-              <tr><td><code>format</code></td><td>webp / jpeg</td><td><code>?format=webp</code></td><td>Оптимизировать вес и совместимость</td></tr>
+              <tr>
+              <tr>
             </tbody>
           </table>
         </div>
@@ -324,7 +324,7 @@ schema_type: "WebPage"
                 <td><strong>PixInLink</strong></td>
                 <td style="background:#e8f5e9;font-weight:700;color:#2e7d32;">Высокая</td>
                 <td>Высокая</td>
-                <td style="color:#2e7d32;font-weight:700;">Низкая (490 ₽)</td>
+                <td style="color:#2e7d32;font-weight:700;">Низкая (300 ₽)</td>
                 <td style="color:#2e7d32;font-weight:700;">Низкая</td>
               </tr>
               <tr>
@@ -416,7 +416,7 @@ schema_type: "WebPage"
           <div style="background:#43a047;color:#fff;font-weight:700;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:10px;flex-shrink:0;">2</div>
           <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Выберите тариф</h4>
         </div>
-        <p class="body-2 mb-0"><strong>Free</strong>: 50 генераций/мес, с водяным знаком — для теста. <strong>Starter</strong>: 490 ₽/мес, без водяного знака — для продакшна.</p>
+        <p class="body-2 mb-0"><strong>Free</strong>: 12 генераций/мес, с водяным знаком — для теста. <strong>Starter</strong>: 300 ₽/мес, без водяного знака — для продакшна.</p>
       </div>
       <!-- Шаг 3 -->
       <div class="card paper pa-4 mb-3" style="border-left:4px solid #fb8c00;">
@@ -425,7 +425,7 @@ schema_type: "WebPage"
           <h4 class="headline mb-0" style="font-size:15px;font-weight:700;">Сформируйте базовый URL-шаблон</h4>
         </div>
         <div class="pa-2 mt-2" style="background:#1e1e1e;border-radius:6px;">
-          <code style="color:#a5d6a7;font-size:12px;">https://pixinlink.ru/api/v1/1200x630/{ПРОМПТ}</code>
+          <code style="color:#a5d6a7;font-size:12px;">https://pixinlink.ru/1200x630/{ПРОМПТ}</code>
         </div>
         <p class="body-2 mt-2 mb-0">Промпт = slug страницы, тема статьи, товарный title или очищенный H1.</p>
       </div>
@@ -449,7 +449,7 @@ schema_type: "WebPage"
             <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;"><span style="color:#608b4e;">// Подставляем URL og:image из заголовка поста</span>
 add_filter('wpseo_opengraph_image', function($img) {
   $title = sanitize_title(get_the_title());
-  return "https://pixinlink.ru/api/v1/1200x630/{$title}";
+  return "https://pixinlink.ru/1200x630/{$title}";
 });</pre>
           </div>
         </div>
@@ -464,7 +464,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title,
       images: [
-        `https://pixinlink.ru/api/v1/1200x630/${encodeURIComponent(title)}?seed=42`
+        `https://pixinlink.ru/1200x630/${encodeURIComponent(title)}?seed=42`
       ],
     },
   };
@@ -477,7 +477,7 @@ export async function generateMetadata({ params }) {
           <div class="pa-3" style="background:#1e1e1e;border-radius:8px;">
             <pre style="color:#ce9178;font-size:13px;margin:0;white-space:pre-wrap;"><span style="color:#608b4e;">&lt;!-- Формируем og:image из заголовка страницы --&gt;</span>
 &lt;meta property="og:image"
-  content="https://pixinlink.ru/api/v1/1200x630/{{ .Title | urlize }}"&gt;
+  content="https://pixinlink.ru/1200x630/{{ .Title | urlize }}"&gt;
 &lt;meta property="og:image:width" content="1200"&gt;
 &lt;meta property="og:image:height" content="630"&gt;
 &lt;meta property="og:image:alt" content="{{ .Title }}"&gt;</pre>
@@ -490,7 +490,7 @@ export async function generateMetadata({ params }) {
             <pre style="color:#9cdcfe;font-size:13px;margin:0;white-space:pre-wrap;"><span style="color:#608b4e;"># Создаём стабильный URL og:image из title страницы</span>
 from django.utils.text import slugify
 og_image = (
-  f"https://pixinlink.ru/api/v1/1200x630/{slugify(post.title)}"
+  f"https://pixinlink.ru/1200x630/{slugify(post.title)}"
   f"?seed={post.id}"
 )
 <span style="color:#608b4e;"># В шаблоне Django:</span>
@@ -588,11 +588,11 @@ og_image = (
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
-            <p class="body-2 mb-0">Весь архив получил уникальные карточки. <strong>CTR репостов +47%</strong> по внутренней аналитике.</p>
+            <p class="body-2 mb-0">Весь архив получил уникальные карточки. <strong>CTR репостов улучшился (внутренняя аналитика)</strong> по внутренней аналитике.</p>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;">pixinlink.ru/api/v1/1200x630/открытие-новой-больницы-в-самаре</code>
+          <code style="font-size:12px;">pixinlink.ru/1200x630/открытие-новой-больницы-в-самаре</code>
         </div>
       </div>
       <!-- Кейс 2: SaaS-стартап -->
@@ -615,11 +615,11 @@ og_image = (
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
-            <p class="body-2 mb-0">Документация выглядит аккуратно в Telegram и LinkedIn. <strong>Конверсия из Telegram +23%</strong>.</p>
+            <p class="body-2 mb-0">Документация выглядит аккуратно в Telegram и LinkedIn. <strong>Конверсия из Telegram улучшилась (внутренняя аналитика)</strong>.</p>
           </div>
         </div>
         <div class="mt-3 pa-2" style="background:#f5f5f5;border-radius:6px;">
-          <code style="font-size:12px;">`https://pixinlink.ru/api/v1/1200x630/${encodeURIComponent(title)}?seed=42`</code>
+          <code style="font-size:12px;">`https://pixinlink.ru/1200x630/${encodeURIComponent(title)}?seed=42`</code>
         </div>
       </div>
       <!-- Кейс 3: Интернет-магазин -->
@@ -642,7 +642,7 @@ og_image = (
           </div>
           <div class="col-md-4">
             <p class="body-2 text-muted mb-1"><strong>Результат</strong></p>
-            <p class="body-2 mb-0">Клики из ВКонтакте <strong>×2.1</strong>. Тариф окупился за <strong>3 недели</strong>.</p>
+            <p class="body-2 mb-0">Клики из ВКонтакте <strong>увеличились (внутренняя аналитика)</strong>. Тариф окупился за <strong>3 недели</strong>.</p>
           </div>
         </div>
       </div>
@@ -663,11 +663,11 @@ og_image = (
             <tbody class="body-2">
               <tr><td><strong>Новостной портал</strong></td><td>Заголовок новости</td><td><code style="font-size:11px;">.../1200x630/пожар-склад-москва</code></td><td>realistic</td></tr>
               <tr><td><strong>IT-блог</strong></td><td>Тема статьи</td><td><code style="font-size:11px;">.../1200x630/docker-контейнеры-деплой</code></td><td>artistic</td></tr>
-              <tr><td><strong>Интернет-магазин</strong></td><td>Название товара</td><td><code style="font-size:11px;">.../1200x630/диван-угловой-серый</code></td><td>3d-render</td></tr>
+              <tr><td><strong>Интернет-магазин</strong></td><td>Название товара</td><td><code style="font-size:11px;">.../1200x630/диван-угловой-серый</code></td><td>3d</td></tr>
               <tr><td><strong>Ресторан</strong></td><td>Блюдо или акция</td><td><code style="font-size:11px;">.../1200x630/пицца-маргарита-свежая</code></td><td>realistic</td></tr>
-              <tr><td><strong>Юридический сайт</strong></td><td>Тема услуги</td><td><code style="font-size:11px;">.../1200x630/развод-раздел-имущества</code></td><td>sketch</td></tr>
+              <tr><td><strong>Юридический сайт</strong></td><td>Тема услуги</td><td><code style="font-size:11px;">.../1200x630/развод-раздел-имущества</code></td><td>minimal</td></tr>
               <tr><td><strong>SaaS-документация</strong></td><td>Раздел docs</td><td><code style="font-size:11px;">.../1200x630/api-документация-интеграция</code></td><td>artistic</td></tr>
-              <tr><td><strong>Образование</strong></td><td>Курс или урок</td><td><code style="font-size:11px;">.../1200x630/урок-python-для-начинающих</code></td><td>sketch</td></tr>
+              <tr><td><strong>Образование</strong></td><td>Курс или урок</td><td><code style="font-size:11px;">.../1200x630/урок-python-для-начинающих</code></td><td>minimal</td></tr>
               <tr><td><strong>Недвижимость</strong></td><td>Объект</td><td><code style="font-size:11px;">.../1200x630/квартира-студия-москва-центр</code></td><td>realistic</td></tr>
             </tbody>
           </table>
@@ -705,46 +705,102 @@ og_image = (
   <div class="row">
     <div class="col-12 col-md-10 offset-md-1">
       <h2 class="display-1 mb-4" style="font-size:24px;font-weight:700;">Частые вопросы</h2>
-      <div class="faq-list mb-5">
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что такое og:image и зачем он нужен?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">URL изображения в Open Graph-разметке — соцсеть использует его в карточке ссылки при репосте. От качества превью напрямую зависит кликабельность ссылки в ленте.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Почему Telegram не обновляет og:image сразу после изменения URL?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Telegram кеширует предпросмотр страницы. Для принудительного обновления используйте <a href="https://t.me/WebpageBot" target="_blank">@WebpageBot</a> — он заново сканирует URL и пересобирает preview.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как автоматически формировать промпт из заголовка страницы?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">WordPress: <code>sanitize_title(get_the_title())</code>. Django: <code>slugify(post.title)</code>. Hugo: <code>{{ .Title | urlize }}</code>. Next.js: <code>encodeURIComponent(title)</code>.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Нужна ли регистрация для использования PixInLink в og:image?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Для теста — нет. Для продакшна с контролем лимитов и без водяного знака — нужен тариф Starter.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Сколько генераций нужно сайту с 500 страницами?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Не 500 сразу. Генерация происходит по мере реальных репостов — когда краулер впервые запрашивает <code>og:image</code>. Длинный архив не «съедает» весь лимит за первый день.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как убедиться, что og:image отображается правильно во ВКонтакте?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Используйте инструмент предпросмотра ВКонтакте, вставьте URL страницы и посмотрите, какое изображение видит краулер. Аналогичен Facebook Sharing Debugger.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Можно ли добавить логотип или текст на og:image?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Title overlay и брендинг-шаблоны — в roadmap <strong>Q2–Q3 2026</strong>. Пока текст можно включить в промпт: <code>«...с крупной надписью Brand Name»</code>.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Что будет, если CDN недоступен?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Краулер может не получить картинку. Рекомендуется иметь fallback <code>og:image</code> (статический дефолт) и отслеживать статус на <a href="https://status.pixinlink.ru" target="_blank">status.pixinlink.ru</a>.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Как зафиксировать изображение, чтобы оно не менялось?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Параметр <code>?seed=ID_страницы</code> или хеш slug. Одинаковый prompt + seed = всегда одинаковое изображение.</p>
-        </div>
-        <div class="card paper pa-4 mb-3">
-          <h4 class="headline mb-2" style="font-size:16px;font-weight:700;">Поддерживается ли og:image для AMP-страниц?</h4>
-          <p class="body-1 m-0" style="line-height:1.75;">Да. Open Graph работает через мета-теги страницы независимо от формата верстки. AMP-страница имеет те же мета-теги в <code>&lt;head&gt;</code>.</p>
+      <div class="faq-style mb-5">
+        <div class="root">
+          <div class="accordion">
+            <ul class="collapsible">
+              <li class="accordion-content paper active">
+                <div class="collapsible-header content">
+                  <p class="heading">Что такое og:image и зачем он нужен?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>URL изображения в Open Graph-разметке — соцсеть использует его в карточке ссылки при репосте. От качества превью напрямую зависит кликабельность ссылки в ленте.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Почему Telegram не обновляет og:image сразу после изменения URL?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Telegram кеширует предпросмотр страницы. Для принудительного обновления используйте <a href="https://t.me/WebpageBot" target="_blank">@WebpageBot</a> — он заново сканирует URL и пересобирает preview.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Как автоматически формировать промпт из заголовка страницы?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>WordPress: <code>sanitize_title(get_the_title())</code>. Django: <code>slugify(post.title)</code>. Hugo: <code>{{ .Title | urlize }}</code>. Next.js: <code>encodeURIComponent(title)</code>.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Нужна ли регистрация для использования PixInLink в og:image?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Для теста — нет (12 ген/мес зарег., 30/день аноним). Для продакшна с контролем лимитов и без водяного знака — нужен тариф Starter (300 ₽/мес).</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Сколько генераций нужно сайту с 500 страницами?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Не 500 сразу. Генерация происходит по мере реальных репостов — когда краулер впервые запрашивает <code>og:image</code>. Длинный архив не «съедает» весь лимит за первый день.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Как убедиться, что og:image отображается правильно во ВКонтакте?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Используйте инструмент предпросмотра ВКонтакте, вставьте URL страницы и посмотрите, какое изображение видит краулер.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Можно ли добавить логотип или текст на og:image?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Title overlay и брендинг-шаблоны — в roadmap Q2–Q3 2026. Пока текст можно включить в промпт: <code>«...с крупной надписью Brand Name»</code>.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Что будет, если кеш недоступен?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Краулер может не получить картинку. Рекомендуется иметь fallback <code>og:image</code> (статический дефолт) и отслеживать статус на <a href="https://status.pixinlink.ru" target="_blank">status.pixinlink.ru</a>.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Как зафиксировать изображение, чтобы оно не менялось?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Параметр <code>?seed=ID_страницы</code> или хеш slug. Одинаковый prompt + seed = всегда одинаковое изображение.</p>
+                </div>
+              </li>
+              <li class="accordion-content paper">
+                <div class="collapsible-header content">
+                  <p class="heading">Поддерживается ли og:image для AMP-страниц?</p>
+                  <i class="material-icons right arrow">expand_more</i>
+                </div>
+                <div class="collapsible-body detail">
+                  <p>Да. Open Graph работает через мета-теги страницы независимо от формата верстки. AMP-страница имеет те же мета-теги в <code>&lt;head&gt;</code>.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -844,7 +900,7 @@ og_image = (
     <div class="col-12 col-md-10 offset-md-1">
       <div class="text-center mb-5 pa-5" style="background:linear-gradient(135deg,#e3f2fd 0%,#e8f5e9 100%);border-radius:16px;">
         <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">
-          Попробовать og:image — 50 генераций бесплатно
+          Попробовать og:image — 12 генераций бесплатно
         </h3>
         <p class="body-1 text-muted mb-4">Интеграция за 15 минут. Без регистрации для первого теста.</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
@@ -854,7 +910,7 @@ og_image = (
           </a>
           <a href="/pricing/starter" class="btn primary waves-effect"
              style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
-            Starter — 490 ₽/мес
+            Starter — 300 ₽/мес
           </a>
         </div>
         <p class="body-2 text-muted mt-3 mb-0">Поддержка 24/7: <a href="https://t.me/pixinlinksupport">@pixinlinksupport</a></p>
