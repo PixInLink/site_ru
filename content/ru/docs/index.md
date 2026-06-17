@@ -156,7 +156,7 @@ raw_html: true
           </li>
           <li class="mb-3">
             <a href="/features/watermark/" class="primary-text"><strong>Водяной знак</strong></a><br>
-            <span class="body-2 text-muted">Как убрать через watermark=false</span>
+            <span class="body-2 text-muted">Привязка домена — автоматически без знака</span>
           </li>
           <li class="mb-3">
             <a href="/docs/getting-started/" class="primary-text"><strong>FAQ</strong></a><br>
@@ -231,7 +231,7 @@ raw_html: true
         <div class="icon primary material-icons mb-3" style="font-size: 48px;">email</div>
         <h5 class="headline">Email поддержка</h5>
         <p class="body-1 mb-3">Ответ в течение 24 часов.</p>
-        <a href="mailto:support@pixinlink.ru" class="btn-flat primary-text waves-effect">support@pixinlink.ru</a>
+        <a href="mailto:support@pixinlink.ru" class="btn btn-outlined primary waves-effect">support@pixinlink.ru</a>
       </div>
     </div>
     <!-- Telegram -->
@@ -240,7 +240,7 @@ raw_html: true
         <div class="icon primary material-icons mb-3" style="font-size: 48px;">group</div>
         <h5 class="headline">Комьюнити</h5>
         <p class="body-1 mb-3">Вопросы, советы, обмен опытом.</p>
-        <a href="https://t.me/pixinlinkusers" target="_blank" class="btn-flat primary-text waves-effect">t.me/pixinlinkusers</a>
+        <a href="https://t.me/pixinlinkusers" target="_blank" class="btn btn-outlined primary waves-effect">t.me/pixinlinkusers</a>
       </div>
     </div>
     <!-- Баги -->
@@ -249,7 +249,7 @@ raw_html: true
         <div class="icon primary material-icons mb-3" style="font-size: 48px;">bug_report</div>
         <h5 class="headline">Нашли ошибку?</h5>
         <p class="body-1 mb-3">Опишите проблему с <code>X-Request-ID</code>.</p>
-        <a href="mailto:support@pixinlink.ru" class="btn-flat primary-text waves-effect">Написать тикет</a>
+        <a href="mailto:support@pixinlink.ru" class="btn btn-outlined primary waves-effect">Написать тикет</a>
       </div>
     </div>
   </div>
