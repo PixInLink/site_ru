@@ -53,16 +53,16 @@ schema_type: "WebPage"
           <div class="col-md-6">
             <div class="card paper pa-4" style="height: 100%; border-top: 4px solid #4CAF50;">
               <h5 class="headline mb-2" style="color: #2e7d32;">✅ Подход PixInLink</h5>
-              <p class="body-2 text-muted">Вставляете URL в HTML. Промпт пишется прямо в ссылке. CDN кеширует изображение навсегда. <br><br><strong>Итог:</strong> 60 секунд на картинку. Полная автоматизация.</p>
+              <p class="body-2 text-muted">Вставляете URL в HTML. Промпт пишется прямо в ссылке. Redis-кеш хранит изображение 1 год. <br><br><strong>Итог:</strong> 60 секунд на картинку. Полная автоматизация.</p>
             </div>
           </div>
         </div>
         <h3 class="display-1 mb-3" style="font-size: 24px; font-weight: 700;">Ключевые факты</h3>
         <ul class="body-1 mb-5" style="line-height: 1.8; list-style: none; padding-left: 0;">
-          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 50 генераций/мес бесплатно (с водяным знаком).</li>
-          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Русский язык:</strong> Нативно поддерживается (встроенный переводчик и Kandinsky).</li>
-          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>CDN-кеш:</strong> Первая генерация 10–30 сек. Повторные запросы — <strong>менее 100 мс</strong>.</li>
-          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Форматы:</strong> Автоматическая отдача в WebP для ускорения LCP.</li>
+          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>0 ₽ для старта:</strong> 12 генераций/мес бесплатно с регистрацией (с водяным знаком). 30/день без регистрации.</li>
+          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Русский язык:</strong> Промпт транслитерируется (кириллица → латиница) и передаётся в AI-движок.</li>
+          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Redis-кеш:</strong> Первая генерация 10–30 сек. Повторные запросы — <strong>менее 100 мс</strong>.</li>
+          <li class="mb-2 d-flex"><i class="material-icons mr-2" style="color: #2196F3;">check_circle</i> <strong>Формат:</strong> Автоматическая отдача в WebP (quality=85).</li>
         </ul>
       </div>
     </div>
@@ -97,11 +97,12 @@ schema_type: "WebPage"
         <h3 class="display-1 mb-3 mt-5" style="font-size: 20px; font-weight: 700;">Как это работает под капотом (Жизненный цикл)</h3>
         <div class="card paper pa-3 text-left mb-5" style="background: #1e1e1e; border-radius: 8px;">
           <pre style="margin: 0; white-space: pre-wrap; font-family: monospace; color: #ce9178; font-size: 13px; line-height: 1.5;">Браузер &rarr; запрашивает img src=pixinlink.ru/...
-  &rarr; <span style="color: #569cd6;">PixInLink:</span> проверка CDN-кэша
-      &rarr; <span style="color: #4CAF50;">HIT (302)</span>: редирект на CDN (&lt;100 мс)
-      &rarr; <span style="color: #FF9800;">MISS (200)</span>: отдача placeholder SVG + фоновая генерация (10-30 сек)
-              &rarr; AI (Kandinsky) &rarr; сжатие в WebP &rarr; загрузка в CDN
-              &rarr; повторный запрос &rarr; <span style="color: #4CAF50;">HIT (302)</span></pre>
+  &rarr; <span style="color: #569cd6;">PixInLink:</span> проверка Redis-кеша
+      &rarr; <span style="color: #4CAF50;">HIT (200)</span>: отдача из кеша (&lt;100 мс), квота не тратится
+      &rarr; <span style="color: #FF9800;">MISS</span>: синхронная генерация AI-движком (10–30 сек)
+              &rarr; транслитерация промпта &rarr; GigaChat
+              &rarr; сжатие в WebP (quality=85) &rarr; запись в Redis-кеш
+              &rarr; повторный запрос &rarr; <span style="color: #4CAF50;">HIT (200)</span></pre>
         </div>
       </div>
     </div>
@@ -170,14 +171,13 @@ register = template.Library()
               <div class="col-md-4 mb-3">
                 <label style="font-weight: 600;">Стиль</label>
                 <select id="gen-style" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; display: block;">
-                  <option value="realistic">realistic</option>
-                  <option value="cyberpunk" selected>cyberpunk</option>
+                  <option value="realistic" selected>default (реалистичный)</option>
+                  <option value="illustration">illustration</option>
                   <option value="3d">3d</option>
                   <option value="anime">anime</option>
                 </select>
               </div>
               <div class="col-12 mt-2 text-center">
-                <button type="button" class="btn primary waves-effect" onclick="generateDemoUrl()" style="border-radius: 30px; padding: 0 30px;">Сгенерировать код</button>
               </div>
             </div>
           </form>
@@ -185,12 +185,11 @@ register = template.Library()
             <p class="mb-1"><strong>Готовый тег для вставки:</strong></p>
             <div class="card paper pa-2 text-left mb-2" style="background: #1e1e1e; border-radius: 8px;">
               <code id="res-html" style="color: #9cdcfe; font-size: 13px; word-break: break-all;">
-                &lt;img src="https://pixinlink.ru/800x600/офис-разработчиков-неон?style=cyberpunk" alt="AI Image" loading="lazy" width="800" height="600"&gt;
+                &lt;img src="https://pixinlink.ru/800x600/офис-разработчиков-неон?style=realistic" alt="AI Image" loading="lazy" width="800" height="600"&gt;
               </code>
             </div>
           </div>
         </div>
-        <!-- JS для формы -->
         <!-- КЕЙСЫ (Как используют PixInLink) -->
         <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">3 реальных кейса использования</h3>
         <div class="row mb-5">
@@ -198,21 +197,21 @@ register = template.Library()
             <div class="card paper pa-4" style="height: 100%;">
               <h6 class="use-text-subtitle2 mb-2 text-primary">Блогер на WordPress</h6>
               <p class="body-2 mb-2 text-muted"><strong>До:</strong> 15 минут на поиск фото в Canva.<br><strong>После:</strong> Шорткод генерирует уникальную обложку за 60 секунд.</p>
-              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Starter (490 ₽)</p>
+              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Starter (300 ₽)</p>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card paper pa-4" style="height: 100%;">
               <h6 class="use-text-subtitle2 mb-2 text-primary">SaaS Frontend-разраб</h6>
               <p class="body-2 mb-2 text-muted"><strong>До:</strong> Хранение файлов на S3, сложный бэкенд.<br><strong>После:</strong> 1 React-компонент загружает картинки через CDN PixInLink.</p>
-              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Pro (1 490 ₽)</p>
+              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Pro (2 500 ₽)</p>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card paper pa-4" style="height: 100%;">
               <h6 class="use-text-subtitle2 mb-2 text-primary">SEO-специалист</h6>
               <p class="body-2 mb-2 text-muted"><strong>До:</strong> Одинаковый og:image у всех 300 страниц.<br><strong>После:</strong> Python-скрипт автоматически делает og:image из title страницы.</p>
-              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Business (4 990 ₽)</p>
+              <p class="body-2 m-0 mt-auto" style="font-weight: 600;">Тариф: Business (4 500 ₽)</p>
             </div>
           </div>
         </div>
@@ -232,7 +231,7 @@ register = template.Library()
                 <i class="material-icons right arrow">expand_more</i>
               </div>
               <div class="collapsible-body detail">
-                <p>Нет. Первые 50 изображений — без регистрации и без кредитной карты. Вы можете тестировать прямо сейчас. Для коммерческого использования (убрать водяной знак) нужна регистрация и тариф от 490 ₽/мес.</p>
+                <p>Нет. Первые 12 изображений — с регистрацией бесплатно. Без регистрации — 30/день на домен. Вы можете тестировать прямо сейчас. Для коммерческого использования (убрать водяной знак) нужна регистрация и тариф от 300 ₽/мес.</p>
               </div>
             </li>
             <li class="accordion-content paper">
@@ -241,7 +240,7 @@ register = template.Library()
                 <i class="material-icons right arrow">expand_more</i>
               </div>
               <div class="collapsible-body detail">
-                <p>Первый запрос — это физическая генерация: 10–30 секунд работы AI (Kandinsky 3.1) и сжатия в WebP. Все последующие запросы отдаются мгновенно из CDN-кеша (менее 100 мс). Если вы видите текст «Generating image...» — просто обновите страницу чуть позже.</p>
+                <p>Первый запрос — это физическая генерация: 10–30 секунд работы AI-движка и сжатия в WebP. Все последующие запросы отдаются мгновенно из Redis-кеша (менее 100 мс). Если вы видите задержку при первом запросе — просто обновите страницу чуть позже.</p>
               </div>
             </li>
             <li class="accordion-content paper">
@@ -250,7 +249,7 @@ register = template.Library()
                 <i class="material-icons right arrow">expand_more</i>
               </div>
               <div class="collapsible-body detail">
-                <p>Да. PixInLink автоматически переводит промпт через встроенный Yandex Translate API (RU &rarr; EN) перед отправкой в нейросеть. Поддерживается любой язык.</p>
+                <p>Да. PixInLink автоматически транслитерирует кириллический промпт в латиницу (побуквенная замена символов: «офис» → «ofis»). Это не перевод, а транслитерация — AI-движок понимает русские слова в латинице благодаря обучению на кириллических данных.</p>
               </div>
             </li>
           </ul>
@@ -269,7 +268,7 @@ register = template.Library()
             <li>MDN Web Docs, <code>&lt;img&gt;</code>: loading attribute, Mozilla, 2024</li>
             <li>Google Web Vitals, Cumulative Layout Shift (CLS), 2024</li>
           </ol>
-          <p class="text-muted mt-2 mb-0"><strong>Как мы считаем данные:</strong> Время генерации 10–30 сек — медианное значение по 10 000 запросов к Kandinsky при нормальной нагрузке. CDN TTL 1 год основан на стандарте RFC 8246.</p>
+          <p class="text-muted mt-2 mb-0"><strong>Как мы считаем данные:</strong> Время генерации 10–30 сек — медианное значение по данным production-мониторинга при нормальной нагрузке. Кеш хранится в Redis, TTL определяется конфигурацией сервера.</p>
         </div>
       </div>
     </div>
