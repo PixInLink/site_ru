@@ -36,16 +36,16 @@ client.download(url, <span style="color:#ce9178;">"cat.webp"</span>)</pre>
         </div>
       </div>
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
-        <a href="/docs/getting-started" class="btn-flat btn-rounded"
-           style="background:#2e7d32;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;">
+        <a href="/docs/getting-started" class="btn primary waves-effect"
+           style="background:#2e7d32;color:#fff;padding:2px 24px;font-weight:600;text-decoration:none;">
           Начать бесплатно
         </a>
-        <a href="https://github.com/pixinlink/pixinlink-python" target="_blank" class="btn-flat btn-rounded"
-           style="background:#e8f5e9;color:#2e7d32;padding:10px 24px;text-decoration:none;">
+        <a href="https://github.com/pixinlink/pixinlink-python" target="_blank" class="btn primary waves-effect"
+           style="background:#e8f5e9;color:#2e7d32;padding:2px 24px;text-decoration:none;">
           GitHub →
         </a>
-        <a href="/features/url-api" class="btn-flat btn-rounded"
-           style="background:#f5f5f5;color:#555;padding:10px 24px;text-decoration:none;">
+        <a href="/features/url-api" class="btn primary waves-effect"
+           style="background:#f5f5f5;color:#555;padding:2px 24px;text-decoration:none;">
           URL API →
         </a>
       </div>
@@ -715,17 +715,17 @@ url = client.image_url("промпт", **ImageSize.OG_IMAGE)</pre>
         </div>
         <p class="body-2 text-muted mb-4">50 генераций бесплатно. Нужно больше? Starter — 490 ₽/мес, 500 генераций.</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
-          <a href="/pricing/starter" class="btn-flat btn-rounded"
-             style="background:#2e7d32;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="/pricing/starter" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Starter — 490 ₽/мес
           </a>
           <a href="https://github.com/pixinlink/pixinlink-python" target="_blank"
-             class="btn-flat btn-rounded"
-             style="background:#24292e;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+             class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             GitHub →
           </a>
-          <a href="/features/url-api" class="btn-flat btn-rounded"
-             style="background:#e8f5e9;color:#2e7d32;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="/features/url-api" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             URL API →
           </a>
         </div>

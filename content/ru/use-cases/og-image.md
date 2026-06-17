@@ -39,12 +39,12 @@ schema_type: "WebPage"
         </div>
       </div>
       <div class="mt-4 d-flex flex-wrap" style="gap:12px;">
-        <a href="/docs/getting-started" class="btn-flat btn-rounded"
-           style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;">
+        <a href="/docs/getting-started" class="btn primary waves-effect"
+           style="padding:2px 24px;font-weight:600;border-radius:8px;">
           Попробовать бесплатно — 50 генераций
         </a>
-        <a href="/pricing/starter" class="btn-flat btn-rounded"
-           style="background:#e3f2fd;color:#1976d2;padding:10px 24px;">
+        <a href="/pricing/starter" class="btn primary waves-effect"
+           style="background:#e3f2fd;color:#1976d2;padding:2px 24px;">
           Starter — 490 ₽/мес
         </a>
       </div>
@@ -848,12 +848,12 @@ og_image = (
         </h3>
         <p class="body-1 text-muted mb-4">Интеграция за 15 минут. Без регистрации для первого теста.</p>
         <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
-          <a href="/docs/getting-started" class="btn-flat btn-rounded"
-             style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="/docs/getting-started" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Начать бесплатно
           </a>
-          <a href="/pricing/starter" class="btn-flat btn-rounded"
-             style="background:#43a047;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="/pricing/starter" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Starter — 490 ₽/мес
           </a>
         </div>

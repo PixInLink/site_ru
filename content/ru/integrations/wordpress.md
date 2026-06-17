@@ -44,16 +44,16 @@ schema_type: "WebPage"
         Попробуйте: <a href="https://pixinlink.ru/api/v1/1200x630/рецепт-тирамису" target="_blank">pixinlink.ru/api/v1/1200x630/рецепт-тирамису</a>
       </p>
       <div class="d-flex flex-wrap" style="gap:12px;">
-        <a href="#wp-howto" class="btn-flat btn-rounded"
-           style="background:#2e7d32;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;">
+        <a href="#wp-howto" class="btn primary waves-effect"
+           style="background:#2e7d32;color:#fff;padding:2px 24px;font-weight:600;text-decoration:none;">
           Инструкция за 10 минут ↓
         </a>
-        <a href="#wp-snippets" class="btn-flat btn-rounded"
-           style="background:#e8f5e9;color:#2e7d32;padding:10px 24px;text-decoration:none;">
+        <a href="#wp-snippets" class="btn primary waves-effect"
+           style="background:#e8f5e9;color:#2e7d32;padding:2px 24px;text-decoration:none;">
           Готовые сниппеты ↓
         </a>
-        <a href="https://pixinlink.ru/pricing/" class="btn-flat btn-rounded"
-           style="background:#f5f5f5;color:#555;padding:10px 24px;text-decoration:none;">
+        <a href="https://pixinlink.ru/pricing/" class="btn primary waves-effect"
+           style="background:#f5f5f5;color:#555;padding:2px 24px;text-decoration:none;">
           50 изображений бесплатно →
         </a>
       </div>

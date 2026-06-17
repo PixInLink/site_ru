@@ -30,8 +30,8 @@ schema_type: "WebPage"
           <li>Добавь <code>&amp;watermark=false</code> к URL или измени параметр seed, чтобы сбросить кеш старой картинки.</li>
         </ol>
         <div class="d-flex align-items-center flex-wrap" style="gap:12px;">
-          <a href="https://pixinlink.ru/pricing/starter/" class="btn-flat btn-rounded"
-             style="background:#1976d2;color:#fff;padding:10px 24px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="https://pixinlink.ru/pricing/starter/" class="btn primary waves-effect"
+             style="padding:2px 24px;font-weight:600;border-radius:8px;">
             Перейти на Starter — 490 руб/мес
           </a>
           <span class="body-2 text-muted">Карта не нужна для Free. Апгрейд — через Kassa.</span>
@@ -260,24 +260,24 @@ schema_type: "WebPage"
         <h3 class="display-1 mb-3" style="font-size:26px;font-weight:700;">Водяной знак отсутствует на всех тарифах</h3>
           <p class="body-1 text-muted mb-4">Starter: 300 ₽/мес, 50 изображений. Business: кастомный логотип. Отмена в любой момент.</p>
           <div class="d-flex justify-content-center flex-wrap" style="gap:16px;">
-            <a href="https://app.pixinlink.ru/register?plan=starter" class="btn-flat btn-rounded"
-               style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+            <a href="https://app.pixinlink.ru/register?plan=starter" class="btn primary waves-effect"
+               style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
               Starter — 300 ₽/мес
             </a>
-            <a href="https://app.pixinlink.ru/register?plan=pro" class="btn-flat btn-rounded"
-               style="background:#00897b;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+            <a href="https://app.pixinlink.ru/register?plan=pro" class="btn primary waves-effect"
+               style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
               Pro — 2 500 ₽/мес
             </a>
-            <a href="https://app.pixinlink.ru/register?plan=business" class="btn-flat btn-rounded"
-               style="background:#6a1b9a;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+            <a href="https://app.pixinlink.ru/register?plan=business" class="btn primary waves-effect"
+               style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
               Business — 4 500 ₽/мес
             </a>
-          <a href="https://pixinlink.ru/pricing/pro/" class="btn-flat btn-rounded"
-             style="background:#1976d2;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="https://pixinlink.ru/pricing/pro/" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Pro — 1 490 руб/мес
           </a>
-          <a href="https://pixinlink.ru/pricing/business/" class="btn-flat btn-rounded"
-             style="background:#6a1b9a;color:#fff;padding:12px 32px;font-size:16px;font-weight:600;text-decoration:none;border-radius:8px;">
+          <a href="https://pixinlink.ru/pricing/business/" class="btn primary waves-effect"
+             style="padding:2px 32px;font-size:16px;font-weight:600;border-radius:8px;">
             Business — 4 990 руб/мес
           </a>
         </div>
