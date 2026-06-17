@@ -94,7 +94,7 @@ export const siteTree = {
         {
           "slug": "features/watermark",
           "title": "Водяной знак на ИИ-изображениях: как работает и как убрать",
-          "description": "Как работает водяной знак на ИИ-изображениях PixInLink. Пошаговая инструкция по отключению watermark на платных тарифах, сравнение тарифов.",
+          "description": "Как работает водяной знак на изображениях PixInLink: текст, позиция, шрифт. Как отключить watermark через привязку домена на платных тарифах.",
           "isIndex": false,
           "path": "content/ru/features/watermark.md"
         },
