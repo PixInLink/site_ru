@@ -42,7 +42,7 @@ raw_html: true
 <!-- ##### END HERO #####-->
 
 <!-- ##### ПЛАГИНЫ CMS #####-->
-<div class="container page-section space-top-short" id="cms-plugins">
+<div class="container page-section space-top-short" id="cms-plugins" style="margin-top: 40px;">
   <div class="row mb-5">
     <div class="col-12 text-center">
       <h3 class="use-text-title2">Плагины для CMS</h3>

@@ -42,7 +42,7 @@ raw_html: true
 <!-- ##### END HERO #####-->
 
 <!-- ##### БЫСТРЫЙ СТАРТ #####-->
-<div class="container page-section space-top-short" id="quickstart">
+<div class="container page-section space-top-short" id="quickstart" style="margin-top: 40px;">
   <div class="row align-items-center">
     <div class="col-md-6 px-4">
       <h3 class="use-text-title2 mb-3">Быстрый старт</h3>
