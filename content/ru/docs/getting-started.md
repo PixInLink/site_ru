@@ -110,7 +110,7 @@ schema_type: "WebPage"
   <div class="container" id="docs-integrations">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интеграция в вашу платформу</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интеграция в вашу платформу</h3>
         <p class="body-1 mb-4">Выберите платформу, чтобы увидеть готовый пример кода для копирования.</p>
         <!-- Имитация Tabs -->
         <div class="card paper pa-0 mb-5 overflow-hidden">
@@ -150,7 +150,7 @@ register = template.Library()
           </div>
         </div>
         <!-- ИНТЕРАКТИВНЫЙ ГЕНЕРАТОР -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интерактивный конструктор URL</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Интерактивный конструктор URL</h3>
         <p class="body-1 mb-4">Сгенерируйте код прямо здесь. Заполните форму, и мы соберем для вас готовый тег.</p>
         <div class="card paper pa-4 mb-5" style="background: #fafafa; border: 1px solid #e0e0e0;">
           <form id="url-generator-form">
@@ -192,7 +192,7 @@ register = template.Library()
         </div>
         <!-- JS для формы -->
         <!-- КЕЙСЫ (Как используют PixInLink) -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">3 реальных кейса использования</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">3 реальных кейса использования</h3>
         <div class="row mb-5">
           <div class="col-md-4 mb-3">
             <div class="card paper pa-4" style="height: 100%;">

@@ -68,7 +68,7 @@ schema_type: "WebPage"
           <strong>URL API (URL-based API)</strong> — это интерфейс, где все параметры запроса передаются непосредственно в URL-строке, а сервер возвращает готовый ресурс по HTTP GET-запросу. В отличие от стандартного REST API (POST → async job → polling → download), наш URL API можно вставить прямо в HTML, и всю сложную асинхронную работу под капотом выполнит наш сервер. Идеально для статических сайтов (Hugo, Next.js), мета-тегов <code>og:image</code> и email-рассылок.
         </p>
         <!-- Схема архитектуры (Cache Hit / Miss) -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Как работает запрос (Архитектура)</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Как работает запрос (Архитектура)</h3>
         <div class="card paper pa-4 mb-5" style="background: #fdfdfd; border: 1px solid #eee;">
           <ol class="body-1 m-0" style="line-height: 1.8; padding-left: 20px;">
             <li class="mb-2"><strong>Шаг 1:</strong> Клиент отправляет GET-запрос к <code>pixinlink.ru</code>.</li>
@@ -89,7 +89,7 @@ schema_type: "WebPage"
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
         <!-- PATH PARAMETERS -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Path Parameters (обязательные)</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Path Parameters (обязательные)</h3>
         <p class="body-1 mb-4">Параметры пути передаются непосредственно в структуре URL до знака вопроса <code>?</code>. Порядок строгий: <code>/{width}x{height}/{background_hex}/{foreground_hex}</code>.</p>
         <div class="card paper pa-0 mb-4 overflow-hidden">
           <div class="table-responsive">
@@ -140,7 +140,7 @@ schema_type: "WebPage"
           <strong>Примечание:</strong> Значения размеров вне диапазона «зажимаются» (clamped) без ошибки. Параметры цвета (bg/fg) — это визуальная подсказка для нейросети, а не жесткое правило.
         </p>
         <!-- QUERY PARAMETERS -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Query Parameters (опциональные)</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Query Parameters (опциональные)</h3>
         <!-- 1. prompt -->
         <h5 class="headline mb-2 text-primary" id="param-prompt">1. prompt — Текстовое описание</h5>
         <p class="body-2 text-muted mb-3">Обязательный параметр (в строке запроса или в slug-пути). Максимум 500 символов (обрезается без ошибки).</p>
@@ -246,7 +246,7 @@ schema_type: "WebPage"
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
         <!-- Аутентификация -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Аутентификация</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Аутентификация</h3>
         <p class="body-1 mb-3">API поддерживает две схемы работы: анонимную (Free-тариф) и авторизованную (Starter+). Для авторизации используется стандартный заголовок <code>Authorization: Bearer</code>.</p>
         <div class="row mb-5">
           <div class="col-md-6">
@@ -266,7 +266,7 @@ Authorization: Bearer pk_live_вашключ</code></pre>
           </div>
         </div>
         <!-- Коды ответов HTTP -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Коды ответов HTTP</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Коды ответов HTTP</h3>
         <p class="body-1 mb-4">API использует стандартные HTTP-коды. При успешном попадании в кэш возвращается <code>302 Found</code>, при промахе — <code>200 OK</code> с временным SVG (и запускается фоновая генерация).</p>
         <div class="card paper pa-0 mb-4 overflow-hidden">
           <div class="table-responsive">
@@ -330,7 +330,7 @@ Authorization: Bearer pk_live_вашключ</code></pre>
 }</code></pre>
         </div>
         <!-- Rate Limits и квоты -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Rate Limits и квоты</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Rate Limits и квоты</h3>
         <p class="body-1 mb-4">Cache hit (302) не считается генерацией — квота не расходуется. Списание происходит только при Cache miss (200).</p>
         <div class="card paper pa-0 mb-5 overflow-hidden">
           <div class="table-responsive">
@@ -353,7 +353,7 @@ Authorization: Bearer pk_live_вашключ</code></pre>
           </div>
         </div>
         <!-- Полный пример URL -->
-        <h3 class="display-2 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Полный пример API-запроса</h3>
+        <h3 class="display-1 mb-4 mt-5" style="font-size: 24px; font-weight: 700;">Полный пример API-запроса</h3>
         <div class="card paper pa-4 mb-4 text-left" style="background: #1e1e1e; border-radius: 8px;">
           <pre style="margin: 0; white-space: pre-wrap; font-family: monospace; color: #ce9178; font-size: 14px; line-height: 1.5;">GET https://pixinlink.ru/1200x630/{промпт}
 <span style="color: #9cdcfe;">?prompt</span>=современный%20офис%20разработчиков%20вечер
