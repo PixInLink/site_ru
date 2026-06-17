@@ -101,7 +101,7 @@ export const siteTree = {
         {
           "slug": "features/webp-optimization",
           "title": "WebP и AVIF из коробки: каждое изображение оптимизируется автоматически",
-          "description": "Как PixInLink автоматически конвертирует изображения в WebP и AVIF, влияние на PageSpeed и LCP, сравнение с ручной конвертацией, примеры кода.",
+          "description": "PixInLink генерирует изображения сразу в WebP (quality=85, ~50 KB) и AVIF (quality=50). Автоматически, без плагинов и ручной конвертации.",
           "isIndex": false,
           "path": "content/ru/features/webp-optimization.md"
         }
