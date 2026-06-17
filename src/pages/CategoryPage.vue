@@ -31,7 +31,8 @@ useSeo(() => ({
 <template>
   <PageBanner :pageTitle="categoryName" />
 
-  <main class="page">
+  <main class="container-wrap container-pages">
+    <div class="container">
     <p v-if="categoryArticles.length === 0">{{ t.category.noArticles }}</p>
 
     <section v-else>
@@ -54,6 +55,7 @@ useSeo(() => ({
     <p class="back-link">
       <RouterLink to="/blog/">{{ t.category.allArticles }}</RouterLink>
     </p>
+    </div>
   </main>
 </template>
 

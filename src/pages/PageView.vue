@@ -57,18 +57,22 @@ watch(page, (newPage) => {
     </template>
     <template v-else>
       <PageBanner :pageTitle="page.frontmatter.title" />
-      <main class="page">
+      <main class="container-wrap container-pages">
+        <div class="container">
         <article class="article">
           <div v-html="page.html"></div>
         </article>
+        </div>
       </main>
     </template>
   </template>
   <template v-else>
     <PageBanner :pageTitle="t.pageView.notFound" />
-    <main class="page">
+    <main class="container-wrap container-pages">
+      <div class="container">
       <p>{{ t.pageView.notFound }}</p>
       <RouterLink to="/">{{ t.pageView.backToHome }}</RouterLink>
+      </div>
     </main>
   </template>
 </template>

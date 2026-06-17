@@ -124,7 +124,8 @@ const tocItems = computed(() => processedHtml.value.toc);
       </ol>
     </nav>
 
-    <main class="page">
+    <main class="container-wrap container-pages">
+      <div class="container">
       <div class="article-meta">
         <span>{{ article.frontmatter.date }}</span>
         <span v-if="article.frontmatter.author" class="meta-sep">{{ t.article.by }} {{ article.frontmatter.author }}</span>
@@ -195,14 +196,17 @@ const tocItems = computed(() => processedHtml.value.toc);
       </template>
 
       <RelatedArticles :current="article" />
+      </div>
     </main>
   </template>
 
   <template v-else>
     <PageBanner pageTitle="Article not found" />
-    <main class="page">
+    <main class="container-wrap container-pages">
+      <div class="container">
       <p>The requested Markdown document is not available.</p>
       <RouterLink to="/">Back to articles</RouterLink>
+      </div>
     </main>
   </template>
 </template>

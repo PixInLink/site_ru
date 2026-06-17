@@ -50,7 +50,8 @@ const pageNumbers = computed(() => {
 <template>
   <PageBanner :pageTitle="pageTitle" />
 
-  <main class="page">
+  <main class="container-wrap container-pages">
+    <div class="container">
       <p class="page-info" v-if="totalPages > 1">
         Page {{ page }} of {{ totalPages }} ({{ articles.length }} articles)
       </p>
@@ -121,6 +122,7 @@ const pageNumbers = computed(() => {
       >{{ t.blog.next }}</RouterLink>
       <span v-else class="page-link disabled">{{ t.blog.next }}</span>
     </nav>
+    </div>
   </main>
 </template>
 

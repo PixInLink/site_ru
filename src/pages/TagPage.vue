@@ -36,7 +36,8 @@ useSeo(() => ({
 <template>
   <PageBanner :pageTitle="`#${tagName}`" />
 
-  <main class="page">
+  <main class="container-wrap container-pages">
+    <div class="container">
     <p v-if="tagArticles.length === 0">{{ t.tag.noArticles }}</p>
 
     <section v-else>
@@ -60,6 +61,7 @@ useSeo(() => ({
     <p class="back-link">
       <RouterLink to="/blog/">{{ t.tag.allArticles }}</RouterLink>
     </p>
+    </div>
   </main>
 </template>
 
