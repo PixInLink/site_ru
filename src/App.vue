@@ -36,6 +36,7 @@ onMounted(() => {
         <AppNavbar />
         <RouterView />
         <div class="footer-counter extend">
+          <span class="round"></span>
           <div>
             <AppFooter />
           </div>

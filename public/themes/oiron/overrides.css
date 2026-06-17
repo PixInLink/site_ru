@@ -48,6 +48,36 @@ h1, h2, h3, h4, h5, h6 { text-transform: none !important; }
 .footer-counter.extend::before { display: none; }
 .footer-sitemap { background: #F0FAFE !important; }
 
+/* ── Footer round decorative header ── */
+.footer-counter .round {
+  content: "";
+  overflow: hidden;
+  background: var(--v-primarylight-base);
+  position: absolute;
+  left: -10%;
+  border-radius: 50%;
+  top: -80px;
+  width: 120%;
+  height: 350px;
+}
+
+.footer-counter .round::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.8;
+}
+
+@media (max-width: 599px) {
+  .footer-counter .round {
+    height: 120px;
+  }
+}
+
 /* ── Code highlighting ── */
 @import "highlight.js/styles/github.css";
 
