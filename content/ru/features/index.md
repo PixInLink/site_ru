@@ -834,7 +834,7 @@ schema_type: "WebPage"
           <div class="col-12"><h5 class="use-text-title2">Художественные стили и направления</h5></div>
         </div>
         <div class="row spacing4">
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/impressionist-garden-sunflowers?style=impressionist&seed=301');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -845,7 +845,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/surreal-dali-clock-desert?style=surrealist&seed=302');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -875,7 +875,7 @@ schema_type: "WebPage"
           <div class="col-12"><h5 class="use-text-title2">Техники и материалы</h5></div>
         </div>
         <div class="row spacing4">
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/watercolor-landscape-blue-mountains?style=watercolor&seed=311');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -886,7 +886,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/stained-glass-church-window?style=stained-glass&seed=312');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -916,7 +916,7 @@ schema_type: "WebPage"
           <div class="col-12"><h5 class="use-text-title2">Жанры и эстетика</h5></div>
         </div>
         <div class="row spacing4">
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/cyberpunk-city-neon-rain?style=cyberpunk&seed=321');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -927,7 +927,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/anime-girl-cherry-blossom?style=anime&seed=322');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -957,7 +957,7 @@ schema_type: "WebPage"
           <div class="col-12"><h5 class="use-text-title2">Цифровые и современные стили</h5></div>
         </div>
         <div class="row spacing4">
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/3d-crystal-cute-robot?style=3d&seed=331');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -968,7 +968,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/pixel-art-game-landscape?style=pixel-art&seed=332');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -998,7 +998,7 @@ schema_type: "WebPage"
           <div class="col-12"><h5 class="use-text-title2">В стиле художников и медиа-вселенных</h5></div>
         </div>
         <div class="row spacing4">
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/van-gogh-starry-landscape?style=van-gogh&seed=341');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -1009,7 +1009,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 pa-2">
+          <div class="col-md-12 col-sm-6 pa-2">
             <div class="card paper pa-0" style="overflow:hidden">
               <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/studio-ghibli-spirit?style=studio-ghibli&seed=342');background-size:cover;background-position:center"></div>
               <div class="pa-3">
@@ -1042,13 +1042,13 @@ schema_type: "WebPage"
                 <h5 class="use-text-title2 mb-3">Комбинируйте стили для уникальных результатов</h5>
                 <p class="use-text-paragraph mb-4">Стили разделяются подчёркиванием. GigaChat объединяет их в одной генерации.</p>
                 <div class="row spacing4">
-                  <div class="col-md-4 col-sm-6 pa-2">
+                  <div class="col-md-12 col-sm-6 pa-2">
                     <div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=watercolor_anime</code>
                       <p class="use-text-paragraph mt-2 mb-0 small">Аниме, нарисованное акварелью</p>
                     </div>
                   </div>
-                  <div class="col-md-4 col-sm-6 pa-2">
+                  <div class="col-md-12 col-sm-6 pa-2">
                     <div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=steampunk_noir</code>
                       <p class="use-text-paragraph mt-2 mb-0 small">Стимпанк в мрачной стилистике нуар</p>
