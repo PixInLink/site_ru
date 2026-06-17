@@ -22,7 +22,10 @@ a {
 .page {
   margin: 0 auto;
   max-width: 1140px;
-  padding: 40px 20px 64px;
+  padding: 40px 32px 64px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
 /* ── Responsive container ── */
@@ -33,7 +36,7 @@ a {
   .page { max-width: 720px; }
 }
 @media (max-width: 767px) {
-  .page { max-width: 540px; padding: 24px 16px 40px; }
+  .page { max-width: 540px; padding: 24px 16px 40px; border-radius: 8px; }
 }
 
 .site-header {
