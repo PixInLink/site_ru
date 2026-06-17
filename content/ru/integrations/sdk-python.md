@@ -7,7 +7,7 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-<main class="container-wrap">
+<main class="container-wrap container-pages">
 
 <!-- HERO -->
 <div class="container mt-5 pt-5 mb-4" id="sdk-python-header">

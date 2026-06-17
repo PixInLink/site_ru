@@ -7,7 +7,7 @@ author: "PixInLink"
 layout: "page"
 schema_type: "WebPage"
 ---
-<main class="container-wrap">
+<main class="container-wrap container-pages">
 
 ﻿<!-- SEO META & CANONICAL -->
 <!-- 
