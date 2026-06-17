@@ -87,7 +87,7 @@ export const siteTree = {
         {
           "slug": "features/url-api",
           "title": "URL API PixInLink: полный справочник параметров",
-          "description": "Полный справочник параметров URL API PixInLink. Path и query параметры, аутентификация, HTTP коды ошибок, rate limits и примеры кода.",
+          "description": "Справочник параметров URL API PixInLink: формат /WxH/prompt, стили, seed, квоты и аутентификация через привязку домена.",
           "isIndex": false,
           "path": "content/ru/features/url-api.md"
         },
