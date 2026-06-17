@@ -38,7 +38,7 @@ schema_type: "WebPage"
                 <div class="row">
                   <div class="col-md-7 col-lg-6 col-sm-12 px-sm-6 d-flex align-items-center">
                     <div class="text">
-                      <h4 class="use-text-title">Заголовки блога за 5 секунд</h4>
+                      <h4 class="use-text-title">Заголовки блога за 30 секунд</h4>
                       <h5 class="use-text-subtitle">Оформляйте статьи уникальным визуалом без заезженных стоков. Одна ссылка в &lt;img&gt; — и картинка готова.</h5>
                       <div class="btn-area">
                         <a class="btn-flat waves-effect btn-large button use-text-primary" href="#cases-grid">8 сценариев</a>
