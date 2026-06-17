@@ -30,7 +30,7 @@ raw_html: true
             </div>
             <div class="col-md-6 col-sm-12 px-sm-5 py-4">
               <div class="img">
-                <img class="img-2d3d" src="/themes/oiron/images/agency/services_3d@2x.png" data-2d="/themes/oiron/images/agency/services_2d@2x.png" data-3d="/themes/oiron/images/agency/services_3d@2x.png" alt="Иллюстрация интеграций PixInLink — API, плагины, SDK" />
+                <img class="img-2d3d" src="/themes/oiron/images/agency/team_3d@2x.png" data-2d="/themes/oiron/images/agency/team_2d@2x.png" data-3d="/themes/oiron/images/agency/team_3d@2x.png" alt="Иллюстрация интеграций PixInLink — API, плагины, SDK" />
               </div>
             </div>
           </div>
