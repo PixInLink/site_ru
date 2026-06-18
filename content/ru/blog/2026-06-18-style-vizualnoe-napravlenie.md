@@ -12,7 +12,316 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/style-vizualnoe-napravlenie-p
 ---
 <main class="container-wrap">
 
-<p>Параметр <code>?style=</code> — это визуальный руль PixInLink. Одно слово в URL меняет всё: от фотореализма до импрессионизма, от акварели до Studio Ghibli, от киберпанка до Ван Гога. Разбираем, какие направления доступны, как их комбинировать через подчёркивание и какой стиль выбрать под вашу задачу.</p>
+<p>Параметр <code>?style=</code> — это визуальный руль PixInLink. Одно слово в URL меняет всё: от фотореализма до импрессионизма, от акварели до Studio Ghibli, от киберпанка до Ван Гога. Ниже — живые примеры каждого направления, сгенерированные нейросетью прямо в карточках.</p>
+
+## Базовые стили (6)
+
+Шесть встроенных направлений — переключение одним словом:
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/office-workspace-laptop-coffee?style=realistic&seed=500');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Realistic — Фото</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">блоги</span><span class="chip">e-commerce</span><span class="chip">новости</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">По умолчанию. Изображения неотличимы от фотографий. Лучший выбор для 80% задач.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/startup-team-collaboration-product?style=illustration&seed=501');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Illustration — Вектор</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">лендинги</span><span class="chip">SaaS</span><span class="chip">стартапы</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">Плоский векторный стиль, чистые линии, минимализм. Идеален для продуктовых сайтов.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/3d-crystal-cute-robot?style=3d&seed=502');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">3D — Объёмный рендер</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">продукты</span><span class="chip">хедеры</span><span class="chip">tech</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">Трёхмерные объекты с глубиной и студийным освещением. Blender-стиль из коробки.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="row spacing4" style="margin-top:0">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/cyberpunk-city-neon-rain-night?style=cyberpunk&seed=503');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Cyberpunk — Неон</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">игры</span><span class="chip">IT</span><span class="chip">киберспорт</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">Футуристический стиль: неон, тёмные фоны, хай-тек. Рекомендуем тёмный <code>bg</code>.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/anime-girl-cherry-blossom-park?style=anime&seed=504');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Anime — Аниме</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">творчество</span><span class="chip">SMM</span><span class="chip">манга</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">Японская анимационная эстетика: яркие цвета, чёткие контуры, выразительные персонажи.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/pixel-art-game-landscape?style=pixel-art&seed=505');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Pixel Art — Пиксели</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">ретро</span><span class="chip">инди-игры</span><span class="chip">геймдев</span>
+      </div>
+      <p class="use-text-paragraph mt-2 mb-0 small">8-bit/16-bit эстетика. Ностальгия и уникальный визуал. Самый лёгкий файл: ~25 КБ.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+## Художественные стили и направления
+
+Классические школы живописи — от импрессионизма до авангарда:
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/impressionist-garden-sunflowers?style=impressionist&seed=510');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Импрессионизм</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">реализм</span><span class="chip">сюрреализм</span><span class="chip">кубизм</span><span class="chip">барокко</span><span class="chip">минимализм</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/surreal-dali-clock-desert?style=surrealist&seed=511');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Сюрреализм (Дали)</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">экспрессионизм</span><span class="chip">поп-арт</span><span class="chip">авангард</span><span class="chip">готика</span><span class="chip">ренессанс</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/art-deco-lady-gold-leaf?style=art-deco&seed=512');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Ар-деко / Ар-нуво</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">модерн</span><span class="chip">готика</span><span class="chip">барокко</span><span class="chip">кубизм</span><span class="chip">минимализм</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+## Техники и материалы
+
+Имитация художественных инструментов — от акварели до витража:
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/watercolor-landscape-blue-mountains?style=watercolor&seed=520');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Акварель</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">масло</span><span class="chip">карандаш</span><span class="chip">уголь</span><span class="chip">пастель</span><span class="chip">гравюра</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/stained-glass-church-window?style=stained-glass&seed=521');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Витраж / Мозаика</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">гравюра</span><span class="chip">oil-painting</span><span class="chip">charcoal</span><span class="chip">pastel</span><span class="chip">mosaic</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/pencil-sketch-old-tree?style=pencil-sketch&seed=522');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Карандаш / Уголь</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">акварель</span><span class="chip">пастель</span><span class="chip">масло</span><span class="chip">гравюра</span><span class="chip">витраж</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+## Жанры и эстетика
+
+Фантастические миры и атмосферные направления:
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/steampunk-gears-brass-machinery?style=steampunk&seed=530');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Стимпанк</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">sci-fi</span><span class="chip">дизельпанк</span><span class="chip">ноар</span><span class="chip">атомпанк</span><span class="chip">киберпанк</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/fantasy-dragon-castle?style=fantasy&seed=531');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Фэнтези / Sci-Fi</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">киберпанк</span><span class="chip">стимпанк</span><span class="chip">horror</span><span class="chip">noir</span><span class="chip">приключения</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/noir-detective-rainy-street?style=noir&seed=532');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Нуар / Хоррор</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">noir</span><span class="chip">horror</span><span class="chip">готика</span><span class="chip">detective</span><span class="chip">стимпанк</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+## Цифровые и современные стили
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/low-poly-3d-landscape?style=low-poly&seed=540');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">3D-графика</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">low-poly</span><span class="chip">pixel-art</span><span class="chip">vector</span><span class="chip">glitch</span><span class="chip">рендер</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/pixel-art-game-landscape?style=low-poly&seed=541');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Пиксель-арт / Low Poly</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">3d</span><span class="chip">vector</span><span class="chip">glitch</span><span class="chip">retro</span><span class="chip">game</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/vector-flat-illustration?style=vector-art&seed=542');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Вектор / Глитч</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">pixel-art</span><span class="chip">low-poly</span><span class="chip">3d</span><span class="chip">flat</span><span class="chip">abstract</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+## В стиле художников и медиа-вселенных
+
+Узнаваемая эстетика конкретных авторов и франшиз:
+
+<div class="row spacing4">
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/van-gogh-starry-landscape?style=van-gogh&seed=550');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Ван Гог / Моне / Пикассо</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">van-gogh</span><span class="chip">monet</span><span class="chip">picasso</span><span class="chip">mucha</span><span class="chip">dali</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/studio-ghibli-spirit-nature?style=studio-ghibli&seed=551');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Studio Ghibli / Disney</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">ghibli</span><span class="chip">disney</span><span class="chip">pixar</span><span class="chip">marvel</span><span class="chip">dreamworks</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-0" style="overflow:hidden">
+    <div style="height:180px;background-image:url('https://pixinlink.ru/400x180/cyberpunk-scifi-city?style=cyberpunk-2077&seed=552');background-size:cover;background-position:center"></div>
+    <div class="pa-3">
+      <h6 class="use-text-subtitle mb-2">Игры / Фильмы</h6>
+      <div class="chips d-flex flex-wrap gap-1">
+        <span class="chip">cyberpunk-2077</span><span class="chip">star-wars</span><span class="chip">matrix</span><span class="chip">lotr</span><span class="chip">star-trek</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
 <!-- @block: answer-first -->
 **?style= управляет художественной оптикой — это не фильтр, а переосмысление сцены нейросетью.** 6 базовых направлений + 50+ дополнительных (импрессионизм, акварель, киберпанк, Studio Ghibli, Ван Гог и другие). Комбинируются через `_`: `?style=watercolor_anime` даёт аниме в акварельной технике, `?style=steampunk_noir` — стимпанк в нуарной эстетике.
 <!-- @block: key-facts -->
@@ -33,105 +342,17 @@ https://pixinlink.ru/800x400/ваш-промпт?style=realistic
 
 Если параметр не указан, используется `realistic` по умолчанию. Стиль влияет на композицию, цветовую палитру, освещение и уровень детализации. Это не пост-фильтр — нейросеть заново интерпретирует сцену в заданной художественной системе координат.
 
-## Базовые стили (6)
+## Полный каталог стилей
 
-Шесть встроенных направлений, не требующих дополнительных ключевых слов:
-
-| Стиль | Визуал | Для каких задач |
-|-------|--------|-----------------|
-| `realistic` | Фото | Блоги, e-commerce, новости |
-| `illustration` | Вектор | Лендинги, SaaS, стартапы |
-| `3d` | Объёмный рендер | Продукты, хедеры, tech-блоги |
-| `cyberpunk` | Неон, тёмные тона | Игры, IT, киберспорт |
-| `anime` | Аниме | Творческие проекты, SMM |
-| `pixel-art` | Пиксели | Ретро, инди-игры |
-
-## Художественные стили и направления
-
-Классические школы живописи — от импрессионизма до авангарда:
-
-| Стиль | Суть |
-|-------|------|
-| `impressionist` | Мягкие мазки, свет и цвет — Моне |
-| `surrealist` | Сюрреализм — Дали, Магритт |
-| `cubism` | Геометрические формы — Пикассо |
-| `baroque` | Драматичный свет, пышность |
-| `minimalism` | Чистые линии, минимум деталей |
-| `expressionism` | Эмоция через искажение — Мунк |
-| `pop-art` | Яркие цвета, комикс-эстетика |
-| `avant-garde` | Экспериментальные формы |
-| `gothic` | Мрачная средневековая эстетика |
-| `renaissance` | Классические пропорции, светотень |
-| `art-deco` | Геометрия, роскошь, 1920-е |
-| `modern` | Текучесть, природные формы |
-
-**Когда использовать:** обложки книг, арт-проекты, культурные блоги, дизайнерские лендинги.
-
-## Техники и материалы
-
-Имитация художественных инструментов:
-
-| Стиль | Суть |
-|-------|------|
-| `watercolor` | Акварель — прозрачные слои |
-| `oil-painting` | Масло — плотные мазки |
-| `pencil-sketch` | Карандашный набросок |
-| `charcoal` | Уголь — контраст и тени |
-| `pastel` | Пастель — мягкие оттенки |
-| `engraving` | Гравюра — штрихи и линии |
-| `stained-glass` | Витраж — цветное стекло |
-| `mosaic` | Мозаика — фрагменты |
-
-**Когда использовать:** иллюстрации для статей, открытки, детский контент, инфографика.
-
-## Жанры и эстетика
-
-Фантастические миры и атмосферные направления:
-
-| Стиль | Суть |
-|-------|------|
-| `steampunk` | Пар и медь, викторианская эпоха |
-| `sci-fi` | Научная фантастика |
-| `dieselpunk` | Индустриальная эстетика 1930–50-х |
-| `noir` | Чёрно-белый нуар, детектив |
-| `atompunk` | Атомный век, ретро-футуризм |
-| `fantasy` | Фэнтези — драконы, замки, магия |
-| `horror` | Хоррор — тьма и напряжение |
-
-**Когда использовать:** игровые сайты, sci-fi блоги, тематические мероприятия.
-
-## Цифровые и современные стили
-
-| Стиль | Суть |
-|-------|------|
-| `low-poly` | Низкополигональная 3D-графика |
-| `vector-art` | Векторная иллюстрация |
-| `glitch` | Цифровые помехи и искажения |
-| `flat` | Плоский дизайн без теней |
-| `retro` | Ретро-эстетика 80–90-х |
-| `abstract` | Абстрактные формы и цвета |
-
-**Когда использовать:** UI/UX-портфолио, tech-стартапы, киберспорт.
-
-## В стиле художников и медиа-вселенных
-
-Узнаваемая эстетика конкретных авторов и франшиз:
-
-| Стиль | Суть |
-|-------|------|
-| `van-gogh` | Постимпрессионизм — вихревые мазки |
-| `monet` | Импрессионизм — кувшинки и свет |
-| `picasso` | Кубизм — геометрия и абстракция |
-| `mucha` | Ар-нуво — плавные линии и орнамент |
-| `dali` | Сюрреализм — плавящиеся часы |
-| `studio-ghibli` | Аниме Миядзаки — природа и магия |
-| `disney` | Классическая диснеевская анимация |
-| `pixar` | 3D-анимация Pixar |
-| `marvel` | Комикс-эстетика Marvel |
-| `cyberpunk-2077` | Мир игры Cyberpunk 2077 |
-| `star-wars` | Космическая сага |
-
-**Когда использовать:** фанатский контент, тематические блоги, креативные проекты, SMM.
+| Категория | Значения `?style=` |
+|-----------|-------------------|
+| Базовые (6) | `realistic`, `illustration`, `3d`, `pixel-art`, `cyberpunk`, `anime` |
+| Художественные | `impressionist`, `surrealist`, `cubism`, `baroque`, `minimalism`, `expressionism`, `pop-art`, `avant-garde`, `gothic`, `renaissance`, `art-deco`, `modern` |
+| Техники | `watercolor`, `oil-painting`, `pencil-sketch`, `charcoal`, `pastel`, `engraving`, `stained-glass`, `mosaic` |
+| Жанры | `steampunk`, `sci-fi`, `dieselpunk`, `noir`, `atompunk`, `fantasy`, `horror` |
+| Цифровые | `low-poly`, `vector-art`, `glitch`, `flat`, `retro`, `abstract` |
+| Художники | `van-gogh`, `monet`, `picasso`, `mucha`, `dali` |
+| Медиа-вселенные | `studio-ghibli`, `disney`, `pixar`, `marvel`, `cyberpunk-2077`, `star-wars` |
 
 ## Комбинирование стилей
 
