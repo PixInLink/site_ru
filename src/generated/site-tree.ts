@@ -225,6 +225,69 @@ export const siteTree = {
           "description": "Разные инструменты для разных задач — разберём, кому что подходит. Сравнение по 16 критериям с ценами и примерами кода.",
           "isIndex": false,
           "path": "content/ru/blog/2026-05-16-pixinlink-vs-midjourney.md"
+        },
+        {
+          "slug": "ai-izobrazheniya-dlya-sajta-rukovodstvo",
+          "title": "AI-изображения для сайта: полное руководство для вебмастеров",
+          "description": "Как встроить AI-генерацию изображений в сайт без дизайнера и стоков. WordPress, MODX, Tilda, Webflow. URL API, плагины, og:image, кеширование. Инструкция с кодом.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-15-ai-izobrazheniya-dlya-sajta.md"
+        },
+        {
+          "slug": "kak-ubrat-vodyanoj-znak",
+          "title": "Как убрать водяной знак PixInLink: привязка домена за 5 минут",
+          "description": "Пошаговая инструкция: как отключить водяной знак на AI-изображениях через привязку домена в личном кабинете. Без кода, без плагинов.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-16-kak-ubrat-vodyanoj-znak.md"
+        },
+        {
+          "slug": "wordpress-og-image-url",
+          "title": "WordPress og:image через URL — пошаговая инструкция",
+          "description": "Как настроить автоматические og:image для WordPress через PixInLink URL API. Плагин, шорткод, functions.php. Готовый код для Open Graph и Twitter Cards.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-16-wordpress-og-image.md"
+        },
+        {
+          "slug": "8-scenariev-ai-izobrazhenij",
+          "title": "8 сценариев использования AI-изображений для бизнеса",
+          "description": "Как бизнес использует AI-изображения: блоги, e-commerce, новостные сайты, соцсети, email-рассылки, лендинги, инфографика, каталоги. Кейсы с примерами кода.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-17-8-scenariev.md"
+        },
+        {
+          "slug": "ai-izobrazheniya-seo",
+          "title": "AI-изображения и SEO: как картинки влияют на позиции сайта",
+          "description": "Как AI-изображения через PixInLink улучшают SEO: LCP, WebP, CDN, og:image, alt-текст, sitemap. Практическое руководство с кодом.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-17-ai-izobrazheniya-seo.md"
+        },
+        {
+          "slug": "6-stilej-pixinlink",
+          "title": "6 стилей PixInLink: какой выбрать для вашего проекта",
+          "description": "Обзор всех стилей генерации PixInLink: realistic, illustration, 3d, pixel-art, cyberpunk, anime. Примеры промптов и URL для каждого стиля.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-18-6-stilej.md"
+        },
+        {
+          "slug": "ai-vs-stoki",
+          "title": "AI-изображения vs стоки: математика для владельца сайта",
+          "description": "Сравнение стоимости AI-генерации и стоковых фото для сайта. Расчёт для 20, 100 и 1000 изображений в месяц. PixInLink vs Shutterstock vs Unsplash.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-18-pixinlink-vs-stoki.md"
+        },
+        {
+          "slug": "seed-parametr",
+          "title": "Seed-параметр в PixInLink: как зафиксировать изображение навсегда",
+          "description": "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты, детерминированная генерация.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-18-seed-parametr.md"
+        },
+        {
+          "slug": "webp-cdn-optimizatsiya",
+          "title": "WebP и CDN-кеш PixInLink: ускорение загрузки изображений в 3–6 раз",
+          "description": "Как WebP-формат и CDN-кеш PixInLink ускоряют загрузку сайта. Сравнение с PNG, замеры LCP, PageSpeed Insights. Инструкция по внедрению.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-18-webp-cdn.md"
         }
       ],
       "component": null

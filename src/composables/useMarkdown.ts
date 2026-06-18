@@ -114,7 +114,7 @@ export function useMarkdown(raw: string): MarkdownResult {
   const body = parsed.content;
 
   const blocks = extractBlocks(body);
-  const bodyWithoutBlocks = body.replace(/<!--\s*@block:\s*\S+\s*-->[\s\S]*?(?=<!--\s*@block:|$)/g, "");
+  const bodyWithoutBlocks = body.replace(/<!--\s*@block:\s*\S+\s*-->/g, "");
 
   const unsafeHtml = markdown.render(bodyWithoutBlocks);
   const html = sanitizeHtml(unsafeHtml, sanitizerOptions);

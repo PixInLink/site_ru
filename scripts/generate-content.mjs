@@ -70,7 +70,7 @@ function toContentFile(absolutePath, relativePath) {
 
   const blocks = extractBlocks(parsed.content);
   const faqItems = extractFaq(parsed.content, blocks);
-  const bodyWithoutBlocks = parsed.content.replace(/<!--\s*@block:\s*\S+\s*-->[\s\S]*?(?=<!--\s*@block:|$)/g, "");
+  const bodyWithoutBlocks = parsed.content.replace(/<!--\s*@block:\s*\S+\s*-->/g, "");
 
   const cacheKey = `${relativePath}:${bodyWithoutBlocks.length}`;
   let html = markdownCache.get(cacheKey);

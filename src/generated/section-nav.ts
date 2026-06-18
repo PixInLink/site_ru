@@ -63,7 +63,16 @@ export const sectionNav = {
     "titleEn": "Blog",
     "articles": {
       "kak-pisat-prompty": "Как писать промпты для AI-изображений: полное руководство с примерами",
-      "pixinlink-vs-midjourney": "PixInLink vs Midjourney vs DALL-E: честное сравнение для блогеров и вебмастеров"
+      "pixinlink-vs-midjourney": "PixInLink vs Midjourney vs DALL-E: честное сравнение для блогеров и вебмастеров",
+      "ai-izobrazheniya-dlya-sajta-rukovodstvo": "AI-изображения для сайта: полное руководство для вебмастеров",
+      "kak-ubrat-vodyanoj-znak": "Как убрать водяной знак PixInLink: привязка домена за 5 минут",
+      "wordpress-og-image-url": "WordPress og:image через URL — пошаговая инструкция",
+      "8-scenariev-ai-izobrazhenij": "8 сценариев использования AI-изображений для бизнеса",
+      "ai-izobrazheniya-seo": "AI-изображения и SEO: как картинки влияют на позиции сайта",
+      "6-stilej-pixinlink": "6 стилей PixInLink: какой выбрать для вашего проекта",
+      "ai-vs-stoki": "AI-изображения vs стоки: математика для владельца сайта",
+      "seed-parametr": "Seed-параметр в PixInLink: как зафиксировать изображение навсегда",
+      "webp-cdn-optimizatsiya": "WebP и CDN-кеш PixInLink: ускорение загрузки изображений в 3–6 раз"
     }
   },
   "contact": {
