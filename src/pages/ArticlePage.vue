@@ -113,6 +113,7 @@ const tocItems = computed(() => processedHtml.value.toc);
     <PageBanner :pageTitle="article.frontmatter.title" :hideBreadcrumb="true" />
 
     <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <div class="container">
       <ol>
         <li v-for="(item, idx) in breadcrumbItems" :key="idx">
           <template v-if="item.url">
@@ -122,6 +123,7 @@ const tocItems = computed(() => processedHtml.value.toc);
           <span v-else class="bc-current">{{ item.name }}</span>
         </li>
       </ol>
+      </div>
     </nav>
 
     <main class="container-wrap container-pages">
@@ -143,14 +145,26 @@ const tocItems = computed(() => processedHtml.value.toc);
         >{{ tag }}</RouterLink>
       </div>
 
-      <nav v-if="tocItems.length > 0" class="toc">
-        <h2>{{ t.article.tableOfContents }}</h2>
-        <ul>
-          <li v-for="item in tocItems" :key="item.id" :class="`toc-level-${item.level}`">
-            <a :href="`#${item.id}`">{{ item.text }}</a>
-          </li>
-        </ul>
-      </nav>
+      <div v-if="tocItems.length > 0 || article.frontmatter.cover_image" class="row toc-row">
+        <div class="col-md-4 col-sm-12 mb-4">
+          <nav v-if="tocItems.length > 0" class="toc">
+            <h2>{{ t.article.tableOfContents }}</h2>
+            <ul>
+              <li v-for="item in tocItems" :key="item.id" :class="`toc-level-${item.level}`">
+                <a :href="`#${item.id}`">{{ item.text }}</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-8 col-sm-12 mb-4">
+          <img
+            v-if="article.frontmatter.cover_image"
+            class="toc-image"
+            :src="article.frontmatter.cover_image"
+            :alt="article.frontmatter.title"
+          >
+        </div>
+      </div>
 
       <article class="article">
         <div v-html="htmlWithIds"></div>
@@ -225,6 +239,9 @@ const tocItems = computed(() => processedHtml.value.toc);
 .breadcrumbs {
   background: #03a9f4;
   padding: 6px 0;
+}
+
+.breadcrumbs .container {
   display: flex;
   align-items: center;
 }
@@ -232,9 +249,7 @@ const tocItems = computed(() => processedHtml.value.toc);
 .breadcrumbs ol {
   list-style: none;
   margin: 0;
-  max-width: 1140px;
-  padding: 0 32px;
-  width: 100%;
+  padding: 0;
   line-height: 1.2;
 }
 
@@ -378,17 +393,23 @@ const tocItems = computed(() => processedHtml.value.toc);
   max-width: 100%;
 }
 
+.toc-row {
+  margin-bottom: 32px;
+}
+
 .toc {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 8px;
-  margin-bottom: 32px;
   padding: 20px 24px;
+  height: 100%;
 }
 
 .toc h2 {
   font-size: 16px;
   margin: 0 0 12px;
+  border: none;
+  padding: 0;
 }
 
 .toc ul {
@@ -413,5 +434,12 @@ const tocItems = computed(() => processedHtml.value.toc);
 
 .toc-level-3 a {
   padding-left: 16px;
+}
+
+.toc-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
 }
 </style>
