@@ -395,6 +395,11 @@ const tocItems = computed(() => processedHtml.value.toc);
 
 .toc-row {
   margin-bottom: 32px;
+  align-items: stretch;
+}
+
+.toc-row > .col-md-4 {
+  display: flex;
 }
 
 .toc {
@@ -402,7 +407,7 @@ const tocItems = computed(() => processedHtml.value.toc);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 20px 24px;
-  height: 100%;
+  width: 100%;
 }
 
 .toc h2 {
@@ -410,6 +415,7 @@ const tocItems = computed(() => processedHtml.value.toc);
   margin: 0 0 12px;
   border: none;
   padding: 0;
+  line-height: 1.3;
 }
 
 .toc ul {
@@ -420,12 +426,14 @@ const tocItems = computed(() => processedHtml.value.toc);
 
 .toc li {
   margin-bottom: 4px;
+  line-height: normal;
 }
 
 .toc a {
   color: var(--color-accent);
   font-size: 14px;
   text-decoration: none;
+  line-height: 1.6;
 }
 
 .toc a:hover {
