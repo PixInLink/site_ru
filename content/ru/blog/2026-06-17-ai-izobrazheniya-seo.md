@@ -23,7 +23,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-seo-optimiza
 - **OG:image в WebP:** Telegram и VK принимают WebP, экономя трафик пользователей.
 - **Sitemap для изображений:** Яндекс.Картинки индексируют изображения с правильным alt-текстом.
 - **7% конверсии** теряется за каждую дополнительную секунду загрузки (Google Research).
-<!-- @block: featured-snippet -->
+
 ## Влияние изображений на Core Web Vitals
 
 ### LCP (Largest Contentful Paint)
