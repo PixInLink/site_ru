@@ -1,6 +1,6 @@
 ---
-title: "AI-изображения для сайта: полное руководство для вебмастеров"
-description: "Как встроить AI-генерацию изображений в сайт без дизайнера и стоков. WordPress, MODX, Tilda, Webflow. URL API, плагины, og:image, кеширование. Инструкция с кодом."
+title: "AI-изображения для сайта: полное руководство для вебмастеров 2026"
+description: "Как встроить AI-изображения на сайт без дизайнера и стоков. WordPress, Tilda, Webflow, MODX. URL API, плагин, og:image, SDK, CDN-кеширование. С примерами кода."
 slug: "ai-izobrazheniya-dlya-sajta-rukovodstvo"
 date: "2026-06-15"
 author: "PixInLink"
@@ -12,65 +12,176 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-dlya-sajta-r
 ---
 <main class="container-wrap">
 
-<p>Вы ведёте сайт на WordPress, Tilda или MODX. Каждый пост требует картинки. Стоки — дорого (290 ₽ за фото), Canva — долго (15 минут на подбор), дизайнер — ещё дольше. PixInLink решает это одной строкой: <code>&lt;img src="https://pixinlink.ru/800x400/ваш-промпт"&gt;</code>. Никакого бэкенда, никаких плагинов, никакой регистрации. В этом руководстве — всё, что нужно вебмастеру для внедрения AI-изображений на сайт.</p>
-<!-- @block: answer-first -->
-**AI-изображения для сайта = одна строка HTML.** PixInLink работает как CDN: вы вставляете URL в тег `img`, сервер генерирует изображение, кеширует на год и отдаёт в WebP. Без бэкенда. Без API-ключа (для базового использования). Без ограничений по доменам.
-<!-- @block: key-facts -->
-## Ключевые факты
-- **1 строка кода** — `<img src="https://pixinlink.ru/800x400/промпт">` достаточно для работы.
-- **0 строк бэкенда** — PixInLink работает как CDN, а не как API.
-- **Кеш 365 дней** — повторные запросы отдаются мгновенно, не нагружая ваш сервер.
-- **WebP по умолчанию** — изображения весят ~50 КБ против 300+ КБ у PNG со стоков.
-- **50 генераций бесплатно** — без регистрации, просто вставляйте URL в `<img>`.
-- **152-ФЗ** — серверы в России (Яндекс.Облако), данные не покидают РФ.
-- **8192×8192 px** — максимальный размер изображения. Подходит для ретины и больших баннеров.
+<p>Каждый пост требует картинки. Стоки — 290 ₽ за фото. Canva — 15 минут на подбор. Дизайнер — ещё дольше. PixInLink решает это одной строкой: <code>&lt;img src="https://pixinlink.ru/800x400/ваш-промпт"&gt;</code>. Никакого бэкенда, никаких плагинов, никакой регистрации для старта. В этом руководстве — 4 способа интеграции AI-изображений на сайт с примерами кода.</p>
 
-## Как это работает
+<h2 class="use-text-title2">Ключевые цифры</h2>
 
-1. Вы пишете промпт на русском языке (например, `офис-разработчиков-смотрит-в-монитор`).
-2. Формируете URL: `https://pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор`.
-3. Вставляете этот URL в `<img src="...">` на своём сайте.
-4. При первом запросе PixInLink генерирует изображение через Kandinsky 3.1 (10–30 секунд).
-5. Все последующие запросы отдаются из CDN-кеша (мгновенно, до 365 дней).
+<div class="row spacing4">
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">1 строка HTML</h6>
+    <p class="use-text-paragraph mb-0 small"><code>&lt;img src="pixinlink.ru/800x400/промпт"&gt;</code> — всё, что нужно для работы. Без API-ключей, без SDK, без регистрации.</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">365 дней кеша</h6>
+    <p class="use-text-paragraph mb-0 small">Первая генерация 10–30 сек. Все последующие — мгновенно из CDN-кеша. Нагрузка на ваш сервер: ноль.</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">WebP ~50 КБ</h6>
+    <p class="use-text-paragraph mb-0 small">Автоматическая оптимизация в WebP (quality=85). В 6 раз легче PNG со стоков. LCP улучшается на 0.3–0.8 сек.</p>
+  </div>
+</div>
+</div>
 
-## Способы интеграции
+<div class="row spacing4" style="margin-top:0">
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">50 бесплатно</h6>
+    <p class="use-text-paragraph mb-0 small">Без регистрации, без привязки карты. Просто вставляйте URL в img src. Для коммерции — Starter от 490 ₽/мес.</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">Любая CMS</h6>
+    <p class="use-text-paragraph mb-0 small">WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — работает везде, где есть HTML. URL = универсальный интерфейс.</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
+    <h6 class="use-text-subtitle mb-1">Кириллица native</h6>
+    <p class="use-text-paragraph mb-0 small">Kandinsky 3.1 обучен на русскоязычных данных. Промпт на русском даёт лучший результат, чем на английском.</p>
+  </div>
+</div>
+</div>
 
-<h3 class="use-text-subtitle">1. Прямой URL в `<img>` (любой сайт)</h3>
-```html
-<img src="https://pixinlink.ru/800x400/офис-разработчиков" alt="Современный офис">
-```
-Работает на WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — везде, где есть HTML.
+<h2 class="use-text-title2">Как это работает: 5 шагов</h2>
 
-<h3 class="use-text-subtitle">2. WordPress-плагин PixInLink</h3>
-Официальный плагин добавляет Gutenberg-блок и шорткод `[pixinlink]`. Автоматически генерирует og:image для каждой записи. Кеширует изображения локально.
+<div class="row spacing4">
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="text-align:center">
+    <h6 class="use-text-subtitle mb-1">1. Промпт</h6>
+    <p class="use-text-paragraph mb-0 small">Пишете описание на русском: «офис разработчиков смотрит в монитор»</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="text-align:center">
+    <h6 class="use-text-subtitle mb-1">2. URL</h6>
+    <p class="use-text-paragraph mb-0 small">Формируете: <code>pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор</code></p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="text-align:center">
+    <h6 class="use-text-subtitle mb-1">3. Вставка</h6>
+    <p class="use-text-paragraph mb-0 small">Вставляете URL в <code>&lt;img src="..."&gt;</code> на своём сайте</p>
+  </div>
+</div>
+</div>
 
-<h3 class="use-text-subtitle">3. Open Graph (og:image) для соцсетей</h3>
-```html
-<meta property="og:image" content="https://pixinlink.ru/1200x630/заголовок-вашей-статьи">
-```
-Каждый пост в WordPress автоматически получает уникальную обложку для Telegram, VK, Twitter.
+<div class="row spacing4" style="margin-top:0">
+<div class="col-md-6 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="text-align:center">
+    <h6 class="use-text-subtitle mb-1">4. Генерация</h6>
+    <p class="use-text-paragraph mb-0 small">Первый посетитель инициирует генерацию: 10–30 секунд</p>
+  </div>
+</div>
+<div class="col-md-6 col-sm-12 pa-2">
+  <div class="card paper pa-3" style="text-align:center">
+    <h6 class="use-text-subtitle mb-1">5. Кеш</h6>
+    <p class="use-text-paragraph mb-0 small">Все последующие — мгновенно из CDN до 365 дней</p>
+  </div>
+</div>
+</div>
+
+<h2 class="use-text-title2">4 способа интеграции</h2>
+
+<h3 class="use-text-subtitle">1. Прямой URL в `<img>` — любой сайт</h3>
+
+<pre><code>&lt;img src="https://pixinlink.ru/800x400/офис-разработчиков"
+     alt="Современный офис"
+     loading="lazy"&gt;</code></pre>
+
+<p>Работает на WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — везде, где есть HTML. Без плагинов, без кода, без регистрации для первых 50 генераций.</p>
+
+<h3 class="use-text-subtitle">2. WordPress-плагин</h3>
+
+<p>Официальный плагин PixInLink для WordPress добавляет:</p>
+<ul>
+  <li>Gutenberg-блок для вставки AI-изображений</li>
+  <li>Шорткод <code>[pixinlink width="800" height="400" prompt="офис"]</code></li>
+  <li>Автоматический og:image для каждой записи</li>
+  <li>Локальное кеширование изображений</li>
+  <li>Добавление в XML Sitemap</li>
+</ul>
+
+<h3 class="use-text-subtitle">3. Open Graph (og:image) — соцсети</h3>
+
+<pre><code>&lt;meta property="og:image"
+      content="https://pixinlink.ru/1200x630/заголовок-вашей-статьи"&gt;</code></pre>
+
+<p>Каждый пост автоматически получает уникальное превью для Telegram, VK, Twitter. Подставьте заголовок статьи в URL — og:image готов.</p>
 
 <h3 class="use-text-subtitle">4. SDK для разработчиков</h3>
-Python, JavaScript/TypeScript, PHP. Установка одной командой:
-```bash
-pip install pixinlink        # Python
-npm install pixinlink-sdk    # JavaScript
-composer require pixinlink/php-sdk  # PHP
-```
 
-## Частые вопросы
+<p>Для кастомных решений на Python, JavaScript и PHP:</p>
 
-**Q: Обязательно ли регистрироваться?**
-**A:** Нет. 50 генераций доступны без регистрации. Регистрация нужна для увеличения лимита, привязки домена и отключения водяного знака.
+<pre><code># Python
+pip install pixinlink
 
-**Q: Что будет, если я использую PixInLink на сайте с посещаемостью 10 000 в день?**
-**A:** Первый посетитель инициирует генерацию (10–30 сек). Все последующие получают изображение из CDN-кеша мгновенно. Нагрузка на ваш сервер — ноль.
+# JavaScript
+npm install pixinlink-sdk
 
-**Q: Есть ли ограничение по доменам?**
-**A:** Без регистрации — нет. С регистрацией вы привязываете домены, и водяной знак автоматически отключается для них.
+# PHP
+composer require pixinlink/php-sdk</code></pre>
+
+<h2 class="use-text-title2">Быстрый старт: примеры для популярных CMS</h2>
+
+<table class="highlight striped">
+  <thead>
+    <tr><th>Платформа</th><th>Способ интеграции</th><th>Сложность</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WordPress</td><td>Официальный плагин + шорткод</td><td>⭐</td></tr>
+    <tr><td>Tilda</td><td>HTML-блок + URL в img src</td><td>⭐</td></tr>
+    <tr><td>Webflow</td><td>Embed-компонент + URL</td><td>⭐</td></tr>
+    <tr><td>MODX</td><td>Чанк с URL + сниппет для og:image</td><td>⭐⭐</td></tr>
+    <tr><td>Hugo / Jekyll</td><td>Shortcode в шаблоне</td><td>⭐⭐</td></tr>
+    <tr><td>Ghost</td><td>HTML-карточка + URL</td><td>⭐</td></tr>
+    <tr><td>Самописный сайт</td><td>URL в img src + SDK</td><td>⭐⭐</td></tr>
+  </tbody>
+</table>
+
+<h2 class="use-text-title2">FAQ: короткие ответы</h2>
+
+<h3 class="use-text-subtitle">Обязательно ли регистрироваться?</h3>
+<p>Нет. 50 генераций доступны без регистрации. Регистрация нужна для увеличения лимита, привязки домена и отключения водяного знака.</p>
+
+<h3 class="use-text-subtitle">Что будет при высокой посещаемости (10 000+ в день)?</h3>
+<p>Первый посетитель инициирует генерацию (10–30 сек). Все последующие получают изображение из CDN-кеша мгновенно. Нагрузка на ваш сервер — ноль. CDN раздаёт по всему миру.</p>
+
+<h3 class="use-text-subtitle">Есть ли ограничения по доменам?</h3>
+<p>Без регистрации — нет. С регистрацией вы привязываете домены (до 3 на Starter), и водяной знак автоматически отключается для них по Referer-заголовку.</p>
+
+<h3 class="use-text-subtitle">Какой формат изображения лучше для сайта?</h3>
+<p>PixInLink по умолчанию отдаёт WebP (quality=85) — это оптимальный формат для веба. Доступны также AVIF и PNG через параметр <code>?format=png</code>.</p>
+
+<h3 class="use-text-subtitle">Что писать в alt-тексте для AI-изображений?</h3>
+<p>Используйте описательный alt на основе промпта. Например: <code>alt="Современный офис с разработчиками за мониторами"</code>. Не оставляйте alt пустым — это важно для SEO и доступности.</p>
+
+<h3 class="use-text-subtitle">Можно ли использовать на нескольких сайтах?</h3>
+<p>Да. Вы можете привязать до 3 доменов на Starter, до 10 на Pro. Все они будут получать изображения без водяного знака.</p>
+<!-- @block: key-facts -->
+**AI-изображения для сайта = одна строка HTML.** PixInLink работает как CDN: URL → генерация → WebP → кеш на 365 дней. Без бэкенда, без API-ключа, без регистрации для старта. Подходит для любой CMS от WordPress до самописных сайтов.
 <!-- @block: cta -->
-## Начните прямо сейчас
-Вставьте этот URL в адресную строку браузера — и вы увидите первое AI-изображение: `pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор`
-[Попробовать бесплатно](https://app.pixinlink.ru/register)
+<h2 class="use-text-title2">Начните прямо сейчас</h2>
+
+<p>Вставьте этот URL в адресную строку браузера — и вы увидите первое AI-изображение через 15 секунд:</p>
+
+<pre><code>https://pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор</code></pre>
+
+<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
 
 </main>

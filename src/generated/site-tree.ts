@@ -221,43 +221,43 @@ export const siteTree = {
         },
         {
           "slug": "pixinlink-vs-midjourney",
-          "title": "PixInLink vs Midjourney vs DALL-E: честное сравнение для блогеров и вебмастеров",
-          "description": "Разные инструменты для разных задач — разберём, кому что подходит. Сравнение по 16 критериям с ценами и примерами кода.",
+          "title": "PixInLink vs Midjourney vs DALL-E: что выбрать блогеру и вебмастеру в 2026",
+          "description": "Сравнение PixInLink, Midjourney и DALL-E по 16 критериям: цена, API, CDN-кеш, og:image, WordPress, WebP, 152-ФЗ. С примерами кода и расчётом стоимости для 80 изображений в месяц.",
           "isIndex": false,
           "path": "content/ru/blog/2026-05-16-pixinlink-vs-midjourney.md"
         },
         {
           "slug": "ai-izobrazheniya-dlya-sajta-rukovodstvo",
-          "title": "AI-изображения для сайта: полное руководство для вебмастеров",
-          "description": "Как встроить AI-генерацию изображений в сайт без дизайнера и стоков. WordPress, MODX, Tilda, Webflow. URL API, плагины, og:image, кеширование. Инструкция с кодом.",
+          "title": "AI-изображения для сайта: полное руководство для вебмастеров 2026",
+          "description": "Как встроить AI-изображения на сайт без дизайнера и стоков. WordPress, Tilda, Webflow, MODX. URL API, плагин, og:image, SDK, CDN-кеширование. С примерами кода.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-15-ai-izobrazheniya-dlya-sajta.md"
         },
         {
           "slug": "kak-ubrat-vodyanoj-znak",
           "title": "Как убрать водяной знак PixInLink: привязка домена за 5 минут",
-          "description": "Пошаговая инструкция: как отключить водяной знак на AI-изображениях через привязку домена в личном кабинете. Без кода, без плагинов.",
+          "description": "Пошаговая инструкция: отключение водяного знака на AI-изображениях через привязку домена в личном кабинете. Без кода, без плагинов, без изменения URL. Starter от 490 ₽/мес.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-16-kak-ubrat-vodyanoj-znak.md"
         },
         {
           "slug": "wordpress-og-image-url",
-          "title": "WordPress og:image через URL — пошаговая инструкция",
-          "description": "Как настроить автоматические og:image для WordPress через PixInLink URL API. Плагин, шорткод, functions.php. Готовый код для Open Graph и Twitter Cards.",
+          "title": "WordPress og:image через URL: автообложки для соцсетей за 5 минут",
+          "description": "Как настроить автоматические og:image для WordPress через PixInLink URL API. Плагин, functions.php, шорткод. Готовый код для Open Graph и Twitter Cards.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-16-wordpress-og-image.md"
         },
         {
           "slug": "8-scenariev-ai-izobrazhenij",
-          "title": "8 сценариев использования AI-изображений для бизнеса",
-          "description": "Как бизнес использует AI-изображения: блоги, e-commerce, новостные сайты, соцсети, email-рассылки, лендинги, инфографика, каталоги. Кейсы с примерами кода.",
+          "title": "8 сценариев использования AI-изображений для бизнеса: от блога до маркетплейса",
+          "description": "Как бизнес использует AI-изображения PixInLink: блоги, e-commerce, новости, соцсети, email, лендинги, инфографика, агрегаторы. 8 кейсов с примерами кода.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-17-8-scenariev.md"
         },
         {
           "slug": "ai-izobrazheniya-seo",
-          "title": "AI-изображения и SEO: как картинки влияют на позиции сайта",
-          "description": "Как AI-изображения через PixInLink улучшают SEO: LCP, WebP, CDN, og:image, alt-текст, sitemap. Практическое руководство с кодом.",
+          "title": "AI-изображения и SEO: как картинки влияют на позиции сайта в 2026",
+          "description": "Как AI-изображения PixInLink улучшают SEO: LCP, WebP, CDN, og:image, alt-текст, sitemap. Core Web Vitals, PageSpeed Insights. Практическое руководство с кодом.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-17-ai-izobrazheniya-seo.md"
         },
@@ -271,7 +271,7 @@ export const siteTree = {
         {
           "slug": "seed-parametr",
           "title": "Seed-параметр в PixInLink: как зафиксировать изображение навсегда",
-          "description": "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты, детерминированная генерация.",
+          "description": "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты обложек, ротация, версионирование. 4 сценария с кодом.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-18-seed-parametr.md"
         },
@@ -285,7 +285,7 @@ export const siteTree = {
         {
           "slug": "webp-cdn-optimizatsiya",
           "title": "WebP и CDN-кеш PixInLink: ускорение загрузки изображений в 3–6 раз",
-          "description": "Как WebP-формат и CDN-кеш PixInLink ускоряют загрузку сайта. Сравнение с PNG, замеры LCP, PageSpeed Insights. Инструкция по внедрению.",
+          "description": "Как WebP и CDN PixInLink ускоряют сайт. Сравнение WebP vs PNG vs JPEG vs AVIF. Замеры LCP, PageSpeed Insights. Форматы, кеширование, cache-control.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-18-webp-cdn.md"
         }
