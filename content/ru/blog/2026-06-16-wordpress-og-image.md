@@ -13,16 +13,16 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/wordpress-og-image-url-pixinl
 <main class="container-wrap">
 
 <p>Стандартная проблема WordPress-блогера: написал статью — нет обложки для соцсетей. Без og:image Telegram и VK показывают пустой превью. Без Twitter Card — ссылка выглядит как спам. Решение: PixInLink генерирует og:image автоматически по URL. В этой инструкции — три способа настройки: от плагина до чистого кода в functions.php.</p>
-(блок: answer-first)
+<!-- @block: answer-first -->
 **Настройте og:image в WordPress за 5 минут.** Установите официальный плагин PixInLink — и каждая запись автоматически получит уникальную обложку 1200×630. Или добавьте 5 строк в functions.php — без плагина. Или используйте шорткод `[pixinlink]` для ручного управления.
-(блок: key-facts)
+<!-- @block: key-facts -->
 ## Ключевые факты
 - **1200×630 px** — стандартный размер og:image для всех соцсетей (Telegram, VK, Twitter, Facebook).
 - **Автоматическая генерация:** og:image создаётся на основе заголовка статьи.
 - **Кеш на год:** изображение не перегенерируется при каждом просмотре.
 - **Без нагрузки на хостинг:** PixInLink отдаёт картинки со своего CDN.
 - **WebP + AVIF:** современные форматы, которые принимают все соцсети.
-(блок: featured-snippet)
+<!-- @block: featured-snippet -->
 ## Способ 1: Официальный плагин (рекомендуемый)
 
 1. Установите плагин из каталога WordPress: `Плагины → Добавить новый → "PixInLink"`.
@@ -75,7 +75,7 @@ echo do_shortcode('[pixinlink width="1200" height="630" prompt="' . get_the_titl
 ```bash
 curl -s https://ваш-сайт.ru/статья/ | grep og:image
 ```
-(блок: cta)
+<!-- @block: cta -->
 ## Начните с бесплатных 50 генераций
 Установите плагин или скопируйте код в functions.php — первая обложка появится через 30 секунд.
 [Зарегистрироваться бесплатно](https://app.pixinlink.ru/register)

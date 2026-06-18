@@ -13,9 +13,9 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-seo-optimiza
 <main class="container-wrap">
 
 <p>Google PageSpeed Insights и Яндекс.Метрика штрафуют сайты за медленные изображения. Каждая лишняя секунда загрузки снижает конверсию на 7%. Стоковые PNG весят 300+ КБ. AI-изображения PixInLink в WebP — 50 КБ, с CDN-кешем на год. Разница в LCP составляет 0.5–1.0 секунды. В этой статье — как use AI-картинки для улучшения SEO и Core Web Vitals.</p>
-(блок: answer-first)
+<!-- @block: answer-first -->
 **AI-изображения через PixInLink ускоряют загрузку сайта в 3–6 раз.** WebP + CDN-кеш + автоматический ресайз под размер экрана. Результат: LCP снижается на 0.5–1.0 с, общий балл PageSpeed вырастает на 10–20 пунктов.
-(блок: key-facts)
+<!-- @block: key-facts -->
 ## Ключевые факты
 - **WebP сжимает изображения на 30–60%** по сравнению с PNG без видимой потери качества.
 - **CDN с 365-дневным кешем** — повторные запросы мгновенные, нагрузка на сервер нулевая.
@@ -23,7 +23,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-seo-optimiza
 - **OG:image в WebP:** Telegram и VK принимают WebP, экономя трафик пользователей.
 - **Sitemap для изображений:** Яндекс.Картинки индексируют изображения с правильным alt-текстом.
 - **7% конверсии** теряется за каждую дополнительную секунду загрузки (Google Research).
-(блок: featured-snippet)
+<!-- @block: featured-snippet -->
 ## Влияние изображений на Core Web Vitals
 
 ### LCP (Largest Contentful Paint)
@@ -77,7 +77,7 @@ WordPress-плагин PixInLink автоматически добавляет A
 2. **Яндекс.Метрика → Вебвизор** — посмотрите время загрузки страницы.
 3. **Chrome DevTools → Lighthouse** — замерьте LCP конкретно.
 4. **WebPageTest.org** — детальный отчёт по скорости.
-(блок: cta)
+<!-- @block: cta -->
 ## Ускорьте свой сайт за 5 минут
 Замените стоковые PNG на AI-WebP через PixInLink. Первые 50 генераций бесплатно.
 [Попробовать бесплатно](https://app.pixinlink.ru/register)
