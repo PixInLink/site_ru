@@ -1060,6 +1060,26 @@ schema_type: "WebPage"
                     </div>
                   </div>
                 </div>
+                <div class="row spacing4 mt-4">
+                  <div class="col-md-6 col-sm-12 pa-2">
+                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                      <code class="use-text-subtitle" style="color:#03A9F4">?style=surrealist_impressionist</code>
+                      <p class="use-text-paragraph mt-2 mb-0 small">Сюрреализм в мягкой импрессионистской палитре</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 pa-2">
+                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                      <code class="use-text-subtitle" style="color:#03A9F4">?style=cyberpunk_renaissance</code>
+                      <p class="use-text-paragraph mt-2 mb-0 small">Киберпанк в эстетике эпохи Возрождения</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 pa-2">
+                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                      <code class="use-text-subtitle" style="color:#03A9F4">?style=vector_anime</code>
+                      <p class="use-text-paragraph mt-2 mb-0 small">Аниме в векторной графике</p>
+                    </div>
+                  </div>
+                </div>
                 <div class="text-center mt-4">
                   <a class="btn waves-effect button btn-large primary" href="https://pixinlink.ru/400x180/anime-watercolor-dreamscape?style=watercolor_anime&seed=399">
                     Посмотреть пример комбинации &nbsp;<i class="material-icons" style="font-size:16px;vertical-align:middle">open_in_new</i>
