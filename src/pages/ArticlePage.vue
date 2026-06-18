@@ -406,7 +406,7 @@ const tocItems = computed(() => processedHtml.value.toc);
 
 .toc h2 {
   font-size: 16px;
-  margin: 0 0 8px;
+  margin: 8px 0 8px 8px;
   padding: 0;
   line-height: 1.3;
 }
@@ -419,6 +419,7 @@ const tocItems = computed(() => processedHtml.value.toc);
 
 .toc li {
   margin-bottom: 12px;
+  padding-left: 10px;
   line-height: normal;
   display: block;
 }
