@@ -154,36 +154,7 @@ schema_type: "WebPage"
                         <div class="counter-item-home">
                           <div class="text">
                             <h3 class="use-text-title">100</h3>
-                            <p class="use-text-subtitle2">мс TTFB</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="counter-item-home">
-                          <div class="text">
-                            <h3 class="use-text-title">50</h3>
-                            <p class="use-text-subtitle2">КБ вес WebP</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="counter-item-home">
-                          <div class="text">
-                            <h3 class="use-text-title">140</h3>
-                            <p class="use-text-subtitle2">точек CDN</p>
-                          </div>
-                        </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- ##### END ABOUT #####-->
+                            <p class="use-text-subtitle2">мс TTFB</p></div></div><!-- ##### END ABOUT #####-->
 <!-- ##### SERVICES #####-->
 <section class="space-top space-top-short-md" id="services">
   <div class="root">
@@ -406,16 +377,7 @@ schema_type: "WebPage"
               <div class="col-sm-6 px-0 py-2">
                 <div class="desc-icon icon-accent2"><i class="material-icons icon">security</i></div>
                 <h3 class="use-text-subtitle">152-ФЗ из коробки</h3>
-                <p class="use-text-paragraph">Инфраструктура в РФ (Yandex Cloud, Selectel). Данные не покидают контур. Шифрование AES-256, удаление EXIF.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- ##### END EXPERTISE #####-->
+                <p class="use-text-paragraph">Инфраструктура в РФ (Yandex Cloud, Selectel). Данные не покидают контур. Шифрование AES-256, удаление EXIF.</p></div></div><!-- ##### END EXPERTISE #####-->
 <!-- ##### TESTIMONIALS #####-->
 <section class="space-top-short" id="testimonials">
   <div class="root">
@@ -822,13 +784,8 @@ schema_type: "WebPage"
 <section class="space-top space-top-short-sm" id="styles">
   <div class="root">
     <div class="container">
-      <div class="row justify-content-center mb-8">
-        <div class="col-md-8 col-sm-12 text-center">
-          <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
-          <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
-        </div>
-      </div>
-      <!-- ═══ РЯД 1: Художественные стили ═══ -->
+      <div class="row mb-8 align-items-center"><div class="col-md-5 col-sm-12"><h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
+          <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p></div></div><!-- ═══ РЯД 1: Художественные стили ═══ -->
       <div class="mb-6">
         <div class="row align-items-center mb-3">
           <div class="col-12"><h5 class="use-text-title2">Художественные стили и направления</h5></div>
@@ -1044,34 +1001,7 @@ schema_type: "WebPage"
                 <div class="row spacing4">
                   <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=watercolor_anime</code>
-                      <p class="use-text-paragraph mt-2 mb-0 small">Аниме, нарисованное акварелью</p>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
-                      <code class="use-text-subtitle" style="color:#03A9F4">?style=steampunk_noir</code>
-                      <p class="use-text-paragraph mt-2 mb-0 small">Стимпанк в мрачной стилистике нуар</p>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
-                      <code class="use-text-subtitle" style="color:#03A9F4">?style=pixel-art_cyberpunk</code>
-                      <p class="use-text-paragraph mt-2 mb-0 small">Киберпанк в пиксельной эстетике</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center mt-4">
-                  <a class="btn waves-effect button btn-large primary" href="https://pixinlink.ru/400x180/anime-watercolor-dreamscape?style=watercolor_anime&seed=399">
-                    Посмотреть пример комбинации &nbsp;<i class="material-icons" style="font-size:16px;vertical-align:middle">open_in_new</i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-  <!-- ##### CALL ACTION #####-->
+                      <p class="use-text-paragraph mt-2 mb-0 small">Аниме, нарисованное акварелью</p></div></div><!-- ##### CALL ACTION #####-->
     <section class="space-bottom">
       <div class="call-to-action">
         <div class="container fixed-width-md-up">
