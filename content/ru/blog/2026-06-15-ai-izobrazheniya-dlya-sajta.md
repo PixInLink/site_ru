@@ -35,22 +35,22 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-dlya-sajta-r
 
 ## Способы интеграции
 
-### 1. Прямой URL в `<img>` (любой сайт)
+<h3 class="use-text-subtitle">1. Прямой URL в `<img>` (любой сайт)</h3>
 ```html
 <img src="https://pixinlink.ru/800x400/офис-разработчиков" alt="Современный офис">
 ```
 Работает на WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — везде, где есть HTML.
 
-### 2. WordPress-плагин PixInLink
+<h3 class="use-text-subtitle">2. WordPress-плагин PixInLink</h3>
 Официальный плагин добавляет Gutenberg-блок и шорткод `[pixinlink]`. Автоматически генерирует og:image для каждой записи. Кеширует изображения локально.
 
-### 3. Open Graph (og:image) для соцсетей
+<h3 class="use-text-subtitle">3. Open Graph (og:image) для соцсетей</h3>
 ```html
 <meta property="og:image" content="https://pixinlink.ru/1200x630/заголовок-вашей-статьи">
 ```
 Каждый пост в WordPress автоматически получает уникальную обложку для Telegram, VK, Twitter.
 
-### 4. SDK для разработчиков
+<h3 class="use-text-subtitle">4. SDK для разработчиков</h3>
 Python, JavaScript/TypeScript, PHP. Установка одной командой:
 ```bash
 pip install pixinlink        # Python

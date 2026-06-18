@@ -38,14 +38,14 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/seed-parametr-pixinlink-fiksa
 
 ## Практические сценарии
 
-### Сценарий 1: Карточка товара
+<h3 class="use-text-subtitle">Сценарий 1: Карточка товара</h3>
 Вы хотите, чтобы карточка товара всегда показывала одно и то же изображение:
 ```html
 <img src="https://pixinlink.ru/600x600/кожаный-диван-угловой-серый?seed=12345">
 ```
 Даже через 6 месяцев — та же картинка.
 
-### Сценарий 2: A/B-тест обложки для статьи
+<h3 class="use-text-subtitle">Сценарий 2: A/B-тест обложки для статьи</h3>
 Сгенерируйте 5 вариантов с разными seed и выберите лучший:
 ```
 /pixinlink.ru/1200x630/статья-про-seed?seed=1
@@ -55,14 +55,14 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/seed-parametr-pixinlink-fiksa
 /pixinlink.ru/1200x630/статья-про-seed?seed=5
 ```
 
-### Сценарий 3: Ротация изображений
+<h3 class="use-text-subtitle">Сценарий 3: Ротация изображений</h3>
 Показывайте разную обложку разным посетителям:
 ```javascript
 const seed = Math.floor(Math.random() * 1000) + 1;
 const url = `https://pixinlink.ru/1200x630/промпт?seed=${seed}`;
 ```
 
-### Сценарий 4: Версионирование бренда
+<h3 class="use-text-subtitle">Сценарий 4: Версионирование бренда</h3>
 Меняйте стиль сайта, сохраняя старые изображения:
 ```
 seed=2026Q1  → версия Q1 2026
