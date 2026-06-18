@@ -109,5 +109,4 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-pisat-prompty-ai-images-g
 <!-- @block: cta -->
 ## Хватит читать — пора тестировать
 Вставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Попробовать бесплатно](https://app.pixinlink.ru/register)
-</div>
 </main>

@@ -73,5 +73,4 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-vs-stoki-matematika"
 Сколько изображений вы используете в месяц? Умножьте на 290 ₽ (Shutterstock) или на 0.98 ₽ (PixInLink). Разница впечатляет.
 [50 генераций бесплатно](https://app.pixinlink.ru/register)
 
-</div>
 </main>
