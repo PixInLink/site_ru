@@ -822,12 +822,14 @@ schema_type: "WebPage"
 <section class="space-top space-top-short-sm" id="styles">
   <div class="root">
     <div class="container">
-      <div class="row justify-content-center mb-8">
-        <div class="col-md-8 col-sm-12 text-center">
-          <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
-          <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
+              <div class="row mb-8 align-items-center">
+          <div class="col-md-5 col-sm-12">
+            <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
+          </div>
+          <div class="col-md-7 col-sm-12">
+            <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
+          </div>
         </div>
-      </div>
       <!-- ═══ РЯД 1: Художественные стили ═══ -->
       <div class="mb-6">
         <div class="row align-items-center mb-3">
