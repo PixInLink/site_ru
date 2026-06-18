@@ -110,7 +110,7 @@ const tocItems = computed(() => processedHtml.value.toc);
 <template>
   <div class="progress-bar" :style="{ width: progress + '%' }"></div>
   <template v-if="article">
-    <PageBanner :pageTitle="article.frontmatter.title" />
+    <PageBanner :pageTitle="article.frontmatter.title" :hideBreadcrumb="true" />
 
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <ol>
@@ -201,7 +201,7 @@ const tocItems = computed(() => processedHtml.value.toc);
   </template>
 
   <template v-else>
-    <PageBanner pageTitle="Article not found" />
+    <PageBanner pageTitle="Article not found" :hideBreadcrumb="true" />
     <main class="container-wrap container-pages">
       <div class="container">
       <p>The requested Markdown document is not available.</p>
@@ -223,16 +223,19 @@ const tocItems = computed(() => processedHtml.value.toc);
 }
 
 .breadcrumbs {
-  background: var(--color-bg-muted);
-  border-bottom: 1px solid var(--color-border);
-  padding: 10px 0;
+  background: #03a9f4;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
 }
 
 .breadcrumbs ol {
   list-style: none;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0 20px;
+  margin: 0;
+  max-width: 1140px;
+  padding: 0 32px;
+  width: 100%;
+  line-height: 1.2;
 }
 
 .breadcrumbs li {
@@ -241,21 +244,22 @@ const tocItems = computed(() => processedHtml.value.toc);
 }
 
 .breadcrumbs a {
-  color: var(--color-accent);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
 }
 
 .breadcrumbs a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
 .bc-sep {
-  color: var(--color-text-muted);
+  color: rgba(255, 255, 255, 0.5);
   margin: 0 6px;
 }
 
 .bc-current {
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .article-meta {

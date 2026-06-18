@@ -1,16 +1,19 @@
 <script setup lang="ts">
 import { t } from "../i18n";
 
-defineProps<{
+withDefaults(defineProps<{
   pageTitle: string;
-}>();
+  hideBreadcrumb?: boolean;
+}>(), {
+  hideBreadcrumb: false,
+});
 </script>
 
 <template>
   <div class="page-banner">
     <div class="container">
       <h1>{{ pageTitle }}</h1>
-      <nav class="breadcrumb">
+      <nav v-if="!hideBreadcrumb" class="breadcrumb">
         <RouterLink to="/">{{ t.pageBanner.home }}</RouterLink>
         <span class="separator">/</span>
         <span>{{ pageTitle }}</span>

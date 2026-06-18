@@ -48,7 +48,7 @@ const pageNumbers = computed(() => {
 </script>
 
 <template>
-  <PageBanner :pageTitle="pageTitle" />
+  <PageBanner :pageTitle="pageTitle" :hideBreadcrumb="true" />
 
   <main class="container-wrap container-pages">
     <div class="container">

@@ -34,7 +34,7 @@ useSeo(() => ({
 </script>
 
 <template>
-  <PageBanner :pageTitle="`#${tagName}`" />
+  <PageBanner :pageTitle="`#${tagName}`" :hideBreadcrumb="true" />
 
   <main class="container-wrap container-pages">
     <div class="container">
