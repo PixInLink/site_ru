@@ -121,7 +121,7 @@ schema_type: "WebPage"
   <div class="root">
     <div class="container fixed-width">
       <div class="row">
-<div class="col-md-5 col-sm-12 py-6 ps-lg-15">
+<div class="col-md-6 col-sm-12 py-6 ps-lg-15">
                       <div class="ms-md-12 ps-md-3">
                         <div>
                           <div class="title-deco">
@@ -823,11 +823,10 @@ schema_type: "WebPage"
   <div class="root">
     <div class="container">
       <div class="row mb-8 align-items-center">
-        <div class="col-md-5 col-sm-12">
+        <div class="col-md-6 col-sm-12">
           <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
         </div>
-        <div class="col-md-7 col-sm-12">
-          <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
+        <div class="col-md-6 col-sm-12"><p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
         </div>
       </div>
         <div class="row align-items-center mb-3">
