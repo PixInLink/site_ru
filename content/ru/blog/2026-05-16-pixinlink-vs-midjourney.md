@@ -116,4 +116,5 @@ with open("image.png", "wb") as f:
 <!-- @block: cta -->
 ## Хватит читать — пора тестировать
 Вставьте `pixinlink.ru/800x400/офис-разработчиков` в браузер прямо сейчас. [Получить 50 генераций бесплатно](https://app.pixinlink.ru/register)
+</div>
 </main>

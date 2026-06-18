@@ -82,4 +82,5 @@ WordPress-плагин PixInLink автоматически добавляет A
 Замените стоковые PNG на AI-WebP через PixInLink. Первые 50 генераций бесплатно.
 [Попробовать бесплатно](https://app.pixinlink.ru/register)
 
+</div>
 </main>

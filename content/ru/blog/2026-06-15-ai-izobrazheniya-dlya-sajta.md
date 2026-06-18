@@ -73,4 +73,5 @@ composer require pixinlink/php-sdk  # PHP
 Вставьте этот URL в адресную строку браузера — и вы увидите первое AI-изображение: `pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор`
 [Попробовать бесплатно](https://app.pixinlink.ru/register)
 
+</div>
 </main>

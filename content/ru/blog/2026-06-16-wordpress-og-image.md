@@ -80,4 +80,5 @@ curl -s https://ваш-сайт.ru/статья/ | grep og:image
 Установите плагин или скопируйте код в functions.php — первая обложка появится через 30 секунд.
 [Зарегистрироваться бесплатно](https://app.pixinlink.ru/register)
 
+</div>
 </main>

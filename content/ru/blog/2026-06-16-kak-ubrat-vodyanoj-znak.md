@@ -70,4 +70,5 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
 Зарегистрируйтесь, подключите Starter и привяжите домен. Первые 50 генераций — бесплатно.
 [Зарегистрироваться](https://app.pixinlink.ru/register)
 
+</div>
 </main>
