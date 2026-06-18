@@ -147,8 +147,8 @@ const tocItems = computed(() => processedHtml.value.toc);
 
       <div v-if="tocItems.length > 0 || article.frontmatter.cover_image" class="row toc-row">
         <div class="col-md-4 col-sm-12 mb-4">
-          <h2 v-if="tocItems.length > 0" class="toc-heading">{{ t.article.tableOfContents }}</h2>
           <nav v-if="tocItems.length > 0" class="toc">
+            <h2>{{ t.article.tableOfContents }}</h2>
             <ul>
               <li v-for="item in tocItems" :key="item.id" :class="`toc-level-${item.level}`">
                 <a :href="`#${item.id}`">{{ item.text }}</a>
@@ -404,21 +404,20 @@ const tocItems = computed(() => processedHtml.value.toc);
   display: flex;
 }
 
-.toc-heading {
-  font-size: 16px;
-  margin: 0 0 12px;
-  border: none;
-  padding: 0;
-  line-height: 1.3;
-  color: var(--color-text);
-}
-
 .toc {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 20px 24px;
   width: 100%;
+}
+
+.toc h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+  border: none;
+  padding: 0;
+  line-height: 1.3;
 }
 
 .toc ul {
