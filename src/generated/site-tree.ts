@@ -214,8 +214,8 @@ export const siteTree = {
       "pages": [
         {
           "slug": "kak-pisat-prompty",
-          "title": "Как писать промпты для AI-изображений: полное руководство с примерами",
-          "description": "Подробное руководство: как составить промпт для генерации AI-изображений через URL. Стили realistic, illustration, 3d, pixel-art, cyberpunk, anime. Примеры для блога, e-commerce, соцсетей.",
+          "title": "Как писать промпты для нейросети: формула идеального запроса от 5 слов до 300",
+          "description": "Разбираем 5-элементную формулу промпта для PixInLink URL API. Как из «еда» сделать «тарелка пасты карбонара, студийный свет, food photo». С примерами до и после, таблицей ниш и частыми ошибками.",
           "isIndex": false,
           "path": "content/ru/blog/2026-05-15-kak-pisat-prompty.md"
         },

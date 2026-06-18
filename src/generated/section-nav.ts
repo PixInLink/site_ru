@@ -62,7 +62,7 @@ export const sectionNav = {
     "titleRu": "Блог",
     "titleEn": "Blog",
     "articles": {
-      "kak-pisat-prompty": "Как писать промпты для AI-изображений: полное руководство с примерами",
+      "kak-pisat-prompty": "Как писать промпты для нейросети: формула идеального запроса от 5 слов до 300",
       "pixinlink-vs-midjourney": "PixInLink vs Midjourney vs DALL-E: честное сравнение для блогеров и вебмастеров",
       "ai-izobrazheniya-dlya-sajta-rukovodstvo": "AI-изображения для сайта: полное руководство для вебмастеров",
       "kak-ubrat-vodyanoj-znak": "Как убрать водяной знак PixInLink: привязка домена за 5 минут",
