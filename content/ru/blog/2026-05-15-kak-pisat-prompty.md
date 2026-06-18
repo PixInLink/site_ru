@@ -59,7 +59,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-pisat-prompty-ai-images-g
 https://pixinlink.ru/800x400/рыжая-кошка-на-подоконнике?style=realistic
 ```
 
-Доступные стили: `realistic`, `illustration`, `3d`, `pixel-art`, `cyberpunk`, `anime`. Подробный обзор каждого — в статье «[6 стилей PixInLink](/blog/6-stilej-pixinlink/)».
+Доступные стили: `realistic`, `illustration`, `3d`, `pixel-art`, `cyberpunk`, `anime`. Подробный обзор каждого — в статье «[Стиль через ?style=](/blog/style-vizualnoe-napravlenie/)».
 
 ## Примеры: до и после доработки
 

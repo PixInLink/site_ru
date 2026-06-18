@@ -69,9 +69,9 @@ export const sectionNav = {
       "wordpress-og-image-url": "WordPress og:image через URL — пошаговая инструкция",
       "8-scenariev-ai-izobrazhenij": "8 сценариев использования AI-изображений для бизнеса",
       "ai-izobrazheniya-seo": "AI-изображения и SEO: как картинки влияют на позиции сайта",
-      "6-stilej-pixinlink": "6 стилей PixInLink: какой выбрать для вашего проекта",
       "ai-vs-stoki": "AI-изображения vs стоки: математика для владельца сайта",
       "seed-parametr": "Seed-параметр в PixInLink: как зафиксировать изображение навсегда",
+      "style-vizualnoe-napravlenie": "Стиль через ?style= — выбор визуального направления",
       "webp-cdn-optimizatsiya": "WebP и CDN-кеш PixInLink: ускорение загрузки изображений в 3–6 раз"
     }
   },

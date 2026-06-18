@@ -262,13 +262,6 @@ export const siteTree = {
           "path": "content/ru/blog/2026-06-17-ai-izobrazheniya-seo.md"
         },
         {
-          "slug": "6-stilej-pixinlink",
-          "title": "6 стилей PixInLink: какой выбрать для вашего проекта",
-          "description": "Обзор всех стилей генерации PixInLink: realistic, illustration, 3d, pixel-art, cyberpunk, anime. Примеры промптов и URL для каждого стиля.",
-          "isIndex": false,
-          "path": "content/ru/blog/2026-06-18-6-stilej.md"
-        },
-        {
           "slug": "ai-vs-stoki",
           "title": "AI-изображения vs стоки: математика для владельца сайта",
           "description": "Сравнение стоимости AI-генерации и стоковых фото для сайта. Расчёт для 20, 100 и 1000 изображений в месяц. PixInLink vs Shutterstock vs Unsplash.",
@@ -281,6 +274,13 @@ export const siteTree = {
           "description": "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты, детерминированная генерация.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-18-seed-parametr.md"
+        },
+        {
+          "slug": "style-vizualnoe-napravlenie",
+          "title": "Стиль через ?style= — выбор визуального направления",
+          "description": "Параметр ?style= управляет художественной оптикой изображения в PixInLink. Базовые стили, художественные школы, техники, жанры, комбинации — полный каталог с примерами URL.",
+          "isIndex": false,
+          "path": "content/ru/blog/2026-06-18-style-vizualnoe-napravlenie.md"
         },
         {
           "slug": "webp-cdn-optimizatsiya",
