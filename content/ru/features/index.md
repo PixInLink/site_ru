@@ -1053,8 +1053,6 @@ schema_type: "WebPage"
                       <p class="use-text-paragraph mt-2 mb-0 small">Киберпанк в пиксельной эстетике</p>
                     </div>
                   </div>
-                </div>
-                <div class="row spacing4 mt-4">
                   <div class="col-md-6 col-sm-12 pa-2">
                     <div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=surrealist_impressionist</code>
