@@ -8,7 +8,7 @@ category: "Руководства"
 tags: ["руководства", "стили", "api", "промпты"]
 schema_type: "Article"
 layout: "article"
-cover_image: "https://pixinlink.ru/api/v1/1200x630/style-vizualnoe-napravlenie-pixinlink"
+cover_image: "https://pixinlink.ru/api/v1/1200x630/художник-рисует-картину"
 ---
 <main class="container-wrap">
 
