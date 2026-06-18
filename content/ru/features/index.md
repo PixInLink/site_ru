@@ -866,8 +866,7 @@ schema_type: "WebPage"
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div>      
       <!-- ═══ РЯД 2: Техники и материалы ═══ -->
       <div class="mb-6">
         <div class="row align-items-center mb-3">
@@ -1031,6 +1030,7 @@ schema_type: "WebPage"
             </div>
           </div>
         </div>
+      </div>
       </div>
       <!-- ═══ КОМБИНАЦИИ ═══ -->
       <div class="mt-10">
