@@ -822,14 +822,12 @@ schema_type: "WebPage"
 <section class="space-top space-top-short-sm" id="styles">
   <div class="root">
     <div class="container">
-              <div class="row mb-8 align-items-center">
-          <div class="col-md-5 col-sm-12">
-            <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
-          </div>
-          <div class="col-md-7 col-sm-12">
-            <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
-          </div>
+      <div class="row justify-content-center mb-8">
+        <div class="col-md-8 col-sm-12 text-center">
+          <h3 class="title-primary use-text-title mb-2">Как сделать изображение в определённой стилистике</h3>
+          <p class="use-text-subtitle">Добавьте <code>?style=</code> в URL ссылки — GigaChat сгенерирует картинку в нужном стиле. Стили можно комбинировать через подчёркивание: <code>?style=watercolor_anime</code>.</p>
         </div>
+      </div>
       <!-- ═══ РЯД 1: Художественные стили ═══ -->
       <div class="mb-6">
         <div class="row align-items-center mb-3">
@@ -1044,20 +1042,17 @@ schema_type: "WebPage"
                 <h5 class="use-text-title2 mb-3">Комбинируйте стили для уникальных результатов</h5>
                 <p class="use-text-paragraph mb-4">Стили разделяются подчёркиванием. GigaChat объединяет их в одной генерации.</p>
                 <div class="row spacing4">
-                  <div class="col-md-12 col-sm-6 pa-2">
-                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                  <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=watercolor_anime</code>
                       <p class="use-text-paragraph mt-2 mb-0 small">Аниме, нарисованное акварелью</p>
                     </div>
                   </div>
-                  <div class="col-md-12 col-sm-6 pa-2">
-                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                  <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=steampunk_noir</code>
                       <p class="use-text-paragraph mt-2 mb-0 small">Стимпанк в мрачной стилистике нуар</p>
                     </div>
                   </div>
-                  <div class="col-md-12 col-sm-6 pa-2">
-                    <div class="card paper pa-3 text-center" style="background:#f5f5f5">
+                  <div class="col-md-12 col-sm-6 pa-2"><div class="card paper pa-3 text-center" style="background:#f5f5f5">
                       <code class="use-text-subtitle" style="color:#03A9F4">?style=pixel-art_cyberpunk</code>
                       <p class="use-text-paragraph mt-2 mb-0 small">Киберпанк в пиксельной эстетике</p>
                     </div>
