@@ -410,12 +410,14 @@ const tocItems = computed(() => processedHtml.value.toc);
   border-radius: 8px;
   padding: 20px 24px;
   width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .toc h2 {
   font-size: 16px;
-  margin: 0 0 12px;
-  border: none;
+  margin: 0 0 8px;
+  border: none !important;
+  outline: none;
   padding: 0;
   line-height: 1.3;
 }
