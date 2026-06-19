@@ -322,67 +322,85 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/художник-рисует
 
 </div>
 
+<h2 class="use-text-title2">Ключевые цифры</h2>
+
+<ul>
+<li><strong>6 базовых стилей</strong> — <code>realistic</code>, <code>illustration</code>, <code>3d</code>, <code>pixel-art</code>, <code>cyberpunk</code>, <code>anime</code>.</li>
+<li><strong>50+ дополнительных</strong> — от Ван Гога до киберпанка, от акварели до пиксель-арта.</li>
+<li><strong>Безлимитные комбинации через <code>_</code></strong> — <code>watercolor_anime</code>, <code>steampunk_noir</code>, <code>pixel-art_cyberpunk</code>.</li>
+<li><strong>0 символов в промпте</strong> — стиль задаётся отдельным параметром URL, не засоряя основной запрос.</li>
+<li><strong>10–30 секунд</strong> — время первой генерации.</li>
+</ul>
+
+<h2 class="use-text-title2">Как работает параметр style</h2>
+
+<p>Добавьте <code>?style=</code> в конец URL — и нейросеть перестроит сцену в указанном направлении:</p>
+
+<pre><code>https://pixinlink.ru/800x400/ваш-промпт?style=realistic</code></pre>
+
+<p>Если параметр не указан, используется <code>realistic</code> по умолчанию. Стиль влияет на композицию, цветовую палитру, освещение и уровень детализации. Это не пост-фильтр — нейросеть заново интерпретирует сцену в заданной художественной системе координат.</p>
+
+<h2 class="use-text-title2">Полный каталог стилей</h2>
+
+<table class="highlight striped">
+  <thead>
+    <tr><th>Категория</th><th>Значения <code>?style=</code></th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Базовые (6)</td><td><code>realistic</code>, <code>illustration</code>, <code>3d</code>, <code>pixel-art</code>, <code>cyberpunk</code>, <code>anime</code></td></tr>
+    <tr><td>Художественные</td><td><code>impressionist</code>, <code>surrealist</code>, <code>cubism</code>, <code>baroque</code>, <code>minimalism</code>, <code>expressionism</code>, <code>pop-art</code>, <code>avant-garde</code>, <code>gothic</code>, <code>renaissance</code>, <code>art-deco</code>, <code>modern</code></td></tr>
+    <tr><td>Техники</td><td><code>watercolor</code>, <code>oil-painting</code>, <code>pencil-sketch</code>, <code>charcoal</code>, <code>pastel</code>, <code>engraving</code>, <code>stained-glass</code>, <code>mosaic</code></td></tr>
+    <tr><td>Жанры</td><td><code>steampunk</code>, <code>sci-fi</code>, <code>dieselpunk</code>, <code>noir</code>, <code>atompunk</code>, <code>fantasy</code>, <code>horror</code></td></tr>
+    <tr><td>Цифровые</td><td><code>low-poly</code>, <code>vector-art</code>, <code>glitch</code>, <code>flat</code>, <code>retro</code>, <code>abstract</code></td></tr>
+    <tr><td>Художники</td><td><code>van-gogh</code>, <code>monet</code>, <code>picasso</code>, <code>mucha</code>, <code>dali</code></td></tr>
+    <tr><td>Медиа-вселенные</td><td><code>studio-ghibli</code>, <code>disney</code>, <code>pixar</code>, <code>marvel</code>, <code>cyberpunk-2077</code>, <code>star-wars</code></td></tr>
+  </tbody>
+</table>
+
+<h2 class="use-text-title2">Комбинирование стилей</h2>
+
+<p>Стили разделяются подчёркиванием <code>_</code>. Нейросеть синтезирует оба направления в одной генерации:</p>
+
+<table class="highlight striped">
+  <thead>
+    <tr><th>Комбинация</th><th>Результат</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>watercolor_anime</code></td><td>Аниме в акварельной технике</td></tr>
+    <tr><td><code>steampunk_noir</code></td><td>Стимпанк в нуарной эстетике</td></tr>
+    <tr><td><code>pixel-art_cyberpunk</code></td><td>Киберпанк как пиксельная игра</td></tr>
+    <tr><td><code>surrealist_impressionist</code></td><td>Сюрреализм в палитре импрессионизма</td></tr>
+    <tr><td><code>cyberpunk_renaissance</code></td><td>Киберпанк эпохи Возрождения</td></tr>
+    <tr><td><code>vector_anime</code></td><td>Аниме в векторной графике</td></tr>
+  </tbody>
+</table>
+
+<p>Комбинации открывают сотни уникальных визуальных направлений без длинных промптов.</p>
+
+<h2 class="use-text-title2">Какой стиль выбрать: быстрый гайд</h2>
+
+<table class="highlight striped">
+  <thead>
+    <tr><th>Задача</th><th>Рекомендуемый стиль</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Блог / новости</td><td><code>realistic</code></td></tr>
+    <tr><td>SaaS / лендинг</td><td><code>illustration</code></td></tr>
+    <tr><td>Карточка товара</td><td><code>realistic</code> с белым фоном</td></tr>
+    <tr><td>Игровой сайт</td><td><code>cyberpunk</code> или <code>pixel-art</code></td></tr>
+    <tr><td>Творческий блог</td><td><code>watercolor</code> или <code>anime</code></td></tr>
+    <tr><td>Арт-проект</td><td><code>impressionist</code> или <code>van-gogh</code></td></tr>
+    <tr><td>SMM / Telegram</td><td><code>anime</code> или <code>flat</code></td></tr>
+    <tr><td>Tech-стартап</td><td><code>3d</code> или <code>low-poly</code></td></tr>
+    <tr><td>Детский контент</td><td><code>illustration</code> или <code>watercolor</code></td></tr>
+    <tr><td>Фанатский сайт</td><td><code>studio-ghibli</code>, <code>marvel</code>, <code>star-wars</code></td></tr>
+  </tbody>
+</table>
+
 <!-- @block: answer-first -->
 **?style= управляет художественной оптикой — это не фильтр, а переосмысление сцены нейросетью.** 6 базовых направлений + 50+ дополнительных (импрессионизм, акварель, киберпанк, Studio Ghibli, Ван Гог и другие). Комбинируются через `_`: `?style=watercolor_anime` даёт аниме в акварельной технике, `?style=steampunk_noir` — стимпанк в нуарной эстетике.
 <!-- @block: key-facts -->
-## Ключевые цифры
-- **6 базовых стилей** — `realistic`, `illustration`, `3d`, `pixel-art`, `cyberpunk`, `anime`.
-- **50+ дополнительных** — от Ван Гога до киберпанка, от акварели до пиксель-арта.
-- **Безлимитные комбинации через `_`** — `watercolor_anime`, `steampunk_noir`, `pixel-art_cyberpunk`.
-- **0 символов в промпте** — стиль задаётся отдельным параметром URL, не засоряя основной запрос.
-- **10–30 секунд** — время первой генерации.
-
-## Как работает параметр style
-
-Добавьте `?style=` в конец URL — и нейросеть перестроит сцену в указанном направлении:
-
-```
-https://pixinlink.ru/800x400/ваш-промпт?style=realistic
-```
-
-Если параметр не указан, используется `realistic` по умолчанию. Стиль влияет на композицию, цветовую палитру, освещение и уровень детализации. Это не пост-фильтр — нейросеть заново интерпретирует сцену в заданной художественной системе координат.
-
-## Полный каталог стилей
-
-| Категория | Значения `?style=` |
-|-----------|-------------------|
-| Базовые (6) | `realistic`, `illustration`, `3d`, `pixel-art`, `cyberpunk`, `anime` |
-| Художественные | `impressionist`, `surrealist`, `cubism`, `baroque`, `minimalism`, `expressionism`, `pop-art`, `avant-garde`, `gothic`, `renaissance`, `art-deco`, `modern` |
-| Техники | `watercolor`, `oil-painting`, `pencil-sketch`, `charcoal`, `pastel`, `engraving`, `stained-glass`, `mosaic` |
-| Жанры | `steampunk`, `sci-fi`, `dieselpunk`, `noir`, `atompunk`, `fantasy`, `horror` |
-| Цифровые | `low-poly`, `vector-art`, `glitch`, `flat`, `retro`, `abstract` |
-| Художники | `van-gogh`, `monet`, `picasso`, `mucha`, `dali` |
-| Медиа-вселенные | `studio-ghibli`, `disney`, `pixar`, `marvel`, `cyberpunk-2077`, `star-wars` |
-
-## Комбинирование стилей
-
-Стили разделяются подчёркиванием `_`. Нейросеть синтезирует оба направления в одной генерации:
-
-| Комбинация | Результат |
-|-----------|----------|
-| `watercolor_anime` | Аниме в акварельной технике |
-| `steampunk_noir` | Стимпанк в нуарной эстетике |
-| `pixel-art_cyberpunk` | Киберпанк как пиксельная игра |
-| `surrealist_impressionist` | Сюрреализм в палитре импрессионизма |
-| `cyberpunk_renaissance` | Киберпанк эпохи Возрождения |
-| `vector_anime` | Аниме в векторной графике |
-
-Комбинации открывают сотни уникальных визуальных направлений без длинных промптов.
-
-## Какой стиль выбрать: быстрый гайд
-
-| Задача | Рекомендуемый стиль |
-|--------|---------------------|
-| Блог / новости | `realistic` |
-| SaaS / лендинг | `illustration` |
-| Карточка товара | `realistic` с белым фоном |
-| Игровой сайт | `cyberpunk` или `pixel-art` |
-| Творческий блог | `watercolor` или `anime` |
-| Арт-проект | `impressionist` или `van-gogh` |
-| SMM / Telegram | `anime` или `flat` |
-| Tech-стартап | `3d` или `low-poly` |
-| Детский контент | `illustration` или `watercolor` |
-| Фанатский сайт | `studio-ghibli`, `marvel`, `star-wars` |
+**?style= — визуальный руль PixInLink.** 6 базовых + 50+ дополнительных стилей. Комбинации через `_`. Полный каталог всех значений и быстрый гайд выбора — выше на странице.
 <!-- @block: cta -->
 ## Попробуйте любой стиль
 
@@ -392,6 +410,6 @@ https://pixinlink.ru/800x400/ваш-промпт?style=realistic
 https://pixinlink.ru/800x400/ваш-промпт?style=watercolor_anime
 ```
 
-[50 генераций бесплатно](https://app.pixinlink.ru/register)
+[12 генераций бесплатно](https://app.pixinlink.ru/register)
 
 </main>
