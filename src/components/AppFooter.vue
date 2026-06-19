@@ -41,6 +41,7 @@ import { t } from "../i18n";
           <ul>
             <li><RouterLink to="/legal/privacy/">{{ t.footer.privacy }}</RouterLink></li>
             <li><RouterLink to="/legal/terms/">{{ t.footer.terms }}</RouterLink></li>
+            <li><RouterLink to="/legal/refund/">Возврат и отмена</RouterLink></li>
           </ul>
         </div>
         <div class="col-md-3 col-sm-12 pa-4">
