@@ -107,10 +107,10 @@ cover_image: "https://pixinlink.ru/images/logo-saas.png"
         </table>
       </div>
 
-      <div class="card paper pa-4 mt-6 text-center" style="background:linear-gradient(135deg, var(--color-primary), #1a237e)">
+      <div class="card pa-4 mt-6 text-center" style="background:linear-gradient(135deg, #1a237e, #0d47a1);border-radius:12px">
         <h3 class="use-text-title2 mb-2" style="color:#fff">Остались вопросы?</h3>
         <p class="use-text-subtitle2 mb-4" style="color:rgba(255,255,255,0.85)">Напишите на <a href="mailto:info@pixinlink.ru" style="color:#fff;text-decoration:underline">info@pixinlink.ru</a> — ответим в течение 24 часов.</p>
-        <a class="btn waves-effect button btn-large" style="background:#fff;color:var(--color-primary);font-weight:600" href="mailto:info@pixinlink.ru">Написать на почту</a>
+        <a class="btn waves-effect button btn-large" style="background:#fff;color:#1a237e;font-weight:600" href="mailto:info@pixinlink.ru">Написать на почту</a>
       </div>
 
     </div>
