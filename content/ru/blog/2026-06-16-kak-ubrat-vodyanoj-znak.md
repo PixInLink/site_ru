@@ -135,6 +135,6 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
 
 <p>3 шага: регистрация → привязка домена → готово. Первые 50 генераций — бесплатно.</p>
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">Зарегистрироваться и подключить Starter</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">Зарегистрироваться и подключить Starter</a>
 
 </main>

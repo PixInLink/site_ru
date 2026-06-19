@@ -379,6 +379,10 @@ const tocItems = computed(() => processedHtml.value.toc);
   color: #60a5fa;
 }
 
+.block-cta :deep(.btn) {
+  color: #fff;
+}
+
 .block-hero {
   margin-bottom: 32px;
 }
