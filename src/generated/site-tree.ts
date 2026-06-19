@@ -197,7 +197,7 @@ export const siteTree = {
         {
           "slug": "pricing",
           "title": "Тарифы PixInLink — выберите план под ваши задачи",
-          "description": "Тарифы PixInLink: от бесплатных 12 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц.",
+          "description": "Тарифы PixInLink: от бесплатных 30 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц.",
           "isIndex": true,
           "path": "content/ru/pricing/index.md"
         }

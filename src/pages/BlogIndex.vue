@@ -206,6 +206,7 @@ const pageNumbers = computed(() => {
 .page-link {
   color: var(--color-accent);
   font-size: 14px;
+  line-height: 1;
   padding: 6px 12px;
   text-decoration: none;
 }
@@ -226,8 +227,9 @@ const pageNumbers = computed(() => {
   border-radius: 6px;
   color: var(--color-text);
   font-size: 14px;
+  line-height: 1;
   min-width: 36px;
-  padding: 6px 0;
+  padding: 6px 12px;
   text-align: center;
   text-decoration: none;
 }
