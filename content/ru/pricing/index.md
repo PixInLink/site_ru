@@ -400,7 +400,7 @@ schema_type: "WebPage"
             <a href="https://tbank.ru" target="_blank" rel="noopener" style="background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.1);border-radius:4px;padding:2px 10px;font-weight:600;font-size:12px;color:rgba(0,0,0,0.55);text-decoration:none">T-Pay</a>
           </span>
         </div>
-        <p class="mb-0 text-muted">Платёжный партнёр: <a href="https://tbank.ru" target="_blank" rel="noopener">Т-Банк</a> | Юрлицо: ООО «ФОНИИ» | Серверы: 152-ФЗ (Yandex Cloud, Selectel)</p>
+        <p class="mb-0 text-muted">Страна оказания услуг: Россия | Доставка: мгновенно (API/URL) | Платёжный партнёр: <a href="https://tbank.ru" target="_blank" rel="noopener">Т-Банк</a> | Юрлицо: ООО «ФОНИИ» | Серверы: 152-ФЗ (Yandex Cloud, Selectel)</p>
       </div>
     </div>
   </div>
