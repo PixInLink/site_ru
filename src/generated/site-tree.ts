@@ -264,7 +264,7 @@ export const siteTree = {
         {
           "slug": "ai-vs-stoki",
           "title": "AI-изображения vs стоки: математика для владельца сайта",
-          "description": "Сравнение стоимости AI-генерации и стоковых фото для сайта. Расчёт для 20, 100 и 1000 изображений в месяц. PixInLink vs Shutterstock vs Unsplash.",
+          "description": "Сравнение стоимости AI-генерации PixInLink и стоковых фото Shutterstock. Расчёт для 12, 50 и 500 изображений в месяц. Тарифы от 0 до 4 500 ₽/мес.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-18-pixinlink-vs-stoki.md"
         },
