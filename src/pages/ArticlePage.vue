@@ -78,10 +78,15 @@ const blocks = computed(() => article.value?.blocks ?? {});
 const blockOrder = ["hero", "answer-first", "key-facts", "featured-snippet", "faq", "cta", "schema-hints"];
 
 const orderedBlocks = computed(() => {
-  return blockOrder.filter((name) => name in blocks.value).map((name) => ({
-    name,
-    html: blocks.value[name],
-  }));
+  return blockOrder.filter((name) => name in blocks.value).map((name) => {
+    let html = blocks.value[name];
+    const text = html.replace(/<[^>]+>/g, "").trim();
+    if (name === "key-facts" && text.length > 300) {
+      const truncated = text.slice(0, 300).replace(/\s+\S*$/, "");
+      html = `<p>${truncated}… <a href="#content" style="font-size:14px;opacity:0.7;font-weight:600">← подробнее выше на странице</a></p>`;
+    }
+    return { name, html };
+  });
 });
 
 const breadcrumbItems = computed(() => {
@@ -166,7 +171,7 @@ const tocItems = computed(() => processedHtml.value.toc);
         </div>
       </div>
 
-      <article class="article">
+      <article id="content" class="article">
         <div v-html="htmlWithIds"></div>
       </article>
 
