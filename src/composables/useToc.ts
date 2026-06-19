@@ -8,7 +8,7 @@ export interface TocItem {
 
 export function useToc(html: string): TocItem[] {
   const items: TocItem[] = [];
-  const headingRegex = /<h([23])(?:\s[^>]*)?>([\s\S]*?)<\/h\1>/gi;
+    const headingRegex = /<h2(?:\s[^>]*)?>([\s\S]*?)<\/h2>/gi;
   let match;
 
   while ((match = headingRegex.exec(html)) !== null) {
@@ -49,7 +49,7 @@ export function processHeadings(html: string): { html: string; toc: TocItem[] } 
       const text = content.replace(/<[^>]+>/g, "").trim();
       const id = slugify(text);
       const lvl = Number.parseInt(level, 10);
-      toc.push({ id, text, level: lvl });
+      if (lvl === 2) toc.push({ id, text, level: lvl });
 
       const existingId = attrs ? attrs.match(/id="([^"]*)"/) : null;
       if (existingId) {

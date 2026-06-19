@@ -271,7 +271,7 @@ export const siteTree = {
         {
           "slug": "seed-parametr",
           "title": "Seed-параметр в PixInLink: как зафиксировать изображение навсегда",
-          "description": "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты обложек, ротация, версионирование. 4 сценария с кодом.",
+          "description": "Что такое seed в AI-генерации GigaChat и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты обложек, ротация, версионирование. 4 сценария с кодом.",
           "isIndex": false,
           "path": "content/ru/blog/2026-06-18-seed-parametr.md"
         },

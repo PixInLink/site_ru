@@ -1,6 +1,6 @@
 ---
 title: "Seed-параметр в PixInLink: как зафиксировать изображение навсегда"
-description: "Что такое seed в AI-генерации и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты обложек, ротация, версионирование. 4 сценария с кодом."
+description: "Что такое seed в AI-генерации GigaChat и как использовать его в PixInLink URL API. Фиксация результата, A/B-тесты обложек, ротация, версионирование. 4 сценария с кодом."
 slug: "seed-parametr"
 date: "2026-06-18"
 author: "PixInLink"
@@ -12,7 +12,11 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/seed-parametr-pixinlink-fiksa
 ---
 <main class="container-wrap">
 
-<p>Сгенерировали идеальное изображение, а при следующей загрузке оно изменилось? AI каждый раз создаёт новую вариацию — это нормально. Seed-параметр решает проблему: фиксирует результат навсегда. Один промпт + один seed = одно изображение. Всегда. Даже через год. Как это работает и 4 практических сценария — ниже.</p>
+<p>Сгенерировали идеальное изображение, а при следующей загрузке оно изменилось? GigaChat каждый раз создаёт новую вариацию — это особенность генеративных моделей. Seed-параметр помогает зафиксировать результат: один промпт + один seed = один и тот же визуальный результат при каждой генерации. Как это работает и 4 практических сценария — ниже.</p>
+
+<div class="card paper pa-3 mb-4" style="background:#fff3cd;border:1px solid #ffc107;border-radius:8px">
+  <p class="mb-0"><strong>⚠️ Важно:</strong> Параметр <code>?seed=</code> — это функциональность GigaChat API. Вы можете протестировать её через pixinlink.ru, но сервис <strong>не даёт гарантий работы</strong> этого параметра. Seed не является документированной частью API PixInLink и может измениться в любой момент без предупреждения.</p>
+</div>
 
 <h2 class="use-text-title2">Ключевые цифры</h2>
 
@@ -25,8 +29,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/seed-parametr-pixinlink-fiksa
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
-    <h6 class="use-text-subtitle mb-1">100% детерминизм</h6>
-    <p class="use-text-paragraph mb-0 small">Один промпт + один seed = одно изображение. Всегда. Даже через год. Даже на другом сервере.</p>
+    <h6 class="use-text-subtitle mb-1">Детерминизм GigaChat</h6>
+    <p class="use-text-paragraph mb-0 small">Один промпт + один seed = один результат при каждой генерации. GigaChat выдаёт стабильный output при фиксированном seed.</p>
   </div>
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
@@ -39,14 +43,28 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/seed-parametr-pixinlink-fiksa
 
 <h2 class="use-text-title2">Как работает seed</h2>
 
-<pre><code>Без seed:
-/pixinlink.ru/800x400/офис      → ВАРИАНТ А
-/pixinlink.ru/800x400/офис      → ВАРИАНТ B (может измениться!)
+<p>Seed — это число, которое GigaChat использует как отправную точку для генерации. Без seed каждый запрос запускает новый случайный процесс. С seed — процесс повторяется идентично:</p>
 
-С seed:
-/pixinlink.ru/800x400/офис?seed=42   → ВАРИАНТ X
-/pixinlink.ru/800x400/офис?seed=42   → ВАРИАНТ X (всегда тот же!)
-/pixinlink.ru/800x400/офис?seed=100  → ВАРИАНТ Y (новый)</code></pre>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:16px">
+<div style="flex:1;min-width:280px">
+  <div class="card paper pa-3" style="border-left:4px solid #e53935">
+    <h6 class="use-text-subtitle mb-1" style="color:#e53935">❌ Без seed</h6>
+    <pre style="margin:0;font-size:13px;line-height:1.8"><code>/pixinlink.ru/800x400/офис      → ВАРИАНТ А
+/pixinlink.ru/800x400/офис      → ВАРИАНТ B
+(может измениться!)</code></pre>
+  </div>
+</div>
+<div style="flex:1;min-width:280px">
+  <div class="card paper pa-3" style="border-left:4px solid #4CAF50">
+    <h6 class="use-text-subtitle mb-1" style="color:#4CAF50">✅ С seed</h6>
+    <pre style="margin:0;font-size:13px;line-height:1.8"><code>/800x400/офис?seed=42   → ВАРИАНТ X
+/800x400/офис?seed=42   → ВАРИАНТ X
+(всегда тот же!)
+/800x400/офис?seed=100  → ВАРИАНТ Y
+(новый)</code></pre>
+  </div>
+</div>
+</div>
 
 <h2 class="use-text-title2">4 практических сценария</h2>
 
@@ -74,32 +92,64 @@ const url = `https://pixinlink.ru/1200x630/промпт?seed=${seed}`;</code></p
 
 <h2 class="use-text-title2">FAQ</h2>
 
-<h3 class="use-text-subtitle">Что будет, если указать seed без промпта?</h3>
-<p>Промпт обязателен. Seed без промпта игнорируется — изображение не сгенерируется.</p>
-
-<h3 class="use-text-subtitle">Гарантирует ли seed 100% идентичность?</h3>
-<p>Да. Одинаковые промпт + seed + стиль + размер = идентичное изображение. AI-модель детерминирована при фиксированном seed.</p>
-
-<h3 class="use-text-subtitle">Можно ли использовать один seed для разных размеров?</h3>
-<p>Да, но изображения будут разными. Seed фиксирует композицию, но при изменении размера результат визуально отличается. Для каждого размера — свой seed.</p>
-
-<h3 class="use-text-subtitle">Как узнать seed существующего изображения?</h3>
-<p>Seed указываете вы сами при создании URL. Если не указали при первой генерации — переберите значения и найдите нужный вариант визуально.</p>
-
-<h3 class="use-text-subtitle">Что лучше: высокие или низкие значения seed?</h3>
-<p>Разницы нет. Seed=1 и seed=2147483647 дают одинаково качественный, но разный результат. Выбирайте любое число — хоть 42, хоть 777777.</p>
-
-<h3 class="use-text-subtitle">Работает ли seed со стилями и bg/fg?</h3>
-<p>Да. Seed комбинируется со всеми параметрами: <code>?style=cyberpunk&amp;seed=42&amp;bg=000000</code>. Меняете любой параметр — получаете новое изображение.</p>
+<div class="accordion">
+  <ul class="collapsible">
+    <li class="accordion-content paper active">
+      <div class="collapsible-header content">
+        <p class="heading">Что будет, если указать seed без промпта?</p>
+        <i class="material-icons right arrow">expand_more</i>
+      </div>
+      <div class="collapsible-body detail">
+        <p>Промпт обязателен. Seed без промпта игнорируется — изображение не сгенерируется. Параметры работают только в комбинации с основным запросом.</p>
+      </div>
+    </li>
+    <li class="accordion-content paper">
+      <div class="collapsible-header content">
+        <p class="heading">Гарантирует ли seed 100% идентичность на GigaChat?</p>
+        <i class="material-icons right arrow">expand_more</i>
+      </div>
+      <div class="collapsible-body detail">
+        <p>Технически — да. Одинаковые промпт + seed + стиль + размер дают идентичный результат при каждой генерации GigaChat. Однако PixInLink <strong>не гарантирует</strong> работу seed, так как это недокументированная функциональность GigaChat API, которая может измениться.</p>
+      </div>
+    </li>
+    <li class="accordion-content paper">
+      <div class="collapsible-header content">
+        <p class="heading">Можно ли использовать один seed для разных размеров?</p>
+        <i class="material-icons right arrow">expand_more</i>
+      </div>
+      <div class="collapsible-body detail">
+        <p>Да, но изображения будут разными. Seed фиксирует композицию в рамках заданного размера. При изменении размера (например, с 800×400 на 1200×630) результат визуально отличается. Для каждого размера используйте свой seed.</p>
+      </div>
+    </li>
+    <li class="accordion-content paper">
+      <div class="collapsible-header content">
+        <p class="heading">Как узнать seed существующего изображения?</p>
+        <i class="material-icons right arrow">expand_more</i>
+      </div>
+      <div class="collapsible-body detail">
+        <p>Seed указываете вы сами при создании URL. Если не указали при первой генерации — подберите значение перебором (1, 2, 3...) и найдите нужный вариант визуально. Готового способа «прочитать» seed из изображения нет.</p>
+      </div>
+    </li>
+    <li class="accordion-content paper">
+      <div class="collapsible-header content">
+        <p class="heading">Что лучше: высокие или низкие значения seed?</p>
+        <i class="material-icons right arrow">expand_more</i>
+      </div>
+      <div class="collapsible-body detail">
+        <p>Разницы нет. Seed=1 и seed=2147483647 дают одинаково качественный, но визуально разный результат. Выбирайте любое число — 42, 777, 12345. Результат зависит только от самого значения, а не от его величины.</p>
+      </div>
+    </li>
+  </ul>
+</div>
 <!-- @block: key-facts -->
-**Seed = «отпечаток» изображения.** Добавьте `&seed=42` в URL — PixInLink всегда будет генерировать ту же картинку для этого промпта. Меняйте seed на любое число от 1 до 2 147 483 647 — получите новую вариацию. Без seed каждый запрос может вернуть разный результат.
+**Seed — это «отпечаток» для GigaChat.** Экспериментальная функциональность: добавьте `&seed=42` в URL — и нейросеть выдаст стабильный результат для этого промпта. Меняйте seed для новой вариации. PixInLink НЕ гарантирует работу seed — это возможность GigaChat API, а не документированная часть сервиса.
 <!-- @block: cta -->
-<h2 class="use-text-title2">Зафиксируйте идеальную картинку</h2>
+<h2 class="use-text-title2">Попробуйте seed-параметр</h2>
 
-<p>Добавьте <code>&amp;seed=42</code> к любому URL PixInLink — и изображение не изменится никогда.</p>
+<p>Скопируйте URL, замените промпт и seed — откройте в браузере:</p>
 
 <pre><code>https://pixinlink.ru/800x400/ваш-промпт?seed=42</code></pre>
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
+<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
 
 </main>
