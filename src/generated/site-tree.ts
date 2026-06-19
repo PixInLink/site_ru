@@ -302,8 +302,8 @@ export const siteTree = {
       "pages": [
         {
           "slug": "contact",
-          "title": "Контакты PixInLink — свяжитесь с нами",
-          "description": "Свяжитесь с командой PixInLink: техническая поддержка, вопросы по тарифам, партнёрство и Enterprise-решения. Отвечаем в течение 24 часов.",
+          "title": "Контакты ООО «ФОНИИ» — свяжитесь с нами",
+          "description": "Контакты ООО «ФОНИИ» (PixInLink): техническая поддержка, коммерческие вопросы, партнёрство. Email, Telegram, реквизиты компании. Отвечаем в течение 24 часов.",
           "isIndex": true,
           "path": "content/ru/contact/index.md"
         }
