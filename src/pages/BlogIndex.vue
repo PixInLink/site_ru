@@ -45,10 +45,35 @@ const pageNumbers = computed(() => {
   for (let i = start; i <= end; i++) pages.push(i);
   return pages;
 });
+
+const articleCountLabel = computed(() => {
+  const n = articles.length;
+  const lastDigit = n % 10;
+  const lastTwo = n % 100;
+  if (lastTwo >= 11 && lastTwo <= 14) return `${n} статей`;
+  if (lastDigit === 1) return `${n} статья`;
+  if (lastDigit >= 2 && lastDigit <= 4) return `${n} статьи`;
+  return `${n} статей`;
+});
 </script>
 
 <template>
   <PageBanner :pageTitle="pageTitle" :hideBreadcrumb="true" />
+
+  <div class="space-top-short space-bottom">
+    <div class="container inner-wrap">
+      <div class="row spacing6 align-items-center">
+        <div class="col-md-5 col-sm-12 pa-6">
+          <h1 class="use-text-title use-text-primary mb-3">Блог PixInLink</h1>
+          <p class="use-text-subtitle2">Руководства, сравнения и кейсы по AI-генерации изображений для вебмастеров, блогеров и разработчиков. Всё о том, как создавать уникальные картинки без стоков, дизайнеров и лишнего кода — прямо через URL.</p>
+          <p class="body-1 mt-4" style="color:var(--color-text-muted)">{{ articleCountLabel }}</p>
+        </div>
+        <div class="col-md-7 col-sm-12 pa-6">
+          <div class="responsive-img" style="background-image:url('https://pixinlink.ru/1050x700/много-рисунков-фото-на-столе?style=realistic&seed=700');background-size:cover;background-position:center;border-radius:12px;height:320px;width:100%"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <main class="container-wrap container-pages">
     <div class="container">
