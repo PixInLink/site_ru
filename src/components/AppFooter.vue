@@ -59,6 +59,17 @@ import { t } from "../i18n";
           <p class="body-2 mt-5 text-center hidden-md-up">&copy; {{ new Date().getFullYear() }} {{ siteConfig.name }}</p>
         </div>
       </div>
+      <div class="row mt-4 pt-3" style="border-top:1px solid rgba(0,0,0,0.08)">
+        <div class="col-12">
+          <div class="payment-methods">
+            <span class="payment-label">Принимаем к оплате:</span>
+            <span class="payment-badge" title="МИР">МИР</span>
+            <span class="payment-badge" title="Visa">Visa</span>
+            <span class="payment-badge" title="SberPay">SberPay</span>
+            <a href="https://tbank.ru" target="_blank" rel="noopener" class="payment-badge payment-link" title="T-Pay — платёжный партнёр">T-Pay</a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
@@ -127,5 +138,46 @@ import { t } from "../i18n";
   appearance: auto;
   -webkit-appearance: auto;
   -moz-appearance: auto;
+}
+
+.payment-methods {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.payment-label {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.payment-badge {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.55);
+  display: inline-flex;
+  font-size: 11px;
+  font-weight: 600;
+  height: 24px;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  min-width: 48px;
+  padding: 0 8px;
+  text-transform: uppercase;
+}
+
+.payment-link {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+.payment-link:hover {
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.75);
 }
 </style>

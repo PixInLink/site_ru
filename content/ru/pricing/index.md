@@ -390,8 +390,17 @@ schema_type: "WebPage"
   <div class="row">
     <div class="col-12">
       <div class="card paper pa-4 text-center body-2" style="background: transparent; box-shadow: none; border-top: 1px solid #e0e0e0;">
-        <p class="mb-1 text-muted">Цены действительны с июня 2026. Мы работаем на АУСН, НДС не облагается. Оплата картами Visa, MIR, SberPay, СБП.</p>
-        <p class="mb-0 text-muted">Юридическое лицо: ООО «ФОНИИ» | Безопасность серверов: 152-ФЗ (Yandex Cloud, Selectel).</p>
+        <p class="mb-3 text-muted">Цены действительны с июня 2026. Мы работаем на АУСН, НДС не облагается.</p>
+        <div class="mb-3">
+          <span style="display:inline-flex;align-items:center;gap:8px;font-size:13px;color:rgba(0,0,0,0.55)">
+            Принимаем к оплате:
+            <span style="background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.1);border-radius:4px;padding:2px 10px;font-weight:600;font-size:12px">МИР</span>
+            <span style="background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.1);border-radius:4px;padding:2px 10px;font-weight:600;font-size:12px">Visa</span>
+            <span style="background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.1);border-radius:4px;padding:2px 10px;font-weight:600;font-size:12px">SberPay</span>
+            <a href="https://tbank.ru" target="_blank" rel="noopener" style="background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.1);border-radius:4px;padding:2px 10px;font-weight:600;font-size:12px;color:rgba(0,0,0,0.55);text-decoration:none">T-Pay</a>
+          </span>
+        </div>
+        <p class="mb-0 text-muted">Платёжный партнёр: <a href="https://tbank.ru" target="_blank" rel="noopener">Т-Банк</a> | Юрлицо: ООО «ФОНИИ» | Серверы: 152-ФЗ (Yandex Cloud, Selectel)</p>
       </div>
     </div>
   </div>
