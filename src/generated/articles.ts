@@ -116,7 +116,7 @@ export const articles = [
       ],
       "schema_type": "Article",
       "layout": "article",
-      "cover_image": "https://pixinlink.ru/api/v1/1200x630/webp-cdn-optimizatsiya-pixinlink",
+      "cover_image": "https://pixinlink.ru/787x413/табун-лошадей",
       "image": "",
       "section": "",
       "geo": []
