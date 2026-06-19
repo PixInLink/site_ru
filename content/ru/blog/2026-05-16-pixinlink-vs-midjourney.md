@@ -25,7 +25,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
     <tr><td>Изображения в ChatGPT/Copilot</td><td><strong>DALL-E</strong></td><td>Нативная интеграция с OpenAI</td></tr>
     <tr><td>img src для сайта, og:image</td><td><strong>PixInLink</strong></td><td>URL API, CDN-кеш, &lt;img src=""&gt;</td></tr>
     <tr><td>WordPress-автоматизация</td><td><strong>PixInLink</strong></td><td>Официальный плагин, шорткод, PHP SDK</td></tr>
-    <tr><td>Массовая генерация (1000+)</td><td><strong>PixInLink</strong></td><td>0.40–0.98 ₽ за шт., URL-шаблоны</td></tr>
+    <tr><td>Массовая генерация (1000+)</td><td><strong>PixInLink</strong></td><td>5.00–6.00 ₽ за шт., URL-шаблоны</td></tr>
     <tr><td>1–2 изображения вручную</td><td><strong>DALL-E</strong></td><td>Не нужна подписка, ChatGPT Free</td></tr>
   </tbody>
 </table>
@@ -35,8 +35,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
 <div class="row spacing4">
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid #2196F3">
-    <h6 class="use-text-subtitle mb-1">0.98 ₽ за шт.</h6>
-    <p class="use-text-paragraph mb-0 small">PixInLink Starter: 500 изображений за 490 ₽/мес. Midjourney: ~4.60 ₽/шт. DALL-E API: 1.8–3.6 ₽/шт.</p>
+    <h6 class="use-text-subtitle mb-1">6.00 ₽ за шт.</h6>
+    <p class="use-text-paragraph mb-0 small">PixInLink Starter: 50 изображений за 300 ₽/мес. Midjourney: ~4.60 ₽/шт. DALL-E API: 1.8–3.6 ₽/шт.</p>
   </div>
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
@@ -68,8 +68,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid #2196F3">
-    <h6 class="use-text-subtitle mb-1">50 бесплатно</h6>
-    <p class="use-text-paragraph mb-0 small">PixInLink: 50 генераций без регистрации. Midjourney: бесплатного плана нет. DALL-E: ограниченно.</p>
+    <h6 class="use-text-subtitle mb-1">12 бесплатно</h6>
+    <p class="use-text-paragraph mb-0 small">PixInLink: 12 генераций без регистрации. Midjourney: бесплатного плана нет. DALL-E: ограниченно.</p>
   </div>
 </div>
 </div>
@@ -112,12 +112,12 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
     <tr><td><strong>CDN-кеш</strong></td><td>✅ 365 дней, immutable</td><td>❌ Нет</td><td>❌ Нет (истекает)</td></tr>
     <tr><td><strong>WordPress-плагин</strong></td><td>✅ Официальный</td><td>❌ Нет</td><td>⚠️ Сторонние</td></tr>
     <tr><td><strong>og:image автоматизация</strong></td><td>✅ Нативно</td><td>⚠️ Вручную</td><td>⚠️ Через backend</td></tr>
-    <tr><td><strong>Цена (базовый план)</strong></td><td>490 ₽/мес (500 шт.)</td><td>$10/мес (~920 ₽)</td><td>$20/мес ChatGPT Plus</td></tr>
-    <tr><td><strong>Цена за 1 изображение</strong></td><td><strong>0.98 ₽</strong></td><td>~4.60 ₽</td><td>1.8–3.6 ₽ (API)</td></tr>
+    <tr><td><strong>Цена (базовый план)</strong></td><td>300 ₽/мес (50 шт.)</td><td>$10/мес (~920 ₽)</td><td>$20/мес ChatGPT Plus</td></tr>
+    <tr><td><strong>Цена за 1 изображение</strong></td><td><strong>6.00 ₽</strong></td><td>~4.60 ₽</td><td>1.8–3.6 ₽ (API)</td></tr>
     <tr><td><strong>Художественное качество</strong></td><td>⭐⭐⭐⭐</td><td><strong>⭐⭐⭐⭐⭐</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
     <tr><td><strong>Русский язык промптов</strong></td><td>✅ Нативно (Kandinsky)</td><td>⚠️ Только EN</td><td>⚠️ Лучше EN</td></tr>
     <tr><td><strong>152-ФЗ / серверы РФ</strong></td><td>✅ Яндекс.Облако</td><td>❌ США</td><td>❌ США</td></tr>
-    <tr><td><strong>Бесплатный план</strong></td><td>✅ 50 генераций</td><td>❌ Нет</td><td>⚠️ ChatGPT Free</td></tr>
+    <tr><td><strong>Бесплатный план</strong></td><td>✅ 12 генераций</td><td>❌ Нет</td><td>⚠️ ChatGPT Free</td></tr>
     <tr><td><strong>Формат вывода</strong></td><td>WebP, AVIF, PNG</td><td>PNG, JPG</td><td>PNG, URL</td></tr>
   </tbody>
 </table>
@@ -168,7 +168,7 @@ with open("image.png", "wb") as f:
     <tr><th>Сервис</th><th>Тариф</th><th>Цена за 80 шт.</th><th>Цена за шт.</th><th>Автоматизация</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>PixInLink</strong></td><td>Starter 490 ₽/мес</td><td><strong>78 ₽</strong></td><td>0.98 ₽</td><td>✅ URL-шаблоны</td></tr>
+    <tr><td><strong>PixInLink</strong></td><td>Pro 2 500 ₽/мес</td><td><strong>2 500 ₽</strong></td><td>5.00 ₽</td><td>✅ URL-шаблоны</td></tr>
     <tr><td>DALL-E API</td><td>Pay-per-use</td><td>~288 ₽</td><td>3.6 ₽</td><td>⚠️ Нужен код</td></tr>
     <tr><td>Midjourney</td><td>$10/мес</td><td>~368 ₽</td><td>4.6 ₽</td><td>❌ Ручной</td></tr>
     <tr><td>Shutterstock</td><td>$29/10 фото</td><td>~21 360 ₽</td><td>267 ₽</td><td>❌ Ручной</td></tr>
@@ -190,13 +190,13 @@ with open("image.png", "wb") as f:
 <p>Midjourney — лучшее художественное качество. DALL-E — лучшее качество текста на картинках. PixInLink — хорошее качество, оптимизированное под веб (WebP, CDN, скорость).</p>
 
 <h3 class="use-text-subtitle">Можно ли использовать PixInLink бесплатно?</h3>
-<p>Да. 50 генераций без регистрации, без привязки карты. Изображения будут с водяным знаком. Тариф Starter (490 ₽/мес) убирает знак и даёт 500 генераций.</p>
+<p>Да. 12 генераций без регистрации, без привязки карты. Тариф Starter (300 ₽/мес) убирает знак и даёт 50 генераций.</p>
 <!-- @block: key-facts -->
 **PixInLink = инфраструктурный URL API для сайта. Midjourney = художественная студия. DALL-E = productivity-инструмент.** Для вебмастера, которому нужны изображения в img src без бэкенда — PixInLink. Для художника, создающего арт вручную — Midjourney. Для пользователя ChatGPT — DALL-E.
 <!-- @block: cta -->
 <h2 class="use-text-title2">Попробуйте все три и сравните сами</h2>
 
-<p>PixInLink — 50 генераций бесплатно. Откройте URL в браузере:</p>
+<p>PixInLink — 12 генераций бесплатно. Откройте URL в браузере:</p>
 
 <pre><code>https://pixinlink.ru/800x400/офис-разработчиков</code></pre>
 

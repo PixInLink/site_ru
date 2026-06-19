@@ -1,6 +1,6 @@
 ---
 title: "Как убрать водяной знак PixInLink: привязка домена за 5 минут"
-description: "Пошаговая инструкция: отключение водяного знака на AI-изображениях через привязку домена в личном кабинете. Без кода, без плагинов, без изменения URL. Starter от 490 ₽/мес."
+description: "Пошаговая инструкция: отключение водяного знака на AI-изображениях через привязку домена в личном кабинете. Без кода, без плагинов, без изменения URL. Starter от 300 ₽/мес."
 slug: "kak-ubrat-vodyanoj-znak"
 date: "2026-06-16"
 author: "PixInLink"
@@ -12,7 +12,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
 ---
 <main class="container-wrap">
 
-<p>50 бесплатных генераций даются с водяным знаком — это честный freemium. Когда вы решаете использовать PixInLink на своём сайте, подключаете тариф Starter (490 ₽/мес), привязываете домен в личном кабинете — и водяной знак исчезает автоматически для всего сайта. Без изменения URL, без правки HTML, без перегенерации старых изображений. 5 минут на настройку, мгновенный результат.</p>
+<p>12 бесплатных генераций — это честный freemium. Когда вы решаете использовать PixInLink на своём сайте, подключаете тариф Starter (300 ₽/мес), привязываете домен в личном кабинете — и водяной знак исчезает автоматически для всего сайта. Без изменения URL, без правки HTML, без перегенерации старых изображений. 5 минут на настройку, мгновенный результат.</p>
 
 <h2 class="use-text-title2">Ключевые факты</h2>
 
@@ -51,8 +51,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
   </div>
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
-  <h6 class="use-text-subtitle mb-1">490 ₽/мес</h6>
-    <p class="use-text-paragraph mb-0 small">Starter: 500 изображений без водяного знака. 0.98 ₽ за шт. Против 290 ₽ за стоковое фото.</p>
+  <h6 class="use-text-subtitle mb-1">300 ₽/мес</h6>
+    <p class="use-text-paragraph mb-0 small">Starter: 50 изображений без водяного знака. 6.00 ₽ за шт. Против 290 ₽ за стоковое фото.</p>
   </div>
 </div>
 
@@ -64,7 +64,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
   <div class="card paper pa-3" style="text-align:center">
     <div style="font-size:32px;font-weight:700;color:var(--color-accent);margin-bottom:8px">1</div>
     <h6 class="use-text-subtitle mb-1">Регистрация</h6>
-    <p class="use-text-paragraph mb-0 small">Перейдите на <a href="https://app.pixinlink.ru/register">app.pixinlink.ru/register</a>, создайте аккаунт и подключите тариф Starter — 490 ₽/мес, 500 изображений.</p>
+    <p class="use-text-paragraph mb-0 small">Перейдите на <a href="https://app.pixinlink.ru/register">app.pixinlink.ru/register</a>, создайте аккаунт и подключите тариф Starter — 300 ₽/мес, 50 изображений.</p>
   </div>
 </div>
 
@@ -105,10 +105,10 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
     <tr><th>Тариф</th><th>Генераций/мес</th><th>Доменов</th><th>Водяной знак</th><th>Цена</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Free</strong></td><td>50</td><td>0</td><td>✅ Есть</td><td>0 ₽</td></tr>
-    <tr><td><strong>Starter</strong></td><td>500</td><td>до 3</td><td>❌ Нет</td><td>490 ₽/мес</td></tr>
-    <tr><td><strong>Pro</strong></td><td>5 000</td><td>до 10</td><td>❌ Нет</td><td>1 990 ₽/мес</td></tr>
-    <tr><td><strong>Business</strong></td><td>20 000</td><td>до 50</td><td>❌ Нет</td><td>4 990 ₽/мес</td></tr>
+    <tr><td><strong>Free</strong></td><td>12</td><td>0</td><td>—</td><td>0 ₽</td></tr>
+    <tr><td><strong>Starter</strong></td><td>50</td><td>до 3</td><td>—</td><td>300 ₽/мес</td></tr>
+    <tr><td><strong>Pro</strong></td><td>500</td><td>до 10</td><td>—</td><td>2 500 ₽/мес</td></tr>
+    <tr><td><strong>Business</strong></td><td>1 000</td><td>до 50</td><td>Кастомный</td><td>4 500 ₽/мес</td></tr>
   </tbody>
 </table>
 
@@ -133,7 +133,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/kak-ubrat-vodyanoj-znak-pixin
 <!-- @block: cta -->
 <h2 class="use-text-title2">Отключите водяной знак за 5 минут</h2>
 
-<p>3 шага: регистрация → привязка домена → готово. Первые 50 генераций — бесплатно.</p>
+<p>3 шага: регистрация → привязка домена → готово. Первые 12 генераций — бесплатно.</p>
 
 <a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">Зарегистрироваться и подключить Starter</a>
 

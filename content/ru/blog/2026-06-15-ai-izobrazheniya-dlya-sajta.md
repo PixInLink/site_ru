@@ -40,8 +40,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-dlya-sajta-r
 <div class="row spacing4" style="margin-top:0">
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
-    <h6 class="use-text-subtitle mb-1">50 бесплатно</h6>
-    <p class="use-text-paragraph mb-0 small">Без регистрации, без привязки карты. Просто вставляйте URL в img src. Для коммерции — Starter от 490 ₽/мес.</p>
+    <h6 class="use-text-subtitle mb-1">12 бесплатно</h6>
+    <p class="use-text-paragraph mb-0 small">Без регистрации, без привязки карты. Просто вставляйте URL в img src. Для коммерции — Starter от 300 ₽/мес.</p>
   </div>
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
@@ -104,7 +104,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-dlya-sajta-r
      alt="Современный офис"
      loading="lazy"&gt;</code></pre>
 
-<p>Работает на WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — везде, где есть HTML. Без плагинов, без кода, без регистрации для первых 50 генераций.</p>
+<p>Работает на WordPress, Tilda, Webflow, MODX, Hugo, Jekyll, Ghost — везде, где есть HTML. Без плагинов, без кода, без регистрации для первых 12 генераций.</p>
 
 <h3 class="use-text-subtitle">2. WordPress-плагин</h3>
 
@@ -157,7 +157,7 @@ composer require pixinlink/php-sdk</code></pre>
 <h2 class="use-text-title2">FAQ: короткие ответы</h2>
 
 <h3 class="use-text-subtitle">Обязательно ли регистрироваться?</h3>
-<p>Нет. 50 генераций доступны без регистрации. Регистрация нужна для увеличения лимита, привязки домена и отключения водяного знака.</p>
+<p>Нет. 12 генераций доступны без регистрации. Регистрация нужна для увеличения лимита, привязки домена и отключения водяного знака.</p>
 
 <h3 class="use-text-subtitle">Что будет при высокой посещаемости (10 000+ в день)?</h3>
 <p>Первый посетитель инициирует генерацию (10–30 сек). Все последующие получают изображение из CDN-кеша мгновенно. Нагрузка на ваш сервер — ноль. CDN раздаёт по всему миру.</p>
