@@ -68,8 +68,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid #2196F3">
-    <h6 class="use-text-subtitle mb-1">12 бесплатно</h6>
-    <p class="use-text-paragraph mb-0 small">PixInLink: 12 генераций без регистрации. Midjourney: бесплатного плана нет. DALL-E: ограниченно.</p>
+    <h6 class="use-text-subtitle mb-1">30 бесплатно</h6>
+    <p class="use-text-paragraph mb-0 small">PixInLink: 30 генераций без регистрации. Midjourney: бесплатного плана нет. DALL-E: ограниченно.</p>
   </div>
 </div>
 </div>
@@ -117,7 +117,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/pixinlink-vs-midjourney-dalle
     <tr><td><strong>Художественное качество</strong></td><td>⭐⭐⭐⭐</td><td><strong>⭐⭐⭐⭐⭐</strong></td><td>⭐⭐⭐⭐⭐</td></tr>
     <tr><td><strong>Русский язык промптов</strong></td><td>✅ Нативно (Kandinsky)</td><td>⚠️ Только EN</td><td>⚠️ Лучше EN</td></tr>
     <tr><td><strong>152-ФЗ / серверы РФ</strong></td><td>✅ Яндекс.Облако</td><td>❌ США</td><td>❌ США</td></tr>
-    <tr><td><strong>Бесплатный план</strong></td><td>✅ 12 генераций</td><td>❌ Нет</td><td>⚠️ ChatGPT Free</td></tr>
+    <tr><td><strong>Бесплатный план</strong></td><td>✅ 30 генераций</td><td>❌ Нет</td><td>⚠️ ChatGPT Free</td></tr>
     <tr><td><strong>Формат вывода</strong></td><td>WebP, AVIF, PNG</td><td>PNG, JPG</td><td>PNG, URL</td></tr>
   </tbody>
 </table>
@@ -190,16 +190,16 @@ with open("image.png", "wb") as f:
 <p>Midjourney — лучшее художественное качество. DALL-E — лучшее качество текста на картинках. PixInLink — хорошее качество, оптимизированное под веб (WebP, CDN, скорость).</p>
 
 <h3 class="use-text-subtitle">Можно ли использовать PixInLink бесплатно?</h3>
-<p>Да. 12 генераций без регистрации, без привязки карты. Тариф Starter (300 ₽/мес) убирает знак и даёт 50 генераций.</p>
+<p>Да. 30 генераций без регистрации, без привязки карты. Тариф Starter (300 ₽/мес) убирает знак и даёт 50 генераций.</p>
 <!-- @block: key-facts -->
 **PixInLink = инфраструктурный URL API для сайта. Midjourney = художественная студия. DALL-E = productivity-инструмент.** Для вебмастера, которому нужны изображения в img src без бэкенда — PixInLink. Для художника, создающего арт вручную — Midjourney. Для пользователя ChatGPT — DALL-E.
 <!-- @block: cta -->
 <h2 class="use-text-title2">Попробуйте все три и сравните сами</h2>
 
-<p>PixInLink — 12 генераций бесплатно. Откройте URL в браузере:</p>
+<p>PixInLink — 30 генераций бесплатно. Откройте URL в браузере:</p>
 
 <pre><code>https://pixinlink.ru/800x400/офис-разработчиков</code></pre>
 
-<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">30 изображений бесплатно</a>
 
 </main>

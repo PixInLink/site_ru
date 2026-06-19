@@ -150,6 +150,6 @@ const url = `https://pixinlink.ru/1200x630/промпт?seed=${seed}`;</code></p
 
 <pre><code>https://pixinlink.ru/800x400/ваш-промпт?seed=42</code></pre>
 
-<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">30 изображений бесплатно</a>
 
 </main>

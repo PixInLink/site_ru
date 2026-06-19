@@ -46,7 +46,7 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/школьная-доска-�
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid #4CAF50">
-    <h6 class="use-text-subtitle mb-1" style="color:#4CAF50">12 бесплатно</h6>
+    <h6 class="use-text-subtitle mb-1" style="color:#4CAF50">30 бесплатно</h6>
     <p class="use-text-paragraph mb-0 small">Free-тариф: 12 изображений без водяного знака, без карты. Для старта и тестирования.</p>
   </div>
 </div>
@@ -250,6 +250,6 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/школьная-доска-�
 <p>Сколько изображений в месяц нужно вашему сайту? Умножьте на 290 ₽ (Shutterstock) и сравните с тарифами PixInLink. 12 изображений — бесплатно навсегда.</p>
 
 <a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://pixinlink.ru/pricing/">Посмотреть тарифы</a>
-<a class="btn waves-effect button btn-large" style="background:#e3f2fd;color:#1976d2;margin-left:12px" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
+<a class="btn waves-effect button btn-large" style="background:#e3f2fd;color:#1976d2;margin-left:12px" href="https://app.pixinlink.ru/register">30 изображений бесплатно</a>
 
 </main>

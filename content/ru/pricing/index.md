@@ -1,6 +1,6 @@
 ---
 title: "Тарифы PixInLink — выберите план под ваши задачи"
-description: "Тарифы PixInLink: от бесплатных 12 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц."
+description: "Тарифы PixInLink: от бесплатных 30 генераций до Enterprise с персональным водяным знаком. Цены от 300 ₽ до 9 990 ₽ в месяц."
 slug: "pricing"
 date: "2026-05-21"
 author: "PixInLink"
@@ -20,7 +20,7 @@ schema_type: "WebPage"
               <div class="responsive-img waves-effect white--text align-end" style="background-image: url(https://pixinlink.ru/1050x700/фото-офис-polaroid-15-штук)"></div>
               <div class="card-title pa-8" style="text-align:center">
                 <h1 class="use-text-title2" style="text-align:center">Тарифы и планы на генерацию изображений</h1>
-                <p class="use-text-subtitle2" style="text-align:center;margin-top:12px">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 12 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
+                <p class="use-text-subtitle2" style="text-align:center;margin-top:12px">Начните генерировать уникальные изображения прямо сейчас. Зарегистрируйтесь и получите 30 бесплатных изображений без водяного знака — без привязки карты. Для растущих задач — тарифы от 300 ₽/мес.</p>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ schema_type: "WebPage"
                 </div>
               </div>
               <ul>
-                <li>12 изображений</li>
+                <li>30 изображений</li>
                 <li>Без водяного знака</li>
                 <li>WebP-оптимизация</li>
                 <li>Email-поддержка</li>
@@ -168,7 +168,7 @@ schema_type: "WebPage"
           </tr>
           <tr>
             <td><strong>Изображений в месяц</strong></td>
-            <td>12</td>
+            <td>30</td>
             <td>50</td>
             <td>500</td>
             <td>1 000</td>

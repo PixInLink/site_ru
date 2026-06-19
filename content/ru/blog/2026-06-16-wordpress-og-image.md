@@ -52,8 +52,8 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/wordpress-og-image-url-pixinl
 </div>
 <div class="col-md-4 col-sm-12 pa-2">
   <div class="card paper pa-3" style="border-left:4px solid var(--color-accent)">
-    <h6 class="use-text-subtitle mb-1">12 бесплатно</h6>
-    <p class="use-text-paragraph mb-0 small">12 генераций og:image без регистрации. Для регулярного использования — Starter 300 ₽/мес.</p>
+    <h6 class="use-text-subtitle mb-1">30 бесплатно</h6>
+    <p class="use-text-paragraph mb-0 small">30 генераций og:image без регистрации. Для регулярного использования — Starter 300 ₽/мес.</p>
   </div>
 </div>
 </div>
@@ -123,10 +123,10 @@ function pixinlink_og_image() {
 <!-- @block: key-facts -->
 **Настройте og:image в WordPress за 5 минут.** Плагин в один клик, 5 строк в functions.php или шорткод — три способа, ноль сложностей. Каждая запись автоматически получает уникальную обложку 1200×630.
 <!-- @block: cta -->
-<h2 class="use-text-title2">Начните с бесплатных 12 генераций</h2>
+<h2 class="use-text-title2">Начните с бесплатных 30 генераций</h2>
 
 <p>Установите плагин или скопируйте код в functions.php. Первая обложка появится через 30 секунд.</p>
 
-<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">30 изображений бесплатно</a>
 
 </main>
