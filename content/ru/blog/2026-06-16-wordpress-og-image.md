@@ -127,6 +127,6 @@ function pixinlink_og_image() {
 
 <p>Установите плагин или скопируйте код в functions.php. Первая обложка появится через 30 секунд.</p>
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
 
 </main>

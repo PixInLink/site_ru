@@ -182,6 +182,6 @@ composer require pixinlink/php-sdk</code></pre>
 
 <pre><code>https://pixinlink.ru/800x400/офис-разработчиков-смотрит-в-монитор</code></pre>
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
 
 </main>

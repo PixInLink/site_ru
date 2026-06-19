@@ -315,6 +315,6 @@ https://pixinlink.ru/800x400/ночной-город?style=cyberpunk&bg=0d0d0d&f
 https://pixinlink.ru/800x400/ваш-промпт-здесь?style=realistic
 ```
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
 
 </main>

@@ -134,6 +134,6 @@ cover_image: "https://pixinlink.ru/api/v1/1200x630/ai-izobrazheniya-seo-optimiza
 
 <pre><code>https://pixinlink.ru/800x400/ваш-промпт</code></pre>
 
-<a class="btn waves-effect button btn-large primary" href="https://app.pixinlink.ru/register">50 генераций бесплатно</a>
+<a class="btn waves-effect button btn-large primary" style="color:#fff" href="https://app.pixinlink.ru/register">12 изображений бесплатно</a>
 
 </main>
