@@ -69,7 +69,7 @@ const articleCountLabel = computed(() => {
           <p class="body-1 mt-4" style="color:var(--color-text-muted)">{{ articleCountLabel }}</p>
         </div>
         <div class="col-md-7 col-sm-12 pa-6">
-          <div class="responsive-img" style="background-image:url('https://pixinlink.ru/1050x700/много-рисунков-фото-на-столе?style=realistic&seed=700');background-size:cover;background-position:center;border-radius:12px;height:320px;width:100%"></div>
+          <div class="responsive-img" style="background-image:url('https://pixinlink.ru/1050x700/много-фото-на-столе?style=realistic&seed=700');background-size:cover;background-position:center;border-radius:12px;height:320px;width:100%"></div>
         </div>
       </div>
     </div>
